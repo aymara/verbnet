@@ -3,10 +3,12 @@
 <VNCLASS ID="change_bodily_state-40.8.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--verb add a manner predicate-->
-        <MEMBER name="blanch" wn="blanch%2:29:00"/>
-        <MEMBER name="faint" wn="faint%2:29:00"/>
-        <MEMBER name="sicken" wn="sicken%2:29:00"/>
-        <MEMBER name="swoon" wn="swoon%2:29:00"/>
+        <MEMBER name="blanch" wn="blanch%2:29:00" grouping=""/>
+        <MEMBER name="blench" wn="" grouping=""/>
+        <MEMBER name="faint" wn="faint%2:29:00" grouping=""/>
+        <MEMBER name="pale" wn="" grouping=""/>
+        <MEMBER name="sicken" wn="sicken%2:29:00" grouping="sicken.01"/>
+        <MEMBER name="swoon" wn="swoon%2:29:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -20,7 +22,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>Sharon fainted.</EXAMPLE>
             </EXAMPLES>
@@ -46,7 +48,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Cause-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.cause" secondary="PPCause-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Sharon fainted from hunger.</EXAMPLE>
                 <EXAMPLE>Sharon fainted at the sight of the accident.</EXAMPLE>

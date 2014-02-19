@@ -2,15 +2,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="overstate-37.12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="overstate" wn=""/>
-        <MEMBER name="overdraw" wn=""/>
-        <MEMBER name="hyperbolize" wn=""/>
-        <MEMBER name="magnify" wn=""/>
-        <MEMBER name="amplify" wn=""/>
-        <MEMBER name="overemphasize" wn=""/>
-        <MEMBER name="overstress" wn=""/>
-        <MEMBER name="tout" wn=""/>
-        <MEMBER name="glorify" wn=""/>
+        <MEMBER name="overstate" wn="overstate%2:32:00" grouping="overstate.01"/>
+        <MEMBER name="overdraw" wn="overdraw%2:32:00" grouping=""/>
+        <MEMBER name="hyperbolize" wn="hyperbolize%2:32:00" grouping=""/>
+        <MEMBER name="magnify" wn="magnify%2:32:00" grouping="magnify.01"/>
+        <MEMBER name="amplify" wn="amplify%2:32:00" grouping="amplify.01"/>
+        <MEMBER name="overemphasize" wn="overemphasize%2:32:00" grouping=""/>
+        <MEMBER name="overstress" wn="overstress%2:32:00" grouping=""/>
+        <MEMBER name="tout" wn="tout%2:32:00" grouping="tout.01"/>
+        <MEMBER name="glorify" wn="glorify%2:32:00" grouping="glorify.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -25,7 +25,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He overstated the position.</EXAMPLE>
             </EXAMPLES>

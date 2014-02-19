@@ -2,8 +2,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="seem-109" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="seem" wn=""/>
-        <MEMBER name="appear" wn=""/>
+        <MEMBER name="seem" wn="seem%2:39:00 seem%2:39:01" grouping="seem.01"/>
+        <MEMBER name="appear" wn="appear%2:39:01 appear%2:39:00" grouping="appear.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -15,7 +15,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="ADJP-PRED-RS" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V ADJ" secondary="ADJP-PRED-RS" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He appeared crazy.</EXAMPLE>
             </EXAMPLES>
@@ -37,7 +37,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="ADVP-PRED-RS" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V ADV" secondary="ADVP-PRED-RS" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He seemed well.</EXAMPLE>
             </EXAMPLES>
@@ -59,7 +59,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PRED-RS" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="NP-PRED-RS" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He seemed a fool.</EXAMPLE>                                                              
             </EXAMPLES>
@@ -85,7 +85,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-PRED-RS" secondary="in-PP" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.predicate" secondary="PP-PRED-RSin-PP" xtag="0.2"/>                    
             <EXAMPLES>
                 <EXAMPLE>The matter seems in dispute.</EXAMPLE>
             </EXAMPLES>
@@ -114,7 +114,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-RS" secondary="" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-RS" xtag="0.2"/>                    
             <EXAMPLES>
                 <EXAMPLE>He seemed to come.</EXAMPLE>
             </EXAMPLES>

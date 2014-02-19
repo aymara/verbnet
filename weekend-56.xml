@@ -2,15 +2,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="weekend-56" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="December" wn=""/>
-        <MEMBER name="holiday" wn="holiday%2:42:00"/>
-        <MEMBER name="honeymoon" wn="honeymoon%2:42:00"/>
-        <MEMBER name="overnight" wn=""/>
-        <MEMBER name="sojourn" wn="sojourn%2:42:00"/>
-        <MEMBER name="summer" wn="summer%2:42:00"/>
-        <MEMBER name="vacation" wn="vacation%2:42:00"/>
-        <MEMBER name="weekend" wn="weekend%2:42:00"/>
-        <MEMBER name="winter" wn="winter%2:42:00"/>
+        <MEMBER name="December" wn="" grouping=""/>
+        <MEMBER name="holiday" wn="holiday%2:42:00" grouping=""/>
+        <MEMBER name="honeymoon" wn="honeymoon%2:42:00" grouping=""/>
+        <MEMBER name="overnight" wn="" grouping=""/>
+        <MEMBER name="sojourn" wn="sojourn%2:42:00" grouping=""/>
+        <MEMBER name="summer" wn="summer%2:42:00" grouping=""/>
+        <MEMBER name="vacation" wn="vacation%2:42:00" grouping=""/>
+        <MEMBER name="weekend" wn="weekend%2:42:00" grouping=""/>
+        <MEMBER name="winter" wn="winter%2:42:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -26,7 +26,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PPLocation-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>My family always summered at the seashore.</EXAMPLE>
             </EXAMPLES>

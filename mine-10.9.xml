@@ -2,8 +2,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="mine-10.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="mine" wn="mine%2:34:00"/>
-        <MEMBER name="quarry" wn="quarry%2:34:00"/>
+        <MEMBER name="mine" wn="mine%2:34:00" grouping="mine.01"/>
+        <MEMBER name="quarry" wn="quarry%2:34:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -25,7 +25,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The men mined the gold.</EXAMPLE>
             </EXAMPLES>
@@ -62,7 +62,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="PP" secondary="source-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="PPsource-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The men mined the gold from the abandoned mine.</EXAMPLE>
             </EXAMPLES>

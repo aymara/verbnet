@@ -2,12 +2,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="suffocate-40.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="asphyxiate" wn="asphyxiate%2:35:00 asphyxiate%2:35:01"/>
-        <MEMBER name="choke" wn="choke%2:29:00 choke%2:35:00 choke%2:35:02 choke%2:29:04 choke%2:29:03 choke%2:35:03 choke%2:29:01"/>
-        <MEMBER name="drown" wn="drown%2:30:00 drown%2:30:01"/>
-        <MEMBER name="starve" wn=""/>
-        <MEMBER name="stifle" wn="stifle%2:35:00"/>
-        <MEMBER name="suffocate" wn="suffocate%2:35:00 suffocate%2:35:01 suffocate%2:30:02 suffocate%2:29:01"/>
+        <MEMBER name="asphyxiate" wn="asphyxiate%2:35:00 asphyxiate%2:35:01" grouping=""/>
+        <MEMBER name="choke" wn="choke%2:29:00 choke%2:35:00 choke%2:35:02 choke%2:29:04 choke%2:29:03 choke%2:35:03 choke%2:29:01" grouping="choke.01 choke.02"/>
+        <MEMBER name="drown" wn="drown%2:30:00 drown%2:30:01" grouping="drown.01"/>
+        <MEMBER name="starve" wn="" grouping=""/>
+        <MEMBER name="stifle" wn="stifle%2:35:00" grouping="stifle.01"/>
+        <MEMBER name="suffocate" wn="suffocate%2:35:00 suffocate%2:35:01 suffocate%2:30:02 suffocate%2:29:01" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -23,7 +23,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive" secondary="Causative variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.theme" secondary="TransitiveCausative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The pirates drowned the sailor.</EXAMPLE>
             </EXAMPLES>
@@ -52,7 +52,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Intransitive" secondary="Inchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP.theme V" secondary="IntransitiveInchoative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The sailor drowned.</EXAMPLE>
             </EXAMPLES>
@@ -72,7 +72,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="PP" secondary="Result-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V PP.oblique" secondary="PPResult-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He choked/suffocated to death.</EXAMPLE>
             </EXAMPLES>
@@ -106,7 +106,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The pirate choked the sailor to death.</EXAMPLE>
             </EXAMPLES>

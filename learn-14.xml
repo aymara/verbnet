@@ -17,7 +17,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PPSource-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Rhoda learned French from an old book.</EXAMPLE>
             </EXAMPLES>
@@ -54,7 +54,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Source-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.source" secondary="PPSource-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Rhoda learned from an old book.</EXAMPLE>
             </EXAMPLES>
@@ -88,7 +88,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Kissinger learned his lesson.</EXAMPLE>
             </EXAMPLES>
@@ -116,15 +116,15 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="learn-14-1">
             <MEMBERS>
-                <MEMBER name="cram" wn="cram%2:31:00 cram%2:30:00"/>
-                <MEMBER name="read" wn="read%2:31:00 read%2:31:04"/>
-                <MEMBER name="study" wn="study%2:31:02 study%2:31:00 study%2:31:01"/>
-                <MEMBER name="learn" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03"/>
+                <MEMBER name="cram" wn="cram%2:31:00 cram%2:30:00" grouping="cram.02"/>
+                <MEMBER name="read" wn="read%2:31:00 read%2:31:04" grouping="read.01"/>
+                <MEMBER name="study" wn="study%2:31:02 study%2:31:00 study%2:31:01" grouping="study.01 study.02"/>
+                <MEMBER name="learn" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03" grouping="learn.01 learn.02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Basic Intransitive" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Basic Intransitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>She studied.</EXAMPLE>
                     </EXAMPLES>
@@ -150,13 +150,13 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="learn-14-2">
             <MEMBERS>
-                <MEMBER name="glean" wn=""/>
-                <MEMBER name="memorize" wn="memorize%2:31:00"/>
+                <MEMBER name="glean" wn="" grouping=""/>
+                <MEMBER name="memorize" wn="memorize%2:31:00" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="S" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V that S" secondary="S" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The defense also learned that college-educated people were uncharacteristically conservative.</EXAMPLE>
                     </EXAMPLES>
@@ -186,14 +186,14 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="learn-14-2-1">
                     <MEMBERS>
-                        <MEMBER name="assimilate" wn="assimilate%2:31:00"/>
-                        <MEMBER name="learn" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03"/>
-                        <MEMBER name="read" wn="read%2:31:00 read%2:31:04"/>
+                        <MEMBER name="assimilate" wn="assimilate%2:31:00" grouping="assimilate.02"/>
+                        <MEMBER name="learn" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03" grouping="learn.01 learn.02"/>
+                        <MEMBER name="read" wn="read%2:31:00 read%2:31:04" grouping="read.01"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="PP" secondary="of-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="" primary="NP V PP.topic" secondary="PPof-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>The president learned of a coup plot that might endanger his life.</EXAMPLE>
                             </EXAMPLES>

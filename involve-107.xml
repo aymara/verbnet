@@ -2,10 +2,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="involve-107" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="involve" wn=""/>
-        <MEMBER name="engage" wn=""/>
-        <MEMBER name="relate" wn=""/>
-        <MEMBER name="include" wn=""/>
+        <MEMBER name="involve" wn="involve%2:42:04" grouping="involve.01"/>
+        <MEMBER name="engage" wn="engage%2:40:01" grouping="engage.02"/>
+        <MEMBER name="relate" wn="" grouping=""/>
+        <MEMBER name="include" wn="include%2:41:03 include%2:30:00" grouping="include.01 include.02"/>
+        <MEMBER name="enroll" wn="enroll%2:41:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -26,7 +27,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They thoughtlessly involved me.</EXAMPLE>
             </EXAMPLES>
@@ -51,7 +52,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="in-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.destination" secondary="NP-PPin-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They thoughtlessly involved me in their affairs.</EXAMPLE>
             </EXAMPLES>

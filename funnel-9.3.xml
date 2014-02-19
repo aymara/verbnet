@@ -3,11 +3,11 @@
 <VNCLASS ID="funnel-9.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Some members add a predicate specifying instrument-->
-        <MEMBER name="ladle" wn="ladle%2:35:01"/>
-        <MEMBER name="hoe" wn=""/>
+        <MEMBER name="ladle" wn="ladle%2:35:01" grouping=""/>
+        <MEMBER name="hoe" wn="hoe%2:36:00" grouping=""/>
         <MEMBER name="scoop" wn="scoop%2:35:01" grouping="scoop.01"/>
         <MEMBER name="siphon" wn="siphon%2:35:00" grouping="siphon.01"/>
-        <MEMBER name="sop" wn="sop%2:35:00"/>
+        <MEMBER name="sop" wn="sop%2:35:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <!--Destination can also be realized as here, there-->
@@ -31,7 +31,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PPlocative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I funneled the mixture into the bottle.</EXAMPLE>
             </EXAMPLES>
@@ -82,7 +82,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-ADVP-PRED" secondary="here/there" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADVP" secondary="NP-ADVP-PREDhere/there" xtag=""/>
             <!-- discourse has to provide specific Destination and configuration (Prep) of Theme wrt Destination-->
             <EXAMPLES>
                 <EXAMPLE>I spooned the sauce there.</EXAMPLE>
@@ -134,12 +134,12 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="funnel-9.3-1">
             <MEMBERS>
-                <MEMBER name="dip" wn="dip%2:35:00 dip%2:34:00" grouping="dip.04"/>
+                <MEMBER name="dip" wn="dip%2:35:00 dip%2:34:00" grouping="dip.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="in-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.destination" secondary="NP-PPin-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>We dipped the vegetables in the water.</EXAMPLE>
                     </EXAMPLES>
@@ -188,7 +188,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Oblique-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.oblique" secondary="NP-PPOblique-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>We dipped the dog for parasites.</EXAMPLE>
                     </EXAMPLES>
@@ -242,22 +242,22 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="funnel-9.3-2">
             <MEMBERS>
-                <MEMBER name="channel" wn="channel%2:38:01 channel%2:38:00 channel%2:35:00"/>
+                <MEMBER name="channel" wn="channel%2:38:01 channel%2:38:00 channel%2:35:00" grouping="channel.01"/>
                 <MEMBER name="fit" wn="fit%2:42:02 fit%2:42:03" grouping="fit.02"/>
-                <MEMBER name="rake" wn="rake%2:35:00"/>
-                <MEMBER name="scrape" wn=""/>
-                <MEMBER name="shovel" wn="shovel%2:35:00"/>
-                <MEMBER name="spoon" wn="spoon%2:35:00"/>
-                <MEMBER name="squash" wn=""/>
-                <MEMBER name="squish" wn="squish%2:35:00"/>
-                <MEMBER name="tuck" wn="tuck%2:35:00"/>
+                <MEMBER name="rake" wn="rake%2:35:00" grouping="rake.01"/>
+                <MEMBER name="scrape" wn="" grouping=""/>
+                <MEMBER name="shovel" wn="shovel%2:35:00" grouping=""/>
+                <MEMBER name="spoon" wn="spoon%2:35:00" grouping=""/>
+                <MEMBER name="squash" wn="" grouping=""/>
+                <MEMBER name="squish" wn="squish%2:35:00" grouping=""/>
+                <MEMBER name="tuck" wn="tuck%2:35:00" grouping="tuck.01"/>
                 <MEMBER name="wipe" wn="?wipe%2:35:00" grouping="wipe.01"/>
-                <MEMBER name="wring" wn="wring%2:35:02"/>
+                <MEMBER name="wring" wn="wring%2:35:02" grouping="wring.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="between-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.destination" secondary="NP-PPbetween-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>He wedged the diamond between shifting dunes.</EXAMPLE>
                     </EXAMPLES>
@@ -311,22 +311,22 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="funnel-9.3-2-1">
                     <MEMBERS>
-                        <MEMBER name="bang" wn="bang%2:35:02"/>
+                        <MEMBER name="bang" wn="bang%2:35:02" grouping="bang.01"/>
                         <MEMBER name="dump" wn="dump%2:40:00" grouping="dump.02"/>
                         <MEMBER name="funnel" wn="funnel%2:35:00" grouping="funnel.01"/>
-                        <MEMBER name="hammer" wn="hammer%2:35:00 hammer%2:36:00" grouping="hammer.02"/>
-                        <MEMBER name="pound" wn="pound%2:30:03"/>
+                        <MEMBER name="hammer" wn="hammer%2:35:00 hammer%2:36:00" grouping="hammer.01 hammer.02"/>
+                        <MEMBER name="pound" wn="pound%2:30:03" grouping="pound.03"/>
                         <MEMBER name="push" wn="push%2:38:00" grouping="push.01"/>
-                        <MEMBER name="ram" wn="ram%2:35:03"/>
-                        <MEMBER name="shake" wn="shake%2:30:01"/>
+                        <MEMBER name="ram" wn="ram%2:35:03" grouping="ram.05"/>
+                        <MEMBER name="shake" wn="shake%2:30:01" grouping="shake.01"/>
                         <MEMBER name="squeeze" wn="squeeze%2:35:03" grouping="squeeze.03"/>
                         <MEMBER name="sweep" wn="sweep%2:35:00" grouping="sweep.02"/>
-                        <MEMBER name="wedge" wn="wedge%2:35:01 wedge%2:35:00"/>
+                        <MEMBER name="wedge" wn="wedge%2:35:01 wedge%2:35:00" grouping=""/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="PP" secondary="locative-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="" primary="NP V PP.destination" secondary="PPlocative-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>The company is wedging into new markets.</EXAMPLE>
                             </EXAMPLES>

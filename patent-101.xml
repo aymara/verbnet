@@ -2,13 +2,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="patent-101" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="copyright" wn=""/>
-        <MEMBER name="patent" wn=""/>
-        <MEMBER name="trademark" wn=""/>
-        <MEMBER name="license" wn=""/>
-        <MEMBER name="register" wn=""/>
-        <MEMBER name="certify" wn=""/>
-        <MEMBER name="credential" wn=""/>
+        <MEMBER name="copyright" wn="copyright%2:40:00" grouping=""/>
+        <MEMBER name="patent" wn="patent%2:40:00" grouping="patent.01"/>
+        <MEMBER name="trademark" wn="trademark%2:32:00" grouping=""/>
+        <MEMBER name="license" wn="licence%2:41:00" grouping="license.01"/>
+        <MEMBER name="register" wn="register%2:32:03" grouping="register.01"/>
+        <MEMBER name="certify" wn="certify%2:41:02" grouping="certify.01"/>
+        <MEMBER name="credential" wn="" grouping=""/>
+        <MEMBER name="verify" wn="verify%2:32:04" grouping="verify.01"/>
+        <MEMBER name="evidence" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -23,7 +25,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I patented my idea.</EXAMPLE>
             </EXAMPLES>

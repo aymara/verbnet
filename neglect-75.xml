@@ -17,12 +17,12 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="neglect-75-1">
             <MEMBERS>
-                <MEMBER name="omit" wn="omit%2:31:00"/>
+                <MEMBER name="omit" wn="omit%2:31:00" grouping="omit.02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" secondary="" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-SC" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I neglected to do the job.</EXAMPLE>
                     </EXAMPLES>
@@ -51,13 +51,16 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="neglect-75-1-1">
                     <MEMBERS>
-                        <MEMBER name="neglect" wn="neglect%2:31:00 neglect%2:31:05 neglect%2:31:01"/>
-                        <MEMBER name="fail" wn="fail%2:41:02 fail%2:37:00 "/>
+                        <MEMBER name="neglect" wn="neglect%2:31:00 neglect%2:31:05 neglect%2:31:01" grouping="neglect.01 neglect.02"/>
+                        <MEMBER name="fail" wn="fail%2:41:02 fail%2:37:00 " grouping="fail.01 fail.03"/>
+                        <MEMBER name="forego" wn="" grouping=""/>
+                        <MEMBER name="forgo" wn="" grouping=""/>
+                        <MEMBER name="flub" wn="" grouping=""/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+                            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
                             <EXAMPLES>
                                 <EXAMPLE>I neglected the job.</EXAMPLE>
                             </EXAMPLES>
@@ -87,12 +90,12 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="neglect-75-2">
             <MEMBERS>
-                <MEMBER name="manage" wn="manage%2:41:09 manage%2:41:01"/>
+                <MEMBER name="manage" wn="manage%2:41:09 manage%2:41:01" grouping="manage.01 manage.02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" secondary="" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-SC" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I managed to do the job.</EXAMPLE>
                     </EXAMPLES>
@@ -118,7 +121,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I managed the job.</EXAMPLE>
                     </EXAMPLES>

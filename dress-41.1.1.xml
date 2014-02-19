@@ -2,20 +2,22 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="dress-41.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="bathe" wn="bathe%2:29:00 bathe%2:29:01"/>
-        <MEMBER name="change" wn="change%2:30:03 change%2:30:06"/>
-        <MEMBER name="clothe" wn=""/>
-        <MEMBER name="disrobe" wn="disrobe%2:29:01"/>
-        <MEMBER name="dress" wn="dress%2:29:00 dress%2:29:01 dress%2:29:07"/>
-        <MEMBER name="exercise" wn="exercise%2:29:01 exercise%2:29:00"/>
-        <MEMBER name="preen" wn="preen%2:29:00"/>
-        <MEMBER name="primp" wn="primp%2:29:00"/>
-        <MEMBER name="shave" wn="shave%2:29:00 shave%2:35:01"/>
-        <MEMBER name="shower" wn="shower%2:29:00"/>
-        <MEMBER name="strip" wn="strip%2:40:03 strip%2:30:12"/>
-        <MEMBER name="sunbathe" wn=""/>
-        <MEMBER name="undress" wn="undress%2:29:00 undress%2:30:00"/>
-        <MEMBER name="wash" wn="wash%2:29:00 wash%2:35:00"/>
+        <MEMBER name="bathe" wn="bathe%2:29:00 bathe%2:29:01" grouping=""/>
+        <MEMBER name="change" wn="change%2:30:03 change%2:30:06" grouping="change.02"/>
+        <MEMBER name="clothe" wn="" grouping=""/>
+        <MEMBER name="disrobe" wn="disrobe%2:29:01" grouping=""/>
+        <MEMBER name="dress" wn="dress%2:29:00 dress%2:29:01 dress%2:29:07" grouping="dress.01"/>
+        <MEMBER name="exercise" wn="exercise%2:29:01 exercise%2:29:00" grouping="exercise.02"/>
+        <MEMBER name="moisturize" wn="" grouping=""/>
+        <MEMBER name="preen" wn="preen%2:29:00" grouping=""/>
+        <MEMBER name="primp" wn="primp%2:29:00" grouping=""/>
+        <MEMBER name="shave" wn="shave%2:29:00 shave%2:35:01" grouping="shave.01"/>
+        <MEMBER name="shower" wn="shower%2:29:00" grouping="shower.03"/>
+        <MEMBER name="strip" wn="strip%2:40:03 strip%2:30:12" grouping="strip.01 strip.03"/>
+        <MEMBER name="sunbathe" wn="" grouping=""/>
+        <MEMBER name="tan" wn="" grouping=""/>
+        <MEMBER name="undress" wn="undress%2:29:00 undress%2:30:00" grouping=""/>
+        <MEMBER name="wash" wn="wash%2:29:00 wash%2:35:00" grouping="wash.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -32,7 +34,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.2.3" primary="Intransitive" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.2.3" primary="NP V" secondary="Intransitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Marlene dressed.</EXAMPLE>
             </EXAMPLES>
@@ -53,7 +55,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Marlene dressed the baby.</EXAMPLE>
             </EXAMPLES>
@@ -77,7 +79,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Unspecified Reflexive Object" secondary="Reflexive variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Unspecified Reflexive ObjectReflexive variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Marlene dressed herself.</EXAMPLE>
             </EXAMPLES>

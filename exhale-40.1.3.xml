@@ -16,13 +16,18 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="exhale-40.1.3-1">
             <MEMBERS>
-                <MEMBER name="exhale" wn="exhale%2:29:00"/>
-                <MEMBER name="perspire" wn="perspire%2:29:00"/>
+                <MEMBER name="defecate" wn="" grouping=""/>
+                <MEMBER name="exhale" wn="exhale%2:29:00" grouping=""/>
+                <MEMBER name="hemorrhage" wn="" grouping=""/>
+                <MEMBER name="perspire" wn="perspire%2:29:00" grouping=""/>
+                <MEMBER name="expectorate" wn="expectorate%2:29:00" grouping=""/>
+                <MEMBER name="regurgitate" wn="" grouping=""/>
+                <MEMBER name="urinate" wn="urinate%2:29:01" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>Paul exhaled.</EXAMPLE>
                     </EXAMPLES>
@@ -49,7 +54,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>Paul exhaled a breath.</EXAMPLE>
                     </EXAMPLES>
@@ -83,12 +88,12 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="exhale-40.1.3-2">
             <MEMBERS>
-                <MEMBER name="inhale" wn="inhale%2:29:00"/>
+                <MEMBER name="inhale" wn="inhale%2:29:00" grouping="inhale.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>Paul inhaled.</EXAMPLE>
                     </EXAMPLES>
@@ -115,7 +120,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>Paul inhaled water.</EXAMPLE>
                     </EXAMPLES>

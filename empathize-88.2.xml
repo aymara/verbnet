@@ -2,10 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="empathize-88.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="empathize" wn=""/>
-        <MEMBER name="sympathize" wn=""/>
-        <MEMBER name="identify" wn=""/>
-        <MEMBER name="commiserate" wn=""/>
+        <MEMBER name="empathize" wn="empathize%2:31:00" grouping=""/>
+        <MEMBER name="sympathize" wn="sympathize%2:31:00 sympathize%2:37:00" grouping=""/>
+        <MEMBER name="identify" wn="identify%2:31:04" grouping="identify.02"/>
+        <MEMBER name="commiserate" wn="commiserate%2:37:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -20,7 +20,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Intransitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V" secondary="Intransitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>You really have to empathize.</EXAMPLE>
             </EXAMPLES>
@@ -46,7 +46,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="with-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.cause" secondary="PPwith-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>You really have to empathize with them.</EXAMPLE>
             </EXAMPLES>
@@ -80,7 +80,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-POSSING" secondary="with-P" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.cause S_ING" secondary="P-POSSINGwith-P" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>You really have to empathize with their doing it.</EXAMPLE>
             </EXAMPLES>
@@ -114,7 +114,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-TO-INF" secondary="with-P" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.cause what S" secondary="P-WHAT-TO-INFwith-P" xtag="0.2"/>                    
             <EXAMPLES>
                 <EXAMPLE>You've really got to empathize with what they want.</EXAMPLE>
             </EXAMPLES>

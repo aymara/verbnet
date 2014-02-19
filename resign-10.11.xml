@@ -2,15 +2,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="resign-10.11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="vacate" wn=""/>
-        <MEMBER name="resign" wn=""/>
-        <MEMBER name="renounce" wn=""/>
-        <MEMBER name="leave" wn=""/>
-        <MEMBER name="quit" wn=""/>
-        <MEMBER name="abdicate" wn=""/>
-        <MEMBER name="retire" wn=""/>
-        <MEMBER name="withdraw" wn=""/>
-        <MEMBER name="depart" wn=""/>
+        <MEMBER name="vacate" wn="vacate%2:41:00 resign%2:41:05" grouping="vacate.01"/>
+        <MEMBER name="resign" wn="resign%2:41:00" grouping="resign.01"/>
+        <MEMBER name="renounce" wn="renounce%2:41:00 renounce%2:41:01" grouping="renounce.01"/>
+        <MEMBER name="leave" wn="leave%2:41:00" grouping="leave.01"/>
+        <MEMBER name="quit" wn="quit%2:41:00" grouping="quit.02"/>
+        <MEMBER name="abdicate" wn="abdicate%2:41:00" grouping=""/>
+        <MEMBER name="retire" wn="retire%2:41:02" grouping="retire.01"/>
+        <MEMBER name="withdraw" wn="withdraw%2:41:01" grouping="withdraw.01"/>
+        <MEMBER name="depart" wn="depart%2:41:00" grouping="depart.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -25,7 +25,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Intransitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V" secondary="Intransitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He resigned.</EXAMPLE>
             </EXAMPLES>
@@ -57,7 +57,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I resigned my position.</EXAMPLE>
             </EXAMPLES>
@@ -92,7 +92,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="from-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source" secondary="PPfrom-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I resigned from the military.</EXAMPLE>
             </EXAMPLES>

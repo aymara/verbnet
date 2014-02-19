@@ -23,18 +23,18 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="meet-36.3-1">
             <MEMBERS>
-                <MEMBER name="consult" wn="consult%2:32:01 consult%2:32:02 consult%2:32:05"/>
-                <MEMBER name="deliberate" wn=""/>
-                <MEMBER name="meet" wn="meet%2:38:01 meet%2:41:01 meet%2:41:03 meet%2:41:00"/>
-                <MEMBER name="play" wn="play%2:41:03 play%2:33:02"/>
-                <MEMBER name="remonstrate" wn=""/>
-                <MEMBER name="reunite" wn=""/>
-                <MEMBER name="visit" wn="visit%2:41:00 visit%2:38:01 visit%2:32:00"/>
+                <MEMBER name="consult" wn="consult%2:32:01 consult%2:32:02 consult%2:32:05" grouping="consult.01 consult.02"/>
+                <MEMBER name="deliberate" wn="" grouping=""/>
+                <MEMBER name="meet" wn="meet%2:38:01 meet%2:41:01 meet%2:41:03 meet%2:41:00" grouping="meet.01 meet.02"/>
+                <MEMBER name="play" wn="play%2:41:03 play%2:33:02" grouping="play.01 play.02"/>
+                <MEMBER name="remonstrate" wn="" grouping=""/>
+                <MEMBER name="reunite" wn="" grouping=""/>
+                <MEMBER name="visit" wn="visit%2:41:00 visit%2:38:01 visit%2:32:00" grouping="visit.01 visit.03"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="with-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.actor2" secondary="PPwith-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Brenda met with Molly.</EXAMPLE>
                     </EXAMPLES>
@@ -61,7 +61,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V " secondary="Simple Reciprocal Intransitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Brenda and Molly met.</EXAMPLE>
                     </EXAMPLES>
@@ -86,7 +86,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="With Preposition Drop" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="With Preposition Drop" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Anne met Cathy.</EXAMPLE>
                     </EXAMPLES>
@@ -110,7 +110,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="Plural Subject" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V" secondary="IntransitivePlural Subject" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The committee met.</EXAMPLE>
                     </EXAMPLES>
@@ -137,15 +137,15 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="meet-36.3-2">
             <MEMBERS>
-                <MEMBER name="battle" wn="battle%2:33:00"/>
-                <MEMBER name="box" wn="box%2:35:01"/>
-                <MEMBER name="debate" wn="debate%2:31:00 debate%2:32:01"/>
-                <MEMBER name="fight" wn="fight%2:33:00"/>
+                <MEMBER name="battle" wn="battle%2:33:00" grouping="battle.01"/>
+                <MEMBER name="box" wn="box%2:35:01" grouping="box.02"/>
+                <MEMBER name="debate" wn="debate%2:31:00 debate%2:32:01" grouping="debate.01 debate.02"/>
+                <MEMBER name="fight" wn="fight%2:33:00" grouping="fight.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="with-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.actor2" secondary="PPwith-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Brenda fought with Molly.</EXAMPLE>
                     </EXAMPLES>
@@ -179,7 +179,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Simple Reciprocal Intransitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Brenda and Molly fought.</EXAMPLE>
                     </EXAMPLES>
@@ -211,7 +211,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="With Preposition Drop Alternation" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="With Preposition Drop Alternation" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Anne fought Cathy.</EXAMPLE>
                     </EXAMPLES>
@@ -242,7 +242,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="Plural Subject" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V" secondary="IntransitivePlural Subject" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The populace fought.</EXAMPLE>
                     </EXAMPLES>

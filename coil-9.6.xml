@@ -2,13 +2,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="coil-9.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="loop" wn="loop%2:36:00 loop%2:35:00"/>
+        <MEMBER name="loop" wn="loop%2:36:00 loop%2:35:00" grouping="loop.02"/>
         <MEMBER name="roll" wn="roll%2:35:00" grouping="roll.02"/>
-        <MEMBER name="rotate" wn="rotate%2:38:01"/>
+        <MEMBER name="rotate" wn="rotate%2:38:01" grouping="rotate.01"/>
         <MEMBER name="spin" wn="spin%2:38:02" grouping="spin.01"/>
-        <MEMBER name="swirl" wn="swirl%2:38:01"/>
-        <MEMBER name="twine" wn="twine%2:35:03"/>
-        <MEMBER name="whirl" wn="whirl%2:38:02"/>
+        <MEMBER name="swirl" wn="swirl%2:38:01" grouping=""/>
+        <MEMBER name="twine" wn="twine%2:35:03" grouping=""/>
+        <MEMBER name="whirl" wn="whirl%2:38:02" grouping=""/>
         <MEMBER name="wind" wn="wind%2:35:06" grouping="wind.02"/>
     </MEMBERS>
     <THEMROLES>
@@ -31,7 +31,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="path-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PPpath-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Cora coiled the rope around the post.</EXAMPLE>
             </EXAMPLES>
@@ -82,7 +82,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="path-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PPpath-PP" xtag=""/>
             <!--strongly prefers prep "around"-->
             <EXAMPLES>
                 <EXAMPLE>The rope coiled around the post.</EXAMPLE>
@@ -125,7 +125,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle PP.location" secondary="Middle Construction" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>That type of rope coils easily around the post.</EXAMPLE>
             </EXAMPLES>
@@ -162,16 +162,16 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="coil-9.6-1">
             <MEMBERS>
-                <MEMBER name="curl" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00"/>
-                <MEMBER name="coil" wn="coil%2:35:00"/>
+                <MEMBER name="curl" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00" grouping="curl.01"/>
+                <MEMBER name="coil" wn="coil%2:35:00" grouping=""/>
                 <MEMBER name="swing" wn="swing%2:38:02 swing%2:38:03" grouping="swing.01"/>
-                <MEMBER name="twirl" wn="twirl%2:38:01"/>
+                <MEMBER name="twirl" wn="twirl%2:38:01" grouping=""/>
                 <MEMBER name="twist" wn="twist%2:30:00" grouping="twist.02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Middle Construction" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The rope curled upward.</EXAMPLE>
                     </EXAMPLES>

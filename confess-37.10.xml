@@ -2,11 +2,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="confess-37.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="confess" wn="confess%2:32:00 confess%2:32:01"/>
-        <MEMBER name="admit" wn="admit%2:32:00"/>
-        <MEMBER name="acknowledge" wn="acknowledge%2:32:00"/>
-        <MEMBER name="proclaim" wn="proclaim%2:32:00"/>
-        <MEMBER name="reveal" wn="reveal%2:32:00"/>
+        <MEMBER name="confess" wn="confess%2:32:00 confess%2:32:01" grouping="confess.01"/>
+        <MEMBER name="admit" wn="admit%2:32:00" grouping="admit.01"/>
+        <MEMBER name="acknowledge" wn="acknowledge%2:32:00" grouping="acknowledge.01"/>
+        <MEMBER name="proclaim" wn="proclaim%2:32:00" grouping="proclaim.01 proclaim.02"/>
+        <MEMBER name="reveal" wn="reveal%2:32:00" grouping="reveal.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -27,7 +27,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="HOW-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V how S" secondary="HOW-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He confessed how she did it.</EXAMPLE>
             </EXAMPLES>
@@ -60,7 +60,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-TOBE" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP to be NP" secondary="NP-TOBE" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I admitted him to be a great smoker.</EXAMPLE>
             </EXAMPLES>
@@ -93,7 +93,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-VEN-NP-OMIT" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADJ" secondary="NP-VEN-NP-OMIT" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He confessed himself flummoxed.</EXAMPLE>
             </EXAMPLES>
@@ -126,7 +126,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="ING-SC/BE-ING-SC" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-SC/BE-ING-SC" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They confessed stealing the money.</EXAMPLE>
             </EXAMPLES>
@@ -159,7 +159,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They confessed it.</EXAMPLE>
             </EXAMPLES>
@@ -192,7 +192,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.recipient" secondary="NP-PPto-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They confessed it to us.</EXAMPLE>
             </EXAMPLES>
@@ -231,7 +231,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="POSSING" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="POSSING" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They confessed their stealing.</EXAMPLE>
             </EXAMPLES>
@@ -264,7 +264,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient" secondary="PPto-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They confessed to us.</EXAMPLE>
             </EXAMPLES>
@@ -298,7 +298,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-HOW-S" secondary="to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient how S" secondary="PP-HOW-Sto-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They confessed to us how it happened.</EXAMPLE>
             </EXAMPLES>
@@ -337,7 +337,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They confessed that they had stolen.</EXAMPLE>
             </EXAMPLES>

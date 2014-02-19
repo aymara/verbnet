@@ -3,10 +3,12 @@
 <VNCLASS ID="pain-40.8.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--moved "ache" to tingle-40.8.2 because it is only intransitive-->
-        <MEMBER name="bother" wn="bother%2:37:00"/>
-        <MEMBER name="hurt" wn="hurt%2:39:00"/>
-        <MEMBER name="itch" wn="itch%2:39:00"/>
-        <MEMBER name="pain" wn="pain%2:29:00"/>
+        <MEMBER name="ail" wn="" grouping=""/>
+        <MEMBER name="bother" wn="bother%2:37:00" grouping="bother.02"/>
+        <MEMBER name="burn" wn="" grouping=""/>
+        <MEMBER name="hurt" wn="hurt%2:39:00" grouping="hurt.01"/>
+        <MEMBER name="itch" wn="itch%2:39:00" grouping=""/>
+        <MEMBER name="pain" wn="pain%2:29:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -25,7 +27,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>My eyes are itching.</EXAMPLE>
             </EXAMPLES>
@@ -51,7 +53,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Experiencer Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.experiencer" secondary="TransitiveExperiencer Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>My eyes are itching me.</EXAMPLE>
             </EXAMPLES>
@@ -80,7 +82,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Cause-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.cause" secondary="PPCause-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>My eyes are itching from the smoke.</EXAMPLE>
             </EXAMPLES>

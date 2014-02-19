@@ -2,11 +2,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="rehearse-26.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="rehearse" wn=""/>
-        <MEMBER name="practice" wn=""/>
-        <MEMBER name="walk_through" wn=""/>
-        <MEMBER name="exercise" wn=""/>
-        <MEMBER name="repeat" wn=""/>
+        <MEMBER name="rehearse" wn="rehearse%2:36:00" grouping=""/>
+        <MEMBER name="practice" wn="practice%2:36:00" grouping="practice.02"/>
+        <MEMBER name="walk_through" wn="walk_through%2:36:00" grouping=""/>
+        <MEMBER name="exercise" wn="exercise%2:31:00" grouping="exercise.01"/>
+        <MEMBER name="repeat" wn="repeat%2:36:00" grouping="repeat.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -24,7 +24,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Intransitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V" secondary="Intransitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He rehearsed.</EXAMPLE>
             </EXAMPLES>
@@ -46,7 +46,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He rehearsed the song.</EXAMPLE>
             </EXAMPLES>
@@ -71,7 +71,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="for-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.recipient" secondary="NP-PPfor-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He rehearsed the song for the exam.</EXAMPLE>
             </EXAMPLES>
@@ -102,7 +102,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="ING-SC" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-SC" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He rehearsed singing the song.</EXAMPLE>
             </EXAMPLES>
@@ -129,7 +129,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="for-PP" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient" secondary="PPfor-PP" xtag="0.2"/>                    
             <EXAMPLES>
                 <EXAMPLE>He rehearsed for the exam.</EXAMPLE>
             </EXAMPLES>

@@ -2,10 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="stalk-35.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="smell" wn="smell%2:39:01"/>
-        <MEMBER name="stalk" wn="stalk%2:38:03"/>
-        <MEMBER name="taste" wn="taste%2:34:00"/>
-        <MEMBER name="track" wn="track%2:38:00"/>
+        <MEMBER name="smell" wn="smell%2:39:01" grouping="smell.01"/>
+        <MEMBER name="stalk" wn="stalk%2:38:03" grouping="stalk.01"/>
+        <MEMBER name="taste" wn="taste%2:34:00" grouping="taste.02"/>
+        <MEMBER name="track" wn="track%2:38:00" grouping="track.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -22,7 +22,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Theme-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PPTheme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I stalked the woods for game.</EXAMPLE>
             </EXAMPLES>
@@ -53,7 +53,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Location-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PPLocation-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I stalked game in the woods.</EXAMPLE>
             </EXAMPLES>
@@ -86,7 +86,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Transitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I tracked prints.</EXAMPLE>
             </EXAMPLES>

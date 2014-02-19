@@ -29,14 +29,14 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="cooperate-73-1">
             <MEMBERS>
-                <MEMBER name="collaborate" wn="collaborate%2:41:00 collaborate%2:41:01"/>
-                <MEMBER name="cooperate" wn="cooperate%2:41:00"/>
-                <MEMBER name="join" wn="join%2:41:01"/>
+                <MEMBER name="collaborate" wn="collaborate%2:41:00 collaborate%2:41:01" grouping="collaborate.01 collaborate.02"/>
+                <MEMBER name="cooperate" wn="cooperate%2:41:00" grouping="cooperate.01"/>
+                <MEMBER name="join" wn="join%2:41:01" grouping="join.03 join.04"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="on-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPon-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They collaborated on the task.</EXAMPLE>
                     </EXAMPLES>
@@ -68,7 +68,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="with-PP on-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.actor2 PP.theme" secondary="PP-PPwith-PP on-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>John collaborated with Paul on the task.</EXAMPLE>
                     </EXAMPLES>
@@ -104,7 +104,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="in-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPin-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They collaborated in the task.</EXAMPLE>
                     </EXAMPLES>
@@ -136,7 +136,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="with-PP in-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.actor2 PP.theme" secondary="PP-PPwith-PP in-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>John collaborated with Paul in the task.</EXAMPLE>
                     </EXAMPLES>
@@ -174,7 +174,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="in-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCin-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They collaborated in finishing the task.</EXAMPLE>
                     </EXAMPLES>
@@ -210,12 +210,12 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="cooperate-73-2">
             <MEMBERS>
-                <MEMBER name="participate" wn="participate%2:41:00 participate%2:33:00"/>
+                <MEMBER name="participate" wn="participate%2:41:00 participate%2:33:00" grouping="participate.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="in-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPin-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They participated in the task.</EXAMPLE>
                     </EXAMPLES>
@@ -247,7 +247,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="in-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCin-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They participated in finishing the task.</EXAMPLE>
                     </EXAMPLES>
@@ -283,13 +283,13 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="cooperate-73-3">
             <MEMBERS>
-                <MEMBER name="labour" wn="labour%2:41:01"/>
-                <MEMBER name="work" wn="work%2:41:02"/>
+                <MEMBER name="labour" wn="labour%2:41:01" grouping=""/>
+                <MEMBER name="work" wn="work%2:41:02" grouping="work.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="on-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPon-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They worked on the task.</EXAMPLE>
                     </EXAMPLES>
@@ -321,7 +321,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="with-PP on-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.actor2 PP.theme" secondary="PP-PPwith-PP on-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>John worked with Paul on the task.</EXAMPLE>
                     </EXAMPLES>
@@ -357,7 +357,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="at-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCat-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They worked at finishing the task.</EXAMPLE>
                     </EXAMPLES>
@@ -389,7 +389,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="with-PP at-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.theme S_ING" secondary="P-ING-SCwith-PP at-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>John worked with Paul at finishing the task.</EXAMPLE>
                     </EXAMPLES>

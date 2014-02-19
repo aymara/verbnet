@@ -3,16 +3,16 @@
 <VNCLASS ID="calve-28" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Each member specifies the Patient-->
-        <MEMBER name="calve" wn="calve%2:29:00"/>
-        <MEMBER name="cub" wn="cub%2:29:00"/>
-        <MEMBER name="fawn" wn="fawn%2:29:00"/>
-        <MEMBER name="foal" wn="foal%2:29:00"/>
-        <MEMBER name="kitten" wn="kitten%2:29:00"/>
-        <MEMBER name="lamb" wn="lamb%2:29:00"/>
-        <MEMBER name="litter" wn="litter%2:29:00"/>
-        <MEMBER name="pup" wn="pup%2:29:00"/>
-        <MEMBER name="spawn" wn="spawn%2:36:00"/>
-        <MEMBER name="whelp" wn="whelp%2:29:00"/>
+        <MEMBER name="calve" wn="calve%2:29:00" grouping=""/>
+        <MEMBER name="cub" wn="cub%2:29:00" grouping=""/>
+        <MEMBER name="fawn" wn="fawn%2:29:00" grouping=""/>
+        <MEMBER name="foal" wn="foal%2:29:00" grouping=""/>
+        <MEMBER name="kitten" wn="kitten%2:29:00" grouping=""/>
+        <MEMBER name="lamb" wn="lamb%2:29:00" grouping=""/>
+        <MEMBER name="litter" wn="litter%2:29:00" grouping=""/>
+        <MEMBER name="pup" wn="pup%2:29:00" grouping=""/>
+        <MEMBER name="spawn" wn="spawn%2:36:00" grouping="spawn.01"/>
+        <MEMBER name="whelp" wn="whelp%2:29:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -28,7 +28,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>The cat kittened.</EXAMPLE>
             </EXAMPLES>

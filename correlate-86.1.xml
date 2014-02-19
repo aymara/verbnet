@@ -2,9 +2,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="correlate-86.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="coincide" wn=""/>
-        <MEMBER name="correlate" wn=""/>
-        <MEMBER name="alternate" wn=""/>
+        <MEMBER name="coincide" wn="" grouping=""/>
+        <MEMBER name="correlate" wn="" grouping=""/>
+        <MEMBER name="alternate" wn="" grouping=""/>
+        <MEMBER name="flip-flop" wn="" grouping=""/>
+        <MEMBER name="co-occur" wn="co-occur%2:42:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -22,7 +24,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-ING-AC" secondary="with-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-ACwith-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He alternates with keeping them.</EXAMPLE>
             </EXAMPLES>
@@ -51,7 +53,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-P-ING-AC" secondary="with-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-ACwith-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>We alternated it with keeping them locked up.</EXAMPLE>
             </EXAMPLES>

@@ -3,12 +3,12 @@
 <VNCLASS ID="advise-37.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--REMOVED "entice" misclassified-->
-        <MEMBER name="alert" wn="alert%2:32:00"/>
-        <MEMBER name="assure" wn=""/>
-        <MEMBER name="brief" wn=""/>
-        <MEMBER name="encourage" wn="encourage%2:37:00"/>
-        <MEMBER name="inform" wn=""/>
-        <MEMBER name="notify" wn=""/>
+        <MEMBER name="alert" wn="alert%2:32:00" grouping="alert.01"/>
+        <MEMBER name="assure" wn="" grouping=""/>
+        <MEMBER name="brief" wn="" grouping=""/>
+        <MEMBER name="encourage" wn="encourage%2:37:00" grouping="encourage.02"/>
+        <MEMBER name="inform" wn="" grouping=""/>
+        <MEMBER name="notify" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -31,7 +31,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Recipient Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.recipient" secondary="Basic TransitiveRecipient Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Ellen alerted Helen.</EXAMPLE>
             </EXAMPLES>
@@ -62,7 +62,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="against/about-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.topic" secondary="NP-PPagainst/about-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen warned Helen against skating on thin ice.</EXAMPLE>
             </EXAMPLES>
@@ -99,7 +99,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="NP-S" secondary="Recipient Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient that S" secondary="NP-SRecipient Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen warned Helen that the party would be tonight.</EXAMPLE>
             </EXAMPLES>
@@ -135,7 +135,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-HOW-TO-INF" secondary="Recipient Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP how S_INF" secondary="NP-HOW-TO-INFRecipient Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen warned Helen how to avoid the crowd.</EXAMPLE>
             </EXAMPLES>
@@ -171,7 +171,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.3" primary="NP-QUOT" secondary="Recipient Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.3" primary="NP V NP S-Quote" secondary="NP-QUOTRecipient Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen warned Helen, 'Avoid that hole in the sidewalk.'</EXAMPLE>
             </EXAMPLES>
@@ -207,7 +207,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="of-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.topic" secondary="NP-PPof-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>My accountant warned me of the new loopholes in the tax code.</EXAMPLE>
             </EXAMPLES>
@@ -247,17 +247,17 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="advise-37.9-1">
             <MEMBERS>
-                <MEMBER name="admonish" wn="admonish%2:32:02 admonish%2:32:01 admonish%2:32:00"/>
-                <MEMBER name="advise" wn="advise%2:32:00 advise%2:32:01"/>
-                <MEMBER name="caution" wn="caution%2:32:00"/>
-                <MEMBER name="counsel" wn="counsel%2:32:00"/>
-                <MEMBER name="instruct" wn="instruct%2:32:01"/>
-                <MEMBER name="warn" wn="warn%2:32:00 warn%2:32:01 warn%2:32:03 warn%2:32:02"/>
+                <MEMBER name="admonish" wn="admonish%2:32:02 admonish%2:32:01 admonish%2:32:00" grouping=""/>
+                <MEMBER name="advise" wn="advise%2:32:00 advise%2:32:01" grouping="advise.01 advise.02"/>
+                <MEMBER name="caution" wn="caution%2:32:00" grouping="caution.01"/>
+                <MEMBER name="counsel" wn="counsel%2:32:00" grouping="counsel.01"/>
+                <MEMBER name="instruct" wn="instruct%2:32:01" grouping="instruct.01"/>
+                <MEMBER name="warn" wn="warn%2:32:00 warn%2:32:01 warn%2:32:03 warn%2:32:02" grouping="warn.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="against/about-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.topic" secondary="PPagainst/about-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Ellen warned against skating on thin ice.</EXAMPLE>
                     </EXAMPLES>
@@ -291,7 +291,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.5" primary="S" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.5" primary="NP V that S" secondary="S" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Ellen warned that the party would be tonight.</EXAMPLE>
                     </EXAMPLES>
@@ -324,7 +324,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.5" primary="HOW-TO-INF" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.5" primary="NP V how S_INF" secondary="HOW-TO-INF" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Ellen warned how to avoid the crowd.</EXAMPLE>
                     </EXAMPLES>
@@ -357,7 +357,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.3" primary="QUOT" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.3" primary="NP V S-Quote" secondary="QUOT" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Ellen warned, 'Avoid that hole in the sidewalk.'</EXAMPLE>
                     </EXAMPLES>

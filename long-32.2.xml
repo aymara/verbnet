@@ -13,7 +13,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="TO-INF-SC" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V S_INF" secondary="TO-INF-SC" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>John oft hankered to move up the corporate ladder.</EXAMPLE>
             </EXAMPLES>
@@ -42,25 +42,25 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="long-32.2-1">
             <MEMBERS>
-                <MEMBER name="ache" wn="ache%2:37:06"/>
-                <MEMBER name="crave" wn="crave%2:34:00"/>
-                <MEMBER name="fall" wn=""/>
-                <MEMBER name="hanker" wn="hanker%2:37:00"/>
-                <MEMBER name="hope" wn="hope%2:37:01"/>
-                <MEMBER name="hunger" wn="hunger%2:34:01"/>
-                <MEMBER name="itch" wn="itch%2:37:00"/>
-                <MEMBER name="long" wn="long%2:37:02"/>
-                <MEMBER name="lust" wn="lust%2:34:00"/>
-                <MEMBER name="pine" wn="pine%2:37:00"/>
-                <MEMBER name="pray" wn="pray%2:32:00"/>
-                <MEMBER name="thirst" wn="thirst%2:34:00"/>
-                <MEMBER name="wish" wn="?wish%2:37:00 ?wish%2:32:01"/>
-                <MEMBER name="yearn" wn="yearn%2:37:00 yearn%2:37:01"/>
+                <MEMBER name="ache" wn="ache%2:37:06" grouping=""/>
+                <MEMBER name="crave" wn="crave%2:34:00" grouping="crave.01"/>
+                <MEMBER name="fall" wn="" grouping=""/>
+                <MEMBER name="hanker" wn="hanker%2:37:00" grouping=""/>
+                <MEMBER name="hope" wn="hope%2:37:01" grouping="hope.01"/>
+                <MEMBER name="hunger" wn="hunger%2:34:01" grouping=""/>
+                <MEMBER name="itch" wn="itch%2:37:00" grouping=""/>
+                <MEMBER name="long" wn="long%2:37:02" grouping=""/>
+                <MEMBER name="lust" wn="lust%2:34:00" grouping=""/>
+                <MEMBER name="pine" wn="pine%2:37:00" grouping=""/>
+                <MEMBER name="pray" wn="pray%2:32:00" grouping="pray.01"/>
+                <MEMBER name="thirst" wn="thirst%2:34:00" grouping=""/>
+                <MEMBER name="wish" wn="?wish%2:37:00 ?wish%2:32:01" grouping="wish.01 wish.02"/>
+                <MEMBER name="yearn" wn="yearn%2:37:00 yearn%2:37:01" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="for-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.theme" secondary="PPfor-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Danny longs for a sunny day.</EXAMPLE>
                     </EXAMPLES>
@@ -91,16 +91,16 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="long-32.2-2">
             <MEMBERS>
-                <MEMBER name="dangle" wn=""/>
-                <MEMBER name="hanker" wn="hanker%2:37:00"/>
-                <MEMBER name="lust" wn="lust%2:34:00"/>
-                <MEMBER name="thirst" wn="thirst%2:34:00"/>
-                <MEMBER name="yearn" wn="yearn%2:37:00 yearn%2:37:01"/>
+                <MEMBER name="dangle" wn="" grouping=""/>
+                <MEMBER name="hanker" wn="hanker%2:37:00" grouping=""/>
+                <MEMBER name="lust" wn="lust%2:34:00" grouping=""/>
+                <MEMBER name="thirst" wn="thirst%2:34:00" grouping=""/>
+                <MEMBER name="yearn" wn="yearn%2:37:00 yearn%2:37:01" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="after-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.theme" secondary="PPafter-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Danny yearns after sunny days.</EXAMPLE>
                     </EXAMPLES>

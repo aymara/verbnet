@@ -4,25 +4,31 @@
     <MEMBERS>
         <!--individual verbs specify what spatial position Pos refers to, and specifies what kind of motion is happening during the event for Agent to assume this position-->
         <!--"straddle" also takes a transitive ("John straddled the horse")-->
-        <MEMBER name="bend" wn="bend%2:38:03"/>
-        <MEMBER name="bow" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
-        <MEMBER name="crouch" wn="crouch%2:38:00"/>
-        <MEMBER name="flop" wn="flop%2:38:01 flop%2:38:00"/>
-        <MEMBER name="hang" wn=""/>
-        <MEMBER name="kneel" wn="kneel%2:35:00"/>
-        <MEMBER name="lean" wn="lean%2:38:00"/>
-        <MEMBER name="lie" wn="lie%2:38:00"/>
-        <MEMBER name="perch" wn="perch%2:35:00"/>
-        <MEMBER name="plop" wn="plop%2:35:00"/>
-        <MEMBER name="rise" wn="rise%2:38:00 rise%2:38:05 rise%2:38:04 rise%2:29:08"/>
-        <MEMBER name="sit" wn="sit%2:38:00"/>
-        <MEMBER name="slouch" wn="slouch%2:38:01"/>
-        <MEMBER name="slump" wn="slump%2:38:01 slump%2:38:00"/>
-        <MEMBER name="sprawl" wn="sprawl%2:35:00 ?sprawl%2:38:00"/>
-        <MEMBER name="squat" wn="squat%2:35:00"/>
-        <MEMBER name="stand" wn="stand%2:42:03"/>
-        <MEMBER name="stoop" wn="stoop%2:38:00 stoop%2:38:04"/>
-        <MEMBER name="straddle" wn="straddle%2:42:01"/>
+        <MEMBER name="bend" wn="bend%2:38:03" grouping="bend.02"/>
+        <MEMBER name="bow" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01" grouping="bow.01 bow.02"/>
+        <MEMBER name="crouch" wn="crouch%2:38:00" grouping=""/>
+        <MEMBER name="flop" wn="flop%2:38:01 flop%2:38:00" grouping="flop.01"/>
+        <MEMBER name="hang" wn="" grouping=""/>
+        <MEMBER name="hunch" wn="" grouping=""/>
+        <MEMBER name="hunch_up" wn="" grouping=""/>
+        <MEMBER name="kneel" wn="kneel%2:35:00" grouping=""/>
+        <MEMBER name="lean" wn="lean%2:38:00" grouping="lean.01"/>
+        <MEMBER name="lie" wn="lie%2:38:00" grouping="lie.01"/>
+        <MEMBER name="lie_down" wn="" grouping=""/>
+        <MEMBER name="perch" wn="perch%2:35:00" grouping=""/>
+        <MEMBER name="plop" wn="plop%2:35:00" grouping=""/>
+        <MEMBER name="rise" wn="rise%2:38:00 rise%2:38:05 rise%2:38:04 rise%2:29:08" grouping="rise.01 rise.03"/>
+        <MEMBER name="sit" wn="sit%2:38:00" grouping="sit.01"/>
+        <MEMBER name="sit_down" wn="" grouping=""/>
+        <MEMBER name="slouch" wn="slouch%2:38:01" grouping=""/>
+        <MEMBER name="slump" wn="slump%2:38:01 slump%2:38:00" grouping="slump.01"/>
+        <MEMBER name="sprawl" wn="sprawl%2:35:00 ?sprawl%2:38:00" grouping=""/>
+        <MEMBER name="squat" wn="squat%2:35:00" grouping=""/>
+        <MEMBER name="squat_down" wn="" grouping=""/>
+        <MEMBER name="stand" wn="stand%2:42:03" grouping="stand.02"/>
+        <MEMBER name="stand_up" wn="" grouping=""/>
+        <MEMBER name="stoop" wn="stoop%2:38:00 stoop%2:38:04" grouping=""/>
+        <MEMBER name="straddle" wn="straddle%2:42:01" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -39,7 +45,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>The dog flopped.</EXAMPLE>
             </EXAMPLES>
@@ -73,7 +79,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="locative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PPlocative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The dog flopped in the corner.</EXAMPLE>
             </EXAMPLES>

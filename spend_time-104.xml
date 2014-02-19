@@ -2,9 +2,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="spend_time-104" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="pass" wn=""/>
-        <MEMBER name="serve" wn=""/>
-	<MEMBER name="misspend" wn=""/>
+        <MEMBER name="pass" wn="pass%2:42:00" grouping="pass.03"/>
+        <MEMBER name="serve" wn="serve%2:42:00" grouping="serve.05"/>
+	<MEMBER name="misspend" wn="misspend%2:42:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -21,7 +21,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I misspent 5 hours.</EXAMPLE>
             </EXAMPLES>

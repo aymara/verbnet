@@ -16,7 +16,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="eat-39.1-1">
             <MEMBERS>
-                <MEMBER name="eat" wn="eat%2:34:00 eat%2:34:01 eat%2:34:02"/>
+                <MEMBER name="eat" wn="eat%2:34:00 eat%2:34:01 eat%2:34:02" grouping="eat.01"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">
@@ -28,7 +28,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia ate the peach.</EXAMPLE>
                     </EXAMPLES>
@@ -52,7 +52,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Unspecified Object" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Unspecified Object" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia ate.</EXAMPLE>
                     </EXAMPLES>
@@ -73,7 +73,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Conative" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP-Conative" secondary="Conative" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia ate at the peach.</EXAMPLE>
                     </EXAMPLES>
@@ -100,7 +100,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP-ADJP" secondary="Resultative" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP ADJ" secondary="NP-ADJPResultative" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia ate herself sick.</EXAMPLE>
                     </EXAMPLES>
@@ -133,7 +133,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Source-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.source" secondary="PPSource-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>He ate off of the table.</EXAMPLE>
                     </EXAMPLES>
@@ -173,7 +173,7 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="eat-39.1-2">
             <MEMBERS>
-                <MEMBER name="drink" wn="drink%2:34:00 drink%2:34:01 drink%2:34:12"/>
+                <MEMBER name="drink" wn="drink%2:34:00 drink%2:34:01 drink%2:34:12" grouping="drink.01 drink.04"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">
@@ -185,7 +185,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia drank the wine.</EXAMPLE>
                     </EXAMPLES>
@@ -209,7 +209,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Unspecified Object" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Unspecified Object" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia drank.</EXAMPLE>
                     </EXAMPLES>
@@ -230,7 +230,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP-ADJP" secondary="Resultative" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP ADJ" secondary="NP-ADJPResultative" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cythia drank herself sick.</EXAMPLE>
                     </EXAMPLES>
@@ -263,7 +263,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Source-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.source" secondary="PPSource-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>He drank out of the goblet.</EXAMPLE>
                     </EXAMPLES>

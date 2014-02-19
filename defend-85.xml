@@ -2,10 +2,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="defend-85" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="defend" wn="defend%2:32:00 defend%2:41:00 defend%2:32:01"/>
-        <MEMBER name="insure" wn="insure%2:32:00"/>
-        <MEMBER name="protect" wn="protect%2:33:00"/>
-        <MEMBER name="shade" wn="shade%2:35:00"/>
+        <MEMBER name="defend" wn="defend%2:32:00 defend%2:41:00 defend%2:32:01" grouping="defend.02"/>
+        <MEMBER name="insure" wn="insure%2:32:00" grouping="insure.01"/>
+        <MEMBER name="protect" wn="protect%2:33:00" grouping="protect.01"/>
+        <MEMBER name="shade" wn="shade%2:35:00" grouping=""/>
+        <MEMBER name="preserve" wn="preserve%2:40:00" grouping="preserve.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -26,7 +27,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I defended them.</EXAMPLE>
             </EXAMPLES>
@@ -51,7 +52,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="against-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.proposition" secondary="NP-PPagainst-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I defended them against the charges.</EXAMPLE>
             </EXAMPLES>
@@ -84,7 +85,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="ING-AC" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-AC" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I defended building the house.</EXAMPLE>
             </EXAMPLES>
@@ -111,7 +112,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="POSSING" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="POSSING" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I defended their building the house.</EXAMPLE>
             </EXAMPLES>

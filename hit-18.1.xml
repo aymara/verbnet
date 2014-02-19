@@ -2,15 +2,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="hit-18.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="bang" wn="bang%2:35:00 bang%2:35:01"/>
-        <MEMBER name="bash" wn="bash%2:35:00"/>
-        <MEMBER name="click" wn="click%2:35:00"/>
-        <MEMBER name="dash" wn="dash%2:35:02"/>
-        <MEMBER name="squash" wn="squash%2:35:00"/>
-        <MEMBER name="tamp" wn="tamp%2:35:00"/>
-        <MEMBER name="thump" wn="thump%2:35:00"/>
-        <MEMBER name="thwack" wn="thwack%2:35:00"/>
-        <MEMBER name="whack" wn="whack%2:35:00"/>
+        <MEMBER name="bang" wn="bang%2:35:00 bang%2:35:01" grouping="bang.01"/>
+        <MEMBER name="bash" wn="bash%2:35:00" grouping=""/>
+        <MEMBER name="click" wn="click%2:35:00" grouping="click.02"/>
+        <MEMBER name="dash" wn="dash%2:35:02" grouping="dash.02"/>
+        <MEMBER name="squash" wn="squash%2:35:00" grouping=""/>
+        <MEMBER name="tamp" wn="tamp%2:35:00" grouping=""/>
+        <MEMBER name="thump" wn="thump%2:35:00" grouping=""/>
+        <MEMBER name="thwack" wn="thwack%2:35:00" grouping=""/>
+        <MEMBER name="whack" wn="whack%2:35:00" grouping="whack.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -31,7 +31,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Paula hit the ball.</EXAMPLE>
             </EXAMPLES>
@@ -82,7 +82,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paula hit the ball with a stick.</EXAMPLE>
             </EXAMPLES>
@@ -146,7 +146,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.5.2" primary="Together Reciprocal Alternation Transitive" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.5.2" primary="NP V NP together" secondary="Together Reciprocal Alternation Transitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paula hit the sticks together.</EXAMPLE>
             </EXAMPLES>
@@ -214,7 +214,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJPResultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paul kicked the door open.</EXAMPLE>
             </EXAMPLES>
@@ -272,7 +272,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP" secondary="Resultative, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP PP.instrument" secondary="NP-ADJP-PPResultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paul hit the door open with his foot.</EXAMPLE>
             </EXAMPLES>
@@ -343,7 +343,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PPResult-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paul hit the window to pieces.</EXAMPLE>
             </EXAMPLES>
@@ -408,7 +408,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PPResult-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paul hit the window to pieces with a hammer.</EXAMPLE>
             </EXAMPLES>
@@ -486,7 +486,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.8" primary="NP-PP" secondary="" xtag="against/on-PP"/>
+            <DESCRIPTION descriptionNumber="2.8" primary="NP V NP PP" secondary="NP-PP" xtag="against/on-PP"/>
             <EXAMPLES>
                 <EXAMPLE>Paula hit the stick against/on the fence.</EXAMPLE>
             </EXAMPLES>
@@ -550,7 +550,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP" secondary="Instrument Subject Alternation" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The stick hit the fence.</EXAMPLE>
             </EXAMPLES>
@@ -595,7 +595,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJPResultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The stick hit the door open.</EXAMPLE>
             </EXAMPLES>
@@ -647,7 +647,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Result-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP PP.oblique" secondary="NP-ADJPResult-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The hammer hit the window to pieces.</EXAMPLE>
             </EXAMPLES>
@@ -709,24 +709,24 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="hit-18.1-1">
             <MEMBERS>
-                <MEMBER name="batter" wn="batter%2:35:01 batter%2:35:00 batter%2:30:00"/>
-                <MEMBER name="beat" wn="beat%2:35:01 beat%2:36:00 beat%2:35:03 beat%2:35:10 beat%2:35:12"/>
-                <MEMBER name="bump" wn="bump%2:35:00"/>
-                <MEMBER name="butt" wn="butt%2:35:00"/>
-                <MEMBER name="drum" wn="drum%2:39:00"/>
-                <MEMBER name="hammer" wn="hammer%2:35:00"/>
-                <MEMBER name="hit" wn="hit%2:35:01 hit%2:35:00 hit%2:33:01 hit%2:33:03"/>
-                <MEMBER name="jab" wn="jab%2:35:00 jab%2:35:01 jab%2:35:02"/>
-                <MEMBER name="kick" wn="kick%2:35:00"/>
-                <MEMBER name="knock" wn="knock%2:35:01 knock%2:35:00 knock%2:39:00"/>
-                <MEMBER name="lash" wn="lash%2:35:01 lash%2:35:00"/>
-                <MEMBER name="pound" wn="pound%2:35:00 pound%2:35:01 pound%2:30:03"/>
-                <MEMBER name="rap" wn="rap%2:35:00 rap%2:39:00"/>
-                <MEMBER name="slap" wn="slap%2:35:00"/>
-                <MEMBER name="smack" wn="smack%2:35:02"/>
-                <MEMBER name="smash" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:05 smash%2:30:10"/>
-                <MEMBER name="strike" wn="strike%2:35:01 strike%2:35:00 strike%2:35:09"/>
-                <MEMBER name="tap" wn="tap%2:35:00 tap%2:39:01"/>
+                <MEMBER name="batter" wn="batter%2:35:01 batter%2:35:00 batter%2:30:00" grouping="batter.01 batter.02"/>
+                <MEMBER name="beat" wn="beat%2:35:01 beat%2:36:00 beat%2:35:03 beat%2:35:10 beat%2:35:12" grouping="beat.02 beat.03 beat.06"/>
+                <MEMBER name="bump" wn="bump%2:35:00" grouping="bump.01"/>
+                <MEMBER name="butt" wn="butt%2:35:00" grouping="butt.02"/>
+                <MEMBER name="drum" wn="drum%2:39:00" grouping="drum.01"/>
+                <MEMBER name="hammer" wn="hammer%2:35:00" grouping="hammer.01"/>
+                <MEMBER name="hit" wn="hit%2:35:01 hit%2:35:00 hit%2:33:01 hit%2:33:03" grouping="hit.01 hit.02 hit.03"/>
+                <MEMBER name="jab" wn="jab%2:35:00 jab%2:35:01 jab%2:35:02" grouping=""/>
+                <MEMBER name="kick" wn="kick%2:35:00" grouping="kick.01"/>
+                <MEMBER name="knock" wn="knock%2:35:01 knock%2:35:00 knock%2:39:00" grouping="knock.01 knock.02"/>
+                <MEMBER name="lash" wn="lash%2:35:01 lash%2:35:00" grouping="lash.01"/>
+                <MEMBER name="pound" wn="pound%2:35:00 pound%2:35:01 pound%2:30:03" grouping="pound.01 pound.03"/>
+                <MEMBER name="rap" wn="rap%2:35:00 rap%2:39:00" grouping=""/>
+                <MEMBER name="slap" wn="slap%2:35:00" grouping="slap.01"/>
+                <MEMBER name="smack" wn="smack%2:35:02" grouping="smack.01"/>
+                <MEMBER name="smash" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:05 smash%2:30:10" grouping="smash.01"/>
+                <MEMBER name="strike" wn="strike%2:35:01 strike%2:35:00 strike%2:35:09" grouping="strike.01 strike.02"/>
+                <MEMBER name="tap" wn="tap%2:35:00 tap%2:39:01" grouping="tap.02"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Instrument">
@@ -738,7 +738,7 @@
             </THEMROLES>
             <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.3" primary="Conative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.3" primary="NP V PP" secondary="Conative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paul hit at the window.</EXAMPLE>
             </EXAMPLES>
@@ -776,7 +776,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.3" primary="Conative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.3" primary="NP V PP PP" secondary="Conative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paul hit at the window with an open hand.</EXAMPLE>
             </EXAMPLES>
@@ -827,7 +827,7 @@
             </SEMANTICS>
         </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Body-part or reflexive Object" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="TransitiveBody-part or reflexive Object" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>Paul hit her elbow.</EXAMPLE>
                     </EXAMPLES>
@@ -878,7 +878,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Body-part or reflexive Object" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP" secondary="TransitiveBody-part or reflexive Object" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>Paul hit her elbow on the doorknob.</EXAMPLE>
                     </EXAMPLES>

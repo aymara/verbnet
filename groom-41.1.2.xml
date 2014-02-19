@@ -2,8 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="groom-41.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="curry" wn="curry%2:29:00"/>
-        <MEMBER name="groom" wn="groom%2:29:03 groom%2:29:00"/>
+        <MEMBER name="cleanse" wn="" grouping=""/>
+        <MEMBER name="curry" wn="curry%2:29:00" grouping=""/>
+        <MEMBER name="groom" wn="groom%2:29:03 groom%2:29:00" grouping="groom.01"/>
+        <MEMBER name="neaten" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -19,7 +21,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Sheila groomed the horse.</EXAMPLE>
             </EXAMPLES>

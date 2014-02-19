@@ -2,11 +2,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="promote-102" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="promote" wn=""/>
-        <MEMBER name="advance" wn=""/>
-        <MEMBER name="boost" wn=""/>
-        <MEMBER name="further" wn=""/>
-        <MEMBER name="encourage" wn=""/>
+        <MEMBER name="promote" wn="promote%2:41:01 promote%2:32:00" grouping="promote.01"/>
+        <MEMBER name="advance" wn="advance%2:41:01 advance%2:41:00" grouping="advance.03 advance.04"/>
+        <MEMBER name="boost" wn="boost%2:41:00" grouping="boost.01"/>
+        <MEMBER name="further" wn="further%2:41:00 further%2:41:01" grouping="further.01"/>
+        <MEMBER name="encourage" wn="encourage%2:41:00" grouping="encourage.01"/>
+        <MEMBER name="invite" wn="invite%2:32:01" grouping="invite.02"/>
+        <MEMBER name="emphasize" wn="emphasize%2:32:00" grouping="emphasize.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -21,7 +23,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>We promoted the cause.</EXAMPLE>
             </EXAMPLES>
@@ -45,7 +47,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="ING-AC" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-AC" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>We promoted writing novels.</EXAMPLE>
             </EXAMPLES>
@@ -71,7 +73,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="POSSING" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="POSSING" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>We promoted their writing novels.</EXAMPLE>                                                              
             </EXAMPLES>

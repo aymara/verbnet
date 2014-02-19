@@ -2,24 +2,24 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="classify-29.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="classify" wn=""/>
-        <MEMBER name="class" wn=""/>
-        <MEMBER name="sort" wn=""/>
-        <MEMBER name="isolate" wn=""/>
-        <MEMBER name="reclassify" wn=""/>
-        <MEMBER name="group" wn=""/>
-        <MEMBER name="regroup" wn=""/>
-        <MEMBER name="bracket" wn=""/>
-        <MEMBER name="lump" wn=""/>
-        <MEMBER name="chunk" wn=""/>
-        <MEMBER name="grade" wn=""/>
-        <MEMBER name="number" wn=""/>
-        <MEMBER name="catalogue" wn=""/>
-        <MEMBER name="sort_out" wn=""/>
-        <MEMBER name="separate" wn=""/>
-        <MEMBER name="categorize" wn=""/>
-        <MEMBER name="code" wn=""/>
-        <MEMBER name="recode" wn=""/>
+        <MEMBER name="classify" wn="classify%2:31:00" grouping="classify.01"/>
+        <MEMBER name="class" wn="class%2:31:00" grouping=""/>
+        <MEMBER name="sort" wn="sort%2:31:00" grouping="sort.02"/>
+        <MEMBER name="isolate" wn="isolate%2:30:02" grouping="isolate.01"/>
+        <MEMBER name="reclassify" wn="reclassify%2:31:00" grouping=""/>
+        <MEMBER name="group" wn="group%2:31:00" grouping="group.01"/>
+        <MEMBER name="regroup" wn="regroup%2:31:00" grouping="regroup.02"/>
+        <MEMBER name="bracket" wn="bracket%2:31:00" grouping=""/>
+        <MEMBER name="lump" wn="lump%2:31:13" grouping="lump.01"/>
+        <MEMBER name="chunk" wn="chunk%2:31:13" grouping=""/>
+        <MEMBER name="grade" wn="grade%2:31:03" grouping="grade.01"/>
+        <MEMBER name="number" wn="number%2:32:00" grouping="number.04"/>
+        <MEMBER name="catalogue" wn="catalogue%2:31:00" grouping=""/>
+        <MEMBER name="sort_out" wn="sort_out%2:31:00" grouping=""/>
+        <MEMBER name="separate" wn="separate%2:31:00" grouping="separate.01"/>
+        <MEMBER name="categorize" wn="categorize%2:31:00" grouping=""/>
+        <MEMBER name="code" wn="" grouping=""/>
+        <MEMBER name="recode" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -40,7 +40,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The curator classified the artifacts.</EXAMPLE>
             </EXAMPLES>
@@ -69,7 +69,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="as-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.predicate" secondary="NP-PPas-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>She classified the works as 'dangerous'.</EXAMPLE>
             </EXAMPLES>
@@ -107,7 +107,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="in-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.location" secondary="NP-PPin-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>She classified the articles into different genres.</EXAMPLE>
             </EXAMPLES>

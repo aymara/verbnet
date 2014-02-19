@@ -2,9 +2,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="register-54.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="clock" wn=""/>
-        <MEMBER name="time" wn=""/>
-        <MEMBER name="mistime" wn=""/>
+        <MEMBER name="clock" wn="" grouping=""/>
+        <MEMBER name="time" wn="" grouping=""/>
+        <MEMBER name="mistime" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -21,7 +21,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He clocked the runners.</EXAMPLE>
             </EXAMPLES>
@@ -46,8 +46,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP"
-            secondary="at-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.value" secondary="NP-PPat-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He clocked the runners at different
                 speeds.</EXAMPLE>
@@ -81,8 +80,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP"
-            secondary="at-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.value" secondary="PPat-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He clocked at 85km/hr.</EXAMPLE>
             </EXAMPLES>
@@ -115,17 +113,16 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="register-54.1-1">
             <MEMBERS>
-                <MEMBER name="measure" wn="measure%2:31:00 measure%2:42:00"/>
-                <MEMBER name="read" wn="read%2:32:02"/>
-                <MEMBER name="register" wn="register%2:32:00"/>
-                <MEMBER name="total" wn="total%2:42:00"/>
-                <MEMBER name="weigh" wn="weigh%2:42:01 weigh%2:42:00"/>
+                <MEMBER name="measure" wn="measure%2:31:00 measure%2:42:00" grouping="measure.01 measure.03"/>
+                <MEMBER name="read" wn="read%2:32:02" grouping="read.06"/>
+                <MEMBER name="register" wn="register%2:32:00" grouping="register.03"/>
+                <MEMBER name="total" wn="total%2:42:00" grouping="total.01"/>
+                <MEMBER name="weigh" wn="weigh%2:42:01 weigh%2:42:00" grouping="weigh.01 weigh.02"/>
             </MEMBERS>
         <THEMROLES/>
         <FRAMES>
             <FRAME>
-                <DESCRIPTION descriptionNumber="0.2" primary="Transitive"
-                secondary="Attribute Object" xtag=""/>
+                <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.value" secondary="TransitiveAttribute Object" xtag=""/>
                 <EXAMPLES>
                     <EXAMPLE>The package weighed ten pounds.</EXAMPLE>
                 </EXAMPLES>

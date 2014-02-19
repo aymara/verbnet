@@ -2,14 +2,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="banish-10.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="banish" wn="banish%2:41:01 banish%2:41:02 banish%2:41:00 banish%2:38:00"/>
-        <MEMBER name="deport" wn="deport%2:41:01 deport%2:41:00"/>
-        <MEMBER name="evacuate" wn="evacuate%2:38:01 evacuate%2:38:00"/>
+        <MEMBER name="banish" wn="banish%2:41:01 banish%2:41:02 banish%2:41:00 banish%2:38:00" grouping="banish.01 banish.02"/>
+        <MEMBER name="deport" wn="deport%2:41:01 deport%2:41:00" grouping="deport.01"/>
+        <MEMBER name="evacuate" wn="evacuate%2:38:01 evacuate%2:38:00" grouping="evacuate.01"/>
         <MEMBER name="expel" wn="expel%2:41:00 expel%2:41:01" grouping="expel.01"/>
-        <MEMBER name="extradite" wn="extradite%2:41:00"/>
-        <MEMBER name="recall" wn="recall%2:32:02 recall%2:41:00 recall%2:40:00" grouping="recall.02"/>
+        <MEMBER name="extradite" wn="extradite%2:41:00" grouping=""/>
+        <MEMBER name="recall" wn="recall%2:32:02 recall%2:41:00 recall%2:40:00" grouping="recall.02 recall.03"/>
         <MEMBER name="remove" wn="remove%2:30:00 remove%2:41:00 remove%2:40:00 remove%2:41:02 remove%2:38:00" grouping="remove.01"/>
-        <MEMBER name="shanghai" wn="shanghai%2:35:00"/>
+        <MEMBER name="shanghai" wn="shanghai%2:35:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -38,7 +38,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The king banished the general.</EXAMPLE>
             </EXAMPLES>
@@ -75,7 +75,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PPSource-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The king banished the general from the army.</EXAMPLE>
             </EXAMPLES>
@@ -120,7 +120,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Destination-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PPDestination-PP" xtag=""/>
             <!--"remove"? *remove the book to the table-->
             <EXAMPLES>
                 <EXAMPLE>The king deported the general to the isle.</EXAMPLE>

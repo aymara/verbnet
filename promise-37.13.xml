@@ -2,10 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="promise-37.13" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="assure" wn=""/>
-        <MEMBER name="guarantee" wn=""/>
-        <MEMBER name="promise" wn=""/>
-        <MEMBER name="ascertain" wn=""/>
+        <MEMBER name="assure" wn="assure%2:32:02" grouping="assure.01"/>
+        <MEMBER name="guarantee" wn="guarantee%2:32:01" grouping="guarantee.01"/>
+        <MEMBER name="promise" wn="promise%2:32:00" grouping="promise.01"/>
+        <MEMBER name="ascertain" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -26,7 +26,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP NP" secondary="NP-NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I promised him the house.</EXAMPLE>
             </EXAMPLES>
@@ -60,7 +60,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP that S" secondary="NP-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I promised him that he would arrive in time.</EXAMPLE>
             </EXAMPLES>
@@ -96,7 +96,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="POSSING" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="POSSING" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I promised his getting the position.</EXAMPLE>
             </EXAMPLES>
@@ -129,7 +129,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-THAT-S" secondary="to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient that S" secondary="PP-THAT-Sto-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I promised to him that he would arrive in time.</EXAMPLE>                                                              
             </EXAMPLES>
@@ -168,7 +168,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="S" secondary="" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>                    
             <EXAMPLES>
                 <EXAMPLE>I promised that I would come.</EXAMPLE>
             </EXAMPLES>

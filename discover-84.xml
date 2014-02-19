@@ -2,14 +2,16 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="discover-84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="deduce" wn="deduce%2:31:00 deduce%2:32:00"/>
-        <MEMBER name="determine" wn="determine%2:32:00"/>
-        <MEMBER name="discover" wn="discover%2:39:03 discover%2:31:01 discover%2:36:00 discover%2:31:00 discover%2:40:00 discover%2:39:00 discover%2:31:03"/>
-        <MEMBER name="figure_out" wn="figure_out%2:31:00"/>
-        <MEMBER name="find" wn="find%2:39:02 find%2:40:00 find%2:32:00 find%2:36:00 find%2:31:09"/>
-        <MEMBER name="guess" wn=""/>
-        <MEMBER name="realize" wn="realize%2:31:01"/>
-        <MEMBER name="ascertain" wn="ascertain%2:31:01"/>
+        <MEMBER name="deduce" wn="deduce%2:31:00 deduce%2:32:00" grouping="deduce.01"/>
+        <MEMBER name="determine" wn="determine%2:32:00" grouping="determine.01"/>
+        <MEMBER name="discover" wn="discover%2:39:03 discover%2:31:01 discover%2:36:00 discover%2:31:00 discover%2:40:00 discover%2:39:00 discover%2:31:03" grouping="discover.01"/>
+        <MEMBER name="figure_out" wn="figure_out%2:31:00" grouping=""/>
+        <MEMBER name="find" wn="find%2:39:02 find%2:40:00 find%2:32:00 find%2:36:00 find%2:31:09" grouping="find.01 find.02"/>
+        <MEMBER name="guess" wn="guess%2:31:02" grouping="guess.02"/>
+        <MEMBER name="realize" wn="realize%2:31:01" grouping="realize.01"/>
+        <MEMBER name="ascertain" wn="ascertain%2:31:01" grouping="ascertain.01"/>
+        <MEMBER name="rationalize" wn="rationalize%2:32:00" grouping="rationalize.01"/>
+        <MEMBER name="solve" wn="solve%2:31:00 solve%2:31:01" grouping="solve.01 solve.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -27,7 +29,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="HOW-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V how S" secondary="HOW-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I discovered how she did it.</EXAMPLE>
             </EXAMPLES>
@@ -54,7 +56,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="HOW-TO-INF" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V how S_INF" secondary="HOW-TO-INF" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I discovered how to do it.</EXAMPLE>
             </EXAMPLES>
@@ -81,7 +83,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I discovered the fleece.</EXAMPLE>
             </EXAMPLES>
@@ -108,7 +110,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I discovered that it didn't make sense.</EXAMPLE>
             </EXAMPLES>
@@ -135,7 +137,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="WHAT-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V what S" secondary="WHAT-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I discovered what he should do.</EXAMPLE>
             </EXAMPLES>
@@ -162,7 +164,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V what S_INF" secondary="WHAT-TO-INF" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I discovered what to do.</EXAMPLE>
             </EXAMPLES>
@@ -192,12 +194,12 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="discover-84-1">
             <MEMBERS>
-                <MEMBER name="pick_up" wn="pick_up%2:31:00"/>
+                <MEMBER name="pick_up" wn="pick_up%2:31:00" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-NP-ING" secondary="about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-NP-INGabout-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I discovered about him drinking.</EXAMPLE>
                     </EXAMPLES>
@@ -227,7 +229,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="PP-HOW-S" secondary="from-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source how S" secondary="PP-HOW-Sfrom-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I discovered from them how she did it.</EXAMPLE>
                     </EXAMPLES>
@@ -260,7 +262,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="PP-HOW-TO-INF" secondary="from-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source how S_INF" secondary="PP-HOW-TO-INFfrom-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I discovered from them how to do it.</EXAMPLE>
                     </EXAMPLES>
@@ -293,7 +295,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WH-S" secondary="from-PP about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.theme whether/if S" secondary="PP-P-WH-Sfrom-PP about-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I discovered from him about whether he should kill the peasants.</EXAMPLE>
                     </EXAMPLES>
@@ -329,7 +331,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WHAT-S" secondary="from-PP about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.theme what S" secondary="PP-P-WHAT-Sfrom-PP about-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I discovered from him about what he should do.</EXAMPLE>
                     </EXAMPLES>
@@ -365,7 +367,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WHAT-TO-INF" secondary="from-PP about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.theme what S_INF" secondary="PP-P-WHAT-TO-INFfrom-PP about-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I learned from him about what to do.</EXAMPLE>
                     </EXAMPLES>
@@ -401,7 +403,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WH-TO-INF" secondary="from-PP about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source PP.theme wheter S_INF" secondary="PP-P-WH-TO-INFfrom-PP about-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I discovered from him about whether to go.</EXAMPLE>
                     </EXAMPLES>
@@ -437,7 +439,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="S" secondary="" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I discovered that it didn't make sense.</EXAMPLE>
                     </EXAMPLES>
@@ -464,7 +466,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" secondary="" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V what S_INF" secondary="WHAT-TO-INF" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I discovered what to do.</EXAMPLE>
                     </EXAMPLES>
@@ -494,17 +496,17 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="discover-84-1-1">
                     <MEMBERS>
-                        <MEMBER name="hear" wn="hear%2:31:00"/>
-                        <MEMBER name="learn" wn="learn%2:31:01"/>
-                        <MEMBER name="read" wn="read%2:31:00"/>
-                        <MEMBER name="study" wn="study%2:31:02"/>
-                        <MEMBER name="find_out" wn="find_out%2:31:00 find_out%2:32:01"/>
-                        <MEMBER name="figure_out" wn="figure_out%2:31:00"/>
+                        <MEMBER name="hear" wn="hear%2:31:00" grouping="hear.01"/>
+                        <MEMBER name="learn" wn="learn%2:31:01" grouping="learn.02"/>
+                        <MEMBER name="read" wn="read%2:31:00" grouping="read.01"/>
+                        <MEMBER name="study" wn="study%2:31:02" grouping="study.01"/>
+                        <MEMBER name="find_out" wn="find_out%2:31:00 find_out%2:32:01" grouping=""/>
+                        <MEMBER name="figure_out" wn="figure_out%2:31:00" grouping=""/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
+                            <DESCRIPTION descriptionNumber="0.1" primary="NP v" secondary="Basic Intransitive" xtag="0.2"/>
                             <EXAMPLES>
                                 <EXAMPLE>I learned.</EXAMPLE>
                             </EXAMPLES>
@@ -526,7 +528,7 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="P-POSSING" secondary="about-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-POSSINGabout-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>I learned about his drinking.</EXAMPLE>
                             </EXAMPLES>
@@ -556,7 +558,7 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-S" secondary="about-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme what S" secondary="P-WHAT-Sabout-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>I learned about what he drank.</EXAMPLE>
                             </EXAMPLES>
@@ -586,7 +588,7 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="about-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="PPabout-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>I learned about the drinking.</EXAMPLE>
                             </EXAMPLES>
@@ -616,7 +618,7 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="PP-PP" secondary="about-PP from-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme PP.source" secondary="PP-PPabout-PP from-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>I learned about it from a book.</EXAMPLE>
                             </EXAMPLES>

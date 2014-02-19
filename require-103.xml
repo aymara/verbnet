@@ -2,12 +2,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="require-103" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="necessitate" wn=""/>
-        <MEMBER name="need" wn=""/>
-        <MEMBER name="require" wn=""/>
-        <MEMBER name="take" wn=""/>
-        <MEMBER name="involve" wn=""/>
-        <MEMBER name="demand" wn=""/>
+        <MEMBER name="necessitate" wn="necessitate%2:42:00" grouping=""/>
+        <MEMBER name="need" wn="need%2:42:00" grouping="need.01"/>
+        <MEMBER name="require" wn="require%2:34:00" grouping="require.01"/>
+        <MEMBER name="take" wn="take%2:42:00" grouping="take.07"/>
+        <MEMBER name="involve" wn="involve%2:42:07" grouping="involve.02"/>
+        <MEMBER name="demand" wn="demand%2:42:00" grouping="demand.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme1">
@@ -22,7 +22,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Success requires hard work.</EXAMPLE>
             </EXAMPLES>
@@ -47,7 +47,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="from-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source" secondary="NP-PPfrom-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Success requires hard work from us.</EXAMPLE>
             </EXAMPLES>
@@ -78,7 +78,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="FOR-TO-INF" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V for NP S_INF" secondary="FOR-TO-INF" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Success requires for us to work hard.</EXAMPLE>
             </EXAMPLES>
@@ -105,7 +105,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="ING-AC" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-AC" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Success requires working long hours.</EXAMPLE>                                                              
             </EXAMPLES>
@@ -132,7 +132,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="S-SUBJUNCT" secondary="" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S-SUBJUNCT" xtag="0.2"/>                    
             <EXAMPLES>
                 <EXAMPLE>Success requires that we work hard.</EXAMPLE>
             </EXAMPLES>

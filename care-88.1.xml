@@ -2,7 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="care-88.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="mind" wn="mind%2:32:00 mind%2:31:02"/>
+        <MEMBER name="mind" wn="mind%2:32:00 mind%2:31:02" grouping="mind.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -17,7 +17,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He doesn't care.</EXAMPLE>
             </EXAMPLES>
@@ -38,7 +38,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He doesn't care that she comes.</EXAMPLE>
             </EXAMPLES>
@@ -70,7 +70,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WH-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V whether/if S" secondary="WH-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He doesn't care whether she comes.</EXAMPLE>
             </EXAMPLES>
@@ -105,14 +105,14 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="care-88.1-1">
             <MEMBERS>
-                <MEMBER name="care" wn="care%2:37:02 care%2:37:12"/>
-                <MEMBER name="worry" wn="worry%2:37:00 worry%2:37:12"/>
-                <MEMBER name="wonder" wn="wonder%2:32:01"/>
+                <MEMBER name="care" wn="care%2:37:02 care%2:37:12" grouping="care.01"/>
+                <MEMBER name="worry" wn="worry%2:37:00 worry%2:37:12" grouping="worry.01"/>
+                <MEMBER name="wonder" wn="wonder%2:32:01" grouping="wonder.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-S" secondary="about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.cause what S" secondary="P-WHAT-Sabout-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>He doesn't care about what he should do.</EXAMPLE>
                     </EXAMPLES>
@@ -147,7 +147,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V what S" secondary="WHAT-S" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I don't care what he does.</EXAMPLE>
                     </EXAMPLES>
@@ -179,7 +179,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-WH-S" secondary="about-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.cause how/whether S" secondary="P-WH-Sabout-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>He doesn't care about how/whether she comes.</EXAMPLE>
                     </EXAMPLES>

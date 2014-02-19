@@ -2,11 +2,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="base-97.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="base" wn=""/>
-        <MEMBER name="establish" wn=""/>
-        <MEMBER name="ground" wn=""/>
-        <MEMBER name="found" wn=""/>
-        <MEMBER name="build" wn=""/>
+        <MEMBER name="base" wn="base%2:31:00" grouping="base.01"/>
+        <MEMBER name="establish" wn="establish%2:31:03" grouping="establish.02"/>
+        <MEMBER name="ground" wn="ground%2:31:00" grouping="ground.02"/>
+        <MEMBER name="found" wn="found%2:31:00" grouping="found.02"/>
+        <MEMBER name="build" wn="build%2:31:03" grouping="build.03"/>
+        <MEMBER name="construe" wn="construe%2:31:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -24,7 +25,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="on-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme2" secondary="NP-PPon-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>We based our plans on his information.</EXAMPLE>
             </EXAMPLES>
@@ -60,7 +61,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-P-WH-S" secondary="on-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme2 whether S" secondary="NP-P-WH-Son-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They based their decision on whether he happened to come or not.</EXAMPLE>
             </EXAMPLES>
@@ -98,7 +99,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-P-POSSING" secondary="on-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme2 S_ING" secondary="NP-P-POSSINGon-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They based their plan on his seizing the base.</EXAMPLE>                                                              
             </EXAMPLES>
@@ -136,7 +137,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-P-NP-ING" secondary="on-PP" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme2 S" secondary="NP-P-NP-INGon-PP" xtag="0.2"/>                    
             <EXAMPLES>
                 <EXAMPLE>They based their plans on him getting in on time.</EXAMPLE>
             </EXAMPLES>

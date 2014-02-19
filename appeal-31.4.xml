@@ -14,7 +14,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Experiencer-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.experiencer" secondary="PPExperiencer-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>This painting appeals to Malinda.</EXAMPLE>
             </EXAMPLES>
@@ -50,12 +50,12 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="appeal-31.4-1">
             <MEMBERS>
-                <MEMBER name="niggle" wn="niggle%2:37:00"/>
+                <MEMBER name="niggle" wn="niggle%2:37:00" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="at-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.experiencer" secondary="PPat-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The irritation niggled at Melinda.</EXAMPLE>
                     </EXAMPLES>
@@ -92,13 +92,13 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="appeal-31.4-2">
             <MEMBERS>
-                <MEMBER name="grate" wn="grate%2:37:00"/>
-                <MEMBER name="jar" wn="jar%2:37:00"/>
+                <MEMBER name="grate" wn="grate%2:37:00" grouping="grate.02"/>
+                <MEMBER name="jar" wn="jar%2:37:00" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="on-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.experiencer" secondary="PPon-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The music grates on me.</EXAMPLE>
                     </EXAMPLES>
@@ -135,13 +135,13 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="appeal-31.4-3">
             <MEMBERS>
-                <MEMBER name="appeal" wn="appeal%2:37:00"/>
-                <MEMBER name="matter" wn="matter%2:42:00"/>
+                <MEMBER name="appeal" wn="appeal%2:37:00" grouping="appeal.03"/>
+                <MEMBER name="matter" wn="matter%2:42:00" grouping="matter.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Basic Intransitive" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Basic Intransitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Stuff matters.</EXAMPLE>
                     </EXAMPLES>

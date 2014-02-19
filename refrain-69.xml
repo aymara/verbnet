@@ -2,9 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="refrain-69" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="refrain" wn="refrain%2:42:00 refrain%2:34:00"/>
-        <MEMBER name="abstain" wn="abstain%2:41:00 abstain%2:34:00"/>
-        <MEMBER name="desist" wn="desist%2:34:00"/>
+        <MEMBER name="refrain" wn="refrain%2:42:00 refrain%2:34:00" grouping="refrain.01"/>
+        <MEMBER name="abstain" wn="abstain%2:41:00 abstain%2:34:00" grouping=""/>
+        <MEMBER name="desist" wn="desist%2:34:00" grouping=""/>
+        <MEMBER name="forbear" wn="forbear%2:42:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -19,7 +20,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="Unspecified Object" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V" secondary="Unspecified Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He refrained.</EXAMPLE>
             </EXAMPLES>
@@ -40,7 +41,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="from-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCfrom-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He refrained from eating.</EXAMPLE>
             </EXAMPLES>
@@ -69,7 +70,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="from-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme S" secondary="PPfrom-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He refrained from the lurid activity while in the lady's company.</EXAMPLE>
             </EXAMPLES>

@@ -2,10 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="being_dressed-41.3.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="attire" wn="attire%2:29:00"/>
-        <MEMBER name="clad" wn=""/>
-        <MEMBER name="garb" wn="garb%2:29:00"/>
-        <MEMBER name="robe" wn="robe%2:29:00"/>
+        <MEMBER name="attire" wn="attire%2:29:00" grouping=""/>
+        <MEMBER name="clad" wn="" grouping=""/>
+        <MEMBER name="garb" wn="garb%2:29:00" grouping=""/>
+        <MEMBER name="robe" wn="robe%2:29:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

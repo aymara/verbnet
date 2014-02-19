@@ -2,11 +2,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="keep-15.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="hoard" wn="hoard%2:40:01"/>
-        <MEMBER name="keep" wn="keep%2:40:13 keep%2:40:12 keep%2:40:10"/>
-        <MEMBER name="leave" wn="leave%2:40:06 leave%2:31:02"/>
-        <MEMBER name="store" wn="store%2:40:00 store%2:40:02"/>
-        <MEMBER name="stock" wn="stock%2:40:00"/>
+        <MEMBER name="hoard" wn="hoard%2:40:01" grouping=""/>
+        <MEMBER name="keep" wn="keep%2:40:13 keep%2:40:12 keep%2:40:10" grouping="keep.03"/>
+        <MEMBER name="leave" wn="leave%2:40:06 leave%2:31:02" grouping="leave.02"/>
+        <MEMBER name="store" wn="store%2:40:00 store%2:40:02" grouping="store.01"/>
+        <MEMBER name="stock" wn="stock%2:40:00" grouping="stock.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -27,7 +27,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PPlocative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Michelle kept the papers in the desk.</EXAMPLE>
             </EXAMPLES>
@@ -65,7 +65,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Many small investors in Belgium store securities.</EXAMPLE>
             </EXAMPLES>

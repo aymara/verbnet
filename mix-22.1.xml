@@ -33,17 +33,17 @@
                 <!--physical, change of integrity of Patients (but note
                 alternate interpretation when both Patients are plural and
                 countable - "mixed eggs and marbles")-->
-                <MEMBER name="admix" wn="admix%2:30:00"/>
-                <MEMBER name="consolidate" wn="consolidate%2:30:00 consolidate%2:30:01 consolidate%2:30:04 consolidate%2:30:03"/>
-                <MEMBER name="intermix" wn="intermix%2:35:00"/>
-                <MEMBER name="scramble" wn="scramble%2:35:00 scramble%2:35:02"/>
-                <MEMBER name="tumble" wn="tumble%2:35:00"/>
-                <MEMBER name="cream" wn="cream%2:35:00"/>
+                <MEMBER name="admix" wn="admix%2:30:00" grouping=""/>
+                <MEMBER name="consolidate" wn="consolidate%2:30:00 consolidate%2:30:01 consolidate%2:30:04 consolidate%2:30:03" grouping="consolidate.01 consolidate.02"/>
+                <MEMBER name="intermix" wn="intermix%2:35:00" grouping=""/>
+                <MEMBER name="scramble" wn="scramble%2:35:00 scramble%2:35:02" grouping="scramble.02"/>
+                <MEMBER name="tumble" wn="tumble%2:35:00" grouping="tumble.03"/>
+                <MEMBER name="cream" wn="cream%2:35:00" grouping="cream.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP-PP" secondary="with-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP V NP PP.patient2" secondary="NP-PPwith-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Herman mixed the eggs with the cream.</EXAMPLE>
                     </EXAMPLES>
@@ -92,7 +92,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Transitive" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP V NP" secondary="Simple Reciprocal Transitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Herman mixed the eggs.</EXAMPLE>
                     </EXAMPLES>
@@ -137,7 +137,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.2" primary="Together Reciprocal Alternation Transitive" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.2" primary="NP V NP NP together" secondary="Together Reciprocal Alternation Transitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Herman mixed the eggs and the cream together.</EXAMPLE>
                     </EXAMPLES>
@@ -183,7 +183,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.4" primary="PP" secondary="with-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.4" primary="NP V PP.patient2" secondary="PPwith-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The eggs mixed with the cream.</EXAMPLE>
                     </EXAMPLES>
@@ -223,7 +223,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle PP" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Eggs mix well with cream.</EXAMPLE>
                     </EXAMPLES>
@@ -255,7 +255,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Eggs mix well.</EXAMPLE>
                     </EXAMPLES>
@@ -283,7 +283,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP NP V ADVP-Middle together" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Eggs and cream mix well together.</EXAMPLE>
                     </EXAMPLES>
@@ -316,22 +316,22 @@
                 <VNSUBCLASS ID="mix-22.1-1-1">
                     <MEMBERS>
                         <!--physical, change of integrity of Patients (but note alternate interpretation when both Patients are plural and countable - "mixed eggs and marbles")-->
-                        <MEMBER name="amalgamate" wn="amalgamate%2:35:00"/>
-                        <MEMBER name="blend" wn="blend%2:35:00"/>
-                        <MEMBER name="coalesce" wn="coalesce%2:30:00 coalesce%2:35:00"/>
-                        <MEMBER name="combine" wn="combine%2:35:01"/>
-                        <MEMBER name="compound" wn="compound%2:30:00 compound%2:36:00 compound%2:35:00"/>
-                        <MEMBER name="commingle" wn="?commingle%2:35:00"/>
-                        <MEMBER name="fuse" wn="fuse%2:30:00"/>
-                        <MEMBER name="meld" wn="meld%2:30:00"/>
-                        <MEMBER name="merge" wn="merge%2:30:01"/>
-                        <MEMBER name="mingle" wn="mingle%2:35:00"/>
-                        <MEMBER name="mix" wn="mix%2:30:00 mix%2:30:01"/>
+                        <MEMBER name="amalgamate" wn="amalgamate%2:35:00" grouping=""/>
+                        <MEMBER name="blend" wn="blend%2:35:00" grouping="blend.01"/>
+                        <MEMBER name="coalesce" wn="coalesce%2:30:00 coalesce%2:35:00" grouping=""/>
+                        <MEMBER name="combine" wn="combine%2:35:01" grouping="combine.01"/>
+                        <MEMBER name="compound" wn="compound%2:30:00 compound%2:36:00 compound%2:35:00" grouping="compound.02"/>
+                        <MEMBER name="commingle" wn="?commingle%2:35:00" grouping=""/>
+                        <MEMBER name="fuse" wn="fuse%2:30:00" grouping="fuse.01"/>
+                        <MEMBER name="meld" wn="meld%2:30:00" grouping=""/>
+                        <MEMBER name="merge" wn="merge%2:30:01" grouping="merge.02"/>
+                        <MEMBER name="mingle" wn="mingle%2:35:00" grouping=""/>
+                        <MEMBER name="mix" wn="mix%2:30:00 mix%2:30:01" grouping="mix.01"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.4" primary="NP NP V" secondary="Simple Reciprocal Intransitive" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>The eggs and the cream mixed.</EXAMPLE>
                             </EXAMPLES>
@@ -367,7 +367,7 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.5" primary="Together Reciprocal Alternation Intransitive" secondary="" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.5" primary="NP NP V together" secondary="Together Reciprocal Alternation Intransitive" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>The eggs and the cream mixed together.</EXAMPLE>
                             </EXAMPLES>
@@ -411,13 +411,13 @@
         <VNSUBCLASS ID="mix-22.1-2">
             <MEMBERS>
                 <!--physical, no change of integrity of Patients-->
-                <MEMBER name="add" wn="add%2:30:00"/>
-                <MEMBER name="tie" wn="tie%2:35:01 tie%2:36:00"/>
+                <MEMBER name="add" wn="add%2:30:00" grouping="add.01"/>
+                <MEMBER name="tie" wn="tie%2:35:01 tie%2:36:00" grouping="tie.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP-PP" secondary="to-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP V NP PP.patient2" secondary="NP-PPto-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Herman added a computer to the network.</EXAMPLE>
                     </EXAMPLES>
@@ -454,7 +454,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Transitive" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP V NP" secondary="Simple Reciprocal Transitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Herman connected the computers.</EXAMPLE>
                     </EXAMPLES>
@@ -487,7 +487,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.2" primary="Together Reciprocal Alternation Transitive" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.2" primary="NP V NP together" secondary="Together Reciprocal Alternation Transitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Herman connected the computers together.</EXAMPLE>
                     </EXAMPLES>
@@ -521,7 +521,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle PP" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>This computer will connect well to the network.</EXAMPLE>
                     </EXAMPLES>
@@ -553,7 +553,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>These computers connected well.</EXAMPLE>
                     </EXAMPLES>
@@ -581,7 +581,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>These computers connected well together.</EXAMPLE>
                     </EXAMPLES>
@@ -614,18 +614,18 @@
                 <VNSUBCLASS ID="mix-22.1-2-1">
                     <MEMBERS>
                         <!--REMOVED "concatenate" misclassified-->
-                        <MEMBER name="connect" wn="connect%2:35:00"/>
-                        <MEMBER name="join" wn="join%2:35:01 join%2:35:00 join%2:42:01"/>
-                        <MEMBER name="link" wn="link%2:35:00 link%2:42:01 link%2:35:02"/>
-                        <MEMBER name="pair" wn="pair%2:35:01 pair%2:35:03"/>
-                        <MEMBER name="pool" wn="pool%2:40:00"/>
-                        <MEMBER name="network" wn="network%2:32:00"/>
-                        <MEMBER name="unite" wn="unite%2:30:00 unite%2:42:01 unite%2:42:02 unite%2:30:02"/>
+                        <MEMBER name="connect" wn="connect%2:35:00" grouping="connect.01"/>
+                        <MEMBER name="join" wn="join%2:35:01 join%2:35:00 join%2:42:01" grouping="join.01"/>
+                        <MEMBER name="link" wn="link%2:35:00 link%2:42:01 link%2:35:02" grouping="link.02"/>
+                        <MEMBER name="pair" wn="pair%2:35:01 pair%2:35:03" grouping="pair.01"/>
+                        <MEMBER name="pool" wn="pool%2:40:00" grouping=""/>
+                        <MEMBER name="network" wn="network%2:32:00" grouping=""/>
+                        <MEMBER name="unite" wn="unite%2:30:00 unite%2:42:01 unite%2:42:02 unite%2:30:02" grouping="unite.01"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.4" primary="PP" secondary="with/into/to-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.4" primary="NP V PP.patient" secondary="PPwith/into/to-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>My computer connected to his computer.</EXAMPLE>
                             </EXAMPLES>
@@ -653,7 +653,7 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.4" primary="NP V" secondary="Simple Reciprocal Intransitive" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>Our computers connected.</EXAMPLE>
                             </EXAMPLES>
@@ -677,7 +677,7 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.5" primary="Together Reciprocal Alternation Intransitive" secondary="" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.5" primary="NP V together" secondary="Together Reciprocal Alternation Intransitive" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>Our computers connected together.</EXAMPLE>
                             </EXAMPLES>

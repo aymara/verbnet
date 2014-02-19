@@ -2,10 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="multiply-108" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="sum" wn=""/>
-        <MEMBER name="add" wn=""/>
-        <MEMBER name="tally" wn=""/>
-        <MEMBER name="count" wn=""/>
+        <MEMBER name="sum" wn="sum%2:32:00" grouping="sum.02"/>
+        <MEMBER name="add" wn="add%2:32:00 add%2:31:00" grouping="add.02"/>
+        <MEMBER name="tally" wn="tally%2:32:00" grouping="tally.01"/>
+        <MEMBER name="count" wn="count%2:32:00 count%2:31:00" grouping="count.01 count.03"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -26,7 +26,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="Plural object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NPPlural object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I summed the numbers.</EXAMPLE>
             </EXAMPLES>
@@ -55,13 +55,13 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="multiply-108-1">
             <MEMBERS>
-                <MEMBER name="multiply" wn=""/>
-                <MEMBER name="divide" wn=""/>
+                <MEMBER name="multiply" wn="" grouping=""/>
+                <MEMBER name="divide" wn="" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP-PP" secondary="by-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V NP PP.theme2" secondary="NP-PPby-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I multiplied x by y.</EXAMPLE>
                     </EXAMPLES>
@@ -96,16 +96,16 @@
 	</VNSUBCLASS>
         <VNSUBCLASS ID="multiply-108-2">
             <MEMBERS>
-                <MEMBER name="deduct" wn=""/>
-                <MEMBER name="factor_out" wn=""/>
-                <MEMBER name="inerpolate" wn=""/>
-                <MEMBER name="extrapolate" wn=""/>
-                <MEMBER name="subtract" wn=""/>
+                <MEMBER name="deduct" wn="" grouping=""/>
+                <MEMBER name="factor_out" wn="" grouping=""/>
+                <MEMBER name="inerpolate" wn="" grouping=""/>
+                <MEMBER name="extrapolate" wn="" grouping=""/>
+                <MEMBER name="subtract" wn="" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP-PP" secondary="from-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V NP PP.theme2" secondary="NP-PPfrom-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I subtracted x from y.</EXAMPLE>
                     </EXAMPLES>
@@ -140,12 +140,12 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="multiply-108-3">
             <MEMBERS>
-                <MEMBER name="average" wn=""/>
+                <MEMBER name="average" wn="" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP-PP" secondary="over-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V NP PP.theme2" secondary="NP-PPover-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I averaged x over n.</EXAMPLE>
                     </EXAMPLES>

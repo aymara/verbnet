@@ -2,11 +2,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="beg-58.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="beg" wn=""/>
-        <MEMBER name="ask" wn=""/>
-        <MEMBER name="request" wn=""/>
-        <MEMBER name="supplicate" wn=""/>
-        <MEMBER name="importune" wn=""/>
+        <MEMBER name="beg" wn="beg%2:32:00 beg%2:32:01" grouping="beg.01"/>
+        <MEMBER name="ask" wn="ask%2:32:00 ask%2:32:01" grouping="ask.01 ask.02"/>
+        <MEMBER name="request" wn="request%2:32:13 request%2:32:01 request%2:32:02" grouping="request.01"/>
+        <MEMBER name="supplicate" wn="supplicate%2:32:00 supplicate%2:32:01 supplicate%2:32:02" grouping=""/>
+        <MEMBER name="importune" wn="importune%2:32:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -27,7 +27,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="FOR-TO-INF" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V for NP S_INF" secondary="FOR-TO-INF" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I begged for her to do it.</EXAMPLE>
             </EXAMPLES>
@@ -54,7 +54,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="for-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.proposition" secondary="NP-PPfor-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I begged her for release.</EXAMPLE>
             </EXAMPLES>
@@ -87,7 +87,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-TO-INF-OC" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_INF" secondary="NP-TO-INF-OC" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I begged her to do it.</EXAMPLE>
             </EXAMPLES>
@@ -117,7 +117,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="for-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.proposition" secondary="PPfor-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I begged for release.</EXAMPLE>
             </EXAMPLES>
@@ -147,9 +147,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="S-SUBJUNCT" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP that S" secondary="S-SUBJUNCT" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>I begged him that he come.</EXAMPLE>                                                              
+                <EXAMPLE>I begged him that he come.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -177,7 +177,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" secondary="with-PP" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-SCwith-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I begged to come.</EXAMPLE>
             </EXAMPLES>

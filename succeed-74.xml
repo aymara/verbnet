@@ -17,12 +17,13 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="succeed-74-1">
             <MEMBERS>
-                <MEMBER name="succeed" wn="succeed%2:41:00"/>
+                <MEMBER name="succeed" wn="succeed%2:41:00" grouping="succeed.01"/>
+                <MEMBER name="excel" wn="excel%2:42:00" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP v" secondary="Basic Intransitive" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I succeeded.</EXAMPLE>
                     </EXAMPLES>
@@ -43,7 +44,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="in-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCin-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I succeeded in climbing the mountain.</EXAMPLE>
                     </EXAMPLES>
@@ -72,7 +73,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="in-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPin-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I succeeded in the endeavour.</EXAMPLE>
                     </EXAMPLES>
@@ -104,12 +105,12 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="succeed-74-1-1">
                     <MEMBERS>
-                        <MEMBER name="manage" wn="manage%2:41:09 manage%2:41:08"/>
+                        <MEMBER name="manage" wn="manage%2:41:09 manage%2:41:08" grouping="manage.01"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" secondary="" xtag="0.2"/>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-SC" xtag="0.2"/>
                             <EXAMPLES>
                                 <EXAMPLE>I managed to pass the test.</EXAMPLE>
                             </EXAMPLES>
@@ -141,12 +142,13 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="succeed-74-2">
             <MEMBERS>
-                <MEMBER name="fail" wn="fail%2:41:02 fail%2:41:00 fail%2:41:12"/>
+                <MEMBER name="fail" wn="fail%2:41:02 fail%2:41:00 fail%2:41:12" grouping="fail.01 fail.03"/>
+                <MEMBER name="flub" wn="" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I failed.</EXAMPLE>
                     </EXAMPLES>
@@ -167,7 +169,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I failed the test.</EXAMPLE>
                     </EXAMPLES>
@@ -193,7 +195,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="in-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCin-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I failed in attempting the test.</EXAMPLE>
                     </EXAMPLES>
@@ -222,7 +224,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="in-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPin-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I failed in maths.</EXAMPLE>
                     </EXAMPLES>
@@ -251,7 +253,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" secondary="" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-SC" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I failed to pass the test.</EXAMPLE>
                     </EXAMPLES>

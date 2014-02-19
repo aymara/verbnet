@@ -3,7 +3,7 @@
 <VNCLASS ID="bring-11.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <!--We should also specify deictic predicates, where direction is either towards or away from the "place of speaking" or the "point from which the action is regarded"-->
     <MEMBERS>
-        <MEMBER name="take" wn="take%2:38:09 take%2:38:10 take%2:42:10" grouping="take.04 take.05"/>
+        <MEMBER name="take" wn="take%2:38:09 take%2:38:10 take%2:42:10" grouping="take.04"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -33,7 +33,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Nora brought the book.</EXAMPLE>
             </EXAMPLES>
@@ -74,7 +74,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Goal-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PPGoal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Nora brought the book to the meeting.</EXAMPLE>
             </EXAMPLES>
@@ -135,7 +135,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="PP-NP" secondary="Goal-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.destination NP" secondary="PP-NPGoal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Nora brought to lunch the book.</EXAMPLE>
             </EXAMPLES>
@@ -196,7 +196,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PPSource-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Nora brought the book from home.</EXAMPLE>
             </EXAMPLES>
@@ -259,7 +259,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Source-PP Goal-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source PP.destination" secondary="NP-PP-PPSource-PP Goal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Nora brought the book from home to the meeting.</EXAMPLE>
             </EXAMPLES>
@@ -342,7 +342,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP-ADVP-PRED" secondary="here/there" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP ADVP" secondary="NP-ADVP-PREDhere/there" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The train brought us here.</EXAMPLE>
             </EXAMPLES>
@@ -416,7 +416,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.1" primary="NP V NP NP" secondary="Dative" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Nora brought Pamela the book.</EXAMPLE>
                     </EXAMPLES>
@@ -463,7 +463,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Together Reciprocal Alternation Transitive" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP together" secondary="Together Reciprocal Alternation Transitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Nora brought us together.</EXAMPLE>
                     </EXAMPLES>

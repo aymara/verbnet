@@ -3,20 +3,20 @@
 <VNCLASS ID="coloring-24" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Material comes from the verb-->
-        <MEMBER name="color" wn="color%2:30:00 color%2:36:01"/>
-        <MEMBER name="distemper" wn="distemper%2:36:00"/>
-        <MEMBER name="dye" wn="dye%2:30:00"/>
-        <MEMBER name="enamel" wn="enamel%2:36:00"/>
-        <MEMBER name="glaze" wn="glaze%2:35:00"/>
-        <MEMBER name="japan" wn="japan%2:36:00"/>
-        <MEMBER name="lacquer" wn="lacquer%2:36:00"/>
-        <MEMBER name="paint" wn="paint%2:35:00"/>
-        <MEMBER name="repaint" wn=""/>
-        <MEMBER name="shellac" wn="shellac%2:35:00"/>
-        <MEMBER name="spraypaint" wn=""/>
-        <MEMBER name="stain" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04"/>
-        <MEMBER name="tint" wn="tint%2:30:00"/>
-        <MEMBER name="varnish" wn="varnish%2:35:00"/>
+        <MEMBER name="color" wn="color%2:30:00 color%2:36:01" grouping="color.01"/>
+        <MEMBER name="distemper" wn="distemper%2:36:00" grouping=""/>
+        <MEMBER name="dye" wn="dye%2:30:00" grouping=""/>
+        <MEMBER name="enamel" wn="enamel%2:36:00" grouping=""/>
+        <MEMBER name="glaze" wn="glaze%2:35:00" grouping=""/>
+        <MEMBER name="japan" wn="japan%2:36:00" grouping=""/>
+        <MEMBER name="lacquer" wn="lacquer%2:36:00" grouping=""/>
+        <MEMBER name="paint" wn="paint%2:35:00" grouping="paint.02"/>
+        <MEMBER name="repaint" wn="" grouping=""/>
+        <MEMBER name="shellac" wn="shellac%2:35:00" grouping=""/>
+        <MEMBER name="spraypaint" wn="" grouping=""/>
+        <MEMBER name="stain" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04" grouping="stain.01 stain.02 stain.03"/>
+        <MEMBER name="tint" wn="tint%2:30:00" grouping=""/>
+        <MEMBER name="varnish" wn="varnish%2:35:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -32,7 +32,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Claire colors the picture.</EXAMPLE>
             </EXAMPLES>
@@ -69,7 +69,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJPResultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Claire colors the picture red.</EXAMPLE>
             </EXAMPLES>
@@ -113,7 +113,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Result-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Claire painted the wall into a splotchy mess.</EXAMPLE>
             </EXAMPLES>

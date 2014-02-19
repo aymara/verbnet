@@ -2,7 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="cope-83" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="deal" wn=""/>
+        <MEMBER name="deal" wn="deal%2:41:09" grouping="deal.03"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -12,15 +12,12 @@
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Theme">
-            <SELRESTRS logic="or">
-                <SELRESTR Value="+" type="animate"/>
-                <SELRESTR Value="+" type="organization"/>
-            </SELRESTRS>
+            <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="with-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="P-ING-SCwith-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He managed with dealing the cards.</EXAMPLE>
             </EXAMPLES>
@@ -52,12 +49,12 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="cope-83-1">
             <MEMBERS>
-                <MEMBER name="cope" wn=""/>
+                <MEMBER name="cope" wn="cope%2:41:00" grouping="cope.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>He managed.</EXAMPLE>
                     </EXAMPLES>
@@ -81,15 +78,14 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="cope-83-1-1">
                     <MEMBERS>
-                        <MEMBER name="manage" wn=""/>
-                        <MEMBER name="grapple" wn=""/>
-                        <MEMBER name="get_by" wn=""/>
-                        <MEMBER name="succeed" wn=""/>
+                        <MEMBER name="manage" wn="manage%2:41:03 " grouping="manage.03"/>
+                        <MEMBER name="grapple" wn="grapple%2:41:00" grouping=""/>
+                        <MEMBER name="get_by" wn="get_by%2:41:00" grouping=""/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+                            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
                             <EXAMPLES>
                                 <EXAMPLE>He managed the climb.</EXAMPLE>
                             </EXAMPLES>

@@ -2,11 +2,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="inquire-37.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="ask" wn="ask%2:32:00 ask%2:32:02 ask%2:32:04"/>
-        <MEMBER name="enquire" wn="enquire%2:32:00"/>
-        <MEMBER name="inquire" wn="inquire%2:32:01 inquire%2:31:00"/>
-        <MEMBER name="consult" wn="consult%2:32:02 consult%2:32:01"/>
-        <MEMBER name="pry" wn="pry%2:39:00"/>
+        <MEMBER name="ask" wn="ask%2:32:00 ask%2:32:02 ask%2:32:04" grouping="ask.01 ask.03"/>
+        <MEMBER name="enquire" wn="enquire%2:32:00" grouping="enquire.01"/>
+        <MEMBER name="inquire" wn="inquire%2:32:01 inquire%2:31:00" grouping=""/>
+        <MEMBER name="consult" wn="consult%2:32:02 consult%2:32:01" grouping="consult.01"/>
+        <MEMBER name="pry" wn="pry%2:39:00" grouping="pry.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -27,7 +27,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="HOW-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V how S" secondary="HOW-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked how she did it.</EXAMPLE>
             </EXAMPLES>
@@ -60,7 +60,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="HOW-TO-INF" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V how S_INF" secondary="HOW-TO-INF" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked how to do it.</EXAMPLE>
             </EXAMPLES>
@@ -93,7 +93,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP v" secondary="Basic Intransitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked.</EXAMPLE>
             </EXAMPLES>
@@ -121,7 +121,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Recipient Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.recipient" secondary="Basic TransitiveRecipient Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked him.</EXAMPLE>
             </EXAMPLES>
@@ -152,7 +152,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Topic Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.topic" secondary="Basic TransitiveTopic Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked a question.</EXAMPLE>
             </EXAMPLES>
@@ -185,7 +185,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.topic" secondary="NP-PPabout-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked him about it.</EXAMPLE>
             </EXAMPLES>
@@ -224,7 +224,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-WH-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP whether S" secondary="NP-WH-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked him whether he was going.</EXAMPLE>
             </EXAMPLES>
@@ -260,7 +260,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-WHAT-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP what S" secondary="NP-WHAT-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked him what he was doing.</EXAMPLE>
             </EXAMPLES>
@@ -296,7 +296,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-WH-TO-INF" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP whether S_INF" secondary="NP-WH-TO-INF" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked him whether to clean the house.</EXAMPLE>
             </EXAMPLES>
@@ -332,7 +332,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-WHAT-TO-INF" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP what S_INF" secondary="NP-WHAT-TO-INF" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked him what to do.</EXAMPLE>
             </EXAMPLES>
@@ -368,7 +368,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-WH-S" secondary="about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic whether S" secondary="P-WH-Sabout-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked about whether he wanted to go.</EXAMPLE>
             </EXAMPLES>
@@ -404,7 +404,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-S" secondary="about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.topic what S" secondary="P-WHAT-Sabout-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked him about what he wanted.</EXAMPLE>
             </EXAMPLES>
@@ -443,7 +443,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-WH-TO-INF" secondary="about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic whether S_INF" secondary="P-WH-TO-INFabout-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked about whether to go.</EXAMPLE>
             </EXAMPLES>
@@ -479,7 +479,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-TO-INF" secondary="about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic what S_INF" secondary="P-WHAT-TO-INFabout-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked about what to do.</EXAMPLE>
             </EXAMPLES>
@@ -515,7 +515,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.topic" secondary="PPabout-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked about it.</EXAMPLE>
             </EXAMPLES>
@@ -551,7 +551,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP-HOW-S" secondary="of-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.recipient how S" secondary="PP-HOW-Sof-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked of her how it works.</EXAMPLE>
             </EXAMPLES>
@@ -590,7 +590,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-HOW-TO-INF" secondary="of-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient how S_INF" secondary="PP-HOW-TO-INFof-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked of her how to do it.</EXAMPLE>
             </EXAMPLES>
@@ -629,7 +629,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WH-S" secondary="of-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient whether S" secondary="PP-P-WH-Sof-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked of her about whether he should kill the peasants.</EXAMPLE>
             </EXAMPLES>
@@ -671,7 +671,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WHAT-S" secondary="of-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient PP.topic what S" secondary="PP-P-WHAT-Sof-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked of her about what he should do.</EXAMPLE>
             </EXAMPLES>
@@ -713,7 +713,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WHAT-TO-INF" secondary="of-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient PP.topic what S_INF" secondary="PP-P-WHAT-TO-INFof-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked of her about what to do.</EXAMPLE>
             </EXAMPLES>
@@ -755,7 +755,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WH-TO-INF" secondary="of-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient PP.topic whether S_INF" secondary="PP-P-WH-TO-INFof-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked of him about whether to go.</EXAMPLE>
             </EXAMPLES>
@@ -797,7 +797,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WH-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V whether S" secondary="WH-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked whether he should come.</EXAMPLE>
             </EXAMPLES>
@@ -830,7 +830,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V what S" secondary="WHAT-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked what he should do.</EXAMPLE>
             </EXAMPLES>
@@ -863,7 +863,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WH-TO-INF" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V whether S_INF" secondary="WH-TO-INF" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked whether to clean the house.</EXAMPLE>
             </EXAMPLES>
@@ -896,7 +896,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V what S_INF" secondary="WHAT-TO-INF" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked what to do.</EXAMPLE>
             </EXAMPLES>
@@ -929,7 +929,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-HOW-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP how S" secondary="NP-HOW-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He asked him how he came.</EXAMPLE>
             </EXAMPLES>

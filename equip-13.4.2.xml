@@ -4,7 +4,7 @@
     <MEMBERS>
         <MEMBER name="charge" wn="charge%2:41:00 charge%2:32:01" grouping="charge.02"/>
         <MEMBER name="invest" wn="invest%2:41:03 invest%2:41:02 invest%2:41:00" grouping="invest.02 invest.03"/>
-        <MEMBER name="ply" wn="ply%2:34:00"/>
+        <MEMBER name="ply" wn="ply%2:34:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -25,7 +25,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.6" primary="Fulfilling Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.6" primary="NP V NP-Fulfilling PP" secondary="Fulfilling Alternation" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Brown equipped Jones with a camera.</EXAMPLE>
             </EXAMPLES>
@@ -79,17 +79,17 @@
             <MEMBERS>
                 <MEMBER name="arm" wn="arm%2:33:00 arm%2:40:00" grouping="arm.01"/>
                 <MEMBER name="equip" wn="equip%2:40:00" grouping="equip.01"/>
-                <MEMBER name="rearm" wn="rearm%2:40:00 rearm%2:33:00"/>
-                <MEMBER name="redress" wn=""/>
-                <MEMBER name="regale" wn="regale%2:34:00"/>
+                <MEMBER name="rearm" wn="rearm%2:40:00 rearm%2:33:00" grouping=""/>
+                <MEMBER name="redress" wn="" grouping=""/>
+                <MEMBER name="regale" wn="regale%2:34:00" grouping=""/>
                 <MEMBER name="reward" wn="reward%2:40:00" grouping="reward.01"/>
-                <MEMBER name="saddle" wn="saddle%2:35:10 saddle%2:32:00"/>
+                <MEMBER name="saddle" wn="saddle%2:35:10 saddle%2:32:00" grouping=""/>
                 <MEMBER name="treat" wn="treat%2:40:00 treat%2:34:00" grouping="treat.02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Recipient Object" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.recipient" secondary="TransitiveRecipient Object" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>Brown equipped his soldiers.</EXAMPLE>
                     </EXAMPLES>
@@ -135,16 +135,17 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="equip-13.4.2-1-1">
                     <MEMBERS>
-                        <MEMBER name="armor" wn="armor%2:40:00"/>
-                        <MEMBER name="overburden" wn="overburden%2:35:00"/>
-                        <MEMBER name="weight" wn="weight%2:35:00"/>
-                        <MEMBER name="burden" wn="burden%2:35:00 burden%2:32:00"/>
+                        <MEMBER name="armor" wn="armor%2:40:00" grouping=""/>
+                        <MEMBER name="encumber" wn="" grouping=""/>
+                        <MEMBER name="overburden" wn="overburden%2:35:00" grouping=""/>
+                        <MEMBER name="weight" wn="weight%2:35:00" grouping="weight.01"/>
+                        <MEMBER name="burden" wn="burden%2:35:00 burden%2:32:00" grouping=""/>
                         <MEMBER name="compensate" wn="compensate%2:40:02 compensate%2:40:00" grouping="compensate.02"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Theme Subject" xtag=""/>
+                            <DESCRIPTION descriptionNumber="" primary="NP.theme V NP" secondary="TransitiveTheme Subject" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>The huge load burdened the mule.</EXAMPLE>
                             </EXAMPLES>

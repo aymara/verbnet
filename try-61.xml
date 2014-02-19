@@ -2,9 +2,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="try-61" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="try" wn="try%2:41:00"/>
-        <MEMBER name="attempt" wn="attempt%2:41:00 attempt%2:36:00"/>
-        <MEMBER name="intend" wn="intend%2:31:00"/>
+        <MEMBER name="try" wn="try%2:41:00" grouping="try.01"/>
+        <MEMBER name="attempt" wn="attempt%2:41:00 attempt%2:36:00" grouping="attempt.01 attempt.02"/>
+        <MEMBER name="intend" wn="intend%2:31:00" grouping="intend.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -22,7 +22,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="ING-NP-OMIT" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-NP-OMIT" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I tried exercising.</EXAMPLE>
             </EXAMPLES>
@@ -48,7 +48,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I tried the exercise routine.</EXAMPLE>
             </EXAMPLES>
@@ -74,7 +74,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-SC" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I tried to exercise.</EXAMPLE>
             </EXAMPLES>

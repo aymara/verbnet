@@ -2,8 +2,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="battle-36.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="consult" wn="consult%2:32:05"/>
-        <MEMBER name="exile" wn=""/>
+        <MEMBER name="consult" wn="consult%2:32:05" grouping="consult.02"/>
+        <MEMBER name="contend" wn="" grouping=""/>
+        <MEMBER name="exile" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Actor">
@@ -30,7 +31,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WH-S" secondary="with-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.topic whether/if S" secondary="PP-P-WH-Swith-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I battled with him about whether he should kill the peasants.</EXAMPLE>
             </EXAMPLES>
@@ -78,7 +79,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WHAT-S" secondary="with-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.topic what S" secondary="PP-P-WHAT-Swith-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I battled with him about whether he should go.</EXAMPLE>
             </EXAMPLES>
@@ -126,7 +127,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WHAT-TO-INF" secondary="with-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.topic what S_INF" secondary="PP-P-WHAT-TO-INFwith-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I battled with him about what to do.</EXAMPLE>
             </EXAMPLES>
@@ -174,7 +175,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WH-TO-INF" secondary="with-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.topic whether S_INF" secondary="PP-P-WH-TO-INFwith-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I battled with him about whether to go.</EXAMPLE>
             </EXAMPLES>
@@ -222,7 +223,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-PP" secondary="with-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.topic" secondary="PP-PPwith-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I battled with him about it.</EXAMPLE>
             </EXAMPLES>
@@ -273,44 +274,44 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="battle-36.4-1">
             <MEMBERS>
-                <MEMBER name="argue" wn="argue%2:32:00"/>
-                <MEMBER name="bargain" wn="bargain%2:32:00"/>
-                <MEMBER name="battle" wn="battle%2:33:00"/>
-                <MEMBER name="bicker" wn="bicker%2:32:00"/>
-                <MEMBER name="brawl" wn="brawl%2:32:00"/>
-                <MEMBER name="clash" wn="clash%2:32:00"/>
-                <MEMBER name="combat" wn="combat%2:33:00"/>
-                <MEMBER name="compete" wn="compete%2:33:00"/>
-                <MEMBER name="conflict" wn="conflict%2:42:00"/>
-                <MEMBER name="correspond" wn="correspond%2:32:00"/>
-                <MEMBER name="communicate" wn=""/>
-                <MEMBER name="dicker" wn="dicker%2:40:00"/>
-                <MEMBER name="differ" wn="differ%2:32:00"/>
-                <MEMBER name="disagree" wn="disagree%2:32:00"/>
-                <MEMBER name="dispute" wn="dispute%2:32:01"/>
-                <MEMBER name="duel" wn="duel%2:33:00"/>
-                <MEMBER name="feud" wn="feud%2:33:00"/>
-                <MEMBER name="fight" wn="fight%2:41:00"/>
-                <MEMBER name="joust" wn="joust%2:33:00"/>
-                <MEMBER name="quarrel" wn="quarrel%2:32:00"/>
-                <MEMBER name="quibble" wn="quibble%2:32:00"/>
-                <MEMBER name="scuffle" wn="scuffle%2:35:00"/>
-                <MEMBER name="skirmish" wn="skirmish%2:33:00"/>
-                <MEMBER name="spar" wn="spar%2:35:01 spar%2:35:00 spar%2:32:00"/>
-                <MEMBER name="spat" wn="spat%2:32:00"/>
-                <MEMBER name="struggle" wn="struggle%2:41:00"/>
-                <MEMBER name="squabble" wn="squabble%2:32:00"/>
-                <MEMBER name="tilt" wn="tilt%2:33:00"/>
-                <MEMBER name="tussle" wn="tussle%2:35:01"/>
-                <MEMBER name="vie" wn="vie%2:33:00"/>
-                <MEMBER name="war" wn="war%2:33:00"/>
-                <MEMBER name="wrangle" wn="wrangle%2:32:00"/>
-                <MEMBER name="wrestle" wn="wrestle%2:35:00"/>
+                <MEMBER name="argue" wn="argue%2:32:00" grouping="argue.01"/>
+                <MEMBER name="bargain" wn="bargain%2:32:00" grouping=""/>
+                <MEMBER name="battle" wn="battle%2:33:00" grouping="battle.01"/>
+                <MEMBER name="bicker" wn="bicker%2:32:00" grouping=""/>
+                <MEMBER name="brawl" wn="brawl%2:32:00" grouping=""/>
+                <MEMBER name="clash" wn="clash%2:32:00" grouping=""/>
+                <MEMBER name="combat" wn="combat%2:33:00" grouping="combat.01"/>
+                <MEMBER name="compete" wn="compete%2:33:00" grouping="compete.01"/>
+                <MEMBER name="conflict" wn="conflict%2:42:00" grouping="conflict.01"/>
+                <MEMBER name="correspond" wn="correspond%2:32:00" grouping="correspond.02"/>
+                <MEMBER name="communicate" wn="" grouping=""/>
+                <MEMBER name="dicker" wn="dicker%2:40:00" grouping=""/>
+                <MEMBER name="differ" wn="differ%2:32:00" grouping="differ.02"/>
+                <MEMBER name="disagree" wn="disagree%2:32:00" grouping="disagree.01"/>
+                <MEMBER name="dispute" wn="dispute%2:32:01" grouping="dispute.02"/>
+                <MEMBER name="duel" wn="duel%2:33:00" grouping=""/>
+                <MEMBER name="feud" wn="feud%2:33:00" grouping=""/>
+                <MEMBER name="fight" wn="fight%2:41:00" grouping="fight.02"/>
+                <MEMBER name="joust" wn="joust%2:33:00" grouping=""/>
+                <MEMBER name="quarrel" wn="quarrel%2:32:00" grouping=""/>
+                <MEMBER name="quibble" wn="quibble%2:32:00" grouping=""/>
+                <MEMBER name="scuffle" wn="scuffle%2:35:00" grouping=""/>
+                <MEMBER name="skirmish" wn="skirmish%2:33:00" grouping=""/>
+                <MEMBER name="spar" wn="spar%2:35:01 spar%2:35:00 spar%2:32:00" grouping=""/>
+                <MEMBER name="spat" wn="spat%2:32:00" grouping=""/>
+                <MEMBER name="struggle" wn="struggle%2:41:00" grouping="struggle.02"/>
+                <MEMBER name="squabble" wn="squabble%2:32:00" grouping=""/>
+                <MEMBER name="tilt" wn="tilt%2:33:00" grouping="tilt.02"/>
+                <MEMBER name="tussle" wn="tussle%2:35:01" grouping=""/>
+                <MEMBER name="vie" wn="vie%2:33:00" grouping=""/>
+                <MEMBER name="war" wn="war%2:33:00" grouping=""/>
+                <MEMBER name="wrangle" wn="wrangle%2:32:00" grouping=""/>
+                <MEMBER name="wrestle" wn="wrestle%2:35:00" grouping="wrestle.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="Intransitive" secondary="Plural Subject" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V" secondary="IntransitivePlural Subject" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled.</EXAMPLE>
                     </EXAMPLES>
@@ -346,7 +347,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-POSSING" secondary="about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic NP S_ING" secondary="P-POSSINGabout-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about his coming.</EXAMPLE>
                     </EXAMPLES>
@@ -390,7 +391,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-WH-S" secondary="about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic whether S" secondary="P-WH-Sabout-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about whether he should go.</EXAMPLE>
                     </EXAMPLES>
@@ -434,7 +435,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-S" secondary="about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic what S" secondary="P-WHAT-Sabout-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about what was the right thing.</EXAMPLE>
                     </EXAMPLES>
@@ -478,7 +479,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-WH-TO-INF" secondary="about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic whether S_INF" secondary="P-WH-TO-INFabout-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about whether to go.</EXAMPLE>
                     </EXAMPLES>
@@ -522,7 +523,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-TO-INF" secondary="about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic what S_INF" secondary="P-WHAT-TO-INFabout-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about what to do.</EXAMPLE>
                     </EXAMPLES>
@@ -566,7 +567,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="about-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic" secondary="PPabout-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about it.</EXAMPLE>
                     </EXAMPLES>

@@ -2,15 +2,15 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="adjust-26.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="adapt" wn=""/>
-        <MEMBER name="accommodate" wn=""/>
-        <MEMBER name="conform" wn=""/>
-        <MEMBER name="adjust" wn=""/>
-        <MEMBER name="gear" wn=""/>
-        <MEMBER name="fit" wn=""/>
-        <MEMBER name="readjust" wn=""/>
-        <MEMBER name="readapt" wn=""/>
-        <MEMBER name="assimilate" wn=""/>
+        <MEMBER name="adapt" wn="adapt%2:30:02" grouping="adapt.01"/>
+        <MEMBER name="accommodate" wn="accommodate%2:30:00 accommodate%2:30:01" grouping="accommodate.02"/>
+        <MEMBER name="conform" wn="conform%2:30:01" grouping="conform.02"/>
+        <MEMBER name="adjust" wn="adjust%2:30:01" grouping="adjust.02"/>
+        <MEMBER name="gear" wn="gear%2:30:00" grouping="gear.01"/>
+        <MEMBER name="fit" wn="fit%2:30:02" grouping="fit.02"/>
+        <MEMBER name="readjust" wn="readjust%2:30:00" grouping=""/>
+        <MEMBER name="readapt" wn="readapt%2:30:03" grouping=""/>
+        <MEMBER name="assimilate" wn="assimilate%2:30:00" grouping="assimilate.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

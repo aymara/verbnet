@@ -2,9 +2,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="cling-22.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="adhere" wn="adhere%2:35:01"/>
-        <MEMBER name="cleave" wn="cleave%2:35:02"/>
-        <MEMBER name="cling" wn="cling%2:35:00 cling%2:35:02"/>
+        <MEMBER name="adhere" wn="adhere%2:35:01" grouping="adhere.01"/>
+        <MEMBER name="cleave" wn="cleave%2:35:02" grouping=""/>
+        <MEMBER name="cling" wn="cling%2:35:00 cling%2:35:02" grouping="cling.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -25,7 +25,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with/to-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme2" secondary="PPwith/to-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The child clung to her mother.</EXAMPLE>
             </EXAMPLES>
@@ -53,7 +53,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.5.5" primary="Together Reciprocal Alternation Intransitive" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.5.5" primary="NP V together" secondary="Together Reciprocal Alternation Intransitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The child and her mother clung together.</EXAMPLE>
             </EXAMPLES>

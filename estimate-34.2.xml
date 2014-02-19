@@ -2,16 +2,16 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="estimate-34.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="estimate" wn=""/>
-        <MEMBER name="gauge" wn=""/>
-        <MEMBER name="approximate" wn=""/>
-        <MEMBER name="guess" wn=""/>
-        <MEMBER name="judge" wn=""/>
-        <MEMBER name="count" wn=""/>
-        <MEMBER name="quantize" wn=""/>
-        <MEMBER name="assess" wn=""/>
-        <MEMBER name="guesstimate" wn=""/>
-        <MEMBER name="project" wn=""/>
+        <MEMBER name="estimate" wn="estimate%2:31:00" grouping="estimate.01"/>
+        <MEMBER name="gauge" wn="gauge%2:31:00" grouping="gauge.01"/>
+        <MEMBER name="approximate" wn="approximate%2:31:00" grouping=""/>
+        <MEMBER name="guess" wn="guess%2:31:01" grouping="guess.02"/>
+        <MEMBER name="judge" wn="judge%2:31:01" grouping="judge.02"/>
+        <MEMBER name="count" wn="" grouping=""/>
+        <MEMBER name="quantize" wn="" grouping=""/>
+        <MEMBER name="assess" wn="assess%2:31:00" grouping="assess.01"/>
+        <MEMBER name="guesstimate" wn="guesstimate%2:32:00" grouping=""/>
+        <MEMBER name="project" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -29,7 +29,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He estimated the probability of Don Quixote spontaneously combusting upon contact with the curry poweder.</EXAMPLE>
             </EXAMPLES>
@@ -54,7 +54,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="at-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.value" secondary="NP-PPat-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He estimated the probability at 0.9.</EXAMPLE>
             </EXAMPLES>
@@ -85,7 +85,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="HOW-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V how S" secondary="HOW-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He estimated how likely it would be.</EXAMPLE>
             </EXAMPLES>
@@ -112,7 +112,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-TOBE" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP to be ADJ" secondary="NP-TOBE" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He estimated this outcome to be likely.</EXAMPLE>                                                              
             </EXAMPLES>
@@ -139,7 +139,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="S" secondary="" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>                    
             <EXAMPLES>
                 <EXAMPLE>He estimated that it would be likely.</EXAMPLE>
             </EXAMPLES>
@@ -166,7 +166,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V what S" secondary="WHAT-S" xtag="0.2"/>                    
             <EXAMPLES>
                 <EXAMPLE>He estimated what would be likely.</EXAMPLE>
             </EXAMPLES>

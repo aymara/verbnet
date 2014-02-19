@@ -2,7 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="continue-55.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="continue" wn="continue%2:42:01 continue%2:32:00 continue%2:42:12 continue%2:42:11 continue%2:30:10"/>
+        <MEMBER name="continue" wn="continue%2:42:01 continue%2:32:00 continue%2:42:12 continue%2:42:11 continue%2:30:10" grouping="continue.01 continue.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -25,7 +25,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-RS" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-RS" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He continued to pack.</EXAMPLE>
             </EXAMPLES>
@@ -56,7 +56,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="Inchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP.theme V" secondary="IntransitiveInchoative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The storm continued.</EXAMPLE>
             </EXAMPLES>
@@ -76,7 +76,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Unspecified Object" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V" secondary="Unspecified Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He continued.</EXAMPLE>
             </EXAMPLES>
@@ -102,7 +102,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Time-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.time" secondary="PPTime-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The party continued until 8 PM.</EXAMPLE>
             </EXAMPLES>
@@ -135,7 +135,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Time-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.time" secondary="PPTime-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>We continued until 8 PM.</EXAMPLE>
             </EXAMPLES>

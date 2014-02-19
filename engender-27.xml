@@ -3,15 +3,22 @@
 <VNCLASS ID="engender-27" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--"shape" should be in a separate (sub)class with a different semantics-->
-        <MEMBER name="beget" wn=""/>
-        <MEMBER name="bring_about" wn=""/>
-        <MEMBER name="cause" wn="cause%2:36:00"/>
-        <MEMBER name="create" wn="create%2:36:00 create%2:36:02"/>
-        <MEMBER name="engender" wn="engender%2:36:00"/>
-        <MEMBER name="generate" wn="generate%2:36:00"/>
-        <MEMBER name="shape" wn="shape%2:31:00"/>
-        <MEMBER name="sire" wn=""/>
-        <MEMBER name="spawn" wn="spawn%2:36:00"/>
+        <MEMBER name="beget" wn="" grouping=""/>
+        <MEMBER name="bring_about" wn="" grouping=""/>
+        <MEMBER name="cause" wn="cause%2:36:00" grouping="cause.01"/>
+        <MEMBER name="create" wn="create%2:36:00 create%2:36:02" grouping="create.01"/>
+        <MEMBER name="engender" wn="engender%2:36:00" grouping=""/>
+        <MEMBER name="generate" wn="generate%2:36:00" grouping="generate.01"/>
+        <MEMBER name="incite" wn="incite%2:32:00" grouping="incite.01"/>
+        <MEMBER name="instigate" wn="instigate%2:32:00" grouping=""/>
+        <MEMBER name="kindle" wn="kindle%2:37:00" grouping=""/>
+        <MEMBER name="produce" wn="produce%2:36:03" grouping="produce.01"/>
+        <MEMBER name="provoke" wn="provoke%2:37:00 provoke%2:36:00" grouping="provoke.01"/>
+        <MEMBER name="set_off" wn="set_off%2:32:00 set_off%2:36:00" grouping=""/>
+        <MEMBER name="shape" wn="shape%2:31:00" grouping="shape.02"/>
+        <MEMBER name="sire" wn="" grouping=""/>
+        <MEMBER name="spark" wn="spark%2:36:00" grouping="spark.01"/>
+        <MEMBER name="spawn" wn="spawn%2:36:00" grouping="spawn.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme1">
@@ -30,7 +37,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Racial inequality engenders conflict.</EXAMPLE>
             </EXAMPLES>
@@ -65,7 +72,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="S" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V that S" secondary="S" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The bug causes the chip to give wrong answers for some mathematical calculations.</EXAMPLE>
             </EXAMPLES>

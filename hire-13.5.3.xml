@@ -2,15 +2,19 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="hire-13.5.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="hire" wn=""/>
-        <MEMBER name="employ" wn=""/>
-        <MEMBER name="contract" wn=""/>
-        <MEMBER name="engage" wn=""/>
-        <MEMBER name="take" wn=""/>
-        <MEMBER name="sign" wn=""/>
-        <MEMBER name="sign_on" wn=""/>
-        <MEMBER name="sign_up" wn=""/>
-        <MEMBER name="subcontract" wn=""/>
+        <MEMBER name="hire" wn="hire%2:41:00" grouping="hire.01"/>
+        <MEMBER name="recruit" wn="" grouping=""/>
+        <MEMBER name="employ" wn="employ%2:41:00" grouping="employ.01"/>
+        <MEMBER name="contract" wn="contract%2:41:00" grouping="contract.01"/>
+        <MEMBER name="engage" wn="engage%2:41:01" grouping="engage.02"/>
+        <MEMBER name="take" wn="take%2:40:03" grouping="take.05"/>
+        <MEMBER name="sign" wn="sign%2:41:01" grouping="sign.01"/>
+        <MEMBER name="sign_on" wn="sign_on%2:41:00" grouping=""/>
+        <MEMBER name="sign_up" wn="sign_up%2:41:00" grouping=""/>
+        <MEMBER name="subcontract" wn="subcontract%2:41:00" grouping=""/>
+        <MEMBER name="train" wn="train%2:41:00" grouping="train.01"/>
+        <MEMBER name="enlist" wn="enlist%2:40:00 enlist%2:33:01" grouping="enlist.01 enlist.02"/>
+        <MEMBER name="reinstate" wn="reinstate%2:41:00" grouping="reinstate.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -31,7 +35,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I hired two secretaries.</EXAMPLE>
             </EXAMPLES>
@@ -66,7 +70,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="as-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.predicate" secondary="NP-PPas-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I hired two secretaries as helpers.</EXAMPLE>
             </EXAMPLES>

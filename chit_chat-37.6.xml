@@ -2,17 +2,20 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="chit_chat-37.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="argue" wn="argue%2:32:00"/>
-        <MEMBER name="chat" wn="chat%2:32:00"/>
-        <MEMBER name="chatter" wn="chatter%2:32:01 chatter%2:32:00"/>
-        <MEMBER name="chitchat" wn="chitchat%2:32:00"/>
-        <MEMBER name="confer" wn="confer%2:32:00"/>
-        <MEMBER name="converse" wn="converse%2:32:00"/>
-        <MEMBER name="gab" wn="gab%2:32:00"/>
-        <MEMBER name="gossip" wn="gossip%2:32:00 gossip%2:32:01"/>
-        <MEMBER name="rap" wn="rap%2:32:00"/>
-        <MEMBER name="schmooze" wn="schmooze%2:32:00"/>
-        <MEMBER name="yak" wn="yak%2:32:00"/>
+        <MEMBER name="argue" wn="argue%2:32:00" grouping="argue.01"/>
+        <MEMBER name="chat" wn="chat%2:32:00" grouping=""/>
+        <MEMBER name="chatter" wn="chatter%2:32:01 chatter%2:32:00" grouping=""/>
+        <MEMBER name="chitchat" wn="chitchat%2:32:00" grouping=""/>
+        <MEMBER name="confer" wn="confer%2:32:00" grouping="confer.02"/>
+        <MEMBER name="converse" wn="converse%2:32:00" grouping=""/>
+        <MEMBER name="debate" wn="" grouping=""/>
+        <MEMBER name="gab" wn="gab%2:32:00" grouping=""/>
+        <MEMBER name="gossip" wn="gossip%2:32:00 gossip%2:32:01" grouping=""/>
+        <MEMBER name="jest" wn="jest%2:32:00" grouping=""/>
+        <MEMBER name="joke" wn="joke%2:32:00" grouping="joke.01"/>
+        <MEMBER name="rap" wn="rap%2:32:00" grouping=""/>
+        <MEMBER name="schmooze" wn="schmooze%2:32:00" grouping=""/>
+        <MEMBER name="yak" wn="yak%2:32:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Actor">
@@ -41,7 +44,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>Susan was chitchatting.</EXAMPLE>
             </EXAMPLES>
@@ -69,7 +72,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.actor2" secondary="PPwith-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Susan chitchatted with Rachel.</EXAMPLE>
             </EXAMPLES>
@@ -111,7 +114,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="with-PP Topic-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.actor2 PP.topic" secondary="PP-PPwith-PP Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Susan chitchatted with Rachel about the problem.</EXAMPLE>
             </EXAMPLES>
@@ -159,7 +162,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.5.4" primary="NP V" secondary="Simple Reciprocal Intransitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Susan and Rachel chitchatted.</EXAMPLE>
             </EXAMPLES>
@@ -191,7 +194,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="Topic-PP with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.topic PP.actor2" secondary="PP-PPTopic-PP with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Susan chitchatted about the problem with Rachel.</EXAMPLE>
             </EXAMPLES>
@@ -239,7 +242,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Simple Reciprocal Subject, Topic-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.topic" secondary="PPSimple Reciprocal Subject, Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Susan and Rachel chitchatted about matters of great import.</EXAMPLE>
             </EXAMPLES>
@@ -277,7 +280,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Topic-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.topic" secondary="PPTopic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Susan chitchatted about matters of great import.</EXAMPLE>
             </EXAMPLES>

@@ -4,13 +4,13 @@
     <MEMBERS>
         <!--Some verbs add predicate indicating puncturing of Destination at end of event
         "in" predicate used to indicate puncturing of Destination-->
-        <MEMBER name="dig" wn="dig%2:35:03"/>
-        <MEMBER name="jab" wn="jab%2:35:00 jab%2:35:02"/>
-        <MEMBER name="pierce" wn="pierce%2:35:02 pierce%2:35:01 pierce%2:35:00"/>
-        <MEMBER name="poke" wn="poke%2:35:01 poke%2:35:00"/>
-        <MEMBER name="prick" wn="prick%2:35:00 prick%2:35:04 prick%2:35:03"/>
-        <MEMBER name="stab" wn="stab%2:35:02 stab%2:35:00 stab%2:35:01"/>
-        <MEMBER name="stick" wn="stick%2:35:03"/>
+        <MEMBER name="dig" wn="dig%2:35:03" grouping="dig.01"/>
+        <MEMBER name="jab" wn="jab%2:35:00 jab%2:35:02" grouping=""/>
+        <MEMBER name="pierce" wn="pierce%2:35:02 pierce%2:35:01 pierce%2:35:00" grouping="pierce.01"/>
+        <MEMBER name="poke" wn="poke%2:35:01 poke%2:35:00" grouping="poke.01"/>
+        <MEMBER name="prick" wn="prick%2:35:00 prick%2:35:04 prick%2:35:03" grouping=""/>
+        <MEMBER name="stab" wn="stab%2:35:02 stab%2:35:00 stab%2:35:01" grouping="stab.01 stab.02"/>
+        <MEMBER name="stick" wn="stick%2:35:03" grouping="stick.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -33,7 +33,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="dropped Instrument" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitivedropped Instrument" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Allison poked the cloth.</EXAMPLE>
             </EXAMPLES>
@@ -77,7 +77,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.9" primary="NP-PP" secondary="through-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.9" primary="NP V NP PP.destination" secondary="NP-PPthrough-PP" xtag=""/>
             <!-- in predicate used to indicate puncturing of Destination-->
             <EXAMPLES>
                 <EXAMPLE>Allison poked the needle through the cloth.</EXAMPLE>
@@ -142,7 +142,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.9" primary="NP-PP" secondary="with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.9" primary="NP V NP PP.instrument" secondary="NP-PPwith-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Allison poked the cloth with the needle.</EXAMPLE>
             </EXAMPLES>
@@ -199,7 +199,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.3" primary="Conative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.3" primary="NP V PP" secondary="Conative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Allison poked at the cloth.</EXAMPLE>
             </EXAMPLES>
@@ -230,7 +230,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.3" primary="Conative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.3" primary="NP V PP PP" secondary="Conative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Allison poked at the cloth with the needle.</EXAMPLE>
             </EXAMPLES>
@@ -274,7 +274,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.3" primary="NP.instrument V NP" secondary="Instrument Subject Alternation" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The needle poked the cloth.</EXAMPLE>
             </EXAMPLES>

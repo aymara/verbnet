@@ -2,37 +2,37 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="subjugate-42.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="suppress" wn=""/>
-        <MEMBER name="stamp_down" wn=""/>
-        <MEMBER name="subdue" wn=""/>
-        <MEMBER name="conquer" wn=""/>
-        <MEMBER name="curb" wn=""/>
-        <MEMBER name="crush" wn=""/>
-        <MEMBER name="stifle" wn=""/>
-        <MEMBER name="dampen" wn=""/>
-        <MEMBER name="suffocate" wn=""/>
-        <MEMBER name="choke" wn=""/>
-        <MEMBER name="hush" wn=""/>
-        <MEMBER name="silence" wn=""/>
-        <MEMBER name="still" wn=""/>
-        <MEMBER name="shut_up" wn=""/>
-        <MEMBER name="hush_up" wn=""/>
-        <MEMBER name="lull" wn=""/>
-        <MEMBER name="calm_down" wn=""/>
-        <MEMBER name="gag" wn=""/>
-        <MEMBER name="muzzle" wn=""/>
-        <MEMBER name="squelch" wn=""/>
-        <MEMBER name="quell" wn=""/>
-        <MEMBER name="quench" wn=""/>
-        <MEMBER name="smother" wn=""/>
-        <MEMBER name="muffle" wn=""/>
-        <MEMBER name="repress" wn=""/>
-        <MEMBER name="quash" wn=""/>
-        <MEMBER name="keep_down" wn=""/>
-        <MEMBER name="subjugate" wn=""/>
-        <MEMBER name="reduce" wn=""/>
-        <MEMBER name="strangle" wn=""/>
-        <MEMBER name="kill" wn=""/>
+        <MEMBER name="suppress" wn="" grouping=""/>
+        <MEMBER name="stamp_down" wn="" grouping=""/>
+        <MEMBER name="subdue" wn="" grouping=""/>
+        <MEMBER name="conquer" wn="" grouping=""/>
+        <MEMBER name="curb" wn="" grouping=""/>
+        <MEMBER name="crush" wn="" grouping=""/>
+        <MEMBER name="stifle" wn="" grouping=""/>
+        <MEMBER name="dampen" wn="" grouping=""/>
+        <MEMBER name="suffocate" wn="" grouping=""/>
+        <MEMBER name="choke" wn="" grouping=""/>
+        <MEMBER name="hush" wn="" grouping=""/>
+        <MEMBER name="silence" wn="" grouping=""/>
+        <MEMBER name="still" wn="" grouping=""/>
+        <MEMBER name="shut_up" wn="" grouping=""/>
+        <MEMBER name="hush_up" wn="" grouping=""/>
+        <MEMBER name="lull" wn="" grouping=""/>
+        <MEMBER name="calm_down" wn="" grouping=""/>
+        <MEMBER name="gag" wn="" grouping=""/>
+        <MEMBER name="muzzle" wn="" grouping=""/>
+        <MEMBER name="squelch" wn="" grouping=""/>
+        <MEMBER name="quell" wn="" grouping=""/>
+        <MEMBER name="quench" wn="" grouping=""/>
+        <MEMBER name="smother" wn="" grouping=""/>
+        <MEMBER name="muffle" wn="" grouping=""/>
+        <MEMBER name="repress" wn="" grouping=""/>
+        <MEMBER name="quash" wn="" grouping=""/>
+        <MEMBER name="keep_down" wn="" grouping=""/>
+        <MEMBER name="subjugate" wn="" grouping=""/>
+        <MEMBER name="reduce" wn="" grouping=""/>
+        <MEMBER name="strangle" wn="" grouping=""/>
+        <MEMBER name="kill" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -53,7 +53,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Winnie the Pooh subjugated the unfortunate Pixies.</EXAMPLE>
             </EXAMPLES>
@@ -82,7 +82,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="with-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.instrument" secondary="NP-PPwith-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Russia subjugated Mongolia with overwhelming force.</EXAMPLE>
             </EXAMPLES>

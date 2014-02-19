@@ -2,8 +2,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="help-72" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="support" wn="support%2:41:00"/>
-        <MEMBER name="succor" wn="succor%2:41:00"/>
+        <MEMBER name="support" wn="support%2:41:00" grouping="support.02"/>
+        <MEMBER name="succor" wn="succor%2:41:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -24,7 +24,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I helped him.</EXAMPLE>
             </EXAMPLES>
@@ -49,7 +49,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="with-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme" secondary="NP-PPwith-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I helped him with homework.</EXAMPLE>
             </EXAMPLES>
@@ -82,7 +82,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-P-ING-OC" secondary="with-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OCwith-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I helped him with finishing the homework.</EXAMPLE>
             </EXAMPLES>
@@ -115,7 +115,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-TO-INF-OC" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_INF" secondary="NP-TO-INF-OC" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I helped him to finish the homework.</EXAMPLE>
             </EXAMPLES>
@@ -145,7 +145,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-ING-AC" secondary="with-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-ACwith-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I helped with finishing the homework.</EXAMPLE>
             </EXAMPLES>
@@ -178,15 +178,15 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="help-72-1">
             <MEMBERS>
-                <MEMBER name="aid" wn="aid%2:41:00"/>
-                <MEMBER name="abet" wn="abet%2:41:00"/>
-                <MEMBER name="assist" wn="assist%2:41:02"/>
-                <MEMBER name="help" wn="help%2:41:00"/>
+                <MEMBER name="aid" wn="aid%2:41:00" grouping="aid.01"/>
+                <MEMBER name="abet" wn="abet%2:41:00" grouping=""/>
+                <MEMBER name="assist" wn="assist%2:41:02" grouping="assist.01"/>
+                <MEMBER name="help" wn="help%2:41:00" grouping="help.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPwith-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I helped with the homework.</EXAMPLE>
                     </EXAMPLES>

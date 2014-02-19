@@ -2,11 +2,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="addict-96" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="addict" wn=""/>
-        <MEMBER name="bias" wn=""/>
-        <MEMBER name="dispose" wn=""/>
-        <MEMBER name="incline" wn=""/>
-        <MEMBER name="predispose" wn=""/>
+        <MEMBER name="addict" wn="addict%2:34:00" grouping=""/>
+        <MEMBER name="bias" wn="bias%2:33:00" grouping=""/>
+        <MEMBER name="dispose" wn="dispose%2:31:00" grouping="dispose.02"/>
+        <MEMBER name="incline" wn="incline%2:37:00 incline%2:31:03" grouping="incline.05"/>
+        <MEMBER name="predispose" wn="predispose%2:31:00" grouping="predispose.01"/>
+        <MEMBER name="woo" wn="" grouping=""/>
+        <MEMBER name="invite" wn="invite%2:37:00" grouping="invite.03"/>
+        <MEMBER name="slant" wn="" grouping=""/> 
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -27,7 +30,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Mary addicted him.</EXAMPLE>
             </EXAMPLES>
@@ -57,7 +60,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.stimulus" secondary="NP-PPto-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I addicted him to Douglas Adams.</EXAMPLE>
             </EXAMPLES>
@@ -93,7 +96,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-P-ING-SC" secondary="to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-SCto-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Mary addicted him to going on long journeys.</EXAMPLE>
             </EXAMPLES>

@@ -2,12 +2,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="limit-76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="confine" wn="confine%2:30:00 "/>
-        <MEMBER name="limit" wn="limit%2:30:01"/>
-        <MEMBER name="reduce" wn="reduce%2:30:00"/>
-        <MEMBER name="restrict" wn="restrict%2:30:00"/>
-        <MEMBER name="restrain" wn="restrain%2:30:00"/>
-        <MEMBER name="constrain" wn=""/>
+        <MEMBER name="confine" wn="confine%2:30:00 " grouping="confine.01"/>
+        <MEMBER name="limit" wn="limit%2:30:01" grouping="limit.01"/>
+        <MEMBER name="reduce" wn="reduce%2:30:00" grouping="reduce.01"/>
+        <MEMBER name="restrict" wn="restrict%2:30:00" grouping="restrict.01"/>
+        <MEMBER name="restrain" wn="restrain%2:30:00" grouping="restrain.01"/>
+        <MEMBER name="constrain" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Cause">
@@ -25,7 +25,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The lack of money limited the help.</EXAMPLE>
             </EXAMPLES>
@@ -50,7 +50,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-P-ING-OC" secondary="to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OCto-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The lack of money limited them to helping to our peers.</EXAMPLE>
             </EXAMPLES>
@@ -83,7 +83,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.proposition" secondary="NP-PPto-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The lack of money limited the help to our peers.</EXAMPLE>
             </EXAMPLES>
@@ -114,7 +114,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-TO-INF-OC" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_INF" secondary="NP-TO-INF-OC" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The lack of money limited them to help their peers only.</EXAMPLE>
             </EXAMPLES>
