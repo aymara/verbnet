@@ -14,7 +14,7 @@
         </THEMROLE>
         <THEMROLE type="Theme">
             <SELRESTRS>
-                <SELRESTR Value="+" type="phys_obj"/>
+                <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Source">
@@ -49,14 +49,14 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="?Source"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="?Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

@@ -92,8 +92,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="PP-PP"
-secondary="Inchoative variant, Material-PP Product-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="PP-PP" secondary="Inchoative variant, Material-PP Product-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He turned from a prince into a frog&quot;</EXAMPLE>
             </EXAMPLES>
@@ -333,29 +332,29 @@ secondary="Inchoative variant, Material-PP Product-PP" xtag=""/>
                         <PRED value="state">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
-                                <ARG type="VerbSpecific" value="Material"/>
-                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="VerbSpecific" value="?Material"/>
+                                <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
                         <PRED value="state">
                             <ARGS>
                                 <ARG type="Event" value="result(E)"/>
                                 <ARG type="ThemRole" value="Product"/>
-                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="state">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
                                 <ARG type="ThemRole" value="Product"/>
-                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="state">
                             <ARGS>
                                 <ARG type="Event" value="result(E)"/>
-                                <ARG type="VerbSpecific" value="Material"/>
-                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="VerbSpecific" value="?Material"/>
+                                <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
                         <PRED value="cause">

@@ -7,6 +7,11 @@
         <MEMBER name="cling" wn="cling%2:35:00 cling%2:35:02"/>
     </MEMBERS>
     <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
         <THEMROLE type="Theme1">
             <SELRESTRS>
                 <SELRESTR Value="+" type="concrete"/>

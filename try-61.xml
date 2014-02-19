@@ -16,7 +16,7 @@
         <THEMROLE type="Predicate">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Content">
+        <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -57,7 +57,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Content">
+                <NP value="Theme">
                     <SYNRESTRS>
 			<SYNRESTR Value="-" type="sentential"/>
 		    </SYNRESTRS>
@@ -68,7 +68,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Content"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

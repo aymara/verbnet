@@ -136,11 +136,7 @@
             <MEMBERS>
                 <MEMBER name="dip" wn="dip%2:35:00 dip%2:34:00"/>
             </MEMBERS>
-            <THEMROLES>
-                <THEMROLE type="Cause">
-                    <SELRESTRS/>
-                </THEMROLE>
-            </THEMROLES>
+            <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="in-PP" xtag=""/>
@@ -253,7 +249,6 @@
                 <MEMBER name="squish" wn=""/>
                 <MEMBER name="squash" wn=""/>
                 <MEMBER name="tuck" wn="tuck%2:35:00"/>
-                <MEMBER name="wedge" wn="wedge%2:35:01 wedge%2:35:00"/>
                 <MEMBER name="wipe" wn="?wipe%2:35:00"/>
                 <MEMBER name="wring" wn="wring%2:35:02"/>
                 <MEMBER name="scrape" wn=""/>
@@ -326,6 +321,7 @@
                         <MEMBER name="shake" wn="shake%2:30:01"/>
                         <MEMBER name="squeeze" wn=""/>
                         <MEMBER name="sweep" wn="sweep%2:35:00"/>
+                        <MEMBER name="wedge" wn="wedge%2:35:01 wedge%2:35:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>

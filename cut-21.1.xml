@@ -19,6 +19,9 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -344,8 +347,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP"
-secondary="Resultative, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP" secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carol cut the envelope open with the knife&quot;</EXAMPLE>
             </EXAMPLES>
@@ -465,8 +467,7 @@ secondary="Resultative, Instrument-PP" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP"
-secondary="Result-PP, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carol cut the envelope into pieces with a knife&quot;</EXAMPLE>
             </EXAMPLES>
@@ -646,14 +647,16 @@ secondary="Result-PP, Instrument-PP" xtag=""/>
                 <PREP value="from">
                     <SELRESTRS/>
                 </PREP>
-                <LEX value="location"/>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="manner">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="VerbSpecific" value="Motion"/>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="contact">
@@ -685,13 +688,14 @@ secondary="Result-PP, Instrument-PP" xtag=""/>
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP-PP-PP" secondary="Instrument-PP Location-PP" xtag=""/>
+Susan cut the recipes from the magazine with a sharp knife.
             <EXAMPLES/>
             <SYNTAX>
                 <NP value="Agent">
@@ -704,7 +708,9 @@ secondary="Result-PP, Instrument-PP" xtag=""/>
                 <PREP value="from">
                     <SELRESTRS/>
                 </PREP>
-                <LEX value="location"/>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
@@ -727,13 +733,14 @@ secondary="Result-PP, Instrument-PP" xtag=""/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
-                <PRED value="degradation_material_integrity">
+                <PRED value="use">
                     <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
                     </ARGS>
                 </PRED>
-                <PRED value="Pred">
+                <PRED value="degradation_material_integrity">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
                         <ARG type="ThemRole" value="Patient"/>
@@ -749,7 +756,7 @@ secondary="Result-PP, Instrument-PP" xtag=""/>
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

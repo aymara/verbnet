@@ -19,7 +19,7 @@
                 <SELRESTR Value="+" type="time"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Instrument">
+        <THEMROLE type="Predicate">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -41,6 +41,18 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="continue">
+		    <ARGS>
+			<ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+		    <ARGS>
+			<ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -49,7 +61,7 @@
 		<EXAMPLE><![CDATA["The storm continued."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-		<NP value="Theme">
+                <NP value="Theme">
 		    <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -69,7 +81,7 @@
 		<EXAMPLE><![CDATA["He continued."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-		<NP value="Agent">
+                <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -95,7 +107,7 @@
 		<EXAMPLE><![CDATA["The party continued until 8 PM."]]></EXAMPLE>       
             </EXAMPLES>
             <SYNTAX>
-		<NP value="Theme">
+                <NP value="Theme">
 		    <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -128,7 +140,7 @@
 		<EXAMPLE><![CDATA["We continued until 8 PM."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-		<NP value="Agent">
+                <NP value="Agent">
 		    <SYNRESTRS/>
                 </NP>
                 <VERB/>

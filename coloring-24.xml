@@ -155,6 +155,12 @@
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>

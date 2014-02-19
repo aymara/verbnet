@@ -151,8 +151,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.2" primary="NP-PP"
-secondary="Beneficiary Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.2" primary="NP-PP" secondary="Beneficiary Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carmen bought a dress for Mary&quot;</EXAMPLE>
             </EXAMPLES>
@@ -259,8 +258,7 @@ secondary="Beneficiary Object" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.9" primary="NP-PP"
-secondary="Asset-Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.9" primary="NP-PP" secondary="Asset-Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carmen bought a dress for $50&quot;</EXAMPLE>
             </EXAMPLES>
@@ -364,8 +362,7 @@ secondary="Asset-Subject" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP-PP-PP"
-secondary="Source-PP, Asset-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP-PP" secondary="Source-PP, Asset-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["FMC has bought 565,000 shares from Nortek Inc. at $23.50 a share."]]></EXAMPLE>
             </EXAMPLES>

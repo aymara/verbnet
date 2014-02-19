@@ -66,8 +66,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP"
-secondary="Asset Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Asset Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The phone company billed me $10"]]></EXAMPLE>
             </EXAMPLES>

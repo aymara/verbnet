@@ -323,7 +323,7 @@
 		<PREP value="with">
 		    <SELRESTRS/>
 		</PREP>
-		<NP value="Actor2">
+                <NP value="Actor2">
 		    <SYNRESTRS/>
 		</NP>
                 <PREP value="about">
@@ -570,7 +570,7 @@
 			<PREP value="with">
 			    <SELRESTRS/>
 			</PREP>
-			<NP value="Actor2">
+                        <NP value="Actor2">
 			    <SYNRESTRS/>
 			</NP>
                         <NP value="Theme">
@@ -608,7 +608,7 @@
 			<PREP value="with">
 			    <SELRESTRS/>
 			</PREP>
-			<NP value="Actor2">
+                        <NP value="Actor2">
 			    <SYNRESTRS/>
 			</NP>
                         <NP value="Theme">

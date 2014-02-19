@@ -31,7 +31,16 @@
                 </NP>
                 <ADJ/>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="declare">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
        <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-NP-PRED" secondary="" xtag=""/>                     
@@ -52,7 +61,16 @@
 		    </SYNRESTRS>
 		</NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+               <PRED value="declare">
+                   <ARGS>
+                       <ARG type="Event" value="during(E)"/>
+                       <ARG type="ThemRole" value="Agent"/>
+                       <ARG type="ThemRole" value="Theme"/>
+                       <ARG type="ThemRole" value="Predicate"/>
+                   </ARGS>
+               </PRED>
+            </SEMANTICS>
         </FRAME>
        <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-TOBE" secondary="" xtag=""/>
@@ -70,7 +88,16 @@
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="declare">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
        <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-VEN-NP-OMIT" secondary="" xtag=""/>         
@@ -88,7 +115,16 @@
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="declare">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
        <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="S" secondary="" xtag=""/>       
@@ -106,7 +142,16 @@
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="declare">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES>
@@ -132,7 +177,16 @@
 	                    </SYNRESTRS>
 	                </NP>
 	            </SYNTAX>
-	            <SEMANTICS/>
+                    <SEMANTICS>
+                        <PRED value="declare">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Predicate"/>
+                            </ARGS>
+                       </PRED>
+                 </SEMANTICS>
 	        </FRAME>
                <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="WHAT-TO-INF" secondary="" xtag=""/> 
@@ -150,7 +204,16 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+                         <PRED value="declare">
+                             <ARGS>
+                                 <ARG type="Event" value="during(E)"/>
+                                 <ARG type="ThemRole" value="Agent"/>
+                                 <ARG type="ThemRole" value="Theme"/>
+                                 <ARG type="ThemRole" value="?Predicate"/>
+                            </ARGS>
+                       </PRED>
+                  </SEMANTICS>
                 </FRAME>
                <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="as-PP" xtag=""/>
@@ -170,7 +233,16 @@
 			</PREP>
                         <ADJ/>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+                          <PRED value="declare">
+                              <ARGS>
+                                  <ARG type="Event" value="during(E)"/>
+                                  <ARG type="ThemRole" value="Agent"/>
+                                  <ARG type="ThemRole" value="Theme"/>
+                                  <ARG type="ThemRole" value="?Predicate"/>
+                              </ARGS>
+                          </PRED>
+                  </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES>
@@ -196,7 +268,16 @@
 	                            </SYNRESTRS>
 	                        </NP>
 	                    </SYNTAX>
-	                    <SEMANTICS/>
+                            <SEMANTICS>
+                                <PRED value="declare">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="?Predicate"/>
+                                    </ARGS>
+                               </PRED>
+                          </SEMANTICS>
 	                </FRAME>
 	            </FRAMES>
 	            <SUBCLASSES>
@@ -222,7 +303,16 @@
 	                                    </SYNRESTRS>
 	                                </NP>
 	                            </SYNTAX>
-	                            <SEMANTICS/>
+                                    <SEMANTICS>
+                                         <PRED value="declare">
+                                            <ARGS>
+                                                <ARG type="Event" value="during(E)"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Theme"/>
+                                                <ARG type="ThemRole" value="?Predicate"/>
+                                           </ARGS>
+                                        </PRED>
+                                   </SEMANTICS>
 	                        </FRAME>
 	                    </FRAMES>
 	                    <SUBCLASSES>
@@ -251,7 +341,16 @@
                                             </SYNRESTRS>
                                         </NP>
                                     </SYNTAX>
-                                    <SEMANTICS/>
+                                    <SEMANTICS>
+                                         <PRED value="declare">
+                                            <ARGS>
+                                                <ARG type="Event" value="during(E)"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Theme"/>
+                                                <ARG type="ThemRole" value="?Predicate"/>
+                                           </ARGS>
+                                        </PRED>
+                                  </SEMANTICS>
                                 </FRAME>
                                <FRAME>
                                     <DESCRIPTION descriptionNumber="0.2" primary="WH-TO-INF" secondary="" xtag=""/> 
@@ -269,7 +368,16 @@
                                             </SYNRESTRS>
                                         </NP>
                                     </SYNTAX>
-                                    <SEMANTICS/>
+                                    <SEMANTICS>
+                                         <PRED value="declare">
+                                            <ARGS>
+                                                <ARG type="Event" value="during(E)"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Theme"/>
+                                                <ARG type="ThemRole" value="?Predicate"/>
+                                           </ARGS>
+                                       </PRED>
+                                    </SEMANTICS>
                                 </FRAME>
                             </FRAMES>
                             <SUBCLASSES>
@@ -297,7 +405,16 @@
                                             </SYNRESTRS>
                                         </NP>
                                     </SYNTAX>
-                                    <SEMANTICS/>
+                                    <SEMANTICS>
+                                         <PRED value="declare">
+                                            <ARGS>
+                                                <ARG type="Event" value="during(E)"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Theme"/>
+                                                <ARG type="ThemRole" value="?Predicate"/>
+                                           </ARGS>
+                                        </PRED>
+                                  </SEMANTICS>
                                 </FRAME>
                             </FRAMES>
                             <SUBCLASSES>
@@ -329,7 +446,16 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+                        <PRED value="declare">
+                           <ARGS>
+                               <ARG type="Event" value="during(E)"/>
+                               <ARG type="ThemRole" value="Agent"/>
+                               <ARG type="ThemRole" value="Theme"/>
+                               <ARG type="ThemRole" value="?Predicate"/>
+                           </ARGS>
+                       </PRED>
+                   </SEMANTICS>
                 </FRAME>
                <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="HOW-TO-INF" secondary="" xtag=""/>      
@@ -347,7 +473,16 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+                         <PRED value="declare">
+                             <ARGS>
+                                 <ARG type="Event" value="during(E)"/>
+                                 <ARG type="ThemRole" value="Agent"/>
+                                 <ARG type="ThemRole" value="Theme"/>
+                                 <ARG type="ThemRole" value="?Predicate"/>
+                             </ARGS>
+                         </PRED>
+                   </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES/>

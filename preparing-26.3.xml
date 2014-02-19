@@ -79,8 +79,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.2" primary="NP-NP"
-secondary="Beneficiary Object" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.2" primary="NP-NP" secondary="Beneficiary Object" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Donna fixed me a sandwich&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -232,8 +231,7 @@ secondary="Beneficiary Object" xtag=""/>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.2" primary="NP-NP"
-secondary="Beneficiary Object" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.2" primary="NP-NP" secondary="Beneficiary Object" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Donna grilled me steaks&quot;</EXAMPLE>
                     </EXAMPLES>

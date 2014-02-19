@@ -186,7 +186,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Recipient"/>
+                        <ARG type="ThemRole" value="Recipient"/>
                         <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
@@ -287,16 +287,23 @@
                 <ADJ/>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Oblique"/>
-                    </ARGS>
-                </PRED>
                 <PRED value="cause">
                     <ARGS>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="express">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Oblique"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -322,16 +329,23 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Oblique1"/>
-                    </ARGS>
-                </PRED>
                 <PRED value="cause">
                     <ARGS>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="express">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Oblique1"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

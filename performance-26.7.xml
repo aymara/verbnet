@@ -163,8 +163,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.2"
-primary="NP-NP" secondary="Beneficiary Object" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.2" primary="NP-NP" secondary="Beneficiary Object" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>&quot;Sandy sang me a song&quot;</EXAMPLE>
                             </EXAMPLES>
@@ -337,8 +336,7 @@ primary="NP-NP" secondary="Beneficiary Object" xtag=""/>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.2"
-primary="NP-NP" secondary="Beneficiary Object" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.2" primary="NP-NP" secondary="Beneficiary Object" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>&quot;Claire drew me a picture&quot;</EXAMPLE>
                             </EXAMPLES>

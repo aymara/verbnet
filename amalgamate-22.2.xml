@@ -11,6 +11,9 @@
                 <SELRESTR Value="+" type="machine"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS/>
+        </THEMROLE>
         <THEMROLE type="Patient1">
             <SELRESTRS/>
         </THEMROLE>
@@ -602,8 +605,7 @@
                             </THEMROLES>
                             <FRAMES>
                                 <FRAME>
-                                    <DESCRIPTION descriptionNumber="2.5.4"
-primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
+                                    <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                                     <EXAMPLES>
                                         <EXAMPLE>&quot;John and Mary married&quot;</EXAMPLE>
                                     </EXAMPLES>

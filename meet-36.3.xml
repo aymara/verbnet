@@ -3,6 +3,11 @@
 <VNCLASS ID="meet-36.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS/>
     <THEMROLES>
+        <THEMROLE type="Actor">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
         <THEMROLE type="Actor1">
             <SELRESTRS>
                 <SELRESTR Value="+" type="animate"/>
@@ -110,7 +115,7 @@
                         <EXAMPLE><![CDATA["The committee met."]]></EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor1">
+                        <NP value="Actor">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -242,7 +247,7 @@
                         <EXAMPLE><![CDATA["The populace fought."]]></EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor1">
+                        <NP value="Actor">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>

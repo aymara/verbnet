@@ -487,7 +487,6 @@
                 <PRED value="degradation_material_integrity">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Form"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>

@@ -45,14 +45,14 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
                 <PRED value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

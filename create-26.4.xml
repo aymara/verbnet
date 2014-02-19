@@ -40,9 +40,6 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Predicate">
-            <SELRESTRS/>
-        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -60,17 +57,15 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED bool="!" value="state">
+                <PRED bool="!" value="exist">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="VerbSpecific" value="Endstate"/>
                         <ARG type="ThemRole" value="Product"/>
                     </ARGS>
                 </PRED>
-                <PRED value="state">
+                <PRED value="exist">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Endstate"/>
                         <ARG type="ThemRole" value="Product"/>
                     </ARGS>
                 </PRED>
@@ -191,22 +186,20 @@
                     <SYNRESTRS/>
                 </NP>
                 <LEX value="as"/>
-                <NP value="Predicate">
+                <NP value="Oblique">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED bool="!" value="state">
+                <PRED bool="!" value="exist">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="VerbSpecific" value="Endstate"/>
                         <ARG type="ThemRole" value="Product"/>
                     </ARGS>
                 </PRED>
-                <PRED value="state">
+                <PRED value="exist">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Endstate"/>
                         <ARG type="ThemRole" value="Product"/>
                     </ARGS>
                 </PRED>

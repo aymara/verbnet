@@ -13,7 +13,7 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Patient">
+        <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -34,7 +34,7 @@
                 <PREP value="in">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Patient">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -43,7 +43,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

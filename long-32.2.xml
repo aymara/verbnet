@@ -120,8 +120,8 @@
                         <PRED value="desire">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

@@ -35,7 +35,7 @@
                 <VERB/>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="occurred">
+                <PRED value="occur">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
@@ -44,8 +44,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="NP"
-secondary="Expletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="NP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["There happened a serious accident."]]></EXAMPLE>
             </EXAMPLES>
@@ -57,7 +56,7 @@ secondary="Expletive-there Subject" xtag=""/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="occurred">
+                <PRED value="occur">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
@@ -85,7 +84,7 @@ secondary="Expletive-there Subject" xtag=""/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="occurred">
+                <PRED value="occur">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
@@ -120,7 +119,7 @@ secondary="Expletive-there Subject" xtag=""/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="occurred">
+                <PRED value="occur">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
@@ -150,7 +149,7 @@ secondary="Expletive-there Subject" xtag=""/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="occurred">
+                <PRED value="occur">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>

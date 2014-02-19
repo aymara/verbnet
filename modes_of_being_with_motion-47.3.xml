@@ -129,8 +129,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="NP"
-secondary="Expletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="NP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;There fluttered a flag (over the fort)&quot;</EXAMPLE>
             </EXAMPLES>
@@ -202,8 +201,7 @@ secondary="Expletive-there Subject" xtag=""/>
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP"
-secondary="Causative variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The patriots waved the flag&quot;</EXAMPLE>
             </EXAMPLES>

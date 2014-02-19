@@ -8,11 +8,6 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Instrument">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="concrete"/>
-            </SELRESTRS>
-        </THEMROLE>
         <THEMROLE type="Source">
             <SELRESTRS/>
         </THEMROLE>
@@ -126,7 +121,7 @@
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="?Patient"/>
                             </ARGS>
                         </PRED>
                         <PRED value="Pred">
@@ -161,7 +156,7 @@
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="?Patient"/>
                             </ARGS>
                         </PRED>
                         <PRED value="Prep">
@@ -192,7 +187,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Cynthi drank the wine."]]></EXAMPLE>
+                        <EXAMPLE><![CDATA["Cynthia drank the wine."]]></EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -296,6 +291,7 @@
                         </PRED>
                         <PRED value="Prep">
                             <ARGS>
+                                <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="?Patient"/>
                                 <ARG type="ThemRole" value="Source"/>
                             </ARGS>

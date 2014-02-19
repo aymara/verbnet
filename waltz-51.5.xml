@@ -99,8 +99,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP"
-secondary="Induced Action, with accompanied motion, path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP" secondary="Induced Action, with accompanied motion, path PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He waltzed her across the floor&quot;</EXAMPLE>
             </EXAMPLES>
@@ -163,8 +162,7 @@ secondary="Induced Action, with accompanied motion, path PP" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP"
-secondary="Induced Action, without accompanied motion, path-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP" secondary="Induced Action, without accompanied motion, path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He waltzed her across the floor&quot;</EXAMPLE>
             </EXAMPLES>
@@ -240,7 +238,6 @@ secondary="Induced Action, without accompanied motion, path-PP" xtag=""/>
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
                         <ARG type="ThemRole" value="Oblique1"/>
-                        <ARG type="ThemRole" value="Oblique2"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">

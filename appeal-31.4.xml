@@ -196,7 +196,7 @@
                                     <ARGS>
                                         <ARG type="Event" value="E"/>
                                         <ARG type="VerbSpecific" value="Emotion"/>
-                                        <ARG type="ThemRole" value="Experiencer"/>
+                                        <ARG type="ThemRole" value="?Experiencer"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED value="cause">

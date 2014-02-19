@@ -69,8 +69,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP"
-secondary="inchoative, locative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="inchoative, locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Claire skated along the canal&quot;</EXAMPLE>
             </EXAMPLES>
@@ -105,8 +104,7 @@ secondary="inchoative, locative-PP" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP"
-secondary="Induced Action, with accompanied motion, path-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP" secondary="Induced Action, with accompanied motion, path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He skated Penny around the rink&quot;</EXAMPLE>
             </EXAMPLES>
@@ -169,8 +167,7 @@ secondary="Induced Action, with accompanied motion, path-PP" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP"
-secondary="Induced Action, with accompanied motion" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP" secondary="Induced Action, with accompanied motion" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He skated Penny&quot;</EXAMPLE>
             </EXAMPLES>

@@ -6,6 +6,12 @@
         <MEMBER name="talk" wn="talk%2:32:01 talk%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
+        <THEMROLE type="Actor">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
         <THEMROLE type="Actor1">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>

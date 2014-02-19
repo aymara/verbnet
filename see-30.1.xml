@@ -134,11 +134,23 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary=""
-xtag="0.2"/>                                  
+            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag="0.2"/>                                  
             <EXAMPLES>
                 <EXAMPLE>&quot;I saw what they did.&quot;</EXAMPLE>
     
@@ -155,6 +167,19 @@ xtag="0.2"/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>
@@ -191,6 +216,19 @@ xtag="0.2"/>
 	                </NP>
 	            </SYNTAX>
 	            <SEMANTICS>
+                        <PRED value="perceive">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                         </PRED>
+                         <PRED value="in_reaction_to">
+                            <ARGS>
+                                 <ARG type="Event" value="E"/>
+                                 <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                         </PRED>
 	            </SEMANTICS>
 	        </FRAME>
 	        <FRAME>
@@ -213,6 +251,19 @@ xtag="0.2"/>
 	                </NP>
 	            </SYNTAX>
 	            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
 	            </SEMANTICS>
 	        </FRAME>
 	        <FRAME>
@@ -232,6 +283,19 @@ xtag="0.2"/>
 	                </NP>
 	            </SYNTAX>
 	            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
 	            </SEMANTICS>
 	        </FRAME>
             </FRAMES>

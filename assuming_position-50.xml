@@ -2,7 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="assuming_position-50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <!--individual verbs specify what spatial position Pos refers to, and specifies what kind of motion Pred is happening during the event for Agent to assume this position-->
+        <!--individual verbs specify what spatial position Pos refers to, and specifies what kind of motion is happening during the event for Agent to assume this position-->
         <!--"straddle" also takes a transitive ("John straddled the horse")-->
         <MEMBER name="bend" wn="bend%2:38:03"/>
         <MEMBER name="bow" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
@@ -57,7 +57,7 @@
                         <ARG type="VerbSpecific" value="Pos"/>
                     </ARGS>
                 </PRED>
-                <PRED value="Pred">
+                <PRED value="motion">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
@@ -99,7 +99,7 @@
                         <ARG type="VerbSpecific" value="Pos"/>
                     </ARGS>
                 </PRED>
-                <PRED value="Pred">
+                <PRED value="motion">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>

@@ -27,7 +27,7 @@
 		<EXAMPLE><![CDATA["He stopped going to the area."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-		<NP value="Agent">
+                <NP value="Agent">
 		    <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -107,7 +107,7 @@
 		<EXAMPLE><![CDATA["The party ended with a bang."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-		<NP value="Theme">
+                <NP value="Theme">
 		    <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -135,13 +135,12 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-	    <DESCRIPTION descriptionNumber="" primary="NP-PP"
-secondary="Causative variant" xtag=""/>
+	    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
 		<EXAMPLE><![CDATA["I ended the party with a speech."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-		<NP value="Agent">
+                <NP value="Agent">
 	            <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -205,12 +204,6 @@ secondary="Causative variant" xtag=""/>
                             <ARGS>
                                 <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Theme"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="cause">
-                            <ARGS>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="Event" value="E"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

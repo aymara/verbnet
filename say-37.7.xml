@@ -15,7 +15,7 @@
         <MEMBER name="voice" wn=""/>
     </MEMBERS>
     <THEMROLES>
-        <THEMROLE type="Actor">
+        <THEMROLE type="Agent">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
@@ -441,7 +441,7 @@
 		                    <ARGS>
 		                        <ARG type="Event" value="during(E)"/>
 		                        <ARG type="ThemRole" value="Agent"/>
-		                        <ARG type="ThemRole" value="?Recipient"/>
+		                        <ARG type="ThemRole" value="Recipient"/>
 		                        <ARG type="ThemRole" value="Topic"/>
 		                    </ARGS>
 		                </PRED>
@@ -480,7 +480,7 @@
 		                    <ARGS>
 		                        <ARG type="Event" value="during(E)"/>
 		                        <ARG type="ThemRole" value="Agent"/>
-		                        <ARG type="ThemRole" value="?Recipient"/>
+		                        <ARG type="ThemRole" value="Recipient"/>
 		                        <ARG type="ThemRole" value="Topic"/>
 		                    </ARGS>
 		                </PRED>
@@ -519,7 +519,7 @@
 		                    <ARGS>
 		                        <ARG type="Event" value="during(E)"/>
 		                        <ARG type="ThemRole" value="Agent"/>
-		                        <ARG type="ThemRole" value="?Recipient"/>
+		                        <ARG type="ThemRole" value="Recipient"/>
 		                        <ARG type="ThemRole" value="Topic"/>
 		                    </ARGS>
 		                </PRED>
@@ -558,7 +558,7 @@
 		                    <ARGS>
 		                        <ARG type="Event" value="during(E)"/>
 		                        <ARG type="ThemRole" value="Agent"/>
-		                        <ARG type="ThemRole" value="?Recipient"/>
+		                        <ARG type="ThemRole" value="Recipient"/>
 		                        <ARG type="ThemRole" value="Topic"/>
 		                    </ARGS>
 		                </PRED>
@@ -598,7 +598,7 @@
 		                    <ARGS>
 		                        <ARG type="Event" value="during(E)"/>
 		                        <ARG type="ThemRole" value="Agent"/>
-		                        <ARG type="ThemRole" value="?Recipient"/>
+		                        <ARG type="ThemRole" value="Recipient"/>
 		                        <ARG type="ThemRole" value="Topic"/>
 		                    </ARGS>
 		                </PRED>
@@ -637,7 +637,7 @@
 		                    <ARGS>
 		                        <ARG type="Event" value="during(E)"/>
 		                        <ARG type="ThemRole" value="Agent"/>
-		                        <ARG type="ThemRole" value="?Recipient"/>
+		                        <ARG type="ThemRole" value="Recipient"/>
 		                        <ARG type="ThemRole" value="Topic"/>
 		                    </ARGS>
 		                </PRED>

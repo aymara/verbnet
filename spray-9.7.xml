@@ -72,8 +72,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="NP-PP"
-secondary="Location Object, with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="NP-PP" secondary="Location Object, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jessica loaded the wagon with boxes&quot;</EXAMPLE>
             </EXAMPLES>

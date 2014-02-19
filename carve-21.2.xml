@@ -296,7 +296,7 @@
                         <PRED value="contact">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Instrument"/>
+                                <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Patient"/>
                             </ARGS>
                         </PRED>

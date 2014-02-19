@@ -79,8 +79,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="NP-PP"
-secondary="Expletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;There echoed voices through the hall&quot;</EXAMPLE>
             </EXAMPLES>
@@ -139,8 +138,7 @@ secondary="Expletive-there Subject" xtag=""/>
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="PP"
-secondary="Location Subject, with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="PP" secondary="Location Subject, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The hall echoed with voices&quot;</EXAMPLE>
             </EXAMPLES>

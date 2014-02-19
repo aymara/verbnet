@@ -247,14 +247,6 @@
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
-                <PRED value="amount_changed">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="?Attribute"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="?Extent"/>
-                    </ARGS>
-                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -330,8 +322,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.13.5"
-primary="Intransitive" secondary="Attribute Subject" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.13.5" primary="Intransitive" secondary="Attribute Subject" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Oil's price soared."]]></EXAMPLE>
                     </EXAMPLES>

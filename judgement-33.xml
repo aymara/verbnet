@@ -107,7 +107,7 @@
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Attribute">
+        <THEMROLE type="Predicate">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -127,12 +127,12 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="have_opinion">
+                <PRED value="declare">
                     <ARGS>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Attribute"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -153,24 +153,23 @@
                 <PREP value="for">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Attribute">
+                <NP value="Predicate">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="have_opinion">
+                <PRED value="declare">
                     <ARGS>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Attribute"/>
+                        <ARG type="ThemRole" value="Predicate"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.2" primary="NP"
-secondary="Attribute Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.2" primary="NP" secondary="Predicate Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["They praised the volunteer's dedication"]]></EXAMPLE>
             </EXAMPLES>
@@ -184,17 +183,17 @@ secondary="Attribute Object" xtag=""/>
                         <SYNRESTR Value="+" type="genitive"/>
                     </SYNRESTRS>
                 </NP>
-                <NP value="Attribute">
+                <NP value="Predicate">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="have_opinion">
+                <PRED value="declare">
                     <ARGS>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Attribute"/>
+                        <ARG type="ThemRole" value="Predicate"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -215,11 +214,19 @@ secondary="Attribute Object" xtag=""/>
 		<PREP value="as">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Attribute">
+                <NP value="Predicate">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="declare">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -235,21 +242,23 @@ secondary="Attribute Object" xtag=""/>
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Attribute">
-                    <SYNRESTRS>
-			<SYNRESTRS Value="+" type="small_clause"/>
+                <NP value="Predicate">
+		    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="small_clause"/>
 		    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="declare">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-
-
-
-
-
-

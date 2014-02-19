@@ -110,7 +110,7 @@
                 <PRED value="emit">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Source"/>
                         <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
@@ -187,8 +187,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="PP"
-secondary="Location Subject, with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="PP" secondary="Location Subject, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The streets gushed with water"]]></EXAMPLE>
             </EXAMPLES>
@@ -260,11 +259,9 @@ secondary="Location Subject, with-PP" xtag=""/>
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="NP-PP"
-secondary="Expletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["There bubbled a fragant stew
-over the fire."]]></EXAMPLE>
+                <EXAMPLE><![CDATA["There bubbled a fragant stew over the fire."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <LEX value="there"/>
@@ -277,7 +274,7 @@ over the fire."]]></EXAMPLE>
                         <SELRESTR Value="+" type="loc"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="location">
+                <NP value="Location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -344,7 +341,7 @@ over the fire."]]></EXAMPLE>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>

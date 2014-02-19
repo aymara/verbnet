@@ -67,6 +67,11 @@
                 <SELRESTR Value="+" type="machine"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="solid"/>
+            </SELRESTRS>
+        </THEMROLE>        
         <THEMROLE type="Patient1">
             <SELRESTRS>
                 <SELRESTR Value="+" type="solid"/>
@@ -111,7 +116,7 @@
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="VerbSpecific" value="Instrument"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -155,14 +160,14 @@
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="VerbSpecific" value="Instrument"/>
                     </ARGS>
                 </PRED>
                 <PRED value="attached">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Patient2"/>
-                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="VerbSpecific" value="Instrument"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -203,14 +208,14 @@
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Patient_i"/>
-                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="VerbSpecific" value="Instrument"/>
                     </ARGS>
                 </PRED>
                 <PRED value="attached">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Patient_j"/>
-                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="VerbSpecific" value="Instrument"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -359,7 +364,7 @@
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="VerbSpecific" value="Instrument"/>
                     </ARGS>
                 </PRED>
                 <PRED value="Pred">
@@ -412,7 +417,7 @@
                             <ARGS>
                                 <ARG type="Event" value="end(E)"/>
                                 <ARG type="ThemRole" value="Patient1"/>
-                                <ARG type="ThemRole" value="Patient2"/>
+                                <ARG type="VerbSpecific" value="Instrument"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

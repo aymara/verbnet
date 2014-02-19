@@ -97,8 +97,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="PP"
-secondary="Location Subject, with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="PP" secondary="Location Subject, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The crown sparkled with jewels"]]></EXAMPLE>
             </EXAMPLES>
@@ -134,8 +133,7 @@ secondary="Location Subject, with-PP" xtag=""/>
         <FRAME>
             <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["There sparkled a magnificent diamond
-on his finger"]]></EXAMPLE>
+                <EXAMPLE><![CDATA["There sparkled a magnificent diamond on his finger"]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <LEX value="there"/>
@@ -207,8 +205,7 @@ on his finger"]]></EXAMPLE>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2" primary="NP"
-secondary="Causative variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2" primary="NP" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The stagehand flashed the lights"]]></EXAMPLE>
             </EXAMPLES>

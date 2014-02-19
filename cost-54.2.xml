@@ -13,10 +13,10 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Value">
+        <THEMROLE type="Asset">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Benefactor">
+        <THEMROLE type="Agent">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
@@ -34,7 +34,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Attribute">
+                <NP value="Asset">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -43,7 +43,7 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Value"/>
+                        <ARG type="ThemRole" value="Asset"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -58,10 +58,10 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Benefactor">
+                <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Value">
+                <NP value="Asset">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -70,13 +70,13 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Value"/>
+                        <ARG type="ThemRole" value="Asset"/>
                     </ARGS>
                 </PRED>
                 <PRED value="benefit">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Benefactor"/>
+                        <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

@@ -23,8 +23,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive"
-secondary="Causative variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The pirates drowned the sailor&quot;</EXAMPLE>
             </EXAMPLES>
@@ -53,8 +52,7 @@ secondary="Causative variant" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Intransitive"
-secondary="Inchoative variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Intransitive" secondary="Inchoative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The sailor drowned&quot;</EXAMPLE>
             </EXAMPLES>

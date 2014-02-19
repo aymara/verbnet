@@ -21,7 +21,7 @@
         <THEMROLE type="Attribute">
             <SELRESTRS/>
         </THEMROLE>
-	<THEMROLE type="Predicate">
+        <THEMROLE type="Predicate">
 	    <SELRESTRS/>
 	</THEMROLE>
     </THEMROLES>
@@ -51,8 +51,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.1" primary="NP-PP"
-secondary="Possessor Object, Attribute-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.1" primary="NP-PP" secondary="Possessor Object, Attribute-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Dorothy needs her for her skills"]]></EXAMPLE>
             </EXAMPLES>
@@ -67,7 +66,7 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
                 <PREP value="for">
                     <SELRESTRS/>
                 </PREP>
-		<NP value="Attribute">
+                <NP value="Attribute">
 		    <SYNRESTRS/>
 		</NP>
             </SYNTAX>
@@ -109,9 +108,9 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
                    <SEMANTICS>
 	                <PRED value="desire">
 	                    <ARGS>
-	                        <ARG type="Event" value="E"/>
-	                        <ARG type="ThemRole" value="Experiencer"/>
-	                        <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Theme"/>
 	                    </ARGS>
 	                </PRED>
                    </SEMANTICS>
@@ -135,9 +134,9 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
                     <SEMANTICS>
 	                <PRED value="desire">
 	                    <ARGS>
-	                        <ARG type="Event" value="E"/>
-	                        <ARG type="ThemRole" value="Experiencer"/>
-	                        <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Theme"/>
 	                    </ARGS>
 	                </PRED>
 		    </SEMANTICS>
@@ -160,9 +159,9 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
                     <SEMANTICS>
 	                <PRED value="desire">
 	                    <ARGS>
-	                        <ARG type="Event" value="E"/>
-	                        <ARG type="ThemRole" value="Experiencer"/>
-	                        <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Theme"/>
 	                    </ARGS>
 	                </PRED>
 		    </SEMANTICS>  
@@ -180,16 +179,13 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
                         <NP value="Theme">
                             <SYNRESTRS/>
                         </NP>
-                        <NP value="Location">
-			    <SYNRESTRS/>
-			</NP>
                     </SYNTAX>
                     <SEMANTICS>
 	                <PRED value="desire">
 	                    <ARGS>
-	                        <ARG type="Event" value="E"/>
-	                        <ARG type="ThemRole" value="Experiencer"/>
-	                        <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Theme"/>
 	                    </ARGS>
 	                </PRED>
 		    </SEMANTICS>
@@ -213,9 +209,9 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
                     <SEMANTICS>
 	                <PRED value="desire">
 	                    <ARGS>
-	                        <ARG type="Event" value="E"/>
-	                        <ARG type="ThemRole" value="Experiencer"/>
-	                        <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Theme"/>
 	                    </ARGS>
 	                </PRED>
 		    </SEMANTICS>
@@ -239,9 +235,9 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
                     <SEMANTICS>
 	                <PRED value="desire">
 	                    <ARGS>
-	                        <ARG type="Event" value="E"/>
-	                        <ARG type="ThemRole" value="Experiencer"/>
-	                        <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Theme"/>
 	                    </ARGS>
 	                </PRED>
 		    </SEMANTICS>
@@ -265,9 +261,9 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
                     <SEMANTICS>
 	                <PRED value="desire">
 	                    <ARGS>
-	                        <ARG type="Event" value="E"/>
-	                        <ARG type="ThemRole" value="Experiencer"/>
-	                        <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Theme"/>
 	                    </ARGS>
 	                </PRED>
 		    </SEMANTICS>
@@ -291,9 +287,9 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
                     <SEMANTICS>
 	                <PRED value="desire">
 	                    <ARGS>
-	                        <ARG type="Event" value="E"/>
-	                        <ARG type="ThemRole" value="Experiencer"/>
-	                        <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Theme"/>
 	                    </ARGS>
 	                </PRED>
 		    </SEMANTICS>
@@ -316,11 +312,11 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
 				    <EXAMPLE>&quot;I needed him to go&quot;</EXAMPLE>
 				</EXAMPLES>
 			    <SYNTAX>
-				<NP value="Experiencer">
+                                <NP value="Experiencer">
 				    <SYNRESTRS/>
 				</NP>
 				<VERB/>
-				<NP value="Proposition">
+                                <NP value="Theme">
 				    <SYNRESTRS>
 					<SYNRESTR Value="+" type="np_to_inf"/>
 				    </SYNRESTRS>
@@ -329,9 +325,9 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
 			    <SEMANTICS>
 		                <PRED value="desire">
 		                    <ARGS>
-		                        <ARG type="Event" value="E"/>
-		                        <ARG type="ThemRole" value="Experiencer"/>
-		                        <ARG type="ThemRole" value="Proposition"/>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Experiencer"/>
+                                        <ARG type="ThemRole" value="Theme"/>
 		                    </ARGS>
 		                </PRED>
 			    </SEMANTICS>
@@ -342,11 +338,11 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
 				<EXAMPLE>&quot;I need him to be nice&quot;</EXAMPLE>
 			    </EXAMPLES>
 			    <SYNTAX>
-				<NP value="Experiencer">
+                                <NP value="Experiencer">
 				    <SYNRESTRS/>
 				</NP>
 				<VERB/>
-				<NP value="Theme">
+                                <NP value="Theme">
 				    <SYNRESTRS>
 					<SYNRESTR Value="+" type="to_be"/>
 				    </SYNRESTRS>
@@ -355,9 +351,9 @@ secondary="Possessor Object, Attribute-PP" xtag=""/>
 			    <SEMANTICS>
 		                <PRED value="desire">
 		                    <ARGS>
-		                        <ARG type="Event" value="E"/>
-		                        <ARG type="ThemRole" value="Experiencer"/>
-		                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Experiencer"/>
+                                        <ARG type="ThemRole" value="Theme"/>
 		                    </ARGS>
 		                </PRED>
 			    </SEMANTICS>

@@ -41,8 +41,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="PP"
-secondary="Inchoative variant, Product-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="PP" secondary="Inchoative variant, Product-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The dough twirled into a pretzel&quot;</EXAMPLE>
             </EXAMPLES>
@@ -95,8 +94,7 @@ secondary="Inchoative variant, Product-PP" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP-PP"
-secondary="Causative variant, Product-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP-PP" secondary="Causative variant, Product-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I kneaded the dough into a loaf&quot;</EXAMPLE>
             </EXAMPLES>
@@ -158,8 +156,7 @@ secondary="Causative variant, Product-PP" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive"
-secondary="Causative variant, Material object" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive" secondary="Causative variant, Material object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I kneaded the dough&quot;</EXAMPLE>
             </EXAMPLES>

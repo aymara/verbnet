@@ -65,37 +65,37 @@
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
-		<FRAME>
-		    <DESCRIPTION descriptionNumber="8.1" primary="ING-SC/BE-ING-SC" secondary="" xtag=""/>
-		    <EXAMPLES>
-                        <EXAMPLE><![CDATA["He began going to the area."]]></EXAMPLE>
-		    </EXAMPLES>
-		    <SYNTAX>
-			<NP value="Agent">
-			    <SYNRESTRS/>
-			</NP>
-			<VERB/>
-			<NP value="Theme"/>
-			    <SYNRESTRS>
-				<SYNRESTR Value="+" type="be_sc_ing"/>
-			    </SYNRESTRS>
-			</NP>
-		    </SYNTAX>
-		    <SEMANTICS>
-	                <PRED value="begin">
-	                    <ARGS>
-	                        <ARG type="Event" value="E"/>
-	                        <ARG type="ThemRole" value="Theme"/>
-	                    </ARGS>
-	                </PRED>
-	                <PRED value="cause">
-	                    <ARGS>
-	                        <ARG type="ThemRole" value="Agent"/>
-	                        <ARG type="Event" value="E"/>
-	                    </ARGS>
-	                </PRED>
-		    </SEMANTICS>
-		</FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="ING-SC/BE-ING-SC" secondary="" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE><![CDATA["John began going to the area."]]></EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Theme">
+                          <SYNRESTRS>
+                            <SYNRESTR Value="+" type="be_sc_ing"/>
+                          </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="begin">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="Inchoative" xtag=""/>
                     <EXAMPLES>

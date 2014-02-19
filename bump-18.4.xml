@@ -30,6 +30,9 @@
                 <PREP value="against into onto">
                     <SELRESTRS/>
                 </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="manner">

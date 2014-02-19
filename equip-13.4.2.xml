@@ -88,7 +88,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Theme Object" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Recipient Object" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Brown equipped his soldiers&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -160,7 +160,7 @@
                                 <PRED value="has_possession">
                                     <ARGS>
                                         <ARG type="Event" value="during(E)"/>
-                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Recipient"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                     </ARGS>
                                 </PRED>

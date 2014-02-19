@@ -65,7 +65,7 @@
                 <PREP value="for">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Cause">
+                <NP value="Attribute">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -81,8 +81,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.2" primary="NP"
-secondary="Attribute Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.2" primary="NP" secondary="Attribute Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The inspector analyzed the building's soundness"]]></EXAMPLE>
             </EXAMPLES>
@@ -97,7 +96,7 @@ secondary="Attribute Object" xtag=""/>
                     </SYNRESTRS>
                 </NP>
                 <LEX value="ss"/>
-                <NP value="Cause">
+                <NP value="Attribute">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>

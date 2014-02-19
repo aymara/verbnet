@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="escape-51.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <!--each verb specifies the Prep that is it's default-->
+    <!--each verb specifies the Prep_Dirthat is it's default-->
     <MEMBERS/>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -56,7 +56,7 @@
                         <PRED value="direction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="VerbSpecific" value="Prep"/>
+                                <ARG type="VerbSpecific" value="Prep_Dir"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Location"/>
                             </ARGS>
@@ -92,7 +92,7 @@
                         <PRED value="direction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="VerbSpecific" value="Prep"/>
+                                <ARG type="VerbSpecific" value="Prep_Dir"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="Location"/>
                             </ARGS>
@@ -123,7 +123,7 @@
                         <PRED value="direction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="VerbSpecific" value="Prep"/>
+                                <ARG type="VerbSpecific" value="Prep_Dir"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="Location"/>
                             </ARGS>
@@ -150,7 +150,7 @@
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" xtag="0.1"/>
-                    <!-- each verb specifies the Prep (and sometimes the Oblique) that is it's default-->
+                    <!-- each verb specifies the Prep_Dir (and sometimes the Oblique) that is it's default-->
                     <EXAMPLES>
                         <EXAMPLE>&quot;The prisoners advanced&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -170,7 +170,7 @@
                         <PRED value="direction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="VerbSpecific" value="Prep"/>
+                                <ARG type="VerbSpecific" value="Prep_Dir"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Oblique"/>
                             </ARGS>
@@ -206,7 +206,7 @@
                         <PRED value="direction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="VerbSpecific" value="Prep"/>
+                                <ARG type="VerbSpecific" value="Prep_Dir"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="Oblique"/>
                             </ARGS>

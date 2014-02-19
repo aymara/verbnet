@@ -148,7 +148,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="3.9" primary="NP-PP" secondary="Asset-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Carmen purchased a dressfor $50&quot;</EXAMPLE>
+                        <EXAMPLE>&quot;Carmen purchased a dress for $50&quot;</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

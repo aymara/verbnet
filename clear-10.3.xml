@@ -10,10 +10,10 @@
         </THEMROLE>
         <THEMROLE type="Theme">
             <SELRESTRS>
-                <SELRESTR Value="+" type="phys_obj"/>
+                <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Source">
+        <THEMROLE type="Location">
             <SELRESTRS>
                 <SELRESTR Value="+" type="location"/>
             </SELRESTRS>
@@ -21,8 +21,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive"
-secondary="Causative variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The strong winds cleared the sky&quot;</EXAMPLE>
             </EXAMPLES>
@@ -31,7 +30,7 @@ secondary="Causative variant" xtag=""/>
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Source">
+                <NP value="Location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -45,28 +44,27 @@ secondary="Causative variant" xtag=""/>
                 <PRED value="location">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Intransitive"
-secondary="Inchoative variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Intransitive" secondary="Inchoative variant" xtag=""/>
             <!-- "empty" and "clean" might not allow this frame-->
             <EXAMPLES>
                 <EXAMPLE>&quot;The sky cleared&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Source">
+                <NP value="Location">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -75,21 +73,21 @@ secondary="Inchoative variant" xtag=""/>
                 <PRED value="location">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Doug cleaned the dishes from the table&quot;</EXAMPLE>
             </EXAMPLES>
@@ -106,7 +104,7 @@ secondary="Inchoative variant" xtag=""/>
                         <SELRESTR Value="+" type="src"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Source">
+                <NP value="Location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -121,20 +119,20 @@ secondary="Inchoative variant" xtag=""/>
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Source-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
             <!-- "empty" and "clean" might not allow this frame-->
             <EXAMPLES>
                 <EXAMPLE>&quot;Clouds cleared from the sky&quot;</EXAMPLE>
@@ -149,7 +147,7 @@ secondary="Inchoative variant" xtag=""/>
                         <SELRESTR Value="+" type="src"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Source">
+                <NP value="Location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -158,14 +156,14 @@ secondary="Inchoative variant" xtag=""/>
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -180,7 +178,7 @@ secondary="Inchoative variant" xtag=""/>
                 <MEMBER name="empty" wn="empty%2:30:01 empty%2:30:00 empty%2:35:00"/>
             </MEMBERS>
             <THEMROLES>
-                <THEMROLE type="Source">
+                <THEMROLE type="Location">
                     <SELRESTRS>
                         <SELRESTR Value="-" type="region"/>
                     </SELRESTRS>
@@ -188,8 +186,7 @@ secondary="Inchoative variant" xtag=""/>
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.3" primary="NP-PP"
-secondary="Location Subject, of-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.3" primary="NP-PP" secondary="Location Subject, of-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Doug cleaned the table of dishes&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -198,7 +195,7 @@ secondary="Location Subject, of-PP" xtag=""/>
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Source">
+                        <NP value="Location">
                             <SYNRESTRS/>
                         </NP>
                         <PREP value="of">
@@ -219,14 +216,14 @@ secondary="Location Subject, of-PP" xtag=""/>
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
                                 <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="ThemRole" value="Source"/>
+                                <ARG type="ThemRole" value="Location"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="location">
                             <ARGS>
                                 <ARG type="Event" value="end(E)"/>
                                 <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="ThemRole" value="Source"/>
+                                <ARG type="ThemRole" value="Location"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

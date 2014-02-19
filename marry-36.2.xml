@@ -15,6 +15,11 @@
         <!-- Removed "pass" from class -->
     </MEMBERS>
     <THEMROLES>
+        <THEMROLE type="Actor">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
         <THEMROLE type="Actor1">
             <SELRESTRS>
                 <SELRESTR Value="+" type="animate"/>
@@ -33,7 +38,7 @@
                 <EXAMPLE><![CDATA["Bill and Kathy married"]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Actor1">
+                <NP value="Actor">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="plural"/>
                     </SYNRESTRS>

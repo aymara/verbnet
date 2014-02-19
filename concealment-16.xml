@@ -69,7 +69,7 @@
                 </PRED>
                 <PRED bool="!" value="visible">
                     <ARGS>
-                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
@@ -119,7 +119,7 @@
                 </PRED>
                 <PRED bool="!" value="visible">
                     <ARGS>
-                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
@@ -155,7 +155,7 @@
                 </PRED>
                 <PRED bool="!" value="visible">
                     <ARGS>
-                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
@@ -190,12 +190,13 @@
                         <PRED value="visible">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
-                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="visible">
                             <ARGS>
-                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -218,12 +219,6 @@
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-                        <PRED value="cause">
-                            <ARGS>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="Event" value="E"/>
-                            </ARGS>
-                        </PRED>
                         <PRED value="visible">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
@@ -232,7 +227,7 @@
                         </PRED>
                         <PRED bool="!" value="visible">
                             <ARGS>
-                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="Event" value="end(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
@@ -265,28 +260,22 @@
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-                        <PRED value="cause">
-                            <ARGS>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="Event" value="E"/>
-                            </ARGS>
-                        </PRED>
                         <PRED value="visible">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
-                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="visible">
                             <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
                         <PRED value="location">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Location"/>
                             </ARGS>
                         </PRED>

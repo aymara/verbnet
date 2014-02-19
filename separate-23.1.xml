@@ -15,6 +15,9 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS/>
+        </THEMROLE>
         <THEMROLE type="Patient1">
             <SELRESTRS/>
         </THEMROLE>

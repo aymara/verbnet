@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="succeed-74" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+    </FRAMES>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="succeed-72-1">
+            <MEMBERS>
+                <MEMBER name="succeed" wn=""/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+	        <FRAME>
+	            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
+	            <EXAMPLES>
+	                <EXAMPLE>&quot;I succeeded.&quot;</EXAMPLE>
+	            </EXAMPLES>
+	            <SYNTAX>
+	                <NP value="Agent">
+	                    <SYNRESTRS/>
+	                </NP>
+	                <VERB/>
+	            </SYNTAX>
+	            <SEMANTICS>
+		        <PRED value="successful_in">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                            </ARGS>
+                        </PRED>
+	            </SEMANTICS>
+	        </FRAME>
+	        <FRAME>
+	            <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="in-PP" xtag="0.2"/>
+	            <EXAMPLES>
+	                <EXAMPLE>&quot;I succeeded in climbing the mountain.&quot;</EXAMPLE>
+	            </EXAMPLES>
+	            <SYNTAX>
+	                <NP value="Agent">
+	                    <SYNRESTRS/>
+	                </NP>
+	                <VERB/>
+	                <PREP value="in">
+	                    <SELRESTRS/>
+	                </PREP>
+	                <NP value="Theme">
+	                    <SYNRESTRS>
+	                        <SYNRESTR Value="+" type="sc_ing"/>
+	                    </SYNRESTRS>
+	                </NP>
+	            </SYNTAX>
+	            <SEMANTICS>
+                        <PRED value="successful_in">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+	            </SEMANTICS>
+	        </FRAME>
+	        <FRAME>
+	            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="in-PP" xtag="0.2"/>
+	            <EXAMPLES>
+	                <EXAMPLE>&quot;I succeeded in the endeavour.&quot;</EXAMPLE>
+	            </EXAMPLES>
+	            <SYNTAX>
+	                <NP value="Agent">
+	                    <SYNRESTRS/>
+	                </NP>
+	                <VERB/>
+	                <PREP value="in">
+	                    <SELRESTRS/>
+	                </PREP>
+	                <NP value="Theme">
+	                    <SYNRESTRS>
+	                        <SYNRESTR Value="-" type="sentential"/>
+	                    </SYNRESTRS>
+	                </NP>
+	            </SYNTAX>
+	            <SEMANTICS>
+                        <PRED value="successful_in">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+	            </SEMANTICS>
+	        </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="succeed-72-1-1">
+                    <MEMBERS>
+                        <MEMBER name="manage" wn=""/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+		        <FRAME>
+		            <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" secondary="" xtag="0.2"/>
+		            <EXAMPLES>
+		                <EXAMPLE>&quot;I managed to pass the test.&quot;</EXAMPLE>
+		            </EXAMPLES>
+		            <SYNTAX>
+		                <NP value="Agent">
+		                    <SYNRESTRS/>
+		                </NP>
+		                <VERB/>
+		                <NP value="Theme">
+		                    <SYNRESTRS>
+		                        <SYNRESTR Value="+" type="sc_to_inf"/>
+		                    </SYNRESTRS>
+		                </NP>
+		            </SYNTAX>
+		            <SEMANTICS>
+                                <PRED value="successful_in">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+		            </SEMANTICS>
+		        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
+        </VNSUBCLASS>
+        <VNSUBCLASS ID="succeed-72-2">
+            <MEMBERS>
+                <MEMBER name="fail" wn=""/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+	        <FRAME>
+	            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
+	            <EXAMPLES>
+	                <EXAMPLE>&quot;I failed.&quot;</EXAMPLE>
+	            </EXAMPLES>
+	            <SYNTAX>
+	                <NP value="Agent">
+	                    <SYNRESTRS/>
+	                </NP>
+	                <VERB/>
+	            </SYNTAX>
+	            <SEMANTICS>
+                        <PRED bool="!" value="successful_in">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                            </ARGS>
+                        </PRED>
+	            </SEMANTICS>
+	        </FRAME>
+	        <FRAME>
+	            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+	            <EXAMPLES>
+	                <EXAMPLE>&quot;I failed the test.&quot;</EXAMPLE>
+	            </EXAMPLES>
+	            <SYNTAX>
+	                <NP value="Agent">
+	                    <SYNRESTRS/>
+	                </NP>
+	                <VERB/>
+	                <NP value="Theme">
+	                    <SYNRESTRS>
+	                        <SYNRESTR Value="-" type="sentential"/>
+	                    </SYNRESTRS>
+	                </NP>
+	            </SYNTAX>
+	            <SEMANTICS>
+                        <PRED bool="!" value="successful_in">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+	            </SEMANTICS>
+	        </FRAME>
+	        <FRAME>
+	            <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="in-PP" xtag="0.2"/>
+	            <EXAMPLES>
+	                <EXAMPLE>&quot;I failed in attempting the test.&quot;</EXAMPLE>
+	            </EXAMPLES>
+	            <SYNTAX>
+	                <NP value="Agent">
+	                    <SYNRESTRS/>
+	                </NP>
+	                <VERB/>
+	                <PREP value="in">
+	                    <SELRESTRS/>
+	                </PREP>
+	                <NP value="Theme">
+	                    <SYNRESTRS>
+	                        <SYNRESTR Value="+" type="sc_ing"/>
+	                    </SYNRESTRS>
+	                </NP>
+	            </SYNTAX>
+	            <SEMANTICS>
+                        <PRED bool="!" value="successful_in">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+	            </SEMANTICS>
+	        </FRAME>
+	        <FRAME>
+	            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="in-PP" xtag="0.2"/>
+	            <EXAMPLES>
+	                <EXAMPLE>&quot;I failed in maths.&quot;</EXAMPLE>
+	            </EXAMPLES>
+	            <SYNTAX>
+	                <NP value="Agent">
+	                    <SYNRESTRS/>
+	                </NP>
+	                <VERB/>
+	                <PREP value="in">
+	                    <SELRESTRS/>
+	                </PREP>
+	                <NP value="Theme">
+	                    <SYNRESTRS>
+	                        <SYNRESTR Value="-" type="sentential"/>
+	                    </SYNRESTRS>
+	                </NP>
+	            </SYNTAX>
+	            <SEMANTICS>
+                        <PRED bool="!" value="successful_in">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+	            </SEMANTICS>
+	        </FRAME>
+	        <FRAME>
+	            <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" secondary="" xtag="0.2"/>
+	            <EXAMPLES>
+	                <EXAMPLE>&quot;I failed to pass the test.&quot;</EXAMPLE>
+	            </EXAMPLES>
+	            <SYNTAX>
+	                <NP value="Agent">
+	                    <SYNRESTRS/>
+	                </NP>
+	                <VERB/>
+	                <NP value="Theme">
+	                    <SYNRESTRS>
+	                        <SYNRESTR Value="+" type="sc_to_inf"/>
+	                    </SYNRESTRS>
+	                </NP>
+	            </SYNTAX>
+	            <SEMANTICS>
+                        <PRED bool="!" value="successful_in">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+	            </SEMANTICS>
+	        </FRAME>
+	     </FRAMES>
+	     <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>
+
+
+

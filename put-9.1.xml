@@ -199,11 +199,6 @@
                 <MEMBER name="put" wn="put%2:35:00"/>
             </MEMBERS>
             <THEMROLES>
-                <THEMROLE type="Patient">
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="animate"/>
-                    </SELRESTRS>
-                </THEMROLE>
                 <THEMROLE type="Theme">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="abstract"/>

@@ -151,16 +151,16 @@
                         <ARG type="ThemRole" value="Theme_i"/>
                     </ARGS>
                 </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
                 <PRED value="transfer">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -217,32 +217,6 @@
                         <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>
-            <PRED value="has_possession">
-                <ARGS>
-                    <ARG type="Event" value="start(E)"/>
-                    <ARG type="ThemRole" value="Agent"/>
-                    <ARG type="ThemRole" value="Theme_i"/>
-                </ARGS>
-            </PRED>
-            <PRED value="has_possession">
-                <ARGS>
-                    <ARG type="Event" value="end(E)"/>
-                    <ARG type="ThemRole" value="Agent"/>
-                    <ARG type="ThemRole" value="Theme_j"/>
-                </ARGS>
-            </PRED>
-            <PRED value="transfer">
-                <ARGS>
-                    <ARG type="Event" value="during(E)"/>
-                    <ARG type="ThemRole" value="Theme"/>
-                </ARGS>
-            </PRED>
-            <PRED value="cause">
-                <ARGS>
-                    <ARG type="ThemRole" value="Agent"/>
-                    <ARG type="Event" value="E"/>
-                </ARGS>
-            </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -251,7 +225,7 @@
                 <EXAMPLE><![CDATA["Cathay is swapping equity stakes with the U.S. carrier."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Actor1">
+                <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -263,7 +237,7 @@
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Actor2">
+                <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -271,28 +245,28 @@
                 <PRED value="has_possession">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme_i"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_possession">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Recipient"/>
                         <ARG type="ThemRole" value="Theme_i"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_possession">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Recipient"/>
                         <ARG type="ThemRole" value="Theme_j"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_possession">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme_j"/>
                     </ARGS>
                 </PRED>

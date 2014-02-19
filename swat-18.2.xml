@@ -295,8 +295,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP"
-secondary="Resultative, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP" secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Paula swatted the fly dead with a dishcloth&quot;</EXAMPLE>
             </EXAMPLES>
@@ -432,8 +431,7 @@ secondary="Resultative, Instrument-PP" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP"
-secondary="Result-PP, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The cat clawed the counch to pieces with her sharp nails&quot;</EXAMPLE>
             </EXAMPLES>

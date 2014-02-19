@@ -275,7 +275,7 @@
                         <PRED value="has_possession">
                             <ARGS>
                                 <ARG type="Event" value="end(E)"/>
-                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Asset"/>
                             </ARGS>
                         </PRED>
@@ -323,6 +323,7 @@
                         </PRED>
                         <PRED value="has_possession">
                             <ARGS>
+                                <ARG type="Event" value="end(E)"/>
                                 <ARG type="ThemRole" value="Recipient"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>

@@ -201,7 +201,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="VerbSpecific" value="Sound"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -216,7 +216,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Oblique">
+                <NP value="Recipient">
                     <SELRESTRS/>
                 </NP>
                 <ADJ/>
@@ -232,7 +232,7 @@
                 <PRED value="Pred">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Oblique"/>
+                        <ARG type="ThemRole" value="Recipient"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -243,7 +243,13 @@
                 <EXAMPLE><![CDATA[""Birds sang in the trees.""]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
                 <VERB/>
+                <NP value="Location">
+                    <SELRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="emit">
@@ -263,8 +269,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Location
-Subject, with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Location Subject, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA[""The tree sang with birds.""]]></EXAMPLE>
             </EXAMPLES>

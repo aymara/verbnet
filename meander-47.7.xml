@@ -108,8 +108,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="PP-NP"
-secondary="Expletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="PP-NP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;There meanders through the valley a river&quot;</EXAMPLE>
             </EXAMPLES>
@@ -145,8 +144,7 @@ secondary="Expletive-there Subject" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="NP-PP"
-secondary="Expletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;There meanders a river through the valley&quot;</EXAMPLE>
             </EXAMPLES>

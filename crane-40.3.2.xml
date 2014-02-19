@@ -87,11 +87,6 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="NP">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="poss"/>
-                    </SYNRESTRS>
-                </NP>
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
@@ -123,11 +118,6 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="NP">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="poss"/>
-                    </SYNRESTRS>
-                </NP>
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
@@ -167,11 +157,6 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="NP">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="poss"/>
-                    </SYNRESTRS>
-                </NP>
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>

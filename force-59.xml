@@ -94,7 +94,7 @@
 		<PREP value="into">
 		    <SYNRESTRS/>
 		</PREP>
-		<NP value="Proposition">
+                <NP value="Proposition">
 		    <SYNRESTRS>
 			<SYNRESTR Value="+" type="oc_ing"/>
 		    </SYNRESTRS>

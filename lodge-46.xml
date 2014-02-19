@@ -24,9 +24,6 @@
         <THEMROLE type="Location">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Location">
-            <SELRESTRS/>
-        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>

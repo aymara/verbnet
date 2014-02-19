@@ -190,9 +190,9 @@
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="Prop">
+                        <PRED value="Adv">
                             <ARGS>
-                                <ARG type="VerbSpecific" value="Adv"/>
+                                <ARG type="VerbSpecific" value="Prop"/>
                             </ARGS>
                         </PRED>
                         <PRED value="property">

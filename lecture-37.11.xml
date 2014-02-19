@@ -13,6 +13,12 @@
         <THEMROLE type="Topic">
             <SELRESTRS/>
         </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -145,14 +151,14 @@
 				<EXAMPLE>&quot;She lectured about her traveling.&quot;</EXAMPLE>
 			    </EXAMPLES>
 			    <SYNTAX>
-				<NP value="Agent">
+                                <NP value="Agent">
 				    <SYNRESTRS/>
 				</NP>
 				<VERB/>
 				<PREP value="about">
 				    <SELRESTRS/>
 				</PREP>
-				<NP value="Topic">
+                                <NP value="Topic">
 				    <SYNRESTRS>
 					<SYNRESTRS Value="+" type="poss_ing"/>
 				    </SYNRESTRS>
@@ -199,7 +205,7 @@
 			<PREP value="about">
 			    <SELRESTRS/>
 			</PREP>
-			<NP value="Topic">
+                        <NP value="Topic">
 			    <SYNRESTRS>
 				<SYNRESTR Value="-" type="sentential"/>
 			    </SYNRESTRS>

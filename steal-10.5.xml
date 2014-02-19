@@ -241,8 +241,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.2" primary="NP-PP-PP"
-secondary="Source-PP Beneficiary-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.2" primary="NP-PP-PP" secondary="Source-PP Beneficiary-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The thief stole the paint from John for Mary&quot;</EXAMPLE>
             </EXAMPLES>

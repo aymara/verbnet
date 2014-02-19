@@ -35,15 +35,10 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="rushed">
+                <PRED value="rush">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="occur">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
@@ -70,9 +65,10 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="rushed">
+                <PRED value="rush">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
@@ -102,15 +98,10 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="rushed">
+                <PRED value="rush">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="occur">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>

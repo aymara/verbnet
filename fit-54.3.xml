@@ -76,7 +76,6 @@
             <SEMANTICS>
                 <PRED value="capacity">
                     <ARGS>
-                        <ARG type="ThemRole" value=""/>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Location"/>
                         <ARG type="ThemRole" value="Value"/>

@@ -74,7 +74,6 @@
             <SEMANTICS>
                 <PRED value="perceive">
                     <ARGS>
-                        <ARG type="ThemRole" value=""/>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                         <ARG type="ThemRole" value="Stimulus"/>

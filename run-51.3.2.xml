@@ -207,8 +207,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP"
-secondary="Induced Action, with accompanied motion,  path-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP" secondary="Induced Action, with accompanied motion,  path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tom jumped the horse over the fence&quot;</EXAMPLE>
             </EXAMPLES>
@@ -271,8 +270,7 @@ secondary="Induced Action, with accompanied motion,  path-PP" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP"
-secondary="Induced Action, without accompanied motion, path-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP" secondary="Induced Action, without accompanied motion, path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The lion tamer jumped the lions through the loop&quot;</EXAMPLE>
             </EXAMPLES>
@@ -316,8 +314,7 @@ secondary="Induced Action, without accompanied motion, path-PP" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP"
-secondary="Induced Action,with accompanied motion" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP" secondary="Induced Action,with accompanied motion" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tom jumped the horse&quot;</EXAMPLE>
             </EXAMPLES>
@@ -358,8 +355,7 @@ secondary="Induced Action,with accompanied motion" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP"
-secondary="Induced Action, without accompanied motion" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP" secondary="Induced Action, without accompanied motion" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The lion tamer jumped the lions&quot;</EXAMPLE>
             </EXAMPLES>
@@ -452,7 +448,6 @@ secondary="Induced Action, without accompanied motion" xtag=""/>
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
                         <ARG type="ThemRole" value="Oblique1"/>
-                        <ARG type="ThemRole" value="Oblique2"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -586,8 +581,7 @@ secondary="Induced Action, without accompanied motion" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="PP-NP"
-secondary="Expletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="PP-NP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;There jumped out of the box a little white rabbit&quot;</EXAMPLE>
             </EXAMPLES>
@@ -599,6 +593,11 @@ secondary="Expletive-there Subject" xtag=""/>
                         <SELRESTR Value="+" type="path"/>
                     </SELRESTRS>
                 </PREP>
+                <NP value="Location">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="concrete"/>
+                    </SELRESTRS>
+                </NP>
                 <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="definite"/>
@@ -622,8 +621,7 @@ secondary="Expletive-there Subject" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="NP-PP"
-secondary="Expletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;There jumped a little white rabbit out of the box&quot;</EXAMPLE>
             </EXAMPLES>

@@ -57,7 +57,7 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-	<THEMROLE type="Attribute">
+	<THEMROLE type="Predicate">
 	    <SELRESTRS/>
 	</THEMROLE>
     </THEMROLES>
@@ -93,7 +93,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.1" primary="NP-PP" secondary="Possessor Object, Attribute-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.1" primary="NP-PP" secondary="Possessor Object, Predicate-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["I admired him for his honesty"]]></EXAMPLE>
             </EXAMPLES>
@@ -108,7 +108,7 @@
                 <PREP value="for">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Attribute">
+                <NP value="Predicate">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -129,7 +129,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.2" primary="NP-PP" secondary="Attribute Object, Possessor-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.2" primary="NP-PP" secondary="Predicate Object, Possessor-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["I admired the honesty in him"]]></EXAMPLE>
             </EXAMPLES>
@@ -138,7 +138,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Attribute">
+                <NP value="Predicate">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="in">
@@ -183,6 +183,7 @@
             <SEMANTICS>
                 <PRED value="emotional_state">
                     <ARGS>
+                        <ARG type="Event" value="E"/>
                         <ARG type="VerbSpecific" value="Emotion"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
@@ -215,6 +216,7 @@
             <SEMANTICS>
                 <PRED value="emotional_state">
                     <ARGS>
+                        <ARG type="Event" value="E"/>
                         <ARG type="VerbSpecific" value="Emotion"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
@@ -246,6 +248,7 @@
             <SEMANTICS>
                 <PRED value="emotional_state">
                     <ARGS>
+                        <ARG type="Event" value="E"/>
                         <ARG type="VerbSpecific" value="Emotion"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
@@ -294,6 +297,7 @@
                     <SEMANTICS>
 	                <PRED value="emotional_state">
 	                    <ARGS>
+                                <ARG type="Event" value="E"/>
 	                        <ARG type="VerbSpecific" value="Emotion"/>
 	                        <ARG type="ThemRole" value="Experiencer"/>
 	                    </ARGS>

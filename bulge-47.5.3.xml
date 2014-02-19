@@ -35,13 +35,6 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="location">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Location"/>
-                    </ARGS>
-                </PRED>
                 <PRED value="filled_with">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
@@ -63,13 +56,6 @@
                 <VERB/>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="location">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="Location"/>
-                    </ARGS>
-                </PRED>
                 <PRED value="filled_with">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>

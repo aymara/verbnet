@@ -26,7 +26,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The hyginiest flossed my teeth"]]></EXAMPLE>
+                <EXAMPLE><![CDATA["The hygienist flossed my teeth"]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

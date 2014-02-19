@@ -299,20 +299,18 @@
                 <ADV/>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="cause">
+                <PRED value="property">
                     <ARGS>
-                        <ARG type="ThemRole" value="Cause"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="emotional_state">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Emotion"/>
                         <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="VerbSpecific" value="Prop"/>
                     </ARGS>
                 </PRED>
-            </SEMANTICS>
+                <PRED value="Adv">
+                    <ARGS>
+                        <ARG type="VerbSpecific" value="Prop"/>
+                    </ARGS>
+                </PRED>
+               </SEMANTICS>
             <!--most verbs-->
         </FRAME>
         <FRAME>
@@ -333,7 +331,7 @@
                         <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>
-                <PRED value="cause">
+                <PRED value="emotional_state">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
                         <ARG type="VerbSpecific" value="Emotion"/>
@@ -379,8 +377,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.4" primary="NP"
-secondary="Attribute Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.4" primary="NP" secondary="Attribute Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The clown's antics amused the children"]]></EXAMPLE>
             </EXAMPLES>

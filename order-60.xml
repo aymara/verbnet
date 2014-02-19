@@ -59,6 +59,9 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
                 <NP value="Proposition">
                     <SYNRESTRS>
 			<SYNRESTR Value="+" type="oc_to_inf"/>
@@ -70,7 +73,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Patient"/>
+                        <ARG type="ThemRole" value="Patient"/>
                         <ARG type="ThemRole" value="Proposition"/>
                     </ARGS>
                 </PRED>

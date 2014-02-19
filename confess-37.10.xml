@@ -209,7 +209,7 @@
 		<PREP value="to">
 		    <SELRESTRS/>
 		</PREP>
-		<NP value="Recipient">
+                <NP value="Recipient">
 		    <SYNRESTRS/>
 		</NP>
             </SYNTAX>
@@ -313,7 +313,7 @@
                 <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
-		<NP value="Topic">
+                <NP value="Topic">
 		    <SYNRESTRS>
 			<SYNRESTR Value="+" type="how_extract"/>
 		    </SYNRESTRS>

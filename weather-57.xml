@@ -40,8 +40,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.7" primary="Intransitive"
-secondary="Expletive Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.7" primary="Intransitive" secondary="Expletive Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["It's raining"]]></EXAMPLE>
             </EXAMPLES>
@@ -54,15 +53,14 @@ secondary="Expletive Subject" xtag=""/>
                 <PRED value="weather">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="VerbSpecific" value="weather_type"/>
+                        <ARG type="VerbSpecific" value="Weather_type"/>
                         <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.7" primary="NP"
-secondary="Expletive Subject, Theme Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.7" primary="NP" secondary="Expletive Subject, Theme Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["It's raining cats and dogs"]]></EXAMPLE>
             </EXAMPLES>
@@ -78,15 +76,14 @@ secondary="Expletive Subject, Theme Object" xtag=""/>
                 <PRED value="weather">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="VerbSpecific" value="weather_type"/>
+                        <ARG type="VerbSpecific" value="Weather_type"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.7" primary="PP"
-secondary="Expletive Subject, Theme-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.7" primary="PP" secondary="Expletive Subject, Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["It was pelting with rain"]]></EXAMPLE>
             </EXAMPLES>
@@ -104,7 +101,7 @@ secondary="Expletive Subject, Theme-PP" xtag=""/>
                 <PRED value="weather">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="VerbSpecific" value="weather_type"/>
+                        <ARG type="VerbSpecific" value="Weather_type"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>

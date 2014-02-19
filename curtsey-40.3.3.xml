@@ -103,11 +103,6 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="NP">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="poss"/>
-                    </SYNRESTRS>
-                </NP>
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
@@ -139,11 +134,6 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="NP">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="poss"/>
-                    </SYNRESTRS>
-                </NP>
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>

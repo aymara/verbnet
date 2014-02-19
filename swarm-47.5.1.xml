@@ -74,8 +74,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="6.1" primary="NP-PP"
-secondary="Expletive-there Subject" xtag=""/>
+                    <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;There swarm bees in the garden&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -161,8 +160,7 @@ secondary="Expletive-there Subject" xtag=""/>
                     <!--some verbs-->
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.3" primary="PP"
-secondary="Location Subject, with-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.3" primary="PP" secondary="Location Subject, with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;The garden is swarming with bees&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -246,8 +244,7 @@ secondary="Location Subject, with-PP" xtag=""/>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="6.1" primary="NP-PP"
-secondary="Expletive-there Subject" xtag=""/>
+                    <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;There abound flowers in the garden&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -293,8 +290,7 @@ secondary="Expletive-there Subject" xtag=""/>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.3" primary="PP"
-secondary="Location Subject, with-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.3" primary="PP" secondary="Location Subject, with-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>&quot;The garden abounds with flowers&quot;</EXAMPLE>
                             </EXAMPLES>

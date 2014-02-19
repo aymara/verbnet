@@ -287,8 +287,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP"
-secondary="Result-PP, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;They spanked him to death with a bat&quot;</EXAMPLE>
             </EXAMPLES>
@@ -425,8 +424,7 @@ secondary="Result-PP, Instrument-PP" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP-PP-PP"
-secondary="Body-part-PP Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP-PP" secondary="Body-part-PP Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Paula spanked the naught child on the back with a paddle."]]></EXAMPLE>
             </EXAMPLES>
@@ -491,8 +489,7 @@ secondary="Body-part-PP Instrument-PP" xtag=""/>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Body
-Part Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Body Part Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Paula spanked the naughty child's back."]]></EXAMPLE>
             </EXAMPLES>

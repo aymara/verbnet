@@ -120,6 +120,7 @@
                         </PRED>
                         <PRED value="benefit">
                             <ARGS>
+                                <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
