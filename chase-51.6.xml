@@ -22,6 +22,9 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -54,7 +57,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jackie chased the thief down the street&quot;</EXAMPLE>
             </EXAMPLES>
@@ -72,6 +75,9 @@
                         <SELRESTR Value="+" type="loc"/>
                     </SELRESTRS>
                 </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="motion">
@@ -90,20 +96,20 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Oblique"/>
+                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="Prep">
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Oblique"/>
+                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ after-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="after-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jackie chased after the thief&quot;</EXAMPLE>
             </EXAMPLES>

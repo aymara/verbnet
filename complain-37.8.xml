@@ -63,7 +63,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Susan complained to Rachel&quot;</EXAMPLE>
             </EXAMPLES>
@@ -97,7 +97,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="Sentential Complement" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="S" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Susan complained that the party would be tonight&quot;</EXAMPLE>
             </EXAMPLES>
@@ -108,8 +108,7 @@
                 <VERB/>
                 <NP value="Topic">
                     <SYNRESTRS>
-                        <SYNRESTR Value="+" type="sentential"/>
-                        <SYNRESTR Value="-" type="infinitival"/>
+                        <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
@@ -131,7 +130,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="Sentential Complement" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="PP-S" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Susan complained to Rachel that the party would be tonight&quot;</EXAMPLE>
             </EXAMPLES>
@@ -148,8 +147,7 @@
                 </NP>
                 <NP value="Topic">
                     <SYNRESTRS>
-                        <SYNRESTR Value="+" type="sentential"/>
-                        <SYNRESTR Value="-" type="infinitival"/>
+                        <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
@@ -171,7 +169,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Intransitive" secondary="+ Topic PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="PP" secondary="Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Ellen complained about the situation&quot;</EXAMPLE>
             </EXAMPLES>
@@ -205,7 +203,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Intransitive" secondary="+ Topic PP + Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="PP-PP" secondary="Topic-PP Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Ellen complained about the situation to Helen&quot;</EXAMPLE>
             </EXAMPLES>
@@ -245,7 +243,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.3" primary="Direct Speech" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.3" primary="QUOT" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Ellen complained, 'The mail didn't come today.'&quot;</EXAMPLE>
             </EXAMPLES>
@@ -278,7 +276,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.3" primary="Direct Speech" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.3" primary="PP-QUOT" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Ellen complained to Helen, 'The mail didn't come today.'&quot;</EXAMPLE>
             </EXAMPLES>
@@ -317,7 +315,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Recipient PP + Topic PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="Recipient-PP Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The prime minister complained to the former president about U.S. interference in his country's affairs."]]></EXAMPLE>
             </EXAMPLES>

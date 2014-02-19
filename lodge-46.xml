@@ -8,6 +8,7 @@
         <MEMBER name="dwell" wn="dwell%2:42:00"/>
         <MEMBER name="live" wn="live%2:42:08"/>
         <MEMBER name="lodge" wn="lodge%2:42:02"/>
+        <MEMBER name="quarter" wn=""/>
         <MEMBER name="reside" wn="reside%2:42:00 reside%2:42:01"/>
         <MEMBER name="settle" wn="settle%2:30:00 settle%2:30:03 settle%2:30:01"/>
         <MEMBER name="shelter" wn=""/>
@@ -29,7 +30,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Cornelia lodged with the Stevensons"]]></EXAMPLE>
                 <EXAMPLE><![CDATA["Cornelia lodged at Mrs. Parker's"]]></EXAMPLE>
@@ -67,7 +68,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ there/here" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="ADVP-PRED" secondary="here/there" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["We camped there."]]></EXAMPLE>
             </EXAMPLES>

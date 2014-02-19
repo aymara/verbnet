@@ -72,7 +72,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Paula hit the ball with a stick&quot;</EXAMPLE>
             </EXAMPLES>
@@ -204,7 +204,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Paul kicked the door open&quot;</EXAMPLE>
             </EXAMPLES>
@@ -262,7 +262,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP"
+secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Paul hit the door open with his foot&quot;</EXAMPLE>
             </EXAMPLES>
@@ -333,7 +334,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Paul hit the window to pieces&quot;</EXAMPLE>
             </EXAMPLES>
@@ -398,7 +399,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP"
+secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Paul hit the window to pieces with a hammer&quot;</EXAMPLE>
             </EXAMPLES>
@@ -565,7 +567,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.8" primary="With/against Alternation" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.8" primary="NP-PP" xtag="against/on-PP"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Paula hit the stick against/on the fence&quot;</EXAMPLE>
             </EXAMPLES>
@@ -674,7 +676,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The stick hit the door open&quot;</EXAMPLE>
             </EXAMPLES>
@@ -726,7 +728,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The hammer hit the window to pieces&quot;</EXAMPLE>
             </EXAMPLES>

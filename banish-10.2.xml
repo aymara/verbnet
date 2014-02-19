@@ -74,7 +74,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The king banished the general from the army&quot;</EXAMPLE>
             </EXAMPLES>
@@ -119,7 +119,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Destination PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Destination-PP" xtag=""/>
         <!--"remove"? *remove the book to the table-->
             <EXAMPLES>
                 <EXAMPLE>&quot;The king deported the general to the isle&quot;</EXAMPLE>

@@ -11,6 +11,7 @@
         <MEMBER name="japan" wn="japan%2:36:00"/>
         <MEMBER name="lacquer" wn="lacquer%2:36:00 lacquer%2:35:00"/>
         <MEMBER name="paint" wn="paint%2:35:00"/>
+        <MEMBER name="repaint" wn=""/>
         <MEMBER name="shellac" wn="shellac%2:35:00"/>
         <MEMBER name="spraypaint" wn=""/>
         <MEMBER name="stain" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04"/>
@@ -68,9 +69,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Claire colors the picture well&quot;</EXAMPLE>
+                <EXAMPLE>&quot;Claire colors the picture red&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -112,7 +113,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Resultative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Claire painted the wall into a splotchy mess."]]></EXAMPLE>
             </EXAMPLES>

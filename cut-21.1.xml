@@ -65,7 +65,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carol cut the bread with a knife&quot;</EXAMPLE>
             </EXAMPLES>
@@ -294,7 +294,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carol cut the envelop open&quot;</EXAMPLE>
             </EXAMPLES>
@@ -344,7 +344,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP"
+secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carol cut the envelope open with the knife&quot;</EXAMPLE>
             </EXAMPLES>
@@ -407,7 +408,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carol cut the envelope into pieces&quot;</EXAMPLE>
             </EXAMPLES>
@@ -464,7 +465,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP"
+secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carol cut the envelope into pieces with a knife&quot;</EXAMPLE>
             </EXAMPLES>
@@ -534,7 +536,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The knife cut the envelope open&quot;</EXAMPLE>
             </EXAMPLES>
@@ -578,7 +580,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The knife cut the envelope into pieces&quot;</EXAMPLE>
             </EXAMPLES>
@@ -629,7 +631,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+Locative PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Sympathetic fans clipped copies of Ms. Shere's recipes from magazines."]]></EXAMPLE>
             </EXAMPLES>
@@ -689,7 +691,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+Instrument PP +Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP-PP" secondary="Instrument-PP Location-PP" xtag=""/>
             <EXAMPLES/>
             <SYNTAX>
                 <NP value="Agent">

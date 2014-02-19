@@ -50,6 +50,7 @@
         <MEMBER name="tack" wn="tack%2:35:00"/>
         <MEMBER name="tape" wn="tape%2:35:00"/>
         <MEMBER name="tether" wn="tether%2:35:00"/>
+        <MEMBER name="thread" wn=""/>
         <MEMBER name="thumbtack" wn="thumbtack%2:35:00"/>
         <MEMBER name="tie" wn="tie%2:35:00 tie%2:35:01"/>
         <MEMBER name="trammel" wn=""/>
@@ -116,7 +117,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ locative PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Linda taped the picture to the wall&quot;</EXAMPLE>
             </EXAMPLES>
@@ -333,7 +334,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Linda taped the box shut&quot;</EXAMPLE>
             </EXAMPLES>
@@ -382,7 +383,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="(+locative PP)" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="locative-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["It clamped on his ankle."]]></EXAMPLE>
                     </EXAMPLES>

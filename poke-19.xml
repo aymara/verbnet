@@ -76,7 +76,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.9" primary="Through/With Alternation" secondary="Through variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.9" primary="NP-PP" secondary="through-PP" xtag=""/>
             <!-- in predicate used to indicate puncturing of Destination-->
             <EXAMPLES>
                 <EXAMPLE>&quot;Allison poked the needle through the cloth&quot;</EXAMPLE>
@@ -141,7 +141,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.9" primary="Through/With Alternation" secondary="With variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.9" primary="NP-PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Allison poked the cloth with the needle&quot;</EXAMPLE>
             </EXAMPLES>

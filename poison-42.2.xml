@@ -63,7 +63,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The Boston Strangler strangled his victims dead&quot;</EXAMPLE>
             </EXAMPLES>
@@ -100,7 +100,7 @@
             <!--most verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The Boston Strangler strangled his victims to death&quot;</EXAMPLE>
             </EXAMPLES>
@@ -144,7 +144,7 @@
             <!--most verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Instrument PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA[""The queen poisoned Snow White with an apple.""]]></EXAMPLE>
             </EXAMPLES>

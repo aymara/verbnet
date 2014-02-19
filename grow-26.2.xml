@@ -105,7 +105,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Causative/Inchoative Alternation" secondary="causative, Product Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP-PP"
+secondary="Causative variant, Material-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The gardener grew an oak tree from that acorn&quot;</EXAMPLE>
             </EXAMPLES>
@@ -153,7 +154,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Causative/Inchoative Alternation" secondary="causative, Material Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP-PP"
+secondary="Causative variant, Product-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The gardener grew that acorn into an oak tree&quot;</EXAMPLE>
             </EXAMPLES>

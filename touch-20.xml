@@ -51,7 +51,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carrie touched the cat with the stick&quot;</EXAMPLE>
             </EXAMPLES>
@@ -98,6 +98,7 @@
         <VNSUBCLASS ID="touch-20-1">
             <MEMBERS>
                 <MEMBER name="caress" wn="caress%2:35:00"/>
+        	<MEMBER name="fondle" wn=""/>
                 <MEMBER name="graze" wn="?graze%2:35:02 graze%2:35:00"/>
                 <MEMBER name="kiss" wn="kiss%2:35:00 kiss%2:35:01"/>
                 <MEMBER name="lick" wn="lick%2:35:00"/>
@@ -151,7 +152,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Instrument PP (Bodypart of reflexive object)" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Instrument-PP (Bodypart of reflexive object)" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Carrie touched his shoulder with the stick."]]></EXAMPLE>
                     </EXAMPLES>

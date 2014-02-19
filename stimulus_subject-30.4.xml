@@ -20,7 +20,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Adjective" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="ADJ" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["That pea soup tasted delicious"]]></EXAMPLE>
             </EXAMPLES>
@@ -54,7 +54,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Experiencer PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Experiencer-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["That pea soup tasted delicious to me"]]></EXAMPLE>
             </EXAMPLES>

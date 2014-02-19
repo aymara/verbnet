@@ -5,6 +5,7 @@
     <MEMBERS>
         <!--members specify Pos argument in position predicate-->
         <MEMBER name="lay" wn="lay%2:35:01 lay%2:35:00"/>
+        <MEMBER name="prop" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <!--Destination can also be realized as a locative adverb ("here, there")-->
@@ -27,7 +28,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ locative PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
             <!-- many verbs cross-listed with spatial_configuration-47.6, where the change in-->
             <!-- position of Theme is emphasized; here we emphasize change in Destination-->
             <EXAMPLES>
@@ -87,7 +88,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ here/there" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-ADVP-PRED" secondary="here/there" xtag=""/>
             <!-- discourse has to provide specific Destination and configuration (Prep) of Theme wrt Destination-->
             <EXAMPLES>
                 <EXAMPLE>&quot;Cheryl stood the books there&quot;</EXAMPLE>
@@ -158,7 +159,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Destination PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Destination-PP" xtag=""/>
                     <!-- The verb is used to describe a state rather than an action-->
                     <EXAMPLES>
                         <EXAMPLE>&quot;The books lean against the shelf&quot;</EXAMPLE>
@@ -195,7 +196,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ here/there" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="ADVP" secondary="here/there" xtag=""/>
                     <!-- discourse has to provide specific Destination and configuration (Prep) of Theme wrt Destination-->
                     <EXAMPLES>
                         <EXAMPLE>&quot;The books lean there&quot;</EXAMPLE>

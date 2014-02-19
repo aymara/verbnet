@@ -71,7 +71,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Nora yanked the button loose&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -158,14 +158,16 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="push-12-1-1">
                     <MEMBERS>
+		        <MEMBER name="jostle" wn=""/>
                         <MEMBER name="press" wn="press%2:35:00 press%2:38:00"/>
                         <MEMBER name="push" wn="push%2:38:00"/>
                         <MEMBER name="shove" wn="shove%2:38:00 shove%2:35:00 shove%2:38:01"/>
+		        <MEMBER name="thrust" wn=""/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="1.2.7" primary="Way Object Alternation" xtag=""/>
+                            <DESCRIPTION descriptionNumber="1.2.7" primary="PP" xtag="through-PP"/>
                             <EXAMPLES>
                                 <EXAMPLE>&quot;Nora pushed through the crowd&quot;</EXAMPLE>
                             </EXAMPLES>

@@ -42,7 +42,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I broke the twig off the branch&quot;</EXAMPLE>
             </EXAMPLES>
@@ -129,7 +129,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The twig broke off the branch&quot;</EXAMPLE>
             </EXAMPLES>

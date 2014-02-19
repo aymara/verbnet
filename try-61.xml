@@ -8,7 +8,7 @@
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
-            <SELRESTRS>
+            <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
@@ -22,7 +22,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="ING-NP-OMIT" secondary=" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="ING-NP-OMIT" secondary="" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I tried exercising&quot;</EXAMPLE>
             </EXAMPLES>
@@ -38,12 +38,19 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="attempt">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP" secondary=" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I tried the exercise&quot;</EXAMPLE>
+                <EXAMPLE>&quot;I tried the exercise routine&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -57,6 +64,13 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="attempt">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Content"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -76,6 +90,13 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS> 
+                <PRED value="attempt">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>

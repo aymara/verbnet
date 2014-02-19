@@ -6,12 +6,15 @@
         <MEMBER name="belch" wn="belch%2:29:00"/>
         <MEMBER name="blush" wn="blush%2:29:00"/>
         <MEMBER name="burp" wn="burp%2:29:00"/>
+        <MEMBER name="eruct" wn=""/>
+        <MEMBER name="fart" wn=""/>
         <MEMBER name="flush" wn="flush%2:29:00"/>
         <MEMBER name="hiccup" wn="hiccup%2:29:00"/>
         <MEMBER name="pant" wn="pant%2:29:00"/>
         <MEMBER name="sneeze" wn="sneeze%2:29:00"/>
         <MEMBER name="sniffle" wn="sniffle%2:29:00"/>
         <MEMBER name="snore" wn="snore%2:29:00"/>
+        <MEMBER name="snuff" wn=""/>
         <MEMBER name="snuffle" wn="snuffle%2:29:00"/>
         <MEMBER name="swallow" wn="swallow%2:34:00"/>
         <MEMBER name="wheeze" wn="wheeze%2:29:00"/>

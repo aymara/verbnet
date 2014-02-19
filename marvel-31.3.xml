@@ -97,7 +97,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Cause PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Cause-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Megan marveled at the Grand Canyon"]]></EXAMPLE>
                     </EXAMPLES>
@@ -147,7 +147,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Cause PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Cause-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["We cared about the opera."]]></EXAMPLE>
                     </EXAMPLES>
@@ -196,7 +196,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Cause PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Cause-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["I grieve for my departed Juliet."]]></EXAMPLE>
                     </EXAMPLES>
@@ -240,7 +240,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Cause PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Cause-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["I suffered from occasional blackouts."]]></EXAMPLE>
                     </EXAMPLES>
@@ -289,7 +289,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Cause PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Cause-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["I delighted in such pleasant pursuits."]]></EXAMPLE>
                     </EXAMPLES>
@@ -328,7 +328,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Cause PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Cause-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["I certainly approved of Mary's acquaitance."]]></EXAMPLE>
                     </EXAMPLES>
@@ -370,7 +370,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Cause PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Cause-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["I grooved on David Lynch films."]]></EXAMPLE>
                     </EXAMPLES>
@@ -417,19 +417,25 @@
                 <MEMBER name="gloat" wn="gloat%2:32:00 gloat%2:39:00"/>
                 <MEMBER name="grieve" wn="grieve%2:37:00"/>
                 <MEMBER name="gush" wn="gush%2:32:00"/>
+        	<MEMBER name="hallucinate" wn=""/>
                 <MEMBER name="hunger" wn="hunger%2:34:01"/>
                 <MEMBER name="marvel" wn="marvel%2:32:12 marvel%2:32:00"/>
+        	<MEMBER name="meditate" wn=""/>
                 <MEMBER name="moon" wn="moon%2:41:01"/>
                 <MEMBER name="mope" wn="mope%2:37:00"/>
                 <MEMBER name="mourn" wn="mourn%2:37:00"/>
+        	<MEMBER name="muse" wn=""/>
                 <MEMBER name="obsess" wn="obsess%2:37:03"/>
                 <MEMBER name="puzzle" wn="puzzle%2:37:03"/>
                 <MEMBER name="rage" wn="rage%2:42:01 rage%2:37:00"/>
                 <MEMBER name="rave" wn="rave%2:32:00"/>
+        	<MEMBER name="reflect" wn=""/>
                 <MEMBER name="rejoice" wn="rejoice%2:37:00 rejoice%2:37:02"/>
                 <MEMBER name="rhapsodize" wn="rhapsodize%2:32:00"/>
+        	<MEMBER name="ruminate" wn=""/>
                 <MEMBER name="salivate" wn="salivate%2:37:00"/>
                 <MEMBER name="seethe" wn="seethe%2:37:01 seethe%2:37:00"/>
+        	<MEMBER name="triumph" wn=""/>
                 <MEMBER name="wonder" wn="wonder%2:32:12"/>
                 <MEMBER name="worry" wn=""/>
                 <MEMBER name="sorrow" wn="sorrow%2:37:00"/>
@@ -437,7 +443,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Cause PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Cause-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["I anguished over Aslan's pain."]]></EXAMPLE>
                     </EXAMPLES>
@@ -480,7 +486,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Cause PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Cause-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["I reacted to the experience violently."]]></EXAMPLE>
                     </EXAMPLES>

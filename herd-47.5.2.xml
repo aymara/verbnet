@@ -63,7 +63,7 @@
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="1.1.2" primary="NP" secondary="Causative variant" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The teacher gathered the kids&quot;</EXAMPLE>
             </EXAMPLES>

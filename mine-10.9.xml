@@ -62,7 +62,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="PP" secondary="source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The men mined the gold from the abandoned mine&quot;</EXAMPLE>
             </EXAMPLES>

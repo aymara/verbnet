@@ -45,6 +45,7 @@
         <MEMBER name="frame" wn="frame%2:35:00 frame%2:42:00"/>
         <MEMBER name="garland" wn="garland%2:36:00"/>
         <MEMBER name="garnish" wn="garnish%2:36:00"/>
+        <MEMBER name="grace" wn=""/>
         <MEMBER name="imbue" wn="imbue%2:35:00 imbue%2:30:01 imbue%2:30:00"/>
         <MEMBER name="impregnate" wn="impregnate%2:30:00 impregnate%2:29:00"/>
         <MEMBER name="infect" wn="infect%2:29:00"/>
@@ -86,6 +87,7 @@
         <MEMBER name="stop_up" wn="stop_up%2:35:00"/>
         <MEMBER name="stud" wn="stud%2:35:00"/>
         <MEMBER name="suffuse" wn="suffuse%2:30:01"/>
+        <MEMBER name="sully" wn=""/>
         <MEMBER name="surround" wn="surround%2:42:00 surround%2:35:00 surround%2:35:01 surround%2:33:01"/>
         <MEMBER name="swaddle" wn="swaddle%2:35:00"/>
         <MEMBER name="swathe" wn="swathe%2:35:00"/>
@@ -116,7 +118,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Leslie staffed the store with employees&quot;</EXAMPLE>
             </EXAMPLES>
@@ -165,7 +167,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ in-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="in-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Leigh swaddled the baby in blankets&quot;</EXAMPLE>
             </EXAMPLES>

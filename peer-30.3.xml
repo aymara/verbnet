@@ -33,7 +33,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Intransitive" secondary="+ Theme PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="PP" secondary="Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["We peered at the baby"]]></EXAMPLE>
             </EXAMPLES>

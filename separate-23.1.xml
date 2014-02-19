@@ -2,7 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="separate-23.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <MEMBER name="disassociate" wn=""/>
+        <MEMBER name="dismember" wn=""/>
         <MEMBER name="sever" wn="sever%2:35:01 sever%2:35:00"/>
+        <MEMBER name="uncoil" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <!--Patient1 is interpreted as Figure, Patient2 as Ground
@@ -21,7 +24,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="prepositional variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.5.1" primary="NP-PP" secondary="from-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I separated the yolk from the white&quot;</EXAMPLE>
             </EXAMPLES>
@@ -66,7 +69,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="reciprocal variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Transitive" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I separated the yolk and the white&quot;</EXAMPLE>
             </EXAMPLES>
@@ -107,7 +110,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="reciprocal variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The yolk and the white separated&quot;</EXAMPLE>
             </EXAMPLES>
@@ -213,7 +216,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Simple Reciprocal Alternation Intransitive" secondary="prepositional variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="from-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["The yolk separated from the white."]]></EXAMPLE>
                     </EXAMPLES>
@@ -261,7 +264,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Simple Reciprocal Alternation Intransitive" secondary="Prepositional variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["The yoke parted with the white."]]></EXAMPLE>
                     </EXAMPLES>

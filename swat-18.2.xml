@@ -84,7 +84,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Paula swatted the fly with a dishcloth&quot;</EXAMPLE>
             </EXAMPLES>
@@ -237,7 +237,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Paula bit the bag open&quot;</EXAMPLE>
             </EXAMPLES>
@@ -295,7 +295,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP"
+secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Paula swatted the fly dead with a dishcloth&quot;</EXAMPLE>
             </EXAMPLES>
@@ -366,7 +367,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The cat clawed the counch to pieces&quot;</EXAMPLE>
             </EXAMPLES>
@@ -431,7 +432,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP"
+secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The cat clawed the counch to pieces with her sharp nails&quot;</EXAMPLE>
             </EXAMPLES>
@@ -509,7 +511,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Body-Part Possessor Ascension Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Body-part-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Paula swatted Deirdre on the back."]]></EXAMPLE>
             </EXAMPLES>

@@ -4,6 +4,7 @@
     <MEMBERS>
         <!--Direction for this class is "against gravity"-->
         <MEMBER name="drop" wn="drop%2:38:01"/>
+        <MEMBER name="elevate" wn=""/>
         <MEMBER name="hoist" wn="hoist%2:35:00 hoist%2:35:10 hoist%2:35:01"/>
         <MEMBER name="lift" wn="lift%2:38:00 lift%2:35:00 lift%2:35:01"/>
         <MEMBER name="lower" wn="lower%2:38:00"/>
@@ -69,7 +70,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ locative PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I lifted the books onto the table&quot;</EXAMPLE>
             </EXAMPLES>
@@ -121,7 +122,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ here/there" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-ADVP-PRED" secondary="here/there" xtag=""/>
             <!-- discourse has to provide specific Location and configuration (Prep) of Theme wrt Location-->
             <EXAMPLES>
                 <EXAMPLE>&quot;I dropped the books here&quot;</EXAMPLE>

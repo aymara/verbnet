@@ -5,7 +5,10 @@
         <MEMBER name="assert" wn="assert%2:32:01"/>
         <MEMBER name="declare" wn="declare%2:32:01 declare%2:32:02"/>
         <MEMBER name="define" wn="define%2:42:00"/>
+        <MEMBER name="exhibit" wn=""/>
+        <MEMBER name="expose" wn=""/>
         <MEMBER name="express" wn="express%2:32:01"/>
+        <MEMBER name="flaunt" wn=""/>
         <MEMBER name="form" wn="form%2:42:02"/>
         <MEMBER name="intrude" wn="intrude%2:32:00"/>
         <MEMBER name="manifest" wn="manifest%2:32:00"/>
@@ -64,7 +67,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["I presented a solution to him"]]></EXAMPLE>
             </EXAMPLES>
@@ -99,7 +102,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="4.2" primary="Reflexive of Appearance Alternation" secondary="except intrude" xtag=""/>
+            <DESCRIPTION descriptionNumber="4.2" primary="Reflexive of Appearance" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["A solution presented itself yesterday"]]></EXAMPLE>
             </EXAMPLES>

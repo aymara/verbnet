@@ -62,7 +62,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ of-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="of-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The doctor cured Pat of pneumonia&quot;</EXAMPLE>
             </EXAMPLES>
@@ -105,7 +105,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ out of-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="out of-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The swindler cheated Pat out of her fortune&quot;</EXAMPLE>
             </EXAMPLES>
@@ -200,7 +200,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ from-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="from-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["The swindler bilked 20 dollars from his boss."]]></EXAMPLE>
                     </EXAMPLES>
@@ -259,7 +259,7 @@
                     </THEMROLES>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ as Predicate" xtag=""/>
+                            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="as-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE><![CDATA["Studies exonerated program trading as a source of volatility."]]></EXAMPLE>
                             </EXAMPLES>
@@ -299,3 +299,4 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
+

@@ -16,7 +16,7 @@
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
-            <SELRESTRS>
+            <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
@@ -43,6 +43,13 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="desire">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -62,6 +69,13 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="desire">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -81,12 +95,17 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="desire">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
-        </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-VEN-NP-OMIT" secondary=""
-xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP-VEN-NP-OMIT" secondary="" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I wished the children found&quot;</EXAMPLE>
             </EXAMPLES>
@@ -102,30 +121,17 @@ xtag="0.2"/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="desire">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="S-SUBJUNCT" secondary="" xtag="0.2"/>
-            <EXAMPLES>
-                <EXAMPLE>&quot;He wished that she come immediately&quot;</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Experiencer">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Theme">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="+" type="that_comp"/>
-                        <SYNRESTR Value="-" type="tensed_that"/>
-                    </SYNRESTRS>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="THAT-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="S" secondary="" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He wished that she would come immediately&quot;</EXAMPLE>
             </EXAMPLES>
@@ -141,6 +147,13 @@ xtag="0.2"/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="desire">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -160,6 +173,13 @@ xtag="0.2"/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="desire">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>

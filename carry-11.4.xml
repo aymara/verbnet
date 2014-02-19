@@ -84,7 +84,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Goal PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Goal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Amanda carried the package to New York&quot;</EXAMPLE>
             </EXAMPLES>
@@ -145,7 +145,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Amanda carried the package from home&quot;</EXAMPLE>
             </EXAMPLES>
@@ -208,7 +208,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP + Goal PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Source-PP Goal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Amanda carried the package from home to New York&quot;</EXAMPLE>
             </EXAMPLES>
@@ -291,7 +291,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Goal PP + Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Goal-PP Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Amanda carried the package to New York from home.&quot;</EXAMPLE>
             </EXAMPLES>
@@ -407,7 +407,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Amanda shoved the box from the corner&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -451,7 +451,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Goal PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Goal-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Amanda shoved the box to John&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -493,7 +493,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP + Goal PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Source-PP Goal-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Amanda shoved the box from the corner to John&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -550,7 +550,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Goal PP + Source PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Goal-PP Source-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Amanda shoved the box to John from the corner.&quot;</EXAMPLE>
                     </EXAMPLES>

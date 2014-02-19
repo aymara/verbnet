@@ -31,7 +31,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="prepositional variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP-PP" secondary="with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Herman mixed the eggs with the cream&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -80,7 +80,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="reciprocal variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Herman mixed the eggs&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -171,7 +171,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="prepositional variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.4" primary="PP" secondary="with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;The eggs mixed with the cream&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -315,7 +315,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="reciprocal variant" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>&quot;The eggs and the cream mixed&quot;</EXAMPLE>
                             </EXAMPLES>
@@ -400,7 +400,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="prepositional variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP-PP" secondary="to-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Herman added a computer to the network&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -437,7 +437,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="reciprocal variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Herman connected the computers&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -606,7 +606,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="prepositional variant" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.4" primary="PP" secondary="with/into/to-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>&quot;My computer connected to his computer&quot;</EXAMPLE>
                             </EXAMPLES>
@@ -634,7 +634,8 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="reciprocal variant" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.4"
+primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>&quot;Our computers connected&quot;</EXAMPLE>
                             </EXAMPLES>

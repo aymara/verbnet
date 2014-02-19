@@ -5,6 +5,7 @@
         <MEMBER name="asphyxiate" wn="asphyxiate%2:35:00 asphyxiate%2:35:01"/>
         <MEMBER name="choke" wn="choke%2:29:00 choke%2:35:00 choke%2:35:02 choke%2:29:04 choke%2:29:03 choke%2:35:03 choke%2:29:01"/>
         <MEMBER name="drown" wn="drown%2:30:00 drown%2:30:01"/>
+        <MEMBER name="starve" wn=""/>
         <MEMBER name="stifle" wn="stifle%2:35:00"/>
         <MEMBER name="suffocate" wn="suffocate%2:35:00 suffocate%2:35:01 suffocate%2:30:02 suffocate%2:29:01"/>
     </MEMBERS>
@@ -22,7 +23,8 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Causative/Inchoative Alternation" secondary="causative" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive"
+secondary="Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The pirates drowned the sailor&quot;</EXAMPLE>
             </EXAMPLES>
@@ -51,7 +53,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Causative/Inchoative Alternation" secondary="inchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Intransitive"
+secondary="Inchoative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The sailor drowned&quot;</EXAMPLE>
             </EXAMPLES>
@@ -71,7 +74,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from inchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He choked/suffocated to death&quot;</EXAMPLE>
             </EXAMPLES>
@@ -105,7 +108,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from causative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The pirate choked the sailor to death&quot;</EXAMPLE>
             </EXAMPLES>

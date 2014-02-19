@@ -7,6 +7,7 @@
         <MEMBER name="afflict" wn="afflict%2:37:00"/>
         <MEMBER name="affront" wn="affront%2:32:00"/>
         <MEMBER name="aggravate" wn="aggravate%2:37:00"/>
+        <MEMBER name="aggrieve" wn=""/>
         <MEMBER name="agitate" wn="agitate%2:37:00"/>
         <MEMBER name="agonize" wn="agonize%2:37:01 agonize%2:37:00"/>
         <MEMBER name="alarm" wn="alarm%2:37:00"/>
@@ -24,6 +25,7 @@
         <MEMBER name="astound" wn="astound%2:31:00"/>
         <MEMBER name="awe" wn="awe%2:37:00"/>
         <MEMBER name="baffle" wn="baffle%2:31:00"/>
+        <MEMBER name="befuddle" wn=""/>
         <MEMBER name="beguile" wn="beguile%2:41:00 beguile%2:37:00"/>
         <MEMBER name="bewilder" wn="bewilder%2:31:00 bewilder%2:37:00"/>
         <MEMBER name="bewitch" wn="bewitch%2:37:00 bewitch%2:32:00"/>
@@ -76,6 +78,7 @@
         <MEMBER name="distract" wn="distract%2:37:02"/>
         <MEMBER name="distress" wn="distress%2:37:00"/>
         <MEMBER name="disturb" wn="disturb%2:37:00"/>
+        <MEMBER name="divert" wn=""/>
         <MEMBER name="dumbfound" wn="dumbfound%2:31:00"/>
         <MEMBER name="elate" wn="elate%2:37:00"/>
         <MEMBER name="electrify" wn="electrify%2:37:00"/>
@@ -83,6 +86,7 @@
         <MEMBER name="embolden" wn="embolden%2:37:00"/>
         <MEMBER name="enchant" wn="enchant%2:37:01"/>
         <MEMBER name="encourage" wn="encourage%2:37:00"/>
+        <MEMBER name="enervate" wn=""/>
         <MEMBER name="engage" wn="engage%2:31:00"/>
         <MEMBER name="engross" wn="engross%2:31:02 engross%2:31:00"/>
         <MEMBER name="enlighten" wn="enlighten%2:32:01"/>
@@ -99,7 +103,8 @@
         <MEMBER name="exhaust" wn="exhaust%2:29:00"/>
         <MEMBER name="exhilarate" wn="exhilarate%2:37:00"/>
         <MEMBER name="fascinate" wn="fascinate%2:42:00 fascinate%2:37:01"/>
-        <MEMBER name="faze" wn="faze%2:37:00"/>
+        <MEMBER name="fatigue" wn=""/>
+	<MEMBER name="faze" wn="faze%2:37:00"/>
         <MEMBER name="flabbergast" wn="flabbergast%2:31:00"/>
         <MEMBER name="flatter" wn="flatter%2:32:00"/>
         <MEMBER name="floor" wn="floor%2:37:00"/>
@@ -112,6 +117,7 @@
         <MEMBER name="gratify" wn="gratify%2:37:00 gratify%2:34:00"/>
         <MEMBER name="grieve" wn="grieve%2:37:01"/>
         <MEMBER name="harass" wn="harass%2:37:01 harass%2:37:00"/>
+        <MEMBER name="harm" wn=""/>
         <MEMBER name="haunt" wn="haunt%2:37:00"/>
         <MEMBER name="hearten" wn="hearten%2:37:00"/>
         <MEMBER name="horrify" wn="horrify%2:37:01 horrify%2:37:00"/>
@@ -119,8 +125,10 @@
         <MEMBER name="humiliate" wn="humiliate%2:37:00"/>
         <MEMBER name="hurt" wn="hurt%2:30:04"/>
         <MEMBER name="hypnotize" wn=""/>
+        <MEMBER name="impair" wn=""/>
         <MEMBER name="impress" wn="impress%2:37:01 impress%2:37:00 impress%2:31:00"/>
         <MEMBER name="incense" wn="incense%2:37:01"/>
+        <MEMBER name="inflame" wn=""/>
         <MEMBER name="infuriate" wn="infuriate%2:37:00"/>
         <MEMBER name="inspire" wn="inspire%2:32:00"/>
         <MEMBER name="insult" wn="insult%2:32:00"/>
@@ -131,13 +139,16 @@
         <MEMBER name="invigorate" wn="invigorate%2:30:01 invigorate%2:29:00"/>
         <MEMBER name="irk" wn="irk%2:37:00"/>
         <MEMBER name="irritate" wn="irritate%2:37:00"/>
+        <MEMBER name="jade" wn=""/>
         <MEMBER name="jar" wn="jar%2:37:00"/>
         <MEMBER name="jollify" wn=""/>
         <MEMBER name="jolt" wn="jolt%2:37:00"/>
         <MEMBER name="lull" wn="lull%2:37:01"/>
         <MEMBER name="madden" wn="madden%2:37:01 madden%2:37:00"/>
+        <MEMBER name="menace" wn=""/>
         <MEMBER name="mesmerize" wn="mesmerize%2:32:00"/>
         <MEMBER name="miff" wn="miff%2:37:00"/>
+        <MEMBER name="molest" wn=""/>
         <MEMBER name="mollify" wn="mollify%2:37:00"/>
         <MEMBER name="mortify" wn="mortify%2:37:02"/>
         <MEMBER name="move" wn="move%2:37:00 move%2:37:01"/>
@@ -147,6 +158,7 @@
         <MEMBER name="nettle" wn="nettle%2:32:00 nettle%2:37:00"/>
         <MEMBER name="numb" wn="numb%2:39:00"/>
         <MEMBER name="obsess" wn="obsess%2:37:00"/>
+        <MEMBER name="occupy" wn=""/>
         <MEMBER name="offend" wn="offend%2:37:01 offend%2:37:02 offend%2:37:00"/>
         <MEMBER name="outrage" wn="outrage%2:37:01 outrage%2:37:00"/>
         <MEMBER name="overawe" wn="overawe%2:37:00"/>
@@ -156,6 +168,7 @@
         <MEMBER name="peeve" wn="peeve%2:37:00"/>
         <MEMBER name="perplex" wn="perplex%2:31:00"/>
         <MEMBER name="perturb" wn="perturb%2:37:00"/>
+        <MEMBER name="pester" wn=""/>
         <MEMBER name="pique" wn="pique%2:37:00"/>
         <MEMBER name="placate" wn="placate%2:37:00"/>
         <MEMBER name="plague" wn="plague%2:37:00"/>
@@ -163,9 +176,13 @@
         <MEMBER name="preoccupy" wn="preoccupy%2:37:00"/>
         <MEMBER name="provoke" wn="provoke%2:37:00 provoke%2:37:01"/>
         <MEMBER name="puzzle" wn="puzzle%2:31:00"/>
+        <MEMBER name="quench" wn=""/>
         <MEMBER name="rankle" wn="rankle%2:37:00"/>
+        <MEMBER name="ravish" wn=""/>
         <MEMBER name="reassure" wn="reassure%2:37:00 reassure%2:32:00"/>
+        <MEMBER name="recharge" wn=""/>
         <MEMBER name="refresh" wn="refresh%2:30:00"/>
+        <MEMBER name="rejuvenate" wn=""/>
         <MEMBER name="relax" wn="relax%2:29:01"/>
         <MEMBER name="relieve" wn="relieve%2:37:00 relieve%2:40:01"/>
         <MEMBER name="repel" wn="repel%2:37:00 repel%2:39:00"/>
@@ -175,6 +192,7 @@
         <MEMBER name="rile" wn="rile%2:37:00"/>
         <MEMBER name="ruffle" wn="ruffle%2:37:00 ruffle%2:37:01"/>
         <MEMBER name="sadden" wn="sadden%2:37:01"/>
+        <MEMBER name="satiate" wn=""/>
         <MEMBER name="satisfy" wn="satisfy%2:37:00"/>
         <MEMBER name="scandalize" wn="scandalize%2:37:00"/>
         <MEMBER name="scare" wn="scare%2:37:00 scare%2:37:04"/>
@@ -198,6 +216,7 @@
         <MEMBER name="stupefy" wn="stupefy%2:39:00 stupefy%2:31:00"/>
         <MEMBER name="surprise" wn="surprise%2:31:00"/>
         <MEMBER name="tantalize" wn="tantalize%2:32:00"/>
+        <MEMBER name="taunt" wn=""/>
         <MEMBER name="tease" wn="tease%2:37:00 tease%2:32:00"/>
         <MEMBER name="tempt" wn="tempt%2:37:00 tempt%2:37:01"/>
         <MEMBER name="terrify" wn="terrify%2:37:00"/>
@@ -209,7 +228,9 @@
         <MEMBER name="tire" wn="tire%2:37:01"/>
         <MEMBER name="titillate" wn="titillate%2:37:00"/>
         <MEMBER name="torment" wn="torment%2:37:00 torment%2:37:01"/>
+        <MEMBER name="torture" wn=""/>
         <MEMBER name="touch" wn="touch%2:37:00"/>
+        <MEMBER name="transfix" wn=""/>
         <MEMBER name="transport" wn="transport%2:37:00"/>
         <MEMBER name="trouble" wn="trouble%2:37:01 trouble%2:37:00"/>
         <MEMBER name="try" wn="try%2:37:01"/>
@@ -322,7 +343,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The clown amused the children with his antics"]]></EXAMPLE>
             </EXAMPLES>
@@ -358,7 +379,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="Genitive" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.4" primary="NP"
+secondary="Attribute Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The clown's antics amused the children"]]></EXAMPLE>
             </EXAMPLES>
@@ -394,7 +416,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["That movie bored me silly"]]></EXAMPLE>
             </EXAMPLES>
@@ -425,72 +447,6 @@
                 <PRED value="Pred">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ over-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE><![CDATA["Many Americans agonize over their feelings on abortion."]]></EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Experiencer">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <PREP value="over">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Cause">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Cause"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="emotional_state">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Emotion"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Passive" secondary="+ Cause PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE><![CDATA["The U.S. is concerned about 'Disturbing developments in Turkey.'"]]></EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Experiencer">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <PREP value="about with">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Cause">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Cause"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="emotional_state">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Emotion"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>

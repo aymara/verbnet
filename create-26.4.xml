@@ -7,6 +7,7 @@
         <MEMBER name="compute" wn="compute%2:31:00"/>
         <MEMBER name="concoct" wn="concoct%2:35:00 concoct%2:36:01 concoct%2:36:00"/>
         <MEMBER name="construct" wn="construct%2:36:00 construct%2:35:00"/>
+        <MEMBER name="contrive" wn=""/>
         <MEMBER name="create" wn="create%2:36:13 create%2:36:03"/>
         <MEMBER name="derive" wn="derive%2:31:00"/>
         <MEMBER name="fabricate" wn="fabricate%2:36:01"/>
@@ -82,7 +83,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Material PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Material-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;David constructed a house out of sticks&quot;</EXAMPLE>
             </EXAMPLES>
@@ -130,7 +131,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.2" primary="Benefactive Alternation" secondary="non-alternating for-only variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.2" primary="NP-PP" secondary="for-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;David dug a hole for me&quot;</EXAMPLE>
             </EXAMPLES>
@@ -177,7 +178,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ as Predicate" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="as-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["They designed the Westinghouse-Mitsubishi venture as a non-equity transaction."]]></EXAMPLE>
             </EXAMPLES>
@@ -217,58 +218,25 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Sentential Complement" secondary="" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE><![CDATA["They designed Vermont American to enhance their position in the accessories portion of the powertool industry."]]></EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Product">
-                    <SYNRESTRS/>
-                </NP>
-                <NP value="Predicate">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED bool="!" value="state">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="VerbSpecific" value="Endstate"/>
-                        <ARG type="ThemRole" value="Product"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="state">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Endstate"/>
-                        <ARG type="ThemRole" value="Product"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
     </FRAMES>
     <SUBCLASSES>
         <VNSUBCLASS ID="create-26.4-1">
             <MEMBERS>
+	        <MEMBER name="conjure" wn=""/>
                 <MEMBER name="design" wn="design%2:31:00 design%2:36:01 design%2:36:00"/>
                 <MEMBER name="dig" wn="dig%2:35:01"/>
                 <MEMBER name="mint" wn="mint%2:36:00"/>
+        	<MEMBER name="publish" wn=""/>
+        	<MEMBER name="rearrange" wn=""/>
+		<MEMBER name="reconstitute" wn=""/>
+       		<MEMBER name="reorganize" wn=""/>
+        	<MEMBER name="schedule" wn=""/>
+        	<MEMBER name="stage" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.2" primary="Benefactive Alternation" secondary="double object" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.2" primary="NP-NP" secondary="Beneficiary Object" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;David dug me a hole&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -316,3 +284,8 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
+
+
+
+
+

@@ -36,7 +36,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="causative" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Causative" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tony broke the window&quot;</EXAMPLE>
             </EXAMPLES>
@@ -79,7 +79,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tony broke the window with a hammer&quot;</EXAMPLE>
             </EXAMPLES>
@@ -135,7 +135,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="inchoative" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="Inchoative" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The window broke&quot;</EXAMPLE>
             </EXAMPLES>
@@ -225,7 +225,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tony broke the piggy bank open&quot;</EXAMPLE>
             </EXAMPLES>
@@ -275,7 +275,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP" secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tony broke the piggy bank open with a hammer&quot;</EXAMPLE>
             </EXAMPLES>
@@ -338,7 +338,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tony broke the glass to pieces&quot;</EXAMPLE>
             </EXAMPLES>
@@ -395,7 +395,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tony broke the glass to pieces with a hammer&quot;</EXAMPLE>
             </EXAMPLES>
@@ -465,7 +465,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Resultative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The glass broke into a thousand pieces."]]></EXAMPLE>
             </EXAMPLES>

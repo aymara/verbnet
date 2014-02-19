@@ -158,7 +158,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Horns beeped in the street"]]></EXAMPLE>
             </EXAMPLES>
@@ -194,7 +194,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="Locative Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="PP" secondary="Location Subject, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The street sang with horns."]]></EXAMPLE>
             </EXAMPLES>
@@ -268,20 +268,20 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.1" primary="There-insertion" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["In the hallway there ticked a grandather clock"]]></EXAMPLE>
+                <EXAMPLE><![CDATA["There ticked a grandather clock in the hallway."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
+                <LEX value="there"/>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
                 <PREP>
                     <SELRESTRS>
                         <SELRESTR Value="+" type="loc"/>
                     </SELRESTRS>
                 </PREP>
                 <NP value="Location">
-                    <SYNRESTRS/>
-                </NP>
-                <LEX value="there"/>
-                <VERB/>
-                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -304,7 +304,7 @@
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["I buzzed the bell"]]></EXAMPLE>
             </EXAMPLES>

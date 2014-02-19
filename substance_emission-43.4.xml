@@ -93,7 +93,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["I bled him"]]></EXAMPLE>
             </EXAMPLES>
@@ -124,7 +124,7 @@
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.3" primary="Substance/Source Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.3" primary="PP" secondary="Substance Subject, Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Oil gushed from the well"]]></EXAMPLE>
             </EXAMPLES>
@@ -151,7 +151,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Water gushed through the streets"]]></EXAMPLE>
             </EXAMPLES>
@@ -187,7 +187,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="Locative Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="PP"
+secondary="Location Subject, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The streets gushed with water"]]></EXAMPLE>
             </EXAMPLES>
@@ -259,22 +260,24 @@
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="There-insertion" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="NP-PP"
+secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Over the fire there bubbled a fragant stew"]]></EXAMPLE>
+                <EXAMPLE><![CDATA["There bubbled a fragant stew
+over the fire."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <PREP>
+                <LEX value="there"/>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP> 
                     <SELRESTRS>
                         <SELRESTR Value="+" type="loc"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Location">
-                    <SYNRESTRS/>
-                </NP>
-                <LEX value="there"/>
-                <VERB/>
-                <NP value="Theme">
+                <NP value="location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -296,7 +299,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ out" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PART" secondary="out" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The water seeped out."]]></EXAMPLE>
             </EXAMPLES>

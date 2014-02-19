@@ -3,13 +3,17 @@
 <VNCLASS ID="transcribe-25.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <!--In most predicates, such as location, Theme really means image_of(Theme)-->
     <MEMBERS>
+        <MEMBER name="chronicle" wn=""/>
         <MEMBER name="copy" wn="copy%2:36:05 copy%2:36:01"/>
         <MEMBER name="film" wn="film%2:32:00 film%2:36:00"/>
         <MEMBER name="forge" wn="forge%2:36:01"/>
+        <MEMBER name="imitate" wn=""/>
         <MEMBER name="microfilm" wn="microfilm%2:36:00"/>
         <MEMBER name="photocopy" wn="photocopy%2:36:00"/>
         <MEMBER name="photograph" wn="photograph%2:32:00"/>
         <MEMBER name="record" wn="record%2:32:01"/>
+        <MEMBER name="tally" wn=""/>
+        <MEMBER name="tally_up" wn=""/>
         <MEMBER name="tape" wn="tape%2:32:03 tape%2:32:00"/>
         <MEMBER name="televise" wn="televise%2:32:00"/>
         <MEMBER name="transcribe" wn="transcribe%2:32:01 transcribe%2:32:00 transcribe%2:36:00 transcribe%2:32:02"/>
@@ -68,7 +72,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ locative PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The secretary transcribed the speech into the record&quot;</EXAMPLE>
             </EXAMPLES>

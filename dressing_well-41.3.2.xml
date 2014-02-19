@@ -19,7 +19,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Particle up" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PART" secondary="up" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["She spruced herself up before the job interview"]]></EXAMPLE>
             </EXAMPLES>
@@ -50,7 +50,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Particle up" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="PART-NP" secondary="up" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["She spruced up herself before the job interview"]]></EXAMPLE>
             </EXAMPLES>

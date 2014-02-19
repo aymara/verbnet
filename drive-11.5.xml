@@ -78,7 +78,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Goal PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Goal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Amanda drove the package to New York&quot;</EXAMPLE>
             </EXAMPLES>
@@ -139,7 +139,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Amanda drove the package from home&quot;</EXAMPLE>
             </EXAMPLES>
@@ -202,7 +202,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP + Goal PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Source-PP Goal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Amanda drove the package from home to New York&quot;</EXAMPLE>
             </EXAMPLES>
@@ -285,7 +285,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Goal PP + Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Goal-PP Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Amanda drove the package to New York from home.&quot;</EXAMPLE>
             </EXAMPLES>
@@ -456,7 +456,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Amanda shuttled her children from Philadelphia&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -500,7 +500,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Goal PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Goal-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Amanda shuttled the children to school.&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -542,9 +542,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP + Goal PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Source-PP Goal-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Amanda trucked the package from philadelphia to her mother's house.&quot;</EXAMPLE>
+                        <EXAMPLE>&quot;Amanda trucked the package from Philadelphia to her mother's house.&quot;</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -599,7 +599,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Goal PP + Source PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Goal-PP Source-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Amanda trucked the package to her mother's house from Philadelphia.&quot;</EXAMPLE>
                     </EXAMPLES>

@@ -25,6 +25,7 @@
         <MEMBER name="oven-fry" wn=""/>
         <MEMBER name="oven-poach" wn=""/>
         <MEMBER name="overcook" wn="overcook%2:30:00"/>
+        <MEMBER name="overheat" wn=""/>
         <MEMBER name="pan-broil" wn="pan-broil%2:30:00"/>
         <MEMBER name="pan-fry" wn="pan-fry%2:30:00"/>
         <MEMBER name="parboil" wn="parboil%2:30:00"/>
@@ -34,6 +35,7 @@
         <MEMBER name="plank" wn="plank%2:34:00"/>
         <MEMBER name="poach" wn="poach%2:30:00"/>
         <MEMBER name="pot-roast" wn=""/>
+        <MEMBER name="reheat" wn=""/>
         <MEMBER name="rissole" wn=""/>
         <MEMBER name="roast" wn="roast%2:30:00"/>
         <MEMBER name="saute" wn="saute%2:30:00"/>
@@ -67,7 +69,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="causative" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Causative" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jennifer baked the potatoes&quot;</EXAMPLE>
             </EXAMPLES>
@@ -104,7 +106,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jennifer baked the potatoes in the oven&quot;</EXAMPLE>
             </EXAMPLES>
@@ -154,7 +156,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="inchoative" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="Inchoative" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The potatoes baked&quot;</EXAMPLE>
             </EXAMPLES>
@@ -232,7 +234,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jennifer boiled the pot dry&quot;</EXAMPLE>
             </EXAMPLES>
@@ -276,7 +278,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP" secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jennifer boiled the pot dry on the stove&quot;</EXAMPLE>
             </EXAMPLES>
@@ -333,7 +335,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jennifer baked the potatoes to a crisp&quot;</EXAMPLE>
             </EXAMPLES>
@@ -384,7 +386,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jennifer baked the potatoes to a crisp in the oven&quot;</EXAMPLE>
             </EXAMPLES>
@@ -448,7 +450,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Pots boil dry&quot;</EXAMPLE>
             </EXAMPLES>
@@ -483,7 +485,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Potatoes bake to a crisp&quot;</EXAMPLE>
             </EXAMPLES>
@@ -525,7 +527,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="ADJP-PP" secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Pots boil dry on the stove&quot;</EXAMPLE>
             </EXAMPLES>
@@ -566,7 +568,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Potatoes bake to a crisp in the oven&quot;</EXAMPLE>
             </EXAMPLES>

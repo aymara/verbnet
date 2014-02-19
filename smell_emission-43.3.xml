@@ -67,7 +67,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ of-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="of-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The room reeked of onions"]]></EXAMPLE>
             </EXAMPLES>
@@ -104,3 +104,4 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
+

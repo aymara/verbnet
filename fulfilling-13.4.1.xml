@@ -26,7 +26,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Brown presented a plaque to Jones&quot;</EXAMPLE>
             </EXAMPLES>
@@ -181,7 +181,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Hess continued to supply its customers."]]></EXAMPLE>
+                        <EXAMPLE><![CDATA["Hess supplied its customers."]]></EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -244,9 +244,9 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ for Recipient" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="for-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Hess prides itself on its record of providing for its customers."]]></EXAMPLE>
+                        <EXAMPLE><![CDATA["Hess provides for its customers."]]></EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

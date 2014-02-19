@@ -69,7 +69,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="inchoative + PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP"
+secondary="inchoative, locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Claire skated along the canal&quot;</EXAMPLE>
             </EXAMPLES>
@@ -104,7 +105,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="Induced Action" secondary="with accompanied motion and path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP"
+secondary="Induced Action, with accompanied motion, path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He skated Penny around the rink&quot;</EXAMPLE>
             </EXAMPLES>
@@ -167,7 +169,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="Induced Action" secondary="with accompanied motion, no path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP"
+secondary="Induced Action, with accompanied motion" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He skated Penny&quot;</EXAMPLE>
             </EXAMPLES>
@@ -208,7 +211,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from inchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Claire skated her skates blades blunt&quot;</EXAMPLE>
             </EXAMPLES>
@@ -244,7 +247,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from inchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Claire skated her skates blades to shreds&quot;</EXAMPLE>
             </EXAMPLES>
@@ -287,7 +290,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from induced action" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He skated Penny exhausted&quot;</EXAMPLE>
             </EXAMPLES>
@@ -323,7 +326,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from induced action" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He skated Penny to exhaustion&quot;</EXAMPLE>
             </EXAMPLES>

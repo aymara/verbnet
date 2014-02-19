@@ -21,7 +21,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-RS" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" secondary="" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He began to pack.&quot;</EXAMPLE>
             </EXAMPLES>
@@ -32,14 +32,25 @@
                 <VERB/>
                 <NP value="Theme">
                     <SYNRESTRS>
-                        <SYNRESTR Value="+" type="to_inf_rs"/>
+                        <SYNRESTR Value="+" type="sc_to_inf"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="begin">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
-
     </FRAMES>
     <SUBCLASSES>
         <VNSUBCLASS ID="begin-55.1-1">
@@ -48,7 +59,9 @@
                 <MEMBER name="start" wn="start%2:30:00 start%2:30:01 start%2:38:02 start%2:38:01 start%2:38:00 start%2:41:00 start%2:41:04"/>
 		<MEMBER name="start_off" wn=""/>
                 <MEMBER name="commence" wn="commence%2:30:00 commence%2:30:01"/>
+        	<MEMBER name="recommence" wn=""/>
                 <MEMBER name="resume" wn="resume%2:30:00 resume%2:30:01"/>
+        	<MEMBER name="undertake" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -64,11 +77,23 @@
 			<VERB/>
 			<NP value="Theme"/>
 			    <SYNRESTRS>
-				<SYNRESTRS Value="+" type="be_sc_ing"/>
+				<SYNRESTR Value="+" type="be_sc_ing"/>
 			    </SYNRESTRS>
 			</NP>
 		    </SYNTAX>
 		    <SEMANTICS>
+	                <PRED value="begin">
+	                    <ARGS>
+	                        <ARG type="Event" value="E"/>
+	                        <ARG type="ThemRole" value="Theme"/>
+	                    </ARGS>
+	                </PRED>
+	                <PRED value="cause">
+	                    <ARGS>
+	                        <ARG type="ThemRole" value="Agent"/>
+	                        <ARG type="Event" value="E"/>
+	                    </ARGS>
+	                </PRED>
 		    </SEMANTICS>
 		</FRAME>
                 <FRAME>
@@ -92,7 +117,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Causative" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["John started the party."]]></EXAMPLE>
                     </EXAMPLES>
@@ -121,7 +146,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ with-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["The party began with a bang."]]></EXAMPLE>
                     </EXAMPLES>
@@ -154,7 +179,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Causative" secondary="+ with-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["I began the party with a speech."]]></EXAMPLE>
                     </EXAMPLES>
@@ -196,7 +221,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Causative" secondary="+ Oblique PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="Oblique-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["We began the campaign by soliciting donations."]]></EXAMPLE>
                     </EXAMPLES>
@@ -238,7 +263,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="Instrument Subject" xtag=""/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="Intransitive" secondary="Instrument Subject" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["A murder began the book."]]></EXAMPLE>
                     </EXAMPLES>

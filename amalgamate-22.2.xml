@@ -84,8 +84,11 @@
         <VNSUBCLASS ID="amalgamate-22.2-1">
             <!--physical, change of integrity of Patients (but note alternate interpretation when both Patients are plural and countable - "mixed eggs and marbles")-->
             <MEMBERS>
+	        <MEMBER name="couple" wn=""/>
                 <MEMBER name="incorporate" wn="incorporate%2:30:00 incorporate%2:35:00"/>
                 <MEMBER name="integrate" wn="integrate%2:30:00 integrate%2:30:01"/>
+        	<MEMBER name="match" wn=""/>
+		<MEMBER name="overlap" wn=""/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient1">
@@ -101,7 +104,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="prepositional variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP-PP" secondary="into/to/with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Diabetics can now incorporate sugar into their desserts&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -150,7 +153,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="reciprocal variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;A new firm will integrate their ice cream production lines&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -195,7 +198,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="prepositional variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.4" primary="PP" secondary="with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Ice cream integrates with desserts&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -234,46 +237,6 @@
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Simple Reciprocal Alternation Intransitive" secondary="prepositional variant" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE><![CDATA["Ice creame integrates with desserts."]]></EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Patient1">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                        <PREP value="with into">
-                            <SELRESTRS/>
-                        </PREP>
-                        <NP value="Patient2">
-                            <SYNRESTRS/>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="degradation_material_integrity">
-                            <ARGS>
-                                <ARG type="Event" value="result(E)"/>
-                                <ARG type="ThemRole" value="Patient1"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="degradation_material_integrity">
-                            <ARGS>
-                                <ARG type="Event" value="result(E)"/>
-                                <ARG type="ThemRole" value="Patient2"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="mingled">
-                            <ARGS>
-                                <ARG type="Event" value="result(E)"/>
-                                <ARG type="Constant" value="physical"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Patient2"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
             </FRAMES>
             <SUBCLASSES>
                 <VNSUBCLASS ID="amalgamate-22.2-1-1">
@@ -287,7 +250,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="reciprocal variant" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>&quot;The yolks and the whites intermingked&quot;</EXAMPLE>
                             </EXAMPLES>
@@ -334,18 +297,15 @@
                 <MEMBER name="conjoin" wn="conjoin%2:35:00"/>
                 <MEMBER name="entangle" wn="entangle%2:42:00"/>
                 <MEMBER name="muddle" wn="muddle%2:31:00"/>
-                <MEMBER name="pair" wn="pair%2:41:00 pair%2:35:01 ?pair%2:35:00"/>
+                <MEMBER name="pair" wn="pair%2:41:00 pair%2:35:01 pair%2:35:00"/>
                 <MEMBER name="team" wn="team%2:33:00"/>
                 <MEMBER name="affiliate" wn="affiliate%2:41:11 affiliate%2:41:12 affiliate%2:41:00"/>
                 <MEMBER name="associate" wn="associate%2:31:00 associate%2:41:02 associate%2:41:00"/>
                 <MEMBER name="compare" wn="compare%2:31:00 compare%2:42:00 compare%2:31:01"/>
                 <MEMBER name="confederate" wn="confederate%2:41:00 confederate%2:41:10"/>
                 <MEMBER name="confuse" wn="confuse%2:31:02"/>
-                <MEMBER name="entangle" wn="entangle%2:42:00"/>
                 <MEMBER name="incorporate" wn="incorporate%2:30:00 incorporate%2:35:00"/>
                 <MEMBER name="integrate" wn="integrate%2:30:00 integrate%2:30:01"/>
-                <MEMBER name="muddle" wn="muddle%2:31:00"/>
-                <MEMBER name="pair" wn="?pair%2:41:00 pair%2:35:01"/>
                 <MEMBER name="total" wn="?total%2:42:00 total%2:32:00"/>
                 <MEMBER name="identity" wn=""/>
             </MEMBERS>
@@ -370,7 +330,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="prepositional variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP-PP" secondary="to-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;The merger associated company A with company B&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -407,7 +367,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="reciprocal variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;The merger associated the two companies&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -440,7 +400,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="prepositional variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Company A associated with Company B&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -475,7 +435,7 @@
                         <MEMBER name="alternate" wn="alternate%2:30:01 alternate%2:30:02 alternate%2:30:00"/>
                         <MEMBER name="crisscross" wn="crisscross%2:38:00"/>
                         <MEMBER name="entwine" wn="entwine%2:36:00 entwine%2:35:00"/>
-                        <MEMBER name="interchange" wn="interchange%2:40:00 interchange%2:30:01"/>
+                        <MEMBER name="interchange" wn="interchange%2:40:00 interchange%2:30:01 interchange%2:30:00"/>
                         <MEMBER name="interconnect" wn="interconnect%2:42:00 interconnect%2:35:01"/>
                         <MEMBER name="interlace" wn="interlace%2:35:00"/>
                         <MEMBER name="interlink" wn="interlink%2:42:00 interlink%2:35:01"/>
@@ -492,13 +452,9 @@
                         <MEMBER name="correlate" wn="correlate%2:42:00 correlate%2:31:00"/>
                         <MEMBER name="entwine" wn="entwine%2:35:00"/>
                         <MEMBER name="harmonize" wn="harmonize%2:42:00"/>
-                        <MEMBER name="interchange" wn="interchange%2:30:00"/>
                         <MEMBER name="interlock" wn="interlock%2:35:00"/>
                         <MEMBER name="intermingle" wn="intermingle%2:35:00"/>
                         <MEMBER name="interrelate" wn="interrelate%2:31:00"/>
-                        <MEMBER name="intersperse" wn="intersperse%2:35:02"/>
-                        <MEMBER name="intertwine" wn="intertwine%2:35:00"/>
-                        <MEMBER name="interweave" wn="interweave%2:35:00"/>
                         <MEMBER name="mate" wn="mate%2:35:02"/>
                         <MEMBER name="rhyme" wn="rhyme%2:42:00"/>
                         <MEMBER name="unify" wn="unify%2:35:00 unify%2:30:01"/>
@@ -507,7 +463,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="reciprocal variant" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>&quot;Plays and ballets alternate&quot;</EXAMPLE>
                             </EXAMPLES>
@@ -535,14 +491,14 @@
                 </VNSUBCLASS>
             </SUBCLASSES>
         </VNSUBCLASS>
-        <VNSUBCLASS ID="amalgamate-22.2-4">
+        <VNSUBCLASS ID="amalgamate-22.2-3">
             <MEMBERS>
                 <MEMBER name="oppose" wn="oppose%2:33:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="reciprocal variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;John opposed the two ideas&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -584,7 +540,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="prepositional variant" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.1" primary="NP-PP" secondary="to-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>&quot;John introduced Mary to me&quot;</EXAMPLE>
                             </EXAMPLES>
@@ -646,7 +602,8 @@
                             </THEMROLES>
                             <FRAMES>
                                 <FRAME>
-                                    <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="reciprocal variant" xtag=""/>
+                                    <DESCRIPTION descriptionNumber="2.5.4"
+primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                                     <EXAMPLES>
                                         <EXAMPLE>&quot;John and Mary married&quot;</EXAMPLE>
                                     </EXAMPLES>
@@ -695,7 +652,7 @@
                     </THEMROLES>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="reciprocal variant" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>&quot;John and Mary are engaged&quot;</EXAMPLE>
                             </EXAMPLES>

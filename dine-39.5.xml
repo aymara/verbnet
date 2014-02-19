@@ -50,7 +50,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Patient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Patient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Cynthia breakfasted on peaches"]]></EXAMPLE>
             </EXAMPLES>

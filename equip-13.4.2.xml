@@ -79,6 +79,8 @@
             <MEMBERS>
                 <MEMBER name="arm" wn="arm%2:33:00 arm%2:40:00"/>
                 <MEMBER name="equip" wn="equip%2:40:00"/>
+	        <MEMBER name="rearm" wn=""/>
+	        <MEMBER name="redress" wn=""/>
                 <MEMBER name="regale" wn="regale%2:34:00"/>
                 <MEMBER name="reward" wn="reward%2:41:00 reward%2:40:00"/>
                 <MEMBER name="saddle" wn="saddle%2:35:10 saddle%2:32:00"/>
@@ -132,6 +134,9 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="equip-13.4.2-1-1">
                     <MEMBERS>
+		        <MEMBER name="armor" wn=""/>
+		        <MEMBER name="overburden" wn=""/>
+		        <MEMBER name="weight" wn=""/>
                         <MEMBER name="burden" wn="burden%2:35:00 burden%2:32:00"/>
                         <MEMBER name="compensate" wn="compensate%2:40:02 compensate%2:40:00"/>
                     </MEMBERS>

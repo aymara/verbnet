@@ -115,7 +115,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="frame not mentioned by Levin" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA[""Paul inhaled water.""]]></EXAMPLE>
                     </EXAMPLES>

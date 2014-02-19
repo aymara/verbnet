@@ -46,7 +46,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Cause PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Cause-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Sharon fainted from hunger&quot;</EXAMPLE>
                 <EXAMPLE>&quot;Sharon fainted at the sight of the accident&quot;</EXAMPLE>

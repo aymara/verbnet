@@ -21,7 +21,8 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Causative/Inchoative Alternation" secondary="causative" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive"
+secondary="Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The strong winds cleared the sky&quot;</EXAMPLE>
             </EXAMPLES>
@@ -58,7 +59,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Causative/Inchoative Alternation" secondary="inchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Intransitive"
+secondary="Inchoative variant" xtag=""/>
             <!-- "empty" and "clean" might not allow this frame-->
             <EXAMPLES>
                 <EXAMPLE>&quot;The sky cleared&quot;</EXAMPLE>
@@ -87,7 +89,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Doug cleaned the dishes from the table&quot;</EXAMPLE>
             </EXAMPLES>
@@ -132,7 +134,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Source-PP" xtag=""/>
             <!-- "empty" and "clean" might not allow this frame-->
             <EXAMPLES>
                 <EXAMPLE>&quot;Clouds cleared from the sky&quot;</EXAMPLE>
@@ -186,7 +188,8 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.3" primary="Locative Alternation" secondary="of variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.3" primary="NP-PP"
+secondary="Location Subject, of-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Doug cleaned the table of dishes&quot;</EXAMPLE>
                     </EXAMPLES>

@@ -50,7 +50,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Attribute PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Attribute-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The inspector analyzed the building for its soundness"]]></EXAMPLE>
             </EXAMPLES>
@@ -81,7 +81,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.2" primary="NP"
+secondary="Attribute Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The inspector analyzed the building's soundness"]]></EXAMPLE>
             </EXAMPLES>

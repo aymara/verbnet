@@ -6,13 +6,14 @@
         <MEMBER name="cloister" wn="cloister%2:42:00 cloister%2:30:00"/>
         <MEMBER name="conceal" wn="conceal%2:39:01 conceal%2:39:00"/>
         <MEMBER name="curtain" wn=""/>
-        <MEMBER name="hide" wn="hide%2:39:00"/>
         <MEMBER name="isolate" wn="isolate%2:30:00"/>
         <MEMBER name="quarantine" wn="quarantine%2:30:00"/>
+        <MEMBER name="repress" wn=""/>
         <MEMBER name="screen" wn="screen%2:35:00 screen%2:33:00"/>
         <MEMBER name="seclude" wn="seclude%2:30:00"/>
         <MEMBER name="sequester" wn="sequester%2:30:00"/>
         <MEMBER name="shelter" wn="?shelter%2:42:00"/>
+        <MEMBER name="suppress" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -34,7 +35,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Frances hid the presents from Sally"]]></EXAMPLE>
             </EXAMPLES>
@@ -82,7 +83,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Frances hid the presents behind the books in the drawer"]]></EXAMPLE>
             </EXAMPLES>
@@ -200,7 +201,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Recipient PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Recipient-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["The children hid from Sally."]]></EXAMPLE>
                     </EXAMPLES>
@@ -245,7 +246,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Location PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Location-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["The children hid in the chimney."]]></EXAMPLE>
                     </EXAMPLES>

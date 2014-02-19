@@ -20,7 +20,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ with/to-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with/to-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The child clung to her mother&quot;</EXAMPLE>
             </EXAMPLES>
@@ -75,4 +75,5 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
+
 

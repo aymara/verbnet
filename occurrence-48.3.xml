@@ -26,7 +26,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["A serious accident happened at three o'clock"]]></EXAMPLE>
+                <EXAMPLE><![CDATA["A serious accident happened."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -44,9 +44,10 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="There-insertion" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="NP"
+secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["There happened a serious accident yesterday"]]></EXAMPLE>
+                <EXAMPLE><![CDATA["There happened a serious accident."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <LEX value="there"/>
@@ -65,7 +66,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["A serious accident happened in front of them"]]></EXAMPLE>
             </EXAMPLES>
@@ -149,6 +150,12 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="occurred">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>

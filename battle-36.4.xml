@@ -3,22 +3,23 @@
 <VNCLASS ID="battle-36.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="consult" wn=""/>
+        <MEMBER name="exile" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Actor">
-            <SELRESTRS>
+            <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Actor1">
-            <SELRESTRS>
+            <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Actor2">
-            <SELRESTRS>
+            <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
@@ -45,7 +46,7 @@
                     <SYNRESTRS/>
                 </NP>
 		<PREP value="about">
-		    <SELRESTR/>
+		    <SELRESTRS/>
 		</PREP>
 		<NP value="Topic">
 		    <SYNRESTRS>
@@ -54,6 +55,26 @@
 		</NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="conflict">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="about">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -82,6 +103,26 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="conflict">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="about">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -110,6 +151,26 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="conflict">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="about">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -138,6 +199,26 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="conflict">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="about">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -166,6 +247,26 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="social_interaction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="conflict">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="about">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>
@@ -209,7 +310,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="INTRANS-RECIP(SUBJ-PL/COORD)" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="Intransitive" secondary="Plural Subject" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;They battled.&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -221,7 +322,28 @@
                         </NP>
                         <VERB/>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+	                <PRED value="social_interaction">
+	                    <ARGS>
+	                        <ARG type="Event" value="during(E)"/>
+	                        <ARG type="ThemRole" value="Actor_i"/>
+	                        <ARG type="ThemRole" value="Actor_j"/>
+	                    </ARGS>
+	                </PRED>
+	                <PRED value="conflict">
+	                    <ARGS>
+	                        <ARG type="Event" value="during(E)"/>
+	                        <ARG type="ThemRole" value="Actor_i"/>
+	                        <ARG type="ThemRole" value="Actor_j"/>
+	                    </ARGS>
+	                </PRED>
+	                <PRED value="about">
+	                    <ARGS>
+	                        <ARG type="Event" value="E"/>
+	                        <ARG type="ThemRole" value="?Topic"/>
+	                    </ARGS>
+	                </PRED>
+		    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="P-POSSING" secondary="about-PP" xtag="0.1"/>
@@ -244,7 +366,28 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="conflict">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+		    </SEMANTICS>
                 </FRAME>    
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="P-WH-S" secondary="about-PP" xtag="0.1"/>
@@ -267,7 +410,28 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="conflict">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+		    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-S" secondary="about-PP" xtag="0.1"/>           
@@ -290,7 +454,28 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="conflict">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+		    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="P-WH-TO-INF" secondary="about-PP" xtag="0.1"/>        
@@ -313,7 +498,28 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="conflict">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+		    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-TO-INF" secondary="about-PP" xtag="0.1"/>          
@@ -336,7 +542,28 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="conflict">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+		    </SEMANTICS>
                 </FRAME>
                <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="about-PP" xtag="0.1"/>  
@@ -359,7 +586,28 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="conflict">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+		    </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES/>

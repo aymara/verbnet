@@ -64,7 +64,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="inchoative + PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;They waltzed across the room&quot;</EXAMPLE>
             </EXAMPLES>
@@ -99,7 +99,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="Induced Action" secondary="with accompanied motion and path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP"
+secondary="Induced Action, with accompanied motion, path PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He waltzed her across the floor&quot;</EXAMPLE>
             </EXAMPLES>
@@ -162,7 +163,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="Induced Action" secondary="without accompanied motion, with path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP"
+secondary="Induced Action, without accompanied motion, path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He waltzed her across the floor&quot;</EXAMPLE>
             </EXAMPLES>
@@ -206,7 +208,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from inchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;She waltzed the soles off her shoes&quot;</EXAMPLE>
             </EXAMPLES>
@@ -250,7 +252,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from inchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;She waltzed herself to sickness&quot;</EXAMPLE>
             </EXAMPLES>
@@ -293,7 +295,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from induced action" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He waltzed her dizzy&quot;</EXAMPLE>
             </EXAMPLES>
@@ -329,7 +331,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from induced action" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He waltzed her to exhaustion&quot;</EXAMPLE>
             </EXAMPLES>

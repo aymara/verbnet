@@ -31,7 +31,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Predicate" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-NP" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The captain named the ship Seafarer"]]></EXAMPLE>
             </EXAMPLES>
@@ -111,7 +111,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ after-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="after-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["They named it after Ira Cohen."]]></EXAMPLE>
                     </EXAMPLES>
@@ -147,7 +147,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ for-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="for-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["They named it for Charlie Brown."]]></EXAMPLE>
                     </EXAMPLES>

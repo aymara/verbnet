@@ -4,17 +4,21 @@
     <MEMBERS>
         <!--Removed "miss" from the class-->
         <!--Verbs may add more specific description of the spatial relationship between Theme1 and Theme2-->
-        <MEMBER name="blanket" wn="blanket%2:35:00 blanket%2:42:00"/>
+        <MEMBER name="bestride" wn=""/>
+	<MEMBER name="blanket" wn="blanket%2:35:00 blanket%2:42:00"/>
         <MEMBER name="border" wn="border%2:35:01 border%2:42:00 border%2:35:00"/>
         <MEMBER name="bound" wn="bound%2:42:00"/>
         <MEMBER name="bracket" wn=""/>
         <MEMBER name="bridge" wn="bridge%2:42:00"/>
         <MEMBER name="cap" wn="cap%2:42:00"/>
+        <MEMBER name="circle" wn=""/>
         <MEMBER name="contain" wn="contain%2:42:13"/>
         <MEMBER name="cover" wn="cover%2:35:01"/>
         <MEMBER name="edge" wn="edge%2:35:00"/>
         <MEMBER name="encircle" wn="encircle%2:42:00"/>
         <MEMBER name="enclose" wn="enclose%2:35:01 enclose%2:35:00"/>
+        <MEMBER name="encompass" wn=""/>
+        <MEMBER name="engulf" wn=""/>
         <MEMBER name="fence" wn="?fence%2:35:00"/>
         <MEMBER name="fill" wn="fill%2:42:00"/>
         <MEMBER name="flank" wn="flank%2:42:00"/>
@@ -23,6 +27,7 @@
         <MEMBER name="head" wn="head%2:42:00"/>
         <MEMBER name="hug" wn="hug%2:35:00"/>
         <MEMBER name="line" wn="line%2:42:00"/>
+        <MEMBER name="overcast" wn=""/>
         <MEMBER name="overhang" wn="overhang%2:42:01 overhang%2:42:00"/>
         <MEMBER name="precede" wn="precede%2:42:01 precede%2:38:00"/>
         <MEMBER name="rim" wn="rim%2:42:00"/>
@@ -34,6 +39,7 @@
         <MEMBER name="surmount" wn="surmount%2:42:00"/>
         <MEMBER name="surround" wn="surround%2:42:00 surround%2:35:00 surround%2:33:00"/>
         <MEMBER name="top" wn="top%2:40:00"/>
+        <MEMBER name="traverse" wn=""/>
         <MEMBER name="underlie" wn="underlie%2:42:00 underlie%2:42:01"/>
     </MEMBERS>
     <THEMROLES>
@@ -100,7 +106,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.2.4" primary="Understood Reciprocal Object Alternation" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.2.4" primary="Understood Reciprocal Object" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Italy and France touch&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -146,7 +152,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Unspecified Object Alternation" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="Unspecified Object" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["DEC has often dominated."]]></EXAMPLE>
                     </EXAMPLES>

@@ -7,9 +7,12 @@
         <MEMBER name="designate" wn="designate%2:32:00"/>
         <MEMBER name="elect" wn="elect%2:41:00"/>
         <MEMBER name="proclaim" wn="proclaim%2:32:02"/>
+        <MEMBER name="promote" wn=""/>
         <MEMBER name="mark" wn="mark%2:31:09"/>
         <MEMBER name="ordain" wn="ordain%2:41:00 ordain%2:41:03 ordain%2:41:02"/>
         <MEMBER name="adopt" wn="adopt%2:40:02 adopt%2:40:00 adopt%2:41:01 adopt%2:31:04"/>
+        <MEMBER name="upgrade" wn=""/>
+        <MEMBER name="reelect" wn=""/>
         <MEMBER name="want" wn="want%2:31:01"/>
         <MEMBER name="name" wn=""/>
         <MEMBER name="nominate" wn="nominate%2:32:00 nominate%2:41:02 nominate%2:41:01 nominate%2:41:00"/>
@@ -30,7 +33,7 @@
     </THEMROLES>
     <FRAMES>
 	<FRAME>
-	    <DESCRIPTION descriptionNumber="" primary="As Alternation" secondary="+ Predicative" xtag=""/>
+	    <DESCRIPTION descriptionNumber="" primary="NP-NP" secondary="" xtag=""/>
             <EXAMPLES>
 		<EXAMPLE><![CDATA["We elected him governor."]]></EXAMPLE>
             </EXAMPLES>
@@ -63,7 +66,7 @@
 	    </SEMANTICS>
 	</FRAME>
 	<FRAME>
-	    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ as Predicate" xtag=""/>
+	    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="as-PP" xtag=""/>
             <EXAMPLES>
 		<EXAMPLE><![CDATA["We elected him as governor."]]></EXAMPLE>
             </EXAMPLES>

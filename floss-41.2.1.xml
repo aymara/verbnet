@@ -48,7 +48,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.2.2" primary="Understood Body-Part Object Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.2.2" primary="Understood Body-Part Object" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["I flossed"]]></EXAMPLE>
             </EXAMPLES>
@@ -69,7 +69,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["She flossed her teeth with floss."]]></EXAMPLE>
             </EXAMPLES>
@@ -106,7 +106,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Understood Body-Part Object Alternation" secondary="+ Instrument PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["She brushed with a toothbrush."]]></EXAMPLE>
             </EXAMPLES>

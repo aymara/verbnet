@@ -63,7 +63,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Susan chitchatted with Rachel&quot;</EXAMPLE>
             </EXAMPLES>
@@ -105,7 +105,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ with-PP + Topic PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="with-PP Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Susan chitchatted with Rachel about the problem&quot;</EXAMPLE>
             </EXAMPLES>
@@ -153,7 +153,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="reciprocal variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Susan and Rachel chitchatted&quot;</EXAMPLE>
             </EXAMPLES>
@@ -185,7 +185,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Topic PP + with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="Topic-PP with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Susan chitchatted about the problem with Rachel."]]></EXAMPLE>
             </EXAMPLES>
@@ -233,7 +233,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Simple Reciprocal Alternation Intransitive" secondary="+ Topic PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Simple Reciprocal Subject, Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Susan and Rachel chitchatted about matters of great import."]]></EXAMPLE>
             </EXAMPLES>
@@ -271,7 +271,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Topic PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Susan chitchatted about matters of great import."]]></EXAMPLE>
             </EXAMPLES>

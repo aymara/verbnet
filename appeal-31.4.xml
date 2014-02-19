@@ -14,7 +14,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ PP Experiencer" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Experiencer-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["This painting appeals to Malinda"]]></EXAMPLE>
             </EXAMPLES>
@@ -55,7 +55,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ at-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="at-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["The irritation niggled at Melinda."]]></EXAMPLE>
                     </EXAMPLES>
@@ -98,7 +98,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ on-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="on-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["The music grates on me."]]></EXAMPLE>
                     </EXAMPLES>
@@ -140,7 +140,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ to-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="to-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["It matters to me."]]></EXAMPLE>
                     </EXAMPLES>

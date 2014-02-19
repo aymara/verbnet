@@ -20,7 +20,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="Attribute variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.5" primary="Intransitive" secondary="Attribute Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The price of oil soared&quot;</EXAMPLE>
             </EXAMPLES>
@@ -46,7 +46,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="PP variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.5" primary="PP" secondary="Possessor Subject, Attribute-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Oil soared in price&quot;</EXAMPLE>
             </EXAMPLES>
@@ -74,7 +74,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="with Extent" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.5" primary="NP" secondary="Attribute Subject, Extent Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The price of oil increased ten percent&quot;</EXAMPLE>
             </EXAMPLES>
@@ -111,7 +111,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="with PP Extent" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.5" primary="PP" secondary="Attribute Subject, Extent-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The price of oil increased by ten percent&quot;</EXAMPLE>
             </EXAMPLES>
@@ -151,7 +151,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="with Extent" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.5" primary="NP" secondary="Attribute Subject, Extent Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Oils's price increased ten percent&quot;</EXAMPLE>
             </EXAMPLES>
@@ -188,7 +188,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="with PP Extent" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.5" primary="PP" secondary="Attribute Subject, Extent-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Oils's price increased by ten percent&quot;</EXAMPLE>
             </EXAMPLES>
@@ -198,72 +198,6 @@
                 </NP>
                 <LEX value="'s"/>
                 <NP value="Attribute">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <PREP value="by">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Extent">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="change_value">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="VerbSpecific" value="Direction"/>
-                        <ARG type="ThemRole" value="Attribute"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="amount_changed">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Attribute"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Extent"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="Attribute Variant" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE><![CDATA["The price of oil soared."]]></EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Attribute">
-                    <SYNRESTRS/>
-                </NP>
-                <LEX value="of"/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="change_value">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="VerbSpecific" value="Direction"/>
-                        <ARG type="ThemRole" value="Attribute"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="+ Extent PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE><![CDATA["The price of oil increased by ten percent."]]></EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Attribute">
-                    <SYNRESTRS/>
-                </NP>
-                <LEX value="of"/>
-                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -324,7 +258,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Extent PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Extent-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Nonperforming assets at these banks declined by %15."]]></EXAMPLE>
             </EXAMPLES>
@@ -396,7 +330,8 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.13.5"
+primary="Intransitive" secondary="Attribute Subject" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Oil's price soared."]]></EXAMPLE>
                     </EXAMPLES>

@@ -2,12 +2,14 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="get-13.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <MEMBER name="attain" wn=""/>
         <MEMBER name="book" wn="book%2:41:01"/>
         <MEMBER name="buy" wn="buy%2:40:00 buy%2:42:00"/>
         <MEMBER name="call" wn="call%2:32:05 call%2:32:15"/>
         <MEMBER name="catch" wn="catch%2:35:00 catch%2:35:01 catch%2:35:03"/>
         <MEMBER name="charter" wn="charter%2:40:00"/>
         <MEMBER name="choose" wn="choose%2:31:00 choose%2:31:02"/>
+        <MEMBER name="conserve" wn=""/>
         <MEMBER name="find" wn="find%2:40:00 find%2:40:01"/>
         <MEMBER name="gather" wn="gather%2:35:00 gather%2:41:02"/>
         <MEMBER name="hire" wn="hire%2:41:00 hire%2:41:01 hire%2:40:00"/>
@@ -100,7 +102,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ from-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="from-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carmen bought a dress from Diana&quot;</EXAMPLE>
             </EXAMPLES>
@@ -149,7 +151,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.2" primary="Benefactive Alternation" secondary="for variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.2" primary="NP-PP"
+secondary="Beneficiary Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carmen bought a dress for Mary&quot;</EXAMPLE>
             </EXAMPLES>
@@ -256,9 +259,10 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.9" primary="Sum of Money Subject Alternation" secondary="Agent Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.9" primary="NP-PP"
+secondary="Asset-Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Carmen bought a dress at Bloomingdale's for $50&quot;</EXAMPLE>
+                <EXAMPLE>&quot;Carmen bought a dress for $50&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -268,7 +272,7 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-                <PREP value="for at">
+                <PREP value="for">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Asset">
@@ -311,9 +315,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.9" primary="Sum of Money Subject Alternation" secondary="Asset Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.9" primary="NP" secondary="Asset Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;$50 won't even buy a dress at Bloomingdale's&quot;</EXAMPLE>
+                <EXAMPLE>&quot;$50 won't even buy a dress&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Asset">
@@ -360,7 +364,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Sum of Money Subject Alternation" secondary="Agent subject + from-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP-PP"
+secondary="Source-PP, Asset-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["FMC has bought 565,000 shares from Nortek Inc. at $23.50 a share."]]></EXAMPLE>
             </EXAMPLES>
@@ -435,7 +440,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ for/on Source (abstract" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="for/on Source (abstract" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["John earned $10 million on proceeds from the sale."]]></EXAMPLE>
                     </EXAMPLES>

@@ -98,7 +98,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Carol crushed the ice with a hammer&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -255,10 +255,13 @@
                 <MEMBER name="crop" wn="crop%2:35:02"/>
                 <MEMBER name="drill" wn="drill%2:35:00"/>
                 <MEMBER name="file" wn="file%2:35:00"/>
+        	<MEMBER name="lance" wn=""/>
+        	<MEMBER name="mill" wn=""/>
                 <MEMBER name="mow" wn="mow%2:35:00"/>
                 <MEMBER name="punch" wn="punch%2:35:01"/>
                 <MEMBER name="prune" wn="prune%2:35:00"/>
                 <MEMBER name="spear" wn="spear%2:35:00"/>
+        	<MEMBER name="tread" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -306,7 +309,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Carol carved the stone with a chisel&quot;</EXAMPLE>
                     </EXAMPLES>

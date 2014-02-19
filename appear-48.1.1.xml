@@ -25,8 +25,12 @@
         <MEMBER name="materialize" wn="materialize%2:30:00"/>
         <MEMBER name="open" wn="open%2:30:01"/>
         <MEMBER name="plop" wn=""/>
+        <MEMBER name="pop_up" wn=""/>
+        <MEMBER name="reappear" wn=""/>
+        <MEMBER name="re-emerge" wn=""/>
         <MEMBER name="result" wn="result%2:42:00"/>
         <MEMBER name="rise" wn="rise%2:42:01"/>
+        <MEMBER name="show_up" wn=""/>
         <MEMBER name="spill" wn=""/>
         <MEMBER name="spread" wn="spread%2:35:07"/>
         <MEMBER name="steal" wn=""/>
@@ -66,7 +70,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["A ship appeared on the horizon"]]></EXAMPLE>
             </EXAMPLES>
@@ -108,7 +112,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="There-insertion" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["There appeared a ship on the horizon"]]></EXAMPLE>
             </EXAMPLES>
@@ -195,7 +199,7 @@
             <!--most verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ here/there" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="ADVP-PRED" secondary="here/there" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["It appeared there."]]></EXAMPLE>
             </EXAMPLES>

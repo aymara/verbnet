@@ -42,7 +42,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tamara poured water into the bowl&quot;</EXAMPLE>
             </EXAMPLES>
@@ -94,7 +94,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ here/there" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-ADVP-PRED" secondary="here/there" xtag=""/>
             <!-- discourse has to provide specific location and configuration (Prep) of Theme wrt location-->
             <EXAMPLES>
                 <EXAMPLE>&quot;Tamara poured water here&quot;</EXAMPLE>
@@ -143,7 +143,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Water poured onto the plants&quot;</EXAMPLE>
             </EXAMPLES>
@@ -186,7 +186,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Source PP + path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP-PP" secondary="Source-PP path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Maria poured water from the bowl into the cup"]]></EXAMPLE>
             </EXAMPLES>
@@ -246,7 +246,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Source PP + path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="Source-PP path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Water poured from the bowl into the cup."]]></EXAMPLE>
             </EXAMPLES>

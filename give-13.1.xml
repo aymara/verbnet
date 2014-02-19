@@ -30,7 +30,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;They lent a bicycle to me&quot;</EXAMPLE>
             </EXAMPLES>
@@ -79,7 +79,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="Ditransitive Variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;They lent me a bicycle&quot;</EXAMPLE>
             </EXAMPLES>
@@ -168,7 +168,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Recipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The bank lent to fewer customers."]]></EXAMPLE>
             </EXAMPLES>
@@ -218,9 +218,11 @@
         <VNSUBCLASS ID="give-13.1-1">
             <MEMBERS>
                 <MEMBER name="give" wn="give%2:40:03 give%2:40:00 give%2:40:01 give%2:40:02 give%2:40:06 give%2:40:13 give%2:34:00 give%2:40:12"/>
+	        <MEMBER name="hock" wn=""/>
                 <MEMBER name="rent" wn="rent%2:41:01 rent%2:40:01"/>
                 <MEMBER name="sell" wn="sell%2:40:00 sell%2:40:01"/>
                 <MEMBER name="lease" wn="lease%2:41:00 lease%2:40:01"/>
+        	<MEMBER name="pawn" wn=""/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Asset">
@@ -229,7 +231,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Asset PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Asset-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["He leased the car for $200 a week."]]></EXAMPLE>
                     </EXAMPLES>
@@ -286,7 +288,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Recipient-PP + Asset-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP-PP" secondary="Recipient-PP Asset-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["I leased the car to my friend for $5 a month."]]></EXAMPLE>
                     </EXAMPLES>
@@ -348,7 +350,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Dative" secondary="+ Asset-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Asset-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["I leased him the car for $250 a month."]]></EXAMPLE>
                     </EXAMPLES>
@@ -413,6 +415,15 @@
         <!-- end -1 -->
     </SUBCLASSES>
 </VNCLASS>
+
+
+
+
+
+
+
+
+
 
 
 

@@ -2,6 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="want-32.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <MEMBER name="covet" wn="covet%2:37:00"/>
         <MEMBER name="crave" wn="crave%2:34:00"/>
         <MEMBER name="desire" wn=""/>
         <MEMBER name="fancy" wn="fancy%2:37:00"/>
@@ -50,7 +51,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.1" primary="NP-PP"
+secondary="Possessor Object, Attribute-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Dorothy needs her for her skills"]]></EXAMPLE>
             </EXAMPLES>
@@ -104,7 +106,15 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                   <SEMANTICS/>
+                   <SEMANTICS>
+	                <PRED value="desire">
+	                    <ARGS>
+	                        <ARG type="Event" value="E"/>
+	                        <ARG type="ThemRole" value="Experiencer"/>
+	                        <ARG type="ThemRole" value="Theme"/>
+	                    </ARGS>
+	                </PRED>
+                   </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="ING-NP-OMIT" xtag="0.1"/>     
@@ -122,7 +132,15 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+	                <PRED value="desire">
+	                    <ARGS>
+	                        <ARG type="Event" value="E"/>
+	                        <ARG type="ThemRole" value="Experiencer"/>
+	                        <ARG type="ThemRole" value="Theme"/>
+	                    </ARGS>
+	                </PRED>
+		    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP-ADJP-PRED" xtag="0.1"/>       
@@ -139,7 +157,15 @@
                         </NP>
 			<ADJ/>
                     </SYNTAX>
-                    <SEMANTICS/>  
+                    <SEMANTICS>
+	                <PRED value="desire">
+	                    <ARGS>
+	                        <ARG type="Event" value="E"/>
+	                        <ARG type="ThemRole" value="Experiencer"/>
+	                        <ARG type="ThemRole" value="Theme"/>
+	                    </ARGS>
+	                </PRED>
+		    </SEMANTICS>  
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP-ADVP-PRED" xtag="0.1"/>           
@@ -158,7 +184,15 @@
 			    <SYNRESTRS/>
 			</NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+	                <PRED value="desire">
+	                    <ARGS>
+	                        <ARG type="Event" value="E"/>
+	                        <ARG type="ThemRole" value="Experiencer"/>
+	                        <ARG type="ThemRole" value="Theme"/>
+	                    </ARGS>
+	                </PRED>
+		    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP-ING" xtag="0.1"/>            
@@ -176,7 +210,15 @@
 			    </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+	                <PRED value="desire">
+	                    <ARGS>
+	                        <ARG type="Event" value="E"/>
+	                        <ARG type="ThemRole" value="Experiencer"/>
+	                        <ARG type="ThemRole" value="Theme"/>
+	                    </ARGS>
+	                </PRED>
+		    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP-VEN-NP-OMIT" xtag="0.1"/>
@@ -194,7 +236,15 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+	                <PRED value="desire">
+	                    <ARGS>
+	                        <ARG type="Event" value="E"/>
+	                        <ARG type="ThemRole" value="Experiencer"/>
+	                        <ARG type="ThemRole" value="Theme"/>
+	                    </ARGS>
+	                </PRED>
+		    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="POSSING" xtag="0.1"/>
@@ -212,7 +262,15 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+	                <PRED value="desire">
+	                    <ARGS>
+	                        <ARG type="Event" value="E"/>
+	                        <ARG type="ThemRole" value="Experiencer"/>
+	                        <ARG type="ThemRole" value="Theme"/>
+	                    </ARGS>
+	                </PRED>
+		    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" xtag="0.1"/>              
@@ -230,7 +288,15 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+	                <PRED value="desire">
+	                    <ARGS>
+	                        <ARG type="Event" value="E"/>
+	                        <ARG type="ThemRole" value="Experiencer"/>
+	                        <ARG type="ThemRole" value="Theme"/>
+	                    </ARGS>
+	                </PRED>
+		    </SEMANTICS>
                 </FRAME>
             </FRAMES>
 	    <SUBCLASSES>
@@ -260,7 +326,15 @@
 				    </SYNRESTRS>
 				</NP>
 			    </SYNTAX>
-			    <SEMANTICS/>
+			    <SEMANTICS>
+		                <PRED value="desire">
+		                    <ARGS>
+		                        <ARG type="Event" value="E"/>
+		                        <ARG type="ThemRole" value="Experiencer"/>
+		                        <ARG type="ThemRole" value="Proposition"/>
+		                    </ARGS>
+		                </PRED>
+			    </SEMANTICS>
 			</FRAME>
 			<FRAME>
 			    <DESCRIPTION descriptionNumber="8.1" primary="NP-TOBE" xtag="0.1"/>
@@ -278,7 +352,15 @@
 				    </SYNRESTRS>
 				</NP>
 			    </SYNTAX>
-			    <SEMANTICS/>
+			    <SEMANTICS>
+		                <PRED value="desire">
+		                    <ARGS>
+		                        <ARG type="Event" value="E"/>
+		                        <ARG type="ThemRole" value="Experiencer"/>
+		                        <ARG type="ThemRole" value="Theme"/>
+		                    </ARGS>
+		                </PRED>
+			    </SEMANTICS>
 			</FRAME>
 		    </FRAMES>
 		    <SUBCLASSES/>

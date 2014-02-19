@@ -114,7 +114,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jennifer wagged her finger at the naughty child&quot;</EXAMPLE>
             </EXAMPLES>
@@ -158,7 +158,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Cause PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Cause-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jennifer rolled her eyes at his behavior&quot;</EXAMPLE>
             </EXAMPLES>

@@ -40,6 +40,14 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="urge">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Proposition"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -65,6 +73,14 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="urge">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -87,13 +103,20 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="urge">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-S" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I persuaded him that he should come&quot;</EXAMPLE>
-
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -110,6 +133,14 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="urge">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>

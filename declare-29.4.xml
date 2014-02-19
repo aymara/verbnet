@@ -47,7 +47,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Predicate">
-		    <SYNTRESTRS>
+		    <SYNRESTRS>
 			<SYNRESTRS Value="-" type="sentential"/>
 		    </SYNRESTRS>
 		</NP>
@@ -65,7 +65,7 @@
                 </NP>
                 <VERB/>
                 <NP value="Theme">
-                    <SYNTRESTRS>
+                    <SYNRESTRS>
                         <SYNRESTRS Value="+" type="to_be"/>
                     </SYNRESTRS>
                 </NP>
@@ -83,7 +83,7 @@
                 </NP>
                 <VERB/>
                 <NP value="Theme">
-                    <SYNTRESTRS>
+                    <SYNRESTRS>
                         <SYNRESTRS Value="+" type="np_ppart"/>
                     </SYNRESTRS>
                 </NP>
@@ -101,7 +101,7 @@
                 </NP>
                 <VERB/>
                 <NP value="Theme">
-                    <SYNTRESTRS>
+                    <SYNRESTRS>
                         <SYNRESTRS Value="+" type="that_comp"/>
                     </SYNRESTRS>
                 </NP>
@@ -127,7 +127,7 @@
 	                </NP>
 	                <VERB/>
 	                <NP value="Theme">
-	                    <SYNTRESTRS>
+	                    <SYNRESTRS>
 	                        <SYNRESTRS Value="+" type="what_extract"/>
 	                    </SYNRESTRS>
 	                </NP>
@@ -145,7 +145,7 @@
                         </NP>
                         <VERB/>
                         <NP value="Theme">
-                            <SYNTRESTRS>
+                            <SYNRESTRS>
                                 <SYNRESTRS Value="+" type="what_inf"/>
                             </SYNRESTRS>
                         </NP>
@@ -153,7 +153,7 @@
                     <SEMANTICS/>
                 </FRAME>
                <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ as-PP" xtag=""/>       
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="as-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["The president declared John as stupid."]]></EXAMPLE>          
                     </EXAMPLES>
@@ -176,7 +176,6 @@
             <SUBCLASSES>
 	        <VNSUBCLASS ID="declare-29.4-1-1">
 	            <MEMBERS>
-	                <MEMBER name="profess" wn=""/>
 	                <MEMBER name="prove" wn="prove%2:32:00"/>
 	            </MEMBERS>
 	            <THEMROLES/>
@@ -192,7 +191,7 @@
 	                        </NP>
 	                        <VERB/>
 	                        <NP value="Theme">
-	                            <SYNTRESTRS>
+	                            <SYNRESTRS>
 	                                <SYNRESTRS Value="+" type="how_extract"/> 
 	                            </SYNRESTRS>
 	                        </NP>
@@ -218,7 +217,7 @@
 	                                </NP>
 	                                <VERB/>
 	                                <NP value="Theme">
-	                                    <SYNTRESTRS>
+	                                    <SYNRESTRS>
 	                                        <SYNRESTRS Value="+" type="wh_inf"/>
 	                                    </SYNRESTRS>
 	                                </NP>
@@ -247,7 +246,7 @@
                                         </NP>
                                         <VERB/>
                                         <NP value="Theme">
-                                            <SYNTRESTRS>
+                                            <SYNRESTRS>
                                                 <SYNRESTRS Value="+" type="wh_comp"/>
                                             </SYNRESTRS>
                                         </NP>
@@ -265,7 +264,7 @@
                                         </NP>
                                         <VERB/>
                                         <NP value="Theme">
-                                            <SYNTRESTRS>
+                                            <SYNRESTRS>
                                                 <SYNRESTRS Value="+" type="wheth_inf"/>
                                             </SYNRESTRS>
                                         </NP>
@@ -293,7 +292,7 @@
                                         </NP>
                                         <VERB/>
                                         <NP value="Theme">
-                                            <SYNTRESTRS>
+                                            <SYNRESTRS>
                                                 <SYNRESTRS Value="+" type="be_sc_ing"/>
                                             </SYNRESTRS>
                                         </NP>
@@ -325,7 +324,7 @@
                         </NP>
                         <VERB/>
                         <NP value="Theme">
-                            <SYNTRESTRS>
+                            <SYNRESTRS>
                                 <SYNRESTRS Value="+" type="how_extract"/>
                             </SYNRESTRS>
                         </NP>
@@ -343,7 +342,7 @@
                         </NP>
                         <VERB/>
                         <NP value="Theme">
-                            <SYNTRESTRS>
+                            <SYNRESTRS>
                                 <SYNRESTRS Value="+" type="wh_inf"/>    
                             </SYNRESTRS>
                         </NP>

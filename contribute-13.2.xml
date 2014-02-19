@@ -21,7 +21,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;We contributed our paycheck to her&quot;</EXAMPLE>
             </EXAMPLES>
@@ -113,7 +113,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP-NP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["He is willing to sacrifice to the arbitrage trader some small profit."]]></EXAMPLE>
             </EXAMPLES>
@@ -162,7 +162,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ among-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="among-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["She distributed the money among oversea units."]]></EXAMPLE>
             </EXAMPLES>
@@ -216,16 +216,19 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="contribute-13.2-1">
             <MEMBERS>
+	        <MEMBER name="disseminate" wn=""/>
                 <MEMBER name="distribute" wn="distribute%2:40:00 distribute%2:35:01 distribute%2:41:00 distribute%2:40:01"/>
+        	<MEMBER name="lose" wn=""/>
                 <MEMBER name="refer" wn="refer%2:38:00"/>
                 <MEMBER name="relinquish" wn="relinquish%2:33:02"/>
                 <MEMBER name="remit" wn="remit%2:40:00"/>
+        	<MEMBER name="resign" wn=""/>
                 <MEMBER name="restore" wn="restore%2:40:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Recipient PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Recipient-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["He donated directly to JSP members."]]></EXAMPLE>
                     </EXAMPLES>
@@ -294,7 +297,6 @@
                                 </NP>
                                 <VERB/>
                             </SYNTAX>
-                             
 			<SEMANTICS>
                         <PRED value="has_possession">
                             <ARGS>
@@ -344,7 +346,7 @@
                             </THEMROLES>
                             <FRAMES>
                                 <FRAME>
-                                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ PP" xtag=""/>
+                                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="to-PP" xtag=""/>
                                     <EXAMPLES>
                                         <EXAMPLE><![CDATA["The standoff over abortion is certain to contribute to further delays."]]></EXAMPLE>
                                     </EXAMPLES>
@@ -360,35 +362,35 @@
                                             <SYNRESTRS/>
                                         </NP>
                                     </SYNTAX>
-				 <SEMANTICS>
-                        <PRED value="has_possession">
-                            <ARGS>
-                                <ARG type="Event" value="start(E)"/>
-                                <ARG type="ThemRole" value="Theme1"/>
-                                <ARG type="ThemRole" value="?Theme"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="has_possession">
-                            <ARGS>
-                                <ARG type="Event" value="end(E)"/>
-                                <ARG type="ThemRole" value="Theme2"/>
-                                <ARG type="ThemRole" value="?Theme"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="transfer">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="?Theme"/>
-                            </ARGS>
-                        </PRED>
-   <PRED value="cause">
-                            <ARGS>
-                                <ARG type="ThemRole" value="Theme1"/>
-                                <ARG type="Event" value="E"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-			</FRAME>
+				    <SEMANTICS>
+		                        <PRED value="has_possession">
+		                            <ARGS>
+		                                <ARG type="Event" value="start(E)"/>
+		                                <ARG type="ThemRole" value="Theme1"/>
+		                                <ARG type="ThemRole" value="?Theme"/>
+		                            </ARGS>
+		                        </PRED>
+		                        <PRED value="has_possession">
+		                            <ARGS>
+		                                <ARG type="Event" value="end(E)"/>
+		                                <ARG type="ThemRole" value="Theme2"/>
+		                                <ARG type="ThemRole" value="?Theme"/>
+		                            </ARGS>
+		                        </PRED>
+		                        <PRED value="transfer">
+		                            <ARGS>
+		                                <ARG type="Event" value="during(E)"/>
+		                                <ARG type="ThemRole" value="?Theme"/>
+		                            </ARGS>
+		                        </PRED>
+					<PRED value="cause">
+		                            <ARGS>
+		                                <ARG type="ThemRole" value="Theme1"/>
+		                                <ARG type="Event" value="E"/>
+		                            </ARGS>
+		                        </PRED>
+		                    </SEMANTICS>
+			       </FRAME>
                             </FRAMES>
                             <SUBCLASSES/>
                         </VNSUBCLASS>
@@ -407,7 +409,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Theme PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Theme-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["They will reimburse them up to $500."]]></EXAMPLE>
                     </EXAMPLES>

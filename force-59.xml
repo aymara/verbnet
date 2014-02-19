@@ -68,6 +68,14 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="force">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Proposition"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -93,10 +101,18 @@
 		</NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="force">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ into-PP" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="into-PP" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I forced John into the chairmanship&quot;</EXAMPLE>
             </EXAMPLES>
@@ -117,7 +133,16 @@
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="force">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES>
@@ -167,7 +192,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP-TO-INF-OC" secondary="" xtag=0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP-TO-INF-OC" secondary="" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;I forced him to come&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -175,7 +200,7 @@
                         <NP value="Agent">
                             <SYNRESTRS/>
                         </NP>
-                        </VERB>
+                        <VERB/>
                         <NP value="Patient">
                             <SYNRESTRS/>
                         </NP>
@@ -185,6 +210,16 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
+                    <SEMANTICS>
+	                <PRED value="force">
+	                    <ARGS>
+	                        <ARG type="Event" value="during(E)"/>
+	                        <ARG type="ThemRole" value="Agent"/>
+	                        <ARG type="ThemRole" value="Patient"/>
+	                        <ARG type="ThemRole" value="Proposition"/>
+	                    </ARGS>
+	                </PRED>
+                    </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES/>

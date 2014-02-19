@@ -61,7 +61,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="inchoative + PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The ball rolled down the hill&quot;</EXAMPLE>
             </EXAMPLES>
@@ -96,7 +96,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="causative" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Causative" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Bill rolled the ball&quot;</EXAMPLE>
             </EXAMPLES>
@@ -125,7 +125,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Bill rolled the ball down the hill&quot;</EXAMPLE>
             </EXAMPLES>
@@ -169,7 +169,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from inchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The drawer rolled open&quot;</EXAMPLE>
             </EXAMPLES>
@@ -202,7 +202,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from inchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The drawer rolled to an open position&quot;</EXAMPLE>
             </EXAMPLES>
@@ -242,7 +242,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from causative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Bill rolled the drawer open&quot;</EXAMPLE>
             </EXAMPLES>
@@ -278,7 +278,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from causative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Bill rolled the drawer to an open position&quot;</EXAMPLE>
             </EXAMPLES>

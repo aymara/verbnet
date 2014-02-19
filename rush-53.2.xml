@@ -18,7 +18,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Maggie hurried with her lunch."]]></EXAMPLE>
             </EXAMPLES>
@@ -56,7 +56,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Maggie hurried her sister"]]></EXAMPLE>
             </EXAMPLES>
@@ -85,7 +85,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ through-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="through-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Mary hurried through the museum."]]></EXAMPLE>
             </EXAMPLES>

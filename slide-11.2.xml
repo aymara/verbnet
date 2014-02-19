@@ -52,7 +52,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The books slid from the table&quot;</EXAMPLE>
             </EXAMPLES>
@@ -88,7 +88,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The books slid to the floor&quot;</EXAMPLE>
             </EXAMPLES>
@@ -121,7 +121,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The books slid from the table to the floor&quot;</EXAMPLE>
             </EXAMPLES>
@@ -169,7 +169,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="causative" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Causative" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carla slid the books&quot;</EXAMPLE>
             </EXAMPLES>
@@ -198,7 +198,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carla slid the books across the table&quot;</EXAMPLE>
             </EXAMPLES>
@@ -243,7 +243,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carla slid the books to the floor&quot;</EXAMPLE>
             </EXAMPLES>
@@ -285,7 +285,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Carla slid the books from one end of the table to the other&quot;</EXAMPLE>
             </EXAMPLES>

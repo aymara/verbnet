@@ -51,7 +51,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Verb Particle up" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PART" secondary="up" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Cynthia gobbled the pizza up."]]></EXAMPLE>
                     </EXAMPLES>
@@ -76,7 +76,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Verb Particle down" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PART" secondary="down" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Cynthia gobbled the pizza down."]]></EXAMPLE>
                     </EXAMPLES>
@@ -145,7 +145,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Verb Particle down" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PART-NP" secondary="down" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Cynthia quaffed down the mixture."]]></EXAMPLE>
                     </EXAMPLES>

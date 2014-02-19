@@ -43,6 +43,7 @@
         <MEMBER name="purr" wn="purr%2:32:00"/>
         <MEMBER name="quack" wn="quack%2:32:00"/>
         <MEMBER name="roar" wn="roar%2:32:05"/>
+        <MEMBER name="scrawk" wn=""/>
         <MEMBER name="squawk" wn="squawk%2:32:01"/>
         <MEMBER name="squeak" wn="squeak%2:39:00"/>
         <MEMBER name="squeal" wn="squeal%2:32:01"/>
@@ -113,7 +114,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The dog barked at the cat"]]></EXAMPLE>
             </EXAMPLES>
@@ -149,7 +150,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Cause PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Cause-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The dog barked at the commotion"]]></EXAMPLE>
             </EXAMPLES>
@@ -182,7 +183,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Theme Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="Theme Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The dog barked a warning"]]></EXAMPLE>
             </EXAMPLES>
@@ -206,7 +207,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The rooster crowed everyone awake"]]></EXAMPLE>
             </EXAMPLES>
@@ -237,7 +238,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA[""Birds sang in the trees.""]]></EXAMPLE>
             </EXAMPLES>
@@ -262,7 +263,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Locative Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Location
+Subject, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA[""The tree sang with birds.""]]></EXAMPLE>
             </EXAMPLES>

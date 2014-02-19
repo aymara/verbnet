@@ -58,7 +58,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The princess curtseyed to the queen&quot;</EXAMPLE>
             </EXAMPLES>
@@ -94,7 +94,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ possessive Theme PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Transitive" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The princess curtseyed her assent&quot;</EXAMPLE>
             </EXAMPLES>
@@ -130,7 +130,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ possessive Theme PP + Recipient PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA[""The princess curtsied her assent to the queen.""]]></EXAMPLE>
             </EXAMPLES>

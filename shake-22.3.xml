@@ -123,7 +123,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Alternation Transitive" secondary="prepositional variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP-PP" secondary="with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Herman whipped sugar with the cream&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -172,7 +172,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.2" primary="Together Reciprocal Alternation Transitive" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.2" primary="Together Reciprocal Transitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Herman whipped sugar and the cream together&quot;</EXAMPLE>
                     </EXAMPLES>

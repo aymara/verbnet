@@ -5,6 +5,7 @@
         <MEMBER name="loop" wn="loop%2:36:00 loop%2:35:00"/>
         <MEMBER name="roll" wn="roll%2:35:00"/>
         <MEMBER name="spin" wn=""/>
+        <MEMBER name="twine" wn=""/>
         <MEMBER name="whirl" wn=""/>
         <MEMBER name="wind" wn="wind%2:35:06"/>
     </MEMBERS>
@@ -28,7 +29,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Cora coiled the rope around the post&quot;</EXAMPLE>
             </EXAMPLES>
@@ -79,7 +80,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="path-PP" xtag=""/>
             <!--strongly prefers prep "around"-->
             <EXAMPLES>
                 <EXAMPLE>&quot;The rope coiled around the post&quot;</EXAMPLE>

@@ -2,6 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="captain-29.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <MEMBER name="prostitute" wn=""/>
         <MEMBER name="volunteer" wn="volunteer%2:41:01 volunteer%2:41:00"/>
     </MEMBERS>
     <THEMROLES>
@@ -18,7 +19,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ for-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="for-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Her cousin clerked for Judge Davis"]]></EXAMPLE>
             </EXAMPLES>
@@ -72,6 +73,7 @@
 		<MEMBER name="escort" wn="escort%2:38:00"/>
 		<MEMBER name="guard" wn="guard%2:41:00 guard%2:33:00 guard%2:33:03"/>
 		<MEMBER name="host" wn="host%2:34:00"/>
+        	<MEMBER name="master" wn=""/>
 		<MEMBER name="model" wn="model%2:39:01 model%2:39:00 model%2:36:04"/>
 		<MEMBER name="mother" wn="mother%2:41:00"/>
 		<MEMBER name="nurse" wn="nurse%2:41:00 nurse%2:34:00"/>

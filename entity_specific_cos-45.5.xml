@@ -5,6 +5,8 @@
         <MEMBER name="blister" wn="blister%2:30:00"/>
         <MEMBER name="bloom" wn="bloom%2:30:00"/>
         <MEMBER name="blossom" wn="blossom%2:30:01"/>
+        <MEMBER name="bud" wn=""/>
+        <MEMBER name="burgeon" wn=""/>
         <MEMBER name="burn" wn="burn%2:43:01"/>
         <MEMBER name="corrode" wn="corrode%2:30:00"/>
         <MEMBER name="decay" wn="decay%2:30:00 decay%2:30:02"/>
@@ -17,10 +19,12 @@
         <MEMBER name="molt" wn="molt%2:29:00"/>
         <MEMBER name="rot" wn="rot%2:30:00"/>
         <MEMBER name="rust" wn="rust%2:30:00"/>
+        <MEMBER name="spoil" wn=""/>
         <MEMBER name="sprout" wn="sprout%2:30:00"/>
         <MEMBER name="stagnate" wn="stagnate%2:42:00"/>
         <MEMBER name="swell" wn="swell%2:30:02 swell%2:30:00"/>
         <MEMBER name="tarnish" wn=""/>
+        <MEMBER name="wane" wn=""/>
         <MEMBER name="wilt" wn="wilt%2:30:00"/>
         <MEMBER name="wither" wn="wither%2:30:00"/>
     </MEMBERS>
@@ -33,7 +37,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="inchoative" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="Inchoative" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The roses bloomed&quot;</EXAMPLE>
             </EXAMPLES>

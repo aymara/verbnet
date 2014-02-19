@@ -49,7 +49,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Ditransitive" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-NP" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The bill will cost them 500 million dollars."]]></EXAMPLE>
             </EXAMPLES>

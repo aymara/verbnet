@@ -7,6 +7,9 @@
         <MEMBER name="coil" wn="?coil%2:35:00"/>
         <MEMBER name="collect" wn="collect%2:35:00"/>
         <MEMBER name="compress" wn="compress%2:35:01 compress%2:35:00"/>
+        <MEMBER name="contort" wn=""/>
+        <MEMBER name="curve" wn=""/>
+        <MEMBER name="distort" wn=""/>
         <MEMBER name="fold" wn="fold%2:35:00 fold%2:30:10"/>
         <MEMBER name="freeze" wn="freeze%2:30:00 freeze%2:30:02 freeze%2:30:04"/>
         <MEMBER name="knead" wn="knead%2:35:00"/>
@@ -38,7 +41,8 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Causative/Inchoative Alternation" secondary="inchoative, Material subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="PP"
+secondary="Inchoative variant, Product-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The dough twirled into a pretzel&quot;</EXAMPLE>
             </EXAMPLES>
@@ -91,7 +95,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Causative/Inchoative Alternation" secondary="causative, Material object" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP-PP"
+secondary="Causative variant, Product-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I kneaded the dough into a loaf&quot;</EXAMPLE>
             </EXAMPLES>
@@ -153,7 +158,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Causative/Inchoative Alternation" secondary="causative, Material object" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive"
+secondary="Causative variant, Material object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I kneaded the dough&quot;</EXAMPLE>
             </EXAMPLES>

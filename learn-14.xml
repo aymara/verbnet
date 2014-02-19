@@ -19,7 +19,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Rhoda learned French from an old book"]]></EXAMPLE>
             </EXAMPLES>
@@ -56,7 +56,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="dropped Topic + Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Rhoda learned from an old book"]]></EXAMPLE>
             </EXAMPLES>
@@ -158,7 +158,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="+sentential" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="S" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["The defense also learned that college-educated people were uncharacteristically conservative."]]></EXAMPLE>
                     </EXAMPLES>
@@ -169,7 +169,7 @@
                         <VERB/>
                         <NP value="Topic">
                             <SYNRESTRS>
-                                <SYNRESTR Value="+" type="sentential"/>
+                                <SYNRESTR Value="+" type="that_comp"/>
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
@@ -188,13 +188,14 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="learn-14-2-1">
                     <MEMBERS>
+		        <MEMBER name="assimilate" wn=""/>
                         <MEMBER name="learn" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03"/>
                         <MEMBER name="read" wn="read%2:31:00 read%2:31:04"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ of-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="" primary="PP" secondary="of-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE><![CDATA["The president learned of a coup plot that might endanger his life."]]></EXAMPLE>
                             </EXAMPLES>

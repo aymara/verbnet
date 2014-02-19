@@ -3,12 +3,14 @@
 <VNCLASS ID="light_emission-43.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="beam" wn="beam%2:29:00"/>
+        <MEMBER name="blaze" wn=""/>
         <MEMBER name="blink" wn="blink%2:39:00"/>
         <MEMBER name="burn" wn="burn%2:43:01"/>
         <MEMBER name="flame" wn="flame%2:43:00"/>
         <MEMBER name="flare" wn="flare%2:43:00 flare%2:43:01"/>
         <MEMBER name="flash" wn="flash%2:39:00 flash%2:30:04"/>
         <MEMBER name="flicker" wn="flicker%2:38:00 flicker%2:43:00 flicker%2:39:00"/>
+        <MEMBER name="fluoresce" wn=""/>
         <MEMBER name="glare" wn="glare%2:43:01 glare%2:43:00 glare%2:39:01"/>
         <MEMBER name="gleam" wn="gleam%2:39:01 gleam%2:39:00"/>
         <MEMBER name="glimmer" wn="glimmer%2:39:00"/>
@@ -59,7 +61,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Jewels sparkled on the crown"]]></EXAMPLE>
             </EXAMPLES>
@@ -95,7 +97,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="Locative Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="PP"
+secondary="Location Subject, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The crown sparkled with jewels"]]></EXAMPLE>
             </EXAMPLES>
@@ -131,19 +134,21 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["On his finger sparkled a magnificent diamond"]]></EXAMPLE>
+                <EXAMPLE><![CDATA["There sparkled a magnificent diamond
+on his finger"]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
+                <LEX value="there"/>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
                 <PREP>
                     <SELRESTRS>
                         <SELRESTR Value="+" type="loc"/>
                     </SELRESTRS>
                 </PREP>
                 <NP value="Location">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -202,7 +207,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2" primary="NP"
+secondary="Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The stagehand flashed the lights"]]></EXAMPLE>
             </EXAMPLES>

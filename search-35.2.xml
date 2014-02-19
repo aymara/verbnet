@@ -42,7 +42,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Theme PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["I searched the cave for treasure"]]></EXAMPLE>
             </EXAMPLES>
@@ -73,7 +73,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Theme + Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="Theme-PP Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["I searched for treasure in the cave"]]></EXAMPLE>
             </EXAMPLES>
@@ -109,7 +109,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Location + Theme PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="Location-PP Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["I searched in the cave for treasure"]]></EXAMPLE>
             </EXAMPLES>
@@ -145,7 +145,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["I searched through America."]]></EXAMPLE>
             </EXAMPLES>

@@ -53,7 +53,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.12" primary="Body-Part Possessor Ascension Alternation" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.12" primary="NP-PP"
+secondary="Body-part-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;She held him by the arm&quot;</EXAMPLE>
             </EXAMPLES>

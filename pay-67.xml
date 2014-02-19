@@ -5,6 +5,8 @@
         <MEMBER name="pay" wn=""/>
         <MEMBER name="spend" wn=""/>
         <MEMBER name="waste" wn=""/>
+        <MEMBER name="serve" wn=""/>
+        <MEMBER name="repay" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -24,7 +26,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="for-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He paid 5000 pounds for the car&quot;</EXAMPLE>
             </EXAMPLES>

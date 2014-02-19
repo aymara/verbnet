@@ -25,7 +25,7 @@
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">
-                    <SELRESTRS>
+                    <SELRESTRS logic="and">
                         <SELRESTR Value="+" type="comestible"/>
                         <SELRESTR Value="+" type="solid"/>
                     </SELRESTRS>
@@ -57,7 +57,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Unspecified Object Alternation" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="Unspecified Object" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Cynthia ate."]]></EXAMPLE>
                     </EXAMPLES>
@@ -105,7 +105,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Resultative" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-ADJP" secondary="Resultative" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Cynthia ate herself sick."]]></EXAMPLE>
                     </EXAMPLES>
@@ -138,7 +138,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Unspecified Object Alternation" secondary="+ Source PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Source-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["He ate off of the table."]]></EXAMPLE>
                     </EXAMPLES>
@@ -182,7 +182,7 @@
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">
-                    <SELRESTRS>
+                    <SELRESTRS logic="and">
                         <SELRESTR Value="+" type="comestible"/>
                         <SELRESTR Value="-" type="solid"/>
                     </SELRESTRS>
@@ -214,7 +214,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Unspecified Object Alternation" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="Unspecified Object" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Cynthia drank."]]></EXAMPLE>
                     </EXAMPLES>
@@ -235,7 +235,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Resultative" secondary="" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-ADJP" secondary="Resultative" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Cythia drank herself sick."]]></EXAMPLE>
                     </EXAMPLES>
@@ -268,7 +268,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Unspecified Object Alternation" secondary="+ Source PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Source-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["He drank out of the goblet."]]></EXAMPLE>
                     </EXAMPLES>

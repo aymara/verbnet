@@ -27,7 +27,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-RS" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He began to pack.&quot;</EXAMPLE>
+                <EXAMPLE>&quot;He continued to pack.&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -64,7 +64,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-	    <DESCRIPTION descriptionNumber="" primary="Unspecified Object Alternation" secondary="" xtag=""/>
+	    <DESCRIPTION descriptionNumber="" primary="Unspecified Object" secondary="" xtag=""/>
             <EXAMPLES>
 		<EXAMPLE><![CDATA["He continued."]]></EXAMPLE>
             </EXAMPLES>
@@ -90,7 +90,7 @@
             </SEMANTICS>
 	</FRAME>
         <FRAME>
-	    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Time PP" xtag=""/>         
+	    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Time-PP" xtag=""/>
             <EXAMPLES>
 		<EXAMPLE><![CDATA["The party continued until 8 PM."]]></EXAMPLE>       
             </EXAMPLES>
@@ -123,7 +123,7 @@
 	    </SEMANTICS>
 	</FRAME>
         <FRAME>
-	    <DESCRIPTION descriptionNumber="" primary="Unspecified Object Alternation" secondary="+ Time PP" xtag=""/>
+	    <DESCRIPTION descriptionNumber="" primary="PP" secondary="Time-PP" xtag=""/>
 	    <EXAMPLES>
 		<EXAMPLE><![CDATA["We continued until 8 PM."]]></EXAMPLE>
             </EXAMPLES>

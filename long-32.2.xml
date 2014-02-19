@@ -13,7 +13,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Sentential Complement" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="TO-INF-SC" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["John oft hankered to move up the corporate ladder."]]></EXAMPLE>
             </EXAMPLES>
@@ -24,7 +24,7 @@
                 <VERB/>
                 <NP value="Theme">
                     <SYNRESTRS>
-                        <SYNRESTR Value="+" type="sentential"/>
+                        <SYNRESTR Value="+" type="sc_to_inf"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
@@ -60,7 +60,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ for-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="for-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Danny longs for a sunny day."]]></EXAMPLE>
                     </EXAMPLES>
@@ -100,7 +100,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ after-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="after-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Danny yearns after sunny days."]]></EXAMPLE>
                     </EXAMPLES>

@@ -4,8 +4,10 @@
     <MEMBERS>
         <!--Some members add a predicate specifying instrument-->
         <MEMBER name="ladle" wn="ladle%2:35:01"/>
+        <MEMBER name="hoe" wn=""/>
         <MEMBER name="scoop" wn=""/>
         <MEMBER name="siphon" wn="siphon%2:35:00"/>
+        <MEMBER name="sop" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <!--Destination can also be realized as here, there-->
@@ -29,7 +31,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ locative PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I funneled the mixture into the bottle&quot;</EXAMPLE>
             </EXAMPLES>
@@ -80,7 +82,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ here/there" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-ADVP-PRED" secondary="here/there" xtag=""/>
             <!-- discourse has to provide specific Destination and configuration (Prep) of Theme wrt Destination-->
             <EXAMPLES>
                 <EXAMPLE>&quot;I spooned the sauce there&quot;</EXAMPLE>
@@ -141,7 +143,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ in-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="in-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["We dipped the vegetables in the water."]]></EXAMPLE>
                     </EXAMPLES>
@@ -190,7 +192,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Oblique PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Oblique-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["We dipped the dog for parasites."]]></EXAMPLE>
                     </EXAMPLES>
@@ -260,7 +262,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ between PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="between-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["He wedged the diamond between shifting dunes."]]></EXAMPLE>
                     </EXAMPLES>
@@ -328,7 +330,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ locative PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="" primary="PP" secondary="locative-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE><![CDATA["The company is wedging into new markets."]]></EXAMPLE>
                             </EXAMPLES>

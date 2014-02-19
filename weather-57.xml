@@ -40,7 +40,8 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.7" primary="Expletive Construction" secondary="" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.7" primary="Intransitive"
+secondary="Expletive Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["It's raining"]]></EXAMPLE>
             </EXAMPLES>
@@ -60,7 +61,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.7" primary="Expletive Construction" secondary="+ Theme Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.7" primary="NP"
+secondary="Expletive Subject, Theme Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["It's raining cats and dogs"]]></EXAMPLE>
             </EXAMPLES>
@@ -83,7 +85,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.7" primary="Expletive Construction" secondary="+ with-Theme" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.7" primary="PP"
+secondary="Expletive Subject, Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["It was pelting with rain"]]></EXAMPLE>
             </EXAMPLES>

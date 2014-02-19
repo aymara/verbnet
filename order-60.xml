@@ -8,13 +8,13 @@
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
-            <SELRESTRS>
+            <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Patient">
-            <SELRESTRS>
+            <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
@@ -25,7 +25,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary=" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;He ordered John&quot;</EXAMPLE>
             </EXAMPLES>
@@ -39,12 +39,20 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="command">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Proposition"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Infinitival Copular Clause" secondary=" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-TO-INF-OC" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He ordered John to be nice&quot;</EXAMPLE>
+                <EXAMPLE>&quot;He ordered John to eat his sloth.&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -53,11 +61,19 @@
                 <VERB/>
                 <NP value="Proposition">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="to_be"/>
+			<SYNRESTR Value="+" type="oc_to_inf"/>
 		    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="command">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Patient"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>
@@ -75,7 +91,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="S-SUBJUNCT" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;He ordered that she come immediately&quot;</EXAMPLE>
+                        <EXAMPLE>&quot;John ordered that she come immediately&quot;</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -83,13 +99,22 @@
                         </NP>
                         <VERB/>
                         <NP value="Proposition">
-                            <SYNRESTRS>
+                            <SYNRESTRS logic="and">
 				<SYNRESTR Value="+" type="that_comp"/>
                                 <SYNRESTR Value="-" type="tensed_that"/>
 			    </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+	                <PRED value="command">
+	                    <ARGS>
+	                        <ARG type="Event" value="during(E)"/>
+	                        <ARG type="ThemRole" value="Agent"/>
+	                        <ARG type="ThemRole" value="?Patient"/>
+	                        <ARG type="ThemRole" value="Proposition"/>
+	                    </ARGS>
+	                </PRED>
+                    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="THAT-S" xtag="0.1"/>
@@ -107,7 +132,16 @@
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS/>
+                    <SEMANTICS>
+	                <PRED value="command">
+	                    <ARGS>
+	                        <ARG type="Event" value="during(E)"/>
+	                        <ARG type="ThemRole" value="Agent"/>
+	                        <ARG type="ThemRole" value="?Patient"/>
+	                        <ARG type="ThemRole" value="Proposition"/>
+	                    </ARGS>
+	                </PRED>
+		    </SEMANTICS>
                 </FRAME>    
             </FRAMES>
             <SUBCLASSES/>

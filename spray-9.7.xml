@@ -20,7 +20,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ locative PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jessica loaded boxes into the wagon&quot;</EXAMPLE>
             </EXAMPLES>
@@ -72,7 +72,8 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="Locative Alternation" secondary="with variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="NP-PP"
+secondary="Location Object, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jessica loaded the wagon with boxes&quot;</EXAMPLE>
             </EXAMPLES>
@@ -254,7 +255,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ locative PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="PP" secondary="locative-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Paint sprayed onto the wall."]]></EXAMPLE>
                     </EXAMPLES>

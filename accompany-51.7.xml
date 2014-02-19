@@ -9,6 +9,7 @@
         <MEMBER name="guide" wn="?guide%2:38:01 guide%2:38:00 guide%2:35:00"/>
         <MEMBER name="lead" wn="lead%2:38:01"/>
         <MEMBER name="shepherd" wn=""/>
+        <MEMBER name="steer" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -20,6 +21,9 @@
             <SELRESTRS>
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
@@ -53,7 +57,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ path PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Jackie accompanied Rose to the store&quot;</EXAMPLE>
             </EXAMPLES>
@@ -71,6 +75,9 @@
                         <SELRESTR Value="+" type="path"/>
                     </SELRESTRS>
                 </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="motion">
@@ -89,14 +96,14 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Oblique"/>
+                        <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
                 <PRED value="Prep">
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Oblique"/>
+                        <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

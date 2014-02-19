@@ -39,7 +39,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Theme PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["We rummaged the drawer for important documents"]]></EXAMPLE>
             </EXAMPLES>
@@ -70,7 +70,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Location PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["He pawed over the documents."]]></EXAMPLE>
             </EXAMPLES>
@@ -98,7 +98,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Location PP + Theme PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="Location-PP Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["He rummaged through the door for the ball."]]></EXAMPLE>
             </EXAMPLES>

@@ -4,16 +4,23 @@
     <MEMBERS>
         <MEMBER name="annihilate" wn="annihilate%2:30:00"/>
         <MEMBER name="blitz" wn="blitz%2:33:00"/>
+        <MEMBER name="damage" wn=""/>
         <MEMBER name="decimate" wn="decimate%2:30:00"/>
         <MEMBER name="demolish" wn="demolish%2:36:00"/>
+        <MEMBER name="desecrate" wn=""/>
         <MEMBER name="destroy" wn="destroy%2:36:00 destroy%2:35:00"/>
         <MEMBER name="devastate" wn="devastate%2:30:00"/>
+        <MEMBER name="disfigure" wn=""/>
+        <MEMBER name="efface" wn=""/>
         <MEMBER name="exterminate" wn="exterminate%2:35:01"/>
         <MEMBER name="extirpate" wn="extirpate%2:36:00"/>
+        <MEMBER name="maim" wn=""/>
+        <MEMBER name="mutilate" wn=""/>
         <MEMBER name="obliterate" wn="obliterate%2:30:03"/>
         <MEMBER name="ravage" wn="ravage%2:30:01"/>
         <MEMBER name="raze" wn="raze%2:36:00"/>
         <MEMBER name="ruin" wn="ruin%2:35:00"/>
+        <MEMBER name="undo" wn=""/>
         <MEMBER name="waste" wn="waste%2:35:00 waste%2:30:00"/>
         <MEMBER name="wreck" wn="wreck%2:35:00"/>
         <MEMBER name="shatter" wn="shatter%2:30:00 shatter%2:30:01"/>
@@ -66,7 +73,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The builders destroyed the warehouse with explosives&quot;</EXAMPLE>
             </EXAMPLES>

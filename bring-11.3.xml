@@ -74,7 +74,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Goal PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Goal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Nora brought the book to the meeting&quot;</EXAMPLE>
             </EXAMPLES>
@@ -86,7 +86,7 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-                <PREP value="against before into on onto">
+                <PREP value="against before into on to onto">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Destination">
@@ -135,16 +135,16 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Goal PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="PP-NP" secondary="Goal-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Nora brought to lunch the book...&quot;</EXAMPLE>
+                <EXAMPLE>&quot;Nora brought to lunch the book.&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <PREP value="against before into on onto">
+                <PREP value="against before into on to onto">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Destination">
@@ -196,7 +196,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Nora brought the book from home.&quot;</EXAMPLE>
             </EXAMPLES>
@@ -259,7 +259,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ Source PP + Goal PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Source-PP Goal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Nora brought the book from home to the meeting&quot;</EXAMPLE>
             </EXAMPLES>
@@ -342,7 +342,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ here/there" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-ADVP-PRED" secondary="here/there" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The train brought us here."]]></EXAMPLE>
             </EXAMPLES>
@@ -416,7 +416,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="Ditransitive variant" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Nora brought Pamela the book&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -463,7 +463,8 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ together" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="Together
+Reciprocal Alternation Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE><![CDATA["Nora brought us together."]]></EXAMPLE>
                     </EXAMPLES>

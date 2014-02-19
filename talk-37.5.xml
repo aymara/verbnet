@@ -54,7 +54,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ to-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="to-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Susan talked to Rachel&quot;</EXAMPLE>
             </EXAMPLES>
@@ -88,7 +88,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Susan talked with Rachel&quot;</EXAMPLE>
             </EXAMPLES>
@@ -130,7 +130,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ to-PP + Topic PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="to-PP Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Susan talked to Rachel about the problem&quot;</EXAMPLE>
             </EXAMPLES>
@@ -170,7 +170,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ with-PP + Topic PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="with-PP Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Susan talked with Rachel about the problem&quot;</EXAMPLE>
             </EXAMPLES>
@@ -218,7 +218,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Alternation Intransitive" secondary="reciprocal variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Susan and Rachel talked&quot;</EXAMPLE>
             </EXAMPLES>
@@ -283,7 +283,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Topic PP + to PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="Topic-PP to-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Susan talked about the problem to Rachel."]]></EXAMPLE>
             </EXAMPLES>
@@ -323,7 +323,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Topic PP + with PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="Topic-PP with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Susan talked about the problem with Rachel."]]></EXAMPLE>
             </EXAMPLES>
@@ -371,7 +371,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ Topic PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="PP" secondary="Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Susan talked about the problems of modern America."]]></EXAMPLE>
             </EXAMPLES>
@@ -407,3 +407,7 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
+
+
+
+
