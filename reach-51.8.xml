@@ -3,8 +3,9 @@
 <VNCLASS ID="reach-51.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="reach" wn="reach%2:38:01 reach%2:38:00" grouping="reach.01"/>
-        <MEMBER name="hit" wn="hit%2:38:00 hit%2:38:07" grouping="hit.01 hit.05"/>
+        <MEMBER name="hit" wn="hit%2:38:00 hit%2:38:07" grouping="hit.03"/>
         <MEMBER name="make" wn="make%2:40:02 make%2:38:00" grouping="make.07 make.08"/>
+        <MEMBER name="breast" wn="breast%2:38:01" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

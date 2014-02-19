@@ -98,7 +98,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP.theme V" secondary="IntransitiveInchoative" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP.theme V" secondary="Intransitive; Inchoative" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The storm began.</EXAMPLE>
                     </EXAMPLES>
@@ -147,7 +147,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.instrument" secondary="PPwith-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.instrument" secondary="PP; with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The party began with a bang.</EXAMPLE>
                     </EXAMPLES>
@@ -180,7 +180,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.instrument" secondary="NP-PPwith-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.instrument" secondary="NP-PP; with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>I began the party with a speech.</EXAMPLE>
                     </EXAMPLES>
@@ -222,49 +222,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.oblique" secondary="NP-PPOblique-PP" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE>We began the campaign by soliciting donations.</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Agent">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                        <NP value="Theme">
-                            <SYNRESTRS/>
-                        </NP>
-                        <PREP value="by">
-                            <SELRESTRS/>
-                        </PREP>
-                        <NP value="Oblique">
-                            <SELRESTRS/>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="begin">
-                            <ARGS>
-                                <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Theme"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="cause">
-                            <ARGS>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="Event" value="E"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="manner">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Oblique"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP.instrument V NP" secondary="IntransitiveInstrument Subject" xtag=""/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP.instrument V NP" secondary="Intransitive; Instrument Subject" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>A murder began the book.</EXAMPLE>
                     </EXAMPLES>

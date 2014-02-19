@@ -46,10 +46,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.value" secondary="NP-PPat-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.value" secondary="NP-PP; at-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>He clocked the runners at different
-                speeds.</EXAMPLE>
+                <EXAMPLE>He clocked the runners at different speeds.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -80,7 +79,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.value" secondary="PPat-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.value" secondary="PP; at-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He clocked at 85km/hr.</EXAMPLE>
             </EXAMPLES>
@@ -122,7 +121,7 @@
         <THEMROLES/>
         <FRAMES>
             <FRAME>
-                <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.value" secondary="TransitiveAttribute Object" xtag=""/>
+                <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.value" secondary="Transitive; Attribute Object" xtag=""/>
                 <EXAMPLES>
                     <EXAMPLE>The package weighed ten pounds.</EXAMPLE>
                 </EXAMPLES>

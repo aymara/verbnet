@@ -69,7 +69,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>She flossed her teeth with floss.</EXAMPLE>
             </EXAMPLES>
@@ -106,7 +106,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V PP.instrument" secondary="PPInstrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.instrument" secondary="PP; Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>She brushed with a toothbrush.</EXAMPLE>
             </EXAMPLES>

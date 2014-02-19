@@ -7,14 +7,15 @@
         <MEMBER name="distemper" wn="distemper%2:36:00" grouping=""/>
         <MEMBER name="dye" wn="dye%2:30:00" grouping=""/>
         <MEMBER name="enamel" wn="enamel%2:36:00" grouping=""/>
-        <MEMBER name="glaze" wn="glaze%2:35:00" grouping=""/>
+        <MEMBER name="glaze" wn="glaze%2:35:00" grouping="glaze.01"/>
         <MEMBER name="japan" wn="japan%2:36:00" grouping=""/>
         <MEMBER name="lacquer" wn="lacquer%2:36:00" grouping=""/>
-        <MEMBER name="paint" wn="paint%2:35:00" grouping="paint.02"/>
+        <MEMBER name="paint" wn="paint%2:35:00" grouping="paint.01 paint.02"/>
         <MEMBER name="repaint" wn="" grouping=""/>
         <MEMBER name="shellac" wn="shellac%2:35:00" grouping=""/>
         <MEMBER name="spraypaint" wn="" grouping=""/>
         <MEMBER name="stain" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04" grouping="stain.01 stain.02 stain.03"/>
+        <MEMBER name="starch" wn="starch%2:30:00" grouping=""/> 
         <MEMBER name="tint" wn="tint%2:30:00" grouping=""/>
         <MEMBER name="varnish" wn="varnish%2:35:00" grouping=""/>
     </MEMBERS>
@@ -28,6 +29,9 @@
             <SELRESTRS>
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Result">
+                <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
@@ -69,7 +73,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJPResultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Claire colors the picture red.</EXAMPLE>
             </EXAMPLES>
@@ -81,7 +85,9 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="cause">
@@ -113,7 +119,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Claire painted the wall into a splotchy mess.</EXAMPLE>
             </EXAMPLES>
@@ -128,7 +134,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>

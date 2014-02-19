@@ -10,10 +10,10 @@
         <MEMBER name="demand" wn="demand%2:42:00" grouping="demand.02"/>
     </MEMBERS>
     <THEMROLES>
-        <THEMROLE type="Theme1">
+        <THEMROLE type="Pivot">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Theme2">
+        <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
         <THEMROLE type="Source">
@@ -27,11 +27,11 @@
                 <EXAMPLE>Success requires hard work.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Theme1">
+                <NP value="Pivot">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme2">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -39,29 +39,29 @@
                 <PRED value="necessitate">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Pivot"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source" secondary="NP-PPfrom-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source" secondary="NP-PP; from-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Success requires hard work from us.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Theme1">
+                <NP value="Pivot">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme2">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-		<PREP value="from">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="from">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Source">
                     <SYNRESTRS/>
                 </NP>
@@ -70,8 +70,8 @@
                 <PRED value="necessitate">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Pivot"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
@@ -83,11 +83,11 @@
                 <EXAMPLE>Success requires for us to work hard.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Theme1">
+                <NP value="Pivot">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme2">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="for_comp"/>
                     </SYNRESTRS>
@@ -97,8 +97,8 @@
                 <PRED value="necessitate">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Pivot"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Source"/>
                     </ARGS>
                 </PRED>
@@ -107,14 +107,14 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-AC" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>Success requires working long hours.</EXAMPLE>                                                              
+                <EXAMPLE>Success requires working long hours.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Theme1">
+                <NP value="Pivot">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme2">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="ac_ing"/>
                     </SYNRESTRS>
@@ -124,24 +124,24 @@
                 <PRED value="necessitate">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Pivot"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S-SUBJUNCT" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S-SUBJUNCT" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Success requires that we work hard.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Theme1">
+                <NP value="Pivot">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme2">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
@@ -151,8 +151,8 @@
                 <PRED value="necessitate">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Pivot"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Source"/>
                     </ARGS>
                 </PRED>

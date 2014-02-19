@@ -22,6 +22,9 @@
         <THEMROLE type="Source">
             <SELRESTRS/>
         </THEMROLE>
+        <THEMROLE type="Result">
+                <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -68,7 +71,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carol cut the bread with a knife.</EXAMPLE>
             </EXAMPLES>
@@ -297,7 +300,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJPResultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carol cut the envelop open.</EXAMPLE>
             </EXAMPLES>
@@ -309,7 +312,9 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="cause">
@@ -347,7 +352,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP PP.instrument" secondary="NP-ADJP-PPResultative, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP PP.instrument" secondary="NP-ADJP-PP; Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carol cut the envelope open with the knife.</EXAMPLE>
             </EXAMPLES>
@@ -359,7 +364,9 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
@@ -410,7 +417,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carol cut the envelope into pieces.</EXAMPLE>
             </EXAMPLES>
@@ -425,7 +432,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -467,7 +474,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique PP.instrument" secondary="NP-PP-PPResult-PP, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carol cut the envelope into pieces with a knife.</EXAMPLE>
             </EXAMPLES>
@@ -482,7 +489,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -537,7 +544,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJPResultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The knife cut the envelope open.</EXAMPLE>
             </EXAMPLES>
@@ -549,7 +556,9 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="manner">
@@ -581,7 +590,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The knife cut the envelope into pieces.</EXAMPLE>
             </EXAMPLES>
@@ -596,7 +605,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -632,7 +641,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source" secondary="NP-PPLocation-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source" secondary="NP-PP; Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Sympathetic fans clipped copies of Ms. Shere's recipes from magazines.</EXAMPLE>
             </EXAMPLES>
@@ -694,7 +703,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source PP.instrument" secondary="NP-PP-PPInstrument-PP Location-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source PP.instrument" secondary="NP-PP-PP; Instrument-PP Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Susan cut the recipes from the magazine with a sharp knife.</EXAMPLE>
             </EXAMPLES>
@@ -774,11 +783,13 @@
                 <MEMBER name="hew" wn="hew%2:35:00" grouping=""/>
                 <MEMBER name="rip" wn="rip%2:35:00" grouping="rip.01"/>
                 <MEMBER name="saw" wn="saw%2:35:00" grouping="saw.01"/>
+                <MEMBER name="scarify" wn="scarify%2:35:00 scarify%2:35:02 scarify%2:35:01" grouping="scarify.01"/>
                 <MEMBER name="scrape" wn="scrape%2:35:00 scrape%2:35:02 scrape%2:35:01" grouping="scrape.01"/>
                 <MEMBER name="scratch" wn="scratch%2:35:00" grouping="scratch.01"/>
                 <MEMBER name="slash" wn="slash%2:35:01 slash%2:35:00" grouping="slash.01"/>
                 <MEMBER name="slice" wn="slice%2:35:01" grouping="slice.01"/>
                 <MEMBER name="snip" wn="snip%2:35:07 snip%2:35:00" grouping="snip.01"/>
+                <MEMBER name="ream" wn="ream%2:30:01 ream%2:30:00" grouping=""/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">
@@ -790,7 +801,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="TransitiveBody-part or reflexive Object" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; Body-part or reflexive Object" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>Carol cut her finger.</EXAMPLE>
                     </EXAMPLES>

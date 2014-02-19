@@ -10,6 +10,7 @@
         <MEMBER name="engender" wn="engender%2:36:00" grouping=""/>
         <MEMBER name="generate" wn="generate%2:36:00" grouping="generate.01"/>
         <MEMBER name="incite" wn="incite%2:32:00" grouping="incite.01"/>
+        <MEMBER name="inspire" wn="inspire%2:37:00 inspire%2:36:00" grouping="inspire.01"/>
         <MEMBER name="instigate" wn="instigate%2:32:00" grouping=""/>
         <MEMBER name="kindle" wn="kindle%2:37:00" grouping=""/>
         <MEMBER name="produce" wn="produce%2:36:03" grouping="produce.01"/>
@@ -19,14 +20,21 @@
         <MEMBER name="sire" wn="" grouping=""/>
         <MEMBER name="spark" wn="spark%2:36:00" grouping="spark.01"/>
         <MEMBER name="spawn" wn="spawn%2:36:00" grouping="spawn.01"/>
+        <MEMBER name="actuate" wn="actuate%2:36:00" grouping=""/>
+        <MEMBER name="arouse" wn="arouse%2:36:00" grouping=""/>
+        <MEMBER name="call_forth" wn="call_forth%2:36:01 call_forth%2:36:00" grouping="call.02"/>
+        <MEMBER name="elicit" wn="" grouping=""/>
+        <MEMBER name="prompt" wn="prompt%2:36:00" grouping="prompt.01"/>
+        <MEMBER name="stimulate" wn="stimulate%2:36:00 stimulate%2:32:00" grouping="stimulate.01"/>
+        <MEMBER name="stir_up" wn="stir_up%2:32:00" grouping="stir.02"/>
     </MEMBERS>
     <THEMROLES>
-        <THEMROLE type="Theme1">
+        <THEMROLE type="Cause">
             <SELRESTRS>
                 <SELRESTR Value="+" type="abstract"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Theme2">
+        <THEMROLE type="Theme">
             <SELRESTRS>
                 <SELRESTR Value="+" type="abstract"/>
             </SELRESTRS>
@@ -42,11 +50,11 @@
                 <EXAMPLE>Racial inequality engenders conflict.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Theme1">
+                <NP value="Cause">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme2">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -54,18 +62,18 @@
                 <PRED bool="!" value="exist">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="exist">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="nonagentive_cause">
                     <ARGS>
-                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Cause"/>
                         <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>
@@ -77,11 +85,11 @@
                 <EXAMPLE>The bug causes the chip to give wrong answers for some mathematical calculations.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Theme1">
+                <NP value="Cause">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme2">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Predicate">
@@ -94,18 +102,18 @@
                 <PRED bool="!" value="exist">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="exist">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="nonagentive_cause">
                     <ARGS>
-                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Cause"/>
                         <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>

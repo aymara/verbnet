@@ -2,7 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="admit-65" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="admit" wn="admit%2:41:01 admit%2:41:00" grouping="admit.02"/>
+        <MEMBER name="admit" wn="admit%2:41:01 admit%2:41:00" grouping="admit.02 admit.03"/>
         <MEMBER name="allow" wn="allow%2:32:00" grouping="allow.01"/>
         <MEMBER name="exclude" wn="exclude%2:31:01 exclude%2:41:00" grouping="exclude.01"/>
         <MEMBER name="include" wn="include%2:41:03" grouping="include.02"/>
@@ -83,7 +83,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.location" secondary="NP-PPlocative-PP" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.location" secondary="NP-PP; locative-PP" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>She allowed us near the house.</EXAMPLE>
             </EXAMPLES>

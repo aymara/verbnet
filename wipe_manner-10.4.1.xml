@@ -4,13 +4,16 @@
     <MEMBERS>
         <MEMBER name="buff" wn="?buff%2:35:00" grouping=""/>
         <MEMBER name="distill" wn="distill%2:30:03" grouping="distill.01"/>
+        <MEMBER name="distil" wn="distil%2:30:02" grouping="distil.01"/>
+        <MEMBER name="exorcise" wn="exorcise%2:35:00" grouping=""/>
         <MEMBER name="expunge" wn="expunge%2:35:00" grouping=""/>
         <MEMBER name="expurgate" wn="expurgate%2:30:00" grouping=""/>
         <MEMBER name="flush" wn="flush%2:30:01" grouping="flush.04"/>
         <MEMBER name="leach" wn="leach%2:30:00" grouping=""/>
+        <MEMBER name="offload" wn="offload%2:35:00" grouping=""/> 
         <MEMBER name="polish" wn="polish%2:35:00" grouping="polish.01"/>
-        <MEMBER name="purge" wn="purge%2:30:00 purge%2:29:00" grouping="purge.01 purge.02"/>
-        <MEMBER name="shave" wn="shave%2:29:00 shave%2:35:01 shave%2:35:02 shave%2:35:03" grouping="shave.01 shave.02"/>
+        <MEMBER name="purge" wn="purge%2:30:00 purge%2:29:00" grouping="purge.01"/>
+        <MEMBER name="shave" wn="shave%2:29:00 shave%2:35:01 shave%2:35:02 shave%2:35:03" grouping="shave.02"/>
         <MEMBER name="smooth" wn="smooth%2:35:00" grouping="smooth.01"/>
         <MEMBER name="skim" wn="skim%2:35:01" grouping="skim.04"/>
         <MEMBER name="soak" wn="soak%2:30:01" grouping="soak.01"/>
@@ -43,7 +46,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PPSource-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Brian wiped the fingerprints from the counter.</EXAMPLE>
             </EXAMPLES>
@@ -88,7 +91,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.source" secondary="TransitiveSource Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.source" secondary="Transitive; Source Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Brian wiped the counter.</EXAMPLE>
             </EXAMPLES>
@@ -125,7 +128,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP.theme" secondary="TransitiveTheme Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP.theme" secondary="Transitive; Theme Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Barry Cryer erased the writing.</EXAMPLE>
             </EXAMPLES>
@@ -168,7 +171,7 @@
             <MEMBERS>
                 <MEMBER name="bail" wn="bail%2:30:02 bail%2:30:01" grouping="bail.03"/>
                 <MEMBER name="dab" wn="dab%2:35:01 dab%2:35:00" grouping=""/>
-                <MEMBER name="dust" wn="dust%2:35:00" grouping=""/>
+                <MEMBER name="dust" wn="dust%2:35:00" grouping="dust.01"/>
                 <MEMBER name="erase" wn="erase%2:35:00" grouping="erase.02"/>
                 <MEMBER name="lick" wn="lick%2:35:00" grouping="lick.01"/>
                 <MEMBER name="pluck" wn="pluck%2:35:00 pluck%2:35:03 pluck%2:35:01" grouping="pluck.01"/>

@@ -7,7 +7,9 @@
         <MEMBER name="generate" wn="generate%2:36:02 generate%2:36:01" grouping="generate.01"/>
         <MEMBER name="grow" wn="grow%2:30:02 grow%2:30:01 grow%2:30:04 grow%2:36:00 grow%2:30:10" grouping="grow.02 grow.03"/>
         <MEMBER name="hatch" wn="hatch%2:29:01 hatch%2:29:00" grouping="hatch.01 hatch.02"/>
+        <MEMBER name="maturate" wn="maturate%2:30:00" grouping="maturate.01"/>
         <MEMBER name="mature" wn="mature%2:30:00 mature%2:30:01" grouping="mature.01"/>
+        <MEMBER name="redevelop" wn="redevelop%2:39:00 redevelop%2:30:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -28,7 +30,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.4.2" primary="NP.material V PP.product" secondary="Material/Product Alternation IntransitiveMaterial Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.4.2" primary="NP.material V PP.product" secondary="Material/Product Alternation Intransitive; Material Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>That acorn will grow into an oak tree.</EXAMPLE>
             </EXAMPLES>
@@ -67,7 +69,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.4.2" primary="NP.product V PP.material" secondary="Material/Product Alternation IntransitiveProduct Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.4.2" primary="NP.product V PP.material" secondary="Material/Product Alternation Intransitive; Product Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>An oak tree will grow from that acorn.</EXAMPLE>
             </EXAMPLES>
@@ -106,7 +108,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.product PP.material" secondary="NP-PPCausative variant, Material-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.product PP.material" secondary="NP-PP; Causative variant, Material-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The gardener grew an oak tree from that acorn.</EXAMPLE>
             </EXAMPLES>
@@ -154,7 +156,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.material PP.product" secondary="NP-PPCausative variant, Product-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.material PP.product" secondary="NP-PP; Causative variant, Product-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The gardener grew that acorn into an oak tree.</EXAMPLE>
             </EXAMPLES>

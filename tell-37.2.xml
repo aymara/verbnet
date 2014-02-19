@@ -2,12 +2,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="tell-37.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="acquaint" wn="" grouping=""/>
+        <MEMBER name="acquaint" wn="" grouping="acquaint.02"/>
         <MEMBER name="inform" wn="" grouping=""/>
-        <MEMBER name="apprise" wn="" grouping=""/>
+        <MEMBER name="apprise" wn="" grouping="apprise.01"/>
         <MEMBER name="notify" wn="" grouping=""/>
         <MEMBER name="advise" wn="" grouping=""/>
-        <MEMBER name="update" wn="" grouping=""/>
+        <MEMBER name="update" wn="" grouping="update.02"/>
         <MEMBER name="remind" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
@@ -62,10 +62,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.topic" secondary="NP-PPof-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.topic" secondary="NP-PP; of-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>John informed me of the
-                situation.</EXAMPLE>
+                <EXAMPLE>John informed me of the situation.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -104,8 +103,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S" secondary="NP-S" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>John informed me that his situation had
-                changed.</EXAMPLE>
+                <EXAMPLE>John informed me that his situation had changed.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -196,7 +194,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.1" primary="NP V NP PP.recipient" secondary="NP-PPto-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.1" primary="NP V NP PP.recipient" secondary="NP-PP; to-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen told a story to Helen.</EXAMPLE>
             </EXAMPLES>
@@ -269,7 +267,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitiveellided Topic" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; ellided Topic" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Ellen told Helen.</EXAMPLE>
             </EXAMPLES>
@@ -300,7 +298,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.topic" secondary="NP-PPTopic-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.topic" secondary="NP-PP; Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen told Helen about the situation.</EXAMPLE>
             </EXAMPLES>
@@ -337,7 +335,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient S" secondary="NP-SRecipient Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient S" secondary="NP-S; Recipient Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen told Helen that the party would be tonight.</EXAMPLE>
             </EXAMPLES>
@@ -373,7 +371,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient how S_INF" secondary="NP-HOW-TO-INFRecipient Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient how S_INF" secondary="NP-HOW-TO-INF; Recipient Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen told Helen how to avoid the crowd.</EXAMPLE>
             </EXAMPLES>
@@ -409,7 +407,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient S_INF" secondary="NP-TO-INF-OCRecipient Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient S_INF" secondary="NP-TO-INF-OC; Recipient Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen told Helen to come.</EXAMPLE>
             </EXAMPLES>

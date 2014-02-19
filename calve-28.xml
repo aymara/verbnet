@@ -5,11 +5,11 @@
         <!--Each member specifies the Patient-->
         <MEMBER name="calve" wn="calve%2:29:00" grouping=""/>
         <MEMBER name="cub" wn="cub%2:29:00" grouping=""/>
-        <MEMBER name="fawn" wn="fawn%2:29:00" grouping=""/>
+        <MEMBER name="fawn" wn="fawn%2:29:00" grouping="fawn.02"/>
         <MEMBER name="foal" wn="foal%2:29:00" grouping=""/>
         <MEMBER name="kitten" wn="kitten%2:29:00" grouping=""/>
         <MEMBER name="lamb" wn="lamb%2:29:00" grouping=""/>
-        <MEMBER name="litter" wn="litter%2:29:00" grouping=""/>
+        <MEMBER name="litter" wn="litter%2:29:00" grouping="litter.02"/>
         <MEMBER name="pup" wn="pup%2:29:00" grouping=""/>
         <MEMBER name="spawn" wn="spawn%2:36:00" grouping="spawn.01"/>
         <MEMBER name="whelp" wn="whelp%2:29:00" grouping=""/>

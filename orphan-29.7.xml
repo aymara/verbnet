@@ -4,7 +4,6 @@
     <MEMBERS>
         <MEMBER name="apprentice" wn="" grouping=""/>
         <MEMBER name="beggar" wn="beggar%2:40:00" grouping=""/>
-        <MEMBER name="canonize" wn="canonize%2:32:00" grouping=""/>
         <MEMBER name="cripple" wn="cripple%2:29:00" grouping="cripple.01"/>
         <MEMBER name="cuckold" wn="cuckold%2:41:00" grouping=""/>
         <MEMBER name="knight" wn="knight%2:41:01" grouping=""/>
@@ -13,6 +12,7 @@
         <MEMBER name="outlaw" wn="outlaw%2:41:00" grouping="outlaw.01"/>
         <MEMBER name="pauper" wn="" grouping=""/>
         <MEMBER name="recruit" wn="recruit%2:40:00 recruit%2:33:00" grouping="recruit.01 recruit.02"/>
+        <MEMBER name="whore" wn="whore%2:32:01" grouping="whore.01"/>
         <MEMBER name="widow" wn="widow%2:30:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>

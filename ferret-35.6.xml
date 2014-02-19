@@ -2,10 +2,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="ferret-35.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="ferret" wn="ferret%2:31:00" grouping=""/>
-        <MEMBER name="nose" wn="nose%2:39:01" grouping=""/>
-        <MEMBER name="seek" wn="seek%2:40:00 seek%2:32:00" grouping="seek.01"/>
-        <MEMBER name="tease" wn="" grouping=""/>
+        <MEMBER name="ferret" wn="ferret%2:31:00" grouping="ferret.02"/>
+        <MEMBER name="nose" wn="nose%2:39:01" grouping="nose.03"/>
+        <MEMBER name="tease" wn="" grouping="tease.06"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -13,7 +12,7 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Location">
+        <THEMROLE type="Source">
             <SELRESTRS/>
         </THEMROLE>
         <THEMROLE type="Theme">
@@ -22,7 +21,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PPLocation-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I ferreted the secret out of him.</EXAMPLE>
             </EXAMPLES>
@@ -39,7 +38,7 @@
                         <SELRESTR Value="+" type="dir"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Location">
+                <NP value="Source">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -48,7 +47,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Source"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>

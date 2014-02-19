@@ -14,9 +14,6 @@
         <THEMROLE type="Stimulus">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Predicate">
-            <SELRESTRS/>
-        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -82,7 +79,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.2" primary="NP V NP-ATTR-POS PP.oblique" secondary="Attribute Object Possessor-Attribute Factoring Alternation" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.2" primary="NP V NP-ATTR-POS" secondary="Attribute Object Possessor-Attribute Factoring Alternation" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I sensed the eagerness in him.</EXAMPLE>
             </EXAMPLES>
@@ -93,12 +90,6 @@
                 <VERB/>
                 <NP value="Stimulus">
                     <SYNRESTRS/>
-                </NP>
-                <PREP value="in">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Oblique">
-                    <SELRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -188,16 +179,16 @@
             <MEMBERS>
                 <MEMBER name="detect" wn="detect%2:39:00" grouping="detect.01"/>
                 <MEMBER name="discern" wn="discern%2:39:00" grouping=""/>
-                <MEMBER name="feel" wn="feel%2:31:00 feel%2:39:00 feel%2:29:00 feel%2:35:00" grouping="feel.01 feel.02 feel.03"/>
-                <MEMBER name="sense" wn="sense%2:39:00" grouping="sense.01"/>
-                <MEMBER name="perceive" wn="" grouping=""/>
+                <MEMBER name="feel" wn="feel%2:31:00 feel%2:39:00 feel%2:29:00 feel%2:35:00" grouping="feel.01 feel.02"/>
+                <MEMBER name="sense" wn="sense%2:39:00" grouping="sense.01 sense.03"/>
+                <MEMBER name="perceive" wn="" grouping="perceive.01"/>
                 <MEMBER name="notice" wn="notice%2:39:04 notice%2:39:00" grouping="notice.01"/>
-                <MEMBER name="see" wn="see%2:39:00 see%2:39:02 see%2:36:00 see%2:39:03 see%2:32:00 see%2:41:11 see%2:41:12 see%2:41:10 see%2:39:11 see%2:39:13" grouping="see.01 see.02 see.03 see.06"/>
+                <MEMBER name="see" wn="see%2:39:00 see%2:39:02 see%2:36:00 see%2:39:03 see%2:32:00 see%2:41:11 see%2:41:12 see%2:41:10 see%2:39:11 see%2:39:13" grouping="see.01 see.03"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S" secondary="NP-INF-OC" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V S" secondary="NP-INF-OC" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I saw her bake the cake.</EXAMPLE>
                     </EXAMPLES>
@@ -207,9 +198,6 @@
                         </NP>
                         <VERB/>
                         <NP value="Stimulus">
-                            <SYNRESTRS/>
-                        </NP>
-                        <NP value="Predicate">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="oc_bare_inf"/>
                             </SYNRESTRS>
@@ -232,7 +220,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-ING-OC" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="NP-ING-OC" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I saw him laughing.</EXAMPLE>
                     </EXAMPLES>
@@ -242,9 +230,6 @@
                         </NP>
                         <VERB/>
                         <NP value="Stimulus">
-                            <SYNRESTRS/>
-                        </NP>
-                        <NP value="Predicate">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="oc_ing"/>
                             </SYNRESTRS>
@@ -267,7 +252,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="POSSING" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="POSSING" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I saw their laughing and joking.</EXAMPLE>
                     </EXAMPLES>
@@ -307,7 +292,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="NP V PP.stimulus" secondary="PPStimulus-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>The entire class heard about/of the sermon.</EXAMPLE>
                             </EXAMPLES>

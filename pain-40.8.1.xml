@@ -9,6 +9,7 @@
         <MEMBER name="hurt" wn="hurt%2:39:00" grouping="hurt.01"/>
         <MEMBER name="itch" wn="itch%2:39:00" grouping=""/>
         <MEMBER name="pain" wn="pain%2:29:00" grouping=""/>
+        <MEMBER name="wrench" wn="" grouping="wrench.04"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -21,7 +22,7 @@
                 <SELRESTR Value="+" type="body_part"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Cause">
+        <THEMROLE type="Stimulus">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -53,7 +54,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.experiencer" secondary="TransitiveExperiencer Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.experiencer" secondary="Transitive; Experiencer Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>My eyes are itching me.</EXAMPLE>
             </EXAMPLES>
@@ -82,7 +83,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.cause" secondary="PPCause-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>My eyes are itching from the smoke.</EXAMPLE>
             </EXAMPLES>
@@ -94,7 +95,7 @@
                 <PREP value="from">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -114,7 +115,7 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

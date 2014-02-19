@@ -5,6 +5,8 @@
         <MEMBER name="bombard" wn="bombard%2:35:00" grouping="bombard.01"/>
         <MEMBER name="buffet" wn="buffet%2:35:00 buffet%2:35:01" grouping=""/>
         <MEMBER name="pelt" wn="pelt%2:35:00" grouping=""/>
+        <MEMBER name="pepperspray" wn="" grouping=""/>
+        <MEMBER name="shell" wn="shell%2:33:00" grouping="shell.02"/>
         <MEMBER name="shower" wn="shower%2:35:00" grouping="shower.01"/>
         <MEMBER name="stone" wn="stone%2:35:00" grouping="stone.01"/>
     </MEMBERS>
@@ -27,9 +29,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PPwith-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PP; with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Steve pelted Anna with Acorns.</EXAMPLE>
+                <EXAMPLE>Steve pelted Anna with acorns.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -83,7 +85,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitivedropped Theme" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; dropped Theme" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Steve pelted Anna.</EXAMPLE>
             </EXAMPLES>

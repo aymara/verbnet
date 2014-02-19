@@ -3,7 +3,7 @@
 <VNCLASS ID="cling-22.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="adhere" wn="adhere%2:35:01" grouping="adhere.01"/>
-        <MEMBER name="cleave" wn="cleave%2:35:02" grouping=""/>
+        <MEMBER name="cleave" wn="cleave%2:35:02" grouping="cleave.02"/>
         <MEMBER name="cling" wn="cling%2:35:00 cling%2:35:02" grouping="cling.01"/>
     </MEMBERS>
     <THEMROLES>
@@ -12,12 +12,7 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Theme1">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="concrete"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Theme2">
+        <THEMROLE type="Co-Theme">
             <SELRESTRS>
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
@@ -25,19 +20,19 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme2" secondary="PPwith/to-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.co-theme" secondary="PP; with/to-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The child clung to her mother.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Theme1">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <PREP value="to with">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Theme2">
+                <NP value="Co-Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -46,8 +41,8 @@
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="Constant" value="physical"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Co-Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

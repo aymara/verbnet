@@ -12,10 +12,10 @@
         <MEMBER name="result" wn="" grouping=""/>
         <MEMBER name="take place" wn="take_place%2:30:00" grouping=""/>
         <MEMBER name="transpire" wn="transpire%2:30:09" grouping=""/>
-        <MEMBER name="befall" wn="" grouping=""/>
-        <MEMBER name="chance" wn="" grouping=""/>
-        <MEMBER name="develop" wn="" grouping=""/>
-        <MEMBER name="pass" wn="" grouping=""/>
+        <MEMBER name="befall" wn="" grouping="befall.01"/>
+        <MEMBER name="chance" wn="" grouping="chance.01"/>
+        <MEMBER name="develop" wn="" grouping="develop.01"/>
+        <MEMBER name="pass" wn="" grouping="pass.03"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -47,7 +47,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="There V NP" secondary="NPExpletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="There V NP" secondary="NP; Expletive-there Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>There happened a serious accident.</EXAMPLE>
             </EXAMPLES>
@@ -68,7 +68,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PPLocation-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>A serious accident happened in front of them.</EXAMPLE>
             </EXAMPLES>

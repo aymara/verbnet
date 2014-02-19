@@ -22,10 +22,10 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Product">
+        <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Material">
+        <THEMROLE type="Source">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -40,7 +40,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Product">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -49,14 +49,14 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Product"/>
-                        <ARG type="ThemRole" value="?Material"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.material" secondary="NP-PPfrom-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source" secondary="NP-PP; from-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He deduced the truth from the facts.</EXAMPLE>
             </EXAMPLES>
@@ -65,13 +65,13 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Product">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
 		<PREP value="from">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Material">
+                <NP value="Source">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -80,17 +80,16 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Product"/>
-                        <ARG type="ThemRole" value="Material"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S PP.product" secondary="PP-THAT-Sfrom-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S PP.theme" secondary="PP-THAT-S; from-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>He deduced that she was a spy from miniature
-                camera she had in her pen.</EXAMPLE>
+                <EXAMPLE>He deduced that she was a spy from miniature camera she had in her pen.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -100,22 +99,23 @@
                 <PREP value="from">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Material">
-                    <SYNRESTRS/>
-                </NP>
-                <NP value="Product">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
                 </NP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="conclude">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Product"/>
-                        <ARG type="ThemRole" value="Material"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -123,14 +123,14 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>He deduced that this factor must have influenced the system.</EXAMPLE>                                                              
+                <EXAMPLE>He deduced that this factor must have influenced the system.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Product">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
@@ -141,8 +141,8 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Product"/>
-                        <ARG type="ThemRole" value="?Material"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

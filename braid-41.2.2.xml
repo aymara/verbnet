@@ -2,7 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="braid-41.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="bob" wn="bob%2:29:00" grouping=""/>
+        <MEMBER name="bob" wn="bob%2:29:00" grouping="bob.05"/>
         <MEMBER name="braid" wn="braid%2:35:00" grouping=""/>
         <MEMBER name="brush" wn="brush%2:35:02" grouping="brush.01"/>
         <MEMBER name="clip" wn="clip%2:35:03" grouping="clip.01"/>
@@ -36,6 +36,7 @@
         <MEMBER name="tease" wn="tease%2:29:00" grouping="tease.05"/>
         <MEMBER name="towel" wn="towel%2:35:00" grouping=""/>
         <MEMBER name="trim" wn="trim%2:35:03 trim%2:36:01 trim%2:36:00" grouping="trim.01 trim.03"/>
+        <MEMBER name="tweeze" wn="tweeze%2:35:00" grouping=""/>
         <MEMBER name="wave" wn="wave%2:35:01 wave%2:29:00" grouping="wave.03"/>
         <MEMBER name="wax" wn="" grouping=""/>
     </MEMBERS>

@@ -17,7 +17,7 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Patient">
+        <THEMROLE type="Theme">
             <SELRESTRS>
                 <SELRESTR Value="+" type="comestible"/>
             </SELRESTRS>
@@ -48,7 +48,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="?Patient"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -60,7 +60,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.1" primary="NP V NP PP.recipient" secondary="NP-PPto-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.1" primary="NP V NP PP.recipient" secondary="NP-PP; to-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Teresa bottlefed soy milk to the baby.</EXAMPLE>
             </EXAMPLES>
@@ -69,7 +69,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Patient">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="to">
@@ -84,7 +84,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -108,7 +108,7 @@
                 <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Patient">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -117,7 +117,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">

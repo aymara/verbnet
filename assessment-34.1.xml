@@ -6,9 +6,13 @@
         <MEMBER name="appraise" wn="assess%2:31:00" grouping=""/>
         <MEMBER name="assess" wn="assess%2:31:00" grouping="assess.01"/>
         <MEMBER name="audit" wn="audit%2:31:01" grouping="audit.01"/>
-        <MEMBER name="evaluate" wn="evaluate%2:31:00" grouping="evaluate.02"/>
+        <MEMBER name="evaluate" wn="evaluate%2:31:00" grouping="evaluate.01 evaluate.02"/>
+        <MEMBER name="go_over" wn="go_over%2:31:01" grouping=""/>
         <MEMBER name="review" wn="review%2:32:00" grouping="review.02"/>
         <MEMBER name="scrutinize" wn="scrutinize%2:39:00 scrutinize%2:31:00" grouping="scrutinize.01"/>
+        <MEMBER name="analyse" wn="analyse%2:31:00 analyse%2:31:04 analyse%2:31:01 analyse%2:31:02" grouping=""/>
+        <MEMBER name="assay" wn="assay%2:31:00" grouping=""/>
+        <MEMBER name="proofread" wn="proofread%2:31:00" grouping=""/>
         <MEMBER name="study" wn="study%2:31:02" grouping="study.01"/>
     </MEMBERS>
     <THEMROLES>
@@ -51,7 +55,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.attribute" secondary="NP-PPAttribute-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.attribute" secondary="NP-PP; Attribute-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The inspector analyzed the building for its soundness.</EXAMPLE>
             </EXAMPLES>
@@ -82,7 +86,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.2" primary="NP V NP.attribute" secondary="NPAttribute Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.2" primary="NP V NP.attribute" secondary="NP; Attribute Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The inspector analyzed the building's soundness.</EXAMPLE>
             </EXAMPLES>

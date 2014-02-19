@@ -28,28 +28,30 @@
                 <!--Each verb specifies Form of Patient as a result of action-->
                 <MEMBER name="bruise" wn="bruise%2:35:00 bruise%2:30:00" grouping=""/>
                 <MEMBER name="chip" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00" grouping="chip.01"/>
-                <MEMBER name="cleave" wn="cleave%2:35:00 cleave%2:35:01" grouping=""/>
+                <MEMBER name="cleave" wn="cleave%2:35:00 cleave%2:35:01" grouping="cleave.01"/>
                 <MEMBER name="crumble" wn="crumble%2:30:00" grouping="crumble.01"/>
-                <MEMBER name="crumple" wn="crumple%2:35:00" grouping=""/>
-                <MEMBER name="crunch" wn="crunch%2:34:00 crunch%2:30:00" grouping=""/>
+                <MEMBER name="crumple" wn="crumple%2:35:00" grouping="crumple.02"/>
+                <MEMBER name="crunch" wn="crunch%2:34:00 crunch%2:30:00" grouping="crunch.02 crunch.03"/>
                 <MEMBER name="crush" wn="crush%2:35:00 crush%2:30:00 crush%2:35:01 crush%2:30:08" grouping="crush.01"/>
                 <MEMBER name="cube" wn="cube%2:35:00" grouping=""/>
                 <MEMBER name="dent" wn="dent%2:35:00" grouping=""/>
                 <MEMBER name="dice" wn="dice%2:35:00" grouping=""/>
                 <MEMBER name="fillet" wn="fillet%2:35:00" grouping=""/>
-                <MEMBER name="flake" wn="flake%2:35:02" grouping=""/>
+                <MEMBER name="flake" wn="flake%2:35:02" grouping="flake.01"/>
                 <MEMBER name="flatten" wn="flatten%2:30:01" grouping="flatten.01"/>
                 <MEMBER name="gash" wn="gash%2:35:00" grouping=""/>
-                <MEMBER name="gouge" wn="gouge%2:35:00 gouge%2:35:01" grouping=""/>
+                <MEMBER name="gouge" wn="gouge%2:35:00 gouge%2:35:01" grouping="gouge.01"/>
                 <MEMBER name="grate" wn="grate%2:35:02" grouping="grate.03"/>
-                <MEMBER name="grind" wn="grind%2:35:02 grind%2:30:00" grouping="grind.01 grind.04"/>
-                <MEMBER name="mangle" wn="mangle%2:35:01" grouping=""/>
+                <MEMBER name="grind" wn="grind%2:35:02 grind%2:30:00" grouping="grind.02"/>
+                <MEMBER name="mangle" wn="mangle%2:35:01" grouping="mangle.01"/>
                 <MEMBER name="mash" wn="mash%2:35:00 mash%2:30:00" grouping="mash.01"/>
-                <MEMBER name="mince" wn="?mince%2:35:00" grouping="mince.01"/>
+                <MEMBER name="mince" wn="?mince%2:35:00" grouping="mince.03"/>
                 <MEMBER name="nick" wn="nick%2:35:01 nick%2:35:00" grouping=""/>
                 <MEMBER name="notch" wn="notch%2:35:00" grouping=""/>
                 <MEMBER name="perforate" wn="perforate%2:35:00" grouping=""/>
                 <MEMBER name="pulverize" wn="pulverize%2:30:00" grouping=""/>
+                <MEMBER name="quarter" wn="quarter%2:35:01" grouping="quarter.03"/>
+                <MEMBER name="scollop" wn="scollop%2:30:00" grouping="scollop.03"/>
                 <MEMBER name="scrunch" wn="scrunch%2:35:00" grouping=""/>
                 <MEMBER name="shred" wn="shred%2:35:00" grouping=""/>
                 <MEMBER name="slice" wn="slice%2:35:01 slice%2:35:00" grouping="slice.01"/>
@@ -57,6 +59,7 @@
                 <MEMBER name="smash" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:08 smash%2:35:05 smash%2:30:10" grouping="smash.01"/>
                 <MEMBER name="squash" wn="squash%2:35:00" grouping=""/>
                 <MEMBER name="squish" wn="squish%2:35:00" grouping=""/>
+                <MEMBER name="trench" wn="trench%2:35:03 trench%2:35:01" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -104,7 +107,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Carol crushed the ice with a hammer.</EXAMPLE>
                     </EXAMPLES>
@@ -256,17 +259,23 @@
             <MEMBERS>
                 <!--Each member specifies Instrument and Motion of Agent-->
                 <MEMBER name="bore" wn="bore%2:35:00" grouping=""/>
-                <MEMBER name="carve" wn="carve%2:35:01 carve%2:35:02 carve%2:35:00" grouping="carve.01 carve.02"/>
+                <MEMBER name="carve" wn="carve%2:35:01 carve%2:35:02 carve%2:35:00" grouping="carve.01"/>
                 <MEMBER name="chop" wn="chop%2:35:01 chop%2:35:00" grouping="chop.01"/>
                 <MEMBER name="crop" wn="crop%2:35:02" grouping="crop.01"/>
+                <MEMBER name="crumb" wn="crumb%2:30:01" grouping="crumb.02"/>
                 <MEMBER name="drill" wn="drill%2:35:00" grouping="drill.01"/>
                 <MEMBER name="file" wn="file%2:35:00" grouping="file.02"/>
                 <MEMBER name="lance" wn="lance%2:35:01 lance%2:35:00" grouping=""/>
                 <MEMBER name="mill" wn="mill%2:35:00" grouping=""/>
+                <MEMBER name="mangle" wn="mangle%2:35:01" grouping="mangle.01"/>
                 <MEMBER name="mow" wn="mow%2:35:00" grouping="mow.01"/>
+                <MEMBER name="pink" wn="" grouping="pink.03"/>
                 <MEMBER name="punch" wn="punch%2:35:01" grouping="punch.02"/>
                 <MEMBER name="prune" wn="prune%2:35:00" grouping=""/>
+                <MEMBER name="scollop" wn="scollop%2:35:00" grouping="scollop.01"/>
+                <MEMBER name="sand" wn="sand%2:35:00" grouping=""/>
                 <MEMBER name="spear" wn="spear%2:35:00" grouping="spear.01"/>
+                <MEMBER name="tool" wn="tool%2:40:00" grouping="tool.02 tool.03"/>
                 <MEMBER name="tread" wn="tread%2:40:00" grouping="tread.02"/>
             </MEMBERS>
             <THEMROLES/>
@@ -315,7 +324,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Carol carved the stone with a chisel.</EXAMPLE>
                     </EXAMPLES>

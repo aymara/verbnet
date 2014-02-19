@@ -3,6 +3,7 @@
 <VNCLASS ID="spray-9.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--REMOVED "stuff" from this class, moved to subclass-->
+        <MEMBER name="overload" wn="overload%2:35:00 overload%2:35:01" grouping="overload.01"/> 
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -22,7 +23,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PPlocative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Jessica loaded boxes into the wagon.</EXAMPLE>
             </EXAMPLES>
@@ -74,7 +75,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="NP V NP.destination PP.theme" secondary="NP-PPLocation Object, with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="NP V NP.destination PP.theme" secondary="NP-PP; Location Object, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Jessica loaded the wagon with boxes.</EXAMPLE>
             </EXAMPLES>
@@ -123,7 +124,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme" secondary="TransitiveTheme Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme" secondary="Transitive; Theme Object" xtag="0.2"/>
             <!-- frame not mentioned by Levin-->
             <EXAMPLES>
                 <EXAMPLE>Jessica squirted water.</EXAMPLE>
@@ -167,7 +168,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.destination" secondary="TransitiveDestination Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.destination" secondary="Transitive; Destination Object" xtag="0.2"/>
             <!-- frame not mentioned by Levin-->
             <EXAMPLES>
                 <EXAMPLE>Jessica sprayed the wall.</EXAMPLE>
@@ -214,6 +215,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="spray-9.7-1">
             <MEMBERS>
+                <MEMBER name="baste" wn="baste%2:30:00" grouping="baste.01"/>
                 <MEMBER name="brush" wn="brush%2:35:10" grouping="brush.02"/>
                 <MEMBER name="drizzle" wn="drizzle%2:35:00" grouping=""/>
                 <MEMBER name="hang" wn="hang%2:35:00 hang%2:36:00 hang%2:35:04" grouping="hang.01"/>
@@ -221,7 +223,7 @@
                 <MEMBER name="pump" wn="pump%2:33:00 pump%2:40:00 pump%2:38:02" grouping="pump.02"/>
                 <MEMBER name="rub" wn="rub%2:35:00" grouping="rub.01"/>
                 <MEMBER name="scatter" wn="scatter%2:35:00 scatter%2:35:01 scatter%2:38:02" grouping="scatter.01"/>
-                <MEMBER name="seed" wn="seed%2:35:01" grouping=""/>
+                <MEMBER name="seed" wn="seed%2:35:01" grouping="seed.03"/>
                 <MEMBER name="sew" wn="sew%2:35:00" grouping="sew.01"/>
                 <MEMBER name="shower" wn="shower%2:40:00 shower%2:35:00 shower%2:34:12" grouping="shower.01 shower.02"/>
                 <MEMBER name="smear" wn="smear%2:35:03 smear%2:35:01" grouping="smear.01"/>
@@ -239,7 +241,8 @@
                 <MEMBER name="strew" wn="strew%2:35:00 strew%2:35:04" grouping=""/>
                 <MEMBER name="string" wn="string%2:35:02" grouping="string.01"/>
                 <MEMBER name="swab" wn="swab%2:35:00 swab%2:35:01" grouping=""/>
-                <MEMBER name="?wash" wn="wash%2:35:10" grouping=""/>
+                <MEMBER name="swash" wn="swash%2:35:00" grouping="swash.02"/>
+               
                 <MEMBER name="spurt" wn="spurt%2:38:01" grouping=""/>
                 <MEMBER name="wrap" wn="wrap%2:35:00 wrap%2:35:02 wrap%2:35:01" grouping="wrap.01 wrap.02"/>
             </MEMBERS>
@@ -256,7 +259,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.destination" secondary="PPlocative-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.destination" secondary="PP; locative-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Paint sprayed onto the wall.</EXAMPLE>
                     </EXAMPLES>
@@ -353,7 +356,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="NP.theme V NP" secondary="TransitiveTheme Subject" xtag=""/>
+                            <DESCRIPTION descriptionNumber="" primary="NP.theme V NP" secondary="Transitive; Theme Subject" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>Crowds packed the stands.</EXAMPLE>
                             </EXAMPLES>
@@ -384,14 +387,15 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="spray-9.7-2">
             <MEMBERS>
-                <MEMBER name="drape" wn="drape%2:35:00 drape%2:35:01 drape%2:35:10" grouping=""/>
-                <MEMBER name="load" wn="load%2:35:01 load%2:35:10" grouping="load.01"/>
+                <MEMBER name="drape" wn="drape%2:35:00 drape%2:35:01 drape%2:35:10" grouping="drape.01 drape.02"/>
+                <MEMBER name="load" wn="load%2:35:01 load%2:35:10" grouping="load.01 load.02"/>
                 <MEMBER name="dab" wn="dab%2:35:01" grouping=""/>
                 <MEMBER name="daub" wn="daub%2:35:01 daub%2:35:02 daub%2:35:00" grouping=""/>
                 <MEMBER name="mound" wn="mound%2:36:00" grouping=""/>
-                <MEMBER name="dust" wn="dust%2:35:03" grouping=""/>
-                <MEMBER name="heap" wn="heap%2:35:00 heap%2:30:00" grouping=""/>
+                <MEMBER name="dust" wn="dust%2:35:03" grouping="dust.03"/>
+                <MEMBER name="heap" wn="heap%2:35:00 heap%2:30:00" grouping="heap.01 heap.02"/>
                 <MEMBER name="plant" wn="plant%2:35:00 plant%2:35:01" grouping="plant.01 plant.02"/>
+                <MEMBER name="seed" wn="seed%2:30:00" grouping="seed.06"/>
                 <MEMBER name="slather" wn="slather%2:35:00" grouping=""/>
                 <MEMBER name="stack" wn="stack%2:35:01 stack%2:35:00" grouping="stack.01"/>
                 <MEMBER name="stock" wn="stock%2:40:02" grouping="stock.01"/>

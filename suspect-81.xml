@@ -4,7 +4,7 @@
     <MEMBERS>
         <MEMBER name="suspect" wn="suspect%2:32:02" grouping="suspect.02"/>
         <MEMBER name="accuse" wn="accuse%2:32:00" grouping="accuse.01"/>
-        <MEMBER name="condemn" wn="condemn%2:41:00 condemn%2:32:01" grouping="condemn.02"/>
+        <MEMBER name="condemn" wn="condemn%2:41:00 condemn%2:32:01" grouping="condemn.01 condemn.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -16,13 +16,13 @@
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Predicate">
+        <THEMROLE type="Attribute">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.predicate" secondary="NP-PPof-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.attribute" secondary="NP-PP; of-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I suspected him of infidelity.</EXAMPLE>
             </EXAMPLES>
@@ -37,7 +37,7 @@
                 <PREP value="of">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
                     </SYNRESTRS>
@@ -49,13 +49,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.predicate S_ING" secondary="NP-P-ING-OCof-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.attribute S_ING" secondary="NP-P-ING-OC; of-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I suspected him of lying.</EXAMPLE>
             </EXAMPLES>
@@ -70,7 +70,7 @@
                 <PREP value="of">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="oc_ing"/>
                     </SYNRESTRS>
@@ -82,13 +82,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="POSSINGof-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="POSSING; of-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I suspected his philandering.</EXAMPLE>
             </EXAMPLES>
@@ -109,7 +109,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Predicate"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

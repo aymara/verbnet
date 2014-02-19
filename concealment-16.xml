@@ -3,9 +3,10 @@
 <VNCLASS ID="concealment-16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="block" wn="block%2:39:00" grouping="block.01"/>
-        <MEMBER name="cloister" wn="cloister%2:42:00 cloister%2:30:00" grouping=""/>
+        <MEMBER name="cloister" wn="cloister%2:42:00 cloister%2:30:00" grouping="cloister.01 cloister.02"/>
         <MEMBER name="conceal" wn="conceal%2:39:01 conceal%2:39:00" grouping="conceal.01"/>
         <MEMBER name="curtain" wn="" grouping=""/>
+        <MEMBER name="impound" wn="impound%2:35:00" grouping=""/>
         <MEMBER name="isolate" wn="isolate%2:30:00" grouping="isolate.01"/>
         <MEMBER name="quarantine" wn="quarantine%2:30:00" grouping=""/>
         <MEMBER name="repress" wn="repress%2:31:00" grouping=""/>
@@ -21,7 +22,7 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Recipient">
+        <THEMROLE type="Beneficiary">
             <SELRESTRS>
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
@@ -35,7 +36,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.recipient" secondary="NP-PPRecipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.beneficiary" secondary="NP-PP; Beneficiary-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Frances hid the presents from Sally.</EXAMPLE>
             </EXAMPLES>
@@ -50,7 +51,7 @@
                 <PREP value="from">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Recipient">
+                <NP value="Beneficiary">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -77,13 +78,13 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PPLocation-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PP; Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Frances hid the presents behind the books in the drawer.</EXAMPLE>
             </EXAMPLES>
@@ -202,7 +203,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.recipient" secondary="PPRecipient-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.beneficiary" secondary="PP; Beneficiary-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The children hid from Sally.</EXAMPLE>
                     </EXAMPLES>
@@ -214,7 +215,7 @@
                         <PREP value="from">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Recipient">
+                        <NP value="Beneficiary">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -235,13 +236,13 @@
                             <ARGS>
                                 <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Beneficiary"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.location" secondary="PPLocation-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.location" secondary="PP; Location-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The children hid in the chimney.</EXAMPLE>
                     </EXAMPLES>

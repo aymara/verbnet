@@ -19,7 +19,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PPagainst-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; against-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The grocery cart hit against the wall.</EXAMPLE>
             </EXAMPLES>
@@ -81,7 +81,7 @@
                 <MEMBER name="collide" wn="collide%2:35:01 collide%2:35:00" grouping="collide.01 collide.02"/>
                 <MEMBER name="crack" wn="crack%2:35:00" grouping="crack.05"/>
                 <MEMBER name="crash" wn="crash%2:38:02 crash%2:35:00" grouping="crash.01"/>
-                <MEMBER name="crunch" wn="" grouping=""/>
+                <MEMBER name="crunch" wn="" grouping="crunch.01"/>
                 <MEMBER name="hammer" wn="hammer%2:35:00" grouping="hammer.01"/>
                 <MEMBER name="knock" wn="knock%2:35:00" grouping="knock.01"/>
                 <MEMBER name="ram" wn="ram%2:35:01" grouping="ram.01"/>
@@ -89,7 +89,7 @@
                 <MEMBER name="slam" wn="slam%2:35:00" grouping="slam.01"/>
                 <MEMBER name="slap" wn="slap%2:35:00" grouping="slap.01"/>
                 <MEMBER name="smack" wn="smack%2:35:02" grouping="smack.01"/>
-                <MEMBER name="smash" wn="" grouping=""/>
+                <MEMBER name="smash" wn="" grouping="smash.01"/>
                 <MEMBER name="squash" wn="squash%2:35:00" grouping=""/>
                 <MEMBER name="strike" wn="strike%2:35:00 strike%2:35:01 strike%2:35:02" grouping="strike.01 strike.02"/>
                 <MEMBER name="thud" wn="thud%2:35:00" grouping=""/>

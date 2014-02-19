@@ -21,7 +21,7 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Proposition">
+        <THEMROLE type="Topic">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -36,7 +36,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Topic">
                     <SYNRESTRS>
 			<SYNRESTR Value="-" type="for_comp"/>
 		    </SYNRESTRS>
@@ -48,13 +48,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Recipient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.proposition" secondary="NP-PPfor-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.topic" secondary="NP-PP; for-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I begged her for release.</EXAMPLE>
             </EXAMPLES>
@@ -69,7 +69,7 @@
 		<PREP value="for">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Proposition">
+                <NP value="Topic">
                     <SYNRESTRS>
 			<SYNRESTR Value="-" type="sentential"/>
 		    </SYNRESTRS>
@@ -81,7 +81,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -99,7 +99,7 @@
                 <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Proposition">
+                <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="oc_to_inf"/>
                     </SYNRESTRS>
@@ -111,13 +111,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.proposition" secondary="PPfor-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic" secondary="PP; for-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I begged for release.</EXAMPLE>
             </EXAMPLES>
@@ -129,7 +129,7 @@
 		<PREP value="for">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Proposition">
+                <NP value="Topic">
                     <SYNRESTRS>
 			<SYNRESTR Value="-" type="sentential"/>
 		    </SYNRESTRS>
@@ -141,7 +141,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Recipient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -159,7 +159,7 @@
                 <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Proposition">
+                <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
@@ -171,13 +171,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-SCwith-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-SC; with-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I begged to come.</EXAMPLE>
             </EXAMPLES>
@@ -186,7 +186,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="sc_to_inf"/>
                     </SYNRESTRS>
@@ -198,7 +198,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Recipient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

@@ -4,16 +4,19 @@
     <MEMBERS>
         <!--REMOVED "bury" moved to 9.1-1-->
         <MEMBER name="arrange" wn="arrange%2:35:00" grouping="arrange.01"/>
-        <MEMBER name="immerse" wn="immerse%2:35:00" grouping=""/>
+        <MEMBER name="emplace" wn="emplace%2:35:00" grouping=""/>
+        <MEMBER name="immerse" wn="immerse%2:35:00" grouping="immerse.01"/>
         <!--MOVED "embed" to 9.1-1-->
-        <MEMBER name="implant" wn="implant%2:35:00 implant%2:35:02 implant%2:31:00" grouping=""/>
+        <MEMBER name="implant" wn="implant%2:35:00 implant%2:35:02 implant%2:31:00" grouping="implant.01 implant.02"/>
         <MEMBER name="lodge" wn="lodge%2:35:00" grouping="lodge.02 lodge.03"/>
         <MEMBER name="mount" wn="mount%2:35:00 mount%2:30:01" grouping="mount.01"/>
         <MEMBER name="position" wn="position%2:35:00" grouping="position.01"/>
         <MEMBER name="situate" wn="situate%2:35:00" grouping="situate.01"/>
-        <MEMBER name="sling" wn="sling%2:35:00" grouping=""/>
+        <MEMBER name="sling" wn="sling%2:35:00" grouping="sling.01"/>
         <MEMBER name="station" wn="station%2:33:00" grouping=""/>
         <MEMBER name="superimpose" wn="superimpose%2:35:00" grouping=""/>
+        <MEMBER name="tack_on" wn="tack%2:35:00 tack%2:35:06" grouping="tack.01"/>
+        <MEMBER name="wharf" wn="wharf%2:35:03 wharf%2:35:00" grouping="wharf.04"/>
     </MEMBERS>
     <THEMROLES>
         <!--Destination can also be realized locative adverb (here, there)-->
@@ -36,7 +39,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PPlocative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I put the book on/under/near the table.</EXAMPLE>
             </EXAMPLES>
@@ -88,7 +91,7 @@
             <!--some prepositions are verb specific (immerse can take 'under' or 'beneath' but not 'on')-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADVP" secondary="NP-ADVP-PREDhere/there" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADVP" secondary="NP-ADVP-PRED; here/there" xtag=""/>
             <!-- discourse has to provide specific Destination and configuration (Prep) of Theme wrt Destination-->
             <EXAMPLES>
                 <EXAMPLE>I put the book here/there.</EXAMPLE>
@@ -140,20 +143,22 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="put-9.1-1">
             <MEMBERS>
+                <MEMBER name="apply" wn="apply%2:35:00" grouping="apply.04"/>
                 <MEMBER name="bury" wn="bury%2:39:00 bury%2:41:00 bury%2:35:00 bury%2:35:02 bury%2:35:01" grouping="bury.01 bury.02"/>
                 <MEMBER name="deposit" wn="deposit%2:40:00" grouping="deposit.02"/>
                 <MEMBER name="embed" wn="embed%2:35:00" grouping="embed.01"/>
                 <MEMBER name="insert" wn="insert%2:35:00" grouping="insert.01"/>
-                <MEMBER name="install" wn="install%2:35:00" grouping="install.01"/>
+                <MEMBER name="install" wn="install%2:35:00" grouping="install.01 install.02"/>
                 <MEMBER name="park" wn="park%2:35:00 park%2:38:00" grouping="park.01 park.02"/>
                 <MEMBER name="plant" wn="plant%2:35:00 plant%2:40:00 plant%2:35:06 plant%2:31:00" grouping="plant.01 plant.03 plant.04"/>
+                <MEMBER name="reinstall" wn="reinstall%2:35:00" grouping=""/> 
                 <MEMBER name="stash" wn="stash%2:40:00" grouping=""/>
                 <MEMBER name="stow" wn="" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitivewithout Destination" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; without Destination" xtag="0.2"/>
                     <!-- Discourse has to provide specific Destination and configuration (Prep) of Theme wrt Destination-->
                     <EXAMPLES>
                         <EXAMPLE>I stashed the book.</EXAMPLE>
@@ -215,7 +220,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.destination NP" secondary="PP-NPupon/on-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.destination NP" secondary="PP-NP; upon/on-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>They put upon me a brilliant, red helm.</EXAMPLE>
                     </EXAMPLES>

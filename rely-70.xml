@@ -8,7 +8,7 @@
         <MEMBER name="bargain" wn="" grouping=""/>
         <MEMBER name="count" wn="count%2:31:02" grouping="count.04"/>
         <MEMBER name="figure" wn="figure%2:31:01" grouping="figure.01"/>
-        <MEMBER name="reckon" wn="reckon%2:31:03 " grouping="reckon.01"/>
+        <MEMBER name="reckon" wn="reckon%2:31:03" grouping="reckon.03"/>
         <MEMBER name="bet" wn="bet%2:31:00" grouping="bet.02"/>
         <MEMBER name="gamble" wn="gamble%2:41:00" grouping="gamble.01"/>
         <MEMBER name="take_a_chance" wn="take_a_chance%2:41:00" grouping=""/>
@@ -27,7 +27,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCon-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SC; on-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>She relies on coming back in time.</EXAMPLE>
             </EXAMPLES>
@@ -56,7 +56,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme NP S_ING" secondary="P-NP-INGon-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme NP S_ING" secondary="P-NP-ING; on-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>She relies on him coming back in time.</EXAMPLE>
             </EXAMPLES>
@@ -85,7 +85,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_INF" secondary="P-NP-TO-INFon-PP" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_INF" secondary="P-NP-TO-INF; on-PP" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>She relies on him to help.</EXAMPLE>
             </EXAMPLES>
@@ -114,7 +114,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-POSSINGon-PP" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-POSSING; on-PP" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>She relies on his helping.</EXAMPLE>
             </EXAMPLES>
@@ -143,7 +143,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPon-PP" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; on-PP" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>She relies on it.</EXAMPLE>
             </EXAMPLES>

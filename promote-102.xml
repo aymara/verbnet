@@ -7,8 +7,9 @@
         <MEMBER name="boost" wn="boost%2:41:00" grouping="boost.01"/>
         <MEMBER name="further" wn="further%2:41:00 further%2:41:01" grouping="further.01"/>
         <MEMBER name="encourage" wn="encourage%2:41:00" grouping="encourage.01"/>
-        <MEMBER name="invite" wn="invite%2:32:01" grouping="invite.02"/>
+        <MEMBER name="invite" wn="invite%2:32:01" grouping="invite.01"/>
         <MEMBER name="emphasize" wn="emphasize%2:32:00" grouping="emphasize.01"/>
+        <MEMBER name="underscore" wn="underscore%2:32:00" grouping="underscore.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

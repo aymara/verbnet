@@ -17,7 +17,7 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Source">
+        <THEMROLE type="Initial_Location">
             <SELRESTRS>
                 <SELRESTR Value="+" type="location"/>
             </SELRESTRS>
@@ -49,20 +49,20 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="PPsource-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location" secondary="PP; initial_location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The men mined the gold from the abandoned mine.</EXAMPLE>
             </EXAMPLES>
@@ -79,7 +79,7 @@
                         <SELRESTR Value="+" type="src"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Source">
+                <NP value="Initial_Location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -94,14 +94,14 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

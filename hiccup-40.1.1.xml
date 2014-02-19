@@ -18,7 +18,7 @@
         <MEMBER name="sniffle" wn="sniffle%2:29:00" grouping=""/>
         <MEMBER name="snore" wn="snore%2:29:00" grouping=""/>
         <MEMBER name="snuff" wn="snuff%2:29:02" grouping=""/>
-        <MEMBER name="snuffle" wn="snuffle%2:29:00" grouping=""/>
+        <MEMBER name="snuffle" wn="snuffle%2:29:00" grouping="snuffle.02"/>
         <MEMBER name="swallow" wn="swallow%2:34:00" grouping="swallow.01"/>
         <MEMBER name="wheeze" wn="wheeze%2:29:00" grouping=""/>
         <MEMBER name="yawn" wn="yawn%2:29:00" grouping=""/>

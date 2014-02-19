@@ -4,20 +4,21 @@
     <MEMBERS>
         <MEMBER name="count" wn="count%2:31:00" grouping="count.03"/>
         <MEMBER name="depict" wn="depict%2:36:00" grouping="depict.01"/>
-        <MEMBER name="detail" wn="" grouping=""/>
+        <MEMBER name="detail" wn="" grouping="detail.01"/>
         <MEMBER name="envision" wn="envision%2:36:00 envision%2:36:01" grouping="envision.01"/>
         <MEMBER name="interpret" wn="" grouping=""/>
+        <MEMBER name="moot" wn="moot%2:32:00" grouping=""/>
         <MEMBER name="peg" wn="" grouping=""/>
         <MEMBER name="picture" wn="picture%2:36:01" grouping="picture.01"/>
         <MEMBER name="pigeonhole" wn="pigeonhole%2:31:00" grouping=""/>
-        <MEMBER name="paint" wn="paint%2:36:00" grouping="paint.01"/>
+        <MEMBER name="paint" wn="paint%2:36:00" grouping="paint.05"/>
         <MEMBER name="recast" wn="" grouping=""/>
         <MEMBER name="redraw" wn="" grouping=""/>
         <MEMBER name="specify" wn="" grouping=""/>
         <MEMBER name="stereotype" wn="stereotype%2:31:00" grouping=""/>
         <MEMBER name="typecast" wn="typecast%2:31:00" grouping=""/>
         <MEMBER name="bill" wn="bill%2:32:00 bill%2:32:01" grouping="bill.02"/>
-        <MEMBER name="cast" wn="cast%2:36:01 cast%2:32:00" grouping="cast.02 cast.03"/>
+        <MEMBER name="cast" wn="cast%2:36:01 cast%2:32:00" grouping="cast.03"/>
         <MEMBER name="diagnose" wn="diagnose%2:31:01" grouping="diagnose.02"/>
         <MEMBER name="certify" wn="certify%2:41:02 certify%2:41:00 certify%2:32:01" grouping="certify.01 certify.03 certify.04"/>
         <MEMBER name="praise" wn="praise%2:32:00" grouping="praise.01"/>
@@ -26,12 +27,15 @@
         <MEMBER name="treat" wn="treat%2:31:00" grouping="treat.01 treat.05"/>
         <MEMBER name="rank" wn="rank%2:31:13" grouping="rank.01"/>
         <MEMBER name="take" wn="take%2:31:07 take%2:31:01 take%2:40:05" grouping="take.05 take.07 take.08"/>
-        <MEMBER name="perceive" wn="" grouping=""/>
+        <MEMBER name="perceive" wn="" grouping="perceive.03"/>
         <MEMBER name="judge" wn="" grouping=""/>
-        <MEMBER name="adopt" wn="adopt%2:40:02 adopt%2:40:00 adopt%2:41:01 adopt%2:31:04" grouping="adopt.01"/>
+        <MEMBER name="adopt" wn="adopt%2:40:02 adopt%2:40:00 adopt%2:41:01 adopt%2:31:04" grouping="adopt.02"/>
         <MEMBER name="class" wn="class%2:31:00" grouping=""/>
         <MEMBER name="classify" wn="classify%2:31:00 classify%2:31:01" grouping="classify.01"/>
         <MEMBER name="select" wn="select%2:31:00" grouping="select.01"/>
+        <MEMBER name="subselect" wn="" grouping=""/>
+        <MEMBER name="pidgeonhole" wn="pigeonhole%2:31:00" grouping=""/>
+        <MEMBER name="stamp" wn="stamp%2:31:00" grouping="stamp.05"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -46,13 +50,13 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Predicate">
+        <THEMROLE type="Attribute">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP S_ING" secondary="NP-P-ING-OCas-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP S_ING" secondary="NP-P-ING-OC; as-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He characterized him as being smart.</EXAMPLE>
             </EXAMPLES>
@@ -65,7 +69,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <LEX value="as"/>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="oc_ing"/>
                     </SYNRESTRS>
@@ -76,7 +80,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -101,7 +105,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <LEX value="as"/>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="small_clause"/>
                     </SYNRESTRS>
@@ -112,7 +116,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -124,7 +128,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.predicate" secondary="NP-PPas-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.attribute" secondary="NP-PP; as-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He characterized him as smart.</EXAMPLE>
             </EXAMPLES>
@@ -139,7 +143,7 @@
                 <PREP value="as">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
                     </SYNRESTRS>
@@ -150,7 +154,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -169,7 +173,10 @@
                 <MEMBER name="conceive" wn="conceive%2:31:00" grouping="conceive.01"/>
                 <MEMBER name="see" wn="see%2:36:00 see%2:31:00 see%2:31:13" grouping="see.02"/>
                 <MEMBER name="view" wn="view%2:31:00" grouping="view.01"/>
-                <MEMBER name="know" wn="know%2:31:01 know%2:31:03" grouping="know.01 know.03"/>
+                <MEMBER name="know" wn="know%2:31:01 know%2:31:03"
+                grouping="know.01 know.03"/>
+                <MEMBER name="underestimate" wn="underestimate%2:31:00
+                underestimate%2:31:01 underestimate%2:31:02" grouping="underestimate.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -242,9 +249,9 @@
                 <VNSUBCLASS ID="characterize-29.2-1-1">
                     <MEMBERS>
                         <MEMBER name="portray" wn="portray%2:32:00" grouping="portray.01"/>
-                        <MEMBER name="define" wn="" grouping=""/>
+                        <MEMBER name="define" wn="" grouping="define.01"/>
                         <MEMBER name="describe" wn="describe%2:32:00 describe%2:32:01" grouping="describe.01"/>
-                        <MEMBER name="represent" wn="" grouping=""/>
+                        <MEMBER name="represent" wn="" grouping="represent.05"/>
                         <MEMBER name="accept" wn="accept%2:31:00 accept%2:31:01 accept%2:31:03" grouping="accept.02 accept.03"/>
                         <MEMBER name="envisage" wn="envisage%2:36:00" grouping=""/>
                         <MEMBER name="identify" wn="identify%2:31:00 identify%2:31:02" grouping="identify.01"/>
@@ -297,7 +304,7 @@
                                     <SYNRESTRS/>
                                 </NP>
                                 <VERB/>
-                                <NP value="Predicate">
+                                <NP value="Theme">
                                     <SYNRESTRS>
                                         <SYNRESTR Value="+" type="what_extract"/>
                                     </SYNRESTRS>
@@ -308,7 +315,7 @@
                                     <ARGS>
                                         <ARG type="Event" value="during(E)"/>
                                         <ARG type="ThemRole" value="Agent"/>
-                                        <ARG type="ThemRole" value="Predicate"/>
+                                        <ARG type="ThemRole" value="Theme"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED value="cause">
@@ -317,7 +324,7 @@
                                         <ARG type="Event" value="E"/>
                                     </ARGS>
                                 </PRED>
-                                
+
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
@@ -330,7 +337,7 @@
                                     <SYNRESTRS/>
                                 </NP>
                                 <VERB/>
-                                <NP value="Predicate">
+                                <NP value="Theme">
                                     <SYNRESTRS>
                                         <SYNRESTR Value="+" type="what_inf"/>
                                     </SYNRESTRS>
@@ -341,7 +348,7 @@
                                     <ARGS>
                                         <ARG type="Event" value="during(E)"/>
                                         <ARG type="ThemRole" value="Agent"/>
-                                        <ARG type="ThemRole" value="Predicate"/>
+                                        <ARG type="ThemRole" value="Theme"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED value="cause">
@@ -459,7 +466,7 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="NP V what S_INF " secondary="WHAT-TO-INF" xtag=""/>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V what S_INF" secondary="WHAT-TO-INF" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>He revealed what to do.</EXAMPLE>
                             </EXAMPLES>

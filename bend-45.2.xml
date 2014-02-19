@@ -6,13 +6,15 @@
         <MEMBER name="bend" wn="?bend%2:38:00 bend%2:35:00" grouping="bend.02 bend.05"/>
         <MEMBER name="crease" wn="crease%2:35:00 crease%2:35:01 crease%2:30:10" grouping=""/>
         <MEMBER name="crinkle" wn="crinkle%2:35:00 crinkle%2:30:10" grouping=""/>
-        <MEMBER name="crumple" wn="crumple%2:35:00 crumple%2:30:10" grouping=""/>
+        <MEMBER name="crumple" wn="crumple%2:35:00 crumple%2:30:10" grouping="crumple.02"/>
         <MEMBER name="distend" wn="" grouping=""/>
+        <MEMBER name="flex" wn="flex%2:38:00 flex%2:35:02" grouping="flex.02"/>
         <MEMBER name="fold" wn="fold%2:35:00 fold%2:30:10" grouping="fold.01"/>
-        <MEMBER name="furrow" wn="" grouping=""/>
+        <MEMBER name="furrow" wn="" grouping="furrow.01 furrow.02"/>
+        <MEMBER name="hyperextend" wn="hyperextend%2:29:00" grouping=""/>
         <MEMBER name="roll" wn="" grouping=""/>
         <MEMBER name="round" wn="" grouping=""/>
-        <MEMBER name="rumple" wn="rumple%2:35:01 rumple%2:30:10" grouping=""/>
+        <MEMBER name="rumple" wn="rumple%2:35:01 rumple%2:30:10" grouping="rumple.02"/>
         <MEMBER name="scrunch" wn="" grouping=""/>
         <MEMBER name="splay" wn="" grouping=""/>
         <MEMBER name="straighten" wn="" grouping=""/>
@@ -23,6 +25,7 @@
         <MEMBER name="unwind" wn="" grouping=""/>
         <MEMBER name="warp" wn="" grouping=""/>
         <MEMBER name="wrinkle" wn="wrinkle%2:35:01 ?wrinkle%2:35:00 wrinkle%2:35:02 wrinkle%2:30:10" grouping=""/>
+        <MEMBER name="unbend" wn="unbend%2:38:00 unbend%2:35:00 unbend%2:30:00" grouping="unbend.01 unbend.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -40,12 +43,15 @@
                 <SELRESTR Value="+" type="solid"/>
             </SELRESTRS>
         </THEMROLE>
-    </THEMROLES>
+        <THEMROLE type="Result">
+                <SELRESTRS/>
+        </THEMROLE>
+        </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.patient" secondary="Basic TransitiveCausative" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.patient" secondary="Basic Transitive; Causative" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>Tony bent the rock.</EXAMPLE>
+                <EXAMPLE>Tony bent the rod.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -80,9 +86,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Tony bent the rock with pliers.</EXAMPLE>
+                <EXAMPLE>Tony bent the rod with pliers.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -130,7 +136,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP.patient V" secondary="IntransitiveInchoative" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP.patient V" secondary="Intransitive; Inchoative" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>The rod bent.</EXAMPLE>
             </EXAMPLES>
@@ -208,7 +214,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJPResultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Tony folded the flaps open.</EXAMPLE>
             </EXAMPLES>
@@ -220,7 +226,9 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                 <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="cause">
@@ -253,7 +261,7 @@
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Tony bent the rod into a U.</EXAMPLE>
             </EXAMPLES>
@@ -268,7 +276,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -305,7 +313,7 @@
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique PP.instrument" secondary="NP-PP-PPResult-PP, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Tony bent the rod into a U with pliers.</EXAMPLE>
             </EXAMPLES>
@@ -320,7 +328,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>

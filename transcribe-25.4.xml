@@ -3,24 +3,25 @@
 <VNCLASS ID="transcribe-25.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <!--In most predicates, such as location, Theme really means image_of(Theme)-->
     <MEMBERS>
+        <MEMBER name="chart" wn="chart%2:31:13 chart%2:36:04" grouping="chart.01"/>
         <MEMBER name="chronicle" wn="chronicle%2:32:00" grouping=""/>
-        <MEMBER name="copy" wn="copy%2:36:05 copy%2:36:01" grouping="copy.01 copy.02"/>
+        <MEMBER name="copy" wn="copy%2:36:05 copy%2:36:01" grouping="copy.01"/>
         <MEMBER name="document" wn="document%2:32:00" grouping="document.01"/>
         <MEMBER name="duplicate" wn="duplicate%2:36:01" grouping="duplicate.02"/>
         <MEMBER name="film" wn="film%2:32:00 film%2:36:00" grouping="film.01"/>
         <MEMBER name="forge" wn="forge%2:36:01" grouping="forge.02"/>
-        <MEMBER name="imitate" wn="" grouping=""/>
         <MEMBER name="microfilm" wn="microfilm%2:36:00" grouping=""/>
         <MEMBER name="photocopy" wn="photocopy%2:36:00" grouping=""/>
         <MEMBER name="photograph" wn="photograph%2:32:00" grouping="photograph.01"/>
         <MEMBER name="record" wn="record%2:32:01" grouping="record.01"/>
-        <MEMBER name="tally" wn="" grouping=""/>
+        <MEMBER name="tally" wn="" grouping="tally.01"/>
         <MEMBER name="tally_up" wn="" grouping=""/>
         <MEMBER name="tape" wn="tape%2:32:03 tape%2:32:00" grouping="tape.02"/>
         <MEMBER name="televise" wn="televise%2:32:00" grouping="televise.01"/>
-        <MEMBER name="transcribe" wn="transcribe%2:32:01 transcribe%2:32:00 transcribe%2:36:00 transcribe%2:32:02" grouping=""/>
+        <MEMBER name="transcribe" wn="transcribe%2:32:01 transcribe%2:32:00 transcribe%2:36:00 transcribe%2:32:02" grouping="transcribe.01 transcribe.02 transcribe.03"/>
         <MEMBER name="type" wn="type%2:32:00" grouping="type.01"/>
-    </MEMBERS>
+        <MEMBER name="videotape" wn="videotape%2:32:00" grouping=""/>
+   </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
             <SELRESTRS>
@@ -74,7 +75,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PPlocative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The secretary transcribed the speech into the record.</EXAMPLE>
             </EXAMPLES>

@@ -26,7 +26,7 @@
         <MEMBER name="rind" wn="" grouping=""/>
         <MEMBER name="scale" wn="scale%2:35:00" grouping="scale.04"/>
         <MEMBER name="scalp" wn="scalp%2:30:00" grouping=""/>
-        <MEMBER name="seed" wn="seed%2:30:01" grouping=""/>
+        <MEMBER name="seed" wn="seed%2:30:01" grouping="seed.07"/>
         <MEMBER name="shell" wn="shell%2:30:00" grouping="shell.01"/>
         <MEMBER name="shuck" wn="shuck%2:30:00" grouping=""/>
         <MEMBER name="skin" wn="skin%2:35:01 skin%2:35:00" grouping=""/>

@@ -6,6 +6,7 @@
         <!--members specify Pos argument in position predicate-->
         <MEMBER name="lay" wn="lay%2:35:01 lay%2:35:00" grouping="lay.01"/>
         <MEMBER name="prop" wn="prop%2:35:00" grouping="prop.01"/>
+        <MEMBER name="underlay" wn="underlay%2:38:00 underlay%2:35:00 underlay%2:34:00" grouping="underlay.01"/>
     </MEMBERS>
     <THEMROLES>
         <!--Destination can also be realized as a locative adverb ("here, there")-->
@@ -28,7 +29,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PPlocative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; locative-PP" xtag=""/>
             <!-- many verbs cross-listed with spatial_configuration-47.6, where the change in-->
             <!-- position of Theme is emphasized; here we emphasize change in Destination-->
             <EXAMPLES>
@@ -88,7 +89,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADVP" secondary="NP-ADVP-PREDhere/there" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADVP" secondary="NP-ADVP-PRED; here/there" xtag=""/>
             <!-- discourse has to provide specific Destination and configuration (Prep) of Theme wrt Destination-->
             <EXAMPLES>
                 <EXAMPLE>Cheryl stood the books there.</EXAMPLE>
@@ -149,9 +150,9 @@
             <MEMBERS>
                 <MEMBER name="dangle" wn="dangle%2:42:00 dangle%2:35:00" grouping=""/>
                 <MEMBER name="hang" wn="hang%2:35:03 hang%2:35:00 hang%2:42:01 hang%2:36:00 hang%2:35:04 hang%2:30:00" grouping="hang.01"/>
-                <MEMBER name="lean" wn="lean%2:38:00 lean%2:35:00" grouping="lean.01 lean.02"/>
+                <MEMBER name="lean" wn="lean%2:38:00 lean%2:35:00" grouping="lean.02"/>
                 <MEMBER name="perch" wn="perch%2:35:00 perch%2:35:10" grouping=""/>
-                <MEMBER name="rest" wn="rest%2:35:04 rest%2:35:01 rest%2:35:02" grouping="rest.01 rest.02 rest.03"/>
+                <MEMBER name="rest" wn="rest%2:35:04 rest%2:35:01 rest%2:35:02" grouping="rest.02"/>
                 <MEMBER name="sit" wn="sit%2:35:00 sit%2:42:00 sit%2:38:00 sit%2:35:01" grouping="sit.01 sit.02"/>
                 <MEMBER name="stand" wn="stand%2:42:03 stand%2:35:01" grouping="stand.01 stand.02"/>
                 <MEMBER name="suspend" wn="suspend%2:35:00" grouping="suspend.01"/>
@@ -159,7 +160,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.destination" secondary="PPDestination-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.destination" secondary="PP; Destination-PP" xtag=""/>
                     <!-- The verb is used to describe a state rather than an action-->
                     <EXAMPLES>
                         <EXAMPLE>The books lean against the shelf.</EXAMPLE>

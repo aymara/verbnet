@@ -5,7 +5,7 @@
         <MEMBER name="assure" wn="assure%2:32:02" grouping="assure.01"/>
         <MEMBER name="guarantee" wn="guarantee%2:32:01" grouping="guarantee.01"/>
         <MEMBER name="promise" wn="promise%2:32:00" grouping="promise.01"/>
-        <MEMBER name="ascertain" wn="" grouping=""/>
+        <MEMBER name="ascertain" wn="" grouping="ascertain.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -129,9 +129,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient that S" secondary="PP-THAT-Sto-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient that S" secondary="PP-THAT-S; to-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>I promised to him that he would arrive in time.</EXAMPLE>                                                              
+                <EXAMPLE>I promised to him that he would arrive in time.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -168,7 +168,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I promised that I would come.</EXAMPLE>
             </EXAMPLES>

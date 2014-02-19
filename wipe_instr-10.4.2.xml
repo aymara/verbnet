@@ -10,6 +10,7 @@
         <MEMBER name="plough" wn="plough%2:36:00" grouping=""/>
         <MEMBER name="sandpaper" wn="sandpaper%2:35:00" grouping=""/>
         <MEMBER name="sponge" wn="sponge%2:35:00 sponge%2:35:01" grouping=""/>
+        <MEMBER name="squeegee" wn="squeegee%2:35:00" grouping=""/>
         <MEMBER name="towel" wn="towel%2:35:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
@@ -26,7 +27,7 @@
                 <SELRESTR Value="-" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Source">
+        <THEMROLE type="Initial_Location">
             <SELRESTRS>
                 <SELRESTR Value="+" type="location"/>
             </SELRESTRS>
@@ -37,10 +38,13 @@
                 <SELRESTR Value="-" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Result">
+            <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PPSource-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carla shoveled the snow from the walk.</EXAMPLE>
             </EXAMPLES>
@@ -57,7 +61,7 @@
                         <SELRESTR Value="+" type="src"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Source">
+                <NP value="Initial_Location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -72,20 +76,20 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.source" secondary="TransitiveSource Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.initial_location" secondary="Transitive; Initial_Location Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Carla shoveled the walk.</EXAMPLE>
             </EXAMPLES>
@@ -94,7 +98,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Source">
+                <NP value="Initial_Location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -109,14 +113,14 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -124,7 +128,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.2.1" primary="NP V" secondary="Unspecified Object" xtag=""/>
             <!-- Theme comes from the verb (wrinkles, liquid, snow/dirt, dust)-->
-            <!-- Note: But at the end of an "iron" event, does it make sense that the wrinkles are not located at the source?  Maybe?-->
+            <!-- Note: But at the end of an "iron" event, does it make sense that the wrinkles are not located at the initial_location?  Maybe?-->
             <EXAMPLES>
                 <EXAMPLE>Carla was vacuuming.</EXAMPLE>
             </EXAMPLES>
@@ -145,69 +149,20 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.2.1" primary="NP V PP.oblique" secondary="PPlocative-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Carla mopped under the furniture.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <PREP>
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="loc"/>
-                    </SELRESTRS>
-                </PREP>
-                <NP value="Oblique">
-                    <SELRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="location">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
-                    </ARGS>
-                </PRED>
-                <PRED bool="!" value="location">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="?Source"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="Prep">
-                    <ARGS>
-                        <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="?Source"/>
-                        <ARG type="ThemRole" value="Oblique"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP-Result" secondary="NP-ADJPResultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP-Result" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carla shoveled the walk clean.</EXAMPLE>
             </EXAMPLES>
@@ -216,10 +171,12 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Source">
+                <NP value="Initial_Location">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="cause">
@@ -232,20 +189,20 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="Pred">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -258,7 +215,7 @@
                 <MEMBER name="comb" wn="?comb%2:29:00" grouping="comb.01"/>
                 <MEMBER name="hose" wn="hose%2:30:00" grouping=""/>
                 <MEMBER name="mop" wn="mop%2:35:01" grouping=""/>
-                <MEMBER name="plow" wn="plow%2:36:00" grouping="plow.01"/>
+                <MEMBER name="plow" wn="plow%2:36:00" grouping="plow.01 plow.03"/>
                 <MEMBER name="rake" wn="rake%2:35:01 rake%2:35:00" grouping="rake.01 rake.02"/>
                 <MEMBER name="shear" wn="shear%2:35:00 shear%2:35:02 shear%2:35:01" grouping=""/>
                 <MEMBER name="shovel" wn="shovel%2:35:00" grouping=""/>
@@ -272,7 +229,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.destination" secondary="NP-PPDestination-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.destination" secondary="NP-PP; Destination-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>He plowed the snow back into the ditch.</EXAMPLE>
                     </EXAMPLES>

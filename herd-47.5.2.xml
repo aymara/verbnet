@@ -13,9 +13,10 @@
         <MEMBER name="flock" wn="flock%2:38:01 flock%2:38:00" grouping="flock.01"/>
         <MEMBER name="gather" wn="gather%2:35:00 gather%2:41:00 gather%2:30:00 gather%2:41:02" grouping="gather.01 gather.02 gather.03"/>
         <MEMBER name="group" wn="group%2:31:00 group%2:33:00" grouping="group.01"/>
-        <MEMBER name="herd" wn="herd%2:38:01 herd%2:38:00 herd%2:42:00" grouping=""/>
+        <MEMBER name="herd" wn="herd%2:38:01 herd%2:38:00 herd%2:42:00" grouping="herd.01"/>
         <MEMBER name="huddle" wn="huddle%2:38:01" grouping=""/>
         <MEMBER name="mass" wn="mass%2:38:00" grouping="mass.01"/>
+        <MEMBER name="reconvene" wn="reconvene%2:38:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -63,7 +64,7 @@
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2" primary="NP V NP.theme" secondary="NPCausative variant" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="1.1.2" primary="NP V NP.theme" secondary="NP; Causative variant" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The teacher gathered the kids.</EXAMPLE>
             </EXAMPLES>

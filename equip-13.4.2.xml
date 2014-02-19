@@ -79,6 +79,7 @@
             <MEMBERS>
                 <MEMBER name="arm" wn="arm%2:33:00 arm%2:40:00" grouping="arm.01"/>
                 <MEMBER name="equip" wn="equip%2:40:00" grouping="equip.01"/>
+                <MEMBER name="outfit" wn="outfit%2:40:00" grouping=""/>
                 <MEMBER name="rearm" wn="rearm%2:40:00 rearm%2:33:00" grouping=""/>
                 <MEMBER name="redress" wn="" grouping=""/>
                 <MEMBER name="regale" wn="regale%2:34:00" grouping=""/>
@@ -89,7 +90,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.recipient" secondary="TransitiveRecipient Object" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.recipient" secondary="Transitive; Recipient Object" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>Brown equipped his soldiers.</EXAMPLE>
                     </EXAMPLES>
@@ -137,6 +138,7 @@
                     <MEMBERS>
                         <MEMBER name="armor" wn="armor%2:40:00" grouping=""/>
                         <MEMBER name="encumber" wn="" grouping=""/>
+                        <MEMBER name="fortify" wn="fortify%2:33:00" grouping="fortify.03"/>
                         <MEMBER name="overburden" wn="overburden%2:35:00" grouping=""/>
                         <MEMBER name="weight" wn="weight%2:35:00" grouping="weight.01"/>
                         <MEMBER name="burden" wn="burden%2:35:00 burden%2:32:00" grouping=""/>
@@ -145,7 +147,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="NP.theme V NP" secondary="TransitiveTheme Subject" xtag=""/>
+                            <DESCRIPTION descriptionNumber="" primary="NP.theme V NP" secondary="Transitive; Theme Subject" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>The huge load burdened the mule.</EXAMPLE>
                             </EXAMPLES>

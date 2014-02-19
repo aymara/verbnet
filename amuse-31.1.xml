@@ -8,9 +8,9 @@
         <MEMBER name="affront" wn="affront%2:32:00" grouping=""/>
         <MEMBER name="aggravate" wn="aggravate%2:37:00" grouping="aggravate.01"/>
         <MEMBER name="aggrieve" wn="" grouping=""/>
-        <MEMBER name="agitate" wn="agitate%2:37:00" grouping=""/>
+        <MEMBER name="agitate" wn="agitate%2:37:00" grouping="agitate.01"/>
         <MEMBER name="agonize" wn="agonize%2:37:01 agonize%2:37:00" grouping=""/>
-        <MEMBER name="alarm" wn="alarm%2:37:00" grouping="alarm.01"/>
+        <MEMBER name="alarm" wn="alarm%2:37:00" grouping="alarm.01 alarm.02"/>
         <MEMBER name="alienate" wn="alienate%2:37:00" grouping="alienate.01"/>
         <MEMBER name="amaze" wn="amaze%2:31:00 amaze%2:31:01" grouping="amaze.01"/>
         <MEMBER name="amuse" wn="amuse%2:41:00 amuse%2:32:00" grouping="amuse.01"/>
@@ -28,10 +28,11 @@
         <MEMBER name="befuddle" wn="" grouping=""/>
         <MEMBER name="beguile" wn="beguile%2:41:00 beguile%2:37:00" grouping=""/>
         <MEMBER name="bewilder" wn="bewilder%2:31:00 bewilder%2:37:00" grouping=""/>
-        <MEMBER name="bewitch" wn="bewitch%2:37:00 bewitch%2:32:00" grouping=""/>
-        <MEMBER name="boggle" wn="boggle%2:38:00 boggle%2:31:00" grouping=""/>
+        <MEMBER name="bewitch" wn="bewitch%2:37:00 bewitch%2:32:00" grouping="bewitch.01"/>
+        <MEMBER name="boggle" wn="boggle%2:38:00 boggle%2:31:00" grouping="boggle.01 boggle.02"/>
         <MEMBER name="bore" wn="bore%2:37:00" grouping=""/>
         <MEMBER name="bother" wn="bother%2:37:00 bother%2:37:03 bother%2:37:02" grouping="bother.02"/>
+        <MEMBER name="browbeat" wn="browbeat%2:37:00 browbeat%2:32:00" grouping=""/>
         <MEMBER name="bug" wn="bug%2:37:00" grouping="bug.01"/>
         <MEMBER name="calm" wn="calm%2:37:00" grouping="calm.01"/>
         <MEMBER name="captivate" wn="captivate%2:37:00" grouping=""/>
@@ -39,6 +40,7 @@
         <MEMBER name="charm" wn="charm%2:37:00" grouping="charm.01"/>
         <MEMBER name="cheer" wn="cheer%2:32:03 cheer%2:32:00" grouping="cheer.01 cheer.02"/>
         <MEMBER name="chill" wn="chill%2:37:00" grouping="chill.01"/>
+        <MEMBER name="cloy" wn="cloy%2:40:00" grouping=""/>
         <MEMBER name="comfort" wn="comfort%2:37:01" grouping="comfort.01"/>
         <MEMBER name="concern" wn="concern%2:42:01" grouping="concern.02"/>
         <MEMBER name="confound" wn="confound%2:31:02" grouping=""/>
@@ -55,7 +57,7 @@
         <MEMBER name="deject" wn="deject%2:37:00" grouping=""/>
         <MEMBER name="delight" wn="delight%2:37:00 delight%2:37:02" grouping="delight.01"/>
         <MEMBER name="demolish" wn="demolish%2:37:00" grouping="demolish.02"/>
-        <MEMBER name="demoralize" wn="demoralize%2:37:00" grouping=""/>
+        <MEMBER name="demoralize" wn="demoralize%2:37:00" grouping="demoralize.02"/>
         <MEMBER name="depress" wn="depress%2:37:00" grouping="depress.01"/>
         <MEMBER name="devastate" wn="devastate%2:30:01" grouping="devastate.02"/>
         <MEMBER name="disappoint" wn="disappoint%2:37:00" grouping="disappoint.01"/>
@@ -65,10 +67,11 @@
         <MEMBER name="disconcert" wn="disconcert%2:37:02 disconcert%2:37:01" grouping=""/>
         <MEMBER name="discompose" wn="discompose%2:37:00" grouping=""/>
         <MEMBER name="discourage" wn="discourage%2:37:00" grouping="discourage.01"/>
-        <MEMBER name="disgrace" wn="disgrace%2:41:00 disgrace%2:37:00" grouping=""/>
+        <MEMBER name="disgrace" wn="disgrace%2:41:00 disgrace%2:37:00" grouping="disgrace.01"/>
         <MEMBER name="disgruntle" wn="disgruntle%2:37:00" grouping=""/>
         <MEMBER name="disgust" wn="disgust%2:39:00 disgust%2:37:00" grouping="disgust.01"/>
         <MEMBER name="dishearten" wn="dishearten%2:37:00" grouping=""/>
+        <MEMBER name="dishonour" wn="dishonour%1:26:00" grouping="dishonour.01"/>
         <MEMBER name="disillusion" wn="disillusion%2:37:00" grouping=""/>
         <MEMBER name="dismay" wn="dismay%2:37:01 dismay%2:37:00" grouping=""/>
         <MEMBER name="dispirit" wn="dispirit%2:37:00" grouping=""/>
@@ -78,15 +81,16 @@
         <MEMBER name="distract" wn="distract%2:37:02" grouping="distract.01"/>
         <MEMBER name="distress" wn="distress%2:37:00" grouping=""/>
         <MEMBER name="disturb" wn="disturb%2:37:00" grouping="disturb.02"/>
-        <MEMBER name="divert" wn="" grouping=""/>
+        <MEMBER name="divert" wn="" grouping="divert.02"/>
         <MEMBER name="dumbfound" wn="dumbfound%2:31:00" grouping=""/>
         <MEMBER name="elate" wn="elate%2:37:00" grouping=""/>
-        <MEMBER name="electrify" wn="electrify%2:37:00" grouping=""/>
+        <MEMBER name="electrify" wn="electrify%2:37:00" grouping="electrify.01"/>
         <MEMBER name="embarrass" wn="embarrass%2:37:00" grouping="embarrass.01"/>
         <MEMBER name="embolden" wn="embolden%2:37:00" grouping=""/>
         <MEMBER name="enchant" wn="enchant%2:37:01" grouping="enchant.01"/>
         <MEMBER name="encourage" wn="encourage%2:37:00" grouping="encourage.02"/>
         <MEMBER name="enervate" wn="" grouping=""/>
+        <MEMBER name="enflame" wn="" grouping=""/> 
         <MEMBER name="engage" wn="engage%2:31:00" grouping="engage.01"/>
         <MEMBER name="engross" wn="engross%2:31:02 engross%2:31:00" grouping=""/>
         <MEMBER name="enlighten" wn="enlighten%2:32:01" grouping="enlighten.02"/>
@@ -98,7 +102,7 @@
         <MEMBER name="enthuse" wn="enthuse%2:37:00" grouping=""/>
         <MEMBER name="entice" wn="entice%2:32:00" grouping="entice.01"/>
         <MEMBER name="entrance" wn="entrance%2:37:00" grouping=""/>
-        <MEMBER name="exasperate" wn="exasperate%2:37:00 exasperate%2:37:01" grouping=""/>
+        <MEMBER name="exasperate" wn="exasperate%2:37:00 exasperate%2:37:01" grouping="exasperate.01"/>
         <MEMBER name="excite" wn="excite%2:37:02 excite%2:37:03 excite%2:37:01 excite%2:37:00" grouping="excite.01"/>
         <MEMBER name="exhaust" wn="exhaust%2:29:00" grouping="exhaust.01"/>
         <MEMBER name="exhilarate" wn="exhilarate%2:37:00" grouping=""/>
@@ -108,16 +112,19 @@
         <MEMBER name="flabbergast" wn="flabbergast%2:31:00" grouping=""/>
         <MEMBER name="flatter" wn="flatter%2:32:00" grouping=""/>
         <MEMBER name="floor" wn="floor%2:37:00" grouping=""/>
+        <MEMBER name="flummox" wn="flummox%2:31:00" grouping=""/>
         <MEMBER name="fluster" wn="fluster%2:37:01 fluster%2:37:00" grouping=""/>
+        <MEMBER name="fox" wn="fox%2:31:00" grouping="fox.01"/>
         <MEMBER name="frighten" wn="frighten%2:37:00" grouping="frighten.01"/>
         <MEMBER name="frustrate" wn="frustrate%2:37:00" grouping="frustrate.01"/>
+        <MEMBER name="fuddle" wn="fuddle%2:31:00" grouping="fuddle.02"/>
         <MEMBER name="gall" wn="gall%2:37:00" grouping=""/>
         <MEMBER name="galvanize" wn="galvanize%2:37:00" grouping="galvanize.01"/>
         <MEMBER name="gladden" wn="gladden%2:37:01 gladden%2:37:00" grouping=""/>
         <MEMBER name="gratify" wn="gratify%2:37:00 gratify%2:34:00" grouping=""/>
         <MEMBER name="grieve" wn="grieve%2:37:01" grouping=""/>
         <MEMBER name="harass" wn="harass%2:37:00" grouping="harass.01"/>
-        <MEMBER name="harm" wn="" grouping=""/>
+        <MEMBER name="harm" wn="" grouping="harm.01"/>
         <MEMBER name="haunt" wn="haunt%2:37:00" grouping="haunt.01"/>
         <MEMBER name="hearten" wn="hearten%2:37:00" grouping=""/>
         <MEMBER name="horrify" wn="horrify%2:37:01" grouping=""/>
@@ -134,7 +141,7 @@
         <MEMBER name="insult" wn="insult%2:32:00" grouping=""/>
         <MEMBER name="interest" wn="interest%2:37:00" grouping="interest.01"/>
         <MEMBER name="intimidate" wn="intimidate%2:37:00" grouping="intimidate.01"/>
-        <MEMBER name="intoxicate" wn="intoxicate%2:37:00" grouping=""/>
+        <MEMBER name="intoxicate" wn="intoxicate%2:37:00" grouping="intoxicate.01"/>
         <MEMBER name="intrigue" wn="intrigue%2:42:00" grouping="intrigue.01"/>
         <MEMBER name="invigorate" wn="invigorate%2:30:01 invigorate%2:29:00" grouping=""/>
         <MEMBER name="irk" wn="irk%2:37:00" grouping=""/>
@@ -145,9 +152,10 @@
         <MEMBER name="jolt" wn="jolt%2:37:00" grouping="jolt.02"/>
         <MEMBER name="lull" wn="lull%2:37:01" grouping=""/>
         <MEMBER name="madden" wn="madden%2:37:01 madden%2:37:00" grouping=""/>
-        <MEMBER name="menace" wn="" grouping=""/>
+        <MEMBER name="menace" wn="" grouping="menace.02"/>
         <MEMBER name="mesmerize" wn="mesmerize%2:32:00" grouping=""/>
         <MEMBER name="miff" wn="miff%2:37:00" grouping=""/>
+        <MEMBER name="misguide" wn="misguide%2:38:00 misguide%2:32:00" grouping=""/>  
         <MEMBER name="molest" wn="" grouping=""/>
         <MEMBER name="mollify" wn="mollify%2:37:00" grouping=""/>
         <MEMBER name="mortify" wn="mortify%2:37:02" grouping=""/>
@@ -156,9 +164,10 @@
         <MEMBER name="mystify" wn="mystify%2:31:00" grouping=""/>
         <MEMBER name="nauseate" wn="nauseate%2:37:00" grouping=""/>
         <MEMBER name="nettle" wn="nettle%2:37:00" grouping=""/>
+        <MEMBER name="nonplus" wn="nonplus%2:31:00" grouping=""/>
         <MEMBER name="numb" wn="numb%2:39:00" grouping=""/>
         <MEMBER name="obsess" wn="obsess%2:37:00" grouping="obsess.01"/>
-        <MEMBER name="occupy" wn="" grouping=""/>
+        <MEMBER name="occupy" wn="" grouping="occupy.02"/>
         <MEMBER name="offend" wn="offend%2:37:01 offend%2:37:02 offend%2:37:00" grouping="offend.01"/>
         <MEMBER name="outrage" wn="outrage%2:37:01" grouping=""/>
         <MEMBER name="overawe" wn="overawe%2:37:00" grouping=""/>
@@ -174,9 +183,10 @@
         <MEMBER name="plague" wn="plague%2:37:00" grouping="plague.01"/>
         <MEMBER name="please" wn="please%2:37:00" grouping="please.01"/>
         <MEMBER name="preoccupy" wn="preoccupy%2:37:00" grouping="preoccupy.01"/>
-        <MEMBER name="provoke" wn="provoke%2:37:00 provoke%2:37:01" grouping="provoke.01 provoke.02"/>
+        <MEMBER name="provoke" wn="provoke%2:37:00 provoke%2:37:01" grouping="provoke.02"/>
         <MEMBER name="puzzle" wn="puzzle%2:31:00" grouping="puzzle.01"/>
         <MEMBER name="quench" wn="" grouping=""/>
+        <MEMBER name="rag" wn="rag%2:37:00 rag%2:37:01 rag%2:32:01 rag%2:32:00" grouping="rag.01"/>
         <MEMBER name="rankle" wn="rankle%2:37:00" grouping=""/>
         <MEMBER name="ravish" wn="" grouping=""/>
         <MEMBER name="reassure" wn="reassure%2:37:00 reassure%2:32:00" grouping="reassure.01"/>
@@ -184,11 +194,11 @@
         <MEMBER name="refresh" wn="refresh%2:30:00" grouping="refresh.02"/>
         <MEMBER name="rejuvenate" wn="" grouping=""/>
         <MEMBER name="relax" wn="relax%2:29:01" grouping="relax.01"/>
-        <MEMBER name="relieve" wn="relieve%2:37:00 relieve%2:40:01" grouping="relieve.01 relieve.02 relieve.03 relieve.04"/>
+        <MEMBER name="relieve" wn="relieve%2:37:00 relieve%2:40:01" grouping="relieve.01 relieve.04"/>
         <MEMBER name="repel" wn="repel%2:37:00 repel%2:39:00" grouping="repel.02"/>
         <MEMBER name="repulse" wn="repulse%2:37:00" grouping=""/>
         <MEMBER name="revitalize" wn="revitalize%2:29:00" grouping=""/>
-        <MEMBER name="revolt" wn="revolt%2:39:00 revolt%2:37:00" grouping=""/>
+        <MEMBER name="revolt" wn="revolt%2:39:00 revolt%2:37:00" grouping="revolt.02"/>
         <MEMBER name="rile" wn="rile%2:37:00" grouping=""/>
         <MEMBER name="ruffle" wn="ruffle%2:37:00 ruffle%2:37:01" grouping="ruffle.02"/>
         <MEMBER name="sadden" wn="sadden%2:37:01" grouping=""/>
@@ -197,7 +207,7 @@
         <MEMBER name="scandalize" wn="scandalize%2:37:00" grouping=""/>
         <MEMBER name="scare" wn="scare%2:37:00 scare%2:37:04" grouping="scare.01"/>
         <MEMBER name="shake" wn="shake%2:37:00" grouping="shake.02"/>
-        <MEMBER name="shame" wn="shame%2:41:00 shame%2:37:00" grouping=""/>
+        <MEMBER name="shame" wn="shame%2:41:00 shame%2:37:00" grouping="shame.01"/>
         <MEMBER name="shock" wn="shock%2:37:01 shock%2:37:02 shock%2:37:00" grouping="shock.01"/>
         <MEMBER name="sicken" wn="sicken%2:37:00" grouping="sicken.01"/>
         <MEMBER name="sober" wn="sober%2:30:02" grouping=""/>
@@ -212,7 +222,7 @@
         <MEMBER name="stir" wn="stir%2:37:01 stir%2:36:00" grouping="stir.02"/>
         <MEMBER name="strike" wn="strike%2:37:00" grouping="strike.01"/>
         <MEMBER name="stump" wn="stump%2:31:00" grouping="stump.01"/>
-        <MEMBER name="stun" wn="stun%2:39:00" grouping="stun.01"/>
+        <MEMBER name="stun" wn="stun%2:39:00" grouping="stun.02"/>
         <MEMBER name="stupefy" wn="stupefy%2:39:00 stupefy%2:31:00" grouping=""/>
         <MEMBER name="surprise" wn="surprise%2:31:00" grouping="surprise.01"/>
         <MEMBER name="tantalize" wn="tantalize%2:32:00" grouping=""/>
@@ -228,7 +238,7 @@
         <MEMBER name="tire" wn="tire%2:37:01" grouping="tire.02"/>
         <MEMBER name="titillate" wn="titillate%2:37:00" grouping=""/>
         <MEMBER name="torment" wn="torment%2:37:00 torment%2:37:01" grouping="torment.01"/>
-        <MEMBER name="torture" wn="" grouping=""/>
+        <MEMBER name="torture" wn="" grouping="torture.01 torture.02"/>
         <MEMBER name="touch" wn="touch%2:37:00" grouping="touch.03"/>
         <MEMBER name="transfix" wn="" grouping=""/>
         <MEMBER name="transport" wn="transport%2:37:00" grouping="transport.02"/>
@@ -236,7 +246,7 @@
         <MEMBER name="try" wn="try%2:37:01" grouping="try.04"/>
         <MEMBER name="unnerve" wn="unnerve%2:37:00" grouping=""/>
         <MEMBER name="unsettle" wn="unsettle%2:37:00" grouping=""/>
-        <MEMBER name="uplift" wn="uplift%2:37:00" grouping=""/>
+        <MEMBER name="uplift" wn="uplift%2:37:00" grouping="uplift.01"/>
         <MEMBER name="upset" wn="upset%2:37:01 upset%2:37:00" grouping="upset.02"/>
         <MEMBER name="vex" wn="vex%2:37:00" grouping=""/>
         <MEMBER name="weary" wn="weary%2:29:00" grouping=""/>
@@ -244,6 +254,7 @@
         <MEMBER name="wound" wn="wound%2:37:00" grouping=""/>
         <MEMBER name="wow" wn="wow%2:37:00" grouping=""/>
         <MEMBER name="roil" wn="" grouping=""/>
+        <MEMBER name="smite" wn="smite%2:37:00" grouping="smite.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -251,8 +262,11 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Cause">
+        <THEMROLE type="Stimulus">
             <SELRESTRS/>
+        </THEMROLE>
+         <THEMROLE type="Result">
+                <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
@@ -262,7 +276,7 @@
                 <EXAMPLE>The clown amused the children.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -273,7 +287,7 @@
             <SEMANTICS>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                         <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>
@@ -319,7 +333,7 @@
                 <EXAMPLE>The clown amused.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -327,7 +341,7 @@
             <SEMANTICS>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                         <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>
@@ -341,56 +355,17 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.oblique" secondary="NP-PPwith-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>The clown amused the children with his antics.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Cause">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Experiencer">
-                    <SYNRESTRS/>
-                </NP>
-                <PREP value="with">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Oblique">
-                    <SELRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Cause"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="emotional_state">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Emotion"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.4" primary="NP.cause V NP" secondary="NPAttribute Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.4" primary="NP.cause V NP" secondary="NP; Attribute Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The clown's antics amused the children.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="genitive"/>
                     </SYNRESTRS>
                 </NP>
                 <LEX value="'s"/>
-                <NP value="Oblique">
-                    <SELRESTRS/>
-                </NP>
                 <VERB/>
                 <NP value="Experiencer">
                     <SYNRESTRS/>
@@ -399,7 +374,7 @@
             <SEMANTICS>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                         <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>
@@ -413,24 +388,26 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJPResultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>That movie bored me silly.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <NP value="Experiencer">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                 <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                         <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>

@@ -17,7 +17,7 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Cause">
+        <THEMROLE type="Stimulus">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -43,7 +43,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.cause" secondary="PPCause-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Sharon flinched at the sight of the accident.</EXAMPLE>
             </EXAMPLES>
@@ -55,7 +55,7 @@
                 <PREP value="at from">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -69,7 +69,7 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

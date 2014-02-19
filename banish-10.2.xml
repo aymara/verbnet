@@ -8,8 +8,10 @@
         <MEMBER name="expel" wn="expel%2:41:00 expel%2:41:01" grouping="expel.01"/>
         <MEMBER name="extradite" wn="extradite%2:41:00" grouping=""/>
         <MEMBER name="recall" wn="recall%2:32:02 recall%2:41:00 recall%2:40:00" grouping="recall.02 recall.03"/>
+        <MEMBER name="recuse" wn="recuse%2:32:00" grouping=""/>
         <MEMBER name="remove" wn="remove%2:30:00 remove%2:41:00 remove%2:40:00 remove%2:41:02 remove%2:38:00" grouping="remove.01"/>
         <MEMBER name="shanghai" wn="shanghai%2:35:00" grouping=""/>
+        <MEMBER name="boot" wn="boot%2:35:00" grouping="boot.03"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -75,7 +77,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PPSource-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The king banished the general from the army.</EXAMPLE>
             </EXAMPLES>
@@ -120,7 +122,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PPDestination-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; Destination-PP" xtag=""/>
             <!--"remove"? *remove the book to the table-->
             <EXAMPLES>
                 <EXAMPLE>The king deported the general to the isle.</EXAMPLE>

@@ -5,8 +5,8 @@
         <MEMBER name="asphyxiate" wn="asphyxiate%2:35:00 asphyxiate%2:35:01" grouping=""/>
         <MEMBER name="choke" wn="choke%2:29:00 choke%2:35:00 choke%2:35:02 choke%2:29:04 choke%2:29:03 choke%2:35:03 choke%2:29:01" grouping="choke.01 choke.02"/>
         <MEMBER name="drown" wn="drown%2:30:00 drown%2:30:01" grouping="drown.01"/>
-        <MEMBER name="starve" wn="" grouping=""/>
-        <MEMBER name="stifle" wn="stifle%2:35:00" grouping="stifle.01"/>
+        <MEMBER name="starve" wn="" grouping="starve.01"/>
+        <MEMBER name="stifle" wn="stifle%2:35:00" grouping="stifle.02"/>
         <MEMBER name="suffocate" wn="suffocate%2:35:00 suffocate%2:35:01 suffocate%2:30:02 suffocate%2:29:01" grouping=""/>
     </MEMBERS>
     <THEMROLES>
@@ -20,10 +20,13 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Result">
+                <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.theme" secondary="TransitiveCausative variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.theme" secondary="Transitive; Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The pirates drowned the sailor.</EXAMPLE>
             </EXAMPLES>
@@ -52,7 +55,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP.theme V" secondary="IntransitiveInchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP.theme V" secondary="Intransitive; Inchoative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The sailor drowned.</EXAMPLE>
             </EXAMPLES>
@@ -72,7 +75,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V PP.oblique" secondary="PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V PP.result" secondary="PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He choked/suffocated to death.</EXAMPLE>
             </EXAMPLES>
@@ -84,7 +87,7 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -106,7 +109,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The pirate choked the sailor to death.</EXAMPLE>
             </EXAMPLES>
@@ -121,7 +124,7 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>

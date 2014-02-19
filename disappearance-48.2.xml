@@ -10,10 +10,10 @@
         <MEMBER name="vanish" wn="vanish%2:30:00 vanish%2:39:00 vanish%2:38:05 vanish%2:30:02 vanish%2:30:01" grouping="vanish.01"/>
     </MEMBERS>
     <THEMROLES>
-        <THEMROLE type="Theme">
+        <THEMROLE type="Patient">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Source">
+        <THEMROLE type="Initial_Location">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -24,7 +24,7 @@
                 <EXAMPLE>The crowd vanished.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Theme">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -33,26 +33,25 @@
                 <PRED value="disappear">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="There V PP NP" secondary="PP-NPExpletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="There V PP NP" secondary="PP-NP; Expletive-there Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>?There vanished from the library a valuable manuscript.</EXAMPLE>
+                <EXAMPLE>A valuable manuscript vanished from the library.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <LEX value="there"/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
                 <VERB/>
                 <PREP value="from">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Source">
-                    <SYNRESTRS/>
-                </NP>
-                <NP value="Theme">
+                <NP value="Initial_Location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -60,14 +59,14 @@
                 <PRED value="disappear">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="Prep">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

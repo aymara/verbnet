@@ -31,7 +31,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PPpath-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PP; path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Cora coiled the rope around the post.</EXAMPLE>
             </EXAMPLES>
@@ -82,7 +82,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PPpath-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; path-PP" xtag=""/>
             <!--strongly prefers prep "around"-->
             <EXAMPLES>
                 <EXAMPLE>The rope coiled around the post.</EXAMPLE>
@@ -164,6 +164,7 @@
             <MEMBERS>
                 <MEMBER name="curl" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00" grouping="curl.01"/>
                 <MEMBER name="coil" wn="coil%2:35:00" grouping=""/>
+                <MEMBER name="hook" wn="" grouping="hook.01"/>
                 <MEMBER name="swing" wn="swing%2:38:02 swing%2:38:03" grouping="swing.01"/>
                 <MEMBER name="twirl" wn="twirl%2:38:01" grouping=""/>
                 <MEMBER name="twist" wn="twist%2:30:00" grouping="twist.02"/>

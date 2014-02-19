@@ -7,6 +7,7 @@
         <MEMBER name="leave" wn="leave%2:40:06 leave%2:31:02" grouping="leave.02"/>
         <MEMBER name="store" wn="store%2:40:00 store%2:40:02" grouping="store.01"/>
         <MEMBER name="stock" wn="stock%2:40:00" grouping="stock.01"/>
+        <MEMBER name="stockpile" wn="stockpile%2:40:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -27,7 +28,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PPlocative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PP; locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Michelle kept the papers in the desk.</EXAMPLE>
             </EXAMPLES>

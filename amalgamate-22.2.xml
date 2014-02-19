@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="amalgamate-22.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-    <MEMBERS/>
+    <MEMBERS>
+        <MEMBER name="intermarry" wn="intermarry%2:41:00" grouping=""/>
+    </MEMBERS>
     <THEMROLES>
-        <!--Patient1 is interpreted as Figure, Patient2 as Ground
-        Selectional restriction on Patient1 is the same as on Patient2 (could be either concrete or abstract...)-->
+        <!--Patient is interpreted as Figure, Co-Patient as Ground
+        Selectional restriction on Patient is the same as on Co-Patient (could be either concrete or abstract...)-->
         <THEMROLE type="Agent">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
@@ -14,10 +16,7 @@
         <THEMROLE type="Patient">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Patient1">
-            <SELRESTRS/>
-        </THEMROLE>
-        <THEMROLE type="Patient2">
+        <THEMROLE type="Co-Patient">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -28,7 +27,7 @@
                 <EXAMPLE>Folk songs alternate well with pop songs.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Patient1">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -36,14 +35,14 @@
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Patient2">
+                <NP value="Co-Patient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="property">
                     <ARGS>
-                        <ARG type="ThemRole" value="Patient1+Patient2"/>
+                        <ARG type="ThemRole" value="Patient+Co-Patient"/>
                         <ARG type="VerbSpecific" value="Prop"/>
                     </ARGS>
                 </PRED>
@@ -55,7 +54,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-MIddle" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The pieces interconnect easily.</EXAMPLE>
             </EXAMPLES>
@@ -94,12 +93,12 @@
                 <MEMBER name="overlap" wn="" grouping=""/>
             </MEMBERS>
             <THEMROLES>
-                <THEMROLE type="Patient1">
+                <THEMROLE type="Patient">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="concrete"/>
                     </SELRESTRS>
                 </THEMROLE>
-                <THEMROLE type="Patient2">
+                <THEMROLE type="Co-Patient">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="concrete"/>
                     </SELRESTRS>
@@ -107,7 +106,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP V NP PP.patient2" secondary="NP-PPinto/to/with-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP V NP PP.co-patient" secondary="NP-PP; into/to/with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Diabetics can now incorporate sugar into their desserts.</EXAMPLE>
                     </EXAMPLES>
@@ -116,13 +115,13 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Patient1">
+                        <NP value="Patient">
                             <SYNRESTRS/>
                         </NP>
                         <PREP value="into to with">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Patient2">
+                        <NP value="Co-Patient">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -136,21 +135,21 @@
                         <PRED value="degradation_material_integrity">
                             <ARGS>
                                 <ARG type="Event" value="result(E)"/>
-                                <ARG type="ThemRole" value="Patient1"/>
+                                <ARG type="ThemRole" value="Patient"/>
                             </ARGS>
                         </PRED>
                         <PRED value="degradation_material_integrity">
                             <ARGS>
                                 <ARG type="Event" value="result(E)"/>
-                                <ARG type="ThemRole" value="Patient2"/>
+                                <ARG type="ThemRole" value="Co-Patient"/>
                             </ARGS>
                         </PRED>
                         <PRED value="mingled">
                             <ARGS>
                                 <ARG type="Event" value="result(E)"/>
                                 <ARG type="Constant" value="physical"/>
-                                <ARG type="ThemRole" value="Patient1"/>
-                                <ARG type="ThemRole" value="Patient2"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Co-Patient"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -201,19 +200,19 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.4" primary="NP V PP.patient2" secondary="PPwith-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.4" primary="NP V PP.co-patient" secondary="PP; with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Ice cream integrates with desserts.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Patient1">
+                        <NP value="Patient">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
                         <PREP value="with">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Patient2">
+                        <NP value="Co-Patient">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -221,21 +220,21 @@
                         <PRED value="degradation_material_integrity">
                             <ARGS>
                                 <ARG type="Event" value="result(E)"/>
-                                <ARG type="ThemRole" value="Patient1"/>
+                                <ARG type="ThemRole" value="Patient"/>
                             </ARGS>
                         </PRED>
                         <PRED value="degradation_material_integrity">
                             <ARGS>
                                 <ARG type="Event" value="result(E)"/>
-                                <ARG type="ThemRole" value="Patient2"/>
+                                <ARG type="ThemRole" value="Co-Patient"/>
                             </ARGS>
                         </PRED>
                         <PRED value="mingled">
                             <ARGS>
                                 <ARG type="Event" value="result(E)"/>
                                 <ARG type="Constant" value="physical"/>
-                                <ARG type="ThemRole" value="Patient1"/>
-                                <ARG type="ThemRole" value="Patient2"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Co-Patient"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -299,7 +298,7 @@
                 <MEMBER name="conjoin" wn="conjoin%2:35:00" grouping=""/>
                 <MEMBER name="entangle" wn="entangle%2:42:00" grouping=""/>
                 <MEMBER name="muddle" wn="muddle%2:31:00" grouping=""/>
-                <MEMBER name="pair" wn="pair%2:41:00 pair%2:35:01 pair%2:35:00" grouping="pair.01 pair.02"/>
+                <MEMBER name="pair" wn="pair%2:41:00 pair%2:35:01 pair%2:35:00" grouping="pair.01"/>
                 <MEMBER name="team" wn="team%2:33:00" grouping="team.01"/>
                 <MEMBER name="affiliate" wn="affiliate%2:41:00 affiliate%2:41:12" grouping="affiliate.01"/>
                 <MEMBER name="associate" wn="associate%2:31:00 associate%2:41:02 associate%2:41:00" grouping="associate.01 associate.02"/>
@@ -312,12 +311,12 @@
                 <MEMBER name="identity" wn="" grouping=""/>
             </MEMBERS>
             <THEMROLES>
-                <THEMROLE type="Patient1">
+                <THEMROLE type="Patient">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="concrete"/>
                     </SELRESTRS>
                 </THEMROLE>
-                <THEMROLE type="Patient2">
+                <THEMROLE type="Co-Patient">
                     <SELRESTRS logic="or">
                         <SELRESTR Value="+" type="animate"/>
                         <SELRESTR Value="+" type="abstract"/>
@@ -332,7 +331,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP V NP PP.patient2" secondary="NP-PPto-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.1" primary="NP V NP PP.co-patient" secondary="NP-PP; to-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The merger associated company A with company B.</EXAMPLE>
                     </EXAMPLES>
@@ -341,13 +340,13 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Patient1">
+                        <NP value="Patient">
                             <SYNRESTRS/>
                         </NP>
                         <PREP value="with">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Patient2">
+                        <NP value="Co-Patient">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -362,8 +361,8 @@
                             <ARGS>
                                 <ARG type="Event" value="end(E)"/>
                                 <ARG type="Constant" value="physical"/>
-                                <ARG type="ThemRole" value="Patient1"/>
-                                <ARG type="ThemRole" value="Patient2"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Co-Patient"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -407,14 +406,14 @@
                         <EXAMPLE>Company A associated with Company B.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Patient1">
+                        <NP value="Patient">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
                         <PREP value="with">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Patient2">
+                        <NP value="Co-Patient">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -423,8 +422,8 @@
                             <ARGS>
                                 <ARG type="Event" value="end(E)"/>
                                 <ARG type="Constant" value="physical"/>
-                                <ARG type="ThemRole" value="Patient1"/>
-                                <ARG type="ThemRole" value="Patient2"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Co-Patient"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -437,7 +436,7 @@
                         <MEMBER name="alternate" wn="alternate%2:30:01 alternate%2:30:02 alternate%2:30:00" grouping="alternate.01 alternate.03"/>
                         <MEMBER name="crisscross" wn="crisscross%2:38:00" grouping=""/>
                         <MEMBER name="entwine" wn="entwine%2:36:00 entwine%2:35:00" grouping=""/>
-                        <MEMBER name="interchange" wn="interchange%2:40:00 interchange%2:30:01 interchange%2:30:00" grouping=""/>
+                        <MEMBER name="interchange" wn="interchange%2:40:00 interchange%2:30:01 interchange%2:30:00" grouping="interchange.02 interchange.03"/>
                         <MEMBER name="interconnect" wn="interconnect%2:42:00 interconnect%2:35:01" grouping=""/>
                         <MEMBER name="interlace" wn="interlace%2:35:00" grouping=""/>
                         <MEMBER name="interlink" wn="interlink%2:42:00 interlink%2:35:01" grouping=""/>
@@ -449,12 +448,14 @@
                         <MEMBER name="unite" wn="unite%2:30:00 ?unite%2:42:01 unite%2:42:02 unite%2:30:02" grouping="unite.01"/>
                         <MEMBER name="coalesce" wn="coalesce%2:30:00" grouping=""/>
                         <MEMBER name="coincide" wn="coincide%2:30:00" grouping="coincide.01"/>
+                        <MEMBER name="conflate" wn="conflate%2:30:00" grouping=""/>
                         <MEMBER name="consolidate" wn="consolidate%2:30:00 consolidate%2:30:01" grouping="consolidate.01"/>
                         <MEMBER name="contrast" wn="contrast%2:42:00" grouping="contrast.01"/>
                         <MEMBER name="correlate" wn="correlate%2:42:00 correlate%2:31:00" grouping="correlate.01"/>
                         <MEMBER name="harmonize" wn="harmonize%2:42:00" grouping=""/>
                         <MEMBER name="intermingle" wn="intermingle%2:35:00" grouping=""/>
                         <MEMBER name="interrelate" wn="interrelate%2:31:00" grouping=""/>
+                        <MEMBER name="repackage" wn="" grouping=""/>
                         <MEMBER name="rhyme" wn="rhyme%2:42:00" grouping=""/>
                         <MEMBER name="unify" wn="unify%2:35:00 unify%2:30:01" grouping="unify.01"/>
                     </MEMBERS>
@@ -538,7 +539,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.1" primary="NP V NP PP.patient2" secondary="NP-PPto-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.1" primary="NP V NP PP.co-patient" secondary="NP-PP; to-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>John introduced Mary to me.</EXAMPLE>
                             </EXAMPLES>
@@ -547,13 +548,13 @@
                                     <SYNRESTRS/>
                                 </NP>
                                 <VERB/>
-                                <NP value="Patient1">
+                                <NP value="Patient">
                                     <SYNRESTRS/>
                                 </NP>
                                 <PREP value="to">
                                     <SELRESTRS/>
                                 </PREP>
-                                <NP value="Patient2">
+                                <NP value="Co-Patient">
                                     <SYNRESTRS/>
                                 </NP>
                             </SYNTAX>
@@ -568,8 +569,8 @@
                                     <ARGS>
                                         <ARG type="Event" value="end(E)"/>
                                         <ARG type="Constant" value="abstract/physical"/>
-                                        <ARG type="ThemRole" value="Patient1"/>
-                                        <ARG type="ThemRole" value="Patient2"/>
+                                        <ARG type="ThemRole" value="Patient"/>
+                                        <ARG type="ThemRole" value="Co-Patient"/>
                                     </ARGS>
                                 </PRED>
                             </SEMANTICS>
@@ -579,6 +580,7 @@
                         <VNSUBCLASS ID="amalgamate-22.2-3-1-1">
                             <MEMBERS>
                                 <MEMBER name="marry" wn="marry%2:41:00 marry%2:41:01" grouping="marry.01 marry.02"/>
+                                <MEMBER name="remarry" wn="remarry%2:41:00" grouping=""/>
                                 <MEMBER name="wed" wn="wed%2:41:00 wed%2:41:01" grouping="wed.01"/>
                             </MEMBERS>
                             <THEMROLES>
@@ -587,12 +589,12 @@
                                         <SELRESTR Value="+" type="animate"/>
                                     </SELRESTRS>
                                 </THEMROLE>
-                                <THEMROLE type="Patient1">
+                                <THEMROLE type="Patient">
                                     <SELRESTRS>
                                         <SELRESTR Value="+" type="animate"/>
                                     </SELRESTRS>
                                 </THEMROLE>
-                                <THEMROLE type="Patient2">
+                                <THEMROLE type="Co-Patient">
                                     <SELRESTRS>
                                         <SELRESTR Value="+" type="animate"/>
                                     </SELRESTRS>
@@ -630,18 +632,19 @@
                 </VNSUBCLASS>
                 <VNSUBCLASS ID="amalgamate-22.2-3-2">
                     <MEMBERS>
-                        <MEMBER name="engage" wn="engage%2:32:00" grouping="engage.03"/>
+                        <MEMBER name="engage" wn="engage%2:32:00"
+                        grouping="engage.03"/>
                     </MEMBERS>
                     <THEMROLES>
                         <THEMROLE type="Agent">
                             <SELRESTRS/>
                         </THEMROLE>
-                        <THEMROLE type="Patient1">
+                        <THEMROLE type="Patient">
                             <SELRESTRS>
                                 <SELRESTR Value="+" type="concrete"/>
                             </SELRESTRS>
                         </THEMROLE>
-                        <THEMROLE type="Patient2">
+                        <THEMROLE type="Co-Patient">
                             <SELRESTRS>
                                 <SELRESTR Value="+" type="concrete"/>
                             </SELRESTRS>

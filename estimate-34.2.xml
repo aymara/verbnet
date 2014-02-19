@@ -54,7 +54,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.value" secondary="NP-PPat-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.value" secondary="NP-PP; at-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He estimated the probability at 0.9.</EXAMPLE>
             </EXAMPLES>
@@ -114,7 +114,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP to be ADJ" secondary="NP-TOBE" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>He estimated this outcome to be likely.</EXAMPLE>                                                              
+                <EXAMPLE>He estimated this outcome to be likely.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -139,7 +139,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He estimated that it would be likely.</EXAMPLE>
             </EXAMPLES>
@@ -166,7 +166,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V what S" secondary="WHAT-S" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V what S" secondary="WHAT-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He estimated what would be likely.</EXAMPLE>
             </EXAMPLES>

@@ -18,10 +18,7 @@
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Recipient">
-            <SELRESTRS/>
-        </THEMROLE>
-    </THEMROLES>
+        </THEMROLES>
     <FRAMES>
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V" secondary="Intransitive" xtag="0.2"/>
@@ -40,8 +37,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="?Recipient"/>
-                    </ARGS>
+                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
@@ -65,38 +61,6 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Recipient"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.recipient" secondary="NP-PPfor-PP" xtag="0.2"/>
-            <EXAMPLES>
-                <EXAMPLE>He rehearsed the song for the exam.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-		<PREP value="for">
-		    <SELRESTRS/>
-		</PREP>
-                <NP value="Recipient">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="perform">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Recipient"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -123,40 +87,11 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Recipient"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.recipient" secondary="PPfor-PP" xtag="0.2"/>                    
-            <EXAMPLES>
-                <EXAMPLE>He rehearsed for the exam.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <PREP value="for">
-		    <SELRESTRS/>
-		</PREP>
-                <NP value="Recipient">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="perform">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="Recipient"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-    </FRAMES>
+        </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
 

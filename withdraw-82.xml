@@ -48,7 +48,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source" secondary="PPof-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source" secondary="PP; of-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>He backed out of the trip.</EXAMPLE>
                     </EXAMPLES>
@@ -75,7 +75,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source S_ING" secondary="P-ING-SCof-P" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source S_ING" secondary="P-ING-SC; of-P" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>He backed out of going on the trip.</EXAMPLE>
                     </EXAMPLES>
@@ -136,7 +136,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source" secondary="PPfrom-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source" secondary="PP; from-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>He got away from the area.</EXAMPLE>
                     </EXAMPLES>
@@ -163,7 +163,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source S_ING" secondary="P-ING-SCfrom-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source S_ING" secondary="P-ING-SC; from-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>He backed away from going on the trip.</EXAMPLE>
                     </EXAMPLES>
@@ -197,9 +197,9 @@
         <VNSUBCLASS ID="withdraw-82-3">
             <MEMBERS>
                 <MEMBER name="withdraw" wn="withdraw%2:41:01 withdraw%2:32:00" grouping="withdraw.01"/>
-                <MEMBER name="retreat" wn="retreat%2:32:00" grouping="retreat.04"/>
+                <MEMBER name="retreat" wn="retreat%2:32:00" grouping="retreat.01 retreat.04"/>
                 <MEMBER name="pull_away" wn="pull_away%2:38:00" grouping=""/>
-                <MEMBER name="retire" wn="retire%2:41:02 " grouping="retire.01"/>
+                <MEMBER name="retire" wn="retire%2:41:02" grouping="retire.01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -225,7 +225,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source" secondary="PPfrom-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source" secondary="PP; from-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>He withdrew from the trip.</EXAMPLE>
                     </EXAMPLES>

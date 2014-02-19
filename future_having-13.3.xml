@@ -4,13 +4,14 @@
     <MEMBERS>
         <MEMBER name="advance" wn="advance%2:40:00" grouping="advance.05"/>
         <MEMBER name="allocate" wn="allocate%2:40:00" grouping="allocate.01"/>
-        <MEMBER name="allot" wn="allot%2:40:01 allot%2:40:00 allot%2:40:02" grouping=""/>
+        <MEMBER name="allot" wn="allot%2:40:01 allot%2:40:00 allot%2:40:02" grouping="allot.01 allot.02"/>
         <MEMBER name="apportion" wn="apportion%2:40:01 apportion%2:40:00" grouping=""/>
         <MEMBER name="assign" wn="assign%2:40:01" grouping="assign.02"/>
         <MEMBER name="award" wn="award%2:40:00 award%2:40:01" grouping="award.01"/>
         <MEMBER name="bequeath" wn="bequeath%2:40:00" grouping=""/>
         <MEMBER name="cede" wn="cede%2:40:01 cede%2:40:00" grouping="cede.01"/>
         <MEMBER name="concede" wn="concede%2:40:00" grouping="concede.02"/>
+        <MEMBER name="devolve" wn="devolve%2:41:02" grouping="devolve.01"/>
         <MEMBER name="extend" wn="extend%2:40:05" grouping="extend.03"/>
         <MEMBER name="grant" wn="grant%2:40:01 grant%2:40:03 grant%2:40:00 grant%2:40:05 grant%2:40:04 grant%2:40:02" grouping="grant.01 grant.03"/>
         <MEMBER name="guarantee" wn="guarantee%2:32:01" grouping="guarantee.01"/>
@@ -21,9 +22,12 @@
         <MEMBER name="portion" wn="portion%2:40:00" grouping=""/>
         <MEMBER name="promise" wn="promise%2:32:01" grouping="promise.01"/>
         <MEMBER name="ration" wn="ration%2:40:00" grouping=""/>
+        <MEMBER name="reallocate" wn="reallocate%2:40:00" grouping=""/>
+        <MEMBER name="reassign" wn="reassign%2:41:00" grouping=""/>
         <MEMBER name="vote" wn="?vote%2:41:12" grouping="vote.05"/>
         <MEMBER name="will" wn="will%2:40:00" grouping="will.02"/>
         <MEMBER name="yield" wn="yield%2:40:01" grouping="yield.02"/>
+        <MEMBER name="accord" wn="accord%2:40:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -35,17 +39,13 @@
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Recipient">
-            <SELRESTRS logic="or">
-                <SELRESTR Value="+" type="animate"/>
-                <SELRESTR Value="+" type="organization"/>
-                <SELRESTR Value="+" type="abstract"/>
-            </SELRESTRS>
+        <THEMROLE type="Goal">
+            <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.recipient" secondary="NP-PPRecipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.goal" secondary="NP-PP; Goal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>We offered our paycheck to her.</EXAMPLE>
             </EXAMPLES>
@@ -60,7 +60,7 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Recipient">
+                <NP value="Goal">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -75,7 +75,7 @@
                 <PRED value="future_possession">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Goal"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
@@ -88,7 +88,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme (PP)" secondary="TransitiveTheme Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme (PP)" secondary="Transitive; Theme Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I promised my house (to somebody).</EXAMPLE>
             </EXAMPLES>
@@ -112,7 +112,7 @@
                 <PRED value="future_possession">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="?Recipient"/>
+                        <ARG type="ThemRole" value="?Goal"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
@@ -134,7 +134,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Recipient">
+                <NP value="Goal">
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Theme">
@@ -152,7 +152,7 @@
                 <PRED value="future_possession">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Goal"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
@@ -165,7 +165,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.recipient" secondary="NP-PPfor-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.goal" secondary="NP-PP; for-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The House allocated more than $1.8 million for the pensions and expenses of former presidents.</EXAMPLE>
             </EXAMPLES>
@@ -180,7 +180,7 @@
                 <PREP value="for">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Recipient">
+                <NP value="Goal">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -195,7 +195,7 @@
                 <PRED value="future_possession">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Goal"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>

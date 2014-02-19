@@ -2,8 +2,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="poke-19" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <!--Some verbs add predicate indicating puncturing of Destination at end of event
-        "in" predicate used to indicate puncturing of Destination-->
+        <!--Some verbs add predicate indicating puncturing of Patient at end of event
+        "in" predicate used to indicate puncturing of Patient-->
         <MEMBER name="dig" wn="dig%2:35:03" grouping="dig.01"/>
         <MEMBER name="jab" wn="jab%2:35:00 jab%2:35:02" grouping=""/>
         <MEMBER name="pierce" wn="pierce%2:35:02 pierce%2:35:01 pierce%2:35:00" grouping="pierce.01"/>
@@ -19,7 +19,7 @@
                 <SELRESTR Value="+" type="machine"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Destination">
+        <THEMROLE type="Patient">
             <SELRESTRS>
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
@@ -33,7 +33,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitivedropped Instrument" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive; dropped Instrument" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Allison poked the cloth.</EXAMPLE>
             </EXAMPLES>
@@ -42,7 +42,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Destination">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -71,14 +71,14 @@
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="?Instrument"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.9" primary="NP V NP PP.destination" secondary="NP-PPthrough-PP" xtag=""/>
-            <!-- in predicate used to indicate puncturing of Destination-->
+            <DESCRIPTION descriptionNumber="2.9" primary="NP V NP PP.patient" secondary="NP-PP; through-PP" xtag=""/>
+            <!-- in predicate used to indicate puncturing of Patient-->
             <EXAMPLES>
                 <EXAMPLE>Allison poked the needle through the cloth.</EXAMPLE>
             </EXAMPLES>
@@ -93,7 +93,7 @@
                 <PREP value="through into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Destination">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -122,14 +122,14 @@
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Instrument"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="in">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Instrument"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="use">
@@ -142,7 +142,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.9" primary="NP V NP PP.instrument" secondary="NP-PPwith-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.9" primary="NP V NP PP.instrument" secondary="NP-PP; with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Allison poked the cloth with the needle.</EXAMPLE>
             </EXAMPLES>
@@ -151,7 +151,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Destination">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="with">
@@ -186,7 +186,7 @@
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Instrument"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="use">
@@ -209,7 +209,7 @@
                 </NP>
                 <VERB/>
                 <LEX value="at"/>
-                <NP value="Destination">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -240,7 +240,7 @@
                 </NP>
                 <VERB/>
                 <LEX value="at"/>
-                <NP value="Destination">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="with">
@@ -283,7 +283,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Destination">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -306,7 +306,7 @@
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Instrument"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

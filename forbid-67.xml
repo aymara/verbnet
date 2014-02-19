@@ -17,7 +17,7 @@
         <MEMBER name="preclude" wn="preclude%2:41:00" grouping="preclude.01"/>
         <MEMBER name="prevent" wn="prevent%2:41:01 prevent%2:41:00" grouping="prevent.01"/>
         <MEMBER name="prohibit" wn="prohibit%2:32:00" grouping="prohibit.01"/>
-        <MEMBER name="restrain" wn="restrain%2:37:00" grouping="restrain.02"/>
+        <MEMBER name="restrain" wn="restrain%2:37:00" grouping="restrain.01"/>
         <MEMBER name="stop" wn="stop%2:41:00" grouping="stop.02"/>
     </MEMBERS>
     <THEMROLES>
@@ -33,7 +33,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme S_ING" secondary="NP-P-INGfrom-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme S_ING" secondary="NP-P-ING; from-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The rules forbid us from smoking.</EXAMPLE>
             </EXAMPLES>

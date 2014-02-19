@@ -6,18 +6,23 @@
         <MEMBER name="applique" wn="applique%2:36:00" grouping=""/>
         <MEMBER name="emboss" wn="emboss%2:35:00" grouping=""/>
         <MEMBER name="embroider" wn="embroider%2:36:00" grouping=""/>
-        <MEMBER name="engrave" wn="engrave%2:35:00 engrave%2:36:00" grouping=""/>
+        <MEMBER name="engrave" wn="engrave%2:35:00 engrave%2:36:00" grouping="engrave.01"/>
         <MEMBER name="etch" wn="etch%2:36:00" grouping="etch.01"/>
+        <MEMBER name="handpaint" wn="" grouping=""/> 
         <MEMBER name="imprint" wn="imprint%2:35:00" grouping=""/>
         <MEMBER name="incise" wn="incise%2:35:00" grouping=""/>
+        <MEMBER name="ingrain" wn="ingrain%2:35:00" grouping=""/>
         <MEMBER name="inscribe" wn="inscribe%2:35:00 inscribe%2:32:03" grouping="inscribe.01"/>
         <MEMBER name="mark" wn="mark%2:35:09 mark%2:35:01" grouping="mark.01 mark.02"/>
-        <MEMBER name="paint" wn="" grouping=""/>
+        <MEMBER name="paint" wn="" grouping="paint.01"/>
+        <MEMBER name="reinscribe" wn="" grouping=""/>
         <MEMBER name="scar" wn="" grouping=""/>
-        <MEMBER name="set" wn="set%2:35:02" grouping="set.01"/>
+        <MEMBER name="set" wn="set%2:35:02" grouping="set.07"/>
         <MEMBER name="sign" wn="sign%2:32:02 sign%2:41:00" grouping="sign.01 sign.03"/>
-        <MEMBER name="stamp" wn="stamp%2:35:02" grouping="stamp.04"/>
+        <MEMBER name="stamp" wn="stamp%2:35:02" grouping="stamp.03 stamp.04"/>
+        <MEMBER name="stipple" wn="stipple%2:36:00" grouping="stipple.01"/>
         <MEMBER name="tattoo" wn="tattoo%2:36:00" grouping=""/>
+        <MEMBER name="tool" wn="tool%2:36:00" grouping="tool.04"/>
     </MEMBERS>
     <THEMROLES>
         <!--In most predicates, such as location, Theme really means image_of(Theme)-->
@@ -37,7 +42,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.7" primary="NP V NP.theme PP.destination" secondary="NP-PPTheme Object, on-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.7" primary="NP V NP.theme PP.destination" secondary="NP-PP; Theme Object, on-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Smith inscribed his name on the ring.</EXAMPLE>
             </EXAMPLES>
@@ -82,7 +87,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.7" primary="NP V NP.destination PP.theme" secondary="NP-PPDestination Object, Theme-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.7" primary="NP V NP.destination PP.theme" secondary="NP-PP; Destination Object, Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Smith inscribed the ring with his name.</EXAMPLE>
             </EXAMPLES>
@@ -124,7 +129,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.destination" secondary="TransitiveDestination Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.destination" secondary="Transitive; Destination Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Smith was inscribing the rings.</EXAMPLE>
             </EXAMPLES>
@@ -160,7 +165,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme" secondary="TransitiveTheme Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme" secondary="Transitive; Theme Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Smith inscribed his name.</EXAMPLE>
             </EXAMPLES>

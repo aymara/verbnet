@@ -4,7 +4,8 @@
     <MEMBERS>
         <MEMBER name="hit" wn="" grouping=""/>
         <MEMBER name="jam" wn="" grouping=""/>
-        <MEMBER name="graze" wn="" grouping=""/>
+        <MEMBER name="graze" wn="" grouping="graze.02"/>
+        <MEMBER name="chafe" wn="chafe%2:35:00" grouping="chafe.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -69,10 +70,11 @@
                         <!--verb adds manner predicate for how the Patient is hurt-->
                         <MEMBER name="break" wn="break%2:35:13 break%2:35:09 break%2:30:15 break%2:29:04" grouping="break.01 break.08"/>
                         <MEMBER name="chip" wn="chip%2:35:00" grouping="chip.01"/>
-                        <MEMBER name="fracture" wn="fracture%2:29:02 fracture%2:29:01 fracture%2:29:00" grouping=""/>
+                        <MEMBER name="fracture" wn="fracture%2:29:02 fracture%2:29:01 fracture%2:29:00" grouping="fracture.02"/>
                         <MEMBER name="pull" wn="pull%2:29:00" grouping="pull.05"/>
                         <MEMBER name="rupture" wn="rupture%2:35:00" grouping=""/>
                         <MEMBER name="split" wn="split%2:35:00" grouping="split.01"/>
+                        <MEMBER name="splinter" wn="splinter%2:30:00" grouping="splinter.01"/>
                         <MEMBER name="sprain" wn="sprain%2:29:00" grouping=""/>
                         <MEMBER name="tear" wn="" grouping=""/>
                         <MEMBER name="turn" wn="turn%2:29:00" grouping="turn.10"/>
@@ -130,6 +132,7 @@
                 <MEMBER name="skin" wn="skin%2:35:02" grouping=""/>
                 <MEMBER name="strain" wn="strain%2:34:00" grouping="strain.01"/>
                 <MEMBER name="sunburn" wn="" grouping=""/>
+                <MEMBER name="wrench" wn="wrench%2:29:00" grouping="wrench.03"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

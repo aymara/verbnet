@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS ID="approve-77" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="accept-77" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="accept" wn="accept%2:31:01 accept%2:31:03 " grouping="accept.02"/>
+        <MEMBER name="accept" wn="accept%2:31:01 accept%2:31:03" grouping="accept.01 accept.02 accept.03"/>
         <MEMBER name="understand" wn="understand%2:31:04" grouping="understand.01"/>
         <MEMBER name="encourage" wn="encourage%2:41:00 encourage%2:37:00" grouping="encourage.01 encourage.02"/>
-        <MEMBER name="discourage" wn="discourage%2:32:01 discourage%2:37:00" grouping="discourage.01 discourage.02"/>
+        <MEMBER name="discourage" wn="discourage%2:32:01 discourage%2:37:00" grouping="discourage.02"/>
         <MEMBER name="disprefer" wn="" grouping=""/>
         <MEMBER name="reject" wn="" grouping=""/>
+        <MEMBER name="repent" wn="repent%2:37:01 repent%2:37:00" grouping="repent.01"/>
+        <MEMBER name="rue" wn="rue%2:37:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -16,7 +18,7 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Proposition">
+        <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -31,7 +33,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="how_extract"/>
                     </SYNRESTRS>
@@ -42,7 +44,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -57,7 +59,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
                     </SYNRESTRS>
@@ -68,7 +70,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -83,7 +85,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="poss_ing"/>
                     </SYNRESTRS>
@@ -94,7 +96,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -109,7 +111,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
@@ -120,7 +122,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -135,7 +137,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="what_extract"/>
                     </SYNRESTRS>
@@ -146,7 +148,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

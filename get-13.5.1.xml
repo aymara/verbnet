@@ -2,7 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="get-13.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="attain" wn="" grouping=""/>
+        <MEMBER name="attain" wn="" grouping="attain.01"/>
         <MEMBER name="book" wn="book%2:41:01" grouping="book.01"/>
         <MEMBER name="buy" wn="buy%2:40:00 buy%2:42:00" grouping="buy.01"/>
         <MEMBER name="call" wn="call%2:32:05 call%2:32:15" grouping="call.01 call.07"/>
@@ -102,7 +102,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PPfrom-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; from-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carmen bought a dress from Diana.</EXAMPLE>
             </EXAMPLES>
@@ -151,7 +151,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.2" primary="NP V NP PP.beneficiary" secondary="NP-PPBeneficiary Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.2" primary="NP V NP PP.beneficiary" secondary="NP-PP; Beneficiary Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carmen bought a dress for Mary.</EXAMPLE>
             </EXAMPLES>
@@ -206,7 +206,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.2" primary="NP V NP.beneficiary NP" secondary="Benefactive Alternationdouble object" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.2" primary="NP V NP.beneficiary NP" secondary="Benefactive Alternation; double object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carmen bought Mary a dress.</EXAMPLE>
             </EXAMPLES>
@@ -258,7 +258,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.9" primary="NP V NP PP.asset" secondary="NP-PPAsset Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.9" primary="NP V NP PP.asset" secondary="NP-PP; Asset Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carmen bought a dress for $50.</EXAMPLE>
             </EXAMPLES>
@@ -313,7 +313,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.9" primary="NP.asset V NP" secondary="NPAsset Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.9" primary="NP.asset V NP" secondary="NP; Asset Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>$50 won't even buy a dress.</EXAMPLE>
             </EXAMPLES>
@@ -362,7 +362,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source NP.asset" secondary="NP-PP-PPSource-PP, Asset-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source NP.asset" secondary="NP-PP-PP; Source-PP, Asset-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>FMC has bought 565,000 shares from Nortek Inc. at $23.50 a share.</EXAMPLE>
             </EXAMPLES>
@@ -420,7 +420,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="get-13.5.1-1">
             <MEMBERS>
-                <MEMBER name="earn" wn="earn%2:40:01 earn%2:40:03" grouping="earn.01"/>
+                <MEMBER name="earn" wn="earn%2:40:01 earn%2:40:03" grouping="earn.01 earn.02"/>
                 <MEMBER name="fetch" wn="fetch%2:35:00 fetch%2:40:00 ?fetch%2:35:03" grouping="fetch.01 fetch.02"/>
                 <MEMBER name="cash" wn="cash%2:40:00" grouping="cash.01"/>
                 <MEMBER name="gain" wn="gain%2:40:03 gain%2:40:01 gain%2:40:00" grouping="gain.01"/>
@@ -439,7 +439,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source" secondary="NP-PPfor/on Source (abstract)" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source" secondary="NP-PP; for/on Source (abstract)" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>John earned $10 million on proceeds from the sale.</EXAMPLE>
                     </EXAMPLES>

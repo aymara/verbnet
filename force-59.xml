@@ -8,21 +8,26 @@
         <MEMBER name="coerce" wn="coerce%2:41:00" grouping=""/>
         <MEMBER name="commission" wn="commission%2:41:00" grouping="commission.03"/>
         <MEMBER name="compel" wn="compel%2:41:00" grouping="compel.01"/>
+        <MEMBER name="convince" wn="convince%2:32:00" grouping="convince.01"/>
+        <MEMBER name="cozen" wn="cozen%2:41:01 cozen%2:41:00" grouping="cozen.02"/>
         <MEMBER name="dare" wn="dare%2:32:00" grouping="dare.02"/>
         <MEMBER name="draw" wn="draw%2:35:03" grouping="draw.01"/>
         <MEMBER name="encourage" wn="encourage%2:32:00" grouping="encourage.02"/>
         <MEMBER name="entice" wn="entice%2:32:00" grouping="entice.01"/>
-        <MEMBER name="force" wn="force%2:36:00 force%2:35:01" grouping="force.01 force.02"/>
+        <MEMBER name="force" wn="force%2:36:00 force%2:35:01" grouping="force.01"/>
+        <MEMBER name="goad" wn="goad%2:37:00 goad%2:35:00 goad%2:35:01 goad%2:32:01" grouping="goad.01"/>
         <MEMBER name="impel" wn="impel%2:36:00" grouping=""/>
         <MEMBER name="incite" wn="incite%2:36:00" grouping="incite.01"/>
         <MEMBER name="induce" wn="induce%2:32:00" grouping="induce.02"/>
         <MEMBER name="inveigle" wn="inveigle%2:32:00" grouping=""/>
         <MEMBER name="jolt" wn="jolt%2:38:00" grouping="jolt.01"/>
         <MEMBER name="lead" wn="lead%2:32:00" grouping="lead.01"/>
-        <MEMBER name="mislead" wn="mislead%2:32:00" grouping="mislead.02"/>
+        <MEMBER name="mislead" wn="mislead%2:32:00" grouping="mislead.01 mislead.02"/>
         <MEMBER name="motivate" wn="motivate%2:36:00" grouping="motivate.01"/>
         <MEMBER name="obligate" wn="obligate%2:41:00" grouping="obligate.01"/>
         <MEMBER name="oblige" wn="oblige%2:41:00" grouping="oblige.02"/>
+        <MEMBER name="palaver" wn="palaver%2:32:01" grouping="palaver.02"/>
+        <MEMBER name="persuade" wn="persuade%2:32:00" grouping="persuade.01"/>
         <MEMBER name="press" wn="press%2:32:00" grouping="press.03"/>
         <MEMBER name="pressure" wn="pressure%2:41:00" grouping="pressure.01"/>
         <MEMBER name="prod" wn="prod%2:35:00" grouping="prod.02"/>
@@ -30,10 +35,19 @@
         <MEMBER name="push" wn="push%2:38:00 push%2:32:01" grouping="push.01"/>
         <MEMBER name="rush" wn="rush%2:30:01" grouping="rush.02"/>
         <MEMBER name="rouse" wn="" grouping=""/>
+        <MEMBER name="fox" wn="fox%2:41:00" grouping=""/>
         <MEMBER name="soothe" wn="soothe%2:37:00" grouping=""/>
         <MEMBER name="spur" wn="spur%2:41:00" grouping="spur.01"/>
+        <MEMBER name="steamroller" wn="steamroller%2:41:01 steamroller%2:33:00" grouping=""/>
+        <MEMBER name="suborn" wn="suborn%2:41:00 suborn%2:32:00" grouping="suborn.01"/>
+        <MEMBER name="sway" wn="sway%2:41:00" grouping="sway.01"/>
         <MEMBER name="sweet-talk" wn="sweet-talk%2:32:00" grouping=""/>
         <MEMBER name="tempt" wn="tempt%2:32:04" grouping="tempt.02"/>
+        <MEMBER name="bullshit" wn="bullshit%2:32:00" grouping=""/>
+        <MEMBER name="sandbag" wn="sandbag%2:41:02" grouping=""/>
+        <MEMBER name="railroad" wn="railroad%2:41:00" grouping=""/>
+        <MEMBER name="dragoon" wn="dragoon%2:41:00" grouping=""/>
+        <MEMBER name="hound" wn="hound%2:38:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -48,7 +62,7 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Proposition">
+        <THEMROLE type="Result">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -73,13 +87,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="?Proposition"/>
+                        <ARG type="ThemRole" value="?Result"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP S_ING" secondary="NP-P-ING-OCinto-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP S_ING" secondary="NP-P-ING-OC; into-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I forced him into coming.</EXAMPLE>
             </EXAMPLES>
@@ -94,7 +108,7 @@
                 <PREP value="into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Proposition">
+                <NP value="Result">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="oc_ing"/>
                     </SYNRESTRS>
@@ -106,13 +120,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Result"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.proposition" secondary="NP-PPinto-PP" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.result" secondary="NP-PP; into-PP" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>I forced John into the chairmanship.</EXAMPLE>
             </EXAMPLES>
@@ -127,7 +141,7 @@
                 <PREP value="into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Proposition">
+                <NP value="Result">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
                     </SYNRESTRS>
@@ -139,7 +153,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Result"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -151,12 +165,14 @@
                 <MEMBER name="allure" wn="allure%2:32:00" grouping=""/>
                 <MEMBER name="annoy" wn="annoy%2:37:00" grouping=""/>
                 <MEMBER name="arm-twist" wn="" grouping=""/>
+                <MEMBER name="bait" wn="bait%2:41:00" grouping=""/>
                 <MEMBER name="bluff" wn="bluff%2:33:00 bluff%2:32:00" grouping=""/>
                 <MEMBER name="blackmail" wn="blackmail%2:41:00 blackmail%2:40:00" grouping=""/>
                 <MEMBER name="bribe" wn="bribe%2:40:00" grouping="bribe.01"/>
                 <MEMBER name="bully" wn="bully%2:32:00" grouping="bully.01"/>
                 <MEMBER name="cajole" wn="cajole%2:32:00" grouping=""/>
                 <MEMBER name="cheat" wn="cheat%2:33:00" grouping="cheat.02"/>
+                <MEMBER name="commander" wn="commandeer%2:35:00" grouping=""/>
                 <MEMBER name="con" wn="con%2:41:00" grouping="con.01"/>
                 <MEMBER name="deceive" wn="deceive%2:32:00" grouping="deceive.01"/>
                 <MEMBER name="delude" wn="delude%2:41:00" grouping=""/>
@@ -167,10 +183,10 @@
                 <MEMBER name="flatter" wn="flatter%2:32:00" grouping=""/>
                 <MEMBER name="fool" wn="fool%2:32:01" grouping="fool.01"/>
                 <MEMBER name="frighten" wn="frighten%2:37:00" grouping="frighten.01"/>
-                <MEMBER name="guide" wn="guide%2:38:01 guide%2:41:00" grouping="guide.01 guide.02"/>
+                <MEMBER name="guide" wn="guide%2:38:01 guide%2:41:00" grouping="guide.02"/>
                 <MEMBER name="harass" wn="harass%2:37:00 harass%2:33:00" grouping="harass.01 harass.02"/>
                 <MEMBER name="harry" wn="harry%2:37:00" grouping=""/>
-                <MEMBER name="hijack" wn="hijack%2:35:00 hijack%2:40:00" grouping="hijack.01 hijack.02"/>
+                <MEMBER name="hijack" wn="hijack%2:35:00 hijack%2:40:00" grouping="hijack.01"/>
                 <MEMBER name="hoodwink" wn="hoodwink%2:41:00" grouping=""/>
                 <MEMBER name="hustle" wn="hustle%2:32:00" grouping=""/>
                 <MEMBER name="influence" wn="" grouping=""/>
@@ -179,7 +195,7 @@
                 <MEMBER name="manipulate" wn="manipulate%2:41:00 manipulate%2:37:00" grouping="manipulate.01"/>
                 <MEMBER name="organize" wn="organize%2:41:00" grouping="organize.03"/>
                 <MEMBER name="panic" wn="panic%2:37:01" grouping="panic.01"/>
-                <MEMBER name="set" wn="set%2:30:09 set%2:30:12" grouping="set.04"/>
+                <MEMBER name="set" wn="set%2:30:09 set%2:30:12" grouping="set.06"/>
                 <MEMBER name="shame" wn="shame%2:41:01" grouping=""/>
                 <MEMBER name="shock" wn="shock%2:37:01" grouping="shock.01"/>
                 <MEMBER name="stimulate" wn="stimulate%2:32:01 stimulate%2:32:00" grouping="stimulate.01"/>
@@ -205,7 +221,7 @@
                         <NP value="Patient">
                             <SYNRESTRS/>
                         </NP>
-                        <NP value="Proposition">
+                        <NP value="Result">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="oc_to_inf"/>
                             </SYNRESTRS>
@@ -217,7 +233,7 @@
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Patient"/>
-                                <ARG type="ThemRole" value="Proposition"/>
+                                <ARG type="ThemRole" value="Result"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

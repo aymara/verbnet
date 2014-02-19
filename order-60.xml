@@ -5,10 +5,9 @@
         <MEMBER name="allow" wn="allow%2:32:00" grouping="allow.01"/>
         <MEMBER name="beseech" wn="beseech%2:32:00" grouping=""/>
         <MEMBER name="call" wn="call%2:32:05 call%2:32:15" grouping="call.01 call.07"/>
-        <MEMBER name="invite" wn="invite%2:37:00" grouping="invite.03"/>
-        <MEMBER name="need" wn="need%2:34:01" grouping="need.01"/>
+        <MEMBER name="hail" wn="hail%2:32:01" grouping="hail.03"/>
+        <MEMBER name="invite" wn="invite%2:37:00" grouping="invite.02 invite.03 invite.04"/>
         <MEMBER name="okay" wn="okay%2:32:00" grouping=""/>
-        <MEMBER name="want" wn="want%2:37:00" grouping="want.01"/>
         <MEMBER name="permit" wn="permit%2:32:00" grouping="permit.01"/>
         <MEMBER name="summon" wn="summon%2:32:05 summon%2:35:02" grouping="summon.01 summon.02"/>
     </MEMBERS>
@@ -19,13 +18,13 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Patient">
+        <THEMROLE type="Recipient">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Proposition">
+        <THEMROLE type="Topic">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -40,7 +39,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Patient">
+                <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -49,8 +48,8 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="?Proposition"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="?Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -65,10 +64,10 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Patient">
+                <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Proposition">
+                <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="oc_to_inf"/>
                     </SYNRESTRS>
@@ -79,8 +78,8 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -107,7 +106,7 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Proposition">
+                        <NP value="Topic">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="that_comp"/>
                                 <SYNRESTR Value="-" type="tensed_that"/>
@@ -119,8 +118,8 @@
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="?Patient"/>
-                                <ARG type="ThemRole" value="Proposition"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -135,7 +134,7 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Proposition">
+                        <NP value="Topic">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="that_comp"/>
                             </SYNRESTRS>
@@ -146,8 +145,8 @@
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="?Patient"/>
-                                <ARG type="ThemRole" value="Proposition"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

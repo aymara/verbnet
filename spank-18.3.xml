@@ -3,7 +3,7 @@
 <VNCLASS ID="spank-18.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="bayonet" wn="bayonet%2:35:00" grouping=""/>
-        <MEMBER name="belt" wn="belt%2:35:00" grouping=""/>
+        <MEMBER name="belt" wn="belt%2:35:00" grouping="belt.02"/>
         <MEMBER name="biff" wn="biff%2:35:00" grouping=""/>
         <MEMBER name="birch" wn="birch%2:35:00" grouping=""/>
         <MEMBER name="bludgeon" wn="bludgeon%2:35:00" grouping=""/>
@@ -13,11 +13,11 @@
         <MEMBER name="cane" wn="cane%2:35:00" grouping=""/>
         <MEMBER name="clobber" wn="clobber%2:35:01" grouping="clobber.01"/>
         <MEMBER name="clout" wn="clout%2:35:00" grouping=""/>
-        <MEMBER name="club" wn="club%2:35:00" grouping=""/>
+        <MEMBER name="club" wn="club%2:35:00" grouping="club.02"/>
         <MEMBER name="conk" wn="conk%2:35:00" grouping=""/>
         <MEMBER name="cosh" wn="cosh%2:35:00" grouping=""/>
         <MEMBER name="crack" wn="crack%2:35:00" grouping="crack.05"/>
-        <MEMBER name="crunch" wn="crunch%2:30:00" grouping=""/>
+        <MEMBER name="crunch" wn="crunch%2:30:00" grouping="crunch.03"/>
         <MEMBER name="cudgel" wn="cudgel%2:35:00" grouping=""/>
         <MEMBER name="cuff" wn="cuff%2:35:00" grouping=""/>
         <MEMBER name="elbow" wn="elbow%2:35:00" grouping=""/>
@@ -27,7 +27,7 @@
         <MEMBER name="knee" wn="" grouping=""/>
         <MEMBER name="knife" wn="knife%2:35:00" grouping=""/>
         <MEMBER name="k.o." wn="" grouping=""/>
-        <MEMBER name="paddle" wn="paddle%2:35:07" grouping=""/>
+        <MEMBER name="paddle" wn="paddle%2:35:07" grouping="paddle.03"/>
         <MEMBER name="paddywhack" wn="" grouping=""/>
         <MEMBER name="pummel" wn="pummel%2:35:00" grouping=""/>
         <MEMBER name="slam" wn="slam%2:35:01 slam%2:35:00 slam%2:35:02" grouping="slam.01"/>
@@ -41,6 +41,7 @@
         <MEMBER name="wallop" wn="wallop%2:35:00" grouping=""/>
         <MEMBER name="whip" wn="whip%2:35:00 whip%2:35:02" grouping="whip.01"/>
         <MEMBER name="whisk" wn="whisk%2:35:01" grouping=""/>
+        <MEMBER name="horsewhip" wn="horsewhip%2:35:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -57,6 +58,14 @@
             <SELRESTRS>
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Result">
+                <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
@@ -112,7 +121,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paula spanked the child with her right hand.</EXAMPLE>
             </EXAMPLES>
@@ -176,7 +185,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJPResultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>They spanked him dead.</EXAMPLE>
             </EXAMPLES>
@@ -188,7 +197,9 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                 <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="cause">
@@ -234,7 +245,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>They spanked him to death.</EXAMPLE>
             </EXAMPLES>
@@ -249,7 +260,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -299,7 +310,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique PP.instrument" secondary="NP-PP-PPResult-PP, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>They spanked him to death with a bat.</EXAMPLE>
             </EXAMPLES>
@@ -314,7 +325,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -377,7 +388,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.oblique" secondary="NP-PPBody-part-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.location" secondary="NP-PP; Body-part-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paula spanked the naughty child on the back.</EXAMPLE>
             </EXAMPLES>
@@ -394,8 +405,10 @@
                         <SELRESTR Value="+" type="loc"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Oblique">
-                    <SELRESTRS/>
+                <NP value="Location">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="body_part"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -436,9 +449,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP PP.instrument" secondary="NP-PP-PPBody-part-PP Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP PP.instrument" secondary="NP-PP-PP; Body-part-PP Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Paula spanked the naught child on the back with a paddle.</EXAMPLE>
+                <EXAMPLE>Paula spanked the naughty child on the back with a paddle.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -453,8 +466,10 @@
                         <SELRESTR Value="+" type="loc"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Oblique">
-                    <SELRESTRS/>
+                <NP value="Location">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="body_part"/>
+                    </SYNRESTRS>
                 </NP>
                 <PREP value="with">
                     <SELRESTRS/>
@@ -501,7 +516,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="NP-PPBody Part Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="NP-PP; Body Part Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paula spanked the naughty child's back.</EXAMPLE>
             </EXAMPLES>
@@ -513,10 +528,6 @@
                 <NP value="Patient">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="genitive"/>
-                    </SYNRESTRS>
-                </NP>
-                <NP value="Oblique">
-                    <SYNRESTRS>
                         <SYNRESTR Value="+" type="body_part"/>
                     </SYNRESTRS>
                 </NP>

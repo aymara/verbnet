@@ -18,7 +18,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPwith-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Maggie hurried with her lunch.</EXAMPLE>
             </EXAMPLES>
@@ -51,7 +51,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP.theme" secondary="NPCausative variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP.theme" secondary="NP; Causative variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Maggie hurried her sister.</EXAMPLE>
             </EXAMPLES>
@@ -81,7 +81,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V PP.theme" secondary="PPthrough-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.theme" secondary="PP; through-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Mary hurried through the museum.</EXAMPLE>
             </EXAMPLES>

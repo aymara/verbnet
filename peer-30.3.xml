@@ -35,7 +35,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.stimulus" secondary="PPTheme-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.stimulus" secondary="PP; Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>We peered at the baby.</EXAMPLE>
             </EXAMPLES>

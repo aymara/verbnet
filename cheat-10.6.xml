@@ -5,7 +5,7 @@
     <MEMBERS>
         <!--REMOVED "void" from class, misclassified-->
         <MEMBER name="bereave" wn="bereave%2:40:00" grouping=""/>
-        <MEMBER name="break" wn="break%2:42:04" grouping="break.03"/>
+        <MEMBER name="break" wn="break%2:42:04" grouping="break.04"/>
         <MEMBER name="cleanse" wn="cleanse%2:30:05" grouping="cleanse.01"/>
         <MEMBER name="cure" wn="cure%2:29:00" grouping="cure.01"/>
         <MEMBER name="denude" wn="denude%2:30:00" grouping=""/>
@@ -22,14 +22,15 @@
         <MEMBER name="purify" wn="purify%2:30:00 purify%2:30:01" grouping="purify.01 purify.02"/>
         <MEMBER name="ransack" wn="ransack%2:40:00" grouping=""/>
         <MEMBER name="relieve" wn="relieve%2:41:01 relieve%2:37:00 relieve%2:32:00 relieve%2:40:01 relieve%2:40:00" grouping="relieve.01 relieve.02 relieve.03 relieve.04"/>
-        <MEMBER name="render" wn="" grouping=""/>
-        <MEMBER name="rid" wn="rid%2:40:00" grouping=""/>
+        <MEMBER name="render" wn="" grouping="render.04"/>
+        <MEMBER name="rid" wn="rid%2:40:00" grouping="rid.01"/>
         <MEMBER name="rifle" wn="rifle%2:40:00" grouping=""/>
         <MEMBER name="strip" wn="strip%2:40:03 strip%2:30:06 strip%2:30:05 strip%2:40:00 strip%2:35:04 strip%2:30:12" grouping="strip.01 strip.03 strip.04"/>
         <MEMBER name="unburden" wn="unburden%2:40:00 unburden%2:35:00" grouping=""/>
         <MEMBER name="wean" wn="wean%2:37:00" grouping=""/>
+        <MEMBER name="whitewash" wn="whitewash%2:32:00" grouping="whitewash.02"/>
         <MEMBER name="bilk" wn="bilk%2:41:00" grouping=""/>
-        <MEMBER name="bleed" wn="bleed%2:40:09 bleed%2:30:00" grouping="bleed.04 bleed.05"/>
+        <MEMBER name="bleed" wn="bleed%2:40:09 bleed%2:30:00" grouping="bleed.04"/>
         <MEMBER name="cheat" wn="cheat%2:41:00" grouping="cheat.01"/>
         <MEMBER name="defraud" wn="defraud%2:41:00" grouping="defraud.01"/>
         <MEMBER name="rob" wn="rob%2:40:00" grouping="rob.01 rob.02"/>
@@ -61,7 +62,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PPof-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PP; of-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The doctor cured Pat of pneumonia.</EXAMPLE>
             </EXAMPLES>
@@ -104,7 +105,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PPout_of-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PP; out_of-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The swindler cheated Pat out of her fortune.</EXAMPLE>
             </EXAMPLES>
@@ -147,7 +148,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitivedropped Theme" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; dropped Theme" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The doctor cured Pat.</EXAMPLE>
             </EXAMPLES>
@@ -189,6 +190,7 @@
             <MEMBERS>
                 <MEMBER name="burgle" wn="?burgle%2:41:00" grouping=""/>
                 <MEMBER name="con" wn="con%2:41:00" grouping="con.01"/>
+                <MEMBER name="cozen" wn="cozen%2:40:00" grouping="cozen.01"/>
                 <MEMBER name="drain" wn="drain%2:34:00 drain%2:30:01" grouping="drain.01 drain.02"/>
                 <MEMBER name="ease" wn="ease%2:37:00" grouping="ease.01"/>
                 <MEMBER name="milk" wn="milk%2:34:00" grouping="milk.01"/>
@@ -199,7 +201,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source" secondary="NP-PPfrom-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source" secondary="NP-PP; from-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The swindler bilked 20 dollars from his boss.</EXAMPLE>
                     </EXAMPLES>
@@ -242,59 +244,7 @@
                     </SEMANTICS>
                 </FRAME>
             </FRAMES>
-            <SUBCLASSES>
-                <VNSUBCLASS ID="cheat-10.6-1-1">
-                    <MEMBERS>
-                        <MEMBER name="free" wn="free%2:41:00 free%2:40:02 free%2:35:02 free%2:41:02 free%2:35:01 free%2:32:00" grouping="free.01 free.02"/>
-                        <MEMBER name="absolve" wn="absolve%2:32:02 absolve%2:32:00" grouping=""/>
-                        <MEMBER name="acquit" wn="acquit%2:32:00" grouping="acquit.01"/>
-                        <MEMBER name="exonerate" wn="exonerate%2:32:00" grouping=""/>
-                        <MEMBER name="pardon" wn="pardon%2:32:00" grouping="pardon.02"/>
-                    </MEMBERS>
-                    <THEMROLES>
-                        <THEMROLE type="Predicate">
-                            <SELRESTRS/>
-                        </THEMROLE>
-                    </THEMROLES>
-                    <FRAMES>
-                        <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.predicate" secondary="NP-PPas-PP" xtag=""/>
-                            <EXAMPLES>
-                                <EXAMPLE>Studies exonerated program trading as a source of volatility.</EXAMPLE>
-                            </EXAMPLES>
-                            <SYNTAX>
-                                <NP value="Agent">
-                                    <SYNRESTRS/>
-                                </NP>
-                                <VERB/>
-                                <NP value="Theme">
-                                    <SYNRESTRS/>
-                                </NP>
-                                <LEX value="as"/>
-                                <NP value="Predicate">
-                                    <SYNRESTRS/>
-                                </NP>
-                            </SYNTAX>
-                            <SEMANTICS>
-                                <PRED value="cause">
-                                    <ARGS>
-                                        <ARG type="ThemRole" value="Agent"/>
-                                        <ARG type="Event" value="E"/>
-                                    </ARGS>
-                                </PRED>
-                                <PRED bool="!" value="Pred">
-                                    <ARGS>
-                                        <ARG type="Event" value="end(E)"/>
-                                        <ARG type="ThemRole" value="Theme"/>
-                                        <ARG type="ThemRole" value="Predicate"/>
-                                    </ARGS>
-                                </PRED>
-                            </SEMANTICS>
-                        </FRAME>
-                    </FRAMES>
-                    <SUBCLASSES/>
-                </VNSUBCLASS>
-            </SUBCLASSES>
+           <SUBCLASSES/>
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>

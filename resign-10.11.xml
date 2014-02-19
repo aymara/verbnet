@@ -92,7 +92,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source" secondary="PPfrom-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.source" secondary="PP; from-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I resigned from the military.</EXAMPLE>
             </EXAMPLES>

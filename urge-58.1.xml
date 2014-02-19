@@ -2,21 +2,18 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="urge-58.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="admonish" wn="admonish%2:32:02 admonish%2:32:01" grouping=""/>
-        <MEMBER name="advise" wn="advise%2:32:00 advise%2:32:02" grouping="advise.01"/>
+        <MEMBER name="admonish" wn="admonish%2:32:02 admonish%2:32:01" grouping="admonish.01"/>        <MEMBER name="advise" wn="advise%2:32:00 advise%2:32:02" grouping="advise.01"/>
         <MEMBER name="ask" wn="ask%2:32:01" grouping="ask.02"/>
         <MEMBER name="badger" wn="badger%2:32:00" grouping=""/>
         <MEMBER name="beg" wn="beg%2:32:00 beg%2:32:01" grouping="beg.01"/>
-        <MEMBER name="convince" wn="convince%2:32:00" grouping="convince.01"/>
+        <MEMBER name="egg_on" wn="egg_on%2:35:00" grouping=""/>
         <MEMBER name="entreat" wn="entreat%2:32:00" grouping=""/>
         <MEMBER name="exhort" wn="exhort%2:32:00" grouping=""/>
-        <MEMBER name="extort" wn="extort%2:40:01 extort%2:40:00" grouping=""/>
+        <MEMBER name="extort" wn="extort%2:40:01 extort%2:40:00" grouping="extort.01"/>
         <MEMBER name="lobby" wn="lobby%2:41:00" grouping="lobby.01"/>
-        <MEMBER name="motivate" wn="motivate%2:36:00" grouping="motivate.01"/>
-        <MEMBER name="sway" wn="sway%2:41:00" grouping="sway.01"/>
         <MEMBER name="urge" wn="urge%2:32:00 urge%2:32:03" grouping="urge.01 urge.02"/>
-        <MEMBER name="persuade" wn="persuade%2:32:00" grouping="persuade.01"/>
         <MEMBER name="implore" wn="implore%2:32:00" grouping=""/>
+        <MEMBER name="press" wn="press%2:32:00 press%2:32:01" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -25,13 +22,13 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Patient">
+        <THEMROLE type="Recipient">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Proposition">
+        <THEMROLE type="Topic">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -39,14 +36,14 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>I persuaded him.</EXAMPLE>
+                <EXAMPLE>I advised him.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Patient">
+                <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -55,41 +52,8 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="?Proposition"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.proposition" secondary="NP-PPinto-PP" xtag="0.2"/>
-            <EXAMPLES>
-                <EXAMPLE>I persuaded him into action.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <PREP value="into">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Proposition">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="-" type="sentential"/>
-                    </SYNRESTRS>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="urge">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="?Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -97,17 +61,17 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP S_ING" secondary="NP-TO-INF-OC" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>I persuaded him to come.</EXAMPLE>
+                <EXAMPLE>I advised him to come.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Patient">
+                <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Proposition">
+                <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="oc_to_inf"/>
                     </SYNRESTRS>
@@ -118,8 +82,8 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -127,17 +91,17 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP that S" secondary="NP-S" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>I persuaded him that he should come.</EXAMPLE>
+                <EXAMPLE>I advised him that he should come.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Patient">
+                <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Proposition">
+                <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
@@ -148,8 +112,8 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

@@ -11,7 +11,7 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Cause">
+        <THEMROLE type="Stimulus">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -47,7 +47,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
@@ -64,7 +64,7 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -79,7 +79,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="wh_comp"/>
                     </SYNRESTRS>
@@ -96,7 +96,7 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -112,7 +112,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.cause what S" secondary="P-WHAT-Sabout-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus what S" secondary="P-WHAT-S; about-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>He doesn't care about what he should do.</EXAMPLE>
                     </EXAMPLES>
@@ -124,7 +124,7 @@
                         <PREP value="about">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Cause">
+                        <NP value="Stimulus">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="what_extract"/>
                             </SYNRESTRS>
@@ -141,7 +141,7 @@
                         <PRED value="in_reaction_to">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Cause"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -156,7 +156,7 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Cause">
+                        <NP value="Stimulus">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="what_extract"/>
                             </SYNRESTRS>
@@ -173,13 +173,13 @@
                         <PRED value="in_reaction_to">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Cause"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.cause how/whether S" secondary="P-WH-Sabout-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus how/whether S" secondary="P-WH-S; about-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>He doesn't care about how/whether she comes.</EXAMPLE>
                     </EXAMPLES>
@@ -191,7 +191,7 @@
                         <PREP value="about">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Cause">
+                        <NP value="Stimulus">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="wh_comp"/>
                             </SYNRESTRS>
@@ -208,7 +208,7 @@
                         <PRED value="in_reaction_to">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Cause"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

@@ -39,7 +39,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP.location V" secondary="IntransitiveLocation subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP.location V" secondary="Intransitive; Location subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The room reeked.</EXAMPLE>
             </EXAMPLES>
@@ -67,7 +67,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPof-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; of-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The room reeked of onions.</EXAMPLE>
             </EXAMPLES>

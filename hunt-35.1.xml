@@ -10,6 +10,7 @@
         <MEMBER name="pan" wn="" grouping=""/>
         <MEMBER name="poach" wn="poach%2:33:00" grouping=""/>
         <MEMBER name="scrounge" wn="scrounge%2:40:00" grouping=""/>
+        <MEMBER name="seek" wn="seek%2:40:00 seek%2:32:00" grouping="seek.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -26,7 +27,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PPTheme-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PP; Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I hunted the woods for game.</EXAMPLE>
             </EXAMPLES>
@@ -57,7 +58,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme PP.location" secondary="PP-PPTheme-PP Location-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme PP.location" secondary="PP-PP; Theme-PP Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I hunted for game in the woods.</EXAMPLE>
             </EXAMPLES>
@@ -93,7 +94,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location PP.theme" secondary="PPLocation-PP Theme-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location PP.theme" secondary="PP; Location-PP Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I hunted in the woods for game.</EXAMPLE>
             </EXAMPLES>
@@ -129,7 +130,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PPLocation-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PP; Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I hunted game in the woods.</EXAMPLE>
             </EXAMPLES>

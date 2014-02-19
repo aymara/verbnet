@@ -11,7 +11,7 @@
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Predicate">
+        <THEMROLE type="Result">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -29,7 +29,11 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                <NP value="Result">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="declare">
@@ -37,7 +41,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Predicate"/>
+                        <ARG type="ThemRole" value="Result"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -55,7 +59,7 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Predicate">
+                <NP value="Result">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
                     </SYNRESTRS>
@@ -67,7 +71,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Result"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -94,7 +98,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Predicate"/>
+                        <ARG type="ThemRole" value="?Result"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -114,6 +118,11 @@
                         <SYNRESTR Value="+" type="np_ppart"/>
                     </SYNRESTRS>
                 </NP>
+                <NP value="Result">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="declare">
@@ -121,7 +130,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Predicate"/>
+                        <ARG type="ThemRole" value="?Result"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -148,7 +157,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Predicate"/>
+                        <ARG type="ThemRole" value="?Result"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -157,7 +166,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="declare-29.4-1">
             <MEMBERS>
-                <MEMBER name="maintain" wn="" grouping=""/>
+                <MEMBER name="maintain" wn="" grouping="maintain.02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -183,7 +192,7 @@
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="ThemRole" value="?Predicate"/>
+                                <ARG type="ThemRole" value="?Result"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -210,13 +219,13 @@
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="ThemRole" value="?Predicate"/>
+                                <ARG type="ThemRole" value="?Result"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADJ" secondary="NP-PPas-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADJ" secondary="NP-PP; as-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The president declared John as stupid.</EXAMPLE>
                     </EXAMPLES>
@@ -231,7 +240,11 @@
                         <PREP value="as">
                             <SELRESTRS/>
                         </PREP>
-                        <ADJ/>
+                        <NP value="Result">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                        </NP>
                     </SYNTAX>
                     <SEMANTICS>
                         <PRED value="declare">
@@ -239,7 +252,7 @@
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="ThemRole" value="?Predicate"/>
+                                <ARG type="ThemRole" value="?Result"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -274,7 +287,7 @@
                                         <ARG type="Event" value="during(E)"/>
                                         <ARG type="ThemRole" value="Agent"/>
                                         <ARG type="ThemRole" value="Theme"/>
-                                        <ARG type="ThemRole" value="?Predicate"/>
+                                        <ARG type="ThemRole" value="?Result"/>
                                     </ARGS>
                                 </PRED>
                             </SEMANTICS>
@@ -309,7 +322,7 @@
                                                 <ARG type="Event" value="during(E)"/>
                                                 <ARG type="ThemRole" value="Agent"/>
                                                 <ARG type="ThemRole" value="Theme"/>
-                                                <ARG type="ThemRole" value="?Predicate"/>
+                                                <ARG type="ThemRole" value="?Result"/>
                                             </ARGS>
                                         </PRED>
                                     </SEMANTICS>
@@ -347,7 +360,7 @@
                                                 <ARG type="Event" value="during(E)"/>
                                                 <ARG type="ThemRole" value="Agent"/>
                                                 <ARG type="ThemRole" value="Theme"/>
-                                                <ARG type="ThemRole" value="?Predicate"/>
+                                                <ARG type="ThemRole" value="?Result"/>
                                             </ARGS>
                                         </PRED>
                                     </SEMANTICS>
@@ -374,7 +387,7 @@
                                                 <ARG type="Event" value="during(E)"/>
                                                 <ARG type="ThemRole" value="Agent"/>
                                                 <ARG type="ThemRole" value="Theme"/>
-                                                <ARG type="ThemRole" value="?Predicate"/>
+                                                <ARG type="ThemRole" value="?Result"/>
                                             </ARGS>
                                         </PRED>
                                     </SEMANTICS>
@@ -411,7 +424,7 @@
                                                 <ARG type="Event" value="during(E)"/>
                                                 <ARG type="ThemRole" value="Agent"/>
                                                 <ARG type="ThemRole" value="Theme"/>
-                                                <ARG type="ThemRole" value="?Predicate"/>
+                                                <ARG type="ThemRole" value="?Result"/>
                                             </ARGS>
                                         </PRED>
                                     </SEMANTICS>
@@ -426,7 +439,7 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="declare-29.4-2">
             <MEMBERS>
-                <MEMBER name="proclaim" wn="proclaim%2:32:02" grouping="proclaim.01"/>
+                <MEMBER name="proclaim" wn="proclaim%2:32:02" grouping="proclaim.02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -452,7 +465,7 @@
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="ThemRole" value="?Predicate"/>
+                                <ARG type="ThemRole" value="?Result"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -479,7 +492,7 @@
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="ThemRole" value="?Predicate"/>
+                                <ARG type="ThemRole" value="?Result"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

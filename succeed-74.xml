@@ -44,7 +44,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCin-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SC; in-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I succeeded in climbing the mountain.</EXAMPLE>
                     </EXAMPLES>
@@ -73,7 +73,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPin-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; in-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I succeeded in the endeavour.</EXAMPLE>
                     </EXAMPLES>
@@ -142,7 +142,7 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="succeed-74-2">
             <MEMBERS>
-                <MEMBER name="fail" wn="fail%2:41:02 fail%2:41:00 fail%2:41:12" grouping="fail.01 fail.03"/>
+                <MEMBER name="fail" wn="fail%2:41:02 fail%2:41:00 fail%2:41:12" grouping="fail.01"/>
                 <MEMBER name="flub" wn="" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
@@ -195,7 +195,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCin-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SC; in-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I failed in attempting the test.</EXAMPLE>
                     </EXAMPLES>
@@ -224,7 +224,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPin-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; in-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I failed in maths.</EXAMPLE>
                     </EXAMPLES>

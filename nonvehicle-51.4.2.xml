@@ -9,7 +9,7 @@
         <MEMBER name="fly" wn="fly%2:35:00 fly%2:38:05 fly%2:38:04" grouping="fly.01"/>
         <MEMBER name="navigate" wn="navigate%2:38:00 navigate%2:38:03" grouping="navigate.01 navigate.02"/>
         <MEMBER name="oar" wn="" grouping=""/>
-        <MEMBER name="paddle" wn="paddle%2:38:00" grouping=""/>
+        <MEMBER name="paddle" wn="paddle%2:38:00" grouping="paddle.01"/>
         <MEMBER name="pedal" wn="pedal%2:38:00" grouping=""/>
         <MEMBER name="rally" wn="" grouping=""/>
         <MEMBER name="ride" wn="ride%2:38:01 ride%2:38:00 ride%2:38:04 ride%2:38:07" grouping="ride.01 ride.03"/>
@@ -17,6 +17,7 @@
         <MEMBER name="sail" wn="sail%2:38:03 sail%2:38:00 sail%2:38:02" grouping="sail.01"/>
         <MEMBER name="tack" wn="tack%2:38:00" grouping="tack.03"/>
         <MEMBER name="voyage" wn="" grouping=""/>
+        <MEMBER name="wing" wn="wing%2:38:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -37,7 +38,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP.agent V" secondary="Basic Intransitiveinchoative" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP.agent V" secondary="Basic Intransitive; inchoative" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>They rowed.</EXAMPLE>
             </EXAMPLES>
@@ -57,7 +58,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PPlocative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>They rowed along the canal.</EXAMPLE>
             </EXAMPLES>
@@ -92,7 +93,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PPaccompanied motion, path-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PP; accompanied motion, path-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He rowed Penny across the lake.</EXAMPLE>
             </EXAMPLES>
@@ -155,7 +156,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitiveaccompanied motion" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; accompanied motion" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He drove Penny.</EXAMPLE>
             </EXAMPLES>
@@ -191,164 +192,6 @@
                     <ARGS>
                         <ARG type="Event" value="during(E1)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJPResultative" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Penny rowed her palms raw.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Oblique">
-                    <SELRESTRS/>
-                </NP>
-                <ADJ/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Oblique"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique2" secondary="NP-PPResult-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Penny rowed her palms to shreds.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Oblique1">
-                    <SELRESTRS/>
-                </NP>
-                <PREP value="to into">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Oblique2">
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="state"/>
-                    </SELRESTRS>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Oblique1"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJPResultative" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>He rode her seasick.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-                <ADJ/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>He rode her to sickness.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-                <PREP value="to into">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Oblique">
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="state"/>
-                    </SELRESTRS>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

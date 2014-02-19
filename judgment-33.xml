@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS ID="judgement-33" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="judgment-33" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="acclaim" wn="acclaim%2:32:00" grouping=""/>
         <MEMBER name="accurse" wn="" grouping=""/>
         <MEMBER name="applaud" wn="applaud%2:32:00" grouping="applaud.02"/>
-        <MEMBER name="assail" wn="" grouping=""/>
-        <MEMBER name="assault" wn="" grouping=""/>
-        <MEMBER name="attack" wn="" grouping=""/>
-        <MEMBER name="belittle" wn="" grouping=""/>
-        <MEMBER name="blame" wn="" grouping=""/>
+        <MEMBER name="assail" wn="" grouping="assail.01 assail.02"/>
+        <MEMBER name="assault" wn="" grouping="assault.01"/>
+        <MEMBER name="attack" wn="" grouping="attack.02"/>
+        <MEMBER name="badmouth" wn="" grouping=""/>
+        <MEMBER name="belittle" wn="" grouping="belittle.01"/>
+        <MEMBER name="blame" wn="" grouping="blame.01 blame.02"/>
         <MEMBER name="blaspheme" wn="" grouping=""/>
         <MEMBER name="bless" wn="bless%2:32:00 bless%2:40:00" grouping="bless.01 bless.02"/>
         <MEMBER name="celebrate" wn="celebrate%2:41:02" grouping="celebrate.02"/>
         <MEMBER name="commend" wn="commend%2:32:00 commend%2:32:02" grouping="commend.01"/>
-        <MEMBER name="compensate" wn="compensate%2:40:00" grouping="compensate.02"/>
+        <MEMBER name="compensate" wn="compensate%2:40:00" grouping="compensate.01 compensate.02"/>
         <MEMBER name="compliment" wn="compliment%2:32:00 compliment%2:32:01" grouping=""/>
         <MEMBER name="condone" wn="" grouping=""/>
         <MEMBER name="congratulate" wn="congratulate%2:32:00 congratulate%2:32:01 congratulate%2:37:00 congratulate%2:32:11" grouping="congratulate.01"/>
-        <MEMBER name="curse" wn="" grouping=""/>
+        <MEMBER name="curse" wn="" grouping="curse.02"/>
         <MEMBER name="damn" wn="" grouping=""/>
-        <MEMBER name="doubt" wn="" grouping=""/>
+        <MEMBER name="doubt" wn="" grouping="doubt.02"/>
         <MEMBER name="eulogize" wn="eulogize%2:32:00" grouping=""/>
         <MEMBER name="excoriate" wn="" grouping=""/>
         <MEMBER name="excuse" wn="excuse%2:32:01 excuse%2:32:02" grouping="excuse.01"/>
@@ -28,13 +29,13 @@
         <MEMBER name="felicitate" wn="felicitate%2:32:00" grouping=""/>
         <MEMBER name="forgive" wn="forgive%2:32:00" grouping="forgive.01"/>
         <MEMBER name="gibe" wn="" grouping=""/>
-        <MEMBER name="glorify" wn="" grouping=""/>
+        <MEMBER name="glorify" wn="" grouping="glorify.01"/>
         <MEMBER name="greet" wn="greet%2:32:00 ?greet%2:31:00" grouping="greet.01"/>
         <MEMBER name="hail" wn="hail%2:32:02" grouping="hail.01"/>
         <MEMBER name="herald" wn="herald%2:32:01" grouping=""/>
         <MEMBER name="imprecate" wn="" grouping=""/>
         <MEMBER name="incriminate" wn="" grouping=""/>
-        <MEMBER name="indict" wn="" grouping=""/>
+        <MEMBER name="indict" wn="" grouping="indict.01"/>
         <MEMBER name="lampoon" wn="lampoon%2:32:00" grouping=""/>
         <MEMBER name="stigmatize" wn="stigmatize%2:41:00" grouping=""/>
         <MEMBER name="praise" wn="praise%2:32:00" grouping="praise.01"/>
@@ -44,11 +45,13 @@
         <MEMBER name="pardon" wn="pardon%2:32:01 pardon%2:32:00" grouping="pardon.01 pardon.02"/>
         <MEMBER name="recompense" wn="recompense%2:40:01" grouping=""/>
         <MEMBER name="remunerate" wn="remunerate%2:40:00" grouping=""/>
+        <MEMBER name="reprobate" wn="reprobate%2:32:01 reprobate%2:32:00" grouping="reprobate.02"/>
         <MEMBER name="slander" wn="" grouping=""/>
         <MEMBER name="stultify" wn="" grouping=""/>
         <MEMBER name="repay" wn="repay%2:40:02" grouping="repay.02"/>
         <MEMBER name="reward" wn="reward%2:41:01" grouping="reward.01"/>
         <MEMBER name="salute" wn="salute%2:32:03 salute%2:34:00" grouping="salute.01"/>
+        <MEMBER name="satirize" wn="satirize%2:32:00" grouping=""/>
         <MEMBER name="thank" wn="thank%2:32:00" grouping="thank.01"/>
         <MEMBER name="toast" wn="toast%2:34:00" grouping=""/>
         <MEMBER name="welcome" wn="welcome%2:40:00" grouping="welcome.01"/>
@@ -94,7 +97,8 @@
         <MEMBER name="victimize" wn="victimize%2:41:01 victimize%2:41:00" grouping="victimize.01"/>
         <MEMBER name="vilify" wn="vilify%2:32:00" grouping=""/>
         <MEMBER name="approve" wn="approve%2:32:00 approve%2:31:00" grouping="approve.01 approve.02"/>
-        <MEMBER name="sanction" wn="" grouping=""/>
+        <MEMBER name="sanction" wn="" grouping="sanction.02"/>
+        <MEMBER name="slang" wn="slang%2:32:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -105,7 +109,7 @@
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Predicate">
+        <THEMROLE type="Attribute">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -130,13 +134,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Predicate"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.predicate" secondary="NP-PPCause-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.attribute" secondary="NP-PP; Cause-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>They praised the volunteers for their dedication.</EXAMPLE>
             </EXAMPLES>
@@ -151,7 +155,7 @@
                 <PREP value="for">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -161,13 +165,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.2" primary="NP V NP.predicate" secondary="NPPredicate Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.2" primary="NP V NP.theme" secondary="NP; Theme Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>They praised the volunteer's dedication.</EXAMPLE>
             </EXAMPLES>
@@ -181,9 +185,6 @@
                         <SYNRESTR Value="+" type="genitive"/>
                     </SYNRESTRS>
                 </NP>
-                <NP value="Predicate">
-                    <SYNRESTRS/>
-                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="declare">
@@ -191,13 +192,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.predicate" secondary="NP-PPas-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.attribute" secondary="NP-PP; as-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I judged him as a good man.</EXAMPLE>
             </EXAMPLES>
@@ -212,7 +213,7 @@
                 <PREP value="as">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -222,7 +223,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -240,7 +241,7 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="small_clause"/>
                     </SYNRESTRS>
@@ -252,7 +253,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

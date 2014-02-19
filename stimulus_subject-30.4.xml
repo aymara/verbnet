@@ -54,7 +54,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V ADJ PP.experiencer" secondary="PPExperiencer-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V ADJ PP.experiencer" secondary="PP; Experiencer-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>That pea soup tasted delicious to me.</EXAMPLE>
             </EXAMPLES>

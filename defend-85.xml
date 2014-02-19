@@ -2,11 +2,13 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="defend-85" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="defend" wn="defend%2:32:00 defend%2:41:00 defend%2:32:01" grouping="defend.02"/>
+        <MEMBER name="defend" wn="defend%2:32:00 defend%2:41:00 defend%2:32:01" grouping="defend.01 defend.02 defend.03"/>
         <MEMBER name="insure" wn="insure%2:32:00" grouping="insure.01"/>
         <MEMBER name="protect" wn="protect%2:33:00" grouping="protect.01"/>
         <MEMBER name="shade" wn="shade%2:35:00" grouping=""/>
         <MEMBER name="preserve" wn="preserve%2:40:00" grouping="preserve.01"/>
+        <MEMBER name="guard" wn="guard%2:41:00 guard%2:33:00" grouping="guard.01"/>
+        <MEMBER name="safeguard" wn="safeguard%2:33:00" grouping="safeguard.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -21,7 +23,7 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Proposition">
+        <THEMROLE type="Co-Theme">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -46,15 +48,15 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Proposition"/>
+                        <ARG type="ThemRole" value="?Co-Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.proposition" secondary="NP-PPagainst-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.co-theme" secondary="NP-PP; against-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>I defended them against the charges.</EXAMPLE>
+                <EXAMPLE>I defended them against the warriors.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -67,7 +69,7 @@
                 <PREP value="against">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Proposition">
+                <NP value="Co-Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
                     </SYNRESTRS>
@@ -79,7 +81,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Co-Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -94,7 +96,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="ac_ing"/>
                     </SYNRESTRS>
@@ -106,7 +108,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -121,7 +123,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="poss_ing"/>
                     </SYNRESTRS>
@@ -133,7 +135,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

@@ -51,7 +51,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP up" secondary="NP-PARTup" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP up" secondary="NP-PART; up" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia gobbled the pizza up.</EXAMPLE>
                     </EXAMPLES>
@@ -76,7 +76,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP down" secondary="NP-PARTdown" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP down" secondary="NP-PART; down" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia gobbled the pizza down.</EXAMPLE>
                     </EXAMPLES>
@@ -108,6 +108,7 @@
                 <MEMBER name="gulp" wn="gulp%2:34:01" grouping=""/>
                 <MEMBER name="guzzle" wn="guzzle%2:34:00" grouping=""/>
                 <MEMBER name="quaff" wn="quaff%2:34:00" grouping=""/>
+                <MEMBER name="slug" wn="" grouping=""/>
                 <MEMBER name="swallow" wn="swallow%2:34:00" grouping="swallow.01"/>
                 <MEMBER name="swig" wn="swig%2:34:00" grouping=""/>
             </MEMBERS>
@@ -145,7 +146,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V down NP" secondary="PART-NPdown" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V down NP" secondary="PART-NP; down" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia quaffed down the mixture.</EXAMPLE>
                     </EXAMPLES>

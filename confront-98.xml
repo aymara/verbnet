@@ -2,7 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="confront-98" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="face" wn="face%2:32:00 face%2:33:00 face%2:32:03 " grouping="face.01 face.04"/>
+        <MEMBER name="face" wn="face%2:32:00 face%2:33:00 face%2:32:03" grouping="face.01"/>
         <MEMBER name="confront" wn="confront%2:33:00 confront%2:32:00 confront%2:32:03" grouping="confront.01 confront.02 confront.03"/>
         <MEMBER name="head_on" wn="" grouping=""/>
         <MEMBER name="undertake" wn="undertake%2:41:01" grouping="undertake.01"/>
@@ -19,6 +19,7 @@
         <MEMBER name="counter" wn="counter%2:41:00" grouping="counter.01"/>
         <MEMBER name="pre-empt" wn="" grouping=""/>
         <MEMBER name="combat" wn="combat%2:33:00" grouping="combat.01"/>
+        <MEMBER name="breast" wn="breast%2:33:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -61,7 +62,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.instrument" secondary="NP-PPwith-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.instrument" secondary="NP-PP; with-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>John confronted it with emergency measures.</EXAMPLE>
             </EXAMPLES>

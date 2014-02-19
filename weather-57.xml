@@ -3,15 +3,17 @@
 <VNCLASS ID="weather-57" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="blow" wn="blow%2:43:00" grouping="blow.02"/>
+        <MEMBER name="bucket" wn="" grouping=""/>
         <MEMBER name="clear" wn="clear%2:43:00" grouping="clear.01"/>
         <MEMBER name="drizzle" wn="drizzle%2:43:00" grouping=""/>
         <MEMBER name="fog" wn="fog%2:39:00" grouping=""/>
+        <MEMBER name="frost" wn="" grouping="frost.05"/>
         <MEMBER name="freeze" wn="freeze%2:43:10" grouping="freeze.01"/>
-        <MEMBER name="gust" wn="gust%1:19:00" grouping=""/>
+        <MEMBER name="gust" wn="" grouping=""/>
         <MEMBER name="hail" wn="hail%2:43:00" grouping="hail.05"/>
-        <MEMBER name="howl" wn="howl%2:32:01" grouping=""/>
+        <MEMBER name="howl" wn="howl%2:32:01" grouping="howl.01"/>
         <MEMBER name="lightning" wn="" grouping=""/>
-        <MEMBER name="mist" wn="mist%2:30:00" grouping=""/>
+        <MEMBER name="mist" wn="mist%2:30:00" grouping="mist.01"/>
         <MEMBER name="mizzle" wn="mizzle%2:43:00" grouping=""/>
         <MEMBER name="pelt" wn="pelt%2:43:00" grouping=""/>
         <MEMBER name="pour" wn="pour%2:43:00" grouping="pour.04"/>
@@ -40,7 +42,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.7" primary="It V" secondary="IntransitiveExpletive Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.7" primary="It V" secondary="Intransitive; Expletive Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>It's raining.</EXAMPLE>
             </EXAMPLES>
@@ -60,7 +62,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.7" primary="It V NP.theme" secondary="NPExpletive Subject, Theme Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.7" primary="It V NP.theme" secondary="NP; Expletive Subject, Theme Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>It's raining cats and dogs.</EXAMPLE>
             </EXAMPLES>
@@ -83,7 +85,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.7" primary="It V PP.theme" secondary="PPExpletive Subject, Theme-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.7" primary="It V PP.theme" secondary="PP; Expletive Subject, Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>It was pelting with rain.</EXAMPLE>
             </EXAMPLES>

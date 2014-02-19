@@ -4,6 +4,7 @@
     <MEMBERS>
         <MEMBER name="classify" wn="classify%2:31:00" grouping="classify.01"/>
         <MEMBER name="class" wn="class%2:31:00" grouping=""/>
+        <MEMBER name="constellate" wn="constellate%2:38:00 constellate%2:30:00" grouping="constellate.02"/>
         <MEMBER name="sort" wn="sort%2:31:00" grouping="sort.02"/>
         <MEMBER name="isolate" wn="isolate%2:30:02" grouping="isolate.01"/>
         <MEMBER name="reclassify" wn="reclassify%2:31:00" grouping=""/>
@@ -17,8 +18,9 @@
         <MEMBER name="catalogue" wn="catalogue%2:31:00" grouping=""/>
         <MEMBER name="sort_out" wn="sort_out%2:31:00" grouping=""/>
         <MEMBER name="separate" wn="separate%2:31:00" grouping="separate.01"/>
+        <MEMBER name="seed" wn="seed%2:31:00" grouping="seed.04"/>
         <MEMBER name="categorize" wn="categorize%2:31:00" grouping=""/>
-        <MEMBER name="code" wn="" grouping=""/>
+        <MEMBER name="code" wn="" grouping="code.01"/>
         <MEMBER name="recode" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
@@ -31,10 +33,7 @@
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Destination">
-            <SELRESTRS/>
-        </THEMROLE>
-        <THEMROLE type="Predicate">
+        <THEMROLE type="Goal">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -69,7 +68,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.predicate" secondary="NP-PPas-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.goal" secondary="NP-PP; as-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>She classified the works as 'dangerous'.</EXAMPLE>
             </EXAMPLES>
@@ -84,7 +83,7 @@
 		<PREP value="as">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Predicate">
+                <NP value="Goal">
                     <SYNRESTRS>
 			<SYNRESTR Value="-" type="sentential"/>
 		    </SYNRESTRS>
@@ -95,7 +94,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -107,7 +106,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.location" secondary="NP-PPin-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.location" secondary="NP-PP; in-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>She classified the articles into different genres.</EXAMPLE>
             </EXAMPLES>
@@ -122,7 +121,7 @@
                 <PREP value="in">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Destination">
+                <NP value="Goal">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -131,7 +130,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">

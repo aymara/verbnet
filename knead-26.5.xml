@@ -2,16 +2,18 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="knead-26.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="beat" wn="beat%2:36:00" grouping="beat.02"/>
+        <MEMBER name="ball" wn="ball%2:35:00" grouping="ball.01"/>
+        <MEMBER name="beat" wn="beat%2:36:00" grouping="beat.06"/>
         <MEMBER name="bend" wn="bend%2:35:00" grouping="bend.02"/>
-        <MEMBER name="coil" wn="?coil%2:35:00" grouping=""/>
+        <MEMBER name="coil" wn="?coil%2:35:00" grouping="coil.02"/>
         <MEMBER name="collect" wn="collect%2:35:00" grouping="collect.01"/>
         <MEMBER name="compress" wn="compress%2:35:01 compress%2:35:00" grouping="compress.01"/>
         <MEMBER name="contort" wn="" grouping=""/>
-        <MEMBER name="curve" wn="" grouping=""/>
-        <MEMBER name="distort" wn="" grouping=""/>
-        <MEMBER name="fold" wn="fold%2:35:00 fold%2:30:10" grouping="fold.01"/>
-        <MEMBER name="freeze" wn="freeze%2:30:00 freeze%2:30:02 freeze%2:30:04" grouping="freeze.01 freeze.02"/>
+        <MEMBER name="curve" wn="" grouping="curve.02"/>
+        <MEMBER name="distort" wn="" grouping="distort.01"/>
+        <MEMBER name="fold" wn="fold%2:35:00 fold%2:30:10" grouping="fold.03"/>
+        <MEMBER name="flex" wn="flex%2:35:02" grouping="flex.03"/>
+        <MEMBER name="flux" wn="flux%2:30:01" grouping="flux.02"/>
         <MEMBER name="knead" wn="knead%2:35:00" grouping=""/>
         <MEMBER name="melt" wn="melt%2:30:01 melt%2:30:00" grouping="melt.01"/>
         <MEMBER name="shake" wn="shake%2:38:00" grouping="shake.01"/>
@@ -22,7 +24,7 @@
         <MEMBER name="twist" wn="twist%2:35:02 twist%2:35:01" grouping="twist.02"/>
         <MEMBER name="wad" wn="wad%2:35:01" grouping=""/>
         <MEMBER name="whip" wn="whip%2:35:00 ?whip%2:35:01" grouping="whip.01 whip.03"/>
-        <MEMBER name="wind" wn="wind%2:35:00 wind%2:35:02" grouping="wind.02 wind.04"/>
+        <MEMBER name="wind" wn="wind%2:35:02" grouping="wind.02"/>
         <MEMBER name="work" wn="work%2:36:12 work%2:35:00" grouping="work.03"/>
     </MEMBERS>
     <THEMROLES>
@@ -41,7 +43,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP.material V PP.product" secondary="PPInchoative variant, Product-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP.material V PP.product" secondary="PP; Inchoative variant, Product-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The dough twirled into a pretzel.</EXAMPLE>
             </EXAMPLES>
@@ -94,7 +96,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.material PP.product" secondary="NP-PPCausative variant, Product-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.material PP.product" secondary="NP-PP; Causative variant, Product-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I kneaded the dough into a loaf.</EXAMPLE>
             </EXAMPLES>
@@ -156,7 +158,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.material" secondary="TransitiveCausative variant, Material Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.material" secondary="Transitive; Causative variant, Material Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I kneaded the dough.</EXAMPLE>
             </EXAMPLES>

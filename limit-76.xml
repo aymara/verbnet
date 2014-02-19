@@ -2,12 +2,12 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="limit-76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="confine" wn="confine%2:30:00 " grouping="confine.01"/>
+        <MEMBER name="confine" wn="confine%2:30:00" grouping="confine.01"/>
         <MEMBER name="limit" wn="limit%2:30:01" grouping="limit.01"/>
-        <MEMBER name="reduce" wn="reduce%2:30:00" grouping="reduce.01"/>
+        <MEMBER name="reduce" wn="reduce%2:30:00" grouping="reduce.01 reduce.02"/>
         <MEMBER name="restrict" wn="restrict%2:30:00" grouping="restrict.01"/>
-        <MEMBER name="restrain" wn="restrain%2:30:00" grouping="restrain.01"/>
-        <MEMBER name="constrain" wn="" grouping=""/>
+        <MEMBER name="restrain" wn="restrain%2:30:00" grouping="restrain.02"/>
+        <MEMBER name="constrain" wn="" grouping="constrain.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Cause">
@@ -19,7 +19,7 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Proposition">
+        <THEMROLE type="Goal">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -44,13 +44,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Cause"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="?Proposition"/>
+                        <ARG type="ThemRole" value="?Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OCto-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OC; to-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The lack of money limited them to helping to our peers.</EXAMPLE>
             </EXAMPLES>
@@ -65,7 +65,7 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Proposition">
+                <NP value="Goal">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="oc_ing"/>
                     </SYNRESTRS>
@@ -77,13 +77,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Cause"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.proposition" secondary="NP-PPto-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.goal" secondary="NP-PP; to-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The lack of money limited the help to our peers.</EXAMPLE>
             </EXAMPLES>
@@ -98,7 +98,7 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Proposition">
+                <NP value="Goal">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -108,7 +108,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Cause"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -126,7 +126,7 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Proposition">
+                <NP value="Goal">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="oc_to_inf"/>
                     </SYNRESTRS>
@@ -138,7 +138,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Cause"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

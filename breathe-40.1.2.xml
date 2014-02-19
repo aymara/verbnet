@@ -26,6 +26,9 @@
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -56,7 +59,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.oblique" secondary="PPOblique-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.destination" secondary="PP; Destination-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Paul breathed on Mary.</EXAMPLE>
             </EXAMPLES>
@@ -68,7 +71,7 @@
                 <PREP value="on onto">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Destination">
                     <SELRESTRS/>
                 </NP>
             </SYNTAX>
@@ -90,13 +93,13 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="?Theme"/>
-                        <ARG type="ThemRole" value="Oblique"/>
+                        <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme" secondary="TransitiveSubstance Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme" secondary="Transitive; Substance Object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The dragon breathed fire.</EXAMPLE>
             </EXAMPLES>
@@ -126,7 +129,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP.theme PP.oblique" secondary="NP-PPSubstance Object Oblique-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP.theme PP.destination" secondary="NP-PP; Substance Object Destination-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The dragon breathed fire on Mary.</EXAMPLE>
             </EXAMPLES>
@@ -141,7 +144,7 @@
                 <PREP value="on onto">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Destination">
                     <SELRESTRS/>
                 </NP>
             </SYNTAX>
@@ -163,7 +166,7 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Oblique"/>
+                        <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -174,17 +177,18 @@
             <MEMBERS>
                 <MEMBER name="breathe" wn="breathe%2:29:00 breathe%2:32:00" grouping="breathe.01 breathe.05"/>
                 <MEMBER name="cough" wn="cough%2:29:00" grouping=""/>
-                <MEMBER name="cry" wn="cry%2:32:01 cry%2:29:02" grouping="cry.01 cry.03"/>
+                <MEMBER name="cry" wn="cry%2:32:01 cry%2:29:02" grouping="cry.03"/>
                 <MEMBER name="defecate" wn="" grouping=""/>
                 <MEMBER name="expectorate" wn="expectorate%2:29:00" grouping=""/>
                 <MEMBER name="retch" wn="retch%2:29:00" grouping=""/>
                 <MEMBER name="slobber" wn="" grouping=""/>
                 <MEMBER name="urinate" wn="urinate%2:29:01" grouping=""/>
+                <MEMBER name="hawk" wn="hawk%2:29:01" grouping="hawk.03"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="TransitiveCognate Object" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; Cognate Object" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>Paul breathed a deep breath.</EXAMPLE>
                     </EXAMPLES>

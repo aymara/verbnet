@@ -7,6 +7,11 @@
         <MEMBER name="incarcerate" wn="incarcerate%2:41:00" grouping=""/>
         <MEMBER name="hospitalize" wn="hospitalize%2:40:00" grouping=""/>
         <MEMBER name="detain" wn="detain%2:41:00" grouping="detain.01"/>        
+        <MEMBER name="jail" wn="jail%2:41:00" grouping="jail.01"/>
+        <MEMBER name="imprison" wn="imprison%2:41:00 imprison%2:41:01" grouping="imprison.01"/>
+        <MEMBER name="jug" wn="jug%2:41:00" grouping=""/>
+        <MEMBER name="hold" wn="hold%2:35:03" grouping="hold.02"/>
+        <MEMBER name="immure" wn="immure%2:41:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -73,13 +78,14 @@
         <VNSUBCLASS ID="confine-92-1">
             <MEMBERS>
                 <MEMBER name="commit" wn="commit%2:40:02" grouping="commit.03"/>
+                <MEMBER name="recommit" wn="recommit%2:41:01 recommit%2:40:00" grouping="recommit.01"/>
                 <MEMBER name="send" wn="send%2:40:00" grouping="send.02"/>
-                <MEMBER name="confine" wn="confine%2:41:00" grouping=""/>
+                <MEMBER name="confine" wn="confine%2:41:00" grouping="confine.02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.destination" secondary="NP-PPto-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.destination" secondary="NP-PP; to-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>We committed John to prison.</EXAMPLE>
                     </EXAMPLES>

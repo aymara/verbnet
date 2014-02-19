@@ -2,6 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="interrogate-37.1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <MEMBER name="cross-examine" wn="cross_examine%2:32:00" grouping=""/>
         <MEMBER name="question" wn="question%2:32:03 question%2:32:00" grouping="question.01"/>
         <MEMBER name="interview" wn="interview%2:32:00" grouping="interview.01"/>
         <MEMBER name="interrogate" wn="interrogate%2:32:00" grouping=""/>
@@ -22,7 +23,7 @@
         <THEMROLE type="Topic">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Predicate">
+        <THEMROLE type="Attribute">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -59,7 +60,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.predicate" secondary="NP-PPas-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.attribute" secondary="NP-PP; as-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I interrogated him as a suspect.</EXAMPLE>
             </EXAMPLES>
@@ -74,7 +75,7 @@
 		<PREP value="as">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS>
 			<SYNRESTR Value="-" type="sentential"/>
 		    </SYNRESTRS>
@@ -87,7 +88,7 @@
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Recipient"/>
                         <ARG type="ThemRole" value="?Topic"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -99,7 +100,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.topic" secondary="NP-PPabout-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.topic" secondary="NP-PP; about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I interrogated him about the incident.</EXAMPLE>
             </EXAMPLES>

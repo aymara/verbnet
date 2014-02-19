@@ -3,8 +3,9 @@
 <VNCLASS ID="turn-26.6.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="alter" wn="alter%2:30:01" grouping="alter.01"/>
-        <MEMBER name="deform" wn="" grouping=""/>
+        <MEMBER name="deform" wn="" grouping="deform.02"/>
         <MEMBER name="metamorphose" wn="metamorphose%2:30:00" grouping=""/>
+        <MEMBER name="morph" wn="morph%2:30:01 morph%2:30:00" grouping=""/>
         <MEMBER name="mutate" wn="" grouping=""/>
         <MEMBER name="transform" wn="transform%2:30:00 transform%2:30:03" grouping="transform.01"/>
         <MEMBER name="translate" wn="" grouping=""/>
@@ -20,7 +21,7 @@
         <THEMROLE type="Patient">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Product">
+        <THEMROLE type="Result">
             <SELRESTRS/>
         </THEMROLE>
         <THEMROLE type="Material">
@@ -29,7 +30,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.patient PP.material PP.product" secondary="NP-PP-PPCausative variant, Material-PP Product-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP V NP.patient PP.material PP.result" secondary="NP-PP-PP; Causative variant, Material-PP Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The witch turned him from a prince into a frog.</EXAMPLE>
             </EXAMPLES>
@@ -50,7 +51,7 @@
                 <PREP value="into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Product">
+                <NP value="Result">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -65,14 +66,14 @@
                 <PRED bool="!" value="state">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Result"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="state">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Result"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
@@ -92,7 +93,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP.patient V PP.material PP.product" secondary="PP-PPInchoative variant, Material-PP Product-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP.patient V PP.material PP.result" secondary="PP-PP; Inchoative variant, Material-PP Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He turned from a prince into a frog.</EXAMPLE>
             </EXAMPLES>
@@ -110,7 +111,7 @@
                 <PREP value="into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Product">
+                <NP value="Result">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -125,14 +126,14 @@
                 <PRED bool="!" value="state">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Result"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="state">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Result"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
@@ -146,7 +147,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.4.3" primary="NP V NP.patient PP.product" secondary="Total Transformation Alternation Transitive" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.4.3" primary="NP V NP.patient PP.result" secondary="Total Transformation Alternation Transitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The witch turned him into a frog.</EXAMPLE>
             </EXAMPLES>
@@ -161,7 +162,7 @@
                 <PREP value="into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Product">
+                <NP value="Result">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -169,14 +170,14 @@
                 <PRED bool="!" value="state">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Result"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="state">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Result"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
@@ -189,7 +190,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.4.4" primary="NP.patient V PP.product" secondary="Total Transformation Alternation Intransitive" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.4.4" primary="NP.patient V PP.result" secondary="Total Transformation Alternation Intransitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He turned into a frog.</EXAMPLE>
             </EXAMPLES>
@@ -201,7 +202,7 @@
                 <PREP value="into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Product">
+                <NP value="Result">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -209,14 +210,14 @@
                 <PRED bool="!" value="state">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Result"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="state">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Result"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
@@ -282,7 +283,7 @@
                 <PRED value="state">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="?Product"/>
+                        <ARG type="ThemRole" value="?Result"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
@@ -312,7 +313,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.product" secondary="PPw/ endstate" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.result" secondary="PP; w/ endstate" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>He converted to a world without CFCs.</EXAMPLE>
                     </EXAMPLES>
@@ -324,7 +325,7 @@
                         <PREP value="to">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Product">
+                        <NP value="Result">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -339,14 +340,14 @@
                         <PRED value="state">
                             <ARGS>
                                 <ARG type="Event" value="result(E)"/>
-                                <ARG type="ThemRole" value="Product"/>
+                                <ARG type="ThemRole" value="Result"/>
                                 <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="state">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
-                                <ARG type="ThemRole" value="Product"/>
+                                <ARG type="ThemRole" value="Result"/>
                                 <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
@@ -366,7 +367,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.material PP.product" secondary="PP-PPw/ beginning state w/ end state" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.material PP.result" secondary="PP-PP; w/ beginning state w/ end state" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The thrift converted from a mutual form in April 1986 to a stock form of ownership.</EXAMPLE>
                     </EXAMPLES>
@@ -384,7 +385,7 @@
                         <PREP value="to">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Product">
+                        <NP value="Result">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -399,14 +400,14 @@
                         <PRED bool="!" value="state">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
-                                <ARG type="ThemRole" value="Product"/>
+                                <ARG type="ThemRole" value="Result"/>
                                 <ARG type="ThemRole" value="?Patient"/>
                             </ARGS>
                         </PRED>
                         <PRED value="state">
                             <ARGS>
                                 <ARG type="Event" value="result(E)"/>
-                                <ARG type="ThemRole" value="Product"/>
+                                <ARG type="ThemRole" value="Result"/>
                                 <ARG type="ThemRole" value="?Patient"/>
                             </ARGS>
                         </PRED>
@@ -427,7 +428,7 @@
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="NP V
-                    PP.product PP.material" secondary="PP-PPw/ end state w/ beginning state" xtag=""/>
+                    PP.result  PP.material" secondary="PP-PP; w/ end state w/ beginning state" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The thrift converted to a stock form of ownership from a mutual form in April 1986.</EXAMPLE>
                     </EXAMPLES>
@@ -439,7 +440,7 @@
                         <PREP value="to">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Product">
+                        <NP value="Result">
                             <SYNRESTRS/>
                         </NP>
                         <PREP value="from">
@@ -460,14 +461,14 @@
                         <PRED bool="!" value="state">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
-                                <ARG type="ThemRole" value="Product"/>
+                                <ARG type="ThemRole" value="Result"/>
                                 <ARG type="ThemRole" value="?Patient"/>
                             </ARGS>
                         </PRED>
                         <PRED value="state">
                             <ARGS>
                                 <ARG type="Event" value="result(E)"/>
-                                <ARG type="ThemRole" value="Product"/>
+                                <ARG type="ThemRole" value="Result"/>
                                 <ARG type="ThemRole" value="?Patient"/>
                             </ARGS>
                         </PRED>

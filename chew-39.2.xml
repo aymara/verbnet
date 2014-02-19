@@ -20,8 +20,9 @@
             <MEMBERS>
                 <MEMBER name="chew" wn="chew%2:34:00" grouping="chew.01"/>
                 <MEMBER name="chomp" wn="chomp%2:34:00" grouping=""/>
-                <MEMBER name="crunch" wn="crunch%2:34:00" grouping=""/>
+                <MEMBER name="crunch" wn="crunch%2:34:00" grouping="crunch.02"/>
                 <MEMBER name="gnaw" wn="gnaw%2:35:00" grouping=""/>
+                <MEMBER name="gum" wn="gum%2:34:00" grouping="gum.02"/>
                 <MEMBER name="masticate" wn="" grouping=""/>
                 <MEMBER name="munch" wn="munch%2:34:00" grouping=""/>
                 <MEMBER name="nibble" wn="nibble%2:35:00 nibble%2:35:02" grouping="nibble.01"/>
@@ -112,7 +113,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.patient" secondary="PPPatient-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.patient" secondary="PP; Patient-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia nibbled on the carrot.</EXAMPLE>
                     </EXAMPLES>
@@ -203,7 +204,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.patient" secondary="PPPatient-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.patient" secondary="PP; Patient-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia sipped from the drink.</EXAMPLE>
                     </EXAMPLES>

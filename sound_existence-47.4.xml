@@ -45,7 +45,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PPlocative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.location" secondary="PP; locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The voices echoed through the hall.</EXAMPLE>
             </EXAMPLES>
@@ -80,7 +80,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="There V NP" secondary="NP-PPExpletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="There V NP" secondary="NP-PP; Expletive-there Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>There echoed voices through the hall.</EXAMPLE>
             </EXAMPLES>
@@ -139,7 +139,7 @@
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="NP.location V NP.theme" secondary="PPLocation Subject, with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="NP.location V NP.theme" secondary="PP; Location Subject, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The hall echoed with voices.</EXAMPLE>
             </EXAMPLES>

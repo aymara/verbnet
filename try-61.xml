@@ -3,7 +3,7 @@
 <VNCLASS ID="try-61" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="try" wn="try%2:41:00" grouping="try.01"/>
-        <MEMBER name="attempt" wn="attempt%2:41:00 attempt%2:36:00" grouping="attempt.01 attempt.02"/>
+        <MEMBER name="attempt" wn="attempt%2:41:00 attempt%2:36:00" grouping="attempt.01"/>
         <MEMBER name="intend" wn="intend%2:31:00" grouping="intend.01"/>
     </MEMBERS>
     <THEMROLES>
@@ -12,9 +12,6 @@
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Predicate">
-            <SELRESTRS/>
         </THEMROLE>
         <THEMROLE type="Theme">
             <SELRESTRS/>
@@ -31,7 +28,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Predicate">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="np_omit_ing"/>
                     </SYNRESTRS>
@@ -42,7 +39,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -83,7 +80,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Predicate">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="sc_to_inf"/>
                     </SYNRESTRS>
@@ -94,7 +91,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

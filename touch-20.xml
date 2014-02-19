@@ -51,7 +51,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carrie touched the cat with the stick.</EXAMPLE>
             </EXAMPLES>
@@ -101,7 +101,7 @@
                 <MEMBER name="caress" wn="caress%2:35:00" grouping=""/>
                 <MEMBER name="fondle" wn="fondle%2:35:00" grouping=""/>
                 <MEMBER name="grasp" wn="grasp%2:35:00" grouping="grasp.01"/>
-                <MEMBER name="graze" wn="?graze%2:35:02 graze%2:35:00" grouping=""/>
+                <MEMBER name="graze" wn="?graze%2:35:02 graze%2:35:00" grouping="graze.02"/>
                 <MEMBER name="grip" wn="grip%2:35:00 grip%2:35:03 grip%2:37:00" grouping="grip.01 grip.02"/>
                 <MEMBER name="grope" wn="grope%2:35:01 grope%2:35:02" grouping=""/>
                 <MEMBER name="kiss" wn="kiss%2:35:00 kiss%2:35:01" grouping="kiss.01 kiss.02"/>
@@ -109,9 +109,11 @@
                 <MEMBER name="lick" wn="lick%2:35:00" grouping="lick.01"/>
                 <MEMBER name="massage" wn="massage%2:35:00 massage%2:29:00" grouping="massage.01"/>
                 <MEMBER name="nudge" wn="nudge%2:35:00" grouping=""/>
+                <MEMBER name="osculate" wn="osculate%2:35:00" grouping="osculate.03"/>
                 <MEMBER name="pat" wn="pat%2:35:01 pat%2:35:00" grouping=""/>
                 <MEMBER name="paw" wn="paw%2:35:01 paw%2:35:00" grouping=""/>
                 <MEMBER name="peck" wn="peck%2:35:00" grouping=""/>
+                <MEMBER name="pet" wn="pet%2:35:00" grouping=""/>
                 <MEMBER name="pinch" wn="pinch%2:35:00" grouping="pinch.01"/>
                 <MEMBER name="prod" wn="prod%2:35:02 prod%2:35:01" grouping="prod.01"/>
                 <MEMBER name="rub" wn="rub%2:35:00 rub%2:35:01 rub%2:39:00" grouping="rub.01 rub.02"/>
@@ -122,7 +124,9 @@
                 <MEMBER name="touch" wn="touch%2:35:00" grouping="touch.01"/>
                 <MEMBER name="tug" wn="tug%2:35:00 tug%2:35:02 tug%2:35:01" grouping=""/>
                 <MEMBER name="tweak" wn="tweak%2:35:01" grouping="tweak.01"/>
+                <MEMBER name="twinge" wn="twinge%2:35:00" grouping="twinge.02"/>
                 <MEMBER name="wring" wn="wring%2:35:00" grouping="wring.01"/>
+                <MEMBER name="chafe" wn="chafe%2:30:00" grouping="chafe.01"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Experiencer">
@@ -134,7 +138,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="TransitiveBody-part or reflexive Object" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive; Body-part or reflexive Object" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>Carrie touched his shoulder.</EXAMPLE>
                     </EXAMPLES>
@@ -164,7 +168,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP (Bodypart of reflexive object)" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP (Bodypart of reflexive object)" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Carrie touched his shoulder with the stick.</EXAMPLE>
                     </EXAMPLES>

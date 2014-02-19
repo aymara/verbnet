@@ -2,7 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="consume-66" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="use" wn="use%2:34:00" grouping="use.01"/>
+        <MEMBER name="use" wn="use%2:34:00" grouping="use.02"/>
         <MEMBER name="consume" wn="consume%2:34:01" grouping="consume.02"/>
         <MEMBER name="pass" wn="pass%2:42:00" grouping="pass.03"/>
     </MEMBERS>
@@ -13,15 +13,15 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Theme">
+        <THEMROLE type="Asset">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Recipient">
+        <THEMROLE type="Goal">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
-        <FRAME>
+        <FRAME> 
             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I spent all that time.</EXAMPLE>
@@ -31,7 +31,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme">
+                <NP value="Asset">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -39,21 +39,21 @@
                 <PRED value="exist">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Asset"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="exist">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Asset"/>
                     </ARGS>
                 </PRED>
                 <PRED value="spend">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Recipient"/>
+                        <ARG type="ThemRole" value="Asset"/>
+                        <ARG type="ThemRole" value="?Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -68,10 +68,10 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme">
+                <NP value="Asset">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Recipient">
+                <NP value="Goal">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="sc_ing"/>
                     </SYNRESTRS>
@@ -81,21 +81,21 @@
                 <PRED value="exist">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Asset"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="exist">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Asset"/>
                     </ARGS>
                 </PRED>
                 <PRED value="spend">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Asset"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -104,6 +104,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="consume-66-1">
             <MEMBERS>
+                <MEMBER name="reuse" wn="reuse%2:34:00" grouping=""/>
                 <MEMBER name="spend" wn="spend%2:42:00" grouping="spend.01"/>
                 <MEMBER name="squander" wn="squander%2:34:00" grouping=""/>
                 <MEMBER name="waste" wn="waste%2:40:00 waste%2:34:05" grouping="waste.01"/>
@@ -111,7 +112,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-SCon-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-SC; on-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I spent the time on worrying about the future.</EXAMPLE>
                     </EXAMPLES>
@@ -120,13 +121,13 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Theme">
+                        <NP value="Asset">
                             <SYNRESTRS/>
                         </NP>
                         <PREP value="on">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Recipient">
+                        <NP value="Goal">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="sc_ing"/>
                             </SYNRESTRS>
@@ -136,27 +137,27 @@
                         <PRED value="exist">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
-                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Asset"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="exist">
                             <ARGS>
                                 <ARG type="Event" value="end(E)"/>
-                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Asset"/>
                             </ARGS>
                         </PRED>
                         <PRED value="spend">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Asset"/>
+                                <ARG type="ThemRole" value="Goal"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.recipient" secondary="NP-PPon-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.goal" secondary="NP-PP; on-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I spent the time on worries.</EXAMPLE>
                     </EXAMPLES>
@@ -165,13 +166,13 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Theme">
+                        <NP value="Asset">
                             <SYNRESTRS/>
                         </NP>
                         <PREP value="on">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Recipient">
+                        <NP value="Goal">
                             <SYNRESTRS>
                                 <SYNRESTR Value="-" type="sentential"/>
                             </SYNRESTRS>
@@ -181,21 +182,21 @@
                         <PRED value="exist">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
-                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Asset"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="exist">
                             <ARGS>
                                 <ARG type="Event" value="end(E)"/>
-                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Asset"/>
                             </ARGS>
                         </PRED>
                         <PRED value="spend">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Asset"/>
+                                <ARG type="ThemRole" value="Goal"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

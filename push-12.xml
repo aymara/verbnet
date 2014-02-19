@@ -15,13 +15,16 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Trajectory">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Result">
+            <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
-        <!--Adjunction of path PP is done by sense extension, using
-        intersection with the Carry class.-->
-        <!--jerk and yank are not in these intersective classes, so they
-        will have to bring their two possible frames (conative and
-        resultative)-->
+        <!--Adjunction of path PP is done by sense extension, using intersection with the Carry class.-->
+        <!--jerk and yank are not in these intersective classes, so they will have to bring their two possible frames (conative and resultative)-->
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
@@ -71,7 +74,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP-Result" secondary="NP-ADJPResultative" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP-Result" secondary="NP-ADJP; Resultative" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Nora yanked the button loose.</EXAMPLE>
                     </EXAMPLES>
@@ -83,7 +86,9 @@
                         <NP value="Theme">
                             <SYNRESTRS/>
                         </NP>
-                        <ADJ/>
+                        <NP value="Result">
+                            <SYNRESTRS/>
+                        </NP>
                     </SYNTAX>
                     <SEMANTICS>
                         <PRED value="cause">
@@ -162,14 +167,14 @@
                         <MEMBER name="nudge" wn="nudge%2:35:00" grouping=""/>
                         <MEMBER name="press" wn="press%2:35:00 press%2:38:00" grouping="press.01"/>
                         <MEMBER name="push" wn="push%2:38:00" grouping="push.01"/>
-                        <MEMBER name="shove" wn="shove%2:38:00 shove%2:35:00 shove%2:38:01" grouping="shove.01 shove.02"/>
+                        <MEMBER name="shove" wn="shove%2:38:00 shove%2:35:00 shove%2:38:01" grouping="shove.01"/>
                         <MEMBER name="squeeze" wn="squeeze%2:35:03" grouping="squeeze.03"/>
-                        <MEMBER name="thrust" wn="thrust%2:38:00 thrust%2:38:02" grouping="thrust.01 thrust.02"/>
+                        <MEMBER name="thrust" wn="thrust%2:38:00 thrust%2:38:02" grouping="thrust.01 thrust.03"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="1.2.7" primary="NP V PP" secondary="PP" xtag="through-PP"/>
+                            <DESCRIPTION descriptionNumber="1.2.7" primary="NP V PP.trajectory" secondary="PP" xtag="through-PP"/>
                             <EXAMPLES>
                                 <EXAMPLE>Nora pushed through the crowd.</EXAMPLE>
                             </EXAMPLES>
@@ -183,7 +188,7 @@
                                         <SELRESTR Value="+" type="dir"/>
                                     </SELRESTRS>
                                 </PREP>
-                                <NP value="Oblique">
+                                <NP value="Trajectory">
                                     <SELRESTRS/>
                                 </NP>
                             </SYNTAX>
@@ -216,61 +221,7 @@
                                 </PRED>
                             </SEMANTICS>
                         </FRAME>
-                        <FRAME>
-                            <DESCRIPTION descriptionNumber="1.2.7" primary="NP V way PP" secondary="Way Object Alternation" xtag=""/>
-                            <EXAMPLES>
-                                <EXAMPLE>Nora pushed her way through the crowd.</EXAMPLE>
-                            </EXAMPLES>
-                            <SYNTAX>
-                                <NP value="Agent">
-                                    <SYNRESTRS/>
-                                </NP>
-                                <VERB/>
-                                <NP value="NP">
-                                    <SYNRESTRS>
-                                        <SYNRESTR Value="+" type="poss"/>
-                                    </SYNRESTRS>
-                                </NP>
-                                <LEX value="way"/>
-                                <PREP>
-                                    <SELRESTRS>
-                                        <SELRESTR Value="+" type="dir"/>
-                                    </SELRESTRS>
-                                </PREP>
-                                <NP value="Oblique">
-                                    <SELRESTRS/>
-                                </NP>
-                            </SYNTAX>
-                            <SEMANTICS>
-                                <PRED value="cause">
-                                    <ARGS>
-                                        <ARG type="ThemRole" value="Agent"/>
-                                        <ARG type="Event" value="E"/>
-                                    </ARGS>
-                                </PRED>
-                                <PRED value="contact">
-                                    <ARGS>
-                                        <ARG type="Event" value="during(E)"/>
-                                        <ARG type="ThemRole" value="Agent"/>
-                                        <ARG type="ThemRole" value="?Theme"/>
-                                    </ARGS>
-                                </PRED>
-                                <PRED value="exert_force">
-                                    <ARGS>
-                                        <ARG type="Event" value="during(E)"/>
-                                        <ARG type="ThemRole" value="Agent"/>
-                                        <ARG type="ThemRole" value="?Theme"/>
-                                    </ARGS>
-                                </PRED>
-                                <PRED value="motion">
-                                    <ARGS>
-                                        <ARG type="Event" value="during(E)"/>
-                                        <ARG type="ThemRole" value="Agent"/>
-                                    </ARGS>
-                                </PRED>
-                            </SEMANTICS>
-                        </FRAME>
-                    </FRAMES>
+                      </FRAMES>
                     <SUBCLASSES/>
                 </VNSUBCLASS>
             </SUBCLASSES>

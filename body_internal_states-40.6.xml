@@ -3,7 +3,7 @@
 <VNCLASS ID="body_internal_states-40.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Each verb adds a manner predicate-->
-        <MEMBER name="convulse" wn="convulse%2:38:00 convulse%2:35:00" grouping=""/>
+        <MEMBER name="convulse" wn="convulse%2:38:00 convulse%2:35:00" grouping="convulse.02"/>
         <MEMBER name="cower" wn="cower%2:38:01" grouping=""/>
         <MEMBER name="quake" wn="quake%2:38:01" grouping=""/>
         <MEMBER name="quiver" wn="quiver%2:38:00" grouping=""/>
@@ -19,7 +19,7 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Cause">
+        <THEMROLE type="Stimulus">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -51,7 +51,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.cause" secondary="PPCause-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Sharon shivered from fear.</EXAMPLE>
                 <EXAMPLE>Sharon shivered at the thought of the cold sea.</EXAMPLE>
@@ -64,7 +64,7 @@
                 <PREP value="from at">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -84,7 +84,7 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

@@ -23,29 +23,32 @@
                 <MEMBER name="allow" wn="allow%2:41:00 allow%2:42:00" grouping="allow.01 allow.02"/>
                 <MEMBER name="believe" wn="believe%2:31:04 believe%2:31:03" grouping="believe.01"/>
                 <MEMBER name="conjecture" wn="conjecture%2:31:00" grouping=""/>
-                <MEMBER name="deny" wn="?deny%2:32:04" grouping="deny.03"/>
-                <MEMBER name="doubt" wn="" grouping=""/>
+                <MEMBER name="deny" wn="?deny%2:32:04" grouping="deny.01 deny.03"/>
+                <MEMBER name="determine" wn="determine%2:32:00" grouping="determine.02 determine.03"/>
+                <MEMBER name="doubt" wn="" grouping="doubt.01"/>
                 <MEMBER name="expect" wn="expect%2:31:00" grouping="expect.01"/>
                 <MEMBER name="feel" wn="feel%2:31:00" grouping="feel.03"/>
                 <MEMBER name="foreknow" wn="" grouping=""/>
                 <MEMBER name="foresee" wn="foresee%2:31:00" grouping="foresee.01"/>
-                <MEMBER name="foretell" wn="foretell%2:32:00" grouping=""/>
+                <MEMBER name="foretell" wn="foretell%2:32:00" grouping="foretell.01"/>
                 <MEMBER name="guess" wn="guess%2:31:01" grouping="guess.02"/>
                 <MEMBER name="hold" wn="hold%2:31:01 hold%2:32:11" grouping="hold.02 hold.05"/>
                 <MEMBER name="infer" wn="infer%2:31:00 infer%2:32:00" grouping="infer.01"/>
                 <MEMBER name="know" wn="know%2:31:11" grouping="know.02"/>
                 <MEMBER name="presume" wn="presume%2:31:00" grouping="presume.01"/>
                 <MEMBER name="prophesy" wn="" grouping=""/>
-                <MEMBER name="realize" wn="" grouping=""/>
+                <MEMBER name="realize" wn="" grouping="realize.01"/>
                 <MEMBER name="repute" wn="repute%2:31:00" grouping=""/>
                 <MEMBER name="recognize" wn="recognize%2:39:01 recognize%2:31:01 recognize%2:31:00" grouping="recognize.01 recognize.02"/>
                 <MEMBER name="speculate" wn="speculate%2:31:01 speculate%2:32:00" grouping="speculate.01"/>
                 <MEMBER name="surmise" wn="" grouping=""/>
                 <MEMBER name="suspect" wn="suspect%2:32:00" grouping="suspect.01"/>
-                <MEMBER name="swear" wn="" grouping=""/>
+                <MEMBER name="swear" wn="" grouping="swear.03"/>
                 <MEMBER name="trust" wn="trust%2:31:02" grouping="trust.01"/>
                 <MEMBER name="mean" wn="mean%2:31:00" grouping="mean.02"/>
                 <MEMBER name="vaticinate" wn="" grouping=""/>
+                <MEMBER name="anticipate" wn="anticipate%2:31:00" grouping="anticipate.01"/>
+                <MEMBER name="prognosticate" wn="prognosticate%2:32:00" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -153,7 +156,9 @@
                 <MEMBER name="guarantee" wn="guarantee%2:32:01" grouping="guarantee.01"/>
                 <MEMBER name="maintain" wn="?maintain%2:32:00 ?maintain%2:32:01" grouping="maintain.02"/>
                 <MEMBER name="observe" wn="observe%2:39:02" grouping="observe.03"/>
-                <MEMBER name="reaffirm" wn="reaffirm%2:32:00" grouping="reaffirm.01"/>
+                <MEMBER name="reaffirm" wn="reaffirm%2:32:00"
+                grouping="reaffirm.01"/>
+                <MEMBER name="reassert" wn="reassert%2:32:00" grouping=""/>
                 <MEMBER name="show" wn="show%2:31:00" grouping="show.01"/>
             </MEMBERS>
             <THEMROLES/>
@@ -171,8 +176,6 @@
                         <NP value="Theme">
                             <SYNRESTRS/>
                         </NP>
-                        <LEX value="to"/>
-                        <LEX value="be"/>
                         <NP value="Predicate">
                             <SYNRESTRS/>
                         </NP>

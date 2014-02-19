@@ -8,16 +8,16 @@
          <MEMBER name="misapprehend" wn="misapprehend%2:31:01" grouping=""/>
     </MEMBERS>
     <THEMROLES>
-        <THEMROLE type="Agent">
+        <THEMROLE type="Experiencer">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Predicate">
+        <THEMROLE type="Attribute">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Proposition">
+        <THEMROLE type="Stimulus">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -32,7 +32,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Stimulus">
                     <SYNRESTRS>
 			<SYNRESTR Value="+" type="how_extract"/>
 		    </SYNRESTRS>
@@ -43,8 +43,8 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Proposition"/>
-                        <ARG type="ThemRole" value="?Predicate"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -59,7 +59,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Stimulus">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -68,14 +68,14 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Proposition"/>
-                        <ARG type="ThemRole" value="?Predicate"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.predicate" secondary="NP-PPas-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.attribute" secondary="NP-PP; as-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I understood it as a joke.</EXAMPLE>
             </EXAMPLES>
@@ -84,13 +84,13 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Stimulus">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="as">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS>
                     </SYNRESTRS>
                 </NP>
@@ -100,8 +100,8 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Proposition"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -116,7 +116,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="poss_ing"/>
                     </SYNRESTRS>
@@ -127,8 +127,8 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Proposition"/>
-                        <ARG type="ThemRole" value="?Predicate"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -143,7 +143,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="wh_comp"/>
                     </SYNRESTRS>
@@ -154,8 +154,8 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Proposition"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -170,7 +170,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="what_extract"/>
                     </SYNRESTRS>
@@ -181,8 +181,8 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Proposition"/>
-                        <ARG type="ThemRole" value="?Predicate"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -197,7 +197,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Proposition">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
@@ -208,8 +208,8 @@
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Proposition"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -221,24 +221,11 @@
                 <MEMBER name="understand" wn="understand%2:31:00 understand%2:31:01 understand%2:31:02 understand%2:31:03" grouping="understand.01 understand.02 understand.03"/>
                 <MEMBER name="grasp" wn="grasp%2:31:00" grouping="grasp.02"/>
                 <MEMBER name="comprehend" wn="comprehend%2:31:00" grouping="comprehend.01"/>
-                <MEMBER name="apprehend" wn="apprehend%2:31:00" grouping=""/>
+                <MEMBER name="apprehend" wn="apprehend%2:31:00" grouping="apprehend.01"/>
                 <MEMBER name="follow" wn="follow%2:31:14" grouping="follow.01"/>
                 <MEMBER name="fathom" wn="fathom%2:31:00" grouping=""/>
             </MEMBERS>
-            <THEMROLES>
-                <THEMROLE type="Experiencer">
-                    <SELRESTRS logic="or">
-                        <SELRESTR Value="+" type="animate"/>
-                        <SELRESTR Value="+" type="organization"/>
-                    </SELRESTRS>
-                </THEMROLE>
-                <THEMROLE type="Predicate">
-                    <SELRESTRS/>
-                </THEMROLE>
-                <THEMROLE type="Proposition">
-                    <SELRESTRS/>
-                </THEMROLE>
-            </THEMROLES>
+            <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-AC" xtag="0.2"/>
@@ -250,7 +237,7 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Proposition">
+                        <NP value="Stimulus">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="ac_ing"/>
                             </SYNRESTRS>
@@ -261,8 +248,8 @@
                             <ARGS>
                                 <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Experiencer"/>
-                                <ARG type="ThemRole" value="Proposition"/>
-                                <ARG type="ThemRole" value="?Predicate"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                                <ARG type="ThemRole" value="?Attribute"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -277,7 +264,7 @@
                         <SYNRESTRS/>
                     </NP>
                     <VERB/>
-                    <NP value="Proposition">
+                    <NP value="Stimulus">
                         <SYNRESTRS>
                             <SYNRESTR Value="+" type="wh_inf"/>
                         </SYNRESTRS>
@@ -288,8 +275,8 @@
                         <ARGS>
                             <ARG type="Event" value="E"/>
                             <ARG type="ThemRole" value="Experiencer"/>
-                            <ARG type="ThemRole" value="Proposition"/>
-                            <ARG type="ThemRole" value="?Predicate"/>
+                            <ARG type="ThemRole" value="Stimulus"/>
+                            <ARG type="ThemRole" value="?Attribute"/>
                         </ARGS>
                     </PRED>
                 </SEMANTICS>
@@ -304,7 +291,7 @@
                         <SYNRESTRS/>
                     </NP>
                     <VERB/>
-                    <NP value="Proposition">
+                    <NP value="Stimulus">
                         <SYNRESTRS>
                             <SYNRESTR Value="+" type="to_be"/>
                         </SYNRESTRS>
@@ -315,8 +302,8 @@
                         <ARGS>
                             <ARG type="Event" value="E"/>
                             <ARG type="ThemRole" value="Experiencer"/>
-                            <ARG type="ThemRole" value="Proposition"/>
-                            <ARG type="ThemRole" value="?Predicate"/>
+                            <ARG type="ThemRole" value="Stimulus"/>
+                            <ARG type="ThemRole" value="?Attribute"/>
                         </ARGS>
                     </PRED>
                 </SEMANTICS>

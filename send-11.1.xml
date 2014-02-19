@@ -2,9 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="send-11.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="convey" wn="convey%2:40:10 convey%2:38:00 convey%2:35:00" grouping="convey.01 convey.02"/>
+        <MEMBER name="convey" wn="convey%2:40:10 convey%2:38:00 convey%2:35:00" grouping="convey.02"/>
         <MEMBER name="deliver" wn="deliver%2:35:00" grouping="deliver.05"/>
         <MEMBER name="dispatch" wn="dispatch%2:38:00" grouping="dispatch.01"/>
+        <MEMBER name="handdeliver" wn="" grouping=""/>
         <MEMBER name="pass_on" wn="pass_on%2:40:01 pass_on%2:40:00 pass_on%2:38:00" grouping=""/>
         <MEMBER name="port" wn="port%2:35:07" grouping="port.03"/>
         <MEMBER name="post" wn="post%2:32:02" grouping="post.03"/>
@@ -13,6 +14,9 @@
         <MEMBER name="shunt" wn="shunt%2:38:00" grouping=""/>
         <MEMBER name="transfer" wn="transfer%2:40:01 transfer%2:35:00" grouping="transfer.01 transfer.02"/>
         <MEMBER name="transport" wn="transport%2:38:00 transport%2:38:01 transport%2:35:01" grouping="transport.01"/>
+        <MEMBER name="export" wn="export%2:40:00" grouping=""/>
+        <MEMBER name="import" wn="import%2:40:00" grouping=""/>
+        <MEMBER name="transship" wn="transship%2:38:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -26,7 +30,7 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Source">
+        <THEMROLE type="Initial_Location">
             <SELRESTRS>
                 <SELRESTR Value="+" type="location"/>
             </SELRESTRS>
@@ -72,7 +76,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PPSource-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Nora sent the book from Paris.</EXAMPLE>
             </EXAMPLES>
@@ -89,7 +93,7 @@
                         <SELRESTR Value="+" type="src"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Source">
+                <NP value="Initial_Location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -104,7 +108,7 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -116,7 +120,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PPGoal-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; Goal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Nora sent the book to London.</EXAMPLE>
             </EXAMPLES>
@@ -158,7 +162,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source PP.destination" secondary="NP-PP-PPSource-PP Goal-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location PP.destination" secondary="NP-PP-PP; Initial_Location-PP Goal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Nora sent the book from Paris to London.</EXAMPLE>
             </EXAMPLES>
@@ -175,7 +179,7 @@
                         <SELRESTR Value="+" type="src"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Source">
+                <NP value="Initial_Location">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="to">
@@ -196,7 +200,7 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="location">
@@ -215,7 +219,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.destination PP.source" secondary="NP-PP-PPGoal-PP Source-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.destination PP.initial_location" secondary="NP-PP-PP; Goal-PP Initial_Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>TransCanada is shifting its HQ to Calgary from Toronto.</EXAMPLE>
             </EXAMPLES>
@@ -238,7 +242,7 @@
                         <SELRESTR Value="+" type="src"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Source">
+                <NP value="Initial_Location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -253,7 +257,7 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="location">

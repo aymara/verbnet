@@ -3,19 +3,13 @@
 <VNCLASS ID="cooperate-73" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS/>
     <THEMROLES>
-        <THEMROLE type="Actor1">
+        <THEMROLE type="Agent">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Actor2">
-            <SELRESTRS logic="or">
-                <SELRESTR Value="+" type="animate"/>
-                <SELRESTR Value="+" type="organization"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Actor">
+        <THEMROLE type="Co-Agent">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
@@ -29,19 +23,19 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="cooperate-73-1">
             <MEMBERS>
-                <MEMBER name="collaborate" wn="collaborate%2:41:00 collaborate%2:41:01" grouping="collaborate.01 collaborate.02"/>
+                <MEMBER name="collaborate" wn="collaborate%2:41:00 collaborate%2:41:01" grouping="collaborate.01"/>
                 <MEMBER name="cooperate" wn="cooperate%2:41:00" grouping="cooperate.01"/>
-                <MEMBER name="join" wn="join%2:41:01" grouping="join.03 join.04"/>
+                <MEMBER name="join" wn="join%2:41:01" grouping="join.02 join.03"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPon-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; on-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They collaborated on the task.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -60,27 +54,27 @@
                         <PRED value="cooperate">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.actor2 PP.theme" secondary="PP-PPwith-PP on-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.co-agent PP.theme" secondary="PP-PP; with-PP on-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>John collaborated with Paul on the task.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor1">
+                        <NP value="Agent">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
                         <PREP value="with">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Actor2">
+                        <NP value="Co-Agent">
                             <SYNRESTRS/>
                         </NP>
                         <PREP value="on">
@@ -96,20 +90,20 @@
                         <PRED value="cooperate">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor1"/>
-                                <ARG type="ThemRole" value="Actor2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Co-Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPin-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; in-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They collaborated in the task.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -128,20 +122,20 @@
                         <PRED value="cooperate">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.actor2 PP.theme" secondary="PP-PPwith-PP in-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.co-agent PP.theme" secondary="PP-PP; with-PP in-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>John collaborated with Paul in the task.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor1">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -150,7 +144,7 @@
                         <PREP value="with">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Actor2">
+                        <NP value="Co-Agent">
                             <SYNRESTRS/>
                         </NP>
                         <PREP value="in">
@@ -166,20 +160,20 @@
                         <PRED value="cooperate">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor1"/>
-                                <ARG type="ThemRole" value="Actor2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Co-Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCin-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SC; in-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They collaborated in finishing the task.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -198,8 +192,8 @@
                         <PRED value="cooperate">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
@@ -215,12 +209,12 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPin-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; in-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They participated in the task.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -239,20 +233,20 @@
                         <PRED value="cooperate">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCin-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SC; in-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They participated in finishing the task.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -271,8 +265,8 @@
                         <PRED value="cooperate">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
@@ -289,12 +283,12 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPon-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; on-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They worked on the task.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -313,27 +307,27 @@
                         <PRED value="cooperate">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.actor2 PP.theme" secondary="PP-PPwith-PP on-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.co-agent PP.theme" secondary="PP-PP; with-PP on-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>John worked with Paul on the task.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor1">
+                        <NP value="Agent">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
                         <PREP value="with">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Actor2">
+                        <NP value="Co-Agent">
                             <SYNRESTRS/>
                         </NP>
                         <PREP value="on">
@@ -349,20 +343,20 @@
                         <PRED value="cooperate">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor1"/>
-                                <ARG type="ThemRole" value="Actor2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Co-Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCat-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SC; at-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>They worked at finishing the task.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -381,20 +375,20 @@
                         <PRED value="cooperate">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.theme S_ING" secondary="P-ING-SCwith-PP at-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.co-agent PP.theme S_ING" secondary="P-ING-SC; with-PP at-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>John worked with Paul at finishing the task.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor1">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -403,7 +397,7 @@
                         <PREP value="with">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Actor2">
+                        <NP value="Co-Agent">
                             <SYNRESTRS/>
                         </NP>
                         <PREP value="at">
@@ -419,8 +413,8 @@
                         <PRED value="cooperate">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor1"/>
-                                <ARG type="ThemRole" value="Actor2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Co-Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>

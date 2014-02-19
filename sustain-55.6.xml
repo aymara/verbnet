@@ -2,7 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="sustain-55.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="maintain" wn="maintain%2:34:00" grouping="maintain.04"/>
+        <MEMBER name="maintain" wn="maintain%2:34:00" grouping="maintain.01"/>
         <MEMBER name="sustain" wn="sustain%2:34:00" grouping="sustain.01"/>
         <MEMBER name="prolong" wn="prolong%2:42:00" grouping="prolong.01"/>
         <MEMBER name="protract" wn="protract%2:30:00" grouping=""/>
@@ -51,7 +51,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.instrument" secondary="NP-PPthrough-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.instrument" secondary="NP-PP; through-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I maintained a strong government through ruthless domination.</EXAMPLE>
             </EXAMPLES>
@@ -90,7 +90,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-ACthrough-P" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-AC; through-P" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They maintained a strong government through ruthlessly crushing opponents.</EXAMPLE>
             </EXAMPLES>

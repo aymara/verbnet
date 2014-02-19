@@ -3,7 +3,7 @@
 <VNCLASS ID="empathize-88.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="empathize" wn="empathize%2:31:00" grouping=""/>
-        <MEMBER name="sympathize" wn="sympathize%2:31:00 sympathize%2:37:00" grouping=""/>
+        <MEMBER name="sympathize" wn="sympathize%2:31:00 sympathize%2:37:00" grouping="sympathize.02"/>
         <MEMBER name="identify" wn="identify%2:31:04" grouping="identify.02"/>
         <MEMBER name="commiserate" wn="commiserate%2:37:00" grouping=""/>
     </MEMBERS>
@@ -14,7 +14,7 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Cause">
+        <THEMROLE type="Stimulus">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -40,13 +40,13 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="?Cause"/>
+                        <ARG type="ThemRole" value="?Stimulus"/>
                     </ARGS>
                  </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.cause" secondary="PPwith-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus" secondary="PP; with-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>You really have to empathize with them.</EXAMPLE>
             </EXAMPLES>
@@ -58,7 +58,7 @@
 		<PREP value="with">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS>
 			<SYNRESTR Value="-" type="sentential"/>
 		    </SYNRESTRS>
@@ -74,13 +74,13 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                  </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.cause S_ING" secondary="P-POSSINGwith-P" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus S_ING" secondary="P-POSSING; with-P" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>You really have to empathize with their doing it.</EXAMPLE>
             </EXAMPLES>
@@ -92,7 +92,7 @@
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="poss_ing"/>
                     </SYNRESTRS>
@@ -108,13 +108,13 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                  </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.cause what S" secondary="P-WHAT-TO-INFwith-P" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus what S" secondary="P-WHAT-TO-INF; with-P" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>You've really got to empathize with what they want.</EXAMPLE>
             </EXAMPLES>
@@ -126,7 +126,7 @@
                 <PREP value="with">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Cause">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="what_inf"/>
                     </SYNRESTRS>
@@ -142,7 +142,7 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                  </PRED>
             </SEMANTICS>

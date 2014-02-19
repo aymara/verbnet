@@ -19,9 +19,6 @@
                 <SELRESTR Value="+" type="time"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Predicate">
-            <SELRESTRS/>
-        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -34,7 +31,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Predicate">
+                <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="to_inf_rs"/>
                     </SYNRESTRS>
@@ -44,7 +41,7 @@
                 <PRED value="continue">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -56,7 +53,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP.theme V" secondary="IntransitiveInchoative" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP.theme V" secondary="Intransitive; Inchoative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The storm continued.</EXAMPLE>
             </EXAMPLES>
@@ -102,7 +99,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V PP.time" secondary="PPTime-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.time" secondary="PP; Time-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The party continued until 8 PM.</EXAMPLE>
             </EXAMPLES>
@@ -135,7 +132,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V PP.time" secondary="PPTime-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.time" secondary="PP; Time-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>We continued until 8 PM.</EXAMPLE>
             </EXAMPLES>

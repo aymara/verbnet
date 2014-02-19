@@ -21,7 +21,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP up" secondary="NP-PARTup" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP up" secondary="NP-PART; up" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>She spruced herself up before the job interview.</EXAMPLE>
             </EXAMPLES>
@@ -46,7 +46,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V up NP" secondary="PART-NPup" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V up NP" secondary="PART-NP; up" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>She spruced up herself before the job interview.</EXAMPLE>
             </EXAMPLES>

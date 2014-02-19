@@ -3,11 +3,13 @@
 <VNCLASS ID="focus-87.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="focus" wn="focus%2:31:00" grouping="focus.02"/>
+        <MEMBER name="focalize" wn="focalize%2:42:00 focalize%2:31:00 focalize%2:30:00" grouping="focalize.01"/>
         <MEMBER name="center" wn="center%2:42:00 center%2:31:00" grouping="center.02"/>
         <MEMBER name="concentrate" wn="concentrate%2:31:00" grouping="concentrate.01"/>
-        <MEMBER name="converge" wn="" grouping=""/>
+        <MEMBER name="converge" wn="" grouping="converge.01"/>
         <MEMBER name="brood" wn="brood%2:31:00" grouping=""/>
         <MEMBER name="marinate" wn="" grouping=""/>
+        <MEMBER name="fixate" wn="fixate%2:41:00 fixate%2:39:00" grouping="fixate.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -22,7 +24,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPon-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; on-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>We focused on it.</EXAMPLE>
             </EXAMPLES>
@@ -57,7 +59,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SCon-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SC; on-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>We focused on reading the book.</EXAMPLE>
             </EXAMPLES>
@@ -92,7 +94,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme what S" secondary="P-WHAT-Son-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme what S" secondary="P-WHAT-S; on-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>We focused on what he wanted.</EXAMPLE>
             </EXAMPLES>
@@ -127,7 +129,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme what S_INF" secondary="P-WHAT-TO-INFon-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme what S_INF" secondary="P-WHAT-TO-INF; on-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>We focused on what to do.</EXAMPLE>
             </EXAMPLES>

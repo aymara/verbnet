@@ -5,10 +5,11 @@
         <!--Members specify the Form (grilled vs boiled, etc) of the Patient as a result of the action-->
         <MEMBER name="bake" wn="bake%2:30:00 bake%2:36:00" grouping="bake.01"/>
         <MEMBER name="barbecue" wn="barbecue%2:30:00" grouping=""/>
+        <MEMBER name="barbeque" wn="barbeque%2:30:00" grouping=""/>
         <MEMBER name="blanch" wn="blanch%2:30:00" grouping=""/>
         <MEMBER name="boil" wn="boil%2:30:01 boil%2:30:00" grouping="boil.01 boil.02"/>
         <MEMBER name="braise" wn="braise%2:30:00" grouping=""/>
-        <MEMBER name="broil" wn="broil%2:30:00" grouping=""/>
+        <MEMBER name="broil" wn="broil%2:30:00" grouping="broil.01"/>
         <MEMBER name="brown" wn="brown%2:30:00" grouping="brown.01"/>
         <MEMBER name="char" wn="" grouping=""/>
         <MEMBER name="charbroil" wn="" grouping=""/>
@@ -25,6 +26,7 @@
         <MEMBER name="microwave" wn="microwave%2:30:00" grouping=""/>
         <MEMBER name="oven-fry" wn="" grouping=""/>
         <MEMBER name="oven-poach" wn="" grouping=""/>
+        <MEMBER name="overbake" wn="" grouping=""/>
         <MEMBER name="overcook" wn="overcook%2:30:00" grouping=""/>
         <MEMBER name="overheat" wn="" grouping=""/>
         <MEMBER name="pan-broil" wn="pan-broil%2:30:00" grouping=""/>
@@ -33,6 +35,7 @@
         <MEMBER name="parch" wn="" grouping=""/>
         <MEMBER name="percolate" wn="percolate%2:35:03" grouping=""/>
         <MEMBER name="perk" wn="" grouping=""/>
+        <MEMBER name="pickle" wn="pickle%2:30:00" grouping=""/>
         <MEMBER name="plank" wn="plank%2:34:00" grouping=""/>
         <MEMBER name="poach" wn="poach%2:30:00" grouping=""/>
         <MEMBER name="pot-roast" wn="" grouping=""/>
@@ -49,7 +52,7 @@
         <MEMBER name="steam" wn="steam%2:30:00" grouping="steam.03"/>
         <MEMBER name="steam-bake" wn="" grouping=""/>
         <MEMBER name="steep" wn="" grouping=""/>
-        <MEMBER name="stew" wn="stew%2:30:00" grouping=""/>
+        <MEMBER name="stew" wn="stew%2:30:00" grouping="stew.02"/>
         <MEMBER name="stir-fry" wn="stir_fry%2:30:00" grouping=""/>
         <MEMBER name="toast" wn="toast%2:30:00" grouping=""/>
         <MEMBER name="warm_up" wn="" grouping=""/>
@@ -70,10 +73,13 @@
                 <SELRESTR Value="+" type="solid"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Result">
+                <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.patient" secondary="Basic TransitiveCausative" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.patient" secondary="Basic Transitive; Causative" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Jennifer baked the potatoes.</EXAMPLE>
             </EXAMPLES>
@@ -110,7 +116,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Jennifer baked the potatoes in the oven.</EXAMPLE>
             </EXAMPLES>
@@ -160,7 +166,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP.patient v" secondary="IntransitiveInchoative" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP.patient V" secondary="Intransitive; Inchoative" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>The potatoes baked.</EXAMPLE>
             </EXAMPLES>
@@ -238,108 +244,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJPResultative" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Jennifer boiled the pot dry.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <ADJ/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="apply_heat">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="?Instrument"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cooked">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Form"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ PP.instrument" secondary="NP-ADJP-PPResultative, Instrument-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Jennifer boiled the pot dry on the stove.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <ADJ/>
-                <PREP value="in on with">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Instrument">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="apply_heat">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Instrument"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cooked">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Form"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="use">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Instrument"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Jennifer baked the potatoes to a crisp.</EXAMPLE>
             </EXAMPLES>
@@ -354,7 +259,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -390,7 +295,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique PP.instrument" secondary="NP-PP-PPResult-PP, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Jennifer baked the potatoes to a crisp in the oven.</EXAMPLE>
             </EXAMPLES>
@@ -405,7 +310,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -454,42 +359,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V ADJ" secondary="ADJPResultative" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Pots boil dry.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <ADJ/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="apply_heat">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="?Instrument"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cooked">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Form"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V PP.oblique" secondary="PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V PP.result" secondary="PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Potatoes bake to a crisp.</EXAMPLE>
             </EXAMPLES>
@@ -501,7 +371,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -531,48 +401,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V ADJ PP.instrument" secondary="ADJP-PPResultative, Instrument-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Pots boil dry on the stove.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <ADJ/>
-                <PREP value="in on with">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Instrument">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="apply_heat">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Instrument"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cooked">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="VerbSpecific" value="Form"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V PP.oblique PP.instrument" secondary="PP-PPResult-PP, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V PP.result PP.instrument" secondary="PP-PP; Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Potatoes bake to a crisp in the oven.</EXAMPLE>
             </EXAMPLES>
@@ -584,7 +413,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>

@@ -4,6 +4,7 @@
     <MEMBERS>
         <MEMBER name="annihilate" wn="" grouping=""/>
         <MEMBER name="assassinate" wn="assassinate%2:41:00" grouping="assassinate.01"/>
+        <MEMBER name="bushwhack" wn="bushwhack%2:33:00" grouping="bushwhack.01"/>
         <MEMBER name="butcher" wn="butcher%2:35:00" grouping=""/>
         <MEMBER name="dispatch" wn="dispatch%2:41:01" grouping="dispatch.03"/>
         <MEMBER name="eliminate" wn="eliminate%2:30:00" grouping="eliminate.01"/>
@@ -72,7 +73,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Caesar killed Brutus with a knife.</EXAMPLE>
             </EXAMPLES>

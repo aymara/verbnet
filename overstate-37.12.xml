@@ -8,6 +8,7 @@
         <MEMBER name="magnify" wn="magnify%2:32:00" grouping="magnify.01"/>
         <MEMBER name="amplify" wn="amplify%2:32:00" grouping="amplify.01"/>
         <MEMBER name="overemphasize" wn="overemphasize%2:32:00" grouping=""/>
+        <MEMBER name="overrate" wn="overrate%2:31:00" grouping=""/>
         <MEMBER name="overstress" wn="overstress%2:32:00" grouping=""/>
         <MEMBER name="tout" wn="tout%2:32:00" grouping="tout.01"/>
         <MEMBER name="glorify" wn="glorify%2:32:00" grouping="glorify.01"/>

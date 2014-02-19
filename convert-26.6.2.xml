@@ -2,9 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="convert-26.6.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <MEMBER name="advert" wn="advert%2:32:01" grouping=""/> 
         <MEMBER name="come_around" wn="come_around%2:31:00" grouping=""/>
         <MEMBER name="fall" wn="fall%2:30:08" grouping="fall.02"/>
-        <MEMBER name="get" wn="get%2:30:00" grouping="get.03"/>
+        <MEMBER name="get" wn="get%2:30:00" grouping="get.02 get.03"/>
         <MEMBER name="get_around" wn="get_around%2:38:00" grouping=""/>
         <MEMBER name="get_down" wn="get_down%2:30:00" grouping=""/>
         <MEMBER name="go_back" wn="go_back%2:30:00" grouping=""/>
@@ -30,13 +31,13 @@
         <THEMROLE type="Source">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Destination">
+        <THEMROLE type="Goal">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-SCto-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-SC; to-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He converted to believing in Buddha.</EXAMPLE>
             </EXAMPLES>
@@ -48,7 +49,7 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Destination">
+                <NP value="Goal">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="sc_ing"/>
                     </SYNRESTRS>
@@ -60,13 +61,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Patient"/>
                         <ARG type="ThemRole" value="?Source"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.destination" secondary="PPto-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.goal" secondary="PP; to-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He converted to Buddhism.</EXAMPLE>
             </EXAMPLES>
@@ -78,7 +79,7 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Destination">
+                <NP value="Goal">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -88,7 +89,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Patient"/>
                         <ARG type="ThemRole" value="?Source"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -122,7 +123,7 @@
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="?Source"/>
-                                <ARG type="ThemRole" value="?Destination"/>
+                                <ARG type="ThemRole" value="?Goal"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -147,7 +148,7 @@
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="?Source"/>
-                                <ARG type="ThemRole" value="?Destination"/>
+                                <ARG type="ThemRole" value="?Goal"/>
                             </ARGS>
                         </PRED>
                         <PRED value="cause">
@@ -159,7 +160,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OCto-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OC; to-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I converted him to believing in Buddha.</EXAMPLE>
                     </EXAMPLES>
@@ -174,7 +175,7 @@
                         <PREP value="to">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Destination">
+                        <NP value="Goal">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="oc_ing"/>
                             </SYNRESTRS>
@@ -186,7 +187,7 @@
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="?Source"/>
-                                <ARG type="ThemRole" value="Destination"/>
+                                <ARG type="ThemRole" value="Goal"/>
                             </ARGS>
                         </PRED>
                         <PRED value="cause">
@@ -198,7 +199,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.destination" secondary="NP-PPto-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.goal" secondary="NP-PP; to-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>I converted him to Buddhism.</EXAMPLE>
                     </EXAMPLES>
@@ -213,7 +214,7 @@
                         <PREP value="to">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Destination">
+                        <NP value="Goal">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -223,7 +224,7 @@
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="?Source"/>
-                                <ARG type="ThemRole" value="Destination"/>
+                                <ARG type="ThemRole" value="Goal"/>
                             </ARGS>
                         </PRED>
                         <PRED value="cause">
@@ -235,8 +236,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V
-                    PP.source PP.destination" secondary="PP-PPfrom-PP to-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.source PP.goal" secondary="PP-PP; from-PP to-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>He converted from Christianity to Buddhism.</EXAMPLE>
                     </EXAMPLES>
@@ -254,7 +254,7 @@
                         <PREP value="to">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Destination">
+                        <NP value="Goal">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -264,7 +264,7 @@
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="Source"/>
-                                <ARG type="ThemRole" value="Destination"/>
+                                <ARG type="ThemRole" value="Goal"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

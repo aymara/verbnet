@@ -16,16 +16,16 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Theme1">
+        <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Theme2">
+        <THEMROLE type="Source">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme2" secondary="NP-PPon-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source" secondary="NP-PP; on-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>We based our plans on his information.</EXAMPLE>
             </EXAMPLES>
@@ -34,13 +34,13 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme1">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
 		<PREP value="on">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Theme2">
+                <NP value="Source">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -54,14 +54,14 @@
                 <PRED value="base">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme2 whether S" secondary="NP-P-WH-Son-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source whether S" secondary="NP-P-WH-S; on-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They based their decision on whether he happened to come or not.</EXAMPLE>
             </EXAMPLES>
@@ -70,13 +70,13 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme1">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="on">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Theme2">
+                <NP value="Source">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="wh_comp"/>
                     </SYNRESTRS>
@@ -92,29 +92,29 @@
                 <PRED value="base">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme2 S_ING" secondary="NP-P-POSSINGon-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source S_ING" secondary="NP-P-POSSING; on-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>They based their plan on his seizing the base.</EXAMPLE>                                                              
+                <EXAMPLE>They based their plan on his seizing the base.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme1">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="on">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Theme2">
+                <NP value="Source">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="poss_ing"/>
                     </SYNRESTRS>
@@ -130,14 +130,14 @@
                 <PRED value="base">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme2 S" secondary="NP-P-NP-INGon-PP" xtag="0.2"/>                    
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source S" secondary="NP-P-NP-ING; on-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They based their plans on him getting in on time.</EXAMPLE>
             </EXAMPLES>
@@ -146,13 +146,13 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme1">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="on">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Theme2">
+                <NP value="Source">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="acc_ing"/>
                     </SYNRESTRS>
@@ -168,8 +168,8 @@
                 <PRED value="base">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

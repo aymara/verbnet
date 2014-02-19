@@ -8,12 +8,13 @@
         <MEMBER name="break_down" wn="" grouping=""/>
         <MEMBER name="break_up" wn="" grouping=""/>
         <MEMBER name="chip" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00" grouping="chip.01"/>
-        <MEMBER name="cleave" wn="" grouping=""/>
-        <MEMBER name="crack" wn="crack%2:30:01 crack%2:30:02 crack%2:30:00 crack%2:30:05" grouping="crack.01 crack.12"/>
+        <MEMBER name="cleave" wn="" grouping="cleave.01"/>
+        <MEMBER name="crack" wn="crack%2:30:01 crack%2:30:02 crack%2:30:00 crack%2:30:05" grouping="crack.01"/>
         <MEMBER name="crash" wn="crash%2:38:02 crash%2:35:00 crash%2:35:01 crash%2:35:02" grouping="crash.01"/>
         <MEMBER name="crush" wn="crush%2:35:00 crush%2:30:00 crush%2:35:01 crush%2:30:08" grouping="crush.01"/>
         <MEMBER name="dissolve" wn="" grouping=""/>
-        <MEMBER name="fracture" wn="fracture%2:30:10 fracture%2:29:02 fracture%2:29:01 fracture%2:29:00" grouping=""/>
+        <MEMBER name="fissure" wn="fissure%2:30:00" grouping=""/>
+        <MEMBER name="fracture" wn="fracture%2:30:10 fracture%2:29:02 fracture%2:29:01 fracture%2:29:00" grouping="fracture.02"/>
         <MEMBER name="fragment" wn="" grouping=""/>
         <MEMBER name="rend" wn="" grouping=""/>
         <MEMBER name="rive" wn="" grouping=""/>
@@ -23,7 +24,7 @@
         <MEMBER name="sliver" wn="" grouping=""/>
         <MEMBER name="smash" wn="smash%2:30:00 smash%2:35:08" grouping="smash.01"/>
         <MEMBER name="snap" wn="snap%2:35:01 snap%2:30:00" grouping="snap.01"/>
-        <MEMBER name="splinter" wn="splinter%2:41:01 splinter%2:30:00" grouping=""/>
+        <MEMBER name="splinter" wn="splinter%2:41:01 splinter%2:30:00" grouping="splinter.01"/>
         <MEMBER name="split" wn="split%2:35:00 split%2:30:01" grouping="split.01 split.02"/>
         <MEMBER name="tear" wn="tear%2:35:00 tear%2:35:01" grouping="tear.01"/>
     </MEMBERS>
@@ -43,10 +44,13 @@
                 <SELRESTR Value="+" type="solid"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Result">
+                <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic TransitiveCausative" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive; Causative" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Tony broke the window.</EXAMPLE>
             </EXAMPLES>
@@ -89,7 +93,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PPInstrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.instrument" secondary="NP-PP; Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Tony broke the window with a hammer.</EXAMPLE>
             </EXAMPLES>
@@ -145,7 +149,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP.patient V" secondary="IntransitiveInchoative" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP.patient V" secondary="Intransitive; Inchoative" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>The window broke.</EXAMPLE>
             </EXAMPLES>
@@ -235,7 +239,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJPResultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Tony broke the piggy bank open.</EXAMPLE>
             </EXAMPLES>
@@ -247,7 +251,9 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="cause">
@@ -285,7 +291,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ PP.instrument" secondary="NP-ADJP-PPResultative, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ PP.instrument" secondary="NP-ADJP-PP; Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Tony broke the piggy bank open with a hammer.</EXAMPLE>
             </EXAMPLES>
@@ -297,7 +303,9 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
@@ -348,7 +356,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Tony broke the glass to pieces.</EXAMPLE>
             </EXAMPLES>
@@ -363,7 +371,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -405,7 +413,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique PP.instrument" secondary="NP-PP-PPResult-PP, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result PP.instrument" secondary="NP-PP-PP; Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Tony broke the glass to pieces with a hammer.</EXAMPLE>
             </EXAMPLES>
@@ -420,7 +428,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>
@@ -475,7 +483,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V PP.oblique" secondary="PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.result" secondary="PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The glass broke into a thousand pieces.</EXAMPLE>
             </EXAMPLES>
@@ -487,7 +495,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>

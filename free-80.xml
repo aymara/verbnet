@@ -4,7 +4,8 @@
     <MEMBERS>
         <MEMBER name="alleviate" wn="" grouping=""/>
         <MEMBER name="liberate" wn="liberate%2:41:01" grouping="liberate.02"/>
-        <MEMBER name="discharge" wn="discharge%2:41:01 discharge%2:32:00" grouping="discharge.02 discharge.04"/>
+        <MEMBER name="discharge" wn="discharge%2:41:01 discharge%2:32:00" grouping="discharge.02"/>
+        <MEMBER name="exonerate" wn="exonerate%2:32:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Cause">
@@ -22,7 +23,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PPof-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PP; of-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>It freed him of guilt.</EXAMPLE>
             </EXAMPLES>
@@ -75,14 +76,15 @@
                 <MEMBER name="clear" wn="clear%2:32:00" grouping="clear.01"/>
                 <MEMBER name="free" wn="free%2:41:07 free%2:41:02 free%2:32:00" grouping="free.01"/>
                 <MEMBER name="cure" wn="cure%2:29:00" grouping="cure.01"/>
-                <MEMBER name="relieve" wn="relieve%2:41:01 relieve%2:41:02 relieve%2:40:01 relieve%2:32:01 relieve%2:30:05" grouping="relieve.01 relieve.02 relieve.03"/>
+                <MEMBER name="relieve" wn="relieve%2:41:01 relieve%2:41:02 relieve%2:40:01 relieve%2:32:01 relieve%2:30:05" grouping="relieve.01 relieve.02 relieve.03 relieve.05"/>
                 <MEMBER name="emancipate" wn="emancipate%2:41:00" grouping=""/>
                 <MEMBER name="release" wn="" grouping=""/>
+                <MEMBER name="rerelease" wn="" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OCof-PP" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OC; of-PP" xtag="0.2"/>
                     <EXAMPLES>
                         <EXAMPLE>It freed him of feeling guilt.</EXAMPLE>
                     </EXAMPLES>

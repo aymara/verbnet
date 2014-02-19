@@ -21,9 +21,6 @@
                 <SELRESTR Value="+" type="communication"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Cause">
-            <SELRESTRS/>
-        </THEMROLE>
         <THEMROLE type="Recipient">
             <SELRESTRS>
                 <SELRESTR Value="+" type="animate"/>
@@ -33,7 +30,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic TransitiveBody-part Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive; Body-part Object" xtag="0.2"/>
             <!-- Patient must be a hyponym of the body part allowed by the verb, or must specify additional information-->
             <EXAMPLES>
                 <EXAMPLE>Linda winked her eye.</EXAMPLE>
@@ -71,7 +68,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PPTheme-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme" secondary="NP-PP; Theme-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Linda winked her eye in agreement.</EXAMPLE>
             </EXAMPLES>
@@ -113,66 +110,17 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.cause" secondary="NP-PPCause-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Linda winked her eye at his behavior.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Patient">
-                    <SYNRESTRS/>
-                </NP>
-                <PREP value="at">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Cause">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="transfer_info">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Recipient"/>
-                        <ARG type="ThemRole" value="?Theme"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="in_reaction_to">
-                    <ARGS>
-                        <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Cause"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-    </FRAMES>
+        </FRAMES>
     <SUBCLASSES>
         <VNSUBCLASS ID="wink-40.3.1-1">
             <MEMBERS>
                 <!--"blink, squint, wink" can also be used in involuntary action, which we are not considered in this class-->
-                <MEMBER name="beckon" wn="" grouping=""/>
+                <MEMBER name="beckon" wn="" grouping="beckon.01"/>
                 <MEMBER name="blink" wn="blink%2:29:00 blink%2:29:01" grouping="blink.01 blink.02"/>
-                <MEMBER name="clap" wn="clap%2:29:00" grouping=""/>
+                <MEMBER name="clap" wn="clap%2:29:00" grouping="clap.03"/>
                 <MEMBER name="gesture" wn="" grouping=""/>
-                <MEMBER name="nod" wn="nod%2:32:00 nod%2:29:03" grouping="nod.01 nod.02"/>
-                <MEMBER name="point" wn="?point%2:32:00 ?point%2:33:10" grouping="point.01 point.02"/>
+                <MEMBER name="nod" wn="nod%2:32:00 nod%2:29:03" grouping="nod.01"/>
+                <MEMBER name="point" wn="?point%2:32:00 ?point%2:33:10" grouping="point.01"/>
                 <MEMBER name="shrug" wn="shrug%2:29:00" grouping=""/>
                 <MEMBER name="squint" wn="squint%2:29:00" grouping="squint.01"/>
                 <MEMBER name="wave" wn="wave%2:32:00" grouping="wave.01"/>
@@ -215,7 +163,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.recipient" secondary="PPRecipient-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.recipient" secondary="PP; Recipient-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Linda winked at the audience.</EXAMPLE>
                     </EXAMPLES>
@@ -257,7 +205,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V NP" secondary="PPTheme-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V NP" secondary="PP; Theme-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Linda winked her agreement.</EXAMPLE>
                     </EXAMPLES>
@@ -294,7 +242,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPTheme-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; Theme-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Linda winked in agreement.</EXAMPLE>
                     </EXAMPLES>
@@ -329,52 +277,6 @@
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="?Recipient"/>
                                 <ARG type="ThemRole" value="Theme"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.cause" secondary="PPCause-PP" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE>Linda winked at his behavior.</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Agent">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                        <PREP value="at">
-                            <SELRESTRS/>
-                        </PREP>
-                        <NP value="Cause">
-                            <SYNRESTRS/>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="cause">
-                            <ARGS>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="Event" value="E"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="motion">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="VerbSpecific" value="Patient"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="transfer_info">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="?Recipient"/>
-                                <ARG type="ThemRole" value="?Theme"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="in_reaction_to">
-                            <ARGS>
-                                <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Cause"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

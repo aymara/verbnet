@@ -4,7 +4,7 @@
     <MEMBERS>
         <MEMBER name="dedicate" wn="dedicate%2:32:00" grouping="dedicate.01"/>
         <MEMBER name="devote" wn="devote%2:32:00" grouping="devote.01"/>
-        <MEMBER name="commit" wn="commit%2:32:01 commit%2:40:00" grouping="commit.02 commit.03"/>
+        <MEMBER name="commit" wn="commit%2:32:01 commit%2:40:00" grouping="commit.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -16,13 +16,13 @@
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Proposition">
+        <THEMROLE type="Goal">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-SCto-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-SC; to-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I dedicated myself to helping us.</EXAMPLE>
             </EXAMPLES>
@@ -37,7 +37,7 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Proposition">
+                <NP value="Goal">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="sc_ing"/>
                     </SYNRESTRS>
@@ -49,13 +49,13 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.proposition" secondary="NP-PPto-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.goal" secondary="NP-PP; to-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I dedicated myself to the cause.</EXAMPLE>
             </EXAMPLES>
@@ -70,7 +70,7 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Proposition">
+                <NP value="Goal">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
                     </SYNRESTRS>
@@ -82,7 +82,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

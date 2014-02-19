@@ -6,7 +6,7 @@
         <MEMBER name="detach" wn="detach%2:35:01" grouping="detach.01"/>
         <MEMBER name="disassemble" wn="disassemble%2:36:00" grouping="disassemble.01"/>
         <MEMBER name="disconnect" wn="disconnect%2:35:03 ?disconnect%2:35:00" grouping="disconnect.01 disconnect.02"/>
-        <MEMBER name="dismantle" wn="" grouping=""/>
+        <MEMBER name="dismantle" wn="" grouping="dismantle.02 dismantle.03"/>
         <MEMBER name="dismount" wn="" grouping=""/>
         <MEMBER name="pare" wn="pare%2:35:01 pare%2:35:02 pare%2:35:00" grouping="pare.01"/>
         <MEMBER name="partition" wn="partition%2:30:00" grouping=""/>
@@ -40,9 +40,10 @@
         <MEMBER name="unstitch" wn="" grouping=""/>
         <MEMBER name="untie" wn="untie%2:35:00" grouping=""/>
         <MEMBER name="unzip" wn="unzip%2:35:00" grouping=""/>
+        <MEMBER name="sieve" wn="sieve%2:35:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
-        <!--Patient1 is interpreted as Figure, Patient2 as Ground-->
+        <!--Patient is interpreted as Figure, Co-Patient as Ground-->
         <THEMROLE type="Agent">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
@@ -54,12 +55,7 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Patient1">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="concrete"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Patient2">
+        <THEMROLE type="Co-Patient">
             <SELRESTRS>
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
@@ -76,7 +72,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Patient1">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -91,22 +87,22 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="Constant" value="physical"/>
-                        <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="?Patient2"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Co-Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="apart">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
                         <ARG type="Constant" value="physical"/>
-                        <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="?Patient2"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Co-Patient"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.patient2" secondary="NP-PPSource-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.co-patient" secondary="NP-PP; Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I unscrewed the handle from the box.</EXAMPLE>
             </EXAMPLES>
@@ -115,13 +111,13 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Patient1">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="from">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Patient2">
+                <NP value="Co-Patient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -136,16 +132,16 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="Constant" value="physical"/>
-                        <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="Patient2"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Co-Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="apart">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
                         <ARG type="Constant" value="physical"/>
-                        <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="Patient2"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Co-Patient"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

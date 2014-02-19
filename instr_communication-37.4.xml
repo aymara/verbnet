@@ -3,7 +3,7 @@
 <VNCLASS ID="instr_communication-37.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Each verb adds a predicate specifying the instrument used to transfer the information-->
-        <MEMBER name="broadcast" wn="" grouping=""/>
+        <MEMBER name="broadcast" wn="" grouping="broadcast.01"/>
         <MEMBER name="cable" wn="cable%2:32:00" grouping=""/>
         <MEMBER name="e-mail" wn="e-mail%2:32:00" grouping=""/>
         <MEMBER name="fax" wn="fax%2:32:00" grouping=""/>
@@ -77,7 +77,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.recipient" secondary="TransitiveRecipient Object, ellided Topic" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.recipient" secondary="Transitive; Recipient Object, ellided Topic" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Heather cabled Sara.</EXAMPLE>
             </EXAMPLES>
@@ -108,7 +108,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.1" primary="NP V NP PP.recipient" secondary="NP-PPto-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.1" primary="NP V NP PP.recipient" secondary="NP-PP; to-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Heather cabled the news to Sara.</EXAMPLE>
             </EXAMPLES>
@@ -179,7 +179,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.3" primary="NP V NP.recipient S-Quote" secondary="NP-QUOTRecipient Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.3" primary="NP V NP.recipient S-Quote" secondary="NP-QUOT; Recipient Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Heather cabled Sara, 'Come immediately.'</EXAMPLE>
             </EXAMPLES>
@@ -213,7 +213,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.3" primary="NP V PP.recipient S-Quote" secondary="PP-QUOTRecipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.3" primary="NP V PP.recipient S-Quote" secondary="PP-QUOT; Recipient-PP" xtag=""/>
             <!-- Perhaps should be treated as heavy XP shift-->
             <EXAMPLES>
                 <EXAMPLE>Heather cabled to Sara, 'Come immediately.'</EXAMPLE>
@@ -251,7 +251,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.topic" secondary="NP-PPTopic-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.topic" secondary="NP-PP; Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Heather cabled Sara about the situation.</EXAMPLE>
             </EXAMPLES>
@@ -390,7 +390,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient that S" secondary="NP-SRecipient Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient that S" secondary="NP-S; Recipient Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Heather cabled Sara that the party would be tonight.</EXAMPLE>
             </EXAMPLES>
@@ -426,7 +426,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient when S_INF" secondary="NP-WHEN-TO-INFRecipient Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient when S_INF" secondary="NP-WHEN-TO-INF; Recipient Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Heather cabled Sara when to send the package.</EXAMPLE>
             </EXAMPLES>
@@ -462,7 +462,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient S_INF" secondary="NP-TO-INF-ACRecipient Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="NP V NP.recipient S_INF" secondary="NP-TO-INF-AC; Recipient Object" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Heather cabled Sara to come.</EXAMPLE>
             </EXAMPLES>
@@ -498,7 +498,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="NP V PP.recipient that S" secondary="PP-SRecipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="NP V PP.recipient that S" secondary="PP-S; Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Heather cabled to Sara that the party would be tonight.</EXAMPLE>
             </EXAMPLES>
@@ -537,7 +537,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="NP V PP.recipient when S_INF" secondary="PP-WHEN-TO-INFRecipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="NP V PP.recipient when S_INF" secondary="PP-WHEN-TO-INF; Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Heather cabled to Sara when to send the package.</EXAMPLE>
             </EXAMPLES>
@@ -576,7 +576,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="NP V PP.recipient S_INF" secondary="PP-TO-INF-ACRecipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="NP V PP.recipient S_INF" secondary="PP-TO-INF-AC; Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Heather cabled to Sara to come.</EXAMPLE>
             </EXAMPLES>

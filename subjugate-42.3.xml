@@ -2,24 +2,29 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="subjugate-42.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <MEMBER name="disenfranchise" wn="disenfranchise%2:41:00"
+        grouping=""/>
+        <MEMBER name="enslave" wn="enslave%2:41:00" grouping=""/>
+        <MEMBER name="mob" wn="mob%2:38:00" grouping=""/>
+        <MEMBER name="nourish" wn="nourish%2:34:00" grouping=""/> 
         <MEMBER name="suppress" wn="" grouping=""/>
         <MEMBER name="stamp_down" wn="" grouping=""/>
         <MEMBER name="subdue" wn="" grouping=""/>
-        <MEMBER name="conquer" wn="" grouping=""/>
+        <MEMBER name="conquer" wn="" grouping="conquer.01"/>
         <MEMBER name="curb" wn="" grouping=""/>
-        <MEMBER name="crush" wn="" grouping=""/>
+        <MEMBER name="crush" wn="" grouping="crush.02 crush.03"/>
         <MEMBER name="stifle" wn="" grouping=""/>
         <MEMBER name="dampen" wn="" grouping=""/>
         <MEMBER name="suffocate" wn="" grouping=""/>
         <MEMBER name="choke" wn="" grouping=""/>
-        <MEMBER name="hush" wn="" grouping=""/>
-        <MEMBER name="silence" wn="" grouping=""/>
-        <MEMBER name="still" wn="" grouping=""/>
+        <MEMBER name="hush" wn="" grouping="hush.01"/>
+        <MEMBER name="silence" wn="" grouping="silence.01"/>
+        <MEMBER name="still" wn="" grouping="still.01 still.02"/>
         <MEMBER name="shut_up" wn="" grouping=""/>
         <MEMBER name="hush_up" wn="" grouping=""/>
         <MEMBER name="lull" wn="" grouping=""/>
         <MEMBER name="calm_down" wn="" grouping=""/>
-        <MEMBER name="gag" wn="" grouping=""/>
+        <MEMBER name="gag" wn="" grouping="gag.01 gag.02"/>
         <MEMBER name="muzzle" wn="" grouping=""/>
         <MEMBER name="squelch" wn="" grouping=""/>
         <MEMBER name="quell" wn="" grouping=""/>
@@ -31,6 +36,7 @@
         <MEMBER name="keep_down" wn="" grouping=""/>
         <MEMBER name="subjugate" wn="" grouping=""/>
         <MEMBER name="reduce" wn="" grouping=""/>
+        <MEMBER name="slake" wn="slake%2:34:00 slake%2:30:00" grouping="slake.01"/>
         <MEMBER name="strangle" wn="" grouping=""/>
         <MEMBER name="kill" wn="" grouping=""/>
     </MEMBERS>
@@ -82,7 +88,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.instrument" secondary="NP-PPwith-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.instrument" secondary="NP-PP; with-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Russia subjugated Mongolia with overwhelming force.</EXAMPLE>
             </EXAMPLES>

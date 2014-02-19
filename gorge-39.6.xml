@@ -26,7 +26,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.patient" secondary="PPPatient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.patient" secondary="PP; Patient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Cynthia gorged on peaches.</EXAMPLE>
             </EXAMPLES>

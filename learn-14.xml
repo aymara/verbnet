@@ -17,7 +17,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PPSource-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PP; Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Rhoda learned French from an old book.</EXAMPLE>
             </EXAMPLES>
@@ -54,7 +54,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.source" secondary="PPSource-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.source" secondary="PP; Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Rhoda learned from an old book.</EXAMPLE>
             </EXAMPLES>
@@ -118,6 +118,7 @@
             <MEMBERS>
                 <MEMBER name="cram" wn="cram%2:31:00 cram%2:30:00" grouping="cram.02"/>
                 <MEMBER name="read" wn="read%2:31:00 read%2:31:04" grouping="read.01"/>
+                <MEMBER name="relearn" wn="relearn%2:31:00" grouping=""/>
                 <MEMBER name="study" wn="study%2:31:02 study%2:31:00 study%2:31:01" grouping="study.01 study.02"/>
                 <MEMBER name="learn" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03" grouping="learn.01 learn.02"/>
             </MEMBERS>
@@ -193,7 +194,7 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="NP V PP.topic" secondary="PPof-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="" primary="NP V PP.topic" secondary="PP; of-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>The president learned of a coup plot that might endanger his life.</EXAMPLE>
                             </EXAMPLES>

@@ -29,7 +29,7 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Predicate">
+        <THEMROLE type="Attribute">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -63,14 +63,14 @@
                 </PRED>
                 <PRED value="location">
                     <ARGS>
-                        <ARG type="Event" value="End(E)"/>
+                        <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.predicate" secondary="NP-PPas-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.attribute" secondary="NP-PP; as-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I hired two secretaries as helpers.</EXAMPLE>
             </EXAMPLES>
@@ -85,7 +85,7 @@
 		<PREP value="as">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS>
 			<SYNRESTR Value="-" type="sentential"/>
 		    </SYNRESTRS>
@@ -102,14 +102,14 @@
                     <ARGS>
                        <ARG type="Event" value="start(E)"/>
                        <ARG type="ThemRole" value="Theme"/>
-                       <ARG type="ThemRole" value="Predicate"/>
+                       <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
                 <PRED value="location">
                     <ARGS>
-                        <ARG type="Event" value="End(E)"/>
+                        <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

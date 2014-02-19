@@ -49,7 +49,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme" secondary="NP-PPwith-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.theme" secondary="NP-PP; with-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I helped him with homework.</EXAMPLE>
             </EXAMPLES>
@@ -82,7 +82,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OCwith-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OC; with-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I helped him with finishing the homework.</EXAMPLE>
             </EXAMPLES>
@@ -145,7 +145,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-ACwith-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-AC; with-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I helped with finishing the homework.</EXAMPLE>
             </EXAMPLES>
@@ -186,7 +186,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPwith-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; with-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I helped with the homework.</EXAMPLE>
                     </EXAMPLES>

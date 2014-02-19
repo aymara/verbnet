@@ -26,7 +26,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.recipient" secondary="NP-PPRecipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.recipient" secondary="NP-PP; Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Brown presented a plaque to Jones.</EXAMPLE>
             </EXAMPLES>
@@ -173,6 +173,7 @@
                 <MEMBER name="credit" wn="credit%2:31:01 credit%2:31:12" grouping="credit.01 credit.03"/>
                 <MEMBER name="entrust" wn="entrust%2:40:00 entrust%2:40:01" grouping="entrust.01"/>
                 <MEMBER name="furnish" wn="furnish%2:40:00" grouping="furnish.01"/>
+                <MEMBER name="resupply" wn="" grouping=""/>
                 <MEMBER name="serve" wn="serve%2:34:01 serve%2:34:00 serve%2:35:00" grouping="serve.04"/>
                 <MEMBER name="supply" wn="supply%2:40:00 supply%2:41:00 supply%2:34:00" grouping="supply.01"/>
             </MEMBERS>
@@ -244,7 +245,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.recipient" secondary="PPfor-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.recipient" secondary="PP; for-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Hess provides for its customers.</EXAMPLE>
                     </EXAMPLES>

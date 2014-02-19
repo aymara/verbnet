@@ -7,19 +7,13 @@
         <MEMBER name="exile" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
-        <THEMROLE type="Actor">
+        <THEMROLE type="Agent">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Actor1">
-            <SELRESTRS logic="or">
-                <SELRESTR Value="+" type="animate"/>
-                <SELRESTR Value="+" type="organization"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Actor2">
+        <THEMROLE type="Co-Agent">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
@@ -31,19 +25,19 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.topic whether/if S" secondary="PP-P-WH-Swith-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.co-agent PP.topic whether/if S" secondary="PP-P-WH-S; with-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I battled with him about whether he should kill the peasants.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Actor1">
+                <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Actor2">
+                <NP value="Co-Agent">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="about">
@@ -59,15 +53,15 @@
                 <PRED value="social_interaction">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="conflict">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="about">
@@ -79,19 +73,19 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.topic what S" secondary="PP-P-WHAT-Swith-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.co-agent PP.topic what S" secondary="PP-P-WHAT-S; with-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I battled with him about whether he should go.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Actor1">
+                <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Actor2">
+                <NP value="Co-Agent">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="about">
@@ -107,15 +101,15 @@
                 <PRED value="social_interaction">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="conflict">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="about">
@@ -127,19 +121,19 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.topic what S_INF" secondary="PP-P-WHAT-TO-INFwith-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.co-agent PP.topic what S_INF" secondary="PP-P-WHAT-TO-INF; with-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I battled with him about what to do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Actor1">
+                <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Actor2">
+                <NP value="Co-Agent">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="about">
@@ -155,15 +149,15 @@
                 <PRED value="social_interaction">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="conflict">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="about">
@@ -175,19 +169,19 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.topic whether S_INF" secondary="PP-P-WH-TO-INFwith-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.co-agent PP.topic whether S_INF" secondary="PP-P-WH-TO-INF; with-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I battled with him about whether to go.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Actor1">
+                <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Actor2">
+                <NP value="Co-Agent">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="about">
@@ -203,15 +197,15 @@
                 <PRED value="social_interaction">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="conflict">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="about">
@@ -223,19 +217,19 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.actor2 PP.topic" secondary="PP-PPwith-PP about-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.co-agent PP.topic" secondary="PP-PP; with-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I battled with him about it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Actor1">
+                <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Actor2">
+                <NP value="Co-Agent">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="about">
@@ -251,15 +245,15 @@
                 <PRED value="social_interaction">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="conflict">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
-                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="about">
@@ -295,11 +289,12 @@
                 <MEMBER name="joust" wn="joust%2:33:00" grouping=""/>
                 <MEMBER name="quarrel" wn="quarrel%2:32:00" grouping=""/>
                 <MEMBER name="quibble" wn="quibble%2:32:00" grouping=""/>
+                <MEMBER name="refight" wn="" grouping=""/>
                 <MEMBER name="scuffle" wn="scuffle%2:35:00" grouping=""/>
                 <MEMBER name="skirmish" wn="skirmish%2:33:00" grouping=""/>
                 <MEMBER name="spar" wn="spar%2:35:01 spar%2:35:00 spar%2:32:00" grouping=""/>
                 <MEMBER name="spat" wn="spat%2:32:00" grouping=""/>
-                <MEMBER name="struggle" wn="struggle%2:41:00" grouping="struggle.02"/>
+                <MEMBER name="struggle" wn="struggle%2:41:00" grouping="struggle.01"/>
                 <MEMBER name="squabble" wn="squabble%2:32:00" grouping=""/>
                 <MEMBER name="tilt" wn="tilt%2:33:00" grouping="tilt.02"/>
                 <MEMBER name="tussle" wn="tussle%2:35:01" grouping=""/>
@@ -311,12 +306,12 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V" secondary="IntransitivePlural Subject" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V" secondary="Intransitive; Plural Subject" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -327,15 +322,15 @@
                         <PRED value="social_interaction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="conflict">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="about">
@@ -347,12 +342,12 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic NP S_ING" secondary="P-POSSINGabout-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic NP S_ING" secondary="P-POSSING; about-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about his coming.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -371,15 +366,15 @@
                         <PRED value="social_interaction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="conflict">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="about">
@@ -391,12 +386,12 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic whether S" secondary="P-WH-Sabout-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic whether S" secondary="P-WH-S; about-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about whether he should go.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -415,15 +410,15 @@
                         <PRED value="social_interaction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="conflict">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="about">
@@ -435,12 +430,12 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic what S" secondary="P-WHAT-Sabout-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic what S" secondary="P-WHAT-S; about-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about what was the right thing.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -459,15 +454,15 @@
                         <PRED value="social_interaction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="conflict">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="about">
@@ -479,12 +474,12 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic whether S_INF" secondary="P-WH-TO-INFabout-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic whether S_INF" secondary="P-WH-TO-INF; about-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about whether to go.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -503,15 +498,15 @@
                         <PRED value="social_interaction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="conflict">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="about">
@@ -523,12 +518,12 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic what S_INF" secondary="P-WHAT-TO-INFabout-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic what S_INF" secondary="P-WHAT-TO-INF; about-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about what to do.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -547,15 +542,15 @@
                         <PRED value="social_interaction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="conflict">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="about">
@@ -567,12 +562,12 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic" secondary="PPabout-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic" secondary="PP; about-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>They battled about it.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Actor">
+                        <NP value="Agent">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="plural"/>
                             </SYNRESTRS>
@@ -591,15 +586,15 @@
                         <PRED value="social_interaction">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="conflict">
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Actor_i"/>
-                                <ARG type="ThemRole" value="Actor_j"/>
+                                <ARG type="ThemRole" value="Agent_i"/>
+                                <ARG type="ThemRole" value="Agent_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="about">

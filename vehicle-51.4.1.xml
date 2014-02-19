@@ -11,7 +11,7 @@
         <MEMBER name="chariot" wn="chariot%2:38:01 chariot%2:38:00" grouping=""/>
         <MEMBER name="coach" wn="coach%2:38:00" grouping="coach.02"/>
         <MEMBER name="dogsled" wn="" grouping=""/>
-        <MEMBER name="ferry" wn="ferry%2:38:01 ferry%2:38:00" grouping=""/>
+        <MEMBER name="ferry" wn="ferry%2:38:01 ferry%2:38:00" grouping="ferry.01"/>
         <MEMBER name="gondola" wn="" grouping=""/>
         <MEMBER name="helicopter" wn="" grouping=""/>
         <MEMBER name="jeep" wn="" grouping=""/>
@@ -19,10 +19,10 @@
         <MEMBER name="moped" wn="" grouping=""/>
         <MEMBER name="motor" wn="motor%2:38:00" grouping=""/>
         <MEMBER name="parachute" wn="parachute%2:38:00" grouping=""/>
-        <MEMBER name="punt" wn="punt%2:35:00" grouping=""/>
+        <MEMBER name="punt" wn="punt%2:35:00" grouping="punt.02"/>
         <MEMBER name="rickshaw" wn="" grouping=""/>
         <MEMBER name="rocket" wn="rocket%2:35:00" grouping=""/>
-        <MEMBER name="sledge" wn="sledge%2:38:02 sledge%2:38:01" grouping=""/>
+        <MEMBER name="sledge" wn="sledge%2:38:02 sledge%2:38:01" grouping="sledge.01"/>
         <MEMBER name="sleigh" wn="sleigh%2:38:00" grouping=""/>
         <MEMBER name="taxi" wn="taxi%2:38:00" grouping=""/>
         <MEMBER name="tram" wn="" grouping=""/>
@@ -46,10 +46,13 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Result">
+                <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP.theme V" secondary="Basic Intransitiveinchoative" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP.theme V" secondary="Basic Intransitive; inchoative" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>Claire skated.</EXAMPLE>
             </EXAMPLES>
@@ -69,7 +72,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP.theme V PP.location" secondary="PPinchoative, locative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP.theme V PP.location" secondary="PP; inchoative, locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Claire skated along the canal.</EXAMPLE>
             </EXAMPLES>
@@ -104,7 +107,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP PP.location" secondary="NP-PPInduced Action with accompanied motion, path-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP PP.location" secondary="NP-PP; Induced Action with accompanied motion, path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He skated Penny around the rink.</EXAMPLE>
             </EXAMPLES>
@@ -167,7 +170,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP" secondary="NPInduced Action with accompanied motion" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP" secondary="NP; Induced Action with accompanied motion" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He skated Penny.</EXAMPLE>
             </EXAMPLES>
@@ -208,86 +211,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJPResultative" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Claire skated her skates blades blunt.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Oblique">
-                    <SELRESTRS/>
-                </NP>
-                <ADJ/>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Oblique"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique2" secondary="NP-PPResult-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Claire skated her skates blades to shreds.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Oblique1">
-                    <SELRESTRS/>
-                </NP>
-                <PREP value="to into">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Oblique2">
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="state"/>
-                    </SELRESTRS>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="Pred">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="Oblique1"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJPResultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He skated Penny exhausted.</EXAMPLE>
             </EXAMPLES>
@@ -299,7 +223,9 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="motion">
@@ -323,7 +249,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.oblique" secondary="NP-PPResult-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-PP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He skated Penny to exhaustion.</EXAMPLE>
             </EXAMPLES>
@@ -338,7 +264,7 @@
                 <PREP value="to into">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Oblique">
+                <NP value="Result">
                     <SELRESTRS>
                         <SELRESTR Value="+" type="state"/>
                     </SELRESTRS>

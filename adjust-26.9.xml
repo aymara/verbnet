@@ -22,13 +22,13 @@
         <THEMROLE type="Patient">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Destination">
+        <THEMROLE type="Goal">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He adapted himself.</EXAMPLE>
             </EXAMPLES>
@@ -50,15 +50,15 @@
                 </PRED>
                 <PRED value="adjust">
                     <ARGS>
-                        <ARG type="Event" value="During(E)"/>
+                        <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="?Destination"/>
+                        <ARG type="ThemRole" value="?Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP" secondary="NP-PP; to-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He adapted himself to the situation.</EXAMPLE>
             </EXAMPLES>
@@ -73,7 +73,7 @@
 		<PREP value="to">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Destination">
+                <NP value="Goal">
                     <SYNRESTRS>
 			<SYNRESTR Value="-" type="sentential"/>
 		    </SYNRESTRS>
@@ -82,15 +82,15 @@
             <SEMANTICS>
                 <PRED value="adjust">
                     <ARGS>
-                        <ARG type="Event" value="During(E)"/>
+                        <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-P-ING-OC" secondary="to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OC; to-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He adapted himself to waking up early.</EXAMPLE>
             </EXAMPLES>
@@ -105,7 +105,7 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Destination">
+                <NP value="Goal">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="oc_ing"/>
                     </SYNRESTRS>
@@ -114,15 +114,15 @@
             <SEMANTICS>
                 <PRED value="adjust">
                     <ARGS>
-                        <ARG type="Event" value="During(E)"/>
+                        <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Patient"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-SC; to-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He adapted to waking up early.</EXAMPLE>
             </EXAMPLES>
@@ -134,7 +134,7 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Destination">
+                <NP value="Goal">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="sc_ing"/>
                     </SYNRESTRS>
@@ -143,16 +143,16 @@
             <SEMANTICS>
                 <PRED value="adjust">
                     <ARGS>
-                        <ARG type="Event" value="During(E)"/>
+                        <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="?Patient"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
 
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP" secondary="PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He adapted to the situation.</EXAMPLE>                                                              
             </EXAMPLES>
@@ -164,16 +164,16 @@
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Destination">
+                <NP value="Goal">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="adjust">
                     <ARGS>
-                        <ARG type="Event" value="During(E)"/>
+                        <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="?Patient"/>
-                        <ARG type="ThemRole" value="Destination"/>
+                        <ARG type="ThemRole" value="Goal"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

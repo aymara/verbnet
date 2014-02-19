@@ -9,7 +9,8 @@
         <MEMBER name="hibernate" wn="" grouping=""/>
         <MEMBER name="hold" wn="hold%2:42:05 hold%2:42:14" grouping="hold.01 hold.04"/>
         <MEMBER name="house" wn="house%2:41:00" grouping="house.01"/>
-        <MEMBER name="seat" wn="seat%2:42:00" grouping="seat.02"/>
+        <MEMBER name="reseat" wn="reseat%2:40:01 reseat%2:40:00 reseat%2:35:00" grouping="reseat.01"/>
+        <MEMBER name="seat" wn="seat%2:42:00" grouping="seat.01 seat.02"/>
         <MEMBER name="serve" wn="serve%2:41:00" grouping="serve.01"/>
         <MEMBER name="sleep" wn="sleep%2:42:00" grouping="sleep.03"/>
         <MEMBER name="store" wn="store%2:40:02" grouping="store.01"/>
@@ -55,7 +56,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PPLocation-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PP; Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>We sleep five people in each room.</EXAMPLE>
             </EXAMPLES>

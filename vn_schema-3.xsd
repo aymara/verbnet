@@ -78,66 +78,51 @@
   </xsd:complexType></xsd:element>
 </xsd:sequence></xsd:complexType></xsd:element>
 
+<xsd:element name="NP">
+  <xsd:complexType>
+  <xsd:choice> 
+    <xsd:element ref="SELRESTRS"/>
+    <xsd:element ref="SYNRESTRS"/>
+  </xsd:choice>
+  <xsd:attribute name="value" type="npType" use="required"/>
+  </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="PREP"><xsd:complexType>
+  <xsd:sequence>
+    <xsd:element name="SELRESTRS"><xsd:complexType>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+	<xsd:element name="SELRESTR"><xsd:complexType>
+	  <xsd:attribute name="Value" use="required" type="selrestrValueType"/>
+	  <xsd:attribute name="type" use="required" type="preprestrType"/>
+	</xsd:complexType></xsd:element>
+      </xsd:choice>
+      <xsd:attribute name="logic" use="optional" type="xsd:string"/>
+    </xsd:complexType></xsd:element>
+  </xsd:sequence>
+  <xsd:attribute name="value" use="optional" type="xsd:string"/>
+</xsd:complexType></xsd:element>
+  
+<xsd:element name="LEX"><xsd:complexType>
+  <xsd:attribute name="value" use="required" type="xsd:string"/>
+</xsd:complexType></xsd:element>
+
 <xsd:element name="SYNTAX"><xsd:complexType>
   <xsd:sequence>
     <xsd:choice minOccurs="0" maxOccurs="unbounded">
-      <xsd:element name="NP"><xsd:complexType>
-        <xsd:choice>
-          <xsd:element ref="SELRESTRS"/>
-          <xsd:element ref="SYNRESTRS"/>
-        </xsd:choice>
-        <xsd:attribute name="value" use="required" type="xsd:string"/>
-      </xsd:complexType></xsd:element>
+      <xsd:element ref="NP"/>
       <xsd:element name="ADV"/>
       <xsd:element name="ADJ"/>
-      <xsd:element name="PREP"><xsd:complexType>
-        <xsd:sequence>
-          <xsd:element name="SELRESTRS"><xsd:complexType>
-            <xsd:choice minOccurs="0" maxOccurs="unbounded">
-              <xsd:element name="SELRESTR"><xsd:complexType>
-                <xsd:attribute name="Value" use="required" type="selrestrValueType"/>
-                <xsd:attribute name="type" use="required" type="preprestrType"/>
-              </xsd:complexType></xsd:element>
-              <xsd:element ref="SELRESTRS"/> 
-            </xsd:choice>  
-            <xsd:attribute name="logic" use="optional" type="xsd:string"/>
-          </xsd:complexType></xsd:element> 
-        </xsd:sequence>
-        <xsd:attribute name="value" use="optional" type="xsd:string"/>
-      </xsd:complexType></xsd:element>
-      <xsd:element name="LEX"><xsd:complexType>
-        <xsd:attribute name="value" use="required" type="xsd:string"/>
-      </xsd:complexType></xsd:element>
+      <xsd:element ref="PREP"/>
+      <xsd:element ref="LEX"/>
     </xsd:choice>
     <xsd:element name="VERB"/>
     <xsd:choice minOccurs="0" maxOccurs="unbounded">
-      <xsd:element name="NP"><xsd:complexType>
-        <xsd:choice>
-          <xsd:element ref="SELRESTRS"/>
-          <xsd:element ref="SYNRESTRS"/>
-        </xsd:choice>
-        <xsd:attribute name="value" use="required" type="npType"/>
-      </xsd:complexType></xsd:element>
+      <xsd:element ref="NP"/>
       <xsd:element name="ADV"/>
       <xsd:element name="ADJ"/>
-      <xsd:element name="PREP"><xsd:complexType>
-        <xsd:sequence>
-          <xsd:element name="SELRESTRS"><xsd:complexType>
-            <xsd:choice minOccurs="0" maxOccurs="unbounded">
-              <xsd:element name="SELRESTR"><xsd:complexType>
-                <xsd:attribute name="Value" use="required" type="selrestrValueType"/>
-                <xsd:attribute name="type" use="required" type="preprestrType"/>
-              </xsd:complexType></xsd:element>
-              <xsd:element ref="SELRESTRS"/> 
-            </xsd:choice>  
-            <xsd:attribute name="logic" use="optional" type="xsd:string"/>
-          </xsd:complexType></xsd:element>          
-        </xsd:sequence>
-        <xsd:attribute name="value" use="optional" type="xsd:string"/>
-      </xsd:complexType></xsd:element>
-      <xsd:element name="LEX"><xsd:complexType>
-        <xsd:attribute name="value" use="required" type="xsd:string"/>
-      </xsd:complexType></xsd:element>
+      <xsd:element ref="PREP"/>
+      <xsd:element ref="LEX"/>
     </xsd:choice>
   </xsd:sequence>  
 </xsd:complexType></xsd:element>

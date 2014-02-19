@@ -57,7 +57,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PPpath-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PP; path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Jackie chased the thief down the street.</EXAMPLE>
             </EXAMPLES>
@@ -108,7 +108,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PPafter-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; after-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Jackie chased after the thief.</EXAMPLE>
             </EXAMPLES>

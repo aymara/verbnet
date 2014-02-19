@@ -2,18 +2,19 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="substance_emission-43.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <MEMBER name="bead" wn="bead%2:42:00" grouping="bead.01"/>
         <MEMBER name="belch" wn="belch%2:29:00 belch%2:30:00" grouping=""/>
-        <MEMBER name="bleed" wn="bleed%2:29:00 bleed%2:29:01 bleed%2:38:00 bleed%2:30:00" grouping="bleed.01 bleed.03 bleed.05 bleed.06"/>
-        <MEMBER name="bubble" wn="bubble%2:30:00 bubble%2:29:00" grouping=""/>
-        <MEMBER name="dribble" wn="dribble%2:35:10 dribble%2:29:00" grouping=""/>
+        <MEMBER name="bubble" wn="bubble%2:30:00 bubble%2:29:00" grouping="bubble.02"/>
+        <MEMBER name="dribble" wn="dribble%2:35:10 dribble%2:29:00" grouping="dribble.04"/>
         <MEMBER name="drip" wn="drip%2:38:00 drip%2:35:10" grouping="drip.01"/>
         <MEMBER name="drool" wn="drool%2:29:00" grouping="drool.01"/>
         <MEMBER name="emanate" wn="emanate%2:30:00 emanate%2:29:00" grouping=""/>
+        <MEMBER name="exrete" wn="excrete%2:29:00" grouping=""/>
         <MEMBER name="exude" wn="exude%2:29:00" grouping=""/>
         <MEMBER name="foam" wn="" grouping=""/>
-        <MEMBER name="gush" wn="gush%2:38:00 gush%2:35:00" grouping=""/>
+        <MEMBER name="gush" wn="gush%2:38:00 gush%2:35:00" grouping="gush.01"/>
         <MEMBER name="jet" wn="" grouping=""/>
-        <MEMBER name="leak" wn="leak%2:30:04" grouping="leak.02"/>
+        <MEMBER name="leak" wn="leak%2:30:04" grouping="leak.01 leak.02"/>
         <MEMBER name="ooze" wn="ooze%2:38:00 ooze%2:29:00" grouping=""/>
         <MEMBER name="percolate" wn="" grouping=""/>
         <MEMBER name="pour" wn="pour%2:38:03 pour%2:38:04 pour%2:38:02" grouping="pour.01 pour.02"/>
@@ -38,9 +39,6 @@
             <SELRESTRS>
                 <SELRESTR Value="-" type="animate"/>
             </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Agent">
-            <SELRESTRS/>
         </THEMROLE>
         <THEMROLE type="Location">
             <SELRESTRS/>
@@ -96,38 +94,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP.source" secondary="NPCausative variant" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>I bled him.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Source">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="emit">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Source"/>
-                        <ARG type="ThemRole" value="?Theme"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-            <!--some verbs-->
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.3" primary="NP.theme V PP.source" secondary="PPSubstance Subject, Source-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.3" primary="NP.theme V PP.source" secondary="PP; Substance Subject, Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Oil gushed from the well.</EXAMPLE>
             </EXAMPLES>
@@ -154,7 +121,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.location" secondary="NP-PPLocation-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.location" secondary="NP-PP; Location-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Water gushed through the streets.</EXAMPLE>
             </EXAMPLES>
@@ -190,7 +157,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="NP.location V PP.theme" secondary="PPLocation Subject, with-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="NP.location V PP.theme" secondary="PP; Location Subject, with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The streets gushed with water.</EXAMPLE>
             </EXAMPLES>
@@ -262,7 +229,7 @@
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="There V NP PP" secondary="NP-PPExpletive-there Subject" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="There V NP PP" secondary="NP-PP; Expletive-there Subject" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>There bubbled a fragant stew over the fire.</EXAMPLE>
             </EXAMPLES>
@@ -326,7 +293,7 @@
                 <EXAMPLE>The bill shed 50 pages of pork-barrel addons.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Agent">
+                <NP value="Source">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -338,8 +305,44 @@
                 <PRED value="emit">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Source"/>
                         <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+       <VNSUBCLASS ID="substance_emission-43.4-1">
+           <MEMBERS>
+              <MEMBER name="bleed" wn="bleed%2:29:00 bleed%2:29:01 bleed%2:38:00 bleed%2:30:00" grouping="bleed.01 bleed.03 bleed.05 bleed.06"/>
+           </MEMBERS>
+           <THEMROLES>
+             <THEMROLE type="Agent">
+                <SELRESTRS/>
+        </THEMROLE>
+           </THEMROLES>
+           <FRAMES>
+           <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP.source" secondary="NP; Causative variant" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>I bled him.</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -349,7 +352,10 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs-->
         </FRAME>
-    </FRAMES>
-    <SUBCLASSES/>
+        </FRAMES>
+        <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
 </VNCLASS>

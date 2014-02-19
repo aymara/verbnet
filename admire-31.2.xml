@@ -6,10 +6,11 @@
         <MEMBER name="adore" wn="adore%2:37:00" grouping=""/>
         <MEMBER name="appreciate" wn="appreciate%2:37:00 appreciate%2:40:00" grouping="appreciate.02"/>
         <MEMBER name="applaud" wn="" grouping=""/>
-        <MEMBER name="bear" wn="" grouping=""/>
+        <MEMBER name="bear" wn="" grouping="bear.05"/>
         <MEMBER name="bewail" wn="" grouping=""/>
         <MEMBER name="cherish" wn="cherish%2:37:00" grouping=""/>
         <MEMBER name="deify" wn="" grouping=""/>
+        <MEMBER name="detest" wn="detest%2:37:00" grouping=""/>
         <MEMBER name="disbelieve" wn="" grouping=""/>
         <MEMBER name="esteem" wn="esteem%2:31:01" grouping=""/>
         <MEMBER name="exalt" wn="exalt%2:32:00" grouping="exalt.01"/>
@@ -18,15 +19,16 @@
         <MEMBER name="grudge" wn="" grouping=""/>
         <MEMBER name="idolize" wn="idolize%2:37:00" grouping=""/>
         <MEMBER name="miss" wn="miss%2:37:00" grouping="miss.04"/>
+        <MEMBER name="mistrust" wn="mistrust%2:31:00" grouping=""/>
         <MEMBER name="prefer" wn="" grouping=""/>
         <MEMBER name="affirm" wn="" grouping=""/>
-        <MEMBER name="reaffirm" wn="" grouping=""/>
-        <MEMBER name="prize" wn="prize%2:40:00 prize%2:31:00" grouping=""/>
+        <MEMBER name="reaffirm" wn="" grouping="reaffirm.01"/>
+        <MEMBER name="prize" wn="prize%2:40:00 prize%2:31:00" grouping="prize.01"/>
         <MEMBER name="respect" wn="respect%2:31:00" grouping="respect.01"/>
         <MEMBER name="relish" wn="relish%2:37:00" grouping=""/>
         <MEMBER name="revere" wn="revere%2:37:01 revere%2:37:00" grouping=""/>
         <MEMBER name="savor" wn="savor%2:37:00" grouping="savor.01"/>
-        <MEMBER name="stand" wn="stand%2:31:00" grouping="stand.02"/>
+        <MEMBER name="stand" wn="stand%2:31:00" grouping="stand.04"/>
         <MEMBER name="support" wn="support%2:41:00 support%2:41:01 support%2:31:04" grouping="support.01 support.02"/>
         <MEMBER name="tolerate" wn="tolerate%2:31:00" grouping="tolerate.01"/>
         <MEMBER name="treasure" wn="treasure%2:40:00 treasure%2:37:00" grouping=""/>
@@ -44,13 +46,13 @@
         <MEMBER name="loathe" wn="loathe%2:37:00" grouping=""/>
         <MEMBER name="mourn" wn="mourn%2:37:00" grouping="mourn.01"/>
         <MEMBER name="pity" wn="pity%2:37:00" grouping=""/>
-        <MEMBER name="resent" wn="resent%2:37:01" grouping="resent.02"/>
+        <MEMBER name="resent" wn="resent%2:37:01" grouping="resent.01"/>
         <MEMBER name="rue" wn="rue%2:37:00" grouping=""/>
         <MEMBER name="believe" wn="believe%2:31:04" grouping="believe.01"/>
         <MEMBER name="suffer" wn="suffer%2:37:00 suffer%2:29:00 suffer%2:29:03" grouping="suffer.01"/>
     </MEMBERS>
     <THEMROLES>
-        <THEMROLE type="Theme">
+        <THEMROLE type="Stimulus">
             <SELRESTRS/>
         </THEMROLE>
         <THEMROLE type="Experiencer">
@@ -58,7 +60,7 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Predicate">
+        <THEMROLE type="Attribute">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -73,7 +75,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme">
+                <NP value="Stimulus">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -88,13 +90,13 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.1" primary="NP V NP PP.predicate" secondary="NP-PPPossessor Object, Predicate-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.1" primary="NP V NP PP.attribute" secondary="NP-PP; Possessor Object, Attribute-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I admired him for his honesty.</EXAMPLE>
             </EXAMPLES>
@@ -103,13 +105,13 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme">
+                <NP value="Stimulus">
                     <SELRESTRS/>
                 </NP>
                 <PREP value="for">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -124,13 +126,13 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Stimulus, Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.2" primary="NP V NP PP.theme" secondary="NP-PPPredicate Object, Possessor-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.2" primary="NP V NP.stimulus" secondary="NP-PP; Attribute Object, Possessor-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I admired the honesty in him.</EXAMPLE>
             </EXAMPLES>
@@ -139,14 +141,8 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Predicate">
+                <NP value="Stimulus">
                     <SYNRESTRS/>
-                </NP>
-                <PREP value="in">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Theme">
-                    <SELRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -160,7 +156,7 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -175,7 +171,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
@@ -192,7 +188,7 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -208,7 +204,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="be_sc_ing"/>
                     </SYNRESTRS>
@@ -225,7 +221,7 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -240,7 +236,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme">
+                <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="poss_ing"/>
                     </SYNRESTRS>
@@ -257,7 +253,7 @@
                 <PRED value="in_reaction_to">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -267,7 +263,6 @@
         <VNSUBCLASS ID="admire-31.2-1">
             <MEMBERS>
                 <MEMBER name="despise" wn="despise%2:37:00" grouping=""/>
-                <MEMBER name="detest" wn="detest%2:37:00" grouping=""/>
                 <MEMBER name="disdain" wn="disdain%2:37:00" grouping=""/>
                 <MEMBER name="dislike" wn="dislike%2:37:00" grouping=""/>
                 <MEMBER name="regret" wn="regret%2:37:00 regret%2:37:01 regret%2:32:00 regret%2:32:02" grouping="regret.01 regret.02"/>
@@ -289,7 +284,7 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Theme">
+                        <NP value="Stimulus">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="sc_to_inf"/>
                             </SYNRESTRS>
@@ -306,7 +301,7 @@
                         <PRED value="in_reaction_to">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

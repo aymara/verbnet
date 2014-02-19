@@ -20,14 +20,17 @@
         <MEMBER name="pearl" wn="pearl%2:35:00" grouping=""/>
         <MEMBER name="prawn" wn="prawn%2:35:00" grouping=""/>
         <MEMBER name="rabbit" wn="rabbit%2:33:00" grouping=""/>
+        <MEMBER name="scollop" wn="scollop%2:33:00" grouping="scollop.02"/>
         <MEMBER name="seal" wn="seal%2:33:00" grouping="seal.04"/>
         <MEMBER name="shark" wn="shark%2:33:00" grouping=""/>
         <MEMBER name="shrimp" wn="shrimp%2:33:00" grouping=""/>
         <MEMBER name="snail" wn="snail%2:35:00" grouping=""/>
-        <MEMBER name="snipe" wn="snipe%2:33:01" grouping=""/>
+        <MEMBER name="snipe" wn="snipe%2:33:01" grouping="snipe.01"/>
         <MEMBER name="sponge" wn="sponge%2:35:03" grouping=""/>
         <MEMBER name="whale" wn="whale%2:33:00" grouping=""/>
         <MEMBER name="whelk" wn="whelk%2:33:00" grouping=""/>
+        <MEMBER name="whore" wn="whore%2:35:00" grouping="whore.02"/>
+        <MEMBER name="hawk" wn="hawk%2:33:00" grouping="hawk.02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

@@ -52,10 +52,11 @@
                 <VNSUBCLASS ID="neglect-75-1-1">
                     <MEMBERS>
                         <MEMBER name="neglect" wn="neglect%2:31:00 neglect%2:31:05 neglect%2:31:01" grouping="neglect.01 neglect.02"/>
-                        <MEMBER name="fail" wn="fail%2:41:02 fail%2:37:00 " grouping="fail.01 fail.03"/>
+                        <MEMBER name="fail" wn="fail%2:41:02 fail%2:37:00" grouping="fail.03"/>
                         <MEMBER name="forego" wn="" grouping=""/>
-                        <MEMBER name="forgo" wn="" grouping=""/>
+                        <MEMBER name="forgo" wn="" grouping="forgo.01"/>
                         <MEMBER name="flub" wn="" grouping=""/>
+                        <MEMBER name="overleap" wn="overleap%2:31:00" grouping="overleap.03"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>

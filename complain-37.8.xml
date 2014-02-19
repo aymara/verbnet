@@ -3,10 +3,11 @@
 <VNCLASS ID="complain-37.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--verbs add a manner predicate describing the tone of the communication-->
-        <MEMBER name="bellyache" wn="" grouping=""/>
-        <MEMBER name="bitch" wn="" grouping=""/>
+        <MEMBER name="bellyache" wn="bellyache%2:32:00" grouping=""/>
+        <MEMBER name="bitch" wn="bitch%2:32:01" grouping=""/>
         <MEMBER name="boast" wn="boast%2:32:00" grouping="boast.01"/>
         <MEMBER name="brag" wn="brag%2:32:00" grouping=""/>
+        <MEMBER name="caterwaul" wn="caterwaul%2:32:00" grouping=""/>
         <MEMBER name="complain" wn="complain%2:32:00" grouping="complain.01"/>
         <MEMBER name="crab" wn="crab%2:32:00" grouping=""/>
         <MEMBER name="gripe" wn="gripe%2:32:00" grouping=""/>
@@ -16,7 +17,7 @@
         <MEMBER name="kvetch" wn="kvetch%2:32:00" grouping=""/>
         <MEMBER name="moan" wn="" grouping=""/>
         <MEMBER name="object" wn="object%2:32:00" grouping="object.01"/>
-        <MEMBER name="whine" wn="" grouping=""/>
+        <MEMBER name="whine" wn="whine%2:32:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -67,7 +68,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.recipient" secondary="PPRecipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.recipient" secondary="PP; Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Susan complained to Rachel.</EXAMPLE>
             </EXAMPLES>
@@ -134,7 +135,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="NP V PP.recipient that S" secondary="PP-SRecipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="NP V PP.recipient that S" secondary="PP-S; Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Susan complained to Rachel that the party would be tonight.</EXAMPLE>
             </EXAMPLES>
@@ -173,7 +174,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.topic" secondary="PPTopic-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.topic" secondary="PP; Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen complained about the situation.</EXAMPLE>
             </EXAMPLES>
@@ -207,7 +208,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.topic PP.recipient" secondary="PP-PPTopic-PP Recipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V PP.topic PP.recipient" secondary="PP-PP; Topic-PP Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen complained about the situation to Helen.</EXAMPLE>
             </EXAMPLES>
@@ -280,7 +281,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.3" primary="NP V PP.recipeient S-Quote" secondary="PP-QUOTRecipient-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.3" primary="NP V PP.recipient S-Quote" secondary="PP-QUOT; Recipient-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Ellen complained to Helen, 'The mail didn't come today.'</EXAMPLE>
             </EXAMPLES>
@@ -319,7 +320,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V PP.recipient PP.topic" secondary="PP-PPRecipient-PP Topic-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.recipient PP.topic" secondary="PP-PP; Recipient-PP Topic-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The prime minister complained to the former president about U.S. interference in his country's affairs.</EXAMPLE>
             </EXAMPLES>

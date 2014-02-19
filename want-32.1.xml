@@ -4,19 +4,16 @@
     <MEMBERS>
         <MEMBER name="covet" wn="covet%2:37:00" grouping=""/>
         <MEMBER name="crave" wn="crave%2:34:00" grouping="crave.01"/>
-        <MEMBER name="desire" wn="" grouping=""/>
+        <MEMBER name="desire" wn="" grouping="desire.01 desire.02"/>
         <MEMBER name="fancy" wn="fancy%2:37:00" grouping=""/>
     </MEMBERS>
     <THEMROLES>
-        <THEMROLE type="Experiencer">
+        <THEMROLE type="Pivot">
             <SELRESTRS>
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Theme">
-            <SELRESTRS/>
-        </THEMROLE>
-        <THEMROLE type="Attribute">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -27,7 +24,7 @@
                 <EXAMPLE>Dorothy needs new shoes.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Experiencer">
+                <NP value="Pivot">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -39,37 +36,7 @@
                 <PRED value="desire">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.1" primary="NP V NP PP.attribute" secondary="NP-PPPossessor Object, Attribute-PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>Dorothy needs her for her skills.</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Experiencer">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Theme">
-                    <SYNRESTRS/>
-                </NP>
-                <PREP value="for">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Attribute">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="desire">
-                    <ARGS>
-                        <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Pivot"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
@@ -79,8 +46,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="want-32.1-1">
             <MEMBERS>
-                <MEMBER name="enjoy" wn="" grouping=""/>
-                <MEMBER name="crave" wn="" grouping=""/>
+                <MEMBER name="enjoy" wn="" grouping="enjoy.02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -90,7 +56,7 @@
                         <EXAMPLE>I need for her to be happy.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Experiencer">
+                        <NP value="Pivot">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
@@ -104,7 +70,7 @@
                         <PRED value="desire">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Pivot"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
@@ -116,7 +82,7 @@
                         <EXAMPLE>I need exercising.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Experiencer">
+                        <NP value="Pivot">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
@@ -130,7 +96,7 @@
                         <PRED value="desire">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Pivot"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
@@ -142,7 +108,7 @@
                         <EXAMPLE>She wanted the meat red.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Experiencer">
+                        <NP value="Pivot">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
@@ -155,7 +121,7 @@
                         <PRED value="desire">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Pivot"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
@@ -167,7 +133,7 @@
                         <EXAMPLE>I needed him here.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Experiencer">
+                        <NP value="Pivot">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
@@ -179,7 +145,7 @@
                         <PRED value="desire">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Pivot"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
@@ -191,7 +157,7 @@
                         <EXAMPLE>I need him cooking.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Experiencer">
+                        <NP value="Pivot">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
@@ -205,7 +171,7 @@
                         <PRED value="desire">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Pivot"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
@@ -217,7 +183,7 @@
                         <EXAMPLE>I need the children found.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Experiencer">
+                        <NP value="Pivot">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
@@ -231,7 +197,7 @@
                         <PRED value="desire">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Pivot"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
@@ -243,7 +209,7 @@
                         <EXAMPLE>I needed his cooking.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Experiencer">
+                        <NP value="Pivot">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
@@ -257,7 +223,7 @@
                         <PRED value="desire">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Pivot"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
@@ -269,7 +235,7 @@
                         <EXAMPLE>I needed to come.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Experiencer">
+                        <NP value="Pivot">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
@@ -283,7 +249,7 @@
                         <PRED value="desire">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Pivot"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
@@ -307,7 +273,7 @@
                                 <EXAMPLE>I needed him to go.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
-                                <NP value="Experiencer">
+                                <NP value="Pivot">
                                     <SYNRESTRS/>
                                 </NP>
                                 <VERB/>
@@ -321,7 +287,7 @@
                                 <PRED value="desire">
                                     <ARGS>
                                         <ARG type="Event" value="E"/>
-                                        <ARG type="ThemRole" value="Experiencer"/>
+                                        <ARG type="ThemRole" value="Pivot"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                     </ARGS>
                                 </PRED>
@@ -333,7 +299,7 @@
                                 <EXAMPLE>I need him to be nice.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
-                                <NP value="Experiencer">
+                                <NP value="Pivot">
                                     <SYNRESTRS/>
                                 </NP>
                                 <VERB/>
@@ -347,7 +313,7 @@
                                 <PRED value="desire">
                                     <ARGS>
                                         <ARG type="Event" value="E"/>
-                                        <ARG type="ThemRole" value="Experiencer"/>
+                                        <ARG type="ThemRole" value="Pivot"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                     </ARGS>
                                 </PRED>

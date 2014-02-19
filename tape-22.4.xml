@@ -2,19 +2,25 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="tape-22.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <MEMBER name="affix" wn="affix%2:35:00 affix%2:35:01 affix%2:35:02" grouping=""/>
         <MEMBER name="anchor" wn="anchor%2:35:01" grouping=""/>
         <MEMBER name="band" wn="band%2:35:00" grouping=""/>
-        <MEMBER name="belt" wn="belt%2:35:01" grouping=""/>
+        <MEMBER name="belt" wn="belt%2:35:01" grouping="belt.03"/>
+        <MEMBER name="bond" wn="bond%2:35:00" grouping="bond.01"/>
         <MEMBER name="bolt" wn="bolt%2:35:00" grouping="bolt.02"/>
         <MEMBER name="bracket" wn="?bracket%2:35:00" grouping=""/>
         <MEMBER name="buckle" wn="buckle%2:35:00" grouping="buckle.01"/>
         <MEMBER name="button" wn="button%2:35:00" grouping=""/>
-        <MEMBER name="cement" wn="cement%2:35:00" grouping=""/>
+        <MEMBER name="cable" wn="cable%2:35:00" grouping=""/>
+        <MEMBER name="cement" wn="cement%2:35:00" grouping="cement.01"/>
         <MEMBER name="chain" wn="chain%2:35:00" grouping="chain.02"/>
         <MEMBER name="cinch" wn="cinch%2:35:00" grouping=""/>
+        <MEMBER name="connect" wn="connect%2:35:00" grouping="connect.01"/> 
         <MEMBER name="epoxy" wn="epoxy%2:35:00" grouping=""/>
+        <MEMBER name="fasten" wn="fasten%2:35:00 fasten%2:35:01" grouping="fasten.01"/>
         <MEMBER name="fetter" wn="fetter%2:35:00" grouping=""/>
         <MEMBER name="glue" wn="glue%2:35:00" grouping="glue.01"/>
+        <MEMBER name="gum" wn="gum%2:35:00" grouping="gum.01"/>
         <MEMBER name="handcuff" wn="handcuff%2:35:00" grouping=""/>
         <MEMBER name="harness" wn="harness%2:35:00" grouping="harness.01"/>
         <MEMBER name="hinge" wn="hinge%2:35:00" grouping=""/>
@@ -34,6 +40,7 @@
         <MEMBER name="muzzle" wn="muzzle%2:40:00 muzzle%2:39:00" grouping=""/>
         <MEMBER name="nail" wn="nail%2:35:00" grouping="nail.01"/>
         <MEMBER name="padlock" wn="padlock%2:35:00" grouping=""/>
+        <MEMBER name="paste" wn="paste%2:35:00" grouping="paste.01"/> 
         <MEMBER name="peg" wn="peg%2:35:00" grouping="peg.03"/>
         <MEMBER name="pin" wn="pin%2:35:01" grouping="pin.01"/>
         <MEMBER name="plaster" wn="plaster%2:35:10" grouping=""/>
@@ -48,20 +55,22 @@
         <MEMBER name="stitch" wn="stitch%2:35:00" grouping=""/>
         <MEMBER name="strap" wn="strap%2:35:00" grouping="strap.01"/>
         <MEMBER name="string" wn="string%2:35:04" grouping="string.03"/>
-        <MEMBER name="tack" wn="tack%2:35:00" grouping="tack.01"/>
+        <MEMBER name="suture" wn="suture%2:35:00" grouping=""/> 
+        <MEMBER name="tack" wn="tack%2:35:00" grouping="tack.01 tack.02"/>
         <MEMBER name="tape" wn="tape%2:35:00" grouping="tape.01"/>
         <MEMBER name="tether" wn="tether%2:35:00" grouping=""/>
-        <MEMBER name="thread" wn="" grouping=""/>
+        <MEMBER name="thread" wn="" grouping="thread.01"/>
         <MEMBER name="thumbtack" wn="thumbtack%2:35:00" grouping=""/>
         <MEMBER name="tie" wn="tie%2:35:00 tie%2:35:01" grouping="tie.01"/>
         <MEMBER name="trammel" wn="" grouping=""/>
         <MEMBER name="truss" wn="truss%2:35:02" grouping=""/>
+        <MEMBER name="weld" wn="weld%2:35:00" grouping="weld.01"/>
         <MEMBER name="wire" wn="wire%2:35:00" grouping="wire.02"/>
         <MEMBER name="yoke" wn="yoke%2:35:01 yoke%2:35:00" grouping=""/>
         <MEMBER name="zip" wn="zip%2:35:00" grouping="zip.01"/>
     </MEMBERS>
     <THEMROLES>
-        <!--Patient1 is interpreted as Figure, Patient2 as Ground-->
+        <!--Patient is interpreted as Figure, Co-Patient as Ground-->
         <!--Each verb specifies an Instrument-->
         <THEMROLE type="Agent">
             <SELRESTRS logic="or">
@@ -74,12 +83,7 @@
                 <SELRESTR Value="+" type="solid"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Patient1">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="solid"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Patient2">
+        <THEMROLE type="Co-Patient">
             <SELRESTRS>
                 <SELRESTR Value="+" type="solid"/>
             </SELRESTRS>
@@ -91,6 +95,9 @@
             </SELRESTRS>
         </THEMROLE>
         <!--Instrument is realized in the verb-->
+        <THEMROLE type="Result">
+            <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -124,7 +131,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.patient2" secondary="NP-PPlocative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.co-patient" secondary="NP-PP; locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Linda taped the picture to the wall.</EXAMPLE>
             </EXAMPLES>
@@ -133,13 +140,13 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Patient1">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="to on onto">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Patient2">
+                <NP value="Co-Patient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -154,21 +161,21 @@
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="Constant" value="physical"/>
-                        <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="Patient2"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Co-Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="attached">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient1"/>
+                        <ARG type="ThemRole" value="Patient"/>
                         <ARG type="VerbSpecific" value="Instrument"/>
                     </ARGS>
                 </PRED>
                 <PRED value="attached">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Patient2"/>
+                        <ARG type="ThemRole" value="Co-Patient"/>
                         <ARG type="VerbSpecific" value="Instrument"/>
                     </ARGS>
                 </PRED>
@@ -228,7 +235,7 @@
                 <EXAMPLE>Labels tape easily to that kind of cover.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Patient1">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -236,14 +243,14 @@
                 <PREP value="to on onto">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Patient2">
+                <NP value="Co-Patient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="property">
                     <ARGS>
-                        <ARG type="ThemRole" value="Patient1+Patient2"/>
+                        <ARG type="ThemRole" value="Patient+Co-Patient"/>
                         <ARG type="VerbSpecific" value="Prop"/>
                     </ARGS>
                 </PRED>
@@ -341,7 +348,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJPResultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Linda taped the box shut.</EXAMPLE>
             </EXAMPLES>
@@ -353,7 +360,9 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                <ADJ/>
+                <NP value="Result">
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="cause">
@@ -383,26 +392,27 @@
             <MEMBERS>
                 <MEMBER name="clamp" wn="clamp%2:35:00" grouping="clamp.01"/>
                 <MEMBER name="clip" wn="clip%2:35:01" grouping="clip.03"/>
-                <MEMBER name="clasp" wn="clasp%2:35:03 clasp%2:35:02" grouping=""/>
-                <MEMBER name="gum" wn="" grouping=""/>
+                <MEMBER name="clasp" wn="clasp%2:35:03 clasp%2:35:02" grouping="clasp.02"/>
+                <MEMBER name="gum" wn="" grouping="gum.01"/>
                 <MEMBER name="paste" wn="paste%2:35:01" grouping="paste.01"/>
+                <MEMBER name="reeve" wn="reeve%2:38:01 reeve%2:38:00 reeve%2:35:00" grouping="reeve.01 reeve.02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V PP.patient2" secondary="PPlocative-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.co-patient" secondary="PP; locative-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>It clamped on his ankle.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Patient1">
+                        <NP value="Patient">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
                         <PREP value="to on onto">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Patient2">
+                        <NP value="Co-Patient">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -411,14 +421,14 @@
                             <ARGS>
                                 <ARG type="Event" value="end(E)"/>
                                 <ARG type="Constant" value="physical"/>
-                                <ARG type="ThemRole" value="Patient1"/>
-                                <ARG type="ThemRole" value="Patient2"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Co-Patient"/>
                             </ARGS>
                         </PRED>
                         <PRED value="attached">
                             <ARGS>
                                 <ARG type="Event" value="end(E)"/>
-                                <ARG type="ThemRole" value="Patient1"/>
+                                <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="VerbSpecific" value="Instrument"/>
                             </ARGS>
                         </PRED>

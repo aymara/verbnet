@@ -16,7 +16,7 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Source">
+        <THEMROLE type="Initial_Location">
             <SELRESTRS>
                 <SELRESTR Value="+" type="location"/>
             </SELRESTRS>
@@ -29,6 +29,9 @@
                     <SELRESTR Value="-" type="region"/>
                 </SELRESTRS>
             </SELRESTRS>
+        </THEMROLE>
+          <THEMROLE type="Trajectory">
+            <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
@@ -53,7 +56,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.source" secondary="PPpath-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.initial_location" secondary="PP; path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The books slid from the table.</EXAMPLE>
             </EXAMPLES>
@@ -68,7 +71,7 @@
                         <SELRESTR Value="-" type="dest_dir"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Source">
+                <NP value="Initial_Location">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -83,13 +86,13 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.destination" secondary="PPpath-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.destination" secondary="PP; path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The books slid to the floor.</EXAMPLE>
             </EXAMPLES>
@@ -122,7 +125,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.source PP.destination" secondary="PPpath-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.initial_location PP.destination" secondary="PP; path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The books slid from the table to the floor.</EXAMPLE>
             </EXAMPLES>
@@ -136,7 +139,7 @@
                         <SELRESTR Value="+" type="src"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Source">
+                <NP value="Initial_Location">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="to">
@@ -157,7 +160,7 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="location">
@@ -170,7 +173,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP.agent V NP" secondary="Basic TransitiveCausative" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP.agent V NP" secondary="Basic Transitive; Causative" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>Carla slid the books.</EXAMPLE>
             </EXAMPLES>
@@ -199,7 +202,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source" secondary="NP-PPpath-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location" secondary="NP-PP; path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carla slid the books across the table.</EXAMPLE>
             </EXAMPLES>
@@ -217,9 +220,9 @@
                         <SELRESTR Value="-" type="dest_dir"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Source">
-                    <SYNRESTRS/>
-                </NP>
+                 <NP value="Trajectory">
+                                    <SELRESTRS/>
+                 </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="motion">
@@ -232,7 +235,7 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -244,7 +247,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PPpath-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carla slid the books to the floor.</EXAMPLE>
             </EXAMPLES>
@@ -286,8 +289,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.source
-            PP.destination" secondary="NP-PPpath-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.initial_location PP.destination" secondary="NP-PP; path-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Carla slid the books from one end of the table to the other.</EXAMPLE>
             </EXAMPLES>
@@ -304,7 +306,7 @@
                         <SELRESTR Value="+" type="src"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Source">
+                <NP value="Initial_Location">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="to">
@@ -325,7 +327,7 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="location">
@@ -347,7 +349,8 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="slide-11.2-1">
             <MEMBERS>
-                <MEMBER name="bounce" wn="bounce%2:38:00 bounce%2:35:03 ?bounce%2:38:02 bounce%2:38:01" grouping="bounce.01 bounce.03"/>
+                <MEMBER name="bounce" wn="bounce%2:38:00 bounce%2:35:03 ?bounce%2:38:02 bounce%2:38:01" grouping="bounce.01 bounce.06"/>
+                <MEMBER name="dart" wn="dart%2:38:02" grouping="dart.02"/>
                 <MEMBER name="float" wn="float%2:38:00 float%2:38:01 float%2:38:02 float%2:35:04" grouping="float.01"/>
                 <MEMBER name="roll" wn="roll%2:38:00" grouping="roll.01"/>
                 <MEMBER name="slide" wn="slide%2:38:01 slide%2:38:00 slide%2:38:02" grouping="slide.01 slide.02"/>
@@ -361,8 +364,7 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.1" primary="NP V
-                    NP-dative NP" secondary="Dative" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.1" primary="NP V NP-dative NP" secondary="Dative" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Carla slid John the books.</EXAMPLE>
                     </EXAMPLES>

@@ -3,7 +3,9 @@
 <VNCLASS ID="exchange-13.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="barter" wn="barter%2:40:00" grouping=""/>
-        <MEMBER name="replace" wn="replace%2:30:00 replace%2:40:00" grouping="replace.01 replace.02"/>
+        <MEMBER name="forgo" wn="forgo%2:41:00" grouping="forgo.01"/>
+        <MEMBER name="jilt" wn="" grouping=""/>
+        <MEMBER name="replace" wn="replace%2:30:00 replace%2:40:00" grouping="replace.01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -12,16 +14,13 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Theme1">
-            <SELRESTRS/>
-        </THEMROLE>
-        <THEMROLE type="Theme2">
-            <SELRESTRS/>
-        </THEMROLE>
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Recipient">
+        <THEMROLE type="Co-Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Co-Agent">
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
@@ -30,7 +29,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.theme2" secondary="NP-PPfor-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.co-theme" secondary="NP-PP; for-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Gwen exchanged the dress for a shirt.</EXAMPLE>
             </EXAMPLES>
@@ -39,13 +38,13 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Theme1">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="for">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Theme2">
+                <NP value="Co-Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -54,40 +53,40 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_possession">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Co-Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_possession">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Co-Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_possession">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="transfer">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="transfer">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Co-Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
@@ -166,7 +165,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V PP.theme" secondary="NP-PPlocative-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V PP.theme" secondary="NP-PP; locative-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He swapped between the two.</EXAMPLE>
             </EXAMPLES>
@@ -222,7 +221,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.recipient" secondary="NP-PPwith-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.co-agent" secondary="NP-PP; with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Cathay is swapping equity stakes with the U.S. carrier.</EXAMPLE>
             </EXAMPLES>
@@ -239,7 +238,7 @@
                 <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Recipient">
+                <NP value="Co-Agent">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -254,14 +253,14 @@
                 <PRED value="has_possession">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                         <ARG type="ThemRole" value="Theme_i"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_possession">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Co-Agent"/>
                         <ARG type="ThemRole" value="Theme_j"/>
                     </ARGS>
                 </PRED>
@@ -334,12 +333,12 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.theme2" secondary="NP-PPwith-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP PP.co-theme" secondary="NP-PP; with-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>One bell can swap places with another.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Theme1">
+                        <NP value="Theme">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
@@ -349,7 +348,7 @@
                         <PREP value="with">
                             <SELRESTRS/>
                         </PREP>
-                        <NP value="Theme2">
+                        <NP value="Co-Theme">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -357,35 +356,35 @@
                         <PRED value="location">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
-                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="Location_i"/>
                             </ARGS>
                         </PRED>
                         <PRED value="location">
                             <ARGS>
                                 <ARG type="Event" value="end(E)"/>
-                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="Location_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="location">
                             <ARGS>
                                 <ARG type="Event" value="start(E)"/>
-                                <ARG type="ThemRole" value="Theme2"/>
+                                <ARG type="ThemRole" value="Co-Theme"/>
                                 <ARG type="ThemRole" value="Location_j"/>
                             </ARGS>
                         </PRED>
                         <PRED value="location">
                             <ARGS>
                                 <ARG type="Event" value="end(E)"/>
-                                <ARG type="ThemRole" value="Theme2"/>
+                                <ARG type="ThemRole" value="Co-Theme"/>
                                 <ARG type="ThemRole" value="Location_i"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP.location" secondary="TransitiveLocation Object" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V NP.location" secondary="Transitive; Location Object" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The bells traded places.</EXAMPLE>
                     </EXAMPLES>
@@ -441,19 +440,19 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="NP V PP.theme2" secondary="PPfor/into PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="" primary="NP V PP.co-theme" secondary="PP; for/into PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>They tend to substitute for more mundane things.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
-                                <NP value="Theme1">
+                                <NP value="Theme">
                                     <SYNRESTRS/>
                                 </NP>
                                 <VERB/>
                                 <PREP value="for into">
                                     <SELRESTRS/>
                                 </PREP>
-                                <NP value="Theme2">
+                                <NP value="Co-Theme">
                                     <SYNRESTRS/>
                                 </NP>
                             </SYNTAX>
@@ -461,13 +460,13 @@
                                 <PRED value="transfer">
                                     <ARGS>
                                         <ARG type="Event" value="during(E)"/>
-                                        <ARG type="ThemRole" value="Theme1"/>
+                                        <ARG type="ThemRole" value="Theme"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED value="transfer">
                                     <ARGS>
                                         <ARG type="Event" value="during(E)"/>
-                                        <ARG type="ThemRole" value="Theme2"/>
+                                        <ARG type="ThemRole" value="Co-Theme"/>
                                     </ARGS>
                                 </PRED>
                             </SEMANTICS>

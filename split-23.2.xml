@@ -2,7 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="split-23.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="blow" wn="blow%2:38:00 blow%2:38:03" grouping="blow.02"/>
+        <MEMBER name="blow" wn="blow%2:38:00 blow%2:38:03" grouping="blow.01"/>
         <MEMBER name="break" wn="break%2:35:05" grouping="break.01"/>
         <MEMBER name="cut" wn="cut%2:35:00 cut%2:35:11" grouping="cut.01"/>
         <MEMBER name="draw" wn="draw%2:38:01" grouping="draw.03"/>
@@ -18,6 +18,7 @@
         <MEMBER name="saw" wn="saw%2:35:00" grouping="saw.01"/>
         <MEMBER name="shove" wn="shove%2:38:01" grouping="shove.02"/>
         <MEMBER name="slip" wn="slip%2:38:05" grouping="slip.02"/>
+        <MEMBER name="sliver" wn="sliver%2:41:00 sliver%2:30:00 sliver%2:30:01" grouping="sliver.01"/>
         <MEMBER name="snap" wn="snap%2:35:01 snap%2:30:00" grouping="snap.01"/>
         <MEMBER name="split" wn="split%2:35:00 split%2:30:01" grouping="split.01 split.02"/>
         <MEMBER name="tear" wn="tear%2:35:01" grouping="tear.01"/>
@@ -35,12 +36,7 @@
                 <SELRESTR Value="+" type="solid"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Patient1">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="solid"/>
-            </SELRESTRS>
-        </THEMROLE>
-        <THEMROLE type="Patient2">
+        <THEMROLE type="Co-Patient">
             <SELRESTRS>
                 <SELRESTR Value="+" type="solid"/>
             </SELRESTRS>
@@ -48,7 +44,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.patient2" secondary="NP-PPSource-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.co-patient" secondary="NP-PP; Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I broke the twig off the branch.</EXAMPLE>
             </EXAMPLES>
@@ -57,13 +53,13 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Patient1">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="off off of from">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Patient2">
+                <NP value="Co-Patient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -78,16 +74,16 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="Constant" value="physical"/>
-                        <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="Patient2"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Co-Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="apart">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
                         <ARG type="Constant" value="physical"/>
-                        <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="Patient2"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Co-Patient"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -135,19 +131,19 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.patient2" secondary="PPSource-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.co-patient" secondary="PP; Source-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The twig broke off the branch.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Patient1">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <PREP value="off off of from">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Patient2">
+                <NP value="Co-Patient">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -156,16 +152,16 @@
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="Constant" value="physical"/>
-                        <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="Patient2"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Co-Patient"/>
                     </ARGS>
                 </PRED>
                 <PRED value="apart">
                     <ARGS>
                         <ARG type="Event" value="result(E)"/>
                         <ARG type="Constant" value="physical"/>
-                        <ARG type="ThemRole" value="Patient1"/>
-                        <ARG type="ThemRole" value="Patient2"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Co-Patient"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -209,14 +205,14 @@
                 <EXAMPLE>Twigs break off of those branches easily.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Patient1">
+                <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <PREP value="off off of from">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Patient2">
+                <NP value="Co-Patient">
                     <SYNRESTRS/>
                 </NP>
                 <ADV/>
@@ -224,7 +220,7 @@
             <SEMANTICS>
                 <PRED value="property">
                     <ARGS>
-                        <ARG type="ThemRole" value="Patient1+Patient2"/>
+                        <ARG type="ThemRole" value="Patient+Co-Patient"/>
                         <ARG type="VerbSpecific" value="Prop"/>
                     </ARGS>
                 </PRED>

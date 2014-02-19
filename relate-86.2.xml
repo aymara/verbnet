@@ -4,10 +4,10 @@
     <MEMBERS>
     </MEMBERS>
     <THEMROLES>
-        <THEMROLE type="Theme1">
+        <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Theme2">
+        <THEMROLE type="Co-Theme">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -29,11 +29,11 @@
                         <EXAMPLE>This concerns both of us.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Theme1">
+                        <NP value="Theme">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Theme2">
+                        <NP value="Co-Theme">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -41,8 +41,8 @@
                         <PRED value="relate">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Theme1"/>
-                                <ARG type="ThemRole" value="Theme2"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Co-Theme"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -59,19 +59,19 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme2" secondary="PPto-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.co-theme" secondary="PP; to-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>This pertains to both of us.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
-                        <NP value="Theme1">
+                        <NP value="Theme">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
 			<PREP value="to">
 			    <SELRESTRS/>
 			</PREP>
-                        <NP value="Theme2">
+                        <NP value="Co-Theme">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -79,8 +79,8 @@
                         <PRED value="relate">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
-                                <ARG type="ThemRole" value="Theme1"/>
-                                <ARG type="ThemRole" value="Theme2"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Co-Theme"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

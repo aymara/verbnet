@@ -17,16 +17,13 @@
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Theme1">
-            <SELRESTRS/>
-        </THEMROLE>
-        <THEMROLE type="Theme2">
+        <THEMROLE type="Co-Theme">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NPPlural object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP; Plural object" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I summed the numbers.</EXAMPLE>
             </EXAMPLES>
@@ -61,7 +58,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V NP PP.theme2" secondary="NP-PPby-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V NP PP.co-theme" secondary="NP-PP; by-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I multiplied x by y.</EXAMPLE>
                     </EXAMPLES>
@@ -70,13 +67,13 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Theme1">
+                        <NP value="Theme">
                             <SYNRESTRS/>
                         </NP>
 			<PREP value="by">
 			    <SELRESTRS/>
 			</PREP>
-                        <NP value="Theme2">
+                        <NP value="Co-Theme">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -85,8 +82,8 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Co-Theme"/>
                     </ARGS>
                 </PRED>
                     </SEMANTICS>
@@ -96,16 +93,16 @@
 	</VNSUBCLASS>
         <VNSUBCLASS ID="multiply-108-2">
             <MEMBERS>
-                <MEMBER name="deduct" wn="" grouping=""/>
+                <MEMBER name="deduct" wn="" grouping="deduct.01"/>
                 <MEMBER name="factor_out" wn="" grouping=""/>
-                <MEMBER name="inerpolate" wn="" grouping=""/>
-                <MEMBER name="extrapolate" wn="" grouping=""/>
+                <MEMBER name="interpolate" wn="" grouping=""/>
+                <MEMBER name="extrapolate" wn="" grouping="extrapolate.01"/>
                 <MEMBER name="subtract" wn="" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V NP PP.theme2" secondary="NP-PPfrom-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V NP PP.co-theme" secondary="NP-PP; from-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I subtracted x from y.</EXAMPLE>
                     </EXAMPLES>
@@ -114,13 +111,13 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Theme1">
+                        <NP value="Theme">
                             <SYNRESTRS/>
                         </NP>
 			<PREP value="from">
 			    <SELRESTRS/>
 			</PREP>
-                        <NP value="Theme2">
+                        <NP value="Co-Theme">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -129,8 +126,8 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Co-Theme"/>
                     </ARGS>
                 </PRED>
                     </SEMANTICS>
@@ -145,7 +142,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="NP V NP PP.theme2" secondary="NP-PPover-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="NP V NP PP.co-theme" secondary="NP-PP; over-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I averaged x over n.</EXAMPLE>
                     </EXAMPLES>
@@ -154,13 +151,13 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-                        <NP value="Theme1">
+                        <NP value="Theme">
                             <SYNRESTRS/>
                         </NP>
 			<PREP value="over">
 			    <SELRESTRS/>
 			</PREP>
-                        <NP value="Theme2">
+                        <NP value="Co-Theme">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
@@ -169,8 +166,8 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Theme1"/>
-                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Co-Theme"/>
                     </ARGS>
                 </PRED>
                     </SEMANTICS>

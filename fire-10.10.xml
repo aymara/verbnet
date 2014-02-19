@@ -12,7 +12,13 @@
         <MEMBER name="remove" wn="remove%2:41:00" grouping="remove.01"/>
         <MEMBER name="can" wn="can%2:41:00" grouping="can.02"/>
         <MEMBER name="send_away" wn="send_away%2:41:00" grouping=""/>
+        <MEMBER name="suspend" wn="suspend%2:41:00" grouping="suspend.02"/>
         <MEMBER name="force_out" wn="force_out%2:41:00" grouping=""/>
+        <MEMBER name="terminate" wn="terminate%2:41:01" grouping="terminate.02"/>
+        <MEMBER name="give_the_boot" wn="" grouping=""/>
+        <MEMBER name="lay_off" wn="lay_off%2:41:00" grouping=""/>
+        <MEMBER name="let_go" wn="" grouping=""/>
+        <MEMBER name="shitcan" wn="" grouping=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -32,7 +38,7 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Predicate">
+        <THEMROLE type="Attribute">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
@@ -75,7 +81,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source" secondary="NP-PPfrom-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.source" secondary="NP-PP; from-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I fired two secretaries from the company.</EXAMPLE>
             </EXAMPLES>
@@ -118,7 +124,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.predicate" secondary="NP-PPas-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.attribute" secondary="NP-PP; as-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I fired him as my chief of staff.</EXAMPLE>
             </EXAMPLES>
@@ -133,7 +139,7 @@
                 <PREP value="as">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Predicate">
+                <NP value="Attribute">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
                     </SYNRESTRS>
@@ -151,7 +157,7 @@
                         <ARG type="Event" value="start(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Source"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
@@ -159,7 +165,7 @@
                         <ARG type="Event" value="end(E)"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Source"/>
-                        <ARG type="ThemRole" value="Predicate"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
