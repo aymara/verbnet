@@ -2,18 +2,19 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="conspire-71" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="collaborate" wn=""/>
-        <MEMBER name="collude" wn=""/>
-        <MEMBER name="conspire" wn=""/>
+        <MEMBER name="ally" wn="ally%2:41:00"/>
+        <MEMBER name="collaborate" wn="collaborate%2:41:00 collaborate%2:41:01"/>
+        <MEMBER name="collude" wn="collude%2:31:00"/>
+        <MEMBER name="conspire" wn="conspire%2:31:00 conspire%2:31:01"/>
         <MEMBER name="discriminate" wn=""/>
-        <MEMBER name="lesgislate" wn=""/>
-        <MEMBER name="partner" wn=""/>
-        <MEMBER name="protest" wn=""/>
-        <MEMBER name="rebel" wn=""/>
-        <MEMBER name="retaliate" wn=""/>
-        <MEMBER name="scheme" wn=""/>
+        <MEMBER name="lesgislate" wn="legislate%2:41:00"/>
+        <MEMBER name="partner" wn="partner%2:41:00"/>
+        <MEMBER name="protest" wn="protest%2:32:00 protest%2:41:00"/>
+        <MEMBER name="rebel" wn="rebel%2:41:00"/>
+        <MEMBER name="retaliate" wn="retaliate%2:33:00"/>
+        <MEMBER name="scheme" wn="scheme%2:31:00"/>
         <MEMBER name="sin" wn=""/>
-        <MEMBER name="team_up" wn=""/>
+        <MEMBER name="team_up" wn="team_up%2:33:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Actor1">
@@ -42,7 +43,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;John and Sarah conspired.&quot;</EXAMPLE>
+                <EXAMPLE>John and Sarah conspired.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -64,7 +65,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;John conspired with Sarah.&quot;</EXAMPLE>
+                <EXAMPLE>John conspired with Sarah.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -92,7 +93,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="against-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;John conspired against her.&quot;</EXAMPLE>
+                <EXAMPLE>John conspired against her.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -100,8 +101,8 @@
                 </NP>
                 <VERB/>
                 <PREP value="against">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Actor2">
                     <SYNRESTRS/>
                 </NP>
@@ -120,7 +121,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="TO-INFN-SC" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The US conspired to overthrow the UN.&quot;</EXAMPLE>
+                <EXAMPLE>The US conspired to overthrow the UN.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -130,7 +131,7 @@
                 <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="sc_to_inf"/>
-		    </SYNRESTRS>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

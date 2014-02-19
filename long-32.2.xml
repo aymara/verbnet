@@ -15,7 +15,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="TO-INF-SC" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["John oft hankered to move up the corporate ladder."]]></EXAMPLE>
+                <EXAMPLE>John oft hankered to move up the corporate ladder.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
@@ -49,7 +49,7 @@
                 <MEMBER name="hope" wn="hope%2:37:01"/>
                 <MEMBER name="hunger" wn="hunger%2:34:01"/>
                 <MEMBER name="itch" wn="itch%2:37:00"/>
-                <MEMBER name="long" wn="long%2:37:02 long%2:37:01"/>
+                <MEMBER name="long" wn="long%2:37:02"/>
                 <MEMBER name="lust" wn="lust%2:34:00"/>
                 <MEMBER name="pine" wn="pine%2:37:00"/>
                 <MEMBER name="pray" wn="pray%2:32:00"/>
@@ -62,7 +62,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP" secondary="for-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Danny longs for a sunny day."]]></EXAMPLE>
+                        <EXAMPLE>Danny longs for a sunny day.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Experiencer">
@@ -102,7 +102,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP" secondary="after-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Danny yearns after sunny days."]]></EXAMPLE>
+                        <EXAMPLE>Danny yearns after sunny days.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Experiencer">

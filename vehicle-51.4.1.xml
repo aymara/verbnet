@@ -22,7 +22,7 @@
         <MEMBER name="punt" wn="punt%2:35:00"/>
         <MEMBER name="rickshaw" wn=""/>
         <MEMBER name="rocket" wn="rocket%2:35:00"/>
-        <MEMBER name="sledge" wn="sledge%2:38:00 sledge%2:38:01 sledge%2:38:02"/>
+        <MEMBER name="sledge" wn="sledge%2:38:02 sledge%2:38:01"/>
         <MEMBER name="sleigh" wn="sleigh%2:38:00"/>
         <MEMBER name="taxi" wn="taxi%2:38:00"/>
         <MEMBER name="tram" wn=""/>
@@ -51,7 +51,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="inchoative" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Claire skated&quot;</EXAMPLE>
+                <EXAMPLE>Claire skated.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -71,7 +71,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="inchoative, locative-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Claire skated along the canal&quot;</EXAMPLE>
+                <EXAMPLE>Claire skated along the canal.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -104,9 +104,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP" secondary="Induced Action, with accompanied motion, path-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP" secondary="Induced Action with accompanied motion, path-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He skated Penny around the rink&quot;</EXAMPLE>
+                <EXAMPLE>He skated Penny around the rink.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -167,9 +167,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP" secondary="Induced Action, with accompanied motion" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP" secondary="Induced Action with accompanied motion" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He skated Penny&quot;</EXAMPLE>
+                <EXAMPLE>He skated Penny.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -210,7 +210,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Claire skated her skates blades blunt&quot;</EXAMPLE>
+                <EXAMPLE>Claire skated her skates blades blunt.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -246,7 +246,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Claire skated her skates blades to shreds&quot;</EXAMPLE>
+                <EXAMPLE>Claire skated her skates blades to shreds.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -289,7 +289,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He skated Penny exhausted&quot;</EXAMPLE>
+                <EXAMPLE>He skated Penny exhausted.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -325,7 +325,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He skated Penny to exhaustion&quot;</EXAMPLE>
+                <EXAMPLE>He skated Penny to exhaustion.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -374,7 +374,7 @@
                 <MEMBER name="canoe" wn="canoe%2:38:00"/>
                 <MEMBER name="cycle" wn="cycle%2:38:00 cycle%2:38:01"/>
                 <MEMBER name="kayak" wn="kayak%2:38:00"/>
-                <MEMBER name="motorbike" wn=""/>
+                <MEMBER name="motorbike" wn="motorbike%2:38:00"/>
                 <MEMBER name="motorcycle" wn="motorcycle%2:38:00"/>
                 <MEMBER name="raft" wn="raft%2:38:01 raft%2:38:00"/>
                 <MEMBER name="skate" wn="skate%2:38:00"/>
@@ -388,7 +388,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Locative Preposition Drop" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Claire skated the canals."]]></EXAMPLE>
+                        <EXAMPLE>Claire skated the canals.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Theme">

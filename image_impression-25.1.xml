@@ -39,7 +39,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.7" primary="NP-PP" secondary="Theme Object, on-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Smith inscribed his name on the ring&quot;</EXAMPLE>
+                <EXAMPLE>Smith inscribed his name on the ring.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -84,7 +84,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.7" primary="NP-PP" secondary="Destination Object, Theme-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Smith inscribed the ring with his name&quot;</EXAMPLE>
+                <EXAMPLE>Smith inscribed the ring with his name.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -126,7 +126,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Destination Object" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Smith was inscribing the rings&quot;</EXAMPLE>
+                <EXAMPLE>Smith was inscribing the rings.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -162,7 +162,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Theme Object" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Smith inscribed his name&quot;</EXAMPLE>
+                <EXAMPLE>Smith inscribed his name.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -196,9 +196,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.2.1" primary="Unspecified Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.2.1" primary="Unspecified Object" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Smith was inscribing&quot;</EXAMPLE>
+                <EXAMPLE>Smith was inscribing.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

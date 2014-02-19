@@ -11,7 +11,7 @@
         <MEMBER name="recast" wn=""/>
         <MEMBER name="redraw" wn=""/>
         <MEMBER name="specify" wn=""/>
-        <MEMBER name="bill" wn=""/>
+        <MEMBER name="bill" wn="bill%2:32:00 bill%2:32:01"/>
         <MEMBER name="cast" wn="cast%2:36:01 cast%2:32:00"/>
         <MEMBER name="diagnose" wn="diagnose%2:31:01"/>
         <MEMBER name="certify" wn="certify%2:41:02 certify%2:41:00 certify%2:32:01"/>
@@ -49,26 +49,26 @@
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
-	<FRAME>
-	    <DESCRIPTION descriptionNumber="" primary="NP-P-ING-OC" secondary="as-PP" xtag=""/>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="NP-P-ING-OC" secondary="as-PP" xtag=""/>
             <EXAMPLES>
-		<EXAMPLE><![CDATA["He characterized him as being smart."]]></EXAMPLE>
+                <EXAMPLE>He characterized him as being smart.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
-		    <SYNRESTRS/>
+                    <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <NP value="Theme">
-		    <SYNRESTRS/>
+                    <SYNRESTRS/>
                 </NP>
                 <LEX value="as"/>
                 <NP value="Predicate">
-		    <SYNRESTRS>
-			<SYNRESTR Value="+" type="oc_ing"/>
-		    </SYNRESTRS>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="oc_ing"/>
+                    </SYNRESTRS>
                 </NP>
-	    </SYNTAX>
+            </SYNTAX>
             <SEMANTICS>
                 <PRED value="characterize">
                     <ARGS>
@@ -84,11 +84,11 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
-	</FRAME>
+        </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP-TOBE" secondary="" xtag=""/>                          
+            <DESCRIPTION descriptionNumber="" primary="NP-TOBE" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["He characterized him to be smart."]]></EXAMPLE>                              
+                <EXAMPLE>He characterized him to be smart.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -122,9 +122,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="as-PP" xtag=""/>        
+            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="as-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["He characterized him as smart."]]></EXAMPLE>               
+                <EXAMPLE>He characterized him as smart.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -135,8 +135,8 @@
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="as">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Predicate">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
@@ -163,18 +163,17 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="characterize-29.2-1">
             <MEMBERS>
-                <MEMBER name="portray" wn=""/>
                 <MEMBER name="characterize" wn="characterize%2:42:01"/>
                 <MEMBER name="see" wn="see%2:36:00 see%2:31:00 see%2:31:13"/>
                 <MEMBER name="view" wn="view%2:31:00"/>
-                <MEMBER name="know" wn=""/>
+                <MEMBER name="know" wn="know%2:31:01 know%2:31:03"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="HOW-S" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["He described how he could rise to high office."]]></EXAMPLE>        
+                        <EXAMPLE>He described how he could rise to high office.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -188,25 +187,25 @@
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-                      <PRED value="describe">
-                          <ARGS>
-                              <ARG type="Event" value="during(E)"/>
-                              <ARG type="ThemRole" value="Agent"/>
-                              <ARG type="ThemRole" value="Theme"/>
-                          </ARGS>
-                      </PRED>
-                      <PRED value="cause">
-                          <ARGS>
-                              <ARG type="ThemRole" value="Agent"/>
-                              <ARG type="Event" value="E"/>
-                          </ARGS>
-                      </PRED>
+                        <PRED value="describe">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="HOW-TO-INF" secondary="" xtag=""/>                 
+                    <DESCRIPTION descriptionNumber="8.1" primary="HOW-TO-INF" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["He described how to do it."]]></EXAMPLE>
+                        <EXAMPLE>He described how to do it.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -220,28 +219,29 @@
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-                      <PRED value="describe">
-                          <ARGS>
-                              <ARG type="Event" value="during(E)"/>
-                              <ARG type="ThemRole" value="Agent"/>
-                              <ARG type="ThemRole" value="Theme"/>
-                          </ARGS>
-                      </PRED>
-                      <PRED value="cause">
-                          <ARGS>
-                              <ARG type="ThemRole" value="Agent"/>
-                              <ARG type="Event" value="E"/>
-                          </ARGS>
-                      </PRED>
+                        <PRED value="describe">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
                     </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES>
-	        <VNSUBCLASS ID="characterize-29.2-1-1">
-	            <MEMBERS>
-	                <MEMBER name="define" wn=""/>
-	                <MEMBER name="describe" wn=""/>
-			<MEMBER name="represent" wn=""/>
+                <VNSUBCLASS ID="characterize-29.2-1-1">
+                    <MEMBERS>
+                        <MEMBER name="portray" wn="portray%2:32:00"/>
+                        <MEMBER name="define" wn=""/>
+                        <MEMBER name="describe" wn="describe%2:32:00 describe%2:32:01"/>
+                        <MEMBER name="represent" wn=""/>
                         <MEMBER name="accept" wn="accept%2:31:00 accept%2:31:01 accept%2:31:03"/>
                         <MEMBER name="envisage" wn="envisage%2:36:00"/>
                         <MEMBER name="identify" wn="identify%2:31:00 identify%2:31:02"/>
@@ -249,45 +249,45 @@
                         <MEMBER name="visualize" wn="visualize%2:36:00"/>
                         <MEMBER name="remember" wn="remember%2:31:00"/>
                         <MEMBER name="recollect" wn="recollect%2:31:00"/>
-	            </MEMBERS>
-	            <THEMROLES/>
-	            <FRAMES>
-	                <FRAME>
-	                    <DESCRIPTION descriptionNumber="8.1" primary="ING-AC" secondary="" xtag=""/>          
-	                    <EXAMPLES>
-	                        <EXAMPLE><![CDATA["He described going to work."]]></EXAMPLE>                                       
-	                    </EXAMPLES>
-	                    <SYNTAX>
-                                <NP value="Agent">
-	                            <SYNRESTRS/>
-	                        </NP>
-	                        <VERB/>
-	                        <NP value="Theme">
-	                            <SYNRESTRS>
-	                                <SYNRESTR Value="+" type="ac_ing"/>
-	                            </SYNRESTRS>
-	                        </NP>
-	                    </SYNTAX>
-	                    <SEMANTICS>
-                                <PRED value="describe">
-                                   <ARGS>
-                                       <ARG type="Event" value="during(E)"/>
-                                       <ARG type="ThemRole" value="Agent"/>
-                                       <ARG type="ThemRole" value="Theme"/>
-                                  </ARGS>
-                               </PRED>
-                               <PRED value="cause">
-                                  <ARGS>
-                                      <ARG type="ThemRole" value="Agent"/>
-                                      <ARG type="Event" value="E"/>
-                                  </ARGS>
-                               </PRED>
-	                    </SEMANTICS>
-	                </FRAME>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag=""/>                     
+                            <DESCRIPTION descriptionNumber="8.1" primary="ING-AC" secondary="" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE><![CDATA["He described what we should do."]]></EXAMPLE>
+                                <EXAMPLE>He described going to work.</EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Theme">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="ac_ing"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="describe">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE>He described what we should do.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Agent">
@@ -302,25 +302,25 @@
                             </SYNTAX>
                             <SEMANTICS>
                                 <PRED value="describe">
-                                   <ARGS>
-                                       <ARG type="Event" value="during(E)"/>
-                                       <ARG type="ThemRole" value="Agent"/>
-                                       <ARG type="ThemRole" value="Predicate"/>
-                                  </ARGS>
-                               </PRED>
-                               <PRED value="cause">
-                                  <ARGS>
-                                      <ARG type="ThemRole" value="Agent"/>
-                                      <ARG type="Event" value="E"/>
-                                  </ARGS>
-                               </PRED>
-
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Predicate"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E"/>
+                                    </ARGS>
+                                </PRED>
+                                
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" secondary="" xtag=""/>      
+                            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" secondary="" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE><![CDATA["He described what to do."]]></EXAMPLE>              
+                                <EXAMPLE>He described what to do.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Agent">
@@ -335,34 +335,34 @@
                             </SYNTAX>
                             <SEMANTICS>
                                 <PRED value="describe">
-                                   <ARGS>
-                                       <ARG type="Event" value="during(E)"/>
-                                       <ARG type="ThemRole" value="Agent"/>
-                                       <ARG type="ThemRole" value="Predicate"/>
-                                  </ARGS>
-                               </PRED>
-                               <PRED value="cause">
-                                  <ARGS>
-                                      <ARG type="ThemRole" value="Agent"/>
-                                      <ARG type="Event" value="E"/>
-                                  </ARGS>
-                               </PRED>
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Predicate"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E"/>
+                                    </ARGS>
+                                </PRED>
                             </SEMANTICS>
                         </FRAME>
-	            </FRAMES>
-	            <SUBCLASSES/>
-	        </VNSUBCLASS>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
                 <VNSUBCLASS ID="characterize-29.2-1-2">
                     <MEMBERS>
-                        <MEMBER name="report" wn=""/>
-                        <MEMBER name="reveal" wn="reveal%2:39:01"/>
+                        <MEMBER name="report" wn="report%2:32:00 report%2:32:04"/>
+                        <MEMBER name="reveal" wn="reveal%2:32:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="NP-VEN-NP-OMIT" secondary="" xtag=""/>           
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP-VEN-NP-OMIT" secondary="" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE><![CDATA["He revealed the children found."]]></EXAMPLE>
+                                <EXAMPLE>He revealed the children found.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Agent">
@@ -377,56 +377,56 @@
                             </SYNTAX>
                             <SEMANTICS>
                                 <PRED value="describe">
-                                   <ARGS>
-                                       <ARG type="Event" value="during(E)"/>
-                                       <ARG type="ThemRole" value="Agent"/>
-                                       <ARG type="ThemRole" value="Theme"/>
-                                  </ARGS>
-                               </PRED>
-                               <PRED value="cause">
-                                  <ARGS>
-                                      <ARG type="ThemRole" value="Agent"/>
-                                      <ARG type="Event" value="E"/>
-                                  </ARGS>
-                               </PRED>
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E"/>
+                                    </ARGS>
+                                </PRED>
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="WH-S" secondary="" xtag=""/> 
+                            <DESCRIPTION descriptionNumber="8.1" primary="WH-S" secondary="" xtag=""/>
                             <EXAMPLES>
-				<EXAMPLE><![CDATA["He revealed if we should come."]]></EXAMPLE>
+                                <EXAMPLE>He revealed if we should come.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Agent">
-				    <SYNRESTRS/>
+                                    <SYNRESTRS/>
                                 </NP>
                                 <VERB/>
                                 <NP value="Theme">
                                     <SYNRESTRS>
-					<SYNRESTR Value="+" type="wh_comp"/>
+                                        <SYNRESTR Value="+" type="wh_comp"/>
                                     </SYNRESTRS>
                                 </NP>
                             </SYNTAX>
                             <SEMANTICS>
                                 <PRED value="describe">
-                                   <ARGS>
-                                       <ARG type="Event" value="during(E)"/>
-                                       <ARG type="ThemRole" value="Agent"/>
-                                       <ARG type="ThemRole" value="Theme"/>
-                                  </ARGS>
-                               </PRED>
-                               <PRED value="cause">
-                                  <ARGS>
-                                      <ARG type="ThemRole" value="Agent"/>
-                                      <ARG type="Event" value="E"/>
-                                  </ARGS>
-                               </PRED>
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E"/>
+                                    </ARGS>
+                                </PRED>
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
                             <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE><![CDATA["He revealed what he should do."]]></EXAMPLE>
+                                <EXAMPLE>He revealed what he should do.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Agent">
@@ -441,24 +441,24 @@
                             </SYNTAX>
                             <SEMANTICS>
                                 <PRED value="describe">
-                                   <ARGS>
-                                       <ARG type="Event" value="during(E)"/>
-                                       <ARG type="ThemRole" value="Agent"/>
-                                       <ARG type="ThemRole" value="Theme"/>
-                                  </ARGS>
-                               </PRED>
-                               <PRED value="cause">
-                                  <ARGS>
-                                      <ARG type="ThemRole" value="Agent"/>
-                                      <ARG type="Event" value="E"/>
-                                  </ARGS>
-                               </PRED>
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E"/>
+                                    </ARGS>
+                                </PRED>
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" secondary="" xtag=""/>    
+                            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" secondary="" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE><![CDATA["He revealed what to do."]]></EXAMPLE>
+                                <EXAMPLE>He revealed what to do.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Agent">
@@ -473,18 +473,18 @@
                             </SYNTAX>
                             <SEMANTICS>
                                 <PRED value="describe">
-                                   <ARGS>
-                                       <ARG type="Event" value="during(E)"/>
-                                       <ARG type="ThemRole" value="Agent"/>
-                                       <ARG type="ThemRole" value="Theme"/>
-                                  </ARGS>
-                               </PRED>
-                               <PRED value="cause">
-                                  <ARGS>
-                                      <ARG type="ThemRole" value="Agent"/>
-                                      <ARG type="Event" value="E"/>
-                                  </ARGS>
-                               </PRED>
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E"/>
+                                    </ARGS>
+                                </PRED>
                             </SEMANTICS>
                         </FRAME>
                     </FRAMES>
@@ -494,3 +494,8 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
+
+
+
+
+

@@ -15,21 +15,21 @@
     </THEMROLES>
     <FRAMES/>
     <SUBCLASSES>
-        <VNSUBCLASS ID="withdraw-80-1">
+        <VNSUBCLASS ID="withdraw-82-1">
             <MEMBERS>
-                <MEMBER name="back_out" wn=""/>
-                <MEMBER name="chicken_out" wn=""/>
-                <MEMBER name="get_out" wn=""/>
+                <MEMBER name="back_out" wn="back_out%2:32:00"/>
+                <MEMBER name="chicken_out" wn="chicken_out%2:41:00"/>
+                <MEMBER name="get_out" wn="get_out%2:32:03"/>
                 <MEMBER name="wriggle_out" wn=""/>
-                <MEMBER name="bow_out" wn=""/>
-		<MEMBER name="pull_out" wn=""/>
+                <MEMBER name="bow_out" wn="bow_out%2:41:01 bow_out%2:41:00"/>
+                <MEMBER name="pull_out" wn="pull_out%2:41:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="Basic Intransitive" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;He backed out.&quot;</EXAMPLE>
+                        <EXAMPLE>He backed out.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -38,28 +38,28 @@
                         <VERB/>
                     </SYNTAX>
                     <SEMANTICS>
-	                <PRED value="renege">
-	                    <ARGS>
-	                        <ARG type="Event" value="during(E)"/>
-	                        <ARG type="ThemRole" value="Agent"/>
-	                        <ARG type="ThemRole" value="?Source"/>
-	                    </ARGS>
-	                </PRED>
-		    </SEMANTICS>
+                        <PRED value="renege">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Source"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="of-PP" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;He backed out of the trip.&quot;</EXAMPLE>
+                        <EXAMPLE>He backed out of the trip.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-			<PREP value="of">
-			    <SELRESTRS/>
-			</PREP>
+                        <PREP value="of">
+                            <SELRESTRS/>
+                        </PREP>
                         <NP value="Source">
                             <SYNRESTRS/>
                         </NP>
@@ -72,25 +72,25 @@
                                 <ARG type="ThemRole" value="Source"/>
                             </ARGS>
                         </PRED>
-		    </SEMANTICS>
+                    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="of-P" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;He backed out of going on the trip.&quot;</EXAMPLE>
+                        <EXAMPLE>He backed out of going on the trip.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-			<PREP value="of">
-			   <SELRESTRS/>
-			</PREP>
+                        <PREP value="of">
+                            <SELRESTRS/>
+                        </PREP>
                         <NP value="Source">
                             <SYNRESTRS>
-				<SYNRESTR Value="+" type="sc_ing"/>
-			    </SYNRESTRS>
+                                <SYNRESTR Value="+" type="sc_ing"/>
+                            </SYNRESTRS>
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
@@ -101,22 +101,22 @@
                                 <ARG type="ThemRole" value="Source"/>
                             </ARGS>
                         </PRED>
-		    </SEMANTICS>
+                    </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES/>
         </VNSUBCLASS>
-        <VNSUBCLASS ID="withdraw-80-2">
+        <VNSUBCLASS ID="withdraw-82-2">
             <MEMBERS>
-                <MEMBER name="get_away" wn=""/>
-		<MEMBER name="back_off" wn=""/>
+                <MEMBER name="get_away" wn="get_away%2:32:00"/>
+                <MEMBER name="back_off" wn="back_off%2:41:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="Basic Intransitive" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;He got away.&quot;</EXAMPLE>
+                        <EXAMPLE>He got away.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -133,24 +133,24 @@
                                 <ARG type="ThemRole" value="?Source"/>
                             </ARGS>
                         </PRED>
-		    </SEMANTICS>
+                    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="from-PP" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;He got away from the area.&quot;</EXAMPLE>
+                        <EXAMPLE>He got away from the area.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-			<PREP value="from">
-			    <SELRESTRS/>
-			</PREP>
-			<NP value="Source">
-			    <SYNRESTRS/>
-			</NP>
+                        <PREP value="from">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Source">
+                            <SYNRESTRS/>
+                        </NP>
                     </SYNTAX>
                     <SEMANTICS>
                         <PRED value="renege">
@@ -160,53 +160,53 @@
                                 <ARG type="ThemRole" value="Source"/>
                             </ARGS>
                         </PRED>
-		    </SEMANTICS>
+                    </SEMANTICS>
                 </FRAME>
-		<FRAME>
-		    <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="from-PP"/>
-		    <EXAMPLES>
-			<EXAMPLE>&quot;He backed away from going on the trip.&quot;</EXAMPLE>
-		    </EXAMPLES>
-		    <SYNTAX>
-			<NP value="Agent">
-			    <SYNRESTRS/>
-			</NP>
-			<VERB/>
-			<PREP value="from">
-			    <SELRESTRS/>
-			</PREP>
-			<NP value="Source">
-			    <SYNRESTRS>
-				<SYNRESTR Value="+" type="sc_ing"/>
-			    </SYNRESTRS>
-			</NP>
-		    </SYNTAX>
-		    <SEMANTICS>
-			<PRED value="renege">
-			    <ARGS>
-				<ARG type="Event" value="during(E)"/>
-			        <ARG type="ThemRole" value="Agent"/>
-				<ARG type="ThemRole" value="Source"/>
-			    </ARGS>
-			</PRED>
-		    </SEMANTICS>
-		</FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="from-PP" xtag="0.1"/>
+                    <EXAMPLES>
+                        <EXAMPLE>He backed away from going on the trip.</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <PREP value="from">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Source">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="sc_ing"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="renege">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Source"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
             </FRAMES>
             <SUBCLASSES/>
         </VNSUBCLASS>
-        <VNSUBCLASS ID="withdraw-80-3">
+        <VNSUBCLASS ID="withdraw-82-3">
             <MEMBERS>
-                <MEMBER name="withdraw" wn=""/>
-		<MEMBER name="retreat" wn=""/>
-		<MEMBER name="pull_away" wn=""/>
-		<MEMBER name="retire" wn=""/>
+                <MEMBER name="withdraw" wn="withdraw%2:41:01 withdraw%2:32:00"/>
+                <MEMBER name="retreat" wn="retreat%2:32:00"/>
+                <MEMBER name="pull_away" wn="pull_away%2:38:00"/>
+                <MEMBER name="retire" wn="retire%2:41:02 "/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="Basi Intransitive" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;He withdrew.&quot;</EXAMPLE>
+                        <EXAMPLE>He withdrew.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -222,24 +222,24 @@
                                 <ARG type="ThemRole" value="?Source"/>
                             </ARGS>
                         </PRED>
-		    </SEMANTICS>
+                    </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="from-PP" xtag="0.1"/>  
+                    <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="from-PP" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;He withdrewn from the trip.&quot;</EXAMPLE>
+                        <EXAMPLE>He withdrew from the trip.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-			<PREP value="from">
-			    <SELRESTRS/>
-			</PREP>
-			<NP value="Source">
-			    <SYNRESTRS/>
-			</NP>
+                        <PREP value="from">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Source">
+                            <SYNRESTRS/>
+                        </NP>
                     </SYNTAX>
                     <SEMANTICS>
                         <PRED value="renege">
@@ -249,7 +249,7 @@
                                 <ARG type="ThemRole" value="Source"/>
                             </ARGS>
                         </PRED>
-		    </SEMANTICS>
+                    </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES/>

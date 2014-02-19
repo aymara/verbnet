@@ -21,7 +21,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PART" secondary="up" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["She spruced herself up before the job interview"]]></EXAMPLE>
+                <EXAMPLE>She spruced herself up before the job interview.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -46,7 +46,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="PART-NP" secondary="up" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["She spruced up herself before the job interview"]]></EXAMPLE>
+                <EXAMPLE>She spruced up herself before the job interview.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

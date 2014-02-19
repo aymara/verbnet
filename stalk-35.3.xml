@@ -24,7 +24,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Theme-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I stalked the woods for game"]]></EXAMPLE>
+                <EXAMPLE>I stalked the woods for game.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -55,7 +55,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I stalked game in the woods"]]></EXAMPLE>
+                <EXAMPLE>I stalked game in the woods.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -88,7 +88,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I tracked prints"]]></EXAMPLE>
+                <EXAMPLE>I tracked prints.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

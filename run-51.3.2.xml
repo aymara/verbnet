@@ -36,7 +36,7 @@
         <MEMBER name="hike" wn="hike%2:38:00"/>
         <MEMBER name="hobble" wn="hobble%2:38:00"/>
         <MEMBER name="hop" wn="hop%2:38:00 hop%2:38:04 hop%2:38:02 hop%2:38:01"/>
-        <MEMBER name="hurry" wn="hurry%2:38:00 hurry%2:30:01"/>
+        <MEMBER name="hurry" wn="hurry%2:38:00"/>
         <MEMBER name="hurtle" wn="hurtle%2:38:01 hurtle%2:38:00 hurtle%2:35:00"/>
         <MEMBER name="inch" wn="inch%2:38:00"/>
         <MEMBER name="jog" wn="jog%2:38:01"/>
@@ -93,14 +93,14 @@
         <MEMBER name="slouch" wn="slouch%2:38:00"/>
         <MEMBER name="sneak" wn="sneak%2:38:00"/>
         <MEMBER name="somersault" wn="somersault%2:38:00"/>
-        <MEMBER name="speed" wn="speed%2:38:03 speed%2:30:00 speed%2:38:00 speed%2:30:02"/>
-        <MEMBER name="stagger" wn="stagger%2:38:00 stagger%2:38:01 stagger%2:38:02"/>
+        <MEMBER name="speed" wn="speed%2:38:03 speed%2:30:00 speed%2:30:02"/>
+        <MEMBER name="stagger" wn="stagger%2:38:00 stagger%2:38:01"/>
         <MEMBER name="step" wn=""/>
         <MEMBER name="stomp" wn="stomp%2:38:00"/>
-        <MEMBER name="stray" wn="stray%2:38:01 ?stray%2:38:02 stray%2:38:00"/>
+        <MEMBER name="stray" wn="stray%2:38:01 stray%2:38:00"/>
         <MEMBER name="streak" wn="streak%2:38:00 streak%2:38:01"/>
         <MEMBER name="stride" wn="stride%2:38:00 stride%2:38:03"/>
-        <MEMBER name="stroll" wn="stroll%2:38:01 stroll%2:38:00"/>
+        <MEMBER name="stroll" wn="stroll%2:38:00"/>
         <MEMBER name="strut" wn="strut%2:38:00"/>
         <MEMBER name="stumble" wn="stumble%2:38:01 stumble%2:38:00"/>
         <MEMBER name="stump" wn="stump%2:38:00"/>
@@ -120,7 +120,7 @@
         <MEMBER name="trek" wn="trek%2:38:01"/>
         <MEMBER name="troop" wn="troop%2:38:00"/>
         <MEMBER name="trot" wn="trot%2:38:00 trot%2:38:01 trot%2:38:02"/>
-        <MEMBER name="trudge" wn="trudge%2:38:01 trudge%2:38:00"/>
+        <MEMBER name="trudge" wn="trudge%2:38:01"/>
         <MEMBER name="trundle" wn="trundle%2:38:00"/>
         <MEMBER name="vault" wn="vault%2:38:01 vault%2:38:00"/>
         <MEMBER name="waddle" wn="waddle%2:38:00"/>
@@ -154,7 +154,7 @@
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="inchoative" xtag="0.1"/>
             <!-- stump doesn't take it-->
             <EXAMPLES>
-                <EXAMPLE>&quot;The horse jumped&quot;</EXAMPLE>
+                <EXAMPLE>The horse jumped.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -174,7 +174,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="over-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The horse jumped over the fence&quot;</EXAMPLE>
+                <EXAMPLE>The horse jumped over the fence.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -207,9 +207,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP" secondary="Induced Action, with accompanied motion,  path-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP" secondary="Induced Action with accompanied motion, path-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tom jumped the horse over the fence&quot;</EXAMPLE>
+                <EXAMPLE>Tom jumped the horse over the fence.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -270,9 +270,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP" secondary="Induced Action, without accompanied motion, path-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP-PP" secondary="Induced Action without accompanied motion, path-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The lion tamer jumped the lions through the loop&quot;</EXAMPLE>
+                <EXAMPLE>The lion tamer jumped the lions through the loop.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -314,9 +314,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP" secondary="Induced Action,with accompanied motion" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP" secondary="Induced Action with accompanied motion" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tom jumped the horse&quot;</EXAMPLE>
+                <EXAMPLE>Tom jumped the horse.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -355,9 +355,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP" secondary="Induced Action, without accompanied motion" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP" secondary="Induced Action without accompanied motion" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The lion tamer jumped the lions&quot;</EXAMPLE>
+                <EXAMPLE>The lion tamer jumped the lions.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -384,9 +384,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.4.1" primary="Locative Preposition Drop" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.4.1" primary="Locative Preposition Drop" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The horse jumped the stream&quot;</EXAMPLE>
+                <EXAMPLE>The horse jumped the stream.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -418,7 +418,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tom ran the soles off his shoes&quot;</EXAMPLE>
+                <EXAMPLE>Tom ran the soles off his shoes.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -461,7 +461,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;We walked ourselves into a state of exhaustion&quot;</EXAMPLE>
+                <EXAMPLE>We walked ourselves into a state of exhaustion.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -504,7 +504,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tom walked the dog exhausted&quot;</EXAMPLE>
+                <EXAMPLE>Tom walked the dog exhausted.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -540,7 +540,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tom walked the dog to exhaustion&quot;</EXAMPLE>
+                <EXAMPLE>Tom walked the dog to exhaustion.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -583,7 +583,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.1" primary="PP-NP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;There jumped out of the box a little white rabbit&quot;</EXAMPLE>
+                <EXAMPLE>There jumped out of the box a little white rabbit.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <LEX value="there"/>
@@ -623,7 +623,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;There jumped a little white rabbit out of the box&quot;</EXAMPLE>
+                <EXAMPLE>There jumped a little white rabbit out of the box.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <LEX value="there"/>
@@ -659,9 +659,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Out of the box jumped a little white rabbit&quot;</EXAMPLE>
+                <EXAMPLE>Out of the box jumped a little white rabbit.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <PREP>

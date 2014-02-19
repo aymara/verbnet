@@ -90,7 +90,7 @@
         <MEMBER name="engage" wn="engage%2:31:00"/>
         <MEMBER name="engross" wn="engross%2:31:02 engross%2:31:00"/>
         <MEMBER name="enlighten" wn="enlighten%2:32:01"/>
-        <MEMBER name="enliven" wn="enliven%2:29:00"/>
+        <MEMBER name="enliven" wn=""/>
         <MEMBER name="enrage" wn="enrage%2:37:00"/>
         <MEMBER name="enrapture" wn="enrapture%2:37:00"/>
         <MEMBER name="entertain" wn="entertain%2:41:00"/>
@@ -104,7 +104,7 @@
         <MEMBER name="exhilarate" wn="exhilarate%2:37:00"/>
         <MEMBER name="fascinate" wn="fascinate%2:42:00 fascinate%2:37:01"/>
         <MEMBER name="fatigue" wn=""/>
-	<MEMBER name="faze" wn="faze%2:37:00"/>
+        <MEMBER name="faze" wn="faze%2:37:00"/>
         <MEMBER name="flabbergast" wn="flabbergast%2:31:00"/>
         <MEMBER name="flatter" wn="flatter%2:32:00"/>
         <MEMBER name="floor" wn="floor%2:37:00"/>
@@ -116,11 +116,11 @@
         <MEMBER name="gladden" wn="gladden%2:37:01 gladden%2:37:00"/>
         <MEMBER name="gratify" wn="gratify%2:37:00 gratify%2:34:00"/>
         <MEMBER name="grieve" wn="grieve%2:37:01"/>
-        <MEMBER name="harass" wn="harass%2:37:01 harass%2:37:00"/>
+        <MEMBER name="harass" wn="harass%2:37:00"/>
         <MEMBER name="harm" wn=""/>
         <MEMBER name="haunt" wn="haunt%2:37:00"/>
         <MEMBER name="hearten" wn="hearten%2:37:00"/>
-        <MEMBER name="horrify" wn="horrify%2:37:01 horrify%2:37:00"/>
+        <MEMBER name="horrify" wn="horrify%2:37:01"/>
         <MEMBER name="humble" wn="humble%2:37:01 humble%2:37:00"/>
         <MEMBER name="humiliate" wn="humiliate%2:37:00"/>
         <MEMBER name="hurt" wn="hurt%2:30:04"/>
@@ -155,12 +155,12 @@
         <MEMBER name="muddle" wn="muddle%2:31:00"/>
         <MEMBER name="mystify" wn="mystify%2:31:00"/>
         <MEMBER name="nauseate" wn="nauseate%2:37:00"/>
-        <MEMBER name="nettle" wn="nettle%2:32:00 nettle%2:37:00"/>
+        <MEMBER name="nettle" wn="nettle%2:37:00"/>
         <MEMBER name="numb" wn="numb%2:39:00"/>
         <MEMBER name="obsess" wn="obsess%2:37:00"/>
         <MEMBER name="occupy" wn=""/>
         <MEMBER name="offend" wn="offend%2:37:01 offend%2:37:02 offend%2:37:00"/>
-        <MEMBER name="outrage" wn="outrage%2:37:01 outrage%2:37:00"/>
+        <MEMBER name="outrage" wn="outrage%2:37:01"/>
         <MEMBER name="overawe" wn="overawe%2:37:00"/>
         <MEMBER name="overwhelm" wn="overwhelm%2:37:00"/>
         <MEMBER name="pacify" wn="pacify%2:37:00"/>
@@ -212,7 +212,7 @@
         <MEMBER name="stir" wn="stir%2:37:01 stir%2:36:00"/>
         <MEMBER name="strike" wn="strike%2:37:00"/>
         <MEMBER name="stump" wn="stump%2:31:00"/>
-        <MEMBER name="stun" wn="stun%2:37:00 stun%2:39:00"/>
+        <MEMBER name="stun" wn="stun%2:39:00"/>
         <MEMBER name="stupefy" wn="stupefy%2:39:00 stupefy%2:31:00"/>
         <MEMBER name="surprise" wn="surprise%2:31:00"/>
         <MEMBER name="tantalize" wn="tantalize%2:32:00"/>
@@ -259,7 +259,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The clown amused the children"]]></EXAMPLE>
+                <EXAMPLE>The clown amused the children.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Cause">
@@ -289,7 +289,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Little children amuse easily"]]></EXAMPLE>
+                <EXAMPLE>Little children amuse easily.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
@@ -310,13 +310,13 @@
                         <ARG type="VerbSpecific" value="Prop"/>
                     </ARGS>
                 </PRED>
-               </SEMANTICS>
+            </SEMANTICS>
             <!--most verbs-->
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="1.2.5" primary="PRO-Arb Object Alternation" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["That joke never fails to amuse "]]></EXAMPLE>
+                <EXAMPLE>That joke never fails to amuse.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Cause">
@@ -343,7 +343,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The clown amused the children with his antics"]]></EXAMPLE>
+                <EXAMPLE>The clown amused the children with his antics.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Cause">
@@ -379,7 +379,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.13.4" primary="NP" secondary="Attribute Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The clown's antics amused the children"]]></EXAMPLE>
+                <EXAMPLE>The clown's antics amused the children.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Cause">
@@ -387,7 +387,7 @@
                         <SYNRESTR Value="+" type="genitive"/>
                     </SYNRESTRS>
                 </NP>
-                <LEX value="ss"/>
+                <LEX value="'s"/>
                 <NP value="Oblique">
                     <SELRESTRS/>
                 </NP>
@@ -415,7 +415,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["That movie bored me silly"]]></EXAMPLE>
+                <EXAMPLE>That movie bored me silly.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Cause">

@@ -36,7 +36,7 @@
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Body-part Object" xtag="0.2"/>
             <!-- Patient must be a hyponym of the body part allowed by the verb, or must specify additional information-->
             <EXAMPLES>
-                <EXAMPLE>&quot;Linda winked her eye&quot;</EXAMPLE>
+                <EXAMPLE>Linda winked her eye.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -73,7 +73,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Theme-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Linda winked her eye in agreement&quot;</EXAMPLE>
+                <EXAMPLE>Linda winked her eye in agreement.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -116,7 +116,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Cause-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Linda winked her eye at his behavior&quot;</EXAMPLE>
+                <EXAMPLE>Linda winked her eye at his behavior.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -167,10 +167,10 @@
         <VNSUBCLASS ID="wink-40.3.1-1">
             <MEMBERS>
                 <!--"blink, squint, wink" can also be used in involuntary action, which we are not considered in this class-->
-	        <MEMBER name="beckon" wn=""/>
+                <MEMBER name="beckon" wn=""/>
                 <MEMBER name="blink" wn="blink%2:29:00 blink%2:29:01"/>
                 <MEMBER name="clap" wn="clap%2:29:00"/>
-        	<MEMBER name="gesture" wn=""/>
+                <MEMBER name="gesture" wn=""/>
                 <MEMBER name="nod" wn="nod%2:32:00 nod%2:29:03"/>
                 <MEMBER name="point" wn="?point%2:32:00 ?point%2:33:10"/>
                 <MEMBER name="shrug" wn="shrug%2:29:00"/>
@@ -181,9 +181,9 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Linda winked&quot;</EXAMPLE>
+                        <EXAMPLE>Linda winked.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -217,7 +217,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Recipient-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Linda winked at the audience&quot;</EXAMPLE>
+                        <EXAMPLE>Linda winked at the audience.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -259,7 +259,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Theme-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Linda winked her agreement&quot;</EXAMPLE>
+                        <EXAMPLE>Linda winked her agreement.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -296,7 +296,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Theme-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Linda winked in agreement&quot;</EXAMPLE>
+                        <EXAMPLE>Linda winked in agreement.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -336,7 +336,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Cause-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Linda winked at his behavior&quot;</EXAMPLE>
+                        <EXAMPLE>Linda winked at his behavior.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -382,7 +382,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA[""His brother nodded vigorous assent.""]]></EXAMPLE>
+                        <EXAMPLE>His brother nodded vigorous assent.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

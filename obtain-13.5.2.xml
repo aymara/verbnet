@@ -3,9 +3,9 @@
 <VNCLASS ID="obtain-13.5.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="accept" wn="accept%2:40:00"/>
-        <MEMBER name="accrue" wn=""/>
-        <MEMBER name="accumulate" wn="?accumulate%2:40:00 accumulate%2:35:00"/>
-        <MEMBER name="appropriate" wn="appropriate%2:31:00 appropriate%2:40:00"/>
+        <MEMBER name="accrue" wn="accrue%2:30:00 accrue%2:40:10"/>
+        <MEMBER name="accumulate" wn="?accumulate%2:40:00"/>
+        <MEMBER name="appropriate" wn="appropriate%2:40:00"/>
         <MEMBER name="borrow" wn="borrow%2:40:00"/>
         <MEMBER name="cadge" wn="cadge%2:40:00 cadge%2:40:01"/>
         <MEMBER name="collect" wn="collect%2:40:00 collect%2:40:01 collect%2:35:00 collect%2:35:01 collect%2:40:03"/>
@@ -38,9 +38,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Carmen obtained the spare part&quot;</EXAMPLE>
+                <EXAMPLE>Carmen obtained the spare part.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -83,7 +83,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="from-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Carmen obtained the spare part from Diana&quot;</EXAMPLE>
+                <EXAMPLE>Carmen obtained the spare part from Diana.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -148,7 +148,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="3.9" primary="NP-PP" secondary="Asset-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Carmen purchased a dress for $50&quot;</EXAMPLE>
+                        <EXAMPLE>Carmen purchased a dress for $50.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -203,7 +203,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="3.9" primary="NP" secondary="Asset Subject" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;$50 won't even purchase a dress&quot;</EXAMPLE>
+                        <EXAMPLE>$50 won't even purchase a dress.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Asset">

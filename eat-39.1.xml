@@ -20,7 +20,7 @@
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">
-                    <SELRESTRS logic="and">
+                    <SELRESTRS>
                         <SELRESTR Value="+" type="comestible"/>
                         <SELRESTR Value="+" type="solid"/>
                     </SELRESTRS>
@@ -30,7 +30,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Cynthia ate the peach."]]></EXAMPLE>
+                        <EXAMPLE>Cynthia ate the peach.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -54,7 +54,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Unspecified Object" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Cynthia ate."]]></EXAMPLE>
+                        <EXAMPLE>Cynthia ate.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -75,7 +75,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Conative" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Cynthia ate at the peach."]]></EXAMPLE>
+                        <EXAMPLE>Cynthia ate at the peach.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -102,7 +102,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="NP-ADJP" secondary="Resultative" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Cynthia ate herself sick."]]></EXAMPLE>
+                        <EXAMPLE>Cynthia ate herself sick.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -135,7 +135,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP" secondary="Source-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["He ate off of the table."]]></EXAMPLE>
+                        <EXAMPLE>He ate off of the table.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -177,7 +177,7 @@
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">
-                    <SELRESTRS logic="and">
+                    <SELRESTRS>
                         <SELRESTR Value="+" type="comestible"/>
                         <SELRESTR Value="-" type="solid"/>
                     </SELRESTRS>
@@ -187,7 +187,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Cynthia drank the wine."]]></EXAMPLE>
+                        <EXAMPLE>Cynthia drank the wine.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -211,7 +211,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Unspecified Object" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Cynthia drank."]]></EXAMPLE>
+                        <EXAMPLE>Cynthia drank.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -232,7 +232,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="NP-ADJP" secondary="Resultative" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Cythia drank herself sick."]]></EXAMPLE>
+                        <EXAMPLE>Cythia drank herself sick.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -265,7 +265,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP" secondary="Source-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["He drank out of the goblet."]]></EXAMPLE>
+                        <EXAMPLE>He drank out of the goblet.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

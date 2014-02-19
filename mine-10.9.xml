@@ -25,9 +25,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The men mined the gold&quot;</EXAMPLE>
+                <EXAMPLE>The men mined the gold.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -64,7 +64,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="PP" secondary="source-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The men mined the gold from the abandoned mine&quot;</EXAMPLE>
+                <EXAMPLE>The men mined the gold from the abandoned mine.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

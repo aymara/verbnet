@@ -6,7 +6,7 @@
         <MEMBER name="boast" wn="boast%2:32:00"/>
         <MEMBER name="brag" wn="brag%2:32:00"/>
         <MEMBER name="complain" wn="complain%2:32:00"/>
-        <MEMBER name="crab" wn=""/>
+        <MEMBER name="crab" wn="crab%2:32:00"/>
         <MEMBER name="gripe" wn="gripe%2:32:00"/>
         <MEMBER name="grouch" wn="grouch%2:32:00"/>
         <MEMBER name="grouse" wn="grouse%2:33:00"/>
@@ -35,9 +35,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan complained&quot;</EXAMPLE>
+                <EXAMPLE>Susan complained.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -65,7 +65,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan complained to Rachel&quot;</EXAMPLE>
+                <EXAMPLE>Susan complained to Rachel.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -97,9 +97,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="S" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="S" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan complained that the party would be tonight&quot;</EXAMPLE>
+                <EXAMPLE>Susan complained that the party would be tonight.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -132,7 +132,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.5" primary="PP-S" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan complained to Rachel that the party would be tonight&quot;</EXAMPLE>
+                <EXAMPLE>Susan complained to Rachel that the party would be tonight.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -171,7 +171,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="PP" secondary="Topic-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Ellen complained about the situation&quot;</EXAMPLE>
+                <EXAMPLE>Ellen complained about the situation.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -205,7 +205,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="PP-PP" secondary="Topic-PP Recipient-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Ellen complained about the situation to Helen&quot;</EXAMPLE>
+                <EXAMPLE>Ellen complained about the situation to Helen.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -243,9 +243,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.3" primary="QUOT" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.3" primary="QUOT" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Ellen complained, 'The mail didn't come today.'&quot;</EXAMPLE>
+                <EXAMPLE>Ellen complained, 'The mail didn't come today.'</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -278,7 +278,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.3" primary="PP-QUOT" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Ellen complained to Helen, 'The mail didn't come today.'&quot;</EXAMPLE>
+                <EXAMPLE>Ellen complained to Helen, 'The mail didn't come today.'</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -317,7 +317,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="Recipient-PP Topic-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The prime minister complained to the former president about U.S. interference in his country's affairs."]]></EXAMPLE>
+                <EXAMPLE>The prime minister complained to the former president about U.S. interference in his country's affairs.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

@@ -24,38 +24,40 @@
         <MEMBER name="dapple" wn="dapple%2:30:00"/>
         <MEMBER name="deck" wn="deck%2:42:00 deck%2:36:00"/>
         <MEMBER name="decorate" wn="decorate%2:36:00 decorate%2:42:00 decorate%2:35:00"/>
-        <MEMBER name="deluge" wn="deluge%2:42:10 deluge%2:35:00 deluge%2:30:00"/>
+        <MEMBER name="deluge" wn="deluge%2:35:00 deluge%2:30:00"/>
         <MEMBER name="dirty" wn="dirty%2:35:00"/>
+        <MEMBER name="disguise" wn=""/>
         <MEMBER name="douse" wn="douse%2:43:00 douse%2:42:09 douse%2:38:00 douse%2:35:00 douse%2:30:00"/>
         <MEMBER name="dot" wn="dot%2:42:00 dot%2:35:00"/>
         <MEMBER name="drench" wn="drench%2:30:00"/>
         <MEMBER name="edge" wn="edge%2:40:00"/>
         <MEMBER name="embellish" wn="embellish%2:32:00 embellish%2:42:00 embellish%2:36:00 embellish%2:30:00"/>
         <MEMBER name="emblazon" wn="emblazon%2:36:01 emblazon%2:36:00"/>
-        <MEMBER name="encircle" wn="encircle%2:42:00 encircle%2:35:12 encircle%2:35:00"/>
+        <MEMBER name="encircle" wn="encircle%2:35:12 encircle%2:35:00"/>
         <MEMBER name="encrust" wn="encrust%2:35:00 encrust%2:35:01 encrust%2:30:00"/>
         <MEMBER name="endow" wn="endow%2:41:00"/>
         <MEMBER name="enrich" wn="enrich%2:30:00 enrich%2:40:00"/>
         <MEMBER name="entangle" wn="entangle%2:42:00 entangle%2:35:00"/>
         <MEMBER name="face" wn="face%2:35:00 face%2:35:01"/>
         <MEMBER name="festoon" wn="festoon%2:36:00"/>
-        <MEMBER name="fill" wn="fill%2:30:01 fill%2:42:00 fill%2:30:02 fill%2:35:12"/>
+        <MEMBER name="fill" wn="fill%2:30:01 fill%2:42:00 fill%2:30:02 fill%2:30:00"/>
         <MEMBER name="fleck" wn="fleck%2:35:00"/>
-        <MEMBER name="flood" wn="flood%2:35:00 flood%2:30:00 flood%2:42:10 flood%2:40:00"/>
+        <MEMBER name="flood" wn="flood%2:35:00 flood%2:30:00 flood%2:40:00"/>
         <MEMBER name="frame" wn="frame%2:35:00 frame%2:42:00"/>
         <MEMBER name="garland" wn="garland%2:36:00"/>
         <MEMBER name="garnish" wn="garnish%2:36:00"/>
         <MEMBER name="grace" wn=""/>
-        <MEMBER name="imbue" wn="imbue%2:35:00 imbue%2:30:01 imbue%2:30:00"/>
+        <MEMBER name="gild" wn="gild%2:36:00"/>
+        <MEMBER name="imbue" wn="imbue%2:30:01"/>
         <MEMBER name="impregnate" wn="impregnate%2:30:00 impregnate%2:29:00"/>
         <MEMBER name="infect" wn="infect%2:29:00"/>
-        <MEMBER name="inlay" wn=""/>
+        <MEMBER name="inlay" wn="inlay%2:36:00"/>
         <MEMBER name="interlace" wn="interlace%2:35:00"/>
         <MEMBER name="interlard" wn="interlard%2:30:00"/>
         <MEMBER name="interleave" wn="interleave%2:30:00"/>
         <MEMBER name="intersperse" wn="intersperse%2:35:02 intersperse%2:30:00"/>
         <MEMBER name="interweave" wn="interweave%2:35:00"/>
-        <MEMBER name="inundate" wn="inundate%2:42:10 inundate%2:35:00 inundate%2:30:00"/>
+        <MEMBER name="inundate" wn="inundate%2:35:00 inundate%2:30:00"/>
         <MEMBER name="lard" wn="lard%2:36:00 lard%2:32:00"/>
         <MEMBER name="lash" wn="lash%2:35:02"/>
         <MEMBER name="line" wn="line%2:35:00 line%2:30:00 line%2:30:01"/>
@@ -64,16 +66,17 @@
         <MEMBER name="mottle" wn="mottle%2:36:00 mottle%2:30:00"/>
         <MEMBER name="ornament" wn="ornament%2:36:00"/>
         <MEMBER name="pad" wn="pad%2:32:00 pad%2:35:00 pad%2:30:00"/>
+        <MEMBER name="panel" wn="panel%2:36:00"/>
         <MEMBER name="pave" wn="pave%2:35:00"/>
         <MEMBER name="plate" wn="plate%2:35:00"/>
         <MEMBER name="plug" wn="plug%2:35:01"/>
         <MEMBER name="replenish" wn="replenish%2:30:00"/>
         <MEMBER name="repopulate" wn=""/>
         <MEMBER name="riddle" wn="riddle%2:35:00"/>
-        <MEMBER name="ring" wn="ring%2:42:00 ring%2:35:00"/>
+        <MEMBER name="ring" wn="ring%2:35:03"/>
         <MEMBER name="ripple" wn="?ripple%2:38:00"/>
         <MEMBER name="robe" wn="robe%2:29:00"/>
-        <MEMBER name="saturate" wn="saturate%2:30:04 saturate%2:30:00"/>
+        <MEMBER name="saturate" wn="saturate%2:30:04"/>
         <MEMBER name="season" wn="season%2:39:00"/>
         <MEMBER name="shroud" wn="shroud%2:42:02 shroud%2:35:00"/>
         <MEMBER name="smother" wn="smother%2:35:02 smother%2:42:00"/>
@@ -88,7 +91,7 @@
         <MEMBER name="stud" wn="stud%2:35:00"/>
         <MEMBER name="suffuse" wn="suffuse%2:30:01"/>
         <MEMBER name="sully" wn=""/>
-        <MEMBER name="surround" wn="surround%2:42:00 surround%2:35:00 surround%2:35:01 surround%2:33:01"/>
+        <MEMBER name="surround" wn="surround%2:35:00 surround%2:35:01 surround%2:33:00 surround%2:33:01"/>
         <MEMBER name="swaddle" wn="swaddle%2:35:00"/>
         <MEMBER name="swathe" wn="swathe%2:35:00"/>
         <MEMBER name="taint" wn="taint%2:29:00"/>
@@ -120,7 +123,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Leslie staffed the store with employees&quot;</EXAMPLE>
+                <EXAMPLE>Leslie staffed the store with employees.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -169,7 +172,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="in-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Leigh swaddled the baby in blankets&quot;</EXAMPLE>
+                <EXAMPLE>Leigh swaddled the baby in blankets.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -216,9 +219,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.5" primary="Locatum Subject Alternation" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.5" primary="Locatum Subject Alternation" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The employees staffed the store&quot;</EXAMPLE>
+                <EXAMPLE>The employees staffed the store.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -242,7 +245,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Destination Object" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Leslie staffed the store&quot;</EXAMPLE>
+                <EXAMPLE>Leslie staffed the store.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -294,7 +297,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Basic Intransitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["CFC's pollute."]]></EXAMPLE>
+                        <EXAMPLE>CFC's pollute.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Theme">
@@ -303,13 +306,13 @@
                         <VERB/>
                     </SYNTAX>
                     <SEMANTICS>
-			<PRED value="location">
-			   <ARGS>
-				<ARG type="Event" value="E"/>
-				<ARG type="ThemRole" value="Theme"/>
-				<ARG type="ThemRole" value="?Destination"/>
-			   </ARGS>
-			</PRED>
+                        <PRED value="location">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Destination"/>
+                            </ARGS>
+                        </PRED>
                     </SEMANTICS>
                 </FRAME>
             </FRAMES>

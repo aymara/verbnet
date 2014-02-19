@@ -28,7 +28,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["My family always summered at the seashore"]]></EXAMPLE>
+                <EXAMPLE>My family always summered at the seashore.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">

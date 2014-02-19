@@ -31,7 +31,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP-PP-PP" secondary="Causative variant, Material-PP Product-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The witch turned him from a prince into a frog&quot;</EXAMPLE>
+                <EXAMPLE>The witch turned him from a prince into a frog.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -94,7 +94,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2.1" primary="PP-PP" secondary="Inchoative variant, Material-PP Product-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He turned from a prince into a frog&quot;</EXAMPLE>
+                <EXAMPLE>He turned from a prince into a frog.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -146,9 +146,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.4.3" primary="Total Transformation Alternation Transitive" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.4.3" primary="Total Transformation Alternation Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The witch turned him into a frog&quot;</EXAMPLE>
+                <EXAMPLE>The witch turned him into a frog.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -189,9 +189,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.4.4" primary="Total Transformation Alternation Intransitive" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.4.4" primary="Total Transformation Alternation Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He turned into a frog&quot;</EXAMPLE>
+                <EXAMPLE>He turned into a frog.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -225,7 +225,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="Basic Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The man was converting again."]]></EXAMPLE>
+                <EXAMPLE>The man was converting again.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -253,7 +253,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The 1980s bull market transformed the U.S. securities business."]]></EXAMPLE>
+                <EXAMPLE>The 1980s bull market transformed the U.S. securities business.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -303,7 +303,7 @@
         </FRAME>
     </FRAMES>
     <SUBCLASSES>
-        <VNSUBCLASS ID="turn-26.6-1">
+        <VNSUBCLASS ID="turn-26.6.1-1">
             <MEMBERS>
                 <MEMBER name="change" wn="change%2:30:00 change%2:30:01 change%2:30:08"/>
                 <MEMBER name="convert" wn="convert%2:30:03 convert%2:30:00 convert%2:30:01 convert%2:30:02 convert%2:30:07 convert%2:30:04"/>
@@ -314,7 +314,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP" secondary="w/ endstate" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["He converted to a world without CFCs."]]></EXAMPLE>
+                        <EXAMPLE>He converted to a world without CFCs.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -368,7 +368,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="w/ beginning state w/ end state" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["The thrift, which converted from a mutual form in April 1986 to a stock form of ownership."]]></EXAMPLE>
+                        <EXAMPLE>The thrift, which converted from a mutual form in April 1986 to a stock form of ownership.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -428,7 +428,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="w/ end state w/ beginning state" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["The thrift, which converted to a stock form of ownership from a mutual form in April 1986."]]></EXAMPLE>
+                        <EXAMPLE>The thrift, which converted to a stock form of ownership from a mutual form in April 1986.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

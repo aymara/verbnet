@@ -2,9 +2,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="dedicate-79" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="dedicate" wn=""/>
-        <MEMBER name="devote" wn=""/>
-        <MEMBER name="commit" wn=""/>
+        <MEMBER name="dedicate" wn="dedicate%2:32:00"/>
+        <MEMBER name="devote" wn="devote%2:32:00"/>
+        <MEMBER name="commit" wn="commit%2:32:01 commit%2:40:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -24,7 +24,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-P-ING-SC" secondary="to-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I dedicated myself to helping us.&quot;</EXAMPLE>
+                <EXAMPLE>I dedicated myself to helping us.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -34,14 +34,14 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-		<PREP value="to">
-		    <SELRESTRS/>
-		</PREP>
-		<NP value="Proposition">
-		    <SYNRESTRS>
-			<SYNRESTR Value="+" type="sc_ing"/>
-		    </SYNRESTRS>
-		</NP>
+                <PREP value="to">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sc_ing"/>
+                    </SYNRESTRS>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="dedicate">
@@ -57,7 +57,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="to-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I dedicated myself to the cause.&quot;</EXAMPLE>
+                <EXAMPLE>I dedicated myself to the cause.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -67,13 +67,13 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-		<PREP value="to">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="to">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Proposition">
                     <SYNRESTRS>
-			<SYNRESTR Value="-" type="sentential"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

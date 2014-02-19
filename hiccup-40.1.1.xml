@@ -6,15 +6,15 @@
         <MEMBER name="belch" wn="belch%2:29:00"/>
         <MEMBER name="blush" wn="blush%2:29:00"/>
         <MEMBER name="burp" wn="burp%2:29:00"/>
-        <MEMBER name="eruct" wn=""/>
-        <MEMBER name="fart" wn=""/>
+        <MEMBER name="eruct" wn="eruct%2:29:00"/>
+        <MEMBER name="fart" wn="fart%2:29:00"/>
         <MEMBER name="flush" wn="flush%2:29:00"/>
         <MEMBER name="hiccup" wn="hiccup%2:29:00"/>
         <MEMBER name="pant" wn="pant%2:29:00"/>
         <MEMBER name="sneeze" wn="sneeze%2:29:00"/>
         <MEMBER name="sniffle" wn="sniffle%2:29:00"/>
         <MEMBER name="snore" wn="snore%2:29:00"/>
-        <MEMBER name="snuff" wn=""/>
+        <MEMBER name="snuff" wn="snuff%2:29:02"/>
         <MEMBER name="snuffle" wn="snuffle%2:29:00"/>
         <MEMBER name="swallow" wn="swallow%2:34:00"/>
         <MEMBER name="wheeze" wn="wheeze%2:29:00"/>
@@ -29,9 +29,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paul hiccuped&quot;</EXAMPLE>
+                <EXAMPLE>Paul hiccuped.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

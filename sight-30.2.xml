@@ -6,21 +6,21 @@
         <MEMBER name="discover" wn="discover%2:36:00 discover%2:40:00 discover%2:39:00"/>
         <MEMBER name="espy" wn="espy%2:39:00"/>
         <MEMBER name="examine" wn="examine%2:31:00 examine%2:39:00"/>
-        <MEMBER name="experience" wn=""/>
+        <MEMBER name="experience" wn="experience%2:31:00"/>
         <MEMBER name="eye" wn="eye%2:39:00"/>
         <MEMBER name="glimpse" wn="glimpse%2:39:00"/>
         <MEMBER name="inspect" wn="inspect%2:39:00 inspect%2:38:00 inspect%2:31:00"/>
         <MEMBER name="investigate" wn="investigate%2:32:00 investigate%2:32:01"/>
-        <MEMBER name="make_out" wn=""/>
+        <MEMBER name="make_out" wn="make_out%2:39:00"/>
         <MEMBER name="note" wn="note%2:39:00 note%2:39:02 note%2:32:01"/>
         <MEMBER name="observe" wn="observe%2:39:02 observe%2:39:01 observe%2:41:00 observe%2:31:00"/>
         <MEMBER name="overhear" wn="overhear%2:39:00"/>
         <MEMBER name="perceive" wn="perceive%2:39:00"/>
-        <MEMBER name="peruse" wn=""/>
+        <MEMBER name="peruse" wn="peruse%2:39:00"/>
         <MEMBER name="recognize" wn="recognize%2:39:01 recognize%2:32:01"/>
         <MEMBER name="regard" wn="regard%2:39:00"/>
         <MEMBER name="savor" wn="savor%2:37:00 savor%2:39:00"/>
-        <MEMBER name="scan" wn="scan%2:39:01 scan%2:39:00 scan%2:31:01"/>
+        <MEMBER name="scan" wn="scan%2:39:01 scan%2:39:00"/>
         <MEMBER name="scent" wn="scent%2:39:01"/>
         <MEMBER name="scrutinize" wn="scrutinize%2:39:00 scrutinize%2:31:00"/>
         <MEMBER name="sight" wn="sight%2:39:00"/>
@@ -47,7 +47,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The crew spotted the island"]]></EXAMPLE>
+                <EXAMPLE>The crew spotted the island.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">

@@ -29,7 +29,7 @@
         <MEMBER name="atrophy" wn="atrophy%2:29:00"/>
         <MEMBER name="attenuate" wn="attenuate%2:30:01 attenuate%2:30:00"/>
         <MEMBER name="augment" wn=""/>
-	<MEMBER name="awake" wn="awake%2:29:00"/>
+        <MEMBER name="awake" wn="awake%2:29:00"/>
         <MEMBER name="awaken" wn="awaken%2:29:00 awaken%2:29:01"/>
         <MEMBER name="balance" wn="balance%2:42:00 balance%2:42:01"/>
         <MEMBER name="blacken" wn="blacken%2:30:00 blacken%2:30:01"/>
@@ -45,7 +45,7 @@
         <MEMBER name="blur" wn="blur%2:39:01 blur%2:39:00 blur%2:30:01 blur%2:30:00"/>
         <MEMBER name="bolshevize" wn=""/>
         <MEMBER name="botch" wn=""/>
-        <MEMBER name="brighten" wn="brighten%2:30:01 brighten%2:43:00 brighten%2:39:00 brighten%2:30:00"/>
+        <MEMBER name="brighten" wn="brighten%2:30:01 brighten%2:43:00"/>
         <MEMBER name="broaden" wn="broaden%2:30:01 broaden%2:30:00"/>
         <MEMBER name="brown" wn="brown%2:30:00"/>
         <MEMBER name="burn" wn="burn%2:30:02 burn%2:43:01 burn%2:30:00 burn%2:30:01 burn%2:41:00 burn%2:29:00 burn%2:30:03"/>
@@ -71,7 +71,7 @@
         <MEMBER name="clean" wn="clean%2:35:00 clean%2:30:01 clean%2:29:00 clean%2:42:00 clean%2:35:02 clean%2:30:02"/>
         <MEMBER name="clear" wn="clear%2:43:00 clear%2:39:05 clear%2:40:12 clear%2:30:03"/>
         <MEMBER name="clog" wn="clog%2:35:00"/>
-        <MEMBER name="close" wn="close%2:35:00 close%2:35:06 close%2:35:11"/>
+        <MEMBER name="close" wn="close%2:41:00 close%2:35:00 close%2:35:06 close%2:39:10"/>
         <MEMBER name="clouded" wn=""/>
         <MEMBER name="coagulate" wn="coagulate%2:30:00"/>
         <MEMBER name="coarsen" wn="coarsen%2:35:00"/>
@@ -84,8 +84,8 @@
         <MEMBER name="construct" wn=""/>
         <MEMBER name="contextualize" wn=""/>
         <MEMBER name="contract" wn="contract%2:35:04 contract%2:30:04 contract%2:35:00"/>
-	<MEMBER name="constrict" wn=""/>
-	<MEMBER name="constringe" wn=""/>
+        <MEMBER name="constrict" wn=""/>
+        <MEMBER name="constringe" wn=""/>
         <MEMBER name="cool" wn="cool%2:30:01 cool%2:30:00"/>
         <MEMBER name="correct" wn=""/>
         <MEMBER name="corrode" wn="corrode%2:30:01 corrode%2:30:00"/>
@@ -94,11 +94,11 @@
         <MEMBER name="cremate" wn=""/>
         <MEMBER name="crimson" wn="crimson%2:29:00"/>
         <MEMBER name="crisp" wn="crisp%2:30:00"/>
-        <MEMBER name="crumble" wn="crumble%2:30:00 crumble%2:30:13"/>
+        <MEMBER name="crumble" wn="crumble%2:30:00 crumble%2:38:00"/>
         <MEMBER name="crystallize" wn="crystallize%2:30:01 crystallize%2:30:00"/>
         <MEMBER name="curdle" wn=""/>
         <MEMBER name="dampen" wn="dampen%2:30:01"/>
-        <MEMBER name="darken" wn="darken%2:30:00 darken%2:39:00 darken%2:30:01"/>
+        <MEMBER name="darken" wn="darken%2:30:00 darken%2:30:01"/>
         <MEMBER name="deafen" wn=""/>
         <MEMBER name="debilitate" wn=""/>
         <MEMBER name="de-escalate" wn="de-escalate%2:30:00"/>
@@ -109,7 +109,7 @@
         <MEMBER name="deepen" wn="deepen%2:30:03 deepen%2:30:02"/>
         <MEMBER name="deflate" wn="deflate%2:35:01 deflate%2:35:00 deflate%2:30:00"/>
         <MEMBER name="defrost" wn="defrost%2:30:00"/>
-        <MEMBER name="degenerate" wn="degenerate%2:30:00 degenerate%2:29:00"/>
+        <MEMBER name="degenerate" wn="degenerate%2:29:00"/>
         <MEMBER name="degrade" wn="degrade%2:30:00"/>
         <MEMBER name="dehumidify" wn="dehumidify%2:30:00"/>
         <MEMBER name="dehydrate" wn=""/>
@@ -126,7 +126,7 @@
         <MEMBER name="diffract" wn=""/>
         <MEMBER name="diffuse" wn=""/>
         <MEMBER name="dilute" wn=""/>
-        <MEMBER name="dim" wn="dim%2:39:01 dim%2:39:00 dim%2:30:01 dim%2:30:00"/>
+        <MEMBER name="dim" wn="dim%2:39:01 dim%2:30:01"/>
         <MEMBER name="diminish" wn="diminish%2:30:00"/>
         <MEMBER name="dirty" wn="dirty%2:35:00"/>
         <MEMBER name="disintegrate" wn="disintegrate%2:30:00"/>
@@ -140,7 +140,7 @@
         <MEMBER name="divide" wn="divide%2:41:00 divide%2:35:00"/>
         <MEMBER name="domesticate" wn=""/>
         <MEMBER name="double" wn="double%2:30:00"/>
-        <MEMBER name="drain" wn="drain%2:38:00 drain%2:30:01 drain%2:30:00"/>
+        <MEMBER name="drain" wn="drain%2:38:00 drain%2:30:01"/>
         <MEMBER name="dry" wn="dry%2:30:01 dry%2:30:00"/>
         <MEMBER name="dull" wn="dull%2:35:01 dull%2:30:00 dull%2:35:02"/>
         <MEMBER name="ease" wn="ease%2:30:00 ease%2:37:00"/>
@@ -174,7 +174,7 @@
         <MEMBER name="fill" wn="fill%2:30:01 fill%2:30:00"/>
         <MEMBER name="firm" wn="firm%2:30:00 firm%2:30:01"/>
         <MEMBER name="flatten" wn="flatten%2:30:01 flatten%2:30:00"/>
-        <MEMBER name="flood" wn="flood%2:35:00 flood%2:30:00 flood%2:42:10 flood%2:30:01"/>
+        <MEMBER name="flood" wn="flood%2:35:00 flood%2:30:00 flood%2:30:01"/>
         <MEMBER name="fossilize" wn="fossilize%2:30:00"/>
         <MEMBER name="fray" wn="fray%2:35:00"/>
         <MEMBER name="freeze" wn="freeze%2:30:00 freeze%2:30:02 freeze%2:30:04"/>
@@ -191,7 +191,7 @@
         <MEMBER name="gray" wn="gray%2:30:01 gray%2:30:00"/>
         <MEMBER name="green" wn="green%2:30:00"/>
         <MEMBER name="grow" wn="grow%2:30:02 grow%2:30:01 grow%2:30:04 grow%2:36:00"/>
-        <MEMBER name="halt" wn="halt%2:38:05 halt%2:38:01 halt%2:38:00 halt%2:30:12"/>
+        <MEMBER name="halt" wn="halt%2:38:05 halt%2:38:01"/>
         <MEMBER name="harden" wn="harden%2:30:00 harden%2:30:01 harden%2:30:04"/>
         <MEMBER name="harmonize" wn="harmonize%2:42:00 harmonize%2:30:03 harmonize%2:30:02"/>
         <MEMBER name="hasten" wn="hasten%2:30:00 hasten%2:38:00 hasten%2:41:00 hasten%2:36:00"/>
@@ -223,7 +223,7 @@
         <MEMBER name="level" wn="level%2:35:01 level%2:30:00"/>
         <MEMBER name="levitate" wn="levitate%2:38:00"/>
         <MEMBER name="light" wn="light%2:30:00 light%2:43:00"/>
-        <MEMBER name="lighten" wn="lighten%2:30:01 lighten%2:30:00 lighten%2:30:02"/>
+        <MEMBER name="lighten" wn="lighten%2:35:00"/>
         <MEMBER name="lignify" wn=""/>
         <MEMBER name="liquefy" wn="liquefy%2:43:00 liquefy%2:30:01 liquefy%2:30:00"/>
         <MEMBER name="loop" wn="loop%2:38:01 loop%2:36:00 loop%2:38:00 loop%2:35:00"/>
@@ -272,7 +272,7 @@
         <MEMBER name="pop" wn=""/>
         <MEMBER name="popularize" wn=""/>
         <MEMBER name="proliferate" wn="proliferate%2:30:00 proliferate%2:30:01"/>
-        <MEMBER name="propagate" wn="propagate%2:40:00 propagate%2:38:01 propagate%2:35:00 propagate%2:35:01 propagate%2:29:01 propagate%2:29:00"/>
+        <MEMBER name="propagate" wn="propagate%2:40:00 propagate%2:38:01 propagate%2:35:00 propagate%2:35:01 propagate%2:29:00"/>
         <MEMBER name="publicize" wn=""/>
         <MEMBER name="pulverize" wn="pulverize%2:30:00"/>
         <MEMBER name="purify" wn="purify%2:30:00"/>
@@ -281,8 +281,8 @@
         <MEMBER name="quadruple" wn="quadruple%2:30:00"/>
         <MEMBER name="quicken" wn="quicken%2:30:01 quicken%2:39:00 quicken%2:30:00 quicken%2:29:00"/>
         <MEMBER name="quiet" wn="quiet%2:39:00 quiet%2:37:00"/>
-        <MEMBER name="quieten" wn="quieten%2:39:00 quieten%2:37:00 quieten%2:30:00"/>        
-	<MEMBER name="rarefy" wn=""/>
+        <MEMBER name="quieten" wn="quieten%2:39:00 quieten%2:37:00 quieten%2:30:00"/>
+        <MEMBER name="rarefy" wn=""/>
         <MEMBER name="reanimate" wn=""/>
         <MEMBER name="redden" wn="redden%2:29:00 redden%2:30:01 redden%2:30:00"/>
         <MEMBER name="regularize" wn="regularize%2:30:00"/>
@@ -296,7 +296,7 @@
         <MEMBER name="round" wn="round%2:30:00 round%2:29:00"/>
         <MEMBER name="rupture" wn="rupture%2:35:00"/>
         <MEMBER name="saponify" wn=""/>
-        <MEMBER name="scorch" wn="scorch%2:30:02 scorch%2:30:01"/>
+        <MEMBER name="scorch" wn="scorch%2:30:02"/>
         <MEMBER name="sear" wn="sear%2:30:00 sear%2:30:02"/>
         <MEMBER name="secularize" wn=""/>
         <MEMBER name="sharpen" wn="sharpen%2:35:00 sharpen%2:30:00 sharpen%2:30:08"/>
@@ -379,8 +379,8 @@
         <MEMBER name="warm" wn="warm%2:30:00 warm%2:30:01"/>
         <MEMBER name="warp" wn="warp%2:30:00"/>
         <MEMBER name="weaken" wn="weaken%2:30:01 weaken%2:30:00"/>
-        <MEMBER name="westernize" wn="westernize%2:30:00"/>        
-	<MEMBER name="wet" wn=""/>
+        <MEMBER name="westernize" wn="westernize%2:30:00"/>
+        <MEMBER name="wet" wn=""/>
         <MEMBER name="whiten" wn="whiten%2:30:00"/>
         <MEMBER name="widen" wn="widen%2:30:00 widen%2:30:05 widen%2:30:03"/>
         <MEMBER name="worsen" wn="worsen%2:30:00 worsen%2:30:01"/>
@@ -404,7 +404,7 @@
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Causative" xtag="0.2"/>
             <!-- couldn't find transitive frame for carbonify, degenerate, glutenize, subside-->
             <EXAMPLES>
-                <EXAMPLE>&quot;Bill dried the clothes&quot;</EXAMPLE>
+                <EXAMPLE>Bill dried the clothes.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -434,7 +434,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Bill dried the clothes with a hairdryer&quot;</EXAMPLE>
+                <EXAMPLE>Bill dried the clothes with a hairdryer.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -477,7 +477,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="Inchoative" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The clothes dried&quot;</EXAMPLE>
+                <EXAMPLE>The clothes dried.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -496,10 +496,10 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
             <!-- Verb specifies property Prop of Patient-->
             <EXAMPLES>
-                <EXAMPLE>&quot;Cotton clothes dry easily&quot;</EXAMPLE>
+                <EXAMPLE>Cotton clothes dry easily.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -523,9 +523,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The hairdryer dried the clothes&quot;</EXAMPLE>
+                <EXAMPLE>The hairdryer dried the clothes.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Instrument">
@@ -556,7 +556,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The clothes dried wrinkled&quot;</EXAMPLE>
+                <EXAMPLE>The clothes dried wrinkled.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -593,7 +593,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP" secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tony broke the piggy bank open with a hammer&quot;</EXAMPLE>
+                <EXAMPLE>Tony broke the piggy bank open with a hammer.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -643,7 +643,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tony broke the glass to pieces&quot;</EXAMPLE>
+                <EXAMPLE>Tony broke the glass to pieces.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -687,7 +687,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tony broke the glass to pieces with a hammer&quot;</EXAMPLE>
+                <EXAMPLE>Tony broke the glass to pieces with a hammer.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -744,7 +744,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Piggy banks break open&quot;</EXAMPLE>
+                <EXAMPLE>Piggy banks break open.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -772,7 +772,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Glasses break to pieces&quot;</EXAMPLE>
+                <EXAMPLE>Glasses break to pieces.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -807,7 +807,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="ADJP-PP" secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Piggy banks break open with a hammer&quot;</EXAMPLE>
+                <EXAMPLE>Piggy banks break open with a hammer.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -846,9 +846,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="PP-PP" secondary="Result-PP, Intsrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Glasses break to pieces with a rock&quot;</EXAMPLE>
+                <EXAMPLE>Glasses break to pieces with a rock.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">

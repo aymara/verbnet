@@ -3,13 +3,13 @@
 <VNCLASS ID="coloring-24" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Material comes from the verb-->
-        <MEMBER name="color" wn="color%2:32:00 color%2:32:01"/>
+        <MEMBER name="color" wn="color%2:30:00 color%2:36:01"/>
         <MEMBER name="distemper" wn="distemper%2:36:00"/>
         <MEMBER name="dye" wn="dye%2:30:00"/>
         <MEMBER name="enamel" wn="enamel%2:36:00"/>
-        <MEMBER name="glaze" wn="glaze%2:35:00 glaze%2:36:00"/>
+        <MEMBER name="glaze" wn="glaze%2:35:00"/>
         <MEMBER name="japan" wn="japan%2:36:00"/>
-        <MEMBER name="lacquer" wn="lacquer%2:36:00 lacquer%2:35:00"/>
+        <MEMBER name="lacquer" wn="lacquer%2:36:00"/>
         <MEMBER name="paint" wn="paint%2:35:00"/>
         <MEMBER name="repaint" wn=""/>
         <MEMBER name="shellac" wn="shellac%2:35:00"/>
@@ -32,9 +32,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Claire colors the picture&quot;</EXAMPLE>
+                <EXAMPLE>Claire colors the picture.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -71,7 +71,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Claire colors the picture red&quot;</EXAMPLE>
+                <EXAMPLE>Claire colors the picture red.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -115,7 +115,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Claire painted the wall into a splotchy mess."]]></EXAMPLE>
+                <EXAMPLE>Claire painted the wall into a splotchy mess.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

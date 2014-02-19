@@ -27,7 +27,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Theme-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I hunted the woods for game"]]></EXAMPLE>
+                <EXAMPLE>I hunted the woods for game.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -58,7 +58,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="Theme-PP Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I hunted for game in the woods"]]></EXAMPLE>
+                <EXAMPLE>I hunted for game in the woods.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -94,7 +94,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP Theme-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I hunted in the woods for game"]]></EXAMPLE>
+                <EXAMPLE>I hunted in the woods for game.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -130,7 +130,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I hunted game in the woods"]]></EXAMPLE>
+                <EXAMPLE>I hunted game in the woods.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -163,7 +163,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.2.1" primary="Basic Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I was hunting game"]]></EXAMPLE>
+                <EXAMPLE>I was hunting game.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -188,7 +188,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.2.1" primary="Basic Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I was hunting"]]></EXAMPLE>
+                <EXAMPLE>I was hunting.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

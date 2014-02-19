@@ -13,7 +13,7 @@
         <MEMBER name="listen" wn="listen%2:39:00 listen%2:39:01"/>
         <MEMBER name="look" wn="look%2:39:00 look%2:39:02"/>
         <MEMBER name="ogle" wn="ogle%2:39:00"/>
-        <MEMBER name="peek" wn="peek%2:39:00 peek%2:39:02"/>
+        <MEMBER name="peek" wn="peek%2:39:02"/>
         <MEMBER name="peep" wn="peep%2:39:00"/>
         <MEMBER name="peer" wn="peer%2:39:00"/>
         <MEMBER name="sniff" wn="sniff%2:39:00"/>
@@ -35,7 +35,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="PP" secondary="Theme-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["We peered at the baby"]]></EXAMPLE>
+                <EXAMPLE>We peered at the baby.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">

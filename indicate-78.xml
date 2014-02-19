@@ -2,8 +2,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="indicate-78" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="imply" wn=""/>
-        <MEMBER name="predict" wn=""/>
+        <MEMBER name="imply" wn="imply%2:32:00 imply%2:32:01 imply%2:42:02"/>
+        <MEMBER name="predict" wn="predict%2:32:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Recipient">
@@ -23,7 +23,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="HOW-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;This indicates how she did it.&quot;</EXAMPLE>
+                <EXAMPLE>This indicates how she did it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Cause">
@@ -32,8 +32,8 @@
                 <VERB/>
                 <NP value="Topic">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="how_extract"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="how_extract"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -50,7 +50,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="HOW-TO-INF" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;This indicates how to do it.&quot;</EXAMPLE>
+                <EXAMPLE>This indicates how to do it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Cause">
@@ -59,8 +59,8 @@
                 <VERB/>
                 <NP value="Topic">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="wh_inf"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="wh_inf"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -77,7 +77,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;This indicates it.&quot;</EXAMPLE>
+                <EXAMPLE>This indicates it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Cause">
@@ -90,7 +90,7 @@
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
-            <SEMANTICS> 
+            <SEMANTICS>
                 <PRED value="indicate">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
@@ -102,9 +102,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WH-S" secondary="" xtag="0.2"/> 
+            <DESCRIPTION descriptionNumber="8.1" primary="WH-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;This indicates whether he is the thief.&quot;</EXAMPLE>    
+                <EXAMPLE>This indicates whether he is the thief.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Cause">
@@ -131,7 +131,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;This indicates what he should do.&quot;</EXAMPLE>
+                <EXAMPLE>This indicates what he should do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Cause">
@@ -140,7 +140,7 @@
                 <VERB/>
                 <NP value="Topic">
                     <SYNRESTRS>
-                        <SYNRESTR Value="+" type="what_extract"/> 
+                        <SYNRESTR Value="+" type="what_extract"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
@@ -157,85 +157,18 @@
         </FRAME>
     </FRAMES>
     <SUBCLASSES>
-        <VNSUBCLASS ID="indicate-76-1">
+        <VNSUBCLASS ID="indicate-78-1">
             <MEMBERS>
-                <MEMBER name="explain" wn=""/>
-                <MEMBER name="indicate" wn=""/>
-                <MEMBER name="say" wn=""/>
+                <MEMBER name="explain" wn="explain%2:32:01"/>
+                <MEMBER name="indicate" wn="indicate%2:32:03 "/>
+                <MEMBER name="say" wn="say%2:32:09"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="PP-THAT-S-SUBJUNCT" secondary="to-PP" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;This indicates to us that they had stolen money.&quot;</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Cause">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-			<PREP value="to">
-			    <SELRESTRS/>
-			</PREP>
-			<NP value="Recipient">
-			    <SYNRESTRS/>
-			</NP>
-                        <NP value="Topic">
-                            <SYNRESTRS logic="and">
-				<SYNRESTR Value="+" type="that_comp"/>
-                                <SYNRESTR Value="-" type="tensed_that"/>
-			    </SYNRESTRS>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-	                <PRED value="indicate">
-	                    <ARGS>
-	                        <ARG type="Event" value="during(E)"/>
-	                        <ARG type="ThemRole" value="Cause"/>
-	                        <ARG type="ThemRole" value="Recipient"/>
-	                        <ARG type="ThemRole" value="Topic"/>
-	                    </ARGS>
-	                </PRED>
-		    </SEMANTICS>
-                </FRAME>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="PP-WH-S" secondary="to-PP" xtag="0.1"/>
-                    <EXAMPLES> 
-                        <EXAMPLE>&quot;This indicates to me whether they did it.&quot;</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Cause">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-			<PREP value="to">
-			    <SELRESTRS/>
-			</PREP>
-			<NP value="Recipient">
-			    <SYNRESTRS/>
-			</NP>
-                        <NP value="Topic">
-                            <SYNRESTRS>
-                                <SYNRESTR Value="+" type="wh_comp"/>
-                            </SYNRESTRS>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-	                <PRED value="indicate">
-	                    <ARGS>
-	                        <ARG type="Event" value="during(E)"/>
-	                        <ARG type="ThemRole" value="Cause"/>
-	                        <ARG type="ThemRole" value="Recipient"/>
-	                        <ARG type="ThemRole" value="Topic"/>
-	                    </ARGS>
-			</PRED>
-		    </SEMANTICS>
-                </FRAME>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="PP-WHAT-S" secondary="to-PP" xtag="0.1"/>
-                    <EXAMPLES>
-                        <EXAMPLE>&quot;This indicates to me what he is.&quot;</EXAMPLE>
+                        <EXAMPLE>This indicates to us that they had stolen money.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Cause">
@@ -243,7 +176,74 @@
                         </NP>
                         <VERB/>
                         <PREP value="to">
-                            <SELRESTRS/> 
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="that_comp"/>
+                                <SYNRESTR Value="-" type="tensed_that"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="indicate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Cause"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="PP-WH-S" secondary="to-PP" xtag="0.1"/>
+                    <EXAMPLES>
+                        <EXAMPLE>This indicates to me whether they did it.</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Cause">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <PREP value="to">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="wh_comp"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="indicate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Cause"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="PP-WHAT-S" secondary="to-PP" xtag="0.1"/>
+                    <EXAMPLES>
+                        <EXAMPLE>This indicates to me what he is.</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Cause">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <PREP value="to">
+                            <SELRESTRS/>
                         </PREP>
                         <NP value="Recipient">
                             <SYNRESTRS/>
@@ -255,20 +255,20 @@
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-	                <PRED value="indicate">
-	                    <ARGS>
-	                        <ARG type="Event" value="during(E)"/>
-	                        <ARG type="ThemRole" value="Cause"/>
-	                        <ARG type="ThemRole" value="Recipient"/>
-	                        <ARG type="ThemRole" value="Topic"/>
-	                    </ARGS>
-	                </PRED>
-		    </SEMANTICS>
+                        <PRED value="indicate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Cause"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="PP-HOW-S" secondary="to-PP" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;This indicates to us how it happended.&quot;</EXAMPLE>    
+                        <EXAMPLE>This indicates to us how it happended.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Cause">
@@ -288,60 +288,60 @@
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-	                <PRED value="indicate">
-	                    <ARGS>
-	                        <ARG type="Event" value="during(E)"/>
-	                        <ARG type="ThemRole" value="Agent"/>
-	                        <ARG type="ThemRole" value="Recipient"/>
-	                        <ARG type="ThemRole" value="Topic"/>
-	                    </ARGS>
-	                </PRED>
-		    </SEMANTICS>
+                        <PRED value="indicate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES>
-		<VNSUBCLASS ID="indicate-76-1-1">
-		    <MEMBERS>
-			<MEMBER name="confirm" wn=""/>
-                        <MEMBER name="demonstrate" wn=""/>
-                        <MEMBER name="establish" wn=""/>
-                        <MEMBER name="prove" wn=""/>
+                <VNSUBCLASS ID="indicate-78-1-1">
+                    <MEMBERS>
+                        <MEMBER name="confirm" wn=""/>
+                        <MEMBER name="demonstrate" wn="demonstrate%2:31:00"/>
+                        <MEMBER name="establish" wn="establish%2:31:00"/>
+                        <MEMBER name="prove" wn="prove%2:31:00"/>
                         <MEMBER name="reveal" wn=""/>
-                        <MEMBER name="show" wn=""/>
-		    </MEMBERS>
-		    <THEMROLES/>
-		    <FRAMES>
-			<FRAME>
-			    <DESCRIPTION descriptionNumber="8.1" primary="NP-TOBE" secondary="" xtag=""/>
-			    <EXAMPLES>
-				<EXAMPLE>&quot;This indicates him to be the thief.&quot;</EXAMPLE>
-			    </EXAMPLES>
-			    <SYNTAX>
-				<NP value="Cause">
-				    <SYNRESTRS/>
-				</NP>
-				<VERB/>
-				<NP value="Topic">
-				    <SYNRESTRS>
-					<SYNRESTR Value="+" type="to_be"/>
-				    </SYNRESTRS>
+                        <MEMBER name="show" wn="show%2:31:00"/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP-TOBE" secondary="" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE>This indicates him to be the thief.</EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Cause">
+                                    <SYNRESTRS/>
                                 </NP>
-			    </SYNTAX>
-			    <SEMANTICS>
-		                <PRED value="indicate">
-		                    <ARGS>
-		                        <ARG type="Event" value="during(E)"/>
-		                        <ARG type="ThemRole" value="Cause"/>
-		                        <ARG type="ThemRole" value="?Recipient"/>
-		                        <ARG type="ThemRole" value="Topic"/>
-		                    </ARGS>
-		                </PRED>
-			    </SEMANTICS>
-			</FRAME>
-		    </FRAMES>
-		    <SUBCLASSES/>
-		</VNSUBCLASS>
-	    </SUBCLASSES>
+                                <VERB/>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="to_be"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="indicate">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Cause"/>
+                                        <ARG type="ThemRole" value="?Recipient"/>
+                                        <ARG type="ThemRole" value="Topic"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>

@@ -21,7 +21,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Sheila groomed the horse"]]></EXAMPLE>
+                <EXAMPLE>Sheila groomed the horse.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

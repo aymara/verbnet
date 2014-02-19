@@ -52,7 +52,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["A ship appeared"]]></EXAMPLE>
+                <EXAMPLE>A ship appeared.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -72,7 +72,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["A ship appeared on the horizon"]]></EXAMPLE>
+                <EXAMPLE>A ship appeared on the horizon.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -114,7 +114,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["There appeared a ship on the horizon"]]></EXAMPLE>
+                <EXAMPLE>There appeared a ship on the horizon.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <LEX value="there"/>
@@ -158,7 +158,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["On the horizon appeared a large ship"]]></EXAMPLE>
+                <EXAMPLE>On the horizon appeared a large ship.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <PREP>
@@ -201,7 +201,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="ADVP-PRED" secondary="here/there" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["It appeared there."]]></EXAMPLE>
+                <EXAMPLE>It appeared there.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">

@@ -21,7 +21,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The crowd vanished"]]></EXAMPLE>
+                <EXAMPLE>The crowd vanished.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -41,7 +41,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.1" primary="PP-NP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["?There vanished from the library a valuable manuscript"]]></EXAMPLE>
+                <EXAMPLE>?There vanished from the library a valuable manuscript.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <LEX value="there"/>

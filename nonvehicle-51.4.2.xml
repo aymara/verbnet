@@ -7,7 +7,7 @@
         <MEMBER name="cruise" wn="cruise%2:38:03 cruise%2:38:01"/>
         <MEMBER name="drive" wn="drive%2:38:00 drive%2:38:02 drive%2:38:11"/>
         <MEMBER name="fly" wn="fly%2:35:00 fly%2:38:05 fly%2:38:04"/>
-        <MEMBER name="navigate" wn=""/>
+        <MEMBER name="navigate" wn="navigate%2:38:00 navigate%2:38:03"/>
         <MEMBER name="oar" wn=""/>
         <MEMBER name="paddle" wn="paddle%2:38:00"/>
         <MEMBER name="pedal" wn="pedal%2:38:00"/>
@@ -39,7 +39,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="inchoative" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They rowed&quot;</EXAMPLE>
+                <EXAMPLE>They rowed.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -59,7 +59,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They rowed along the canal&quot;</EXAMPLE>
+                <EXAMPLE>They rowed along the canal.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -94,7 +94,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="accompanied motion, path-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He rowed Penny across the lake&quot;</EXAMPLE>
+                <EXAMPLE>He rowed Penny across the lake.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -157,7 +157,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="accompanied motion" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He drove Penny&quot;</EXAMPLE>
+                <EXAMPLE>He drove Penny.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -198,7 +198,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Penny rowed her palms raw&quot;</EXAMPLE>
+                <EXAMPLE>Penny rowed her palms raw.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -234,7 +234,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Penny rowed her palms to shreds&quot;</EXAMPLE>
+                <EXAMPLE>Penny rowed her palms to shreds.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -277,7 +277,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He rode her seasick&quot;</EXAMPLE>
+                <EXAMPLE>He rode her seasick.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -313,7 +313,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He rode her to sickness&quot;</EXAMPLE>
+                <EXAMPLE>He rode her to sickness.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -353,44 +353,36 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Locative Preposition Drop" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>They rowed the canals of Venice.</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="via">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
     </FRAMES>
-    <SUBCLASSES>
-        <VNSUBCLASS ID="nonvehicle-51.4.2-1">
-            <MEMBERS/>
-            <THEMROLES/>
-            <FRAMES>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="Locative Preposition Drop" secondary="" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE><![CDATA["They rowed the canals of Venice."]]></EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Agent">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                        <NP value="Location">
-                            <SYNRESTRS/>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="motion">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="via">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Location"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
-            </FRAMES>
-            <SUBCLASSES/>
-        </VNSUBCLASS>
-    </SUBCLASSES>
+    <SUBCLASSES/>
 </VNCLASS>

@@ -10,7 +10,7 @@
         <MEMBER name="drool" wn="drool%2:29:00"/>
         <MEMBER name="emanate" wn="emanate%2:30:00 emanate%2:29:00"/>
         <MEMBER name="exude" wn="exude%2:29:00"/>
-        <MEMBER name="foam" wn="foam%2:30:01 foam%2:30:00"/>
+        <MEMBER name="foam" wn=""/>
         <MEMBER name="gush" wn="gush%2:38:00 gush%2:35:00"/>
         <MEMBER name="leak" wn="leak%2:30:04"/>
         <MEMBER name="ooze" wn="ooze%2:38:00 ooze%2:29:00"/>
@@ -50,7 +50,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The fountain gushed"]]></EXAMPLE>
+                <EXAMPLE>The fountain gushed.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Source">
@@ -71,7 +71,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The well gushed oil"]]></EXAMPLE>
+                <EXAMPLE>The well gushed oil.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Source">
@@ -95,7 +95,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I bled him"]]></EXAMPLE>
+                <EXAMPLE>I bled him.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -126,7 +126,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.1.3" primary="PP" secondary="Substance Subject, Source-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Oil gushed from the well"]]></EXAMPLE>
+                <EXAMPLE>Oil gushed from the well.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -153,7 +153,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Water gushed through the streets"]]></EXAMPLE>
+                <EXAMPLE>Water gushed through the streets.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -189,7 +189,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.3" primary="PP" secondary="Location Subject, with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The streets gushed with water"]]></EXAMPLE>
+                <EXAMPLE>The streets gushed with water.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Location">
@@ -224,7 +224,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Over the fire bubbled a fragant stew"]]></EXAMPLE>
+                <EXAMPLE>Over the fire bubbled a fragant stew.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <PREP>
@@ -261,7 +261,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["There bubbled a fragant stew over the fire."]]></EXAMPLE>
+                <EXAMPLE>There bubbled a fragant stew over the fire.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <LEX value="there"/>
@@ -269,7 +269,7 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-                <PREP> 
+                <PREP>
                     <SELRESTRS>
                         <SELRESTR Value="+" type="loc"/>
                     </SELRESTRS>
@@ -298,7 +298,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PART" secondary="out" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The water seeped out."]]></EXAMPLE>
+                <EXAMPLE>The water seeped out.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -320,7 +320,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The bill shed 50 pages of pork-barrel addons."]]></EXAMPLE>
+                <EXAMPLE>The bill shed 50 pages of pork-barrel addons.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

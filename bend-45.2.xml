@@ -7,7 +7,7 @@
         <MEMBER name="crease" wn="crease%2:35:00 crease%2:35:01 crease%2:30:10"/>
         <MEMBER name="crinkle" wn="crinkle%2:35:00 crinkle%2:30:10"/>
         <MEMBER name="crumple" wn="crumple%2:35:00 crumple%2:30:10"/>
-        <MEMBER name="fold" wn="fold%2:35:00 fold%2:35:03 fold%2:30:10"/>
+        <MEMBER name="fold" wn="fold%2:35:00 fold%2:30:10"/>
         <MEMBER name="furrow" wn=""/>
         <MEMBER name="rumple" wn="rumple%2:35:01 rumple%2:30:10"/>
         <MEMBER name="wrinkle" wn="wrinkle%2:35:01 ?wrinkle%2:35:00 wrinkle%2:35:02 wrinkle%2:30:10"/>
@@ -33,7 +33,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Causative" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tony bent the rock&quot;</EXAMPLE>
+                <EXAMPLE>Tony bent the rock.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -70,7 +70,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tony bent the rock with pliers&quot;</EXAMPLE>
+                <EXAMPLE>Tony bent the rock with pliers.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -120,7 +120,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="Inchoative" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The rod bent&quot;</EXAMPLE>
+                <EXAMPLE>The rod bent.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -139,9 +139,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Copper rods bend easily&quot;</EXAMPLE>
+                <EXAMPLE>Copper rods bend easily.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -165,9 +165,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The pliers bent the rod&quot;</EXAMPLE>
+                <EXAMPLE>The pliers bent the rod.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Instrument">
@@ -198,7 +198,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tony folded the flaps open&quot;</EXAMPLE>
+                <EXAMPLE>Tony folded the flaps open.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -243,7 +243,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tony bent the rod into a U&quot;</EXAMPLE>
+                <EXAMPLE>Tony bent the rod into a U.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -293,9 +293,9 @@
             <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP" secondary="Result-PP, InstrumentPP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Tony bent the rod into a U with pliers&quot;</EXAMPLE>
+                <EXAMPLE>Tony bent the rod into a U with pliers.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

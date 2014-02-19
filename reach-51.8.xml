@@ -2,9 +2,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="reach-51.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="reach" wn=""/>
-        <MEMBER name="hit" wn=""/>
-        <MEMBER name="make" wn=""/>
+        <MEMBER name="reach" wn="reach%2:38:01 reach%2:38:00"/>
+        <MEMBER name="hit" wn="hit%2:38:00 hit%2:38:07"/>
+        <MEMBER name="make" wn="make%2:40:02 make%2:38:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -23,7 +23,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They reached the hill.&quot;</EXAMPLE>
+                <EXAMPLE>They reached the hill.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

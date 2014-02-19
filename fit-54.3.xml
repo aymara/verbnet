@@ -11,7 +11,7 @@
         <MEMBER name="seat" wn="seat%2:42:00"/>
         <MEMBER name="serve" wn="serve%2:41:00"/>
         <MEMBER name="sleep" wn="sleep%2:42:00"/>
-        <MEMBER name="store" wn=""/>
+        <MEMBER name="store" wn="store%2:40:02"/>
         <MEMBER name="take" wn="take%2:42:15"/>
         <MEMBER name="use" wn="use%2:34:01"/>
     </MEMBERS>
@@ -32,7 +32,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="3.6" primary="Location Subject Alternation" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Each room sleeps five people"]]></EXAMPLE>
+                <EXAMPLE>Each room sleeps five people.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Location">
@@ -56,7 +56,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["We sleep five people in each room"]]></EXAMPLE>
+                <EXAMPLE>We sleep five people in each room.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

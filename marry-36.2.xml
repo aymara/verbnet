@@ -35,7 +35,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="Plural Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Bill and Kathy married"]]></EXAMPLE>
+                <EXAMPLE>Bill and Kathy married.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -58,7 +58,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Bill married Kathy"]]></EXAMPLE>
+                <EXAMPLE>Bill married Kathy.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">

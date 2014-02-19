@@ -35,7 +35,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="locative-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Bees are swarming in the garden&quot;</EXAMPLE>
+                        <EXAMPLE>Bees are swarming in the garden.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Theme">
@@ -76,7 +76,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;There swarm bees in the garden&quot;</EXAMPLE>
+                        <EXAMPLE>There swarm bees in the garden.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <LEX value="there"/>
@@ -120,7 +120,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;In the aquarium swam a striped fish&quot;</EXAMPLE>
+                        <EXAMPLE>In the aquarium swam a striped fish.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <PREP>
@@ -162,7 +162,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="2.3" primary="PP" secondary="Location Subject, with-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;The garden is swarming with bees&quot;</EXAMPLE>
+                        <EXAMPLE>The garden is swarming with bees.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Location">
@@ -211,7 +211,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="locative-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Flowers abound in the garden&quot;</EXAMPLE>
+                        <EXAMPLE>Flowers abound in the garden.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Theme">
@@ -246,7 +246,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="6.1" primary="NP-PP" secondary="Expletive-there Subject" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;There abound flowers in the garden&quot;</EXAMPLE>
+                        <EXAMPLE>There abound flowers in the garden.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <LEX value="there"/>
@@ -292,7 +292,7 @@
                         <FRAME>
                             <DESCRIPTION descriptionNumber="2.3" primary="PP" secondary="Location Subject, with-PP" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE>&quot;The garden abounds with flowers&quot;</EXAMPLE>
+                                <EXAMPLE>The garden abounds with flowers.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Location">

@@ -10,7 +10,7 @@
         <MEMBER name="shake" wn="shake%2:38:00 shake%2:29:00"/>
         <MEMBER name="shiver" wn="shiver%2:38:00 shiver%2:29:00"/>
         <MEMBER name="shudder" wn="shudder%2:29:00 shudder%2:38:00"/>
-        <MEMBER name="tremble" wn="tremble%2:29:00 tremble%2:38:00"/>
+        <MEMBER name="tremble" wn="tremble%2:38:00"/>
         <MEMBER name="writhe" wn="writhe%2:38:00"/>
     </MEMBERS>
     <THEMROLES>
@@ -25,9 +25,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Sharon shivered&quot;</EXAMPLE>
+                <EXAMPLE>Sharon shivered.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
@@ -53,8 +53,8 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Cause-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Sharon shivered from fear&quot;</EXAMPLE>
-                <EXAMPLE>&quot;Sharon shivered at the thought of the cold sea&quot;</EXAMPLE>
+                <EXAMPLE>Sharon shivered from fear.</EXAMPLE>
+                <EXAMPLE>Sharon shivered at the thought of the cold sea.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">

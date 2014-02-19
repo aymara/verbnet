@@ -3,7 +3,7 @@
 <VNCLASS ID="nonverbal_expression-40.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Each verb adds a manner predicate indicating how the Agent expresses Theme
-  Maybe remove "sneeze" because it's involuntary-->
+        Maybe remove "sneeze" because it's involuntary-->
         <MEMBER name="beam" wn="beam%2:29:00 beam%2:32:01"/>
         <MEMBER name="cackle" wn="cackle%2:29:00"/>
         <MEMBER name="chortle" wn="chortle%2:29:00"/>
@@ -70,9 +70,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paul laughed&quot;</EXAMPLE>
+                <EXAMPLE>Paul laughed.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -99,7 +99,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Cognate Object" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paul laughed a cheerful laugh&quot;</EXAMPLE>
+                <EXAMPLE>Paul laughed a cheerful laugh.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -129,7 +129,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Reaction Object" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;She laughed her excitement&quot;</EXAMPLE>
+                <EXAMPLE>She laughed her excitement.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -159,7 +159,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paul laughed at Mary&quot;</EXAMPLE>
+                <EXAMPLE>Paul laughed at Mary.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -202,7 +202,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Cause-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paul laughed at the story&quot;</EXAMPLE>
+                <EXAMPLE>Paul laughed at the story.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -241,7 +241,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Theme-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;She laughed in/from embarrassment&quot;</EXAMPLE>
+                <EXAMPLE>She laughed in/from embarrassment.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -274,7 +274,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paul laughed himself sick&quot;</EXAMPLE>
+                <EXAMPLE>Paul laughed himself sick.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -311,7 +311,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The audience laughed the actor off the stage&quot;</EXAMPLE>
+                <EXAMPLE>The audience laughed the actor off the stage.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -322,7 +322,9 @@
                     <SELRESTRS/>
                 </NP>
                 <PREP>
-                    <SELRESTRS/>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="path"/>
+                    </SELRESTRS>
                 </PREP>
                 <NP value="Oblique2">
                     <SELRESTRS/>

@@ -25,9 +25,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;My eyes are itching&quot;</EXAMPLE>
+                <EXAMPLE>My eyes are itching.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -53,7 +53,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Experiencer Object" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;My eyes are itching me&quot;</EXAMPLE>
+                <EXAMPLE>My eyes are itching me.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -82,7 +82,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Cause-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;My eyes are itching from the smoke&quot;</EXAMPLE>
+                <EXAMPLE>My eyes are itching from the smoke.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">

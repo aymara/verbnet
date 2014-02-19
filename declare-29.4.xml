@@ -16,10 +16,10 @@
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
-       <FRAME>
+        <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-ADJP-PRED" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The president declared Smith foolish"]]></EXAMPLE>
+                <EXAMPLE>The president declared Smith foolish.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -42,10 +42,10 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
-       <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-NP-PRED" secondary="" xtag=""/>                     
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-NP-PRED" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The president declared Smith professor"]]></EXAMPLE>                 
+                <EXAMPLE>The president declared Smith professor.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -56,35 +56,35 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Predicate">
-		    <SYNRESTRS>
-			<SYNRESTRS Value="-" type="sentential"/>
-		    </SYNRESTRS>
-		</NP>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
-               <PRED value="declare">
-                   <ARGS>
-                       <ARG type="Event" value="during(E)"/>
-                       <ARG type="ThemRole" value="Agent"/>
-                       <ARG type="ThemRole" value="Theme"/>
-                       <ARG type="ThemRole" value="Predicate"/>
-                   </ARGS>
-               </PRED>
+                <PRED value="declare">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
-       <FRAME>
+        <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-TOBE" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The president maintained Smith to be a good man."]]></EXAMPLE>       
+                <EXAMPLE>The president maintained Smith to be a good man.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Agent">             
+                <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <NP value="Theme">
                     <SYNRESTRS>
-                        <SYNRESTRS Value="+" type="to_be"/>
+                        <SYNRESTR Value="+" type="to_be"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
@@ -99,10 +99,10 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
-       <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP-VEN-NP-OMIT" secondary="" xtag=""/>         
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP-VEN-NP-OMIT" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The president judged the matter closed."]]></EXAMPLE>
+                <EXAMPLE>The president judged the matter closed.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -111,7 +111,7 @@
                 <VERB/>
                 <NP value="Theme">
                     <SYNRESTRS>
-                        <SYNRESTRS Value="+" type="np_ppart"/>
+                        <SYNRESTR Value="+" type="np_ppart"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
@@ -126,10 +126,10 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
-       <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="S" secondary="" xtag=""/>       
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="S" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The president maintained that the matter was closed."]]></EXAMPLE>         
+                <EXAMPLE>The president maintained that the matter was closed.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -138,7 +138,7 @@
                 <VERB/>
                 <NP value="Theme">
                     <SYNRESTRS>
-                        <SYNRESTRS Value="+" type="that_comp"/>
+                        <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
@@ -156,27 +156,27 @@
     </FRAMES>
     <SUBCLASSES>
         <VNSUBCLASS ID="declare-29.4-1">
-            <MEMBERS>                
+            <MEMBERS>
                 <MEMBER name="maintain" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
-	       <FRAME>
-	            <DESCRIPTION descriptionNumber="0.2" primary="WHAT-S" secondary="" xtag=""/>              
-	            <EXAMPLES>
-	                <EXAMPLE><![CDATA["The president declared what we should do."]]></EXAMPLE>
-	            </EXAMPLES>
-	            <SYNTAX>
-	                <NP value="Agent">
-	                    <SYNRESTRS/>
-	                </NP>
-	                <VERB/>
-	                <NP value="Theme">
-	                    <SYNRESTRS>
-	                        <SYNRESTRS Value="+" type="what_extract"/>
-	                    </SYNRESTRS>
-	                </NP>
-	            </SYNTAX>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="WHAT-S" secondary="" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>The president declared what we should do.</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="what_extract"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
                     <SEMANTICS>
                         <PRED value="declare">
                             <ARGS>
@@ -185,13 +185,13 @@
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Predicate"/>
                             </ARGS>
-                       </PRED>
-                 </SEMANTICS>
-	        </FRAME>
-               <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="WHAT-TO-INF" secondary="" xtag=""/> 
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="WHAT-TO-INF" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["The president declared what to do."]]></EXAMPLE>
+                        <EXAMPLE>The president declared what to do.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -200,74 +200,74 @@
                         <VERB/>
                         <NP value="Theme">
                             <SYNRESTRS>
-                                <SYNRESTRS Value="+" type="what_inf"/>
+                                <SYNRESTR Value="+" type="what_inf"/>
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-                         <PRED value="declare">
-                             <ARGS>
-                                 <ARG type="Event" value="during(E)"/>
-                                 <ARG type="ThemRole" value="Agent"/>
-                                 <ARG type="ThemRole" value="Theme"/>
-                                 <ARG type="ThemRole" value="?Predicate"/>
+                        <PRED value="declare">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Predicate"/>
                             </ARGS>
-                       </PRED>
-                  </SEMANTICS>
+                        </PRED>
+                    </SEMANTICS>
                 </FRAME>
-               <FRAME>
+                <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="as-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["The president declared John as stupid."]]></EXAMPLE>          
+                        <EXAMPLE>The president declared John as stupid.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-			<NP value="Theme">
-			    <SYNRESTRS/>
-			</NP>
-			<PREP value="as">
-			    <SYNRESTRS/>
-			</PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="as">
+                            <SELRESTRS/>
+                        </PREP>
                         <ADJ/>
                     </SYNTAX>
                     <SEMANTICS>
-                          <PRED value="declare">
-                              <ARGS>
-                                  <ARG type="Event" value="during(E)"/>
-                                  <ARG type="ThemRole" value="Agent"/>
-                                  <ARG type="ThemRole" value="Theme"/>
-                                  <ARG type="ThemRole" value="?Predicate"/>
-                              </ARGS>
-                          </PRED>
-                  </SEMANTICS>
+                        <PRED value="declare">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Predicate"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES>
-	        <VNSUBCLASS ID="declare-29.4-1-1">
-	            <MEMBERS>
-	                <MEMBER name="prove" wn="prove%2:32:00"/>
-	            </MEMBERS>
-	            <THEMROLES/>
-	            <FRAMES>
-	               <FRAME>
-	                    <DESCRIPTION descriptionNumber="0.2" primary="HOW-S" secondary="" xtag=""/>
-	                    <EXAMPLES>
-	                        <EXAMPLE><![CDATA["John declared how he did it."]]></EXAMPLE>          
-	                    </EXAMPLES>
-	                    <SYNTAX>
-	                        <NP value="Agent">
-	                            <SYNRESTRS/>
-	                        </NP>
-	                        <VERB/>
-	                        <NP value="Theme">
-	                            <SYNRESTRS>
-	                                <SYNRESTRS Value="+" type="how_extract"/> 
-	                            </SYNRESTRS>
-	                        </NP>
-	                    </SYNTAX>
+                <VNSUBCLASS ID="declare-29.4-1-1">
+                    <MEMBERS>
+                        <MEMBER name="prove" wn="prove%2:32:00"/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="0.2" primary="HOW-S" secondary="" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE>John declared how he did it.</EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Theme">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="how_extract"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
                             <SEMANTICS>
                                 <PRED value="declare">
                                     <ARGS>
@@ -276,59 +276,59 @@
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="ThemRole" value="?Predicate"/>
                                     </ARGS>
-                               </PRED>
-                          </SEMANTICS>
-	                </FRAME>
-	            </FRAMES>
-	            <SUBCLASSES>
-	                <VNSUBCLASS ID="declare-29.4-1-1-1">
-	                    <MEMBERS>
-		                <MEMBER name="declare" wn="declare%2:32:04"/>
-	                    </MEMBERS>
-	                    <THEMROLES/>
-	                    <FRAMES>
-	                       <FRAME>
-	                            <DESCRIPTION descriptionNumber="0.2" primary="HOW-TO-INF" secondary="" xtag=""/>
-	                            <EXAMPLES>
-	                                <EXAMPLE><![CDATA["John declared how to do it."]]></EXAMPLE>        
-	                            </EXAMPLES>
-	                            <SYNTAX>
-	                                <NP value="Agent">
-	                                    <SYNRESTRS/>
-	                                </NP>
-	                                <VERB/>
-	                                <NP value="Theme">
-	                                    <SYNRESTRS>
-	                                        <SYNRESTRS Value="+" type="wh_inf"/>
-	                                    </SYNRESTRS>
-	                                </NP>
-	                            </SYNTAX>
-                                    <SEMANTICS>
-                                         <PRED value="declare">
-                                            <ARGS>
-                                                <ARG type="Event" value="during(E)"/>
-                                                <ARG type="ThemRole" value="Agent"/>
-                                                <ARG type="ThemRole" value="Theme"/>
-                                                <ARG type="ThemRole" value="?Predicate"/>
-                                           </ARGS>
-                                        </PRED>
-                                   </SEMANTICS>
-	                        </FRAME>
-	                    </FRAMES>
-	                    <SUBCLASSES>
-	                    </SUBCLASSES>
-	                </VNSUBCLASS>
-                        <VNSUBCLASS ID="declare-29.4-1-1-2">
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES>
+                        <VNSUBCLASS ID="declare-29.4-1-1-1">
                             <MEMBERS>
-		                <MEMBER name="find" wn="find%2:31:10"/>
-		                <MEMBER name="judge" wn="judge%2:31:00 judge%2:32:00"/>
+                                <MEMBER name="declare" wn="declare%2:32:04"/>
                             </MEMBERS>
                             <THEMROLES/>
                             <FRAMES>
-                               <FRAME>
+                                <FRAME>
+                                    <DESCRIPTION descriptionNumber="0.2" primary="HOW-TO-INF" secondary="" xtag=""/>
+                                    <EXAMPLES>
+                                        <EXAMPLE>John declared how to do it.</EXAMPLE>
+                                    </EXAMPLES>
+                                    <SYNTAX>
+                                        <NP value="Agent">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <VERB/>
+                                        <NP value="Theme">
+                                            <SYNRESTRS>
+                                                <SYNRESTR Value="+" type="wh_inf"/>
+                                            </SYNRESTRS>
+                                        </NP>
+                                    </SYNTAX>
+                                    <SEMANTICS>
+                                        <PRED value="declare">
+                                            <ARGS>
+                                                <ARG type="Event" value="during(E)"/>
+                                                <ARG type="ThemRole" value="Agent"/>
+                                                <ARG type="ThemRole" value="Theme"/>
+                                                <ARG type="ThemRole" value="?Predicate"/>
+                                            </ARGS>
+                                        </PRED>
+                                    </SEMANTICS>
+                                </FRAME>
+                            </FRAMES>
+                            <SUBCLASSES>
+                            </SUBCLASSES>
+                        </VNSUBCLASS>
+                        <VNSUBCLASS ID="declare-29.4-1-1-2">
+                            <MEMBERS>
+                                <MEMBER name="find" wn="find%2:31:10"/>
+                                <MEMBER name="judge" wn="judge%2:31:00 judge%2:32:00"/>
+                            </MEMBERS>
+                            <THEMROLES/>
+                            <FRAMES>
+                                <FRAME>
                                     <DESCRIPTION descriptionNumber="0.2" primary="WH-S" secondary="" xtag=""/>
                                     <EXAMPLES>
-                                        <EXAMPLE><![CDATA["John judged whether he should come."]]></EXAMPLE>
+                                        <EXAMPLE>John judged whether he should come.</EXAMPLE>
                                     </EXAMPLES>
                                     <SYNTAX>
                                         <NP value="Agent">
@@ -337,25 +337,25 @@
                                         <VERB/>
                                         <NP value="Theme">
                                             <SYNRESTRS>
-                                                <SYNRESTRS Value="+" type="wh_comp"/>
+                                                <SYNRESTR Value="+" type="wh_comp"/>
                                             </SYNRESTRS>
                                         </NP>
                                     </SYNTAX>
                                     <SEMANTICS>
-                                         <PRED value="declare">
+                                        <PRED value="declare">
                                             <ARGS>
                                                 <ARG type="Event" value="during(E)"/>
                                                 <ARG type="ThemRole" value="Agent"/>
                                                 <ARG type="ThemRole" value="Theme"/>
                                                 <ARG type="ThemRole" value="?Predicate"/>
-                                           </ARGS>
+                                            </ARGS>
                                         </PRED>
-                                  </SEMANTICS>
+                                    </SEMANTICS>
                                 </FRAME>
-                               <FRAME>
-                                    <DESCRIPTION descriptionNumber="0.2" primary="WH-TO-INF" secondary="" xtag=""/> 
+                                <FRAME>
+                                    <DESCRIPTION descriptionNumber="0.2" primary="WH-TO-INF" secondary="" xtag=""/>
                                     <EXAMPLES>
-                                        <EXAMPLE><![CDATA["John judged whether to clean the house."]]></EXAMPLE>
+                                        <EXAMPLE>John judged whether to clean the house.</EXAMPLE>
                                     </EXAMPLES>
                                     <SYNTAX>
                                         <NP value="Agent">
@@ -364,19 +364,19 @@
                                         <VERB/>
                                         <NP value="Theme">
                                             <SYNRESTRS>
-                                                <SYNRESTRS Value="+" type="wheth_inf"/>
+                                                <SYNRESTR Value="+" type="wheth_inf"/>
                                             </SYNRESTRS>
                                         </NP>
                                     </SYNTAX>
                                     <SEMANTICS>
-                                         <PRED value="declare">
+                                        <PRED value="declare">
                                             <ARGS>
                                                 <ARG type="Event" value="during(E)"/>
                                                 <ARG type="ThemRole" value="Agent"/>
                                                 <ARG type="ThemRole" value="Theme"/>
                                                 <ARG type="ThemRole" value="?Predicate"/>
-                                           </ARGS>
-                                       </PRED>
+                                            </ARGS>
+                                        </PRED>
                                     </SEMANTICS>
                                 </FRAME>
                             </FRAMES>
@@ -385,14 +385,14 @@
                         </VNSUBCLASS>
                         <VNSUBCLASS ID="declare-29.4-1-1-3">
                             <MEMBERS>
-		                <MEMBER name="profess" wn=""/>
+                                <MEMBER name="profess" wn="profess%2:32:10 profess%2:32:04"/>
                             </MEMBERS>
                             <THEMROLES/>
                             <FRAMES>
-                               <FRAME>
-                                    <DESCRIPTION descriptionNumber="0.2" primary="ING-SC/BE-ING-SC" secondary="" xtag=""/> 
+                                <FRAME>
+                                    <DESCRIPTION descriptionNumber="0.2" primary="ING-SC/BE-ING-SC" secondary="" xtag=""/>
                                     <EXAMPLES>
-                                        <EXAMPLE><![CDATA["John professed loving the miscreants."]]></EXAMPLE>
+                                        <EXAMPLE>John professed loving the miscreants.</EXAMPLE>
                                     </EXAMPLES>
                                     <SYNTAX>
                                         <NP value="Agent">
@@ -401,39 +401,39 @@
                                         <VERB/>
                                         <NP value="Theme">
                                             <SYNRESTRS>
-                                                <SYNRESTRS Value="+" type="be_sc_ing"/>
+                                                <SYNRESTR Value="+" type="be_sc_ing"/>
                                             </SYNRESTRS>
                                         </NP>
                                     </SYNTAX>
                                     <SEMANTICS>
-                                         <PRED value="declare">
+                                        <PRED value="declare">
                                             <ARGS>
                                                 <ARG type="Event" value="during(E)"/>
                                                 <ARG type="ThemRole" value="Agent"/>
                                                 <ARG type="ThemRole" value="Theme"/>
                                                 <ARG type="ThemRole" value="?Predicate"/>
-                                           </ARGS>
+                                            </ARGS>
                                         </PRED>
-                                  </SEMANTICS>
+                                    </SEMANTICS>
                                 </FRAME>
                             </FRAMES>
                             <SUBCLASSES>
                             </SUBCLASSES>
                         </VNSUBCLASS>
-		    </SUBCLASSES>
-		</VNSUBCLASS>
-	    </SUBCLASSES>
-	</VNSUBCLASS>
+                    </SUBCLASSES>
+                </VNSUBCLASS>
+            </SUBCLASSES>
+        </VNSUBCLASS>
         <VNSUBCLASS ID="declare-29.4-2">
             <MEMBERS>
-                <MEMBER name="proclaim" wn=""/>
+                <MEMBER name="proclaim" wn="proclaim%2:32:02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
-               <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="HOW-S" secondary="" xtag=""/>           
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="HOW-S" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["The president proclaimed how we should work."]]></EXAMPLE>    
+                        <EXAMPLE>The president proclaimed how we should work.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -442,25 +442,25 @@
                         <VERB/>
                         <NP value="Theme">
                             <SYNRESTRS>
-                                <SYNRESTRS Value="+" type="how_extract"/>
+                                <SYNRESTR Value="+" type="how_extract"/>
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
                         <PRED value="declare">
-                           <ARGS>
-                               <ARG type="Event" value="during(E)"/>
-                               <ARG type="ThemRole" value="Agent"/>
-                               <ARG type="ThemRole" value="Theme"/>
-                               <ARG type="ThemRole" value="?Predicate"/>
-                           </ARGS>
-                       </PRED>
-                   </SEMANTICS>
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Predicate"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
                 </FRAME>
-               <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="HOW-TO-INF" secondary="" xtag=""/>      
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.2" primary="HOW-TO-INF" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["The president proclaimed how to do it."]]></EXAMPLE>
+                        <EXAMPLE>The president proclaimed how to do it.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -469,20 +469,20 @@
                         <VERB/>
                         <NP value="Theme">
                             <SYNRESTRS>
-                                <SYNRESTRS Value="+" type="wh_inf"/>    
+                                <SYNRESTR Value="+" type="wh_inf"/>
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-                         <PRED value="declare">
-                             <ARGS>
-                                 <ARG type="Event" value="during(E)"/>
-                                 <ARG type="ThemRole" value="Agent"/>
-                                 <ARG type="ThemRole" value="Theme"/>
-                                 <ARG type="ThemRole" value="?Predicate"/>
-                             </ARGS>
-                         </PRED>
-                   </SEMANTICS>
+                        <PRED value="declare">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Predicate"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES/>

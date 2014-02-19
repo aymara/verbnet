@@ -29,7 +29,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Steve pelted Anna with Acorns&quot;</EXAMPLE>
+                <EXAMPLE>Steve pelted Anna with Acorns.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -85,7 +85,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="dropped Theme" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Steve pelted Anna&quot;</EXAMPLE>
+                <EXAMPLE>Steve pelted Anna.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

@@ -28,9 +28,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Jackie chased the thief&quot;</EXAMPLE>
+                <EXAMPLE>Jackie chased the thief.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -59,7 +59,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Jackie chased the thief down the street&quot;</EXAMPLE>
+                <EXAMPLE>Jackie chased the thief down the street.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -70,9 +70,8 @@
                     <SYNRESTRS/>
                 </NP>
                 <PREP>
-                    <SELRESTRS logic="or">
-                        <SELRESTR Value="+" type="path"/>
-                        <SELRESTR Value="+" type="loc"/>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="spatial"/>
                     </SELRESTRS>
                 </PREP>
                 <NP value="Location">
@@ -111,7 +110,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="after-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Jackie chased after the thief&quot;</EXAMPLE>
+                <EXAMPLE>Jackie chased after the thief.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

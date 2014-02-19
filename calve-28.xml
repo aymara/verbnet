@@ -28,9 +28,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The cat kittened&quot;</EXAMPLE>
+                <EXAMPLE>The cat kittened.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

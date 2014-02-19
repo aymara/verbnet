@@ -22,9 +22,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Sharon flinched&quot;</EXAMPLE>
+                <EXAMPLE>Sharon flinched.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
@@ -44,7 +44,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Cause-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Sharon flinched at the sight of the accident&quot;</EXAMPLE>
+                <EXAMPLE>Sharon flinched at the sight of the accident.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">

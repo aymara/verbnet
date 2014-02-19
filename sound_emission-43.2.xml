@@ -38,7 +38,7 @@
         <MEMBER name="crash" wn="crash%2:38:01"/>
         <MEMBER name="creak" wn="creak%2:39:00"/>
         <MEMBER name="crepitate" wn="crepitate%2:39:00"/>
-        <MEMBER name="crunch" wn="crunch%2:32:00 crunch%2:39:00 crunch%2:35:00 crunch%2:34:00"/>
+        <MEMBER name="crunch" wn="crunch%2:32:00 crunch%2:34:00"/>
         <MEMBER name="cry" wn="cry%2:32:01 cry%2:32:03"/>
         <MEMBER name="ding" wn="ding%2:39:00"/>
         <MEMBER name="dong" wn="dong%2:39:00"/>
@@ -80,7 +80,7 @@
         <MEMBER name="rumble" wn="rumble%2:39:00 rumble%2:32:00"/>
         <MEMBER name="rustle" wn="rustle%2:39:00"/>
         <MEMBER name="scream" wn="scream%2:32:01 scream%2:39:00"/>
-        <MEMBER name="screech" wn="screech%2:39:00 screech%2:32:00 screech%2:32:01"/>
+        <MEMBER name="screech" wn="screech%2:39:00 screech%2:32:01"/>
         <MEMBER name="shriek" wn="shriek%2:32:00"/>
         <MEMBER name="shrill" wn="shrill%2:32:00"/>
         <MEMBER name="sing" wn="sing%2:32:08 sing%2:32:00"/>
@@ -94,7 +94,7 @@
         <MEMBER name="squeal" wn="squeal%2:32:01"/>
         <MEMBER name="squelch" wn="squelch%2:39:00"/>
         <MEMBER name="strike" wn="strike%2:32:00 strike%2:35:03"/>
-        <MEMBER name="swish" wn="swish%2:39:00 swish%2:38:00"/>
+        <MEMBER name="swish" wn="swish%2:39:00"/>
         <MEMBER name="swoosh" wn=""/>
         <MEMBER name="thrum" wn="thrum%2:39:00"/>
         <MEMBER name="thud" wn="thud%2:39:00 thud%2:35:00 thud%2:39:01"/>
@@ -104,7 +104,7 @@
         <MEMBER name="tick" wn="tick%2:39:00 tick%2:39:01"/>
         <MEMBER name="ting" wn="ting%2:39:01 ting%2:39:00"/>
         <MEMBER name="tinkle" wn="tinkle%2:39:00"/>
-        <MEMBER name="toll" wn="toll%2:39:00 toll%2:39:01"/>
+        <MEMBER name="toll" wn="toll%2:39:00"/>
         <MEMBER name="toot" wn="toot%2:39:00"/>
         <MEMBER name="tootle" wn="tootle%2:39:00"/>
         <MEMBER name="trill" wn="trill%2:32:01 trill%2:32:00"/>
@@ -139,7 +139,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The door hinges squeaked"]]></EXAMPLE>
+                <EXAMPLE>The door hinges squeaked.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -160,7 +160,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Horns beeped in the street"]]></EXAMPLE>
+                <EXAMPLE>Horns beeped in the street.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -196,7 +196,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.3" primary="PP" secondary="Location Subject, with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The street sang with horns."]]></EXAMPLE>
+                <EXAMPLE>The street sang with horns.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Location">
@@ -231,7 +231,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["In the hallway ticked a gradfather clock"]]></EXAMPLE>
+                <EXAMPLE>In the hallway ticked a gradfather clock.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <PREP>
@@ -268,7 +268,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.1" primary="There-insertion" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["There ticked a grandather clock in the hallway."]]></EXAMPLE>
+                <EXAMPLE>There ticked a grandather clock in the hallway.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <LEX value="there"/>
@@ -306,7 +306,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I buzzed the bell"]]></EXAMPLE>
+                <EXAMPLE>I buzzed the bell.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -336,7 +336,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The bell chimed the hour"]]></EXAMPLE>
+                <EXAMPLE>The bell chimed the hour.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">

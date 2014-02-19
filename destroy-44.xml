@@ -4,18 +4,18 @@
     <MEMBERS>
         <MEMBER name="annihilate" wn="annihilate%2:30:00"/>
         <MEMBER name="blitz" wn="blitz%2:33:00"/>
-        <MEMBER name="damage" wn=""/>
+        <MEMBER name="damage" wn="damage%2:30:00"/>
         <MEMBER name="decimate" wn="decimate%2:30:00"/>
         <MEMBER name="demolish" wn="demolish%2:36:00"/>
-        <MEMBER name="desecrate" wn=""/>
+        <MEMBER name="desecrate" wn="desecrate%2:41:00 desecrate%2:32:00"/>
         <MEMBER name="destroy" wn="destroy%2:36:00 destroy%2:35:00"/>
         <MEMBER name="devastate" wn="devastate%2:30:00"/>
-        <MEMBER name="disfigure" wn=""/>
-        <MEMBER name="efface" wn=""/>
+        <MEMBER name="disfigure" wn="disfigure%2:35:00"/>
+        <MEMBER name="efface" wn="efface%2:35:00"/>
         <MEMBER name="exterminate" wn="exterminate%2:35:01"/>
         <MEMBER name="extirpate" wn="extirpate%2:36:00"/>
-        <MEMBER name="maim" wn=""/>
-        <MEMBER name="mutilate" wn=""/>
+        <MEMBER name="maim" wn="maim%2:29:00"/>
+        <MEMBER name="mutilate" wn="mutilate%2:30:00 mutilate%2:30:01 mutilate%2:29:00"/>
         <MEMBER name="obliterate" wn="obliterate%2:30:03"/>
         <MEMBER name="ravage" wn="ravage%2:30:01"/>
         <MEMBER name="raze" wn="raze%2:36:00"/>
@@ -44,9 +44,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The Romans destroyed the city&quot;</EXAMPLE>
+                <EXAMPLE>The Romans destroyed the city.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -75,7 +75,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The builders destroyed the warehouse with explosives&quot;</EXAMPLE>
+                <EXAMPLE>The builders destroyed the warehouse with explosives.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -115,9 +115,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The explosives destroyed the warehouse&quot;</EXAMPLE>
+                <EXAMPLE>The explosives destroyed the warehouse.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Instrument">

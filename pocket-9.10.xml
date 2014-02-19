@@ -20,13 +20,13 @@
         <MEMBER name="coop" wn=""/>
         <MEMBER name="corral" wn="corral%2:35:00"/>
         <MEMBER name="crate" wn="crate%2:35:00"/>
-        <MEMBER name="file" wn="file%2:32:00"/>
+        <MEMBER name="file" wn="file%2:32:00" grouping="file.04"/>
         <MEMBER name="fork" wn="fork%2:35:00"/>
         <MEMBER name="garage" wn="garage%2:40:00"/>
         <MEMBER name="hangar" wn=""/>
-        <MEMBER name="house" wn="house%2:41:00"/>
-        <MEMBER name="imprison" wn=""/>
-        <MEMBER name="jail" wn="jail%2:41:00"/>
+        <MEMBER name="house" wn="house%2:41:00" grouping="house.01"/>
+        <MEMBER name="imprison" wn="imprison%2:41:00" grouping="imprison.01"/>
+        <MEMBER name="jail" wn="jail%2:41:00" grouping="jail.01"/>
         <MEMBER name="jar" wn="jar%2:35:10"/>
         <MEMBER name="jug" wn="jug%2:30:00"/>
         <MEMBER name="kennel" wn="kennel%2:41:00"/>
@@ -46,8 +46,8 @@
         <MEMBER name="string" wn="string%2:35:02"/>
         <MEMBER name="tassel" wn=""/>
         <MEMBER name="tin" wn="tin%2:30:00"/>
-        <MEMBER name="trap" wn="trap%2:35:00"/>
-        <MEMBER name="tree" wn="tree%2:33:00"/>
+        <MEMBER name="trap" wn="trap%2:35:00" grouping="trap.01 trap.02"/>
+        <MEMBER name="tree" wn="tree%2:38:00"/>
         <MEMBER name="warehouse" wn="warehouse%2:40:00"/>
     </MEMBERS>
     <THEMROLES>
@@ -73,7 +73,7 @@
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Theme Object" xtag="0.2"/>
             <!-- Location specified by verb-->
             <EXAMPLES>
-                <EXAMPLE>&quot;Lydia pocketed the change&quot;</EXAMPLE>
+                <EXAMPLE>Lydia pocketed the change.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -118,7 +118,7 @@
             <!-- Location must be a hyponym of verb's zero-related nominal, or specify additional information-->
             <!-- Acceptability is marginal-->
             <EXAMPLES>
-                <EXAMPLE>&quot;Lydia pocketed the change in her left pocket&quot;</EXAMPLE>
+                <EXAMPLE>Lydia pocketed the change in her left pocket.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -171,7 +171,7 @@
                 <MEMBER name="berth" wn="berth%2:35:00"/>
                 <MEMBER name="dock" wn="dock%2:35:00"/>
                 <MEMBER name="drydock" wn="drydock%2:35:00"/>
-                <MEMBER name="land" wn="land%2:38:01 land%2:38:03"/>
+                <MEMBER name="land" wn="land%2:38:01 land%2:38:03" grouping="land.01"/>
                 <MEMBER name="ground" wn="ground%2:35:08 ground%2:35:00"/>
                 <MEMBER name="lodge" wn="lodge%2:42:00"/>
                 <MEMBER name="stable" wn="stable%2:41:00"/>
@@ -181,7 +181,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP" secondary="locative-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["I landed in Russia."]]></EXAMPLE>
+                        <EXAMPLE>I landed in Russia.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Theme">
@@ -221,7 +221,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Basic Intransitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["The plane landed."]]></EXAMPLE>
+                        <EXAMPLE>The plane landed.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Theme">
@@ -241,7 +241,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="ADVP" secondary="here/there" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["I landed there."]]></EXAMPLE>
+                        <EXAMPLE>I landed there.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Theme">

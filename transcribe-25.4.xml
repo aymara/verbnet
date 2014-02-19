@@ -5,6 +5,7 @@
     <MEMBERS>
         <MEMBER name="chronicle" wn=""/>
         <MEMBER name="copy" wn="copy%2:36:05 copy%2:36:01"/>
+        <MEMBER name="duplicate" wn="duplicate%2:36:01"/>
         <MEMBER name="film" wn="film%2:32:00 film%2:36:00"/>
         <MEMBER name="forge" wn="forge%2:36:01"/>
         <MEMBER name="imitate" wn=""/>
@@ -36,9 +37,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The secretary transcribed the speech&quot;</EXAMPLE>
+                <EXAMPLE>The secretary transcribed the speech.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -74,7 +75,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The secretary transcribed the speech into the record&quot;</EXAMPLE>
+                <EXAMPLE>The secretary transcribed the speech into the record.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

@@ -5,7 +5,7 @@
         <MEMBER name="behave" wn="behave%2:29:00"/>
         <MEMBER name="camouflage" wn="camouflage%2:39:00"/>
         <MEMBER name="count" wn=""/>
-        <MEMBER name="function" wn=""/>
+        <MEMBER name="function" wn="function%2:42:12"/>
         <MEMBER name="masquerade" wn="masquerade%2:32:00"/>
         <MEMBER name="officiate" wn="officiate%2:33:00"/>
         <MEMBER name="qualify" wn="qualify%2:42:00"/>
@@ -26,7 +26,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="as-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Dina masqueraded as a lawyer"]]></EXAMPLE>
+                <EXAMPLE>Dina masqueraded as a lawyer.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -60,7 +60,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP" secondary="like-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Dina acted like a cretin."]]></EXAMPLE>
+                        <EXAMPLE>Dina acted like a cretin.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -95,7 +95,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["They serve a restricted role on the bench."]]></EXAMPLE>
+                        <EXAMPLE>They serve a restricted role on the bench.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -119,7 +119,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP" secondary="in-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["He had served in financial planning positions."]]></EXAMPLE>
+                        <EXAMPLE>He had served in financial planning positions.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

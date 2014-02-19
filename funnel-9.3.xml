@@ -5,9 +5,9 @@
         <!--Some members add a predicate specifying instrument-->
         <MEMBER name="ladle" wn="ladle%2:35:01"/>
         <MEMBER name="hoe" wn=""/>
-        <MEMBER name="scoop" wn=""/>
-        <MEMBER name="siphon" wn="siphon%2:35:00"/>
-        <MEMBER name="sop" wn=""/>
+        <MEMBER name="scoop" wn="scoop%2:35:01" grouping="scoop.01"/>
+        <MEMBER name="siphon" wn="siphon%2:35:00" grouping="siphon.01"/>
+        <MEMBER name="sop" wn="sop%2:35:00"/>
     </MEMBERS>
     <THEMROLES>
         <!--Destination can also be realized as here, there-->
@@ -33,7 +33,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I funneled the mixture into the bottle&quot;</EXAMPLE>
+                <EXAMPLE>I funneled the mixture into the bottle.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -85,7 +85,7 @@
             <DESCRIPTION descriptionNumber="0.2" primary="NP-ADVP-PRED" secondary="here/there" xtag=""/>
             <!-- discourse has to provide specific Destination and configuration (Prep) of Theme wrt Destination-->
             <EXAMPLES>
-                <EXAMPLE>&quot;I spooned the sauce there&quot;</EXAMPLE>
+                <EXAMPLE>I spooned the sauce there.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -134,14 +134,14 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="funnel-9.3-1">
             <MEMBERS>
-                <MEMBER name="dip" wn="dip%2:35:00 dip%2:34:00"/>
+                <MEMBER name="dip" wn="dip%2:35:00 dip%2:34:00" grouping="dip.04"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="in-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["We dipped the vegetables in the water."]]></EXAMPLE>
+                        <EXAMPLE>We dipped the vegetables in the water.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -190,7 +190,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Oblique-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["We dipped the dog for parasites."]]></EXAMPLE>
+                        <EXAMPLE>We dipped the dog for parasites.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -243,23 +243,23 @@
         <VNSUBCLASS ID="funnel-9.3-2">
             <MEMBERS>
                 <MEMBER name="channel" wn="channel%2:38:01 channel%2:38:00 channel%2:35:00"/>
+                <MEMBER name="fit" wn="fit%2:42:02 fit%2:42:03" grouping="fit.02"/>
                 <MEMBER name="rake" wn="rake%2:35:00"/>
+                <MEMBER name="scrape" wn=""/>
                 <MEMBER name="shovel" wn="shovel%2:35:00"/>
                 <MEMBER name="spoon" wn="spoon%2:35:00"/>
-                <MEMBER name="squish" wn=""/>
                 <MEMBER name="squash" wn=""/>
+                <MEMBER name="squish" wn="squish%2:35:00"/>
                 <MEMBER name="tuck" wn="tuck%2:35:00"/>
-                <MEMBER name="wipe" wn="?wipe%2:35:00"/>
+                <MEMBER name="wipe" wn="?wipe%2:35:00" grouping="wipe.01"/>
                 <MEMBER name="wring" wn="wring%2:35:02"/>
-                <MEMBER name="scrape" wn=""/>
-                <MEMBER name="fit" wn="fit%2:42:02 fit%2:42:03"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="between-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["He wedged the diamond between shifting dunes."]]></EXAMPLE>
+                        <EXAMPLE>He wedged the diamond between shifting dunes.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -312,15 +312,15 @@
                 <VNSUBCLASS ID="funnel-9.3-2-1">
                     <MEMBERS>
                         <MEMBER name="bang" wn="bang%2:35:02"/>
-                        <MEMBER name="dump" wn="dump%2:40:00"/>
-                        <MEMBER name="hammer" wn="hammer%2:35:00 hammer%2:36:00"/>
+                        <MEMBER name="dump" wn="dump%2:40:00" grouping="dump.02"/>
+                        <MEMBER name="funnel" wn="funnel%2:35:00" grouping="funnel.01"/>
+                        <MEMBER name="hammer" wn="hammer%2:35:00 hammer%2:36:00" grouping="hammer.02"/>
                         <MEMBER name="pound" wn="pound%2:30:03"/>
-                        <MEMBER name="push" wn="push%2:38:00"/>
-                        <MEMBER name="funnel" wn="funnel%2:35:00"/>
+                        <MEMBER name="push" wn="push%2:38:00" grouping="push.01"/>
                         <MEMBER name="ram" wn="ram%2:35:03"/>
                         <MEMBER name="shake" wn="shake%2:30:01"/>
-                        <MEMBER name="squeeze" wn=""/>
-                        <MEMBER name="sweep" wn="sweep%2:35:00"/>
+                        <MEMBER name="squeeze" wn="squeeze%2:35:03" grouping="squeeze.03"/>
+                        <MEMBER name="sweep" wn="sweep%2:35:00" grouping="sweep.02"/>
                         <MEMBER name="wedge" wn="wedge%2:35:01 wedge%2:35:00"/>
                     </MEMBERS>
                     <THEMROLES/>
@@ -328,7 +328,7 @@
                         <FRAME>
                             <DESCRIPTION descriptionNumber="" primary="PP" secondary="locative-PP" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE><![CDATA["The company is wedging into new markets."]]></EXAMPLE>
+                                <EXAMPLE>The company is wedging into new markets.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Theme">

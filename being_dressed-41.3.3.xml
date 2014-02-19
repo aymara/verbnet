@@ -21,16 +21,13 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="5.1" primary="Passive" secondary="Participle form" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["She was always clad in black"]]></EXAMPLE>
+                <EXAMPLE>She was always clad in black.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <PREP>
-                    <SELRESTRS/>
-                </PREP>
                 <PREP value="in">
                     <SELRESTRS/>
                 </PREP>

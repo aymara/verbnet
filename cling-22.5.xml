@@ -27,7 +27,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with/to-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The child clung to her mother&quot;</EXAMPLE>
+                <EXAMPLE>The child clung to her mother.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme1">
@@ -53,9 +53,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.5.5" primary="Together Reciprocal Alternation Intransitive" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.5.5" primary="Together Reciprocal Alternation Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The child and her mother clung together&quot;</EXAMPLE>
+                <EXAMPLE>The child and her mother clung together.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">

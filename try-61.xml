@@ -2,9 +2,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="try-61" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="try" wn=""/>
-        <MEMBER name="attempt" wn=""/>
-        <MEMBER name="intend" wn=""/>
+        <MEMBER name="try" wn="try%2:41:00"/>
+        <MEMBER name="attempt" wn="attempt%2:41:00 attempt%2:36:00"/>
+        <MEMBER name="intend" wn="intend%2:31:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -24,7 +24,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="ING-NP-OMIT" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I tried exercising&quot;</EXAMPLE>
+                <EXAMPLE>I tried exercising.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -33,8 +33,8 @@
                 <VERB/>
                 <NP value="Predicate">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="np_omit_ing"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="np_omit_ing"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -50,7 +50,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I tried the exercise routine&quot;</EXAMPLE>
+                <EXAMPLE>I tried the exercise routine.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -59,8 +59,8 @@
                 <VERB/>
                 <NP value="Theme">
                     <SYNRESTRS>
-			<SYNRESTR Value="-" type="sentential"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -74,9 +74,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" secondary="" xtag="0.2"/>   
+            <DESCRIPTION descriptionNumber="8.1" primary="TO-INF-SC" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I tried to exercise&quot;</EXAMPLE>
+                <EXAMPLE>I tried to exercise.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -85,11 +85,11 @@
                 <VERB/>
                 <NP value="Predicate">
                     <SYNRESTRS>
-                        <SYNRESTR Value="+" type="sc_to_inf"/> 
+                        <SYNRESTR Value="+" type="sc_to_inf"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
-            <SEMANTICS> 
+            <SEMANTICS>
                 <PRED value="attempt">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>

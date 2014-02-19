@@ -2,8 +2,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="help-72" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="support" wn=""/>
-        <MEMBER name="succor" wn=""/>
+        <MEMBER name="support" wn="support%2:41:00"/>
+        <MEMBER name="succor" wn="succor%2:41:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -26,7 +26,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I helped him.&quot;</EXAMPLE>
+                <EXAMPLE>I helped him.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -42,7 +42,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Beneficary"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
                         <ARG type="ThemRole" value="?Theme"/>
                     </ARGS>
                 </PRED>
@@ -51,7 +51,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="with-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I helped him with homework.&quot;</EXAMPLE>
+                <EXAMPLE>I helped him with homework.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -61,13 +61,13 @@
                 <NP value="Beneficiary">
                     <SYNRESTRS/>
                 </NP>
-		<PREP value="with">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="with">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Theme">
                     <SYNRESTRS>
-			<SYNRESTR Value="-" type="sentential"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -75,7 +75,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Beneficary"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
@@ -84,14 +84,14 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-P-ING-OC" secondary="with-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I helped him with finishing the homework.&quot;</EXAMPLE>
+                <EXAMPLE>I helped him with finishing the homework.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Beneficary">
+                <NP value="Beneficiary">
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="with">
@@ -108,7 +108,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Beneficary"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
@@ -117,7 +117,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-TO-INF-OC" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I helped him to finish the homework.&quot;</EXAMPLE>
+                <EXAMPLE>I helped him to finish the homework.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -138,7 +138,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Beneficary"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
@@ -147,7 +147,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-ING-AC" secondary="with-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I helped with finishing the homework.&quot;</EXAMPLE>
+                <EXAMPLE>I helped with finishing the homework.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -155,8 +155,8 @@
                 </NP>
                 <VERB/>
                 <PREP value="with">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="ac_ing"/>
@@ -168,7 +168,7 @@
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Beneficary"/>
+                        <ARG type="ThemRole" value="?Beneficiary"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
@@ -176,32 +176,32 @@
         </FRAME>
     </FRAMES>
     <SUBCLASSES>
-        <VNSUBCLASS ID="help-70-1">
+        <VNSUBCLASS ID="help-72-1">
             <MEMBERS>
-                <MEMBER name="aid" wn=""/>
-                <MEMBER name="abet" wn=""/>
-                <MEMBER name="assist" wn=""/>
-                <MEMBER name="help" wn=""/>
+                <MEMBER name="aid" wn="aid%2:41:00"/>
+                <MEMBER name="abet" wn="abet%2:41:00"/>
+                <MEMBER name="assist" wn="assist%2:41:02"/>
+                <MEMBER name="help" wn="help%2:41:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with-PP" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;I helped with the homework.&quot;</EXAMPLE>
+                        <EXAMPLE>I helped with the homework.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-			<PREP value="with">
-			    <SELRESTRS/>
-			</PREP>
+                        <PREP value="with">
+                            <SELRESTRS/>
+                        </PREP>
                         <NP value="Theme">
                             <SYNRESTRS>
-				<SYNRESTR Value="-" type="sentential"/>
-			    </SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
@@ -209,11 +209,11 @@
                             <ARGS>
                                 <ARG type="Event" value="during(E)"/>
                                 <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="?Beneficary"/>
+                                <ARG type="ThemRole" value="?Beneficiary"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
-		    </SEMANTICS>
+                    </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES/>

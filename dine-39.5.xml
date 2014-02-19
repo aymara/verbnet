@@ -31,7 +31,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Cynthia breakfasted"]]></EXAMPLE>
+                <EXAMPLE>Cynthia breakfasted.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -52,7 +52,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Patient-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Cynthia breakfasted on peaches"]]></EXAMPLE>
+                <EXAMPLE>Cynthia breakfasted on peaches.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

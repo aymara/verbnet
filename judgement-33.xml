@@ -39,16 +39,16 @@
         <MEMBER name="stigmatize" wn="stigmatize%2:41:00"/>
         <MEMBER name="praise" wn="praise%2:32:00"/>
         <MEMBER name="honor" wn="honor%2:41:00 honor%2:41:01"/>
-        <MEMBER name="recommend" wn="recommend%2:32:00"/>        
-	<MEMBER name="laud" wn="laud%2:32:00"/>
+        <MEMBER name="recommend" wn="recommend%2:32:00"/>
+        <MEMBER name="laud" wn="laud%2:32:00"/>
         <MEMBER name="pardon" wn="pardon%2:32:01 pardon%2:32:00"/>
         <MEMBER name="recompense" wn="recompense%2:40:01"/>
         <MEMBER name="remunerate" wn="remunerate%2:40:00"/>
         <MEMBER name="slander" wn=""/>
         <MEMBER name="stultify" wn=""/>
         <MEMBER name="repay" wn="repay%2:40:02"/>
-        <MEMBER name="reward" wn="reward%2:40:01 reward%2:40:00"/>
-        <MEMBER name="salute" wn="salute%2:32:03"/>
+        <MEMBER name="reward" wn="reward%2:41:01"/>
+        <MEMBER name="salute" wn="salute%2:32:03 salute%2:34:00"/>
         <MEMBER name="thank" wn="thank%2:32:00"/>
         <MEMBER name="toast" wn="toast%2:34:00"/>
         <MEMBER name="welcome" wn="welcome%2:40:00"/>
@@ -70,7 +70,6 @@
         <MEMBER name="deride" wn="deride%2:32:00"/>
         <MEMBER name="disparage" wn="disparage%2:32:00"/>
         <MEMBER name="fault" wn="fault%2:32:00"/>
-        <MEMBER name="fine" wn="fine%2:40:00 fine%2:41:00"/>
         <MEMBER name="impeach" wn="impeach%2:32:03"/>
         <MEMBER name="insult" wn="insult%2:32:00"/>
         <MEMBER name="lambaste" wn="lambaste%2:32:00"/>
@@ -87,8 +86,7 @@
         <MEMBER name="revile" wn="revile%2:32:00"/>
         <MEMBER name="ridicule" wn="ridicule%2:32:00"/>
         <MEMBER name="scold" wn="scold%2:32:00"/>
-        <MEMBER name="repudiate" wn="repudiate%2:32:00"/>        
-        <MEMBER name="salute" wn="salute%2:34:00"/>
+        <MEMBER name="repudiate" wn="repudiate%2:32:00"/>
         <MEMBER name="scorn" wn="scorn%2:37:00"/>
         <MEMBER name="shame" wn="shame%2:41:00 shame%2:37:00"/>
         <MEMBER name="snub" wn="snub%2:32:01 snub%2:32:00"/>
@@ -96,7 +94,7 @@
         <MEMBER name="victimize" wn="victimize%2:41:01 victimize%2:41:00"/>
         <MEMBER name="vilify" wn="vilify%2:32:00"/>
         <MEMBER name="approve" wn="approve%2:32:00 approve%2:31:00"/>
-	<MEMBER name="sanction" wn=""/>
+        <MEMBER name="sanction" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -115,7 +113,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["They praised the volunteers"]]></EXAMPLE>
+                <EXAMPLE>They praised the volunteers.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -140,7 +138,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Cause-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["They praised the volunteers for their dedication"]]></EXAMPLE>
+                <EXAMPLE>They praised the volunteers for their dedication.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -171,7 +169,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.13.2" primary="NP" secondary="Predicate Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["They praised the volunteer's dedication"]]></EXAMPLE>
+                <EXAMPLE>They praised the volunteer's dedication.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -201,7 +199,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="as-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I judged him as a good man"]]></EXAMPLE>
+                <EXAMPLE>I judged him as a good man.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -211,9 +209,9 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-		<PREP value="as">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="as">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Predicate">
                     <SYNRESTRS/>
                 </NP>
@@ -232,7 +230,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-TOBE" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I judged him to be a good man"]]></EXAMPLE>
+                <EXAMPLE>I judged him to be a good man.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -243,9 +241,9 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Predicate">
-		    <SYNRESTRS>
+                    <SYNRESTRS>
                         <SYNRESTR Value="+" type="small_clause"/>
-		    </SYNRESTRS>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

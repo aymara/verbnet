@@ -2,6 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="build-26.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <!--REMOVED "cook_up" and "hatch" misclassified-->
         <MEMBER name="arrange" wn="arrange%2:35:00 arrange%2:29:00 arrange%2:36:00"/>
         <MEMBER name="assemble" wn="assemble%2:36:00"/>
         <MEMBER name="bake" wn="bake%2:36:00"/>
@@ -11,7 +12,6 @@
         <MEMBER name="churn" wn="churn%2:35:00"/>
         <MEMBER name="compile" wn="compile%2:36:00"/>
         <MEMBER name="cook" wn="cook%2:36:01 cook%2:36:00 cook%2:30:00 cook%2:30:03"/>
-        <MEMBER name="cook_up" wn=""/>
         <MEMBER name="crochet" wn="crochet%2:36:01"/>
         <MEMBER name="develop" wn="develop%2:36:01 develop%2:30:01 develop%2:39:00"/>
         <MEMBER name="embroider" wn="embroider%2:36:00"/>
@@ -24,7 +24,6 @@
         <MEMBER name="grow" wn="grow%2:30:01 grow%2:36:00"/>
         <MEMBER name="hack" wn="?hack%2:35:02"/>
         <MEMBER name="hammer" wn="hammer%2:36:00"/>
-        <MEMBER name="hatch" wn="?hatch%2:36:00 ?hatch%2:36:03"/>
         <MEMBER name="knit" wn="knit%2:36:00"/>
         <MEMBER name="mold" wn="mold%2:36:02 mold%2:36:00 mold%2:36:01"/>
         <MEMBER name="pound" wn=""/>
@@ -50,9 +49,7 @@
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Product">
-            <SELRESTRS>
-                <SELRESTR Value="+" type="concrete"/>
-            </SELRESTRS>
+            <SELRESTRS/>
         </THEMROLE>
         <THEMROLE type="Beneficiary">
             <SELRESTRS logic="or">
@@ -68,9 +65,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Martha carves toys&quot;</EXAMPLE>
+                <EXAMPLE>Martha carves toys.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -110,9 +107,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.2.1" primary="Unspecified Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.2.1" primary="Unspecified Object" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Martha carves&quot;</EXAMPLE>
+                <EXAMPLE>Martha carves.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -151,7 +148,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.4.1" primary="Material/Product Alternation Transitive" secondary="Product Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Martha carved a toy out of a piece of wood&quot;</EXAMPLE>
+                <EXAMPLE>Martha carved a toy out of a piece of wood.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -161,7 +158,7 @@
                 <NP value="Product">
                     <SYNRESTRS/>
                 </NP>
-                <PREP value="from out of">
+                <PREP value="from out_of">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Material">
@@ -199,7 +196,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.4.1" primary="Material/Product Alternation Transitive" secondary="Material Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Martha carved the piece of wood into a toy&quot;</EXAMPLE>
+                <EXAMPLE>Martha carved the piece of wood into a toy.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -247,7 +244,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.2" primary="NP-PP" secondary="for-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Martha carved a toy for the baby&quot;</EXAMPLE>
+                <EXAMPLE>Martha carved a toy for the baby.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -301,7 +298,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.2" primary="NP-NP" secondary="Object Beneficiary" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Martha carved the baby a toy out of a piece of wood&quot;</EXAMPLE>
+                <EXAMPLE>Martha carved the baby a toy out of a piece of wood.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -314,7 +311,7 @@
                 <NP value="Product">
                     <SYNRESTRS/>
                 </NP>
-                <PREP value="from out of">
+                <PREP value="from out_of">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Material">
@@ -358,7 +355,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.2" primary="NP-PP-PP" secondary="Source-PP Beneficiary-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Martha carved a toy out of a piece of wood for the baby&quot;</EXAMPLE>
+                <EXAMPLE>Martha carved a toy out of a piece of wood for the baby.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -368,7 +365,7 @@
                 <NP value="Product">
                     <SYNRESTRS/>
                 </NP>
-                <PREP value="from out of">
+                <PREP value="from out_of">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Material">
@@ -418,7 +415,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.2" primary="NP-PP" secondary="for-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Martha carved a piece of wood for the baby&quot;</EXAMPLE>
+                <EXAMPLE>Martha carved a piece of wood for the baby.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -472,7 +469,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.2" primary="NP-PP-PP" secondary="Product-PP Beneficiary-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Martha carved a piece of wood into a toy for the baby&quot;</EXAMPLE>
+                <EXAMPLE>Martha carved a piece of wood into a toy for the baby.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -533,7 +530,7 @@
             <DESCRIPTION descriptionNumber="3.8" primary="Raw Material Subject" secondary="" xtag=""/>
             <!-- If present tense, then predicate is property(Material,Product,Prop)-->
             <EXAMPLES>
-                <EXAMPLE>&quot;This wood carved beautiful toys&quot;</EXAMPLE>
+                <EXAMPLE>This wood carved beautiful toys.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Material">
@@ -575,7 +572,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="3.9" primary="NP-NP-PP" secondary="Asset-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The contractor will build you a house for $100,000&quot;</EXAMPLE>
+                <EXAMPLE>The contractor will build you a house for $100,000.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -638,7 +635,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="3.9" primary="NP-PP-PP" secondary="Material-PP, Asset-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Martha will carve a toy out of a piece of wood for $50&quot;</EXAMPLE>
+                <EXAMPLE>Martha will carve a toy out of a piece of wood for $50.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -648,7 +645,7 @@
                 <NP value="Product">
                     <SYNRESTRS/>
                 </NP>
-                <PREP value="from out of">
+                <PREP value="from out_of">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Material">
@@ -711,7 +708,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="3.9" primary="NP-PP" secondary="Asset-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;The contractor builds houses for $100,000&quot;</EXAMPLE>
+                        <EXAMPLE>The contractor builds houses for $100,000.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -765,7 +762,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="3.9" primary="NP" secondary="Asset Subject" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;$100,000 builds a house&quot;</EXAMPLE>
+                        <EXAMPLE>$100,000 builds a house.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Asset">
@@ -813,7 +810,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="3.9" primary="NP-NP" secondary="Asset Subject" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;$100,000 will build you a house&quot;</EXAMPLE>
+                        <EXAMPLE>$100,000 will build you a house.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Asset">
@@ -870,7 +867,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="3.9" primary="NP-PP" secondary="Asset Subject" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;$100,000 builds a house out of sticks&quot;</EXAMPLE>
+                        <EXAMPLE>$100,000 builds a house out of sticks.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Asset">
@@ -880,7 +877,7 @@
                         <NP value="Product">
                             <SYNRESTRS/>
                         </NP>
-                        <PREP value="from out of">
+                        <PREP value="from out_of">
                             <SELRESTRS/>
                         </PREP>
                         <NP value="Material">
@@ -924,7 +921,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="3.9" primary="NP-NP-PP" secondary="Asset Subject" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;$100,000 builds you a house out of sticks&quot;</EXAMPLE>
+                        <EXAMPLE>$100,000 builds you a house out of sticks.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Asset">
@@ -937,7 +934,7 @@
                         <NP value="Product">
                             <SYNRESTRS/>
                         </NP>
-                        <PREP value="from out of">
+                        <PREP value="from out_of">
                             <SELRESTRS/>
                         </PREP>
                         <NP value="Material">

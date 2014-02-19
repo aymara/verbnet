@@ -22,7 +22,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="with-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He managed with dealing the cards.&quot;</EXAMPLE>
+                <EXAMPLE>He managed with dealing the cards.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -30,8 +30,8 @@
                 </NP>
                 <VERB/>
                 <PREP value="with">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="sc_ing"/>
@@ -50,73 +50,73 @@
         </FRAME>
     </FRAMES>
     <SUBCLASSES>
-       <VNSUBCLASS ID="cope-81-1">
-          <MEMBERS>
-	     <MEMBER name="cope" wn=""/>
-	  </MEMBERS>
-	  <THEMROLES/>
-	  <FRAMES>
-	     <FRAME>
-                <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
-                   <EXAMPLES>
-                      <EXAMPLE>&quot;He managed.&quot;</EXAMPLE>
-                   </EXAMPLES>
-                   <SYNTAX>
-                      <NP value="Agent">
-                          <SYNRESTRS/>
-                      </NP>
-                      <VERB/>
-                   </SYNTAX>
-                   <SEMANTICS>
-                      <PRED value="cope">
-                         <ARGS>
-                            <ARG type="Event" value="E"/>
-                            <ARG type="ThemRole" value="Agent"/>
-                            <ARG type="ThemRole" value="?Theme"/>
-                         </ARGS>
-                      </PRED>
-                   </SEMANTICS>
+        <VNSUBCLASS ID="cope-83-1">
+            <MEMBERS>
+                <MEMBER name="cope" wn=""/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>He managed.</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cope">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
                 </FRAME>
-	     </FRAMES>
-	     <SUBCLASSES>
-	        <VNSUBCLASS ID="cope-81-1-1">
-	            <MEMBERS>
-		        <MEMBER name="manage" wn=""/>
-		        <MEMBER name="grapple" wn=""/>
-		        <MEMBER name="get_by" wn=""/>
-		        <MEMBER name="succeed" wn=""/>
-	            </MEMBERS>
-	            <THEMROLES/>
-	            <FRAMES>
-		        <FRAME>
-		            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
-		            <EXAMPLES>
-		                <EXAMPLE>&quot;He managed the climb.&quot;</EXAMPLE>
-		            </EXAMPLES>
-		            <SYNTAX>
-		                <NP value="Agent">
-		                    <SYNRESTRS/>
-		                </NP>
-		                <VERB/>
-		                <NP value="Theme">
-		                    <SYNRESTRS/>
-		                </NP>
-		            </SYNTAX>
-		            <SEMANTICS>
-		                <PRED value="cope">
-		                    <ARGS>
-		                        <ARG type="Event" value="E"/>
-		                        <ARG type="ThemRole" value="Agent"/>
-		                        <ARG type="ThemRole" value="Theme"/>
-		                    </ARGS>
-		                </PRED>
-		            </SEMANTICS>
-		        </FRAME>
-		    </FRAMES>
-		    <SUBCLASSES/>
-	        </VNSUBCLASS>
-	     </SUBCLASSES>
-	</VNSUBCLASS>
+            </FRAMES>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="cope-83-1-1">
+                    <MEMBERS>
+                        <MEMBER name="manage" wn=""/>
+                        <MEMBER name="grapple" wn=""/>
+                        <MEMBER name="get_by" wn=""/>
+                        <MEMBER name="succeed" wn=""/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE>He managed the climb.</EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="cope">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
+        </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
 

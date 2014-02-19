@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS ID="focus-87" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="empathize-88.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="focus" wn=""/>
-        <MEMBER name="center" wn=""/>
-        <MEMBER name="concentrate" wn=""/>
-        <MEMBER name="converge" wn=""/>
+        <MEMBER name="empathize" wn=""/>
+        <MEMBER name="sympathize" wn=""/>
+        <MEMBER name="identify" wn=""/>
+        <MEMBER name="commiserate" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -14,149 +14,137 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Theme">
+        <THEMROLE type="Cause">
             <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="on-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Intransitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;We focused on it.&quot;</EXAMPLE>
+                <EXAMPLE>You really have to empathize.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-		<PREP value="on">
-		    <SELRESTRS/>
-		</PREP>	
-                <NP value="Theme">
-                    <SYNRESTRS>
-			<SYNRESTRS Value="-" type="sentential"/>
-		    </SYNRESTRS>
-                </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="concentrate">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
+                <PRED value="emotional_state">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="?Cause"/>
+                    </ARGS>
+                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="on-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="with-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;We focused on reading the book.&quot;</EXAMPLE>
+                <EXAMPLE>You really have to empathize with them.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-		<PREP value="on">
+		<PREP value="with">
 		    <SELRESTRS/>
 		</PREP>
-                <NP value="Theme">
+                <NP value="Cause">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="sc_ing"/>
+			<SYNRESTR Value="-" type="sentential"/>
 		    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="concentrate">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
+                <PRED value="emotional_state">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Cause"/>
+                    </ARGS>
+                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-S" secondary="on-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="P-POSSING" secondary="with-P" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;We focused on what he wanted.&quot;</EXAMPLE>
+                <EXAMPLE>You really have to empathize with their doing it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <PREP value="on">
+                <PREP value="with">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Theme">
+                <NP value="Cause">
                     <SYNRESTRS>
-                        <SYNRESTR Value="+" type="what_extract"/>
+                        <SYNRESTR Value="+" type="poss_ing"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="concentrate">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
+                <PRED value="emotional_state">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
-                </PRED> 
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Cause"/>
+                    </ARGS>
+                 </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-TO-INF" secondary="on-PP" xtag="0.2"/>                 
+            <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-TO-INF" secondary="with-P" xtag="0.2"/>                    
             <EXAMPLES>
-                <EXAMPLE>&quot;We focused on what to do.&quot;</EXAMPLE>
+                <EXAMPLE>You've really got to empathize with what they want.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <PREP value="on">
-                    <SELRESTRS/>
-                </PREP>
-                <NP value="Theme">
+                <PREP value="with">
+		    <SELRESTRS/>
+		</PREP>
+                <NP value="Cause">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="what_inf"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="concentrate">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
+                <PRED value="emotional_state">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Cause"/>
+                    </ARGS>
+                 </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>

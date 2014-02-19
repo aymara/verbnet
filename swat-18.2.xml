@@ -4,11 +4,14 @@
     <MEMBERS>
         <!--Removed "shoot (gun)" from class because misclassified-->
         <MEMBER name="bite" wn="bite%2:35:00 ?bite%2:35:01"/>
+        <MEMBER name="chop" wn="chop%2:35:01"/>
         <MEMBER name="claw" wn="claw%2:35:01 claw%2:35:00"/>
+        <MEMBER name="kick" wn="kick%2:35:01 kick%2:38:00 kick%2:35:00"/>
         <MEMBER name="paw" wn="paw%2:35:01"/>
         <MEMBER name="peck" wn="peck%2:35:01 peck%2:35:00"/>
         <MEMBER name="punch" wn="punch%2:35:00"/>
         <MEMBER name="scratch" wn="scratch%2:35:00 scratch%2:39:00"/>
+        <MEMBER name="slice" wn="slice%2:35:01 slice%2:35:00"/>
         <MEMBER name="slug" wn="slug%2:35:00"/>
         <MEMBER name="stab" wn="stab%2:35:02 stab%2:35:00 stab%2:35:01"/>
         <MEMBER name="swat" wn="swat%2:35:00"/>
@@ -33,9 +36,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paula swatted the fly&quot;</EXAMPLE>
+                <EXAMPLE>Paula swatted the fly.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -86,7 +89,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paula swatted the fly with a dishcloth&quot;</EXAMPLE>
+                <EXAMPLE>Paula swatted the fly with a dishcloth.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -148,9 +151,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.3" primary="Conative" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.3" primary="Conative" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paula swatted at the fly&quot;</EXAMPLE>
+                <EXAMPLE>Paula swatted at the fly.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -186,9 +189,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.3" primary="Conative" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.3" primary="Conative" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paula swatted at the fly with a dishcloth&quot;</EXAMPLE>
+                <EXAMPLE>Paula swatted at the fly with a dishcloth.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -239,7 +242,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paula bit the bag open&quot;</EXAMPLE>
+                <EXAMPLE>Paula bit the bag open.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -297,7 +300,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP" secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Paula swatted the fly dead with a dishcloth&quot;</EXAMPLE>
+                <EXAMPLE>Paula swatted the fly dead with a dishcloth.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -368,7 +371,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The cat clawed the counch to pieces&quot;</EXAMPLE>
+                <EXAMPLE>The cat clawed the counch to pieces.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -433,7 +436,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The cat clawed the counch to pieces with her sharp nails&quot;</EXAMPLE>
+                <EXAMPLE>The cat clawed the counch to pieces with her sharp nails.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -511,7 +514,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Body-part-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Paula swatted Deirdre on the back."]]></EXAMPLE>
+                <EXAMPLE>Paula swatted Deirdre on the back.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

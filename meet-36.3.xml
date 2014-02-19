@@ -23,12 +23,12 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="meet-36.3-1">
             <MEMBERS>
-                <MEMBER name="consult" wn="consult%2:32:02 consult%2:32:01 consult%2:32:03"/>
-        	<MEMBER name="deliberate" wn=""/>
+                <MEMBER name="consult" wn="consult%2:32:01 consult%2:32:02 consult%2:32:05"/>
+                <MEMBER name="deliberate" wn=""/>
                 <MEMBER name="meet" wn="meet%2:38:01 meet%2:41:01 meet%2:41:03 meet%2:41:00"/>
                 <MEMBER name="play" wn="play%2:41:03 play%2:33:02"/>
-        	<MEMBER name="remonstrate" wn=""/>
-        	<MEMBER name="reunite" wn=""/>
+                <MEMBER name="remonstrate" wn=""/>
+                <MEMBER name="reunite" wn=""/>
                 <MEMBER name="visit" wn="visit%2:41:00 visit%2:38:01 visit%2:32:00"/>
             </MEMBERS>
             <THEMROLES/>
@@ -36,7 +36,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP" secondary="with-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Brenda met with Molly."]]></EXAMPLE>
+                        <EXAMPLE>Brenda met with Molly.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Actor1">
@@ -63,7 +63,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Brenda and Molly met."]]></EXAMPLE>
+                        <EXAMPLE>Brenda and Molly met.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Actor1">
@@ -88,7 +88,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="With Preposition Drop" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Anne met Cathy."]]></EXAMPLE>
+                        <EXAMPLE>Anne met Cathy.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Actor1">
@@ -112,7 +112,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="Plural Subject" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["The committee met."]]></EXAMPLE>
+                        <EXAMPLE>The committee met.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Actor">
@@ -147,7 +147,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="PP" secondary="with-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Brenda fought with Molly."]]></EXAMPLE>
+                        <EXAMPLE>Brenda fought with Molly.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Actor1">
@@ -181,7 +181,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Brenda and Molly fought."]]></EXAMPLE>
+                        <EXAMPLE>Brenda and Molly fought.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Actor1">
@@ -213,7 +213,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="With Preposition Drop Alternation" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Anne fought Cathy."]]></EXAMPLE>
+                        <EXAMPLE>Anne fought Cathy.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Actor1">
@@ -244,7 +244,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="Plural Subject" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["The populace fought."]]></EXAMPLE>
+                        <EXAMPLE>The populace fought.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Actor">

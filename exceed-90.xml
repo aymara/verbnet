@@ -2,25 +2,25 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="exceed-90" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="exceed" wn=""/>
+        <MEMBER name="exceed" wn="exceed%2:42:01 exceed%2:42:00 exceed%2:33:00"/>
         <MEMBER name="excel" wn=""/>
         <MEMBER name="lap" wn=""/>
-        <MEMBER name="outbid" wn=""/>
-        <MEMBER name="outmatch" wn=""/>
-        <MEMBER name="outnumber" wn=""/>
+        <MEMBER name="outbid" wn="outbid%2:40:01 outbid%2:40:00"/>
+        <MEMBER name="outmatch" wn="outmatch%2:33:00"/>
+        <MEMBER name="outnumber" wn="outnumber%2:42:00"/>
         <MEMBER name="outrace" wn=""/>
-        <MEMBER name="outsmart" wn=""/>
-        <MEMBER name="outstrip" wn=""/>
-        <MEMBER name="outweigh" wn=""/>
-        <MEMBER name="outwit" wn=""/>
-        <MEMBER name="overcome" wn=""/>
-        <MEMBER name="overreach" wn=""/>
+        <MEMBER name="outsmart" wn="outsmart%2:33:00 outsmart%2:33:01"/>
+        <MEMBER name="outstrip" wn="outstrip%2:33:00 outstrip%2:38:00"/>
+        <MEMBER name="outweigh" wn="outweigh%2:33:00 outweigh%2:42:00"/>
+        <MEMBER name="outwit" wn="outwit%2:33:00"/>
+        <MEMBER name="overcome" wn="overcome%2:33:01"/>
+        <MEMBER name="overreach" wn="overreach%2:33:00"/>
         <MEMBER name="overrun" wn=""/>
-        <MEMBER name="overstep" wn=""/>
-        <MEMBER name="succeed" wn=""/>
-        <MEMBER name="surpass" wn=""/>
-        <MEMBER name="top" wn=""/>
-        <MEMBER name="transcend" wn=""/>
+        <MEMBER name="overstep" wn="overstep%2:42:00"/>
+        <MEMBER name="succeed" wn="succeed%2:41:00"/>
+        <MEMBER name="surpass" wn="surpass%2:33:00 surpass%2:42:01"/>
+        <MEMBER name="top" wn="top%2:42:00 top%2:42:11"/>
+        <MEMBER name="transcend" wn="transcend%2:42:00 transcend%2:42:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme1">
@@ -30,14 +30,14 @@
             <SELRESTRS/>
         </THEMROLE>
         <THEMROLE type="Attribute">
-	    <SELRESTRS/>
+            <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Her performance exceeds our expectations.&quot;</EXAMPLE>
+                <EXAMPLE>Her performance exceeds our expectations.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme1">
@@ -62,7 +62,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="in-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Her performance exceeds ours in brilliance.&quot;</EXAMPLE>
+                <EXAMPLE>Her performance exceeds ours in brilliance.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme1">
@@ -73,11 +73,11 @@
                     <SYNRESTRS/>
                 </NP>
                 <PREP value="in">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Attribute">
-		    <SYNRESTRS/>
-		</NP>
+                    <SYNRESTRS/>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="exceed">

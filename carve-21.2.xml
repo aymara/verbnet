@@ -2,9 +2,7 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="carve-21.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <!--class needs to be subdivided-->
-    <MEMBERS>
-        <!--each verb specifies the specific Instrument or manner of Motion of Agent during event, or result-->
-    </MEMBERS>
+    <MEMBERS/>
     <THEMROLES>
         <THEMROLE type="Agent">
             <SELRESTRS>
@@ -30,11 +28,17 @@
                 <!--Each verb specifies Form of Patient as a result of action-->
                 <MEMBER name="bruise" wn="bruise%2:35:00 bruise%2:30:00"/>
                 <MEMBER name="chip" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00"/>
+                <MEMBER name="cleave" wn="cleave%2:35:00 cleave%2:35:01"/>
+                <MEMBER name="crumble" wn="crumble%2:30:00"/>
+                <MEMBER name="crumple" wn="crumple%2:35:00"/>
+                <MEMBER name="crunch" wn="crunch%2:34:00 crunch%2:30:00"/>
                 <MEMBER name="crush" wn="crush%2:35:00 crush%2:30:00 crush%2:35:01 crush%2:30:08"/>
                 <MEMBER name="cube" wn="cube%2:35:00"/>
                 <MEMBER name="dent" wn="dent%2:35:00"/>
                 <MEMBER name="dice" wn="dice%2:35:00"/>
                 <MEMBER name="fillet" wn="fillet%2:35:00"/>
+                <MEMBER name="flake" wn="flake%2:35:02"/>
+                <MEMBER name="flatten" wn="flatten%2:30:01"/>
                 <MEMBER name="gash" wn="gash%2:35:00"/>
                 <MEMBER name="gouge" wn="gouge%2:35:00 gouge%2:35:01"/>
                 <MEMBER name="grate" wn="grate%2:35:02"/>
@@ -46,18 +50,20 @@
                 <MEMBER name="notch" wn="notch%2:35:00"/>
                 <MEMBER name="perforate" wn="perforate%2:35:00"/>
                 <MEMBER name="pulverize" wn="pulverize%2:30:00"/>
+                <MEMBER name="scrunch" wn="scrunch%2:35:00"/>
                 <MEMBER name="shred" wn="shred%2:35:00"/>
                 <MEMBER name="slice" wn="slice%2:35:01 slice%2:35:00"/>
                 <MEMBER name="slit" wn="slit%2:35:01 slit%2:35:00"/>
+                <MEMBER name="smash" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:08 smash%2:35:05 smash%2:30:10"/>
                 <MEMBER name="squash" wn="squash%2:35:00"/>
                 <MEMBER name="squish" wn="squish%2:35:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Carol crushed the ice&quot;</EXAMPLE>
+                        <EXAMPLE>Carol crushed the ice.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -100,7 +106,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Carol crushed the ice with a hammer&quot;</EXAMPLE>
+                        <EXAMPLE>Carol crushed the ice with a hammer.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -154,9 +160,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;The ice crushes easily&quot;</EXAMPLE>
+                        <EXAMPLE>The ice crushes easily.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Patient">
@@ -180,9 +186,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" xtag=""/>
+                    <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;The hammer crushed the marble&quot;</EXAMPLE>
+                        <EXAMPLE>The hammer crushed the marble.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Instrument">
@@ -219,7 +225,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="1.2.6.2" primary="Characteristic Property of Instrument" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;That hammer crushes well&quot;</EXAMPLE>
+                        <EXAMPLE>That hammer crushes well.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Instrument">
@@ -255,20 +261,20 @@
                 <MEMBER name="crop" wn="crop%2:35:02"/>
                 <MEMBER name="drill" wn="drill%2:35:00"/>
                 <MEMBER name="file" wn="file%2:35:00"/>
-        	<MEMBER name="lance" wn=""/>
-        	<MEMBER name="mill" wn=""/>
+                <MEMBER name="lance" wn="lance%2:35:01 lance%2:35:00"/>
+                <MEMBER name="mill" wn="mill%2:35:00"/>
                 <MEMBER name="mow" wn="mow%2:35:00"/>
                 <MEMBER name="punch" wn="punch%2:35:01"/>
                 <MEMBER name="prune" wn="prune%2:35:00"/>
                 <MEMBER name="spear" wn="spear%2:35:00"/>
-        	<MEMBER name="tread" wn=""/>
+                <MEMBER name="tread" wn="tread%2:40:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Carol carved the stone&quot;</EXAMPLE>
+                        <EXAMPLE>Carol carved the stone.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -311,7 +317,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Carol carved the stone with a chisel&quot;</EXAMPLE>
+                        <EXAMPLE>Carol carved the stone with a chisel.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -365,9 +371,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Marble carves easily&quot;</EXAMPLE>
+                        <EXAMPLE>Marble carves easily.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Patient">
@@ -391,9 +397,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" xtag=""/>
+                    <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;That chisel carved the statue&quot;</EXAMPLE>
+                        <EXAMPLE>That chisel carved the statue.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Instrument">
@@ -423,7 +429,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="1.2.6.2" primary="Characteristic Property of Instrument" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;That chisel carves well&quot;</EXAMPLE>
+                        <EXAMPLE>That chisel carves well.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Instrument">

@@ -20,7 +20,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Maggie hurried with her lunch."]]></EXAMPLE>
+                <EXAMPLE>Maggie hurried with her lunch.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -53,7 +53,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Maggie hurried her sister"]]></EXAMPLE>
+                <EXAMPLE>Maggie hurried her sister.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -83,7 +83,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PP" secondary="through-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Mary hurried through the museum."]]></EXAMPLE>
+                <EXAMPLE>Mary hurried through the museum.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

@@ -2,17 +2,18 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="occurrence-48.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <!--REMOVED "turn_out" misclassified-->
         <MEMBER name="ensue" wn="ensue%2:42:00"/>
         <MEMBER name="eventuate" wn="eventuate%2:42:00"/>
         <MEMBER name="happen" wn="happen%2:30:00 happen%2:30:01"/>
         <MEMBER name="occur" wn="occur%2:30:00"/>
         <MEMBER name="recur" wn="recur%2:30:00"/>
+        <MEMBER name="take place" wn="take_place%2:30:00"/>
         <MEMBER name="transpire" wn="transpire%2:30:09"/>
         <MEMBER name="befall" wn=""/>
         <MEMBER name="chance" wn=""/>
         <MEMBER name="develop" wn=""/>
         <MEMBER name="pass" wn=""/>
-        <MEMBER name="turn_out" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -26,7 +27,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["A serious accident happened."]]></EXAMPLE>
+                <EXAMPLE>A serious accident happened.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -46,7 +47,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.1" primary="NP" secondary="Expletive-there Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["There happened a serious accident."]]></EXAMPLE>
+                <EXAMPLE>There happened a serious accident.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <LEX value="there"/>
@@ -67,7 +68,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["A serious accident happened in front of them"]]></EXAMPLE>
+                <EXAMPLE>A serious accident happened in front of them.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -102,7 +103,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["In front of them happened a serious accident"]]></EXAMPLE>
+                <EXAMPLE>In front of them happened a serious accident.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <PREP>
@@ -137,14 +138,14 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="SEEM-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;It occurred that they left.&quot;</EXAMPLE>
+                <EXAMPLE>It occurred that they left.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <LEX value="it"/>
                 <VERB/>
                 <NP value="Theme">
                     <SYNRESTRS>
-                        <SYNRESTRS Value="+" type="that_comp"/>
+                        <SYNRESTR Value="+" type="that_comp"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>

@@ -2,11 +2,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="advise-37.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <!--REMOVED "entice" misclassified-->
         <MEMBER name="alert" wn="alert%2:32:00"/>
         <MEMBER name="assure" wn=""/>
         <MEMBER name="brief" wn=""/>
         <MEMBER name="encourage" wn="encourage%2:37:00"/>
-        <MEMBER name="entice" wn="entice%2:32:00"/>
         <MEMBER name="inform" wn=""/>
         <MEMBER name="notify" wn=""/>
     </MEMBERS>
@@ -33,7 +33,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Recipient Object" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Ellen alerted Helen&quot;</EXAMPLE>
+                <EXAMPLE>Ellen alerted Helen.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -64,7 +64,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="against/about-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Ellen warned Helen against skating on thin ice&quot;</EXAMPLE>
+                <EXAMPLE>Ellen warned Helen against skating on thin ice.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -101,7 +101,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.5" primary="NP-S" secondary="Recipient Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Ellen warned Helen that the party would be tonight&quot;</EXAMPLE>
+                <EXAMPLE>Ellen warned Helen that the party would be tonight.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -137,7 +137,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-HOW-TO-INF" secondary="Recipient Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Ellen warned Helen how to avoid the crowd&quot;</EXAMPLE>
+                <EXAMPLE>Ellen warned Helen how to avoid the crowd.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -173,7 +173,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.3" primary="NP-QUOT" secondary="Recipient Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Ellen warned Helen, 'Avoid that hole in the sidewalk.'&quot;</EXAMPLE>
+                <EXAMPLE>Ellen warned Helen, 'Avoid that hole in the sidewalk.'</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -209,7 +209,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="of-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["My accountant warned me of the new loopholes in the tax code."]]></EXAMPLE>
+                <EXAMPLE>My accountant warned me of the new loopholes in the tax code.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -259,7 +259,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="against/about-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Ellen warned against skating on thin ice&quot;</EXAMPLE>
+                        <EXAMPLE>Ellen warned against skating on thin ice.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -291,9 +291,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.5" primary="S" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.5" primary="S" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Ellen warned that the party would be tonight&quot;</EXAMPLE>
+                        <EXAMPLE>Ellen warned that the party would be tonight.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -324,9 +324,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.5" primary="HOW-TO-INF" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.5" primary="HOW-TO-INF" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Ellen warned how to avoid the crowd&quot;</EXAMPLE>
+                        <EXAMPLE>Ellen warned how to avoid the crowd.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -357,9 +357,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.3" primary="QUOT" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.3" primary="QUOT" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Ellen warned, 'Avoid that hole in the sidewalk.'&quot;</EXAMPLE>
+                        <EXAMPLE>Ellen warned, 'Avoid that hole in the sidewalk.'</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

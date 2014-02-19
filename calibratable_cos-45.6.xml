@@ -22,7 +22,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.13.5" primary="Intransitive" secondary="Attribute Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The price of oil soared&quot;</EXAMPLE>
+                <EXAMPLE>The price of oil soared.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Attribute">
@@ -48,7 +48,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.13.5" primary="PP" secondary="Possessor Subject, Attribute-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Oil soared in price&quot;</EXAMPLE>
+                <EXAMPLE>Oil soared in price.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -76,7 +76,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.13.5" primary="NP" secondary="Attribute Subject, Extent Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The price of oil increased ten percent&quot;</EXAMPLE>
+                <EXAMPLE>The price of oil increased ten percent.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Attribute">
@@ -113,7 +113,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.13.5" primary="PP" secondary="Attribute Subject, Extent-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The price of oil increased by ten percent&quot;</EXAMPLE>
+                <EXAMPLE>The price of oil increased by ten percent.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Attribute">
@@ -153,7 +153,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.13.5" primary="NP" secondary="Attribute Subject, Extent Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Oils's price increased ten percent&quot;</EXAMPLE>
+                <EXAMPLE>Oils's price increased ten percent.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -190,7 +190,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.13.5" primary="PP" secondary="Attribute Subject, Extent-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Oils's price increased by ten percent&quot;</EXAMPLE>
+                <EXAMPLE>Oils's price increased by ten percent.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -230,7 +230,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="Basic Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Imports have declined."]]></EXAMPLE>
+                <EXAMPLE>Imports have declined.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -252,7 +252,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PP" secondary="Extent-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Nonperforming assets at these banks declined by %15."]]></EXAMPLE>
+                <EXAMPLE>Nonperforming assets at these banks declined by %15.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -309,7 +309,7 @@
                 <MEMBER name="plummet" wn="plummet%2:38:00"/>
                 <MEMBER name="plunge" wn="plunge%2:38:01"/>
                 <MEMBER name="rocket" wn="rocket%2:38:00"/>
-                <MEMBER name="rise" wn="rise%2:30:00 rise%2:30:03 rise%2:30:09 rise%2:38:03"/>
+                <MEMBER name="rise" wn="rise%2:30:00 rise%2:30:03 rise%2:30:09 rise%2:38:02"/>
                 <MEMBER name="skyrocket" wn="skyrocket%2:38:00"/>
                 <MEMBER name="soar" wn="soar%2:38:01 soar%2:30:00"/>
                 <MEMBER name="surge" wn="surge%2:38:00"/>
@@ -324,7 +324,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="2.13.5" primary="Intransitive" secondary="Attribute Subject" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Oil's price soared."]]></EXAMPLE>
+                        <EXAMPLE>Oil's price soared.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Patient">

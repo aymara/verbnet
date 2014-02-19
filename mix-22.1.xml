@@ -4,7 +4,7 @@
     <MEMBERS/>
     <THEMROLES>
         <!--Patient1 is interpreted as Figure, Patient2 as Ground
-  We are only dealing with the physical sense of the verbs-->
+        We are only dealing with the physical sense of the verbs-->
         <THEMROLE type="Agent">
             <SELRESTRS>
                 <SELRESTR Value="+" type="int_control"/>
@@ -30,7 +30,14 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="mix-22.1-1">
             <MEMBERS>
-                <!--physical, change of integrity of Patients (but note alternate interpretation when both Patients are plural and countable - "mixed eggs and marbles")-->
+                <!--physical, change of integrity of Patients (but note
+                alternate interpretation when both Patients are plural and
+                countable - "mixed eggs and marbles")-->
+                <MEMBER name="admix" wn="admix%2:30:00"/>
+                <MEMBER name="consolidate" wn="consolidate%2:30:00 consolidate%2:30:01 consolidate%2:30:04 consolidate%2:30:03"/>
+                <MEMBER name="intermix" wn="intermix%2:35:00"/>
+                <MEMBER name="scramble" wn="scramble%2:35:00 scramble%2:35:02"/>
+                <MEMBER name="tumble" wn="tumble%2:35:00"/>
                 <MEMBER name="cream" wn="cream%2:35:00"/>
             </MEMBERS>
             <THEMROLES/>
@@ -38,7 +45,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="2.5.1" primary="NP-PP" secondary="with-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Herman mixed the eggs with the cream&quot;</EXAMPLE>
+                        <EXAMPLE>Herman mixed the eggs with the cream.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -87,7 +94,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Herman mixed the eggs&quot;</EXAMPLE>
+                        <EXAMPLE>Herman mixed the eggs.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -130,9 +137,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.2" primary="Together Reciprocal Alternation Transitive" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.2" primary="Together Reciprocal Alternation Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Herman mixed the eggs and the cream together&quot;</EXAMPLE>
+                        <EXAMPLE>Herman mixed the eggs and the cream together.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -178,7 +185,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="2.5.4" primary="PP" secondary="with-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;The eggs mixed with the cream&quot;</EXAMPLE>
+                        <EXAMPLE>The eggs mixed with the cream.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Patient1">
@@ -216,9 +223,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Eggs mix well with cream&quot;</EXAMPLE>
+                        <EXAMPLE>Eggs mix well with cream.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Patient1">
@@ -248,9 +255,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Eggs mix well&quot;</EXAMPLE>
+                        <EXAMPLE>Eggs mix well.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Patient">
@@ -276,9 +283,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Eggs and cream mix well together&quot;</EXAMPLE>
+                        <EXAMPLE>Eggs and cream mix well together.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Patient">
@@ -309,10 +316,14 @@
                 <VNSUBCLASS ID="mix-22.1-1-1">
                     <MEMBERS>
                         <!--physical, change of integrity of Patients (but note alternate interpretation when both Patients are plural and countable - "mixed eggs and marbles")-->
+                        <MEMBER name="amalgamate" wn="amalgamate%2:35:00"/>
                         <MEMBER name="blend" wn="blend%2:35:00"/>
+                        <MEMBER name="coalesce" wn="coalesce%2:30:00 coalesce%2:35:00"/>
                         <MEMBER name="combine" wn="combine%2:35:01"/>
+                        <MEMBER name="compound" wn="compound%2:30:00 compound%2:36:00 compound%2:35:00"/>
                         <MEMBER name="commingle" wn="?commingle%2:35:00"/>
                         <MEMBER name="fuse" wn="fuse%2:30:00"/>
+                        <MEMBER name="meld" wn="meld%2:30:00"/>
                         <MEMBER name="merge" wn="merge%2:30:01"/>
                         <MEMBER name="mingle" wn="mingle%2:35:00"/>
                         <MEMBER name="mix" wn="mix%2:30:00 mix%2:30:01"/>
@@ -322,7 +333,7 @@
                         <FRAME>
                             <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE>&quot;The eggs and the cream mixed&quot;</EXAMPLE>
+                                <EXAMPLE>The eggs and the cream mixed.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Patient">
@@ -356,9 +367,9 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.5" primary="Together Reciprocal Alternation Intransitive" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.5" primary="Together Reciprocal Alternation Intransitive" secondary="" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE>&quot;The eggs and the cream mixed together&quot;</EXAMPLE>
+                                <EXAMPLE>The eggs and the cream mixed together.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Patient">
@@ -401,13 +412,14 @@
             <MEMBERS>
                 <!--physical, no change of integrity of Patients-->
                 <MEMBER name="add" wn="add%2:30:00"/>
+                <MEMBER name="tie" wn="tie%2:35:01 tie%2:36:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="2.5.1" primary="NP-PP" secondary="to-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Herman added a computer to the network&quot;</EXAMPLE>
+                        <EXAMPLE>Herman added a computer to the network.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -444,7 +456,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="2.5.1" primary="Simple Reciprocal Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Herman connected the computers&quot;</EXAMPLE>
+                        <EXAMPLE>Herman connected the computers.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -475,9 +487,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.2" primary="Together Reciprocal Alternation Transitive" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.2" primary="Together Reciprocal Alternation Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Herman connected the computers together&quot;</EXAMPLE>
+                        <EXAMPLE>Herman connected the computers together.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -509,9 +521,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;This computer will connect well to the network&quot;</EXAMPLE>
+                        <EXAMPLE>This computer will connect well to the network.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Patient1">
@@ -541,9 +553,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;These computers connected well&quot;</EXAMPLE>
+                        <EXAMPLE>These computers connected well.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Patient">
@@ -569,9 +581,9 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;These computers connected well together&quot;</EXAMPLE>
+                        <EXAMPLE>These computers connected well together.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Patient">
@@ -601,19 +613,21 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="mix-22.1-2-1">
                     <MEMBERS>
-                        <MEMBER name="concatenate" wn="concatenate%2:30:00"/>
+                        <!--REMOVED "concatenate" misclassified-->
                         <MEMBER name="connect" wn="connect%2:35:00"/>
                         <MEMBER name="join" wn="join%2:35:01 join%2:35:00 join%2:42:01"/>
                         <MEMBER name="link" wn="link%2:35:00 link%2:42:01 link%2:35:02"/>
-                        <MEMBER name="pool" wn="pool%2:40:00 pool%2:40:01"/>
+                        <MEMBER name="pair" wn="pair%2:35:01 pair%2:35:03"/>
+                        <MEMBER name="pool" wn="pool%2:40:00"/>
                         <MEMBER name="network" wn="network%2:32:00"/>
+                        <MEMBER name="unite" wn="unite%2:30:00 unite%2:42:01 unite%2:42:02 unite%2:30:02"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
                             <DESCRIPTION descriptionNumber="2.5.4" primary="PP" secondary="with/into/to-PP" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE>&quot;My computer connected to his computer&quot;</EXAMPLE>
+                                <EXAMPLE>My computer connected to his computer.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Patient1">
@@ -641,7 +655,7 @@
                         <FRAME>
                             <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE>&quot;Our computers connected&quot;</EXAMPLE>
+                                <EXAMPLE>Our computers connected.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Patient">
@@ -663,9 +677,9 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="2.5.5" primary="Together Reciprocal Alternation Intransitive" xtag=""/>
+                            <DESCRIPTION descriptionNumber="2.5.5" primary="Together Reciprocal Alternation Intransitive" secondary="" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE>&quot;Our computers connected together&quot;</EXAMPLE>
+                                <EXAMPLE>Our computers connected together.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Patient">

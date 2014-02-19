@@ -39,9 +39,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The jeweler decorated the ring&quot;</EXAMPLE>
+                <EXAMPLE>The jeweler decorated the ring.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -77,7 +77,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The jeweler decorated the ring with the name&quot;</EXAMPLE>
+                <EXAMPLE>The jeweler decorated the ring with the name.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

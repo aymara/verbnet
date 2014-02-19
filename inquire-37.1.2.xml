@@ -2,11 +2,11 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="inquire-37.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="ask" wn=""/>
-        <MEMBER name="enquire" wn=""/>
-        <MEMBER name="inquire" wn=""/>
-        <MEMBER name="consult" wn=""/>
-        <MEMBER name="pry" wn=""/>
+        <MEMBER name="ask" wn="ask%2:32:00 ask%2:32:02 ask%2:32:04"/>
+        <MEMBER name="enquire" wn="enquire%2:32:00"/>
+        <MEMBER name="inquire" wn="inquire%2:32:01 inquire%2:31:00"/>
+        <MEMBER name="consult" wn="consult%2:32:02 consult%2:32:01"/>
+        <MEMBER name="pry" wn="pry%2:39:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -29,7 +29,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="HOW-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I asked how she did it.&quot;</EXAMPLE>
+                <EXAMPLE>I asked how she did it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -38,8 +38,8 @@
                 <VERB/>
                 <NP value="Topic">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="how_extract"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="how_extract"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -62,7 +62,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="HOW-TO-INF" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I asked how to do it.&quot;</EXAMPLE>
+                <EXAMPLE>I asked how to do it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -71,8 +71,8 @@
                 <VERB/>
                 <NP value="Topic">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="wh_inf"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="wh_inf"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -95,7 +95,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I asked.&quot;</EXAMPLE>  
+                <EXAMPLE>I asked.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -123,7 +123,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Recipient Object" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I asked him.&quot;</EXAMPLE>  
+                <EXAMPLE>I asked him.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -152,9 +152,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Topic Object" xtag="0.2"/> 
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Topic Object" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I asked a question.&quot;</EXAMPLE>               
+                <EXAMPLE>I asked a question.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -163,8 +163,8 @@
                 <VERB/>
                 <NP value="Topic">
                     <SYNRESTRS>
-			<SYNRESTR Value="-" type="sentential"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -187,19 +187,19 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I asked him about it.&quot;</EXAMPLE>  
+                <EXAMPLE>I asked him about it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-		<NP value="Recipient">
-		    <SYNRESTRS/>
-		</NP>
-		<PREP value="about">
-		    <SELRESTRS/>
-		</PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="about">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
@@ -226,16 +226,16 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-WH-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I asked him whether he was going.&quot;</EXAMPLE>  
+                <EXAMPLE>I asked him whether he was going.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-		<NP value="Recipient">
-		    <SYNRESTRS/>
-		</NP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
                 <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="wh_comp"/>
@@ -260,9 +260,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-WHAT-S" secondary="" xtag="0.2"/> 
+            <DESCRIPTION descriptionNumber="8.1" primary="NP-WHAT-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I asked him what he was doing.&quot;</EXAMPLE>    
+                <EXAMPLE>I asked him what he was doing.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -298,7 +298,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-WH-TO-INF" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I asked him whether to clean the house.&quot;</EXAMPLE>
+                <EXAMPLE>I asked him whether to clean the house.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -332,9 +332,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP-WHAT-TO-INF" secondary="" xtag="0.2"/>               
+            <DESCRIPTION descriptionNumber="8.1" primary="NP-WHAT-TO-INF" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked him what to do.&quot;</EXAMPLE>
+                <EXAMPLE>He asked him what to do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -370,7 +370,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-WH-S" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked about whether he wanted to go.&quot;</EXAMPLE>
+                <EXAMPLE>He asked about whether he wanted to go.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -378,8 +378,8 @@
                 </NP>
                 <VERB/>
                 <PREP value="about">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="wh_comp"/>
@@ -406,7 +406,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-S" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked him about what he wanted.&quot;</EXAMPLE>
+                <EXAMPLE>He asked him about what he wanted.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -416,9 +416,9 @@
                 <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
-		<PREP value="about">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="about">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="what_extract"/>
@@ -445,7 +445,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-WH-TO-INF" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked about whether to go.&quot;</EXAMPLE>
+                <EXAMPLE>He asked about whether to go.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -453,8 +453,8 @@
                 </NP>
                 <VERB/>
                 <PREP value="about">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="wheth_inf"/>
@@ -481,7 +481,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-TO-INF" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked about what to do.&quot;</EXAMPLE>
+                <EXAMPLE>He asked about what to do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -489,8 +489,8 @@
                 </NP>
                 <VERB/>
                 <PREP value="about">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="what_inf"/>
@@ -517,7 +517,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I asked about it.&quot;</EXAMPLE>
+                <EXAMPLE>I asked about it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -525,8 +525,8 @@
                 </NP>
                 <VERB/>
                 <PREP value="about">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
@@ -551,9 +551,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="PP-HOW-S" secondary="of-PP" xtag="0.2"/> 
+            <DESCRIPTION descriptionNumber="0.1" primary="PP-HOW-S" secondary="of-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked of her how it works.&quot;</EXAMPLE>
+                <EXAMPLE>He asked of her how it works.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -561,11 +561,11 @@
                 </NP>
                 <VERB/>
                 <PREP value="of">
-		    <SELRESTRS/>
-		</PREP>
-		<NP value="Recipient">
-		    <SELRESTRS/>
-		</NP>
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Recipient">
+                    <SELRESTRS/>
+                </NP>
                 <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="how_extract"/>
@@ -592,7 +592,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="PP-HOW-TO-INF" secondary="of-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked of her how to do it.&quot;</EXAMPLE>
+                <EXAMPLE>He asked of her how to do it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -600,8 +600,8 @@
                 </NP>
                 <VERB/>
                 <PREP value="of">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
@@ -631,7 +631,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WH-S" secondary="of-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked of her about whether he should kill the peasants.&quot;</EXAMPLE>     
+                <EXAMPLE>He asked of her about whether he should kill the peasants.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -639,8 +639,8 @@
                 </NP>
                 <VERB/>
                 <PREP value="of">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
@@ -673,7 +673,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WHAT-S" secondary="of-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked of her about what he should do.&quot;</EXAMPLE>
+                <EXAMPLE>He asked of her about what he should do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -715,7 +715,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WHAT-TO-INF" secondary="of-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked of her about what to do.&quot;</EXAMPLE>       
+                <EXAMPLE>He asked of her about what to do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -757,7 +757,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WH-TO-INF" secondary="of-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I asked of him about whether to go.&quot;</EXAMPLE> 
+                <EXAMPLE>I asked of him about whether to go.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -797,9 +797,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WH-S" secondary="" xtag="0.2"/>   
+            <DESCRIPTION descriptionNumber="8.1" primary="WH-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked whether he should come.&quot;</EXAMPLE>  
+                <EXAMPLE>He asked whether he should come.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -832,7 +832,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked what he should do.&quot;</EXAMPLE>
+                <EXAMPLE>He asked what he should do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -863,9 +863,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WH-TO-INF" secondary="" xtag="0.2"/>    
+            <DESCRIPTION descriptionNumber="8.1" primary="WH-TO-INF" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked whether to clean the house.&quot;</EXAMPLE>
+                <EXAMPLE>He asked whether to clean the house.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -896,9 +896,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" secondary="" xtag="0.2"/> 
+            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked what to do.&quot;</EXAMPLE>  
+                <EXAMPLE>He asked what to do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -931,16 +931,16 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-HOW-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He asked him how he came.&quot;</EXAMPLE>
+                <EXAMPLE>He asked him how he came.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-		<NP value="Recipient">
-		    <SYNRESTRS/>
-		</NP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
                 <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="how_extract"/>

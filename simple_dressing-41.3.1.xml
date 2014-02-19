@@ -22,7 +22,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["She always wears purple dresses"]]></EXAMPLE>
+                <EXAMPLE>She always wears purple dresses.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

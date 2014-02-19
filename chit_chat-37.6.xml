@@ -8,11 +8,11 @@
         <MEMBER name="chitchat" wn="chitchat%2:32:00"/>
         <MEMBER name="confer" wn="confer%2:32:00"/>
         <MEMBER name="converse" wn="converse%2:32:00"/>
-        <MEMBER name="gab" wn=""/>
+        <MEMBER name="gab" wn="gab%2:32:00"/>
         <MEMBER name="gossip" wn="gossip%2:32:00 gossip%2:32:01"/>
         <MEMBER name="rap" wn="rap%2:32:00"/>
         <MEMBER name="schmooze" wn="schmooze%2:32:00"/>
-        <MEMBER name="yak" wn=""/>
+        <MEMBER name="yak" wn="yak%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Actor">
@@ -41,9 +41,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan was chitchatting&quot;</EXAMPLE>
+                <EXAMPLE>Susan was chitchatting.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -71,7 +71,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan chitchatted with Rachel&quot;</EXAMPLE>
+                <EXAMPLE>Susan chitchatted with Rachel.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -113,7 +113,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="with-PP Topic-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan chitchatted with Rachel about the problem&quot;</EXAMPLE>
+                <EXAMPLE>Susan chitchatted with Rachel about the problem.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -161,7 +161,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan and Rachel chitchatted&quot;</EXAMPLE>
+                <EXAMPLE>Susan and Rachel chitchatted.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -193,7 +193,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="Topic-PP with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Susan chitchatted about the problem with Rachel."]]></EXAMPLE>
+                <EXAMPLE>Susan chitchatted about the problem with Rachel.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -241,7 +241,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PP" secondary="Simple Reciprocal Subject, Topic-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Susan and Rachel chitchatted about matters of great import."]]></EXAMPLE>
+                <EXAMPLE>Susan and Rachel chitchatted about matters of great import.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -279,7 +279,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PP" secondary="Topic-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Susan chitchatted about matters of great import."]]></EXAMPLE>
+                <EXAMPLE>Susan chitchatted about matters of great import.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">

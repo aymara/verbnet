@@ -2,8 +2,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="enforce-63" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="enforce" wn=""/>
-        <MEMBER name="impose" wn=""/>
+        <MEMBER name="enforce" wn="enforce%2:41:01"/>
+        <MEMBER name="impose" wn="impose%2:41:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -20,7 +20,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I cannot risk my job&quot;</EXAMPLE>
+                <EXAMPLE>I cannot impose my opinion.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -42,9 +42,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="S" secondary="" xtag="0.2"/>   
+            <DESCRIPTION descriptionNumber="8.1" primary="S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I cannot risk that I get into trouble&quot;</EXAMPLE>
+                <EXAMPLE>I cannot impose that I get what I want.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -53,8 +53,8 @@
                 <VERB/>
                 <NP value="Theme">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="that_comp"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="that_comp"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

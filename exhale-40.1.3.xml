@@ -22,9 +22,9 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Paul exhaled&quot;</EXAMPLE>
+                        <EXAMPLE>Paul exhaled.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -51,7 +51,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag="0.2"/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA[""Paul exhaled a breath.""]]></EXAMPLE>
+                        <EXAMPLE>Paul exhaled a breath.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -88,9 +88,9 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Paul inhaled&quot;</EXAMPLE>
+                        <EXAMPLE>Paul inhaled.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -117,7 +117,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag="0.2"/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA[""Paul inhaled water.""]]></EXAMPLE>
+                        <EXAMPLE>Paul inhaled water.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

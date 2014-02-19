@@ -5,7 +5,7 @@
         <!--Removed "miss" from the class-->
         <!--Verbs may add more specific description of the spatial relationship between Theme1 and Theme2-->
         <MEMBER name="bestride" wn=""/>
-	<MEMBER name="blanket" wn="blanket%2:35:00 blanket%2:42:00"/>
+        <MEMBER name="blanket" wn="blanket%2:35:00 blanket%2:42:00"/>
         <MEMBER name="border" wn="border%2:35:01 border%2:42:00 border%2:35:00"/>
         <MEMBER name="bound" wn="bound%2:42:00"/>
         <MEMBER name="bracket" wn=""/>
@@ -15,7 +15,7 @@
         <MEMBER name="contain" wn="contain%2:42:13"/>
         <MEMBER name="cover" wn="cover%2:35:01"/>
         <MEMBER name="edge" wn="edge%2:35:00"/>
-        <MEMBER name="encircle" wn="encircle%2:42:00"/>
+        <MEMBER name="encircle" wn="encircle%2:35:12"/>
         <MEMBER name="enclose" wn="enclose%2:35:01 enclose%2:35:00"/>
         <MEMBER name="encompass" wn=""/>
         <MEMBER name="engulf" wn=""/>
@@ -31,13 +31,13 @@
         <MEMBER name="overhang" wn="overhang%2:42:01 overhang%2:42:00"/>
         <MEMBER name="precede" wn="precede%2:42:01 precede%2:38:00"/>
         <MEMBER name="rim" wn="rim%2:42:00"/>
-        <MEMBER name="ring" wn="ring%2:42:00"/>
+        <MEMBER name="ring" wn="ring%2:35:03"/>
         <MEMBER name="skirt" wn="skirt%2:35:00"/>
         <MEMBER name="span" wn="span%2:42:00"/>
         <MEMBER name="straddle" wn="straddle%2:42:01 straddle%2:42:02"/>
         <MEMBER name="support" wn="support%2:35:00"/>
         <MEMBER name="surmount" wn="surmount%2:42:00"/>
-        <MEMBER name="surround" wn="surround%2:42:00 surround%2:35:00 surround%2:33:00"/>
+        <MEMBER name="surround" wn="surround%2:35:00"/>
         <MEMBER name="top" wn="top%2:40:00"/>
         <MEMBER name="traverse" wn=""/>
         <MEMBER name="underlie" wn="underlie%2:42:00 underlie%2:42:01"/>
@@ -56,9 +56,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Italy borders France&quot;</EXAMPLE>
+                <EXAMPLE>Italy borders France.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme1">
@@ -108,7 +108,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="1.2.4" primary="Understood Reciprocal Object" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Italy and France touch&quot;</EXAMPLE>
+                        <EXAMPLE>Italy and France touch.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Theme1">
@@ -154,7 +154,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Unspecified Object" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["DEC has often dominated."]]></EXAMPLE>
+                        <EXAMPLE>DEC has often dominated.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Theme1">

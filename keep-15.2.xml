@@ -29,7 +29,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Michelle kept the papers in the desk&quot;</EXAMPLE>
+                <EXAMPLE>Michelle kept the papers in the desk.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -67,7 +67,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Many small investors in Belgium store securities."]]></EXAMPLE>
+                <EXAMPLE>Many small investors in Belgium store securities.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

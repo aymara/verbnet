@@ -34,9 +34,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The witch poisoned Snow White&quot;</EXAMPLE>
+                <EXAMPLE>The witch poisoned Snow White.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -65,7 +65,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The Boston Strangler strangled his victims dead&quot;</EXAMPLE>
+                <EXAMPLE>The Boston Strangler strangled his victims dead.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -102,7 +102,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The Boston Strangler strangled his victims to death&quot;</EXAMPLE>
+                <EXAMPLE>The Boston Strangler strangled his victims to death.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -144,9 +144,9 @@
             <!--most verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Instrument PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA[""The queen poisoned Snow White with an apple.""]]></EXAMPLE>
+                <EXAMPLE>The queen poisoned Snow White with an apple.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

@@ -3,8 +3,12 @@
 <VNCLASS ID="drive-11.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <!--When a vehicle is the subject (in the case when the vehicle is not lexicalized by the verb), an alternative to making it the Agent is to treat this as an Instrument Subject Alternation.-->
     <MEMBERS>
-        <MEMBER name="drive" wn="drive%2:38:02"/>
-        <MEMBER name="row" wn=""/>
+        <MEMBER name="bike" wn="bike%2:38:00"/>
+        <MEMBER name="drive" wn="drive%2:38:02" grouping="drive.01"/>
+        <MEMBER name="row" wn="row%2:38:00"/>
+        <MEMBER name="motor" wn="motor%2:38:00"/>
+        <MEMBER name="paddle" wn="paddle%2:38:00"/>
+        <MEMBER name="trundle" wn="trundle%2:38:00"/>
         <MEMBER name="wheel" wn="wheel%2:38:04"/>
     </MEMBERS>
     <THEMROLES>
@@ -39,7 +43,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="with accompanied motion" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Amanda drove the package&quot;</EXAMPLE>
+                <EXAMPLE>Amanda drove the package.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -80,7 +84,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Goal-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Amanda drove the package to New York&quot;</EXAMPLE>
+                <EXAMPLE>Amanda drove the package to New York.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -141,7 +145,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Amanda drove the package from home&quot;</EXAMPLE>
+                <EXAMPLE>Amanda drove the package from home.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -204,7 +208,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Source-PP Goal-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Amanda drove the package from home to New York&quot;</EXAMPLE>
+                <EXAMPLE>Amanda drove the package from home to New York.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -287,7 +291,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Goal-PP Source-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Amanda drove the package to New York from home.&quot;</EXAMPLE>
+                <EXAMPLE>Amanda drove the package to New York from home.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -303,8 +307,10 @@
                 <NP value="Destination">
                     <SYNRESTRS/>
                 </NP>
-                <PREP value="+src">
-                    <SELRESTRS/>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="src"/>
+                    </SELRESTRS>
                 </PREP>
                 <NP value="Source">
                     <SYNRESTRS/>
@@ -373,8 +379,8 @@
                 <MEMBER name="bus" wn="bus%2:38:01"/>
                 <MEMBER name="cart" wn="cart%2:35:01"/>
                 <MEMBER name="ferry" wn="ferry%2:38:02 ferry%2:38:01"/>
-                <MEMBER name="fly" wn="fly%2:35:00"/>
-                <MEMBER name="shuttle" wn=""/>
+                <MEMBER name="fly" wn="fly%2:35:00" grouping="fly.01"/>
+                <MEMBER name="shuttle" wn="shuttle%2:38:00"/>
                 <MEMBER name="truck" wn="truck%2:38:00"/>
             </MEMBERS>
             <THEMROLES/>
@@ -382,7 +388,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="always without accompanied motion" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Amanda flew me the package&quot;</EXAMPLE>
+                        <EXAMPLE>Amanda flew me the package.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -429,7 +435,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="without accompanied motion" xtag="0.2"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Amanda shuttled her children.&quot;</EXAMPLE>
+                        <EXAMPLE>Amanda shuttled her children.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -458,7 +464,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Amanda shuttled her children from Philadelphia&quot;</EXAMPLE>
+                        <EXAMPLE>Amanda shuttled her children from Philadelphia.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -502,7 +508,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Goal-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Amanda shuttled the children to school.&quot;</EXAMPLE>
+                        <EXAMPLE>Amanda shuttled the children to school.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -544,7 +550,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Source-PP Goal-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Amanda trucked the package from Philadelphia to her mother's house.&quot;</EXAMPLE>
+                        <EXAMPLE>Amanda trucked the package from Philadelphia to her mother's house.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -601,7 +607,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Goal-PP Source-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Amanda trucked the package to her mother's house from Philadelphia.&quot;</EXAMPLE>
+                        <EXAMPLE>Amanda trucked the package to her mother's house from Philadelphia.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -617,8 +623,10 @@
                         <NP value="Destination">
                             <SYNRESTRS/>
                         </NP>
-                        <PREP value="+src">
-                            <SELRESTRS/>
+                        <PREP>
+                            <SELRESTRS>
+                                <SELRESTR Value="+" type="src"/>
+                            </SELRESTRS>
                         </PREP>
                         <NP value="Source">
                             <SYNRESTRS/>

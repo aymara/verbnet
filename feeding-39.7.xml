@@ -8,7 +8,7 @@
         <MEMBER name="force-feed" wn="force-feed%2:34:00"/>
         <MEMBER name="handfeed" wn=""/>
         <MEMBER name="spoonfeed" wn="spoonfeed%2:34:00"/>
-	<MEMBER name="suckle" wn=""/>
+        <MEMBER name="suckle" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -31,7 +31,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Teresa bottlefed the baby"]]></EXAMPLE>
+                <EXAMPLE>Teresa bottlefed the baby.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -61,7 +61,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.1" primary="NP-PP" secondary="to-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Teresa bottlefed soy milk to the baby"]]></EXAMPLE>
+                <EXAMPLE>Teresa bottlefed soy milk to the baby.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -97,7 +97,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Teresa bottlefed the baby soy milk"]]></EXAMPLE>
+                <EXAMPLE>Teresa bottlefed the baby soy milk.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

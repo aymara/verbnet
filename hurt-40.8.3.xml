@@ -32,7 +32,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="7.6" primary="Unintentional Interpretation of Object" secondary="Body_part Object" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Tessa hurt/sprained her ankle&quot;</EXAMPLE>
+                        <EXAMPLE>Tessa hurt/sprained her ankle.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Experiencer">
@@ -63,9 +63,9 @@
                 <VNSUBCLASS ID="hurt-40.8.3-1-1">
                     <MEMBERS>
                         <!--verb adds manner predicate for how the Patient is hurt-->
-                        <MEMBER name="break" wn="break%2:29:04"/>
+                        <MEMBER name="break" wn="break%2:35:13 break%2:35:09 break%2:30:15 break%2:29:04"/>
                         <MEMBER name="chip" wn="chip%2:35:00"/>
-                        <MEMBER name="fracture" wn="fracture%2:29:01 fracture%2:29:00"/>
+                        <MEMBER name="fracture" wn="fracture%2:29:02 fracture%2:29:01 fracture%2:29:00"/>
                         <MEMBER name="pull" wn="pull%2:29:00"/>
                         <MEMBER name="rupture" wn="rupture%2:35:00"/>
                         <MEMBER name="split" wn="split%2:35:00"/>
@@ -76,9 +76,9 @@
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" xtag="0.1"/>
+                            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="" xtag="0.1"/>
                             <EXAMPLES>
-                                <EXAMPLE>&quot;My ankle twisted&quot;</EXAMPLE>
+                                <EXAMPLE>My ankle twisted.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Patient">
@@ -121,7 +121,7 @@
                 <MEMBER name="prick" wn="prick%2:35:00 prick%2:35:03"/>
                 <MEMBER name="scald" wn="scald%2:30:00"/>
                 <MEMBER name="scratch" wn="scratch%2:35:00 ?scratch%2:39:00"/>
-                <MEMBER name="skin" wn="skin%2:35:02 skin%2:29:00"/>
+                <MEMBER name="skin" wn="skin%2:35:02"/>
                 <MEMBER name="strain" wn="strain%2:34:00"/>
             </MEMBERS>
             <THEMROLES/>
@@ -129,7 +129,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="7.6" primary="Unintentional Interpretation of Object" secondary="Body_part Object" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Tessa hurt/sprained her ankle&quot;</EXAMPLE>
+                        <EXAMPLE>Tessa hurt/sprained her ankle.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Experiencer">
@@ -158,7 +158,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="7.6" primary="Unintentional Interpretation of Object" secondary="Reflexive Object" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Tessa hurt herself&quot;</EXAMPLE>
+                        <EXAMPLE>Tessa hurt herself.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Experiencer">

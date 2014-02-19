@@ -5,16 +5,18 @@
         <MEMBER name="buff" wn="?buff%2:35:00"/>
         <MEMBER name="distill" wn="distill%2:30:03"/>
         <MEMBER name="expunge" wn="expunge%2:35:00"/>
-        <MEMBER name="flush" wn="flush%2:30:01 flush%2:30:02 flush%2:30:03"/>
+        <MEMBER name="expurgate" wn="expurgate%2:30:00"/>
+        <MEMBER name="flush" wn="flush%2:30:01"/>
         <MEMBER name="leach" wn="leach%2:30:00"/>
-        <MEMBER name="polish" wn=""/>
-        <MEMBER name="purge" wn="purge%2:30:00 purge%2:29:00"/>
-        <MEMBER name="shave" wn="shave%2:29:00 shave%2:35:01 shave%2:35:02 shave%2:35:03"/>
+        <MEMBER name="polish" wn="polish%2:35:00"/>
+        <MEMBER name="purge" wn="purge%2:30:00 purge%2:29:00" grouping="purge.01"/>
+        <MEMBER name="shave" wn="shave%2:29:00 shave%2:35:01 shave%2:35:02 shave%2:35:03" grouping="shave.01 shave.02"/>
         <MEMBER name="smooth" wn="smooth%2:35:00"/>
         <MEMBER name="skim" wn="skim%2:35:01"/>
-        <MEMBER name="soak" wn=""/>
-        <MEMBER name="strain" wn="strain%2:35:01 strain%2:35:00 strain%2:35:10"/>
-        <MEMBER name="trim" wn="trim%2:35:03 trim%2:35:02 trim%2:35:01 trim%2:29:00"/>
+        <MEMBER name="soak" wn="soak%2:30:01"/>
+        <MEMBER name="strain" wn="strain%2:35:01 strain%2:35:00 strain%2:35:10" grouping="strain.03"/>
+        <MEMBER name="trim" wn="trim%2:35:03 trim%2:30:00 trim%2:35:02 trim%2:35:01" grouping="trim.01 trim.02"/>
+        <MEMBER name="unload" wn="unload%2:35:00" grouping="unload.01"/>
         <MEMBER name="weed" wn="weed%2:30:00"/>
         <MEMBER name="whisk" wn="whisk%2:35:01"/>
         <MEMBER name="winnow" wn="winnow%2:35:05 winnow%2:30:00"/>
@@ -43,7 +45,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Brian wiped the fingerprints from the counter&quot;</EXAMPLE>
+                <EXAMPLE>Brian wiped the fingerprints from the counter.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -88,7 +90,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Source Object" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Brian wiped the counter&quot;</EXAMPLE>
+                <EXAMPLE>Brian wiped the counter.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -123,9 +125,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Theme object" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Theme Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Barry Cryer erased the writing."]]></EXAMPLE>
+                <EXAMPLE>Barry Cryer erased the writing.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -164,10 +166,10 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="wipe_manner-10.4.1-1">
             <MEMBERS>
-                <MEMBER name="bail" wn="bail%2:30:02 bail%2:30:01"/>
-                <MEMBER name="dab" wn=""/>
+                <MEMBER name="bail" wn="bail%2:30:02 bail%2:30:01" grouping="bail.03"/>
+                <MEMBER name="dab" wn="dab%2:35:01 dab%2:35:00"/>
                 <MEMBER name="dust" wn="dust%2:35:00"/>
-                <MEMBER name="erase" wn="erase%2:35:00"/>
+                <MEMBER name="erase" wn="erase%2:35:00" grouping="erase.01 erase.02"/>
                 <MEMBER name="lick" wn="lick%2:35:00"/>
                 <MEMBER name="pluck" wn="pluck%2:35:00 pluck%2:35:03 pluck%2:35:01"/>
                 <MEMBER name="prune" wn="prune%2:35:00"/>
@@ -177,15 +179,15 @@
                 <MEMBER name="scrape" wn="scrape%2:35:02"/>
                 <MEMBER name="scratch" wn="scratch%2:35:00"/>
                 <MEMBER name="scrub" wn="scrub%2:35:00"/>
-                <MEMBER name="squeeze" wn="squeeze%2:35:05"/>
-                <MEMBER name="strip" wn="strip%2:35:00 strip%2:30:06 strip%2:30:05 strip%2:35:01 strip%2:30:02 strip%2:30:12"/>
+                <MEMBER name="squeeze" wn="squeeze%2:35:05" grouping="squeeze.02"/>
+                <MEMBER name="strip" wn="strip%2:35:00 strip%2:30:06 strip%2:30:05 strip%2:35:01 strip%2:30:02 strip%2:30:12" grouping="strip.01"/>
                 <MEMBER name="suck" wn="suck%2:34:04"/>
                 <MEMBER name="suction" wn="suction%2:38:00 suction%2:29:00"/>
                 <MEMBER name="swab" wn="swab%2:35:00"/>
-                <MEMBER name="sweep" wn="sweep%2:35:00 sweep%2:35:01"/>
-                <MEMBER name="wash" wn="wash%2:35:00 wash%2:35:01 wash%2:30:05"/>
-                <MEMBER name="wear" wn=""/>
-                <MEMBER name="wipe" wn="wipe%2:35:00"/>
+                <MEMBER name="sweep" wn="sweep%2:35:00 sweep%2:35:01" grouping="sweep.02"/>
+                <MEMBER name="wash" wn="wash%2:35:00 wash%2:35:01 wash%2:30:05" grouping="wash.01"/>
+                <MEMBER name="wear" wn="wear%2:30:00" grouping="wear.02"/>
+                <MEMBER name="wipe" wn="wipe%2:35:00" grouping="wipe.02"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Source">
@@ -198,7 +200,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="1.3" primary="Conative" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Brian wiped at the counter&quot;</EXAMPLE>
+                        <EXAMPLE>Brian wiped at the counter.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

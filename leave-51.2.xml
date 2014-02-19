@@ -21,7 +21,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="basically, locative preposition drop of &quot;from&quot;" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;We abandoned the area&quot;</EXAMPLE>
+                <EXAMPLE>We abandoned the area.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -75,7 +75,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Basic Intransitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["The crowd left."]]></EXAMPLE>
+                        <EXAMPLE>The crowd left.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Theme">

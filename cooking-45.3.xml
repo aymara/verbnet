@@ -6,7 +6,7 @@
         <MEMBER name="bake" wn="bake%2:30:00 bake%2:36:00"/>
         <MEMBER name="barbecue" wn="barbecue%2:30:00"/>
         <MEMBER name="blanch" wn="blanch%2:30:00"/>
-        <MEMBER name="boil" wn="boil%2:30:00"/>
+        <MEMBER name="boil" wn="boil%2:30:01 boil%2:30:00"/>
         <MEMBER name="braise" wn="braise%2:30:00"/>
         <MEMBER name="broil" wn="broil%2:30:00"/>
         <MEMBER name="brown" wn="brown%2:30:00"/>
@@ -71,7 +71,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Causative" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Jennifer baked the potatoes&quot;</EXAMPLE>
+                <EXAMPLE>Jennifer baked the potatoes.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -108,7 +108,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Jennifer baked the potatoes in the oven&quot;</EXAMPLE>
+                <EXAMPLE>Jennifer baked the potatoes in the oven.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -158,7 +158,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="Inchoative" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The potatoes baked&quot;</EXAMPLE>
+                <EXAMPLE>The potatoes baked.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -177,9 +177,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Idaho potatoes bake beautifully&quot;</EXAMPLE>
+                <EXAMPLE>Idaho potatoes bake beautifully.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -203,9 +203,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;This oven bakes potatoes&quot;</EXAMPLE>
+                <EXAMPLE>This oven bakes potatoes.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Instrument">
@@ -236,7 +236,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Jennifer boiled the pot dry&quot;</EXAMPLE>
+                <EXAMPLE>Jennifer boiled the pot dry.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -280,7 +280,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP-PP" secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Jennifer boiled the pot dry on the stove&quot;</EXAMPLE>
+                <EXAMPLE>Jennifer boiled the pot dry on the stove.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -337,7 +337,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Jennifer baked the potatoes to a crisp&quot;</EXAMPLE>
+                <EXAMPLE>Jennifer baked the potatoes to a crisp.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -388,7 +388,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Jennifer baked the potatoes to a crisp in the oven&quot;</EXAMPLE>
+                <EXAMPLE>Jennifer baked the potatoes to a crisp in the oven.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -452,7 +452,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Pots boil dry&quot;</EXAMPLE>
+                <EXAMPLE>Pots boil dry.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -487,7 +487,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Potatoes bake to a crisp&quot;</EXAMPLE>
+                <EXAMPLE>Potatoes bake to a crisp.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -529,7 +529,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="ADJP-PP" secondary="Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Pots boil dry on the stove&quot;</EXAMPLE>
+                <EXAMPLE>Pots boil dry on the stove.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -570,7 +570,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="PP-PP" secondary="Result-PP, Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Potatoes bake to a crisp in the oven&quot;</EXAMPLE>
+                <EXAMPLE>Potatoes bake to a crisp in the oven.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">

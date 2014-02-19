@@ -9,12 +9,12 @@
         <MEMBER name="pound" wn="pound%2:38:00"/>
         <MEMBER name="prickle" wn=""/>
         <MEMBER name="pucker" wn="pucker%2:35:00 ?pucker%2:35:02"/>
-        <MEMBER name="reel" wn=""/>
+        <MEMBER name="reel" wn="reel%2:38:03"/>
         <MEMBER name="smart" wn="smart%2:39:00"/>
-        <MEMBER name="spin" wn=""/>
-        <MEMBER name="split" wn=""/>
+        <MEMBER name="spin" wn="spin%2:38:01"/>
+        <MEMBER name="split" wn="split%2:30:01"/>
         <MEMBER name="sting" wn=""/>
-        <MEMBER name="swim" wn=""/>
+        <MEMBER name="swim" wn="swim%2:42:02"/>
         <MEMBER name="throb" wn="throb%2:39:00"/>
         <MEMBER name="tickle" wn=""/>
         <MEMBER name="tingle" wn=""/>
@@ -36,9 +36,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;My heart is pounding&quot;</EXAMPLE>
+                <EXAMPLE>My heart is pounding.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">
@@ -64,7 +64,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Cause-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;My heart is pounding from fear&quot;</EXAMPLE>
+                <EXAMPLE>My heart is pounding from fear.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Patient">

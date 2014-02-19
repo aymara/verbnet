@@ -22,7 +22,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="ADJ" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["That pea soup tasted delicious"]]></EXAMPLE>
+                <EXAMPLE>That pea soup tasted delicious.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Stimulus">
@@ -56,7 +56,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Experiencer-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["That pea soup tasted delicious to me"]]></EXAMPLE>
+                <EXAMPLE>That pea soup tasted delicious to me.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Stimulus">

@@ -4,6 +4,7 @@
     <MEMBERS>
         <MEMBER name="develop" wn="develop%2:30:00 develop%2:30:01 develop%2:36:09 develop%2:30:10"/>
         <MEMBER name="evolve" wn="evolve%2:30:00 evolve%2:30:03"/>
+        <MEMBER name="generate" wn="generate%2:36:02 generate%2:36:01"/>
         <MEMBER name="grow" wn="grow%2:30:02 grow%2:30:01 grow%2:30:04 grow%2:36:00 grow%2:30:10"/>
         <MEMBER name="hatch" wn="hatch%2:29:01 hatch%2:29:00"/>
         <MEMBER name="mature" wn="mature%2:30:00 mature%2:30:01"/>
@@ -29,7 +30,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.4.2" primary="Material/Product Alternation Intransitive" secondary="Material Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;That acorn will grow into an oak tree&quot;</EXAMPLE>
+                <EXAMPLE>That acorn will grow into an oak tree.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Material">
@@ -68,14 +69,14 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.4.2" primary="Material/Product Alternation Intransitive" secondary="Product Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;An oak tree will grow from that acorn&quot;</EXAMPLE>
+                <EXAMPLE>An oak tree will grow from that acorn.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Product">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <PREP value="from out of">
+                <PREP value="from out_of">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Material">
@@ -107,7 +108,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP-PP" secondary="Causative variant, Material-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The gardener grew an oak tree from that acorn&quot;</EXAMPLE>
+                <EXAMPLE>The gardener grew an oak tree from that acorn.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -117,7 +118,7 @@
                 <NP value="Product">
                     <SYNRESTRS/>
                 </NP>
-                <PREP value="from out of">
+                <PREP value="from out_of">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Material">
@@ -155,7 +156,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2.1" primary="NP-PP" secondary="Causative variant, Product-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The gardener grew that acorn into an oak tree&quot;</EXAMPLE>
+                <EXAMPLE>The gardener grew that acorn into an oak tree.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

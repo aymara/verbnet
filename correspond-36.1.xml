@@ -2,9 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="correspond-36.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
+        <!--REMOVED "pair" misclassified-->
         <MEMBER name="banter" wn="banter%2:32:00"/>
         <MEMBER name="bargain" wn="bargain%2:32:00"/>
-        <MEMBER name="coexist" wn="coexist%2:42:01"/>        
+        <MEMBER name="coexist" wn="coexist%2:42:01"/>
         <MEMBER name="collaborate" wn="collaborate%2:41:00 collaborate%2:41:01"/>
         <MEMBER name="collide" wn=""/>
         <MEMBER name="commiserate" wn="commiserate%2:37:00"/>
@@ -16,7 +17,7 @@
         <MEMBER name="cooperate" wn="cooperate%2:41:00"/>
         <MEMBER name="correspond" wn="correspond%2:32:00"/>
         <MEMBER name="dissent" wn="dissent%2:32:01"/>
-	<MEMBER name="disagree" wn=""/>
+        <MEMBER name="disagree" wn="disagree%2:32:00"/>
         <MEMBER name="elope" wn="elope%2:38:00"/>
         <MEMBER name="flirt" wn="flirt%2:32:00"/>
         <MEMBER name="haggle" wn="haggle%2:40:00"/>
@@ -25,12 +26,11 @@
         <MEMBER name="intermix" wn=""/>
         <MEMBER name="jest" wn="jest%2:32:00"/>
         <MEMBER name="joke" wn="joke%2:32:00"/>
-        <MEMBER name="mate" wn="mate%2:35:00 mate%2:35:01"/>
+        <MEMBER name="mate" wn="mate%2:35:00 mate%2:35:02"/>
         <MEMBER name="mingle" wn="mingle%2:41:00"/>
         <MEMBER name="mix" wn="?mix%2:30:00"/>
         <MEMBER name="neck" wn="neck%2:35:00"/>
         <MEMBER name="negotiate" wn="negotiate%2:32:00"/>
-        <MEMBER name="pair" wn="pair%2:41:00 pair%2:35:00"/>
         <MEMBER name="plot" wn="plot%2:31:00"/>
         <MEMBER name="rendezvous" wn="rendezvous%2:41:00"/>
         <MEMBER name="spoon" wn="spoon%2:35:01"/>
@@ -62,13 +62,13 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="Plural Subject" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed.&quot;</EXAMPLE>
+                <EXAMPLE>They agreed.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="plural"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="plural"/>
+                    </SYNRESTRS>
                 </NP>
                 <VERB/>
             </SYNTAX>
@@ -78,7 +78,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor_i"/>
                         <ARG type="ThemRole" value="Actor_j"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -91,22 +91,22 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-POSSING" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed about his coming.&quot;</EXAMPLE>
+                <EXAMPLE>They agreed about his coming.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="plural"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="plural"/>
+                    </SYNRESTRS>
                 </NP>
                 <VERB/>
-		<PREP value="about">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="about">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Theme">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="poss_ing"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="poss_ing"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -115,7 +115,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor_i"/>
                         <ARG type="ThemRole" value="Actor_j"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -126,9 +126,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-WH-S" secondary="about-PP" xtag="0.2"/>           
+            <DESCRIPTION descriptionNumber="8.1" primary="P-WH-S" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed about whether he should go.&quot;</EXAMPLE>
+                <EXAMPLE>They agreed about whether he should go.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -152,7 +152,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor_i"/>
                         <ARG type="ThemRole" value="Actor_j"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -165,7 +165,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-S" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed about what should be done.&quot;</EXAMPLE>
+                <EXAMPLE>They agreed about what should be done.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -189,7 +189,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor_i"/>
                         <ARG type="ThemRole" value="Actor_j"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -200,9 +200,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-WH-TO-INF" secondary="about-PP" xtag="0.2"/>        
+            <DESCRIPTION descriptionNumber="8.1" primary="P-WH-TO-INF" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed about whether to go.&quot;</EXAMPLE>
+                <EXAMPLE>They agreed about whether to go.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -226,7 +226,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor_i"/>
                         <ARG type="ThemRole" value="Actor_j"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -237,9 +237,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-TO-INF" secondary="about-PP" xtag="0.2"/>          
+            <DESCRIPTION descriptionNumber="8.1" primary="P-WHAT-TO-INF" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed about what to do.&quot;</EXAMPLE>
+                <EXAMPLE>They agreed about what to do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -263,7 +263,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor_i"/>
                         <ARG type="ThemRole" value="Actor_j"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -274,9 +274,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="about-PP" xtag="0.2"/>             
+            <DESCRIPTION descriptionNumber="8.1" primary="PP" secondary="about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed about it.&quot;</EXAMPLE> 
+                <EXAMPLE>They agreed about it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -300,7 +300,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor_i"/>
                         <ARG type="ThemRole" value="Actor_j"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -313,19 +313,19 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WH-S" secondary="with-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed with him about whether he should kill the peasants.&quot;</EXAMPLE>  
+                <EXAMPLE>They agreed with him about whether he should kill the peasants.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-		<PREP value="with">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="with">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Actor2">
-		    <SYNRESTRS/>
-		</NP>
+                    <SYNRESTRS/>
+                </NP>
                 <PREP value="about">
                     <SELRESTRS/>
                 </PREP>
@@ -341,7 +341,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor1"/>
                         <ARG type="ThemRole" value="Actor2"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -352,9 +352,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WHAT-S" secondary="with-PP about-PP" xtag="0.2"/>    
+            <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WHAT-S" secondary="with-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed with him about what he should do.&quot;</EXAMPLE>   
+                <EXAMPLE>They agreed with him about what he should do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -382,7 +382,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor1"/>
                         <ARG type="ThemRole" value="Actor2"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -395,7 +395,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WHAT-TO-INF" secondary="with-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed with him about what to do.&quot;</EXAMPLE>                   
+                <EXAMPLE>They agreed with him about what to do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -423,7 +423,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor1"/>
                         <ARG type="ThemRole" value="Actor2"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -436,7 +436,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="PP-P-WH-TO-INF" secondary="with-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed with him about whether to go.&quot;</EXAMPLE>
+                <EXAMPLE>They agreed with him about whether to go.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -464,7 +464,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor1"/>
                         <ARG type="ThemRole" value="Actor2"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -477,7 +477,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="PP-PP" secondary="with-PP about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;They agreed with him about it.&quot;</EXAMPLE>
+                <EXAMPLE>They agreed with him about it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -505,7 +505,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor1"/>
                         <ARG type="ThemRole" value="Actor2"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -518,13 +518,13 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;We agreed what he should do.&quot;</EXAMPLE>
+                <EXAMPLE>We agreed what he should do.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="plural"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="plural"/>
+                    </SYNRESTRS>
                 </NP>
                 <VERB/>
                 <NP value="Theme">
@@ -539,7 +539,7 @@
                         <ARG type="Event" value="during(E)"/>
                         <ARG type="ThemRole" value="Actor_i"/>
                         <ARG type="ThemRole" value="Actor_j"/>
-                     </ARGS>
+                    </ARGS>
                 </PRED>
                 <PRED value="about">
                     <ARGS>
@@ -553,64 +553,64 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="correspond-36.1-1">
             <MEMBERS>
-                <MEMBER name="agree" wn="agree%2:32:00 agree%2:32:04"/>
+                <MEMBER name="agree" wn="agree%2:32:00 agree%2:32:01 agree%2:42:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="PP-HOW-S" secondary="with-PP"  xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;They agreed with her how it should be done.&quot;</EXAMPLE>
+                        <EXAMPLE>They agreed with her how it should be done.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Actor1">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-			<PREP value="with">
-			    <SELRESTRS/>
-			</PREP>
+                        <PREP value="with">
+                            <SELRESTRS/>
+                        </PREP>
                         <NP value="Actor2">
-			    <SYNRESTRS/>
-			</NP>
+                            <SYNRESTRS/>
+                        </NP>
                         <NP value="Theme">
                             <SYNRESTRS>
-				<SYNRESTR Value="+" type="how_extract"/>
-			    </SYNRESTRS>
+                                <SYNRESTR Value="+" type="how_extract"/>
+                            </SYNRESTRS>
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-	                <PRED value="social_interaction">
-	                    <ARGS>
-	                        <ARG type="Event" value="during(E)"/>
-	                        <ARG type="ThemRole" value="Actor1"/>
-	                        <ARG type="ThemRole" value="Actor2"/>
-	                     </ARGS>
-	                </PRED>
-	                <PRED value="about">
-	                    <ARGS>
-	                        <ARG type="Event" value="E"/>
-	                        <ARG type="ThemRole" value="Theme"/>
-	                    </ARGS>
-	                </PRED>
-		    </SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor1"/>
+                                <ARG type="ThemRole" value="Actor2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="PP-HOW-TO-INF" secondary="with-PP" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;They agreed with her how to do it.&quot;</EXAMPLE>
+                        <EXAMPLE>They agreed with her how to do it.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Actor1">
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
-			<PREP value="with">
-			    <SELRESTRS/>
-			</PREP>
+                        <PREP value="with">
+                            <SELRESTRS/>
+                        </PREP>
                         <NP value="Actor2">
-			    <SYNRESTRS/>
-			</NP>
+                            <SYNRESTRS/>
+                        </NP>
                         <NP value="Theme">
                             <SYNRESTRS>
                                 <SYNRESTR Value="+" type="wh_inf"/>
@@ -618,31 +618,31 @@
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-                <PRED value="social_interaction">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Actor1"/>
-                        <ARG type="ThemRole" value="Actor2"/>
-                     </ARGS>
-                </PRED>
-                <PRED value="about">
-                    <ARGS>
-                        <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-		    </SEMANTICS>
-                </FRAME>    
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor1"/>
+                                <ARG type="ThemRole" value="Actor2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" secondary="" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;We agreed what to do.&quot;</EXAMPLE>
+                        <EXAMPLE>We agreed what to do.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Actor">
                             <SYNRESTRS>
-				<SYNRESTR Value="+" type="plural"/>
-			    </SYNRESTRS>
+                                <SYNRESTR Value="+" type="plural"/>
+                            </SYNRESTRS>
                         </NP>
                         <VERB/>
                         <NP value="Theme">
@@ -652,69 +652,69 @@
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-	                <PRED value="social_interaction">
-	                    <ARGS>
-	                        <ARG type="Event" value="during(E)"/>
-	                        <ARG type="ThemRole" value="Actor_i"/>
-	                        <ARG type="ThemRole" value="Actor_j"/>
-	                     </ARGS>
-	                </PRED>
-	                <PRED value="about">
-	                    <ARGS>
-	                        <ARG type="Event" value="E"/>
-	                        <ARG type="ThemRole" value="Theme"/>
-	                    </ARGS>
-	                </PRED>
-		    </SEMANTICS>
+                        <PRED value="social_interaction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Actor_i"/>
+                                <ARG type="ThemRole" value="Actor_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="about">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES>
-		<VNSUBCLASS ID="correspond-36.1-1-1">
-		    <MEMBERS>
-			<MEMBER name="debate" wn=""/>
-			<MEMBER name="argue" wn=""/>  
-		    </MEMBERS>
-		    <THEMROLES>
-		    </THEMROLES>
-		    <FRAMES>
-			<FRAME>
-			    <DESCRIPTION descriptionNumber="" primary="WH-S" secondary="" xtag=""/>
-			    <EXAMPLES>
-				<EXAMPLE><![CDATA["We agreed whether he should come."]]></EXAMPLE>
-			    </EXAMPLES>
-			    <SYNTAX>
-				<NP value="Actor">
-				    <SYNRESTRS>
-					<SYNRESTR Value="+" type="plural"/>
-				    </SYNRESTRS>
-				</NP>
-				<VERB/>
-				<NP value="Theme">
-				    <SYNRESTRS>
-					<SYNRESTR Value="+" type="wh_comp"/>
-				    </SYNRESTRS>
-				</NP>
-			    </SYNTAX>
-                            <SEMANTICS>
-		                <PRED value="social_interaction">
-		                    <ARGS>
-		                        <ARG type="Event" value="during(E)"/>
-		                        <ARG type="ThemRole" value="Actor_i"/>
-		                        <ARG type="ThemRole" value="Actor_j"/>
-		                     </ARGS>
-		                </PRED>
-		                <PRED value="about">
-		                    <ARGS>
-		                        <ARG type="Event" value="E"/>
-		                        <ARG type="ThemRole" value="Theme"/>
-		                    </ARGS>
-		                </PRED>
-			    </SEMANTICS>	    
-			</FRAME>
+                <VNSUBCLASS ID="correspond-36.1-1-1">
+                    <MEMBERS>
+                        <MEMBER name="debate" wn="debate%2:32:01"/>
+                        <MEMBER name="argue" wn="argue%2:32:00"/>
+                    </MEMBERS>
+                    <THEMROLES>
+                    </THEMROLES>
+                    <FRAMES>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="" primary="WH-TO-INF" secondary="" xtag=""/>          
+                            <DESCRIPTION descriptionNumber="" primary="WH-S" secondary="" xtag=""/>
                             <EXAMPLES>
-                                <EXAMPLE><![CDATA["We debated whether to clean the house."]]></EXAMPLE>
+                                <EXAMPLE>We agreed whether he should come.</EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Actor">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="plural"/>
+                                    </SYNRESTRS>
+                                </NP>
+                                <VERB/>
+                                <NP value="Theme">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="wh_comp"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="social_interaction">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Actor_i"/>
+                                        <ARG type="ThemRole" value="Actor_j"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="about">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="" primary="WH-TO-INF" secondary="" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE>We debated whether to clean the house.</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Actor">
@@ -730,25 +730,25 @@
                                 </NP>
                             </SYNTAX>
                             <SEMANTICS>
-		                <PRED value="social_interaction">
-		                    <ARGS>
-		                        <ARG type="Event" value="during(E)"/>
-		                        <ARG type="ThemRole" value="Actor_i"/>
-		                        <ARG type="ThemRole" value="Actor_j"/>
-		                     </ARGS>
-		                </PRED>
-		                <PRED value="about">
-		                    <ARGS>
-		                        <ARG type="Event" value="E"/>
-		                        <ARG type="ThemRole" value="Theme"/>
-		                    </ARGS>
-		                </PRED>
-			    </SEMANTICS>
+                                <PRED value="social_interaction">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Actor_i"/>
+                                        <ARG type="ThemRole" value="Actor_j"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="about">
+                                    <ARGS>
+                                        <ARG type="Event" value="E"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
                         </FRAME>
-		    </FRAMES>
-		    <SUBCLASSES/>
+                    </FRAMES>
+                    <SUBCLASSES/>
                 </VNSUBCLASS>
-	    </SUBCLASSES>
+            </SUBCLASSES>
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>

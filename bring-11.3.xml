@@ -3,7 +3,7 @@
 <VNCLASS ID="bring-11.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <!--We should also specify deictic predicates, where direction is either towards or away from the "place of speaking" or the "point from which the action is regarded"-->
     <MEMBERS>
-        <MEMBER name="take" wn="take%2:38:09 take%2:38:10 take%2:42:10"/>
+        <MEMBER name="take" wn="take%2:38:09 take%2:38:10 take%2:42:10" grouping="take.04 take.05"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -33,9 +33,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Nora brought the book&quot;</EXAMPLE>
+                <EXAMPLE>Nora brought the book.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -76,7 +76,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Goal-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Nora brought the book to the meeting&quot;</EXAMPLE>
+                <EXAMPLE>Nora brought the book to the meeting.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -137,7 +137,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="PP-NP" secondary="Goal-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Nora brought to lunch the book.&quot;</EXAMPLE>
+                <EXAMPLE>Nora brought to lunch the book.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -198,7 +198,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Source-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Nora brought the book from home.&quot;</EXAMPLE>
+                <EXAMPLE>Nora brought the book from home.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -261,7 +261,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Source-PP Goal-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Nora brought the book from home to the meeting&quot;</EXAMPLE>
+                <EXAMPLE>Nora brought the book from home to the meeting.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -344,7 +344,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP-ADVP-PRED" secondary="here/there" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The train brought us here."]]></EXAMPLE>
+                <EXAMPLE>The train brought us here.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -405,7 +405,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="bring-11.3-1">
             <MEMBERS>
-                <MEMBER name="bring" wn="bring%2:38:00 bring%2:35:00 bring%2:35:02"/>
+                <MEMBER name="bring" wn="bring%2:38:00 bring%2:35:00 bring%2:35:02" grouping="bring.01"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Destination">
@@ -418,7 +418,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;Nora brought Pamela the book&quot;</EXAMPLE>
+                        <EXAMPLE>Nora brought Pamela the book.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -465,7 +465,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="Together Reciprocal Alternation Transitive" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["Nora brought us together."]]></EXAMPLE>
+                        <EXAMPLE>Nora brought us together.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

@@ -32,9 +32,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan talked&quot;</EXAMPLE>
+                <EXAMPLE>Susan talked.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -62,7 +62,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="to-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan talked to Rachel&quot;</EXAMPLE>
+                <EXAMPLE>Susan talked to Rachel.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -96,7 +96,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan talked with Rachel&quot;</EXAMPLE>
+                <EXAMPLE>Susan talked with Rachel.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -138,7 +138,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="to-PP Topic-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan talked to Rachel about the problem&quot;</EXAMPLE>
+                <EXAMPLE>Susan talked to Rachel about the problem.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -178,7 +178,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="with-PP Topic-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan talked with Rachel about the problem&quot;</EXAMPLE>
+                <EXAMPLE>Susan talked with Rachel about the problem.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -226,7 +226,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.5.4" primary="Simple Reciprocal Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan and Rachel talked&quot;</EXAMPLE>
+                <EXAMPLE>Susan and Rachel talked.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -256,9 +256,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.5.5" primary="Together Reciprocal Alternation Intransitive" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.5.5" primary="Together Reciprocal Alternation Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Susan and Rachel talked&quot;</EXAMPLE>
+                <EXAMPLE>Susan and Rachel talked.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor">
@@ -291,7 +291,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="Topic-PP to-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Susan talked about the problem to Rachel."]]></EXAMPLE>
+                <EXAMPLE>Susan talked about the problem to Rachel.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -331,7 +331,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PP-PP" secondary="Topic-PP with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Susan talked about the problem with Rachel."]]></EXAMPLE>
+                <EXAMPLE>Susan talked about the problem with Rachel.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">
@@ -379,7 +379,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PP" secondary="Topic-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Susan talked about the problems of modern America."]]></EXAMPLE>
+                <EXAMPLE>Susan talked about the problems of modern America.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Actor1">

@@ -3,7 +3,7 @@
 <VNCLASS ID="reflexive_appearance-48.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="assert" wn="assert%2:32:01"/>
-        <MEMBER name="declare" wn="declare%2:32:01 declare%2:32:02"/>
+        <MEMBER name="declare" wn="declare%2:32:01"/>
         <MEMBER name="define" wn="define%2:42:00"/>
         <MEMBER name="exhibit" wn=""/>
         <MEMBER name="expose" wn=""/>
@@ -40,7 +40,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I presented a solution"]]></EXAMPLE>
+                <EXAMPLE>I presented a solution.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -69,7 +69,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I presented a solution to him"]]></EXAMPLE>
+                <EXAMPLE>I presented a solution to him.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -104,7 +104,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="4.2" primary="Reflexive of Appearance" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["A solution presented itself yesterday"]]></EXAMPLE>
+                <EXAMPLE>A solution presented itself yesterday.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">

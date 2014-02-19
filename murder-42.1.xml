@@ -32,9 +32,9 @@
     <FRAMES>
         <!--Levin also includes resultative for "kill" - "kill him dead"-->
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Brutus murdered Julius Cesar&quot;</EXAMPLE>
+                <EXAMPLE>Brutus murdered Julius Cesar.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -69,7 +69,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA[""Caesar killed Brutus with a knife.""]]></EXAMPLE>
+                <EXAMPLE>Caesar killed Brutus with a knife.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -129,9 +129,9 @@
             </THEMROLES>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" xtag=""/>
+                    <DESCRIPTION descriptionNumber="3.3" primary="Instrument Subject Alternation" secondary="" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;The DDT killed the insects&quot;</EXAMPLE>
+                        <EXAMPLE>The DDT killed the insects.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Instrument">

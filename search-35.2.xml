@@ -44,7 +44,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Theme-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I searched the cave for treasure"]]></EXAMPLE>
+                <EXAMPLE>I searched the cave for treasure.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -75,7 +75,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="Theme-PP Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I searched for treasure in the cave"]]></EXAMPLE>
+                <EXAMPLE>I searched for treasure in the cave.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -111,7 +111,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP-PP" secondary="Location-PP Theme-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I searched in the cave for treasure"]]></EXAMPLE>
+                <EXAMPLE>I searched in the cave for treasure.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -147,7 +147,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I searched through America."]]></EXAMPLE>
+                <EXAMPLE>I searched through America.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

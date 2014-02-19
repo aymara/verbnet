@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS ID="urge-58" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="urge-58.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="ask" wn=""/>
-        <MEMBER name="urge" wn=""/>
-        <MEMBER name="persuade" wn=""/>
-        <MEMBER name="implore" wn=""/>
+        <MEMBER name="admonish" wn="admonish%2:32:02 admonish%2:32:01"/>
+        <MEMBER name="advise" wn="advise%2:32:00 advise%2:32:02"/>
+        <MEMBER name="ask" wn="ask%2:32:01"/>
+        <MEMBER name="badger" wn="badger%2:32:00"/>
+        <MEMBER name="beg" wn="beg%2:32:00 beg%2:32:01"/>
+        <MEMBER name="convince" wn="convince%2:32:00"/>
+        <MEMBER name="entreat" wn="entreat%2:32:00"/>
+        <MEMBER name="extort" wn="extort%2:40:01 extort%2:40:00"/>
+        <MEMBER name="lobby" wn="lobby%2:41:00"/>
+        <MEMBER name="motivate" wn="motivate%2:36:00"/>
+        <MEMBER name="sway" wn="sway%2:41:00"/>
+        <MEMBER name="urge" wn="urge%2:32:00 urge%2:32:03"/>
+        <MEMBER name="persuade" wn="persuade%2:32:00"/>
+        <MEMBER name="implore" wn="implore%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -28,7 +38,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I persuaded him&quot;</EXAMPLE>
+                <EXAMPLE>I persuaded him.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -53,7 +63,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="into-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I persuaded him into action&quot;</EXAMPLE>
+                <EXAMPLE>I persuaded him into action.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -63,13 +73,13 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-		<PREP value="into">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="into">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Proposition">
                     <SYNRESTRS>
-                        <SYNRESTR Value="-" type="sentential"/>			
-		    </SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -86,7 +96,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-TO-INF-OC" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I persuaded him to come&quot;</EXAMPLE>
+                <EXAMPLE>I persuaded him to come.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -98,7 +108,7 @@
                 </NP>
                 <NP value="Proposition">
                     <SYNRESTRS>
-                        <SYNRESTR Value="+" type="oc_to_inf"/> 
+                        <SYNRESTR Value="+" type="oc_to_inf"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
@@ -116,7 +126,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I persuaded him that he should come&quot;</EXAMPLE>
+                <EXAMPLE>I persuaded him that he should come.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

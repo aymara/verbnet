@@ -20,9 +20,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Sharon fainted&quot;</EXAMPLE>
+                <EXAMPLE>Sharon fainted.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
@@ -48,8 +48,8 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Cause-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Sharon fainted from hunger&quot;</EXAMPLE>
-                <EXAMPLE>&quot;Sharon fainted at the sight of the accident&quot;</EXAMPLE>
+                <EXAMPLE>Sharon fainted from hunger.</EXAMPLE>
+                <EXAMPLE>Sharon fainted at the sight of the accident.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">

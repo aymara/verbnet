@@ -46,9 +46,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The jeweler printed the name&quot;</EXAMPLE>
+                <EXAMPLE>The jeweler printed the name.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -84,7 +84,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The jeweler printed the name on the ring&quot;</EXAMPLE>
+                <EXAMPLE>The jeweler printed the name on the ring.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -127,9 +127,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.2.1" primary="Unspecified Object" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.2.1" primary="Unspecified Object" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Smith was scribbling&quot;</EXAMPLE>
+                <EXAMPLE>Smith was scribbling.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

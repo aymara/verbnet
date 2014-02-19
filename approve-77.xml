@@ -2,10 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="approve-77" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="accept" wn=""/>
-        <MEMBER name="understand" wn=""/>
-        <MEMBER name="encourage" wn=""/>
-        <MEMBER name="discourage" wn=""/>
+        <MEMBER name="accept" wn="accept%2:31:01 accept%2:31:03 "/>
+        <MEMBER name="understand" wn="understand%2:31:04"/>
+        <MEMBER name="encourage" wn="encourage%2:41:00 encourage%2:37:00"/>
+        <MEMBER name="discourage" wn="discourage%2:32:01 discourage%2:37:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -22,7 +22,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="HOW-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I accept how you do it.&quot;</EXAMPLE>
+                <EXAMPLE>I accept how you do it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -31,8 +31,8 @@
                 <VERB/>
                 <NP value="Proposition">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="how_extract"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="how_extract"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -48,7 +48,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I accepted it.&quot;</EXAMPLE>
+                <EXAMPLE>I accepted it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -57,8 +57,8 @@
                 <VERB/>
                 <NP value="Proposition">
                     <SYNRESTRS>
-			<SYNRESTR Value="-" type="sentential"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -74,7 +74,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="POSSING" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I accepted their writing novels.&quot;</EXAMPLE>
+                <EXAMPLE>I accepted their writing novels.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -94,13 +94,13 @@
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Proposition"/>
                     </ARGS>
-                </PRED> 
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I accepted that they wrote novels.&quot;</EXAMPLE>
+                <EXAMPLE>I accepted that they wrote novels.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -126,7 +126,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I accepted what they were doing.&quot;</EXAMPLE>    
+                <EXAMPLE>I accepted what they were doing.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

@@ -26,7 +26,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The hygienist flossed my teeth"]]></EXAMPLE>
+                <EXAMPLE>The hygienist flossed my teeth.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -50,7 +50,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.2.2" primary="Understood Body-Part Object" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["I flossed"]]></EXAMPLE>
+                <EXAMPLE>I flossed.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -71,7 +71,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["She flossed her teeth with floss."]]></EXAMPLE>
+                <EXAMPLE>She flossed her teeth with floss.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -108,7 +108,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="PP" secondary="Instrument-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["She brushed with a toothbrush."]]></EXAMPLE>
+                <EXAMPLE>She brushed with a toothbrush.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

@@ -22,9 +22,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Gloria snoozed&quot;</EXAMPLE>
+                <EXAMPLE>Gloria snoozed.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -44,7 +44,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Cognate Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA[""Gloria slept the sleep of the dead.""]]></EXAMPLE>
+                <EXAMPLE>Gloria slept the sleep of the dead.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

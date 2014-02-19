@@ -34,7 +34,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.2.3" primary="Intransitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Marlene dressed"]]></EXAMPLE>
+                <EXAMPLE>Marlene dressed.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -55,7 +55,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Marlene dressed the baby"]]></EXAMPLE>
+                <EXAMPLE>Marlene dressed the baby.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -79,7 +79,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Unspecified Reflexive Object" secondary="Reflexive variant" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Marlene dressed herself"]]></EXAMPLE>
+                <EXAMPLE>Marlene dressed herself.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

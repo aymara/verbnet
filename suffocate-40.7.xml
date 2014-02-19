@@ -25,7 +25,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2.1" primary="Transitive" secondary="Causative variant" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The pirates drowned the sailor&quot;</EXAMPLE>
+                <EXAMPLE>The pirates drowned the sailor.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -52,9 +52,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Intransitive" secondary="Inchoative variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2.1" primary="Intransitive" secondary="Inchoative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The sailor drowned&quot;</EXAMPLE>
+                <EXAMPLE>The sailor drowned.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -74,7 +74,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He choked/suffocated to death&quot;</EXAMPLE>
+                <EXAMPLE>He choked/suffocated to death.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -108,7 +108,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The pirate choked the sailor to death&quot;</EXAMPLE>
+                <EXAMPLE>The pirate choked the sailor to death.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

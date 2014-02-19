@@ -2,8 +2,8 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="confine-92" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="charge" wn=""/>
-        <MEMBER name="institutionalize" wn=""/>
+        <MEMBER name="charge" wn="charge%2:40:05"/>
+        <MEMBER name="institutionalize" wn="institutionalize%2:40:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -17,15 +17,15 @@
         </THEMROLE>
         <THEMROLE type="Destination">
             <SELRESTRS>
-		<SELRESTR Value="+" type="location"/>
-	    </SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+            </SELRESTRS>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;We committed John.&quot;</EXAMPLE>
+                <EXAMPLE>We committed John.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -67,18 +67,18 @@
         </FRAME>
     </FRAMES>
     <SUBCLASSES>
-        <VNSUBCLASS ID="charge-99-1">
+        <VNSUBCLASS ID="confine-92-1">
             <MEMBERS>
-                <MEMBER name="commit" wn=""/>
-                <MEMBER name="send" wn=""/>
-		<MEMBER name="confine" wn=""/>
+                <MEMBER name="commit" wn="commit%2:40:02"/>
+                <MEMBER name="send" wn="send%2:40:00"/>
+                <MEMBER name="confine" wn="confine%2:41:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP-PP" secondary="to-PP" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;We committed John to prison.&quot;</EXAMPLE>
+                        <EXAMPLE>We committed John to prison.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -86,43 +86,43 @@
                         </NP>
                         <VERB/>
                         <NP value="Theme">
-			    <SYNRESTRS/>
-			</NP>
-			<PREP value="to">
-			    <SELRESTRS/>
-			</PREP>
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="to">
+                            <SELRESTRS/>
+                        </PREP>
                         <NP value="Destination">
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-	                <PRED bool="!" value="location">
-	                    <ARGS>
-	                        <ARG type="Event" value="start(E)"/>
-	                        <ARG type="ThemRole" value="Theme"/>
-	                        <ARG type="ThemRole" value="Destination"/>
-	                    </ARGS>
-	                </PRED>
-	                <PRED value="location">
-	                    <ARGS>
-	                        <ARG type="Event" value="end(E)"/>
-	                        <ARG type="ThemRole" value="Theme"/>
-	                        <ARG type="ThemRole" value="Destination"/>
-	                    </ARGS>
-	                </PRED>
-	                <PRED value="confined">
-	                    <ARGS>
-	                        <ARG type="Event" value="result(E)"/>
-	                        <ARG type="ThemRole" value="Theme"/>
-	                    </ARGS>
-	                </PRED>
-	                <PRED value="cause">
-	                    <ARGS>
-	                        <ARG type="ThemRole" value="Agent"/>
-	                        <ARG type="Event" value="E"/>
-		            </ARGS>
-		        </PRED>
-		    </SEMANTICS>
+                        <PRED bool="!" value="location">
+                            <ARGS>
+                                <ARG type="Event" value="start(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="location">
+                            <ARGS>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="confined">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES/>

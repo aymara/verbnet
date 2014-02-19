@@ -14,13 +14,13 @@
         <MEMBER name="lie" wn="lie%2:38:00"/>
         <MEMBER name="perch" wn="perch%2:35:00"/>
         <MEMBER name="plop" wn="plop%2:35:00"/>
-        <MEMBER name="rise" wn="rise%2:38:00 rise%2:38:05 rise%2:38:04 rise%2:29:08 rise%2:38:01"/>
+        <MEMBER name="rise" wn="rise%2:38:00 rise%2:38:05 rise%2:38:04 rise%2:29:08"/>
         <MEMBER name="sit" wn="sit%2:38:00"/>
         <MEMBER name="slouch" wn="slouch%2:38:01"/>
         <MEMBER name="slump" wn="slump%2:38:01 slump%2:38:00"/>
         <MEMBER name="sprawl" wn="sprawl%2:35:00 ?sprawl%2:38:00"/>
-        <MEMBER name="squat" wn=""/>
-        <MEMBER name="stand" wn=""/>
+        <MEMBER name="squat" wn="squat%2:35:00"/>
+        <MEMBER name="stand" wn="stand%2:42:03"/>
         <MEMBER name="stoop" wn="stoop%2:38:00 stoop%2:38:04"/>
         <MEMBER name="straddle" wn="straddle%2:42:01"/>
     </MEMBERS>
@@ -39,9 +39,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The dog flopped&quot;</EXAMPLE>
+                <EXAMPLE>The dog flopped.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -75,7 +75,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The dog flopped in the corner&quot;</EXAMPLE>
+                <EXAMPLE>The dog flopped in the corner.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

@@ -11,15 +11,18 @@
         <MEMBER name="create" wn="create%2:36:13 create%2:36:03"/>
         <MEMBER name="derive" wn="derive%2:31:00"/>
         <MEMBER name="fabricate" wn="fabricate%2:36:01"/>
-        <MEMBER name="form" wn="form%2:30:01 form%2:36:00 form%2:35:00"/>
+        <MEMBER name="form" wn="form%2:30:01 form%2:36:00"/>
+        <MEMBER name="formulate" wn="formulate%2:32:03 formulate%2:36:00"/>
+        <MEMBER name="improvise" wn="improvise%2:36:00"/>
         <MEMBER name="invent" wn="invent%2:36:00"/>
         <MEMBER name="manufacture" wn="manufacture%2:36:00"/>
         <MEMBER name="model" wn="model%2:36:02 model%2:36:00"/>
         <MEMBER name="organize" wn="organize%2:31:00"/>
         <MEMBER name="produce" wn="produce%2:36:00"/>
         <MEMBER name="recreate" wn=""/>
-        <MEMBER name="style" wn="style%2:36:01"/>
-        <MEMBER name="synthesize" wn=""/>
+        <MEMBER name="rebuild" wn="rebuild%2:36:00"/>
+        <MEMBER name="style" wn="style%2:36:00"/>
+        <MEMBER name="synthesize" wn="synthesize%2:31:00"/>
         <MEMBER name="lay" wn="lay%2:36:00"/>
     </MEMBERS>
     <THEMROLES>
@@ -43,9 +46,9 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;David constructed a house&quot;</EXAMPLE>
+                <EXAMPLE>David constructed a house.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -80,7 +83,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Material-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;David constructed a house out of sticks&quot;</EXAMPLE>
+                <EXAMPLE>David constructed a house out of sticks.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -90,7 +93,7 @@
                 <NP value="Product">
                     <SYNRESTRS/>
                 </NP>
-                <PREP value="from out of">
+                <PREP value="from out_of">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Material">
@@ -128,7 +131,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.2" primary="NP-PP" secondary="for-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;David dug a hole for me&quot;</EXAMPLE>
+                <EXAMPLE>David dug a hole for me.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -175,7 +178,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="as-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["They designed the Westinghouse-Mitsubishi venture as a non-equity transaction."]]></EXAMPLE>
+                <EXAMPLE>They designed the Westinghouse-Mitsubishi venture as a non-equity transaction.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -215,23 +218,23 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="create-26.4-1">
             <MEMBERS>
-	        <MEMBER name="conjure" wn=""/>
+                <MEMBER name="conjure" wn="conjure%2:36:00"/>
                 <MEMBER name="design" wn="design%2:31:00 design%2:36:01 design%2:36:00"/>
                 <MEMBER name="dig" wn="dig%2:35:01"/>
                 <MEMBER name="mint" wn="mint%2:36:00"/>
-        	<MEMBER name="publish" wn=""/>
-        	<MEMBER name="rearrange" wn=""/>
-		<MEMBER name="reconstitute" wn=""/>
-       		<MEMBER name="reorganize" wn=""/>
-        	<MEMBER name="schedule" wn=""/>
-        	<MEMBER name="stage" wn=""/>
+                <MEMBER name="publish" wn="publish%2:36:01 publish%2:32:00 publish%2:36:00"/>
+                <MEMBER name="rearrange" wn="rearrange%2:30:00"/>
+                <MEMBER name="reconstitute" wn="reconstitute%2:30:02"/>
+                <MEMBER name="reorganize" wn="reorganize%2:41:00 reorganize%2:41:01"/>
+                <MEMBER name="schedule" wn="schedule%2:31:00 schedule%2:32:00"/>
+                <MEMBER name="stage" wn="stage%2:36:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="2.2" primary="NP-NP" secondary="Beneficiary Object" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE>&quot;David dug me a hole&quot;</EXAMPLE>
+                        <EXAMPLE>David dug me a hole.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

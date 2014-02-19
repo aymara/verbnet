@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS ID="correlate-86" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="correlate-86.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <MEMBER name="coincide" wn=""/>
         <MEMBER name="correlate" wn=""/>
@@ -24,20 +24,20 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-ING-AC" secondary="with-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;He alternates with keeping them.&quot;</EXAMPLE>
+                <EXAMPLE>He alternates with keeping them.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme1">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-		<PREP value="with">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="with">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Theme2">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="ac_ing"/> 
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="ac_ing"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -53,7 +53,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP-P-ING-AC" secondary="with-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;We alternated it with keeping them locked up.&quot;</EXAMPLE>
+                <EXAMPLE>We alternated it with keeping them locked up.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -63,13 +63,13 @@
                 <NP value="Theme1">
                     <SYNRESTRS/>
                 </NP>
-		<PREP value="with">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="with">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Theme2">
                     <SYNRESTRS>
-			<SYNRESTR Value="+" type="ac_ing"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="+" type="ac_ing"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

@@ -5,12 +5,12 @@
         <MEMBER name="bet" wn="bet%2:33:00"/>
         <MEMBER name="bill" wn="bill%2:40:00"/>
         <MEMBER name="charge" wn="charge%2:40:02 charge%2:31:12"/>
-        <MEMBER name="fine" wn="fine%2:40:00 fine%2:41:00"/>
-        <MEMBER name="invoice" wn=""/>
+        <MEMBER name="fine" wn="fine%2:41:00"/>
+        <MEMBER name="invoice" wn="invoice%2:40:00"/>
         <MEMBER name="mulct" wn="?mulct%2:41:00 mulct%2:40:00"/>
         <MEMBER name="overcharge" wn="overcharge%2:40:00"/>
         <MEMBER name="save" wn="?save%2:40:02 ?save%2:30:00"/>
-        <MEMBER name="scrimp" wn=""/>
+        <MEMBER name="scrimp" wn="scrimp%2:40:00"/>
         <MEMBER name="spare" wn="spare%2:41:01"/>
         <MEMBER name="tax" wn="tax%2:40:00"/>
         <MEMBER name="tip" wn="tip%2:40:00"/>
@@ -43,7 +43,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Recipient Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The phone company billed me"]]></EXAMPLE>
+                <EXAMPLE>The phone company billed me.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -68,7 +68,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Asset Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The phone company billed me $10"]]></EXAMPLE>
+                <EXAMPLE>The phone company billed me $10.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -96,7 +96,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP-PP" secondary="Asset-PP Cause-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The phone company billed me $10 for that phone call"]]></EXAMPLE>
+                <EXAMPLE>The phone company billed me $10 for that phone call.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

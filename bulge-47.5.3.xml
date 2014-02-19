@@ -20,7 +20,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="with-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The bag is bulging with groceries&quot;</EXAMPLE>
+                <EXAMPLE>The bag is bulging with groceries.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Location">
@@ -47,7 +47,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The bag is bulging&quot;</EXAMPLE>
+                <EXAMPLE>The bag is bulging.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Location">

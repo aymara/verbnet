@@ -43,7 +43,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="inchoative" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The ball rolled&quot;</EXAMPLE>
+                <EXAMPLE>The ball rolled.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -63,7 +63,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="locative-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The ball rolled down the hill&quot;</EXAMPLE>
+                <EXAMPLE>The ball rolled down the hill.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -98,7 +98,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Causative" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Bill rolled the ball&quot;</EXAMPLE>
+                <EXAMPLE>Bill rolled the ball.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -127,7 +127,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="path-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Bill rolled the ball down the hill&quot;</EXAMPLE>
+                <EXAMPLE>Bill rolled the ball down the hill.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -171,7 +171,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The drawer rolled open&quot;</EXAMPLE>
+                <EXAMPLE>The drawer rolled open.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -198,7 +198,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;The drawer rolled to an open position&quot;</EXAMPLE>
+                <EXAMPLE>The drawer rolled to an open position.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -232,7 +232,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-ADJP" secondary="Resultative" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Bill rolled the drawer open&quot;</EXAMPLE>
+                <EXAMPLE>Bill rolled the drawer open.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -268,7 +268,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP-PP" secondary="Result-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Bill rolled the drawer to an open position&quot;</EXAMPLE>
+                <EXAMPLE>Bill rolled the drawer to an open position.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

@@ -2,10 +2,10 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="defend-85" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="defend" wn=""/>
-        <MEMBER name="insure" wn=""/>
-        <MEMBER name="protect" wn=""/>
-        <MEMBER name="shade" wn=""/>
+        <MEMBER name="defend" wn="defend%2:32:00 defend%2:41:00 defend%2:32:01"/>
+        <MEMBER name="insure" wn="insure%2:32:00"/>
+        <MEMBER name="protect" wn="protect%2:33:00"/>
+        <MEMBER name="shade" wn="shade%2:35:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -28,7 +28,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I defended them.&quot;</EXAMPLE>
+                <EXAMPLE>I defended them.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -53,7 +53,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="against-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I defended them against the charges.&quot;</EXAMPLE>
+                <EXAMPLE>I defended them against the charges.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -63,13 +63,13 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-		<PREP value="against">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="against">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Proposition">
                     <SYNRESTRS>
-			<SYNRESTR Value="-" type="sentential"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -86,7 +86,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="ING-AC" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I defended building the house.&quot;</EXAMPLE>
+                <EXAMPLE>I defended building the house.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -111,9 +111,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="POSSING" secondary="" xtag="0.2"/> 
+            <DESCRIPTION descriptionNumber="8.1" primary="POSSING" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;I defended their building the house.&quot;</EXAMPLE>
+                <EXAMPLE>I defended their building the house.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

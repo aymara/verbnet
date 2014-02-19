@@ -29,20 +29,17 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Cornelia lodged with the Stevensons"]]></EXAMPLE>
-                <EXAMPLE><![CDATA["Cornelia lodged at Mrs. Parker's"]]></EXAMPLE>
+                <EXAMPLE>Cornelia lodged with the Stevensons.</EXAMPLE>
+                <EXAMPLE>Cornelia lodged at Mrs. Parker's.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <PREP>
+                <PREP value="at in with">
                     <SELRESTRS/>
                 </PREP>
-                <LEX value="(at"/>
-                <LEX value="in"/>
-                <LEX value="with)"/>
                 <NP value="Location">
                     <SYNRESTRS/>
                 </NP>
@@ -67,7 +64,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="ADVP-PRED" secondary="here/there" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["We camped there."]]></EXAMPLE>
+                <EXAMPLE>We camped there.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">

@@ -4,7 +4,7 @@
     <MEMBERS>
         <MEMBER name="call" wn="call%2:32:02 call%2:32:00 call%2:41:14"/>
         <MEMBER name="decree" wn="decree%2:31:00"/>
-        <MEMBER name="dub" wn="dub%2:32:00 dub%2:41:00"/>
+        <MEMBER name="dub" wn="dub%2:32:00"/>
         <MEMBER name="make" wn="make%2:30:00 make%2:41:03"/>
         <MEMBER name="pronounce" wn="pronounce%2:32:01 pronounce%2:32:00"/>
         <MEMBER name="rule" wn="rule%2:31:00"/>
@@ -33,7 +33,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-NP" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The captain named the ship Seafarer"]]></EXAMPLE>
+                <EXAMPLE>The captain named the ship Seafarer.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -66,7 +66,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="Basic Transitive" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The captain baptized the ship"]]></EXAMPLE>
+                <EXAMPLE>The captain baptized the ship.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -113,7 +113,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="after-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["They named it after Ira Cohen."]]></EXAMPLE>
+                        <EXAMPLE>They named it after Ira Cohen.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -149,7 +149,7 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="NP-PP" secondary="for-PP" xtag=""/>
                     <EXAMPLES>
-                        <EXAMPLE><![CDATA["They named it for Charlie Brown."]]></EXAMPLE>
+                        <EXAMPLE>They named it for Charlie Brown.</EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">

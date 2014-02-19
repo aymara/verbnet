@@ -44,11 +44,11 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
             <!-- Direct Speech-->
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled the news&quot;</EXAMPLE>
-                <EXAMPLE>&quot;Heather cabled, 'Come immediately.'&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled the news.</EXAMPLE>
+                <EXAMPLE>Heather cabled, 'Come immediately.'</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -79,7 +79,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Recipient Object, ellided Topic" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled Sara&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled Sara.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -110,7 +110,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.1" primary="NP-PP" secondary="to-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled the news to Sara&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled the news to Sara.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -147,7 +147,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled Sara the news&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled Sara the news.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -181,7 +181,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.3" primary="NP-QUOT" secondary="Recipient Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled Sara, 'Come immediately.'&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled Sara, 'Come immediately.'</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -216,7 +216,7 @@
             <DESCRIPTION descriptionNumber="0.3" primary="PP-QUOT" secondary="Recipient-PP" xtag=""/>
             <!-- Perhaps should be treated as heavy XP shift-->
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled to Sara, 'Come immediately.'&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled to Sara, 'Come immediately.'</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -253,7 +253,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP-PP" secondary="Topic-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled Sara about the situation&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled Sara about the situation.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -288,11 +288,11 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="S" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="S" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled that the party would be tonight&quot;</EXAMPLE>
-                <EXAMPLE>&quot;Heather cabled when to send the package&quot;</EXAMPLE>
-                <EXAMPLE>&quot;Heather cabled to come&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled that the party would be tonight.</EXAMPLE>
+                <EXAMPLE>Heather cabled when to send the package.</EXAMPLE>
+                <EXAMPLE>Heather cabled to come.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -323,9 +323,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="WHEN-TO-INF" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="WHEN-TO-INF" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled when to send the package&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled when to send the package.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -356,10 +356,10 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.5" primary="TO-INF-AC" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.5" primary="TO-INF-AC" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled when to send the package&quot;</EXAMPLE>
-                <EXAMPLE>&quot;Heather cabled to come&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled when to send the package.</EXAMPLE>
+                <EXAMPLE>Heather cabled to come.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -392,7 +392,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.5" primary="NP-S" secondary="Recipient Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled Sara that the party would be tonight&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled Sara that the party would be tonight.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -428,7 +428,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.5" primary="NP-WHEN-TO-INF" secondary="Recipient Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled Sara when to send the package&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled Sara when to send the package.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -464,7 +464,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.5" primary="NP-TO-INF-AC" secondary="Recipient Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled Sara to come&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled Sara to come.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -500,7 +500,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.5" primary="PP-S" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled to Sara that the party would be tonight&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled to Sara that the party would be tonight.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -539,7 +539,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.5" primary="PP-WHEN-TO-INF" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled to Sara when to send the package&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled to Sara when to send the package.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -578,7 +578,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.5" primary="PP-TO-INF-AC" secondary="Recipient-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled to Sara to come&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled to Sara to come.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -617,7 +617,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.5" primary="FOR-TO-INF" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Heather cabled for Sara to come&quot;</EXAMPLE>
+                <EXAMPLE>Heather cabled for Sara to come.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

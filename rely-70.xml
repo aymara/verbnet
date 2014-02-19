@@ -2,17 +2,17 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="rely-70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="rely" wn=""/>
-        <MEMBER name="depend" wn=""/>
-        <MEMBER name="bank" wn=""/>       
+        <MEMBER name="rely" wn="rely%2:31:11"/>
+        <MEMBER name="depend" wn="depend%2:31:00"/>
+        <MEMBER name="bank" wn="bank%2:31:02"/>
         <MEMBER name="bargain" wn=""/>
-        <MEMBER name="count" wn=""/>
-        <MEMBER name="figure" wn=""/>
-        <MEMBER name="reckon" wn=""/>
-        <MEMBER name="bet" wn=""/>
-        <MEMBER name="gamble" wn=""/>
-        <MEMBER name="take_a_chance" wn=""/>
-        <MEMBER name="wager" wn=""/> 
+        <MEMBER name="count" wn="count%2:31:02"/>
+        <MEMBER name="figure" wn="figure%2:31:01"/>
+        <MEMBER name="reckon" wn="reckon%2:31:03 "/>
+        <MEMBER name="bet" wn="bet%2:31:00"/>
+        <MEMBER name="gamble" wn="gamble%2:41:00"/>
+        <MEMBER name="take_a_chance" wn="take_a_chance%2:41:00"/>
+        <MEMBER name="wager" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -29,7 +29,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="on-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;She relies on coming back in time.&quot;</EXAMPLE>
+                <EXAMPLE>She relies on coming back in time.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -58,7 +58,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-NP-ING" secondary="on-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;She relies on him coming back in time.&quot;</EXAMPLE>
+                <EXAMPLE>She relies on him coming back in time.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -69,7 +69,7 @@
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Theme">
-                    <SYNRESTRS> 
+                    <SYNRESTRS>
                         <SYNRESTR Value="+" type="np_ing"/>
                     </SYNRESTRS>
                 </NP>
@@ -87,7 +87,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-NP-TO-INF" secondary="on-PP" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;She relies on him to help.&quot;</EXAMPLE>
+                <EXAMPLE>She relies on him to help.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -116,7 +116,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="P-POSSING" secondary="on-PP" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;She relies on his helping.&quot;</EXAMPLE>
+                <EXAMPLE>She relies on his helping.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -145,7 +145,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="on-PP" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;She relies on it.&quot;</EXAMPLE>
+                <EXAMPLE>She relies on it.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
