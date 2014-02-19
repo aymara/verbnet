@@ -64,7 +64,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="some verbs" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;John slouched&quot;</EXAMPLE>
             </EXAMPLES>
@@ -83,6 +83,7 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs-->
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ locative PP" xtag=""/>
@@ -196,7 +197,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" secondary="some verbs, cf. put_spatial-9.2" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;They stood the statue on the pedestal&quot;</EXAMPLE>
             </EXAMPLES>
@@ -246,8 +247,8 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs, cf. put_spatial-9.2-->
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

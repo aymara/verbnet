@@ -56,7 +56,14 @@
                 </NP>
                 <VERB/>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="appear">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Location PP" xtag=""/>
@@ -77,10 +84,31 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="appear">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="There-insertion" secondary="Most verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="There-insertion" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["There appeared a ship on the horizon"]]></EXAMPLE>
             </EXAMPLES>
@@ -99,10 +127,32 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="appear">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+            <!--most verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="Most verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["On the horizon appeared a large ship"]]></EXAMPLE>
             </EXAMPLES>
@@ -120,7 +170,68 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="appear">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+            <!--most verbs-->
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ here/there" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["It appeared there."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Location">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adv_loc"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="appear">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>

@@ -2,13 +2,9 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="coil-9.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="coil" wn="coil%2:35:00"/>
-        <MEMBER name="curl" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00"/>
         <MEMBER name="loop" wn="loop%2:36:00 loop%2:35:00"/>
         <MEMBER name="roll" wn="roll%2:35:00"/>
         <MEMBER name="spin" wn=""/>
-        <MEMBER name="twirl" wn=""/>
-        <MEMBER name="twist" wn="twist%2:30:00"/>
         <MEMBER name="whirl" wn=""/>
         <MEMBER name="wind" wn="wind%2:35:06"/>
     </MEMBERS>
@@ -18,7 +14,7 @@
                 <SELRESTR Value="+" type="int_control"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Patient">
+        <THEMROLE type="Theme">
             <SELRESTRS>
                 <SELRESTR Value="+" type="nonrigid"/>
                 <SELRESTR Value="+" type="elongated"/>
@@ -41,7 +37,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Patient">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <PREP>
@@ -57,20 +53,20 @@
                 <PRED value="rotational_motion">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="Prep">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="Prep">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
@@ -89,7 +85,7 @@
                 <EXAMPLE>&quot;The rope coiled around the post&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Patient">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -106,20 +102,20 @@
                 <PRED value="rotational_motion">
                     <ARGS>
                         <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="Prep">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="Prep">
                     <ARGS>
                         <ARG type="Event" value="E"/>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
@@ -131,7 +127,7 @@
                 <EXAMPLE>&quot;That type of rope coils easily around the post&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
-                <NP value="Patient">
+                <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
@@ -148,7 +144,7 @@
             <SEMANTICS>
                 <PRED value="property">
                     <ARGS>
-                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="VerbSpecific" value="Prop"/>
                     </ARGS>
                 </PRED>
@@ -160,6 +156,55 @@
             </SEMANTICS>
         </FRAME>
     </FRAMES>
-    <SUBCLASSES/>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="coil-9.6-1">
+            <MEMBERS>
+                <MEMBER name="curl" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00"/>
+                <MEMBER name="coil" wn="coil%2:35:00"/>
+                <MEMBER name="twirl" wn=""/>
+                <MEMBER name="twist" wn="twist%2:30:00"/>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Location">
+                    <SELRESTRS/>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="Middle Construction" secondary="" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE><![CDATA["The rope curled upward."]]></EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <ADV/>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="rotational_motion">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="Prop">
+                            <ARGS>
+                                <ARG type="VerbSpecific" value="Adv"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="property">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="VerbSpecific" value="Prop"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                    <!--Unlike the other usages, the intransitive uses are stative  in nature, describing orientation of the Theme.-->
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
 </VNCLASS>
-

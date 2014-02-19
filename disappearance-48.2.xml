@@ -29,7 +29,14 @@
                 </NP>
                 <VERB/>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="disappear">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="6.1" primary="There-insertion" secondary="" xtag=""/>
@@ -49,7 +56,21 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="disappear">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>

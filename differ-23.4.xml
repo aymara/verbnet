@@ -15,7 +15,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ from-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ from/with-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The winter schedule differed from the spring schedule&quot;</EXAMPLE>
             </EXAMPLES>
@@ -24,7 +24,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <PREP value="from">
+                <PREP value="from with">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Theme2">
@@ -65,4 +65,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

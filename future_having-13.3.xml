@@ -36,6 +36,7 @@
             <SELRESTRS logic="or">
                 <SELRESTR Value="+" type="animate"/>
                 <SELRESTR Value="+" type="organization"/>
+                <SELRESTR Value="+" type="abstract"/>
             </SELRESTRS>
         </THEMROLE>
     </THEMROLES>
@@ -121,7 +122,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.1" primary="Dative" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="Ditransitive variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;I promised somebody my time&quot;</EXAMPLE>
             </EXAMPLES>
@@ -160,7 +161,49 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Benefactive Alternation" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["The House allocated more than $1.8 million for the pensions and epenses of former presidents."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="for">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="future_possession">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

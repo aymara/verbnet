@@ -526,7 +526,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="3.8" primary="Raw Material Subject Alternation" secondary="some verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="3.8" primary="Raw Material Subject Alternation" secondary="" xtag=""/>
             <!-- If present tense, then predicate is property(Material,Product,Prop)-->
             <EXAMPLES>
                 <EXAMPLE>&quot;This wood carved beautiful toys&quot;</EXAMPLE>

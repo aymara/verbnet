@@ -31,7 +31,27 @@
                 <VERB/>
                 <ADJ/>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Experiencer PP" xtag=""/>
@@ -51,7 +71,28 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="ThemRole" value=""/>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>

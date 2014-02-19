@@ -144,7 +144,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="ditransitive variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="Ditransitive variant" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Heather cabled Sara the news&quot;</EXAMPLE>
             </EXAMPLES>
@@ -443,4 +443,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

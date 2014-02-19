@@ -22,6 +22,9 @@
                 <SELRESTR Value="+" type="abstract"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Predicate">
+            <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -59,7 +62,47 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Sentential Complement" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["The bug causes the chip to give wrong answers for some mathematical calculations."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Predicate">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="infinitival"/>
+                        <SYNRESTR Value="-" type="wh_inf"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="nonagentive_cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

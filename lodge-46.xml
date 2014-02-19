@@ -23,6 +23,9 @@
         <THEMROLE type="Location">
             <SELRESTRS/>
         </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -44,6 +47,39 @@
                 <LEX value="with)"/>
                 <NP value="Location">
                     <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ there/here" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["We camped there."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Location">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adv_loc"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

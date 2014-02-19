@@ -53,7 +53,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.12" primary="Body-Part Possessor Ascension Alternation" secondary="some verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.12" primary="Body-Part Possessor Ascension Alternation" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;She held him by the arm&quot;</EXAMPLE>
             </EXAMPLES>
@@ -94,6 +94,7 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs-->
         </FRAME>
     </FRAMES>
     <SUBCLASSES>
@@ -157,4 +158,3 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

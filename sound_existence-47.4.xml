@@ -102,7 +102,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="some verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Through the hall echoed a loud cry&quot;</EXAMPLE>
             </EXAMPLES>
@@ -135,6 +135,7 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs-->
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="2.3" primary="Locative Alternation" secondary="with variant" xtag=""/>
@@ -172,4 +173,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

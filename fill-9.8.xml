@@ -66,7 +66,6 @@
         <MEMBER name="pave" wn="pave%2:35:00"/>
         <MEMBER name="plate" wn="plate%2:35:00"/>
         <MEMBER name="plug" wn="plug%2:35:01"/>
-        <MEMBER name="pollute" wn="pollute%2:30:00"/>
         <MEMBER name="replenish" wn="replenish%2:30:00"/>
         <MEMBER name="repopulate" wn=""/>
         <MEMBER name="riddle" wn="riddle%2:35:00"/>
@@ -83,7 +82,6 @@
         <MEMBER name="splotch" wn="splotch%2:35:00"/>
         <MEMBER name="spot" wn="spot%2:35:01 spot%2:35:00"/>
         <MEMBER name="staff" wn="staff%2:33:00"/>
-        <MEMBER name="stain" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04"/>
         <MEMBER name="stipple" wn="stipple%2:36:00 stipple%2:36:01 stipple%2:36:02 stipple%2:35:00"/>
         <MEMBER name="stop_up" wn="stop_up%2:35:00"/>
         <MEMBER name="stud" wn="stud%2:35:00"/>
@@ -96,6 +94,7 @@
         <MEMBER name="trim" wn="trim%2:36:01 trim%2:36:00"/>
         <MEMBER name="veil" wn="veil%2:35:00"/>
         <MEMBER name="vein" wn="vein%2:36:00"/>
+        <MEMBER name="inject" wn="inject%2:29:00 inject%2:35:00 inject%2:34:01 inject%2:34:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -282,6 +281,37 @@
             </SEMANTICS>
         </FRAME>
     </FRAMES>
-    <SUBCLASSES/>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="fill-9.8-1">
+            <MEMBERS>
+                <MEMBER name="pollute" wn="pollute%2:30:00"/>
+                <MEMBER name="stain" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04"/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="Basic Intransitive" secondary="" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE><![CDATA["CFC's pollute."]]></EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                    </SYNTAX>
+                    <SEMANTICS>
+			<PRED value="location">
+			   <ARGS>
+				<ARG type="Event" value="E"/>
+				<ARG type="ThemRole" value="Theme"/>
+				<ARG type="ThemRole" value="?Destination"/>
+			   </ARGS>
+			</PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
 </VNCLASS>
-

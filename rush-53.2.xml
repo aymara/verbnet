@@ -15,35 +15,13 @@
         <THEMROLE type="Theme">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Location">
-            <SELRESTRS/>
-        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Location PP" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE><![CDATA["Maggie hurried through the museum"]]></EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <PREP>
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="path"/>
-                    </SELRESTRS>
-                </PREP>
-                <NP value="Location">
-                    <SYNRESTRS/>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS/>
-        </FRAME>
-        <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ with-PP" xtag=""/>
-            <EXAMPLES/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Maggie hurried with her lunch."]]></EXAMPLE>
+            </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
                     <SYNRESTRS/>
@@ -56,7 +34,26 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="rushed">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="occur">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="end">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" secondary="" xtag=""/>
@@ -72,7 +69,58 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="rushed">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ through-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Mary hurried through the museum."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="through">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="rushed">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="occur">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="end">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>

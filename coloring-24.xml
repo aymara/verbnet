@@ -111,7 +111,51 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Resultative" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Claire painted the wall into a splotchy mess."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="to into">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="state"/>
+                    </SELRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="apply_material">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="VerbSpecific" value="Material"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="covered">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Material"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

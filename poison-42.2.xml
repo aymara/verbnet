@@ -28,6 +28,9 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -60,7 +63,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="most verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The Boston Strangler strangled his victims dead&quot;</EXAMPLE>
             </EXAMPLES>
@@ -94,9 +97,10 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--most verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="most verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The Boston Strangler strangled his victims to death&quot;</EXAMPLE>
             </EXAMPLES>
@@ -137,8 +141,43 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--most verbs-->
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA[""The queen poisoned Snow White with an apple.""]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="with">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="harmed">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

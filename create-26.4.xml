@@ -19,6 +19,7 @@
         <MEMBER name="recreate" wn=""/>
         <MEMBER name="style" wn="style%2:36:01"/>
         <MEMBER name="synthesize" wn=""/>
+        <MEMBER name="lay" wn="lay%2:36:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -37,6 +38,9 @@
             <SELRESTRS>
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Predicate">
+            <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
@@ -172,6 +176,87 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ as Predicate" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["They designed the Westinghouse-Mitsubishi venture as a non-equity transaction."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <LEX value="as"/>
+                <NP value="Predicate">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="state">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="VerbSpecific" value="Endstate"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Endstate"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Sentential Complement" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["They designed Vermont American to enhance their position in the accessories portion of the powertool industry."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Predicate">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="state">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="VerbSpecific" value="Endstate"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Endstate"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
     </FRAMES>
     <SUBCLASSES>
         <VNSUBCLASS ID="create-26.4-1">
@@ -231,4 +316,3 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

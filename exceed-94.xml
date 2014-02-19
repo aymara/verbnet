@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="exceed-94" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="exceed" wn=""/>
+        <MEMBER name="excel" wn=""/>
+        <MEMBER name="lap" wn=""/>
+        <MEMBER name="outbid" wn=""/>
+        <MEMBER name="outmatch" wn=""/>
+        <MEMBER name="outnumber" wn=""/>
+        <MEMBER name="outrace" wn=""/>
+        <MEMBER name="outsmart" wn=""/>
+        <MEMBER name="outstrip" wn=""/>
+        <MEMBER name="outweigh" wn=""/>
+        <MEMBER name="outwit" wn=""/>
+        <MEMBER name="overcome" wn=""/>
+        <MEMBER name="overreach" wn=""/>
+        <MEMBER name="overrun" wn=""/>
+        <MEMBER name="overstep" wn=""/>
+        <MEMBER name="succeed" wn=""/>
+        <MEMBER name="surpass" wn=""/>
+        <MEMBER name="top" wn=""/>
+        <MEMBER name="transcend" wn=""/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS/>
+        </THEMROLE>
+	<THEMROLE typed"Attribute">
+	    <SELRESTRS/>
+	</THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;Her performance exceeds our expectations.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ in-PP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;Her performance exceeds our expectations.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+		<PREP value="in">
+		    <SELRESTRS/>
+		</PREP>
+		<NP value="Attribute">
+		    <SYNRESTRS/>
+		</NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>
+
+
+

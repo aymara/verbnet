@@ -267,7 +267,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.2.6.2" primary="Characteristic Property of Instrument" secondary="some verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.2.6.2" primary="Characteristic Property of Instrument" secondary="" xtag=""/>
             <!-- verb specifies property (cut, scratch, etc) Prop of Patient, -->
             <EXAMPLES>
                 <EXAMPLE>&quot;This knife cuts well&quot;</EXAMPLE>
@@ -628,6 +628,130 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+Locative PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Sympathetic fans clipped copies of Ms. Shere's recipes from magazines."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="from">
+                    <SELRESTRS/>
+                </PREP>
+                <LEX value="location"/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="VerbSpecific" value="Motion"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Instrument"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="degradation_material_integrity">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+Instrument PP +Location PP" xtag=""/>
+            <EXAMPLES/>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="from">
+                    <SELRESTRS/>
+                </PREP>
+                <LEX value="location"/>
+                <PREP value="with">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="VerbSpecific" value="Motion"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="degradation_material_integrity">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
     </FRAMES>
     <SUBCLASSES>
         <VNSUBCLASS ID="cut-21.1-1">
@@ -694,4 +818,3 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

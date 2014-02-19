@@ -22,8 +22,10 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Attribute">
-            <SELRESTRS/>
+        <THEMROLE type="Value">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="currency"/>
+            </SELRESTRS>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
@@ -41,7 +43,21 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="value">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Value"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ at-PP" xtag=""/>
@@ -59,11 +75,25 @@
                 <PREP value="at">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Attribute">
+                <NP value="Value">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="value">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Value"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>

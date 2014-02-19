@@ -195,7 +195,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="some verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tony folded the flaps open&quot;</EXAMPLE>
             </EXAMPLES>
@@ -237,9 +237,10 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="some verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tony bent the rod into a U&quot;</EXAMPLE>
             </EXAMPLES>
@@ -288,9 +289,10 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="some verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Tony bent the rod into a U with pliers&quot;</EXAMPLE>
             </EXAMPLES>
@@ -352,8 +354,8 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs-->
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

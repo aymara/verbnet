@@ -26,9 +26,9 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
-         <THEMROLE type="Location">
+        <THEMROLE type="Location">
             <SELRESTRS>
-                 <SELRESTR Value="+" type="concrete"/>
+                <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
     </THEMROLES>
@@ -193,38 +193,6 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.4.1" primary="Locative Preposition Drop" secondary="some verbs" xtag=""/>
-            <EXAMPLES>
-                <EXAMPLE>&quot;They rowed the canals of Venice&quot;</EXAMPLE>
-            </EXAMPLES>
-            <SYNTAX>
-                <NP value="Agent">
-                    <SYNRESTRS/>
-                </NP>
-                <VERB/>
-                <NP value="Location">
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="concrete"/>
-                    </SELRESTRS>
-                </NP>
-            </SYNTAX>
-            <SEMANTICS>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="via">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Location"/>
-                    </ARGS>
-                </PRED>
-            </SEMANTICS>
-        </FRAME>
-        <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="from intransitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Penny rowed her palms raw&quot;</EXAMPLE>
@@ -383,6 +351,43 @@
             </SEMANTICS>
         </FRAME>
     </FRAMES>
-    <SUBCLASSES/>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="nonvehicle-51.4.2-1">
+            <MEMBERS/>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="Locative Preposition Drop" secondary="" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE><![CDATA["They rowed the canals of Venice."]]></EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Location">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="motion">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="via">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Location"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
 </VNCLASS>
-

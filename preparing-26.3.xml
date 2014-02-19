@@ -36,6 +36,8 @@
                 <MEMBER name="roll" wn="roll%2:30:10"/>
                 <MEMBER name="run" wn="run%2:36:00"/>
                 <MEMBER name="toss" wn="toss%2:35:00"/>
+                <MEMBER name="cultivate" wn="cultivate%2:36:01"/>
+                <!--'cultivate' does not take benefactive alternation!!! must divide.-->
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -325,4 +327,3 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

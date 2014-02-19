@@ -32,7 +32,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="some verbs" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The kids are assembling&quot;</EXAMPLE>
             </EXAMPLES>
@@ -60,6 +60,7 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs-->
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" xtag="0.2"/>
@@ -100,7 +101,46 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Together Reciprocal Alternation Transitive" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["The teacher gathered the kids together."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <LEX value="together"/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="together">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="Constant" value="physical"/>
+                        <ARG type="VerbSpecific" value="Theme_i"/>
+                        <ARG type="VerbSpecific" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="together">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="physical"/>
+                        <ARG type="VerbSpecific" value="Theme_i"/>
+                        <ARG type="VerbSpecific" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

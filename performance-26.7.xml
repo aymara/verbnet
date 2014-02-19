@@ -75,7 +75,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="some verbs" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="to-PP variant" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Sandy sang a song to me&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -109,6 +109,7 @@
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
+                    <!--Some verbs-->
                 </FRAME>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="2.2" primary="Benefactive Alternation" secondary="for variant" xtag=""/>
@@ -243,7 +244,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.2.1" primary="Unspecified Object Alternation" secondary="except &quot;take&quot; a picture" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.2.1" primary="Unspecified Object Alternation" secondary="" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>&quot;Claire draws&quot;</EXAMPLE>
                     </EXAMPLES>
@@ -383,4 +384,3 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

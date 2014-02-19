@@ -52,7 +52,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" xtag="0.1"/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag="0.1"/>
             <EXAMPLES>
                 <EXAMPLE>&quot;The bag is bulging&quot;</EXAMPLE>
             </EXAMPLES>
@@ -82,4 +82,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

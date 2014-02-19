@@ -222,6 +222,7 @@
         <MEMBER name="worry" wn="worry%2:37:01 worry%2:42:00"/>
         <MEMBER name="wound" wn="wound%2:37:00"/>
         <MEMBER name="wow" wn="wow%2:37:00"/>
+        <MEMBER name="roil" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -248,10 +249,24 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emotional_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Emotion"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="most verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="Middle Construction" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["Little children amuse easily"]]></EXAMPLE>
             </EXAMPLES>
@@ -262,7 +277,22 @@
                 <VERB/>
                 <ADV/>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emotional_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Emotion"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+            <!--most verbs-->
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="1.2.5" primary="PRO-Arb Object Alternation" secondary="" xtag=""/>
@@ -275,7 +305,21 @@
                 </NP>
                 <VERB/>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Emotion"/>
+                        <ARG type="ThemRole" value="?Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ with-PP" xtag=""/>
@@ -297,7 +341,21 @@
                     <SELRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emotional_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Emotion"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="2.13" primary="Possessor Subject Possessor-Attribute Factoring Alternation" secondary="Genitive" xtag=""/>
@@ -319,7 +377,21 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emotional_state">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="VerbSpecific" value="Emotion"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
@@ -336,7 +408,93 @@
                 </NP>
                 <ADJ/>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emotional_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Emotion"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ over-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Many Americans agonize over their feelings on abortion."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="over">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emotional_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Emotion"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Passive" secondary="+ Cause PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["The U.S. is concerned about 'Disturbing developments in Turkey.'"]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="about with">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emotional_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Emotion"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>

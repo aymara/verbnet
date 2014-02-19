@@ -67,13 +67,11 @@
                     <SYNRESTRS/>
                 </NP>
                 <PREP>
-                    <SELRESTRS>
+                    <SELRESTRS logic="or">
                         <SELRESTR Value="+" type="path"/>
+                        <SELRESTR Value="+" type="loc"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Oblique">
-                    <SELRESTRS/>
-                </NP>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="motion">
@@ -139,4 +137,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

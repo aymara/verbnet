@@ -134,7 +134,6 @@
         <VNSUBCLASS ID="escape-51.1-2">
             <MEMBERS>
                 <MEMBER name="advance" wn="advance%2:38:00"/>
-                <MEMBER name="arrive" wn="arrive%2:38:00"/>
                 <MEMBER name="come" wn="come%2:38:00 come%2:38:04"/>
                 <MEMBER name="fall" wn="fall%2:38:03 fall%2:38:15 fall%2:38:14"/>
                 <MEMBER name="go" wn="go%2:38:00 go%2:38:01"/>
@@ -212,8 +211,50 @@
                     </SEMANTICS>
                 </FRAME>
             </FRAMES>
-            <SUBCLASSES/>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="escape-51.1-2-1">
+                    <MEMBERS>
+                        <MEMBER name="arrive" wn="arrive%2:38:00"/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="" primary="Intransitive" secondary="+ in-PP" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE><![CDATA["He arrived in the U.S."]]></EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <PREP value="in">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Oblique">
+                                    <SELRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="motion">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="location">
+                                    <ARGS>
+                                        <ARG type="Event" value="end(E)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Oblique"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

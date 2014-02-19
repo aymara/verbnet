@@ -78,8 +78,6 @@
         <VNSUBCLASS ID="equip-13.4.2-1">
             <MEMBERS>
                 <MEMBER name="arm" wn="arm%2:33:00 arm%2:40:00"/>
-                <MEMBER name="burden" wn="burden%2:35:00 burden%2:32:00"/>
-                <MEMBER name="compensate" wn="compensate%2:40:02 compensate%2:40:00"/>
                 <MEMBER name="equip" wn="equip%2:40:00"/>
                 <MEMBER name="regale" wn="regale%2:34:00"/>
                 <MEMBER name="reward" wn="reward%2:41:00 reward%2:40:00"/>
@@ -131,8 +129,42 @@
                     </SEMANTICS>
                 </FRAME>
             </FRAMES>
-            <SUBCLASSES/>
+            <SUBCLASSES>
+                <VNSUBCLASS ID="equip-13.4.2-1-1">
+                    <MEMBERS>
+                        <MEMBER name="burden" wn="burden%2:35:00 burden%2:32:00"/>
+                        <MEMBER name="compensate" wn="compensate%2:40:02 compensate%2:40:00"/>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Theme subject" xtag=""/>
+                            <EXAMPLES>
+                                <EXAMPLE><![CDATA["The huge load burdened the mule."]]></EXAMPLE>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="has_possession">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </VNSUBCLASS>
+            </SUBCLASSES>
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

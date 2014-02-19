@@ -5,7 +5,7 @@
         <!--Removed "shoot (gun)" from class because misclassified-->
         <MEMBER name="bite" wn="bite%2:35:00 ?bite%2:35:01"/>
         <MEMBER name="claw" wn="claw%2:35:01 claw%2:35:00"/>
-        <MEMBER name="paw" wn="paw%2:35:01 paw%2:35:00"/>
+        <MEMBER name="paw" wn="paw%2:35:01"/>
         <MEMBER name="peck" wn="peck%2:35:01 peck%2:35:00"/>
         <MEMBER name="punch" wn="punch%2:35:00"/>
         <MEMBER name="scratch" wn="scratch%2:35:00 scratch%2:39:00"/>
@@ -508,7 +508,77 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Body-Part Possessor Ascension Alternation" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Paula swatted Deirdre on the back."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Constant" value="directedmotion"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="forceful"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
+
+
+
+
+
+
+
+
+
+
+
 

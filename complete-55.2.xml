@@ -33,8 +33,47 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="end">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+	</FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="ING-SC/BE-ING-SC" secondary="" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;She quit smoking.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTRS Value="+" type="be_sc_ing"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
+
+
+
+
+
+
+

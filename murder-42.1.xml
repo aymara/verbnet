@@ -25,6 +25,9 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS/>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <!--Levin also includes resultative for "kill" - "kill him dead"-->
@@ -39,6 +42,47 @@
                 </NP>
                 <VERB/>
                 <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="alive">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="alive">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Instrument PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA[""Caesar killed Brutus with a knife.""]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="with">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -124,4 +168,3 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

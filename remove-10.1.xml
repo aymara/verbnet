@@ -5,16 +5,13 @@
         <MEMBER name="abstract" wn="abstract%2:40:00"/>
         <MEMBER name="cull" wn="cull%2:40:00 cull%2:35:00"/>
         <MEMBER name="delete" wn="delete%2:35:00 delete%2:32:00"/>
-        <MEMBER name="discharge" wn="discharge%2:35:00 discharge%2:29:00 discharge%2:35:06"/>
         <MEMBER name="disgorge" wn="disgorge%2:35:00"/>
         <MEMBER name="dislodge" wn="dislodge%2:35:00 dislodge%2:35:01"/>
-        <MEMBER name="dismiss" wn="dismiss%2:41:00"/>
         <MEMBER name="disengage" wn="disengage%2:35:00"/>
         <MEMBER name="draw" wn="draw%2:38:01 draw%2:38:00 draw%2:31:13 draw%2:40:01 draw%2:33:01 draw%2:38:07"/>
         <MEMBER name="eject" wn="eject%2:35:01 eject%2:29:00 eject%2:35:00"/>
         <MEMBER name="eliminate" wn="eliminate%2:30:01 eliminate%2:42:01 eliminate%2:31:00 eliminate%2:29:00 eliminate%2:29:01"/>
         <MEMBER name="eradicate" wn="eradicate%2:30:00 eradicate%2:36:00"/>
-        <MEMBER name="evict" wn="evict%2:35:00"/>
         <MEMBER name="excise" wn="excise%2:35:00 excise%2:30:02"/>
         <MEMBER name="excommunicate" wn="excommunicate%2:32:00"/>
         <MEMBER name="expel" wn="expel%2:41:00 expel%2:35:00 expel%2:33:00 expel%2:29:00"/>
@@ -24,19 +21,22 @@
         <MEMBER name="lop" wn="lop%2:35:01 lop%2:35:00"/>
         <MEMBER name="omit" wn="omit%2:31:01"/>
         <MEMBER name="ostracize" wn="ostracize%2:41:01"/>
-        <MEMBER name="oust" wn="oust%2:41:00"/>
         <MEMBER name="partition" wn="partition%2:35:00 partition%2:30:00"/>
         <MEMBER name="pry" wn="pry%2:35:00"/>
         <MEMBER name="reap" wn="reap%2:35:00 reap%2:40:00"/>
-        <MEMBER name="remove" wn="remove%2:30:00 remove%2:41:00 remove%2:41:02"/>
         <MEMBER name="separate" wn="separate%2:42:00 separate%2:35:01 separate%2:35:02"/>
-        <MEMBER name="sever" wn="sever%2:35:00"/>
         <MEMBER name="shoo" wn="shoo%2:38:00"/>
         <MEMBER name="subtract" wn="subtract%2:31:00"/>
         <MEMBER name="uproot" wn="uproot%2:41:00 uproot%2:35:00"/>
         <MEMBER name="winkle" wn="winkle%2:35:00"/>
-        <MEMBER name="withdraw" wn="withdraw%2:40:01 withdraw%2:30:01 withdraw%2:40:00"/>
         <MEMBER name="wrench" wn="wrench%2:35:00"/>
+        <MEMBER name="withdraw" wn="withdraw%2:40:01 withdraw%2:30:01 withdraw%2:40:00"/>
+        <MEMBER name="oust" wn="oust%2:41:00"/>
+        <MEMBER name="discharge" wn="discharge%2:35:00 discharge%2:29:00 discharge%2:35:06"/>
+        <MEMBER name="dismiss" wn="dismiss%2:41:00"/>
+        <MEMBER name="evict" wn="evict%2:35:00"/>
+        <MEMBER name="remove" wn="remove%2:30:00 remove%2:41:00 remove%2:41:02"/>
+        <MEMBER name="sever" wn="sever%2:35:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -140,4 +140,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

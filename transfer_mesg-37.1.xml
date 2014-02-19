@@ -9,8 +9,10 @@
         <MEMBER name="narrate" wn="narrate%2:32:00"/>
         <MEMBER name="pose" wn="?pose%2:42:00"/>
         <MEMBER name="preach" wn="preach%2:32:02"/>
+        <MEMBER name="read" wn=""/>
         <MEMBER name="recite" wn="recite%2:32:00 recite%2:36:00 recite%2:32:01"/>
         <MEMBER name="relay" wn="relay%2:32:00"/>
+        <MEMBER name="sniff" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <!--intersective members use Theme for Topic-->
@@ -29,13 +31,15 @@
                 <SELRESTR Value="+" type="organization"/>
             </SELRESTRS>
         </THEMROLE>
+	<THEMROLE type="Source">
+	    <SELRESTRS/>
+	</THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="Topic Object" xtag="0.2"/>
-            <!-- Frame not mentioned by Levin-->
+            <DESCRIPTION descriptionNumber="8.1" primary="HOW-S" secondary="" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>&quot;Wanda taught French&quot;</EXAMPLE>
+                <EXAMPLE>&quot;I explained how it can be done.&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -43,30 +47,18 @@
                 </NP>
                 <VERB/>
                 <NP value="Topic">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+			<SYNRETR Value="+" type="how_extract"/>
+		    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="transfer_info">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Recipient"/>
-                        <ARG type="ThemRole" value="Topic"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="to-PP variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="8.1" primary="HOW-TO-INF" secondary="" xtag="0.2"/> 
             <EXAMPLES>
-                <EXAMPLE>&quot;Wanda taught French to the students&quot;</EXAMPLE>
+                <EXAMPLE>&quot;I explained how to do it.&quot;</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -74,30 +66,179 @@
                 </NP>
                 <VERB/>
                 <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRETR Value="+" type="wh_inf"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="PP-HOW-S" secondary="to-PP" xtag="0.2"/>       
+            <EXAMPLES>
+                <EXAMPLE>&quot;I explained to her how it can be done.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
                     <SYNRESTRS/>
                 </NP>
+                <VERB/>
+		<PREP value="to">
+		    <SELRESTRS/>
+		</PREP>
+		<NP value="Recipient">
+		    <SYNRESTRS/>
+		</NP>
+                <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRETR Value="+" type="how_extract"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="PP-HOW-TO-INF" secondary="to-PP" xtag="0.2"/>          
+            <EXAMPLES>
+                <EXAMPLE>&quot;I explained to her how to do it.&quot;</EXAMPLE>                          
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
                 <PREP value="to">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
+                <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRETR Value="+" type="wh_inf"/>
+                    </SYNRESTRS>
+                </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="transfer_info">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="Topic"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-S" secondary="" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;I explained what he should do.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRETR Value="+" type="what_extract"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="WHAT-TO-INF" secondary="" xtag="0.2"/>                  
+            <EXAMPLES> 
+                <EXAMPLE>&quot;I explained what to do.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRETR Value="+" type="what_inf"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="Basic Transitive"
+secondary="Topic Object" xtag="0.2"/> 
+            <EXAMPLES> 
+                <EXAMPLE>&quot;I explained the matter.&quot;</EXAMPLE> 
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRETR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="Dative" secondary="to-PP variant" xtag="0.2"/>
+            <EXAMPLES> 
+                <EXAMPLE>&quot;I explained the matter to them.&quot;</EXAMPLE>           
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRETR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+		<PREP value="to">
+		    <SELRESTRS/>
+		</PREP>
+		<NP value="Recipient">
+		    <SYNRESTRS/>
+		</NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="Intransitive" secondary="+ Topic-PP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;I explained from Simone de Beauvoir's essay on the Marquis de Sade.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="from">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="Basic Intransitive" secondary="" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;I explained.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
             </SEMANTICS>
         </FRAME>
     </FRAMES>
@@ -110,46 +251,32 @@
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
-                <FRAME>
-                    <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="ditransitive variant" xtag=""/>
-                    <EXAMPLES>
-                        <EXAMPLE>&quot;Wanda taught the students French&quot;</EXAMPLE>
-                        <EXAMPLE>&quot;Wanda taught the students that the earth was round&quot;</EXAMPLE>
-                    </EXAMPLES>
-                    <SYNTAX>
-                        <NP value="Agent">
-                            <SYNRESTRS/>
-                        </NP>
-                        <VERB/>
-                        <NP value="Recipient">
-                            <SYNRESTRS/>
-                        </NP>
-                        <NP value="Topic">
-                            <SYNRESTRS/>
-                        </NP>
-                    </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="transfer_info">
-                            <ARGS>
-                                <ARG type="Event" value="during(E)"/>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="ThemRole" value="Recipient"/>
-                                <ARG type="ThemRole" value="Topic"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="cause">
-                            <ARGS>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="Event" value="E"/>
-                            </ARGS>
-                        </PRED>
-                    </SEMANTICS>
-                </FRAME>
+	        <FRAME>
+	            <DESCRIPTION descriptionNumber="8.1" primary="Dative" secondary="Ditransitive variant" xtag="0.2"/>
+	            <EXAMPLES>
+	                <EXAMPLE>&quot;Wanda taught the students French.&quot;</EXAMPLE>
+	            </EXAMPLES>
+	            <SYNTAX>
+	                <NP value="Agent">
+	                    <SYNRESTRS/>
+	                </NP>
+	                <VERB/>
+			<NP value="Recipient">
+			    <SYNRESTRS/>
+			</NP>
+			<NP value="Topic">
+			    <SYNRESTRS>
+				<SYNRESTR Value="-" type="sentential"/>
+			    </SYNRESTRS>
+			</NP>
+	            </SYNTAX>
+	            <SEMANTICS>
+	            </SEMANTICS>
+	        </FRAME>
             </FRAMES>
             <SUBCLASSES>
                 <VNSUBCLASS ID="transfer_mesg-37.1-1-1">
                     <MEMBERS>
-                        <MEMBER name="ask" wn="ask%2:32:02"/>
                         <MEMBER name="show" wn="show%2:39:03 show%2:32:01"/>
                         <MEMBER name="teach" wn="teach%2:32:00"/>
                         <MEMBER name="tell" wn="tell%2:32:04 tell%2:32:00 tell%2:32:01"/>
@@ -157,10 +284,74 @@
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
+	                <FRAME>
+	                    <DESCRIPTION descriptionNumber="8.1" primary="Transitive" secondary="Recipient Object" xtag="0.2"/>
+	                    <EXAMPLES>
+	                        <EXAMPLE>&quot;Wanda taught the students.&quot;</EXAMPLE>
+	                    </EXAMPLES>
+	                    <SYNTAX>
+	                        <NP value="Agent">
+	                            <SYNRESTRS/>
+	                        </NP>
+	                        <VERB/>
+	                        <NP value="Recipient">
+	                            <SYNRESTRS/>
+	                        </NP>
+	                    </SYNTAX>
+	                    <SEMANTICS>
+	                    </SEMANTICS>
+	                </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="Recipient Object" xtag="0.2"/>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP-TO-INF-OC" secondary="" xtag="0.2"/>
                             <EXAMPLES>
-                                <EXAMPLE>&quot;Wanda taught the students&quot;</EXAMPLE>
+                                <EXAMPLE>&quot;Wanda asked me to present a new proposal.&quot;</EXAMPLE>       
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+				<NP value="Recipient">
+				    <SYNRESTRS/>
+				</NP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+					<SYNRESTR Value="+" type="oc_to_inf"/>
+				    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP-P-ING-AC" secondary="about-PP" xtag="0.2"/> 
+                            <EXAMPLES>
+                                <EXAMPLE>&quot;Wanda told me about climbing the mountain.&quot;</EXAMPLE>                   
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+				<NP value="Recipient">
+				    <SYNRESTRS/>
+				</NP>
+				<PREP value="about">
+				    <SELRESTRS/>
+				</PREP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="ac_ing"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP-S" secondary="" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE>&quot;She told him that he should not go.&quot;</EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Agent">
@@ -170,22 +361,79 @@
                                 <NP value="Recipient">
                                     <SYNRESTRS/>
                                 </NP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="that_comp"/>
+                                    </SYNRESTRS>
+                                </NP>
                             </SYNTAX>
                             <SEMANTICS>
-                                <PRED value="transfer_info">
-                                    <ARGS>
-                                        <ARG type="Event" value="during(E)"/>
-                                        <ARG type="ThemRole" value="Agent"/>
-                                        <ARG type="ThemRole" value="Recipient"/>
-                                        <ARG type="ThemRole" value="?Topic"/>
-                                    </ARGS>
-                                </PRED>
-                                <PRED value="cause">
-                                    <ARGS>
-                                        <ARG type="ThemRole" value="Agent"/>
-                                        <ARG type="Event" value="E"/>
-                                    </ARGS>
-                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP-WHAT-S" secondary="" xtag="0.2"/>                
+                            <EXAMPLES>
+                                <EXAMPLE>&quot;She told him what she was doing.&quot;</EXAMPLE>                                  
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="what_extract"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP-WHAT-TO-INF" secondary="" xtag="0.2"/>
+                            <EXAMPLES>
+                                <EXAMPLE>&quot;She told him what to do.&quot;</EXAMPLE>                    
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="what_inf"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION descriptionNumber="8.1" primary="*NP-HOW-S" secondary="" xtag="0.2"/>         
+                            <EXAMPLES>
+                                <EXAMPLE>&quot;She told him how he did it.&quot;</EXAMPLE>             
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <NP value="Recipient">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Topic">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="how_extract"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
                             </SEMANTICS>
                         </FRAME>
                     </FRAMES>

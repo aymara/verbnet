@@ -37,7 +37,6 @@
         <MEMBER name="string" wn="string%2:35:03"/>
         <MEMBER name="tail" wn="tail%2:35:00 tail%2:35:01"/>
         <MEMBER name="tassel" wn=""/>
-        <MEMBER name="top" wn="top%2:35:00"/>
         <MEMBER name="vein" wn=""/>
         <MEMBER name="weed" wn="weed%2:30:00"/>
         <MEMBER name="wind" wn=""/>
@@ -86,14 +85,14 @@
                 <PRED value="location">
                     <ARGS>
                         <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                         <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="location">
                     <ARGS>
                         <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Theme"/>
                         <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
@@ -102,4 +101,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

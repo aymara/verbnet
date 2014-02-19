@@ -51,7 +51,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ on-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Oblique PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>&quot;Paul breathed on Mary&quot;</EXAMPLE>
             </EXAMPLES>
@@ -60,7 +60,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <PREP value="on">
+                <PREP value="on onto">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Oblique">
@@ -120,6 +120,49 @@
                 </PRED>
             </SEMANTICS>
         </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Substance Object   + Oblique PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA[""The dragon breathed fire on Mary.""]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="on onto">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_process">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Oblique"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
     </FRAMES>
     <SUBCLASSES>
         <VNSUBCLASS ID="breathe-40.1.2-1">
@@ -165,4 +208,3 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

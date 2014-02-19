@@ -6,11 +6,6 @@
         <MEMBER name="immerse" wn="immerse%2:35:00"/>
         <MEMBER name="lodge" wn="lodge%2:35:00"/>
         <MEMBER name="mount" wn="mount%2:35:00 mount%2:30:01"/>
-        <MEMBER name="place" wn="place%2:35:00"/>
-        <MEMBER name="position" wn="position%2:35:00"/>
-        <MEMBER name="put" wn="put%2:35:00"/>
-        <MEMBER name="set" wn="set%2:35:00 set%2:35:02 set%2:35:09 set%2:35:05"/>
-        <MEMBER name="situate" wn="situate%2:35:00"/>
         <MEMBER name="sling" wn="sling%2:35:00"/>
     </MEMBERS>
     <THEMROLES>
@@ -83,6 +78,7 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some prepositions are verb specific (immerse can take 'under' or 'beneath' but not 'on')-->
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ here/there" xtag=""/>
@@ -190,6 +186,75 @@
             </FRAMES>
             <SUBCLASSES/>
         </VNSUBCLASS>
+        <VNSUBCLASS ID="put-9.1-2">
+            <MEMBERS>
+                <MEMBER name="place" wn="place%2:35:00 place%2:40:00"/>
+                <MEMBER name="set" wn="set%2:35:00 set%2:35:02 set%2:35:09 set%2:35:05"/>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Patient">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="animate"/>
+                    </SELRESTRS>
+                </THEMROLE>
+                <THEMROLE type="Theme">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="abstract"/>
+                    </SELRESTRS>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ upon/on PP" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE><![CDATA["They put upon me a brilliant, red helm."]]></EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <PREP value="on upon">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Destination">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="motion">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="Prep">
+                            <ARGS>
+                                <ARG type="Event" value="start(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="Prep">
+                            <ARGS>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

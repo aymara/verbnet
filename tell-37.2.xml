@@ -93,7 +93,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="ditransitive variant" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.1" primary="Dative" secondary="Ditransitive variant" xtag=""/>
             <!-- Direct Speech (+ Recipient Object)-->
             <EXAMPLES>
                 <EXAMPLE>&quot;Ellen told Helen a story&quot;</EXAMPLE>
@@ -237,4 +237,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

@@ -142,6 +142,55 @@
                                 <ARG type="ThemRole" value="Experiencer"/>
                             </ARGS>
                         </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="+ Instrument PP (Bodypart of reflexive object)" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE><![CDATA["Carrie touched his shoulder with the stick."]]></EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="with">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Instrument">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="use">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                            </ARGS>
+                        </PRED>
                     </SEMANTICS>
                 </FRAME>
             </FRAMES>
@@ -149,4 +198,3 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

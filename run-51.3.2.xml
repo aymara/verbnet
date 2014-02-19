@@ -140,9 +140,9 @@
                 <SELRESTR Value="+" type="machine"/>
             </SELRESTRS>
         </THEMROLE>
-         <THEMROLE type="Location">
+        <THEMROLE type="Location">
             <SELRESTRS>
-                 <SELRESTR Value="+" type="concrete"/>
+                <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
     </THEMROLES>
@@ -180,11 +180,11 @@
                 <VERB/>
                 <PREP>
                     <SELRESTRS>
-                        <SELRESTR Value="+" type="path"/>
+                        <SELRESTR Value="+" type="spatial"/>
                     </SELRESTRS>
                 </PREP>
                 <NP value="Location">
-                    <SELRESTRS/>
+                    <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -218,11 +218,11 @@
                 </NP>
                 <PREP>
                     <SELRESTRS>
-                        <SELRESTR Value="+" type="path"/>
+                        <SELRESTR Value="+" type="spatial"/>
                     </SELRESTRS>
                 </PREP>
                 <NP value="Location">
-                    <SELRESTRS/>
+                    <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -281,11 +281,11 @@
                 </NP>
                 <PREP>
                     <SELRESTRS>
-                        <SELRESTR Value="+" type="path"/>
+                        <SELRESTR Value="+" type="spatial"/>
                     </SELRESTRS>
                 </PREP>
                 <NP value="Location">
-                    <SELRESTRS/>
+                    <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -591,9 +591,6 @@
                         <SELRESTR Value="+" type="path"/>
                     </SELRESTRS>
                 </PREP>
-                <NP value="Location">
-                    <SELRESTRS/>
-                </NP>
                 <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="definite"/>
@@ -635,7 +632,7 @@
                     </SELRESTRS>
                 </PREP>
                 <NP value="Location">
-                    <SELRESTRS/>
+                    <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -666,7 +663,7 @@
                     </SELRESTRS>
                 </PREP>
                 <NP value="Location">
-                    <SELRESTRS/>
+                    <SYNRESTRS/>
                 </NP>
                 <VERB/>
                 <NP value="Theme">
@@ -692,4 +689,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

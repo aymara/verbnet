@@ -160,7 +160,7 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="Intransitive" secondary="+ Location PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["Birds sang in the trees"]]></EXAMPLE>
+                <EXAMPLE><![CDATA["Horns beeped in the street"]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -194,9 +194,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.3" primary="Locative Alternation" secondary="most verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.3" primary="Locative Alternation" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE><![CDATA["The trees sang with birds"]]></EXAMPLE>
+                <EXAMPLE><![CDATA["The street sang with horns."]]></EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Location">
@@ -226,9 +226,10 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--most verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="some verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.2" primary="Locative Inversion" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["In the hallway ticked a gradfather clock"]]></EXAMPLE>
             </EXAMPLES>
@@ -262,9 +263,10 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="6.1" primary="There-insertion" secondary="some verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="6.1" primary="There-insertion" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["In the hallway there ticked a grandather clock"]]></EXAMPLE>
             </EXAMPLES>
@@ -299,6 +301,7 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs-->
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" secondary="" xtag=""/>

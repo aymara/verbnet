@@ -33,9 +33,9 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
-         <THEMROLE type="Location">
+        <THEMROLE type="Location">
             <SELRESTRS>
-                 <SELRESTR Value="+" type="concrete"/>
+                <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
     </THEMROLES>
@@ -72,11 +72,11 @@
                 <VERB/>
                 <PREP>
                     <SELRESTRS>
-                        <SELRESTR Value="+" type="path"/>
+                        <SELRESTR Value="+" type="spatial"/>
                     </SELRESTRS>
                 </PREP>
                 <NP value="Location">
-                    <SELRESTRS/>
+                    <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -323,4 +323,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="occur-96" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="befall" wn=""/>
+        <MEMBER name="chance" wn=""/>
+        <MEMBER name="develop" wn=""/>
+        <MEMBER name="happen" wn=""/>
+        <MEMBER name="occur" wn=""/>
+        <MEMBER name="pass" wn=""/>
+        <MEMBER name="transpire" wn=""/>
+        <MEMBER name="turn_out" wn=""/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Proposition">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="SEEM-S" secondary="" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;It occurred that they left.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <LEX value="it"/>
+                <VERB/>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+			<SYNRESTRS Value="+" type="that_comp"/>
+		    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/> 
+</VNCLASS>
+
+
+

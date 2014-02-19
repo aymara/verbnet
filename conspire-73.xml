@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="conspire-73" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="collaborate" wn=""/>
+        <MEMBER name="collude" wn=""/>
+        <MEMBER name="conspire" wn=""/>
+        <MEMBER name="discriminate" wn=""/>
+        <MEMBER name="lesgislate" wn=""/>
+        <MEMBER name="partner" wn=""/>
+        <MEMBER name="protest" wn=""/>
+        <MEMBER name="rebel" wn=""/>
+        <MEMBER name="retaliate" wn=""/>
+        <MEMBER name="scheme" wn=""/>
+        <MEMBER name="sin" wn=""/>
+        <MEMBER name="team_up" wn=""/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Actor1">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Actor2">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Topic">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="INTRANS" secondary="" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;John and Sarah conspired.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="against-PP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;John conspired against her.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="against">
+		    <SELRESTRS/>
+		</PREP>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="TO-INFIN-SC" secondary="" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;The US conspired to overthrow the UN.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sc_to_inf"/>
+		    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>
+
+
+

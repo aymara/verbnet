@@ -79,6 +79,9 @@
         <MEMBER name="yell" wn="yell%2:32:00"/>
         <MEMBER name="yelp" wn=""/>
         <MEMBER name="yodel" wn="yodel%2:32:00"/>
+        <MEMBER name="blare" wn=""/>
+        <MEMBER name="gurgle" wn=""/>
+        <MEMBER name="hum" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <!--Each verb adds a predicate indicating the manner of speaking during the event-->
@@ -454,4 +457,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

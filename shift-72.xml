@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="shift-72" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="come_around" wn=""/>
+        <MEMBER name="fall" wn=""/>
+        <MEMBER name="get" wn=""/>
+        <MEMBER name="get_around" wn=""/>
+        <MEMBER name="get_down" wn=""/>
+        <MEMBER name="go_back" wn=""/>
+        <MEMBER name="resort" wn=""/>
+        <MEMBER name="return" wn=""/>
+        <MEMBER name="revert" wn=""/>
+        <MEMBER name="settle_down" wn=""/>
+        <MEMBER name="shift" wn=""/>
+        <MEMBER name="take" wn=""/>
+        <MEMBER name="turn" wn=""/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="to-PP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;He resorted to Buddhism.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+		<PREP value="to">
+		     <SELRESTRS/>
+		</PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="to-PP" xtag="0.2"/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;He converted to believing in a different way.&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="to">
+		    <SELRESTRS/>
+		</PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+			<SYNRESTR Value="+" type="sc_ing"/>
+		    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>
+
+
+
+
+
+

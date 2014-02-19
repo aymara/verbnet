@@ -51,7 +51,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <PREP value="at">
+                <PREP value="at from">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Cause">
@@ -76,4 +76,3 @@
     </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>
-

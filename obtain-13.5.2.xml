@@ -11,8 +11,6 @@
         <MEMBER name="exact" wn="exact%2:32:00"/>
         <MEMBER name="grab" wn="grab%2:35:00 grab%2:40:00"/>
         <MEMBER name="inherit" wn="inherit%2:40:00"/>
-        <MEMBER name="obtain" wn="obtain%2:40:00"/>
-        <MEMBER name="purchase" wn="purchase%2:40:00"/>
         <MEMBER name="receive" wn="receive%2:40:00"/>
         <MEMBER name="recover" wn="recover%2:40:00"/>
         <MEMBER name="regain" wn="regain%2:40:00 regain%2:40:01"/>
@@ -159,7 +157,7 @@
                         <NP value="Theme">
                             <SYNRESTRS/>
                         </NP>
-                        <PREP value="for">
+                        <PREP value="for at">
                             <SELRESTRS/>
                         </PREP>
                         <NP value="Asset">
@@ -255,4 +253,3 @@
         </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>
-

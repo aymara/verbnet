@@ -202,7 +202,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" secondary="some verbs" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.2" primary="Causative" secondary="" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE><![CDATA["The stagehand flashed the lights"]]></EXAMPLE>
             </EXAMPLES>
@@ -230,6 +230,7 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
+            <!--some verbs-->
         </FRAME>
         <!--Prop comes from the verb-->
     </FRAMES>

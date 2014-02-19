@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="cooperate-75" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES/>
+    <SUBCLASSES>
+        <VNSUBCLASS ID="cooperate-75-1">
+            <MEMBERS>
+                <MEMBER name="collaborate" wn=""/>
+                <MEMBER name="cooperate" wn=""/>
+                <MEMBER name="join" wn=""/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+	        <FRAME>
+	            <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="on-PP" xtag="0.2"/>
+	            <EXAMPLES>
+	                <EXAMPLE>&quot;They participated on the task.;</EXAMPLE>
+	            </EXAMPLES>
+	            <SYNTAX>
+	                <NP value="Agent">
+	                    <SYNRESTRS>
+	                        <SYNRESTR Value="+" type="plural"/>
+	                    </SYNRESTRS>
+	                </NP>
+	                <VERB/>
+	                <PREP value="on">
+	                    <SELRESTRS/>
+	                </PREP>
+	                <NP value="Theme">
+	                    <SYNRESTRS>
+	                        <SYNRESTR value="-" type="sentential"/>
+	                    </SYNRESTRS>
+	                </NP>
+	            </SYNTAX>
+	            <SEMANTICS>
+	            </SEMANTICS>
+	        </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="in-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>&quot;They participated in the task.;</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="plural"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <VERB/>
+                        <PREP value="in">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                    </SEMANTICS>
+                </FRAME>
+               <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="in-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>&quot;They collaborated in finishing the task.;</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="plural"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <VERB/>
+                        <PREP value="in">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR value="+" type="sc_ing"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                    </SEMANTICS>
+                </FRAME>
+	    </FRAMES>
+	  <SUBCLASSES/>
+	</VNCLASS>
+        <VNSUBCLASS ID="cooperate-75-2">
+            <MEMBERS>
+                <MEMBER name="participate" wn=""/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="in-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>&quot;They participated in the task.;</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="plural"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <VERB/>
+                        <PREP value="in">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                    </SEMANTICS>
+                </FRAME>
+               <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="in-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>&quot;They participated in finishing the task.;</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="plural"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <VERB/>
+                        <PREP value="in">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR value="+" type="sc_ing"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+	   <SUBCLASSES/>
+        </VNCLASS>
+        <VNSUBCLASS ID="cooperate-75-3">
+            <MEMBERS>
+                <MEMBER name="labour" wn=""/>
+                <MEMBER name="work" wn=""/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="0.1" primary="PP" secondary="on-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>&quot;They worked on the task.;</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="plural"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <VERB/>
+                        <PREP value="on">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                    </SEMANTICS>
+                </FRAME>
+               <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="P-ING-SC" secondary="on-PP" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>&quot;They worked on finishing the task.;</EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="plural"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <VERB/>
+                        <PREP value="on">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR value="+" type="sc_ing"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+	   <SUBCLASSES/>
+        </VNCLASS>
+    </SUBCLASSES>
+</VNCLASS>
+
+
+
+
+

@@ -13,8 +13,14 @@
                 <SELRESTR Value="+" type="concrete"/>
             </SELRESTRS>
         </THEMROLE>
-        <THEMROLE type="Attribute">
+        <THEMROLE type="Value">
             <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Benefactor">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
@@ -32,7 +38,48 @@
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
-            <SEMANTICS/>
+            <SEMANTICS>
+                <PRED value="value">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Value"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="" primary="Transitive" secondary="Ditransitive" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["The bill will cost them 500 million dollars."]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Benefactor">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Value">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="value">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Value"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="benefit">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Benefactor"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>
