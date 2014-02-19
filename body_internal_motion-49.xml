@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="body_internal_motion-49" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="refl"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.1" primary="Basic Intransitive" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Sylvia fidgeted"]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS/>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Sylvia fidgeted herself into a tizzy"]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Patient">
+                    <SELRESTRS/>
+                </NP>
+                <PREP value="into">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="state"/>
+                    </SELRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS/>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

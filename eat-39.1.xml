@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="eat-39.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+  <MEMBERS>
+     <MEMBER name="drink" wn="drink%2:34:00 drink%2:34:01"/>
+     <MEMBER name="eat" wn="eat%2:34:00 eat%2:34:01 eat%2:34:02"/>
+  </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="comestible"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="Basic Transitive" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Cynthia ate the peach"]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS/>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="1.2.1" primary="Unspecified Object Alternation" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Cynthia ate"]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS/>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="1.3" primary="Conative" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Cynthia ate at the peach"]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="at">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS/>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.4" primary="Resultative" secondary="" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE><![CDATA["Cynthia ate herself sick"]]></EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Oblique">
+                    <SELRESTRS/>
+                </NP>
+                <ADJ/>
+            </SYNTAX>
+            <SEMANTICS/>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>

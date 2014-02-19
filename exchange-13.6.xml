@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
+<VNCLASS ID="exchange-13.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="barter" wn="barter%2:40:00"/>
+        <MEMBER name="change" wn="change%2:30:05 change%2:30:04"/>
+        <MEMBER name="exchange" wn="exchange%2:30:00 exchange%2:41:00"/>
+        <MEMBER name="substitute" wn="substitute%2:40:00"/>
+        <MEMBER name="swap" wn="swap%2:40:00"/>
+        <MEMBER name="trade" wn="trade%2:40:00 trade%2:40:02"/>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION descriptionNumber="0.2" primary="Transitive" secondary="+ for-PP" xtag=""/>
+            <EXAMPLES>
+                <EXAMPLE>&quot;Gwen exchanged the dress for a shirt&quot;</EXAMPLE>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="for">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</VNCLASS>
+
