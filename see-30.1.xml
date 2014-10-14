@@ -79,7 +79,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="2.13.2" primary="NP V NP-ATTR-POS" secondary="Attribute Object Possessor-Attribute Factoring Alternation" xtag=""/>
+            <DESCRIPTION descriptionNumber="2.13.2" primary="NP V NP" secondary="Attribute Object Possessor-Attribute Factoring Alternation" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>I sensed the eagerness in him.</EXAMPLE>
             </EXAMPLES>

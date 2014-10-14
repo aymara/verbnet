@@ -328,7 +328,7 @@
             <!--most verbs-->
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.2.5" primary="NP V NP-PRO-ARB" secondary="PRO-Arb Object Alternation" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.2.5" primary="NP V" secondary="PRO-Arb Object Alternation" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The clown amused.</EXAMPLE>
             </EXAMPLES>
