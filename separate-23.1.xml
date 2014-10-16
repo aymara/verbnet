@@ -142,7 +142,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle PP" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle PP" secondary="Middle Construction" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Cream separates easily from milk.</EXAMPLE>
             </EXAMPLES>
@@ -174,7 +174,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Egg yolks and egg whites separate easily.</EXAMPLE>
             </EXAMPLES>

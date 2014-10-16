@@ -90,7 +90,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OC; to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP S_ING" secondary="NP-P-ING-OC; to-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He adapted himself to waking up early.</EXAMPLE>
             </EXAMPLES>

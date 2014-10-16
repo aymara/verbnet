@@ -869,7 +869,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="3.9" primary="NP.asset V PP" secondary="NP-PP; Asset Subject" xtag=""/>
+                    <DESCRIPTION descriptionNumber="3.9" primary="NP.asset V NP PP" secondary="NP-PP; Asset Subject" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>$100,000 builds a house out of sticks.</EXAMPLE>
                     </EXAMPLES>
@@ -923,7 +923,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="3.9" primary="NP.asset V NP PP" secondary="NP-NP-PP; Asset Subject" xtag=""/>
+                    <DESCRIPTION descriptionNumber="3.9" primary="NP.asset V NP NP PP" secondary="NP-NP-PP; Asset Subject" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>$100,000 builds you a house out of sticks.</EXAMPLE>
                     </EXAMPLES>

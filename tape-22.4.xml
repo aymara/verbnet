@@ -230,7 +230,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle PP" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle PP" secondary="Middle Construction" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Labels tape easily to that kind of cover.</EXAMPLE>
             </EXAMPLES>
@@ -262,7 +262,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Most labels tape easily.</EXAMPLE>
             </EXAMPLES>
@@ -290,7 +290,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle together" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle together" secondary="Middle Construction" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Labels and covers tape easily together.</EXAMPLE>
             </EXAMPLES>
@@ -319,7 +319,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V together ADV-Middle" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V together ADVP-Middle" secondary="Middle Construction" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Labels and covers tape together easily.</EXAMPLE>
             </EXAMPLES>
@@ -361,7 +361,9 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Result">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

@@ -197,8 +197,10 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                 <NP value="Result">
-                    <SYNRESTRS/>
+                <NP value="Result">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

@@ -253,7 +253,9 @@
                         </NP>
                         <VERB/>
                         <NP value="Destination">
-                            <SYNRESTRS/>
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="adv_loc"/>
+                            </SYNRESTRS>
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>

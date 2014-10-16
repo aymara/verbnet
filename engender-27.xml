@@ -80,7 +80,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V that S" secondary="S" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP that S" secondary="S" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The bug causes the chip to give wrong answers for some mathematical calculations.</EXAMPLE>
             </EXAMPLES>

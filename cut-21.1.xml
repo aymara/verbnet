@@ -216,7 +216,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
             <!-- Verb specifies property (cut, scratch, etc) Prop of Patient, -->
             <EXAMPLES>
                 <EXAMPLE>The bread cuts easily.</EXAMPLE>
@@ -273,7 +273,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.2.6.2" primary="NP.instrument V ADVP" secondary="Characteristic Property of Instrument" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.2.6.2" primary="NP.instrument V ADV" secondary="Characteristic Property of Instrument" xtag=""/>
             <!-- verb specifies property (cut, scratch, etc) Prop of Patient, -->
             <EXAMPLES>
                 <EXAMPLE>This knife cuts well.</EXAMPLE>
@@ -313,7 +313,9 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Result">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -365,7 +367,9 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Result">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
                 <PREP value="with">
                     <SELRESTRS/>
@@ -557,7 +561,9 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Result">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

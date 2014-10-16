@@ -200,7 +200,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V PP ADV-Middle" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V PP ADVP-Middle" secondary="Middle Construction" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Twigs break off of those branches easily.</EXAMPLE>
             </EXAMPLES>
@@ -232,7 +232,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V apart ADVP-Middle" secondary="Middle Construction" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Those twigs and branches break apart easily.</EXAMPLE>
             </EXAMPLES>

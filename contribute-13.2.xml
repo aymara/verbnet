@@ -84,9 +84,9 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme (PP)" secondary="Transitive; Theme Object" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme" secondary="Transitive; Theme Object" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>I donated my house (to somebody).</EXAMPLE>
+                <EXAMPLE>I donated my house.</EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -363,6 +363,9 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
+                        <PREP value="up_to">
+                            <SELRESTRS/>
+                        </PREP>
                         <NP value="Recipient">
                             <SYNRESTRS/>
                         </NP>

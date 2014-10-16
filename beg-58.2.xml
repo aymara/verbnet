@@ -38,7 +38,7 @@
                 <VERB/>
                 <NP value="Topic">
                     <SYNRESTRS>
-			<SYNRESTR Value="-" type="for_comp"/>
+			<SYNRESTR Value="+" type="for_comp"/>
 		    </SYNRESTRS>
                 </NP>
             </SYNTAX>

@@ -163,7 +163,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The ice crushes easily.</EXAMPLE>
                     </EXAMPLES>
@@ -226,7 +226,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.2.6.2" primary="NP.instrument V ADVP" secondary="Characteristic Property of Instrument" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.2.6.2" primary="NP.instrument V ADV" secondary="Characteristic Property of Instrument" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>That hammer crushes well.</EXAMPLE>
                     </EXAMPLES>
@@ -380,7 +380,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Marble carves easily.</EXAMPLE>
                     </EXAMPLES>
@@ -436,7 +436,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.2.6.2" primary="NP.instrument V ADVP" secondary="Characteristic Property of Instrument" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.2.6.2" primary="NP.instrument V ADV" secondary="Characteristic Property of Instrument" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>That chisel carves well.</EXAMPLE>
                     </EXAMPLES>
