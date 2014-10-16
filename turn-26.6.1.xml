@@ -427,8 +427,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V
-                    PP.result  PP.material" secondary="PP-PP; w/ end state w/ beginning state" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP.result PP.material" secondary="PP-PP; w/ end state w/ beginning state" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The thrift converted to a stock form of ownership from a mutual form in April 1986.</EXAMPLE>
                     </EXAMPLES>

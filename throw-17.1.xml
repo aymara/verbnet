@@ -92,7 +92,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destinations" secondary="NP-PP; Goal-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; Goal-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Steve tossed the ball to the garden.</EXAMPLE>
             </EXAMPLES>

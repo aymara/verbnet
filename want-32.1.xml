@@ -163,7 +163,7 @@
                         <VERB/>
                         <NP value="Theme">
                             <SYNRESTRS>
-                                <SYNRESTR Value="+" type="acc_ing"/>
+                                <SYNRESTR Value="+" type="ac_ing"/>
                             </SYNRESTRS>
                         </NP>
                     </SYNTAX>

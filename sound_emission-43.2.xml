@@ -353,7 +353,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP:"
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP"
             secondary="Transitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The bell chimed the hour.</EXAMPLE>

@@ -20,7 +20,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="5.1" primary="Passive" secondary="Participle form" xtag=""/>
+            <DESCRIPTION descriptionNumber="5.1" primary="NP V PP" secondary="Passive; Participle form" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>She was always clad in black.</EXAMPLE>
             </EXAMPLES>

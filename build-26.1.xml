@@ -710,7 +710,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="3.9" primary="NP V NP P.asset" secondary="NP-PP; Asset-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="3.9" primary="NP V NP PP.asset" secondary="NP-PP; Asset-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The contractor builds houses for $100,000.</EXAMPLE>
                     </EXAMPLES>

@@ -24,6 +24,7 @@
   <xsd:element name="MEMBER" minOccurs="0" maxOccurs="unbounded"><xsd:complexType>
     <xsd:attribute name="name" use="required" type="xsd:string"/>
     <xsd:attribute name="wn" use="required" type="wnType"/>
+    <xsd:attribute name="grouping" use="required" type="onType"/>
   </xsd:complexType></xsd:element>
 </xsd:sequence></xsd:complexType></xsd:element>
 
@@ -66,6 +67,7 @@
       <xsd:element name="DESCRIPTION"><xsd:complexType>
         <xsd:attribute name="descriptionNumber" use="required" type="xsd:string"/>
         <xsd:attribute name="primary" use="required" type="primaryDescriptionType"/>
+        <!--<xsd:attribute name="secondary" use="optional" type="secondaryDescriptionType"/>-->
         <xsd:attribute name="secondary" use="optional" type="xsd:string"/>
 	<xsd:attribute name="xtag" use="required" type="xsd:string"/>
       </xsd:complexType></xsd:element>  
@@ -185,6 +187,18 @@
   <xsd:list itemType="auxWordnetType"/>
 </xsd:simpleType>
 
+<!-- Each Wordnet grouping must conform to this RE -->
+<xsd:simpleType name="auxOntonotesType">
+  <xsd:restriction base="xsd:string">
+    <xsd:pattern value="[a-z]+.\d{2}"/>
+  </xsd:restriction>
+</xsd:simpleType>
+
+<!-- The "wn" attribute must contain a list of the above patterns -->
+<xsd:simpleType name="onType">
+  <xsd:list itemType="auxOntonotesType"/>
+</xsd:simpleType>
+
 <!-- These are NP's (appearing in syntax and semantics) which are not thematic
      roles -->
 <xsd:simpleType name="auxnpType">
@@ -206,31 +220,33 @@
     <xsd:enumeration value="Experiencer"/>
     <xsd:enumeration value="Stimulus"/>
     <xsd:enumeration value="Cause"/>
-    <xsd:enumeration value="Actor"/>
-    <xsd:enumeration value="Actor1"/>
-    <xsd:enumeration value="Actor2"/>
-    <xsd:enumeration value="Agent"/>	
+    <xsd:enumeration value="Agent"/>
+    <xsd:enumeration value="Co-Agent"/>
     <xsd:enumeration value="Asset"/>
     <xsd:enumeration value="Attribute"/>
     <xsd:enumeration value="Benefactor"/>
     <xsd:enumeration value="Beneficiary"/>
     <xsd:enumeration value="Content"/>
     <xsd:enumeration value="Destination"/>
+    <xsd:enumeration value="Goal"/>
+    <xsd:enumeration value="Initial_Location"/>
     <xsd:enumeration value="Instrument"/>
     <xsd:enumeration value="Location"/>
     <xsd:enumeration value="Material"/>
     <xsd:enumeration value="Patient"/>
-    <xsd:enumeration value="Patient1"/>
-    <xsd:enumeration value="Patient2"/>
+    <xsd:enumeration value="Co-Patient"/>
+    <xsd:enumeration value="Pivot"/>
     <xsd:enumeration value="Predicate"/>
     <xsd:enumeration value="Proposition"/>
     <xsd:enumeration value="Product"/>
     <xsd:enumeration value="Recipient"/>
+    <xsd:enumeration value="Reflexive"/>
+    <xsd:enumeration value="Result"/>
     <xsd:enumeration value="Source"/>
     <xsd:enumeration value="Theme"/>
-    <xsd:enumeration value="Theme1"/>
-    <xsd:enumeration value="Theme2"/>
+    <xsd:enumeration value="Co-Theme"/>
     <xsd:enumeration value="Time"/>
+    <xsd:enumeration value="Trajectory"/>
     <xsd:enumeration value="Extent"/>
     <xsd:enumeration value="Value"/>
   </xsd:restriction>  
@@ -321,6 +337,7 @@
     <xsd:enumeration value="infinitival"/>
     <xsd:enumeration value="to_inf"/>
     <xsd:enumeration value="control_to_inf"/>
+    <xsd:enumeration value="np_to_inf"/>
     <xsd:enumeration value="sc_to_inf"/>
     <xsd:enumeration value="oc_to_inf"/>
     <xsd:enumeration value="ac_to_inf"/>
@@ -356,6 +373,12 @@
     <xsd:enumeration value="adv_loc"/>
     <xsd:enumeration value="genitive"/>
     <xsd:enumeration value="refl"/>
+    <xsd:enumeration value="to_be"/>
+    <xsd:enumeration value="be_sc_ing"/>
+    <xsd:enumeration value="body_part"/>
+    <xsd:enumeration value="np_ppart"/>
+    <xsd:enumeration value="np_p_ing"/>
+    <xsd:enumeration value="np_ing"/>
   </xsd:restriction>
 </xsd:simpleType>    
 
@@ -380,6 +403,7 @@
     <xsd:enumeration value="cause"/>
     <xsd:enumeration value="change_value"/>
     <xsd:enumeration value="command"/>
+    <xsd:enumeration value="consider"/>
     <xsd:enumeration value="conspire"/>
     <xsd:enumeration value="contact"/>
     <xsd:enumeration value="cooked"/>
@@ -398,6 +422,7 @@
     <xsd:enumeration value="direction"/>
     <xsd:enumeration value="disappear"/>
     <xsd:enumeration value="discomfort"/>
+    <xsd:enumeration value="discover"/>
     <xsd:enumeration value="emit"/>
     <xsd:enumeration value="emotional_state"/>
     <xsd:enumeration value="end"/> 
@@ -474,11 +499,99 @@
     <xsd:enumeration value="declare"/>
     <xsd:enumeration value="conflict"/>
     <xsd:enumeration value="about"/>
-
+    <xsd:enumeration value="understand"/>
+    <xsd:enumeration value="successful_in"/>
+    <xsd:enumeration value="renege"/>
+    <xsd:enumeration value="path"/>
+    <xsd:enumeration value="convert"/>
+    <xsd:enumeration value="supplicate"/>
+    <xsd:enumeration value="necessitate"/>
+    <xsd:enumeration value="approve"/>
+    <xsd:enumeration value="adjust"/>
+    <xsd:enumeration value="seem"/>
+    <xsd:enumeration value="neglect"/>
+    <xsd:enumeration value="limit"/>
+    <xsd:enumeration value="ensure"/>
+    <xsd:enumeration value="defend"/>
+    <xsd:enumeration value="conclude"/>
+    <xsd:enumeration value="concentrate"/>
+    <xsd:enumeration value="calculate"/>
+    <xsd:enumeration value="base"/>
+    <xsd:enumeration value="yield"/>
+    <xsd:enumeration value="suspect"/>
+    <xsd:enumeration value="rush"/>
+    <xsd:enumeration value="risk"/>
+    <xsd:enumeration value="promote"/>
+    <xsd:enumeration value="group"/>
+    <xsd:enumeration value="exceed"/>
+    <xsd:enumeration value="cope"/>
+    <xsd:enumeration value="characterize"/>
+    <xsd:enumeration value="agree"/>
+    <xsd:enumeration value="subjugated"/>
+    <xsd:enumeration value="relate"/>
+    <xsd:enumeration value="involve"/>
+    <xsd:enumeration value="enforce"/>
+    <xsd:enumeration value="correlate"/>
+    <xsd:enumeration value="confront"/>
+    <xsd:enumeration value="confined"/>
+    <xsd:enumeration value="license"/>
+    <xsd:enumeration value="adopt"/>
   </xsd:restriction>
 </xsd:simpleType>
 
 <xsd:simpleType name="primaryDescriptionType">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="NP V"/>
+    <xsd:enumeration value="NP.agent V"/>
+
+    <xsd:enumeration value="NP V NP"/>
+    <xsd:enumeration value="NP.agent V NP"/>
+    <xsd:enumeration value="NP.instrument V NP"/>
+    <xsd:enumeration value="NP V NP.theme"/>
+    <xsd:enumeration value="NP V NP S_ING"/>
+    <xsd:enumeration value="NP V NP to be NP"/>
+
+    <xsd:enumeration value="NP V S_ING"/>
+    <xsd:enumeration value="NP V S_INF"/>
+
+    <xsd:enumeration value="NP V that S"/>
+    <xsd:enumeration value="NP V what S"/>
+    <xsd:enumeration value="NP V how S"/>
+    <xsd:enumeration value="NP V how S_ING"/>
+    <xsd:enumeration value="NP V how S_INF"/>
+
+    <xsd:enumeration value="NP V PP.location"/>
+    <xsd:enumeration value="NP V PP.theme"/>
+    <xsd:enumeration value="NP V PP.stimulus"/>
+    <xsd:enumeration value="NP V PP.topic"/>
+
+    <xsd:enumeration value="NP V PP.theme S_ING"/>
+
+    <xsd:enumeration value="NP V NP PP.instrument"/>
+    <xsd:enumeration value="NP V NP PP.destination"/>
+    <xsd:enumeration value="NP V NP PP.location"/>
+    <xsd:enumeration value="NP V NP PP.result"/>
+    <xsd:enumeration value="NP V NP PP.theme"/>
+    <xsd:enumeration value="NP V NP PP.recipient"/>
+    <xsd:enumeration value="NP V NP PP.source"/>
+    <xsd:enumeration value="NP V NP PP.attribute"/>
+    <xsd:enumeration value="NP V NP PP.initial_location"/>
+    <xsd:enumeration value="NP V NP PP.co-patient"/>
+
+    <xsd:enumeration value="NP V NP ADJ"/>
+
+    <xsd:enumeration value="It V"/>
+    <xsd:enumeration value="It V PP.theme"/>
+    <xsd:enumeration value="It V PP.experiencer"/>
+    <xsd:enumeration value="It V NP.theme"/>
+
+    <xsd:enumeration value="There V NP PP"/>
+    <xsd:enumeration value="There V PP NP"/>
+    <xsd:enumeration value="There V NP"/>
+  </xsd:restriction>
+</xsd:simpleType>
+
+<xsd:simpleType name="secondaryDescriptionType">
   <xsd:restriction base="xsd:string">
     <xsd:enumeration value="Apart Reciprocal Alternation Transitive"/>
     <xsd:enumeration value="Apart Reciprocal Alternation Intransitive"/>
@@ -519,6 +632,7 @@
     <xsd:enumeration value="Sentential Complement"/>
     <xsd:enumeration value="Simple Reciprocal Alternation Transitive"/>
     <xsd:enumeration value="Simple Reciprocal Alternation Intransitive"/>
+    <xsd:enumeration value="Simple Reciprocal Intransitive"/>
     <xsd:enumeration value="Substance/Source Alternation"/>
     <xsd:enumeration value="Sum of Money Subject Alternation"/>
     <xsd:enumeration value="There-insertion"/>
@@ -532,6 +646,7 @@
     <xsd:enumeration value="Understood Reciprocal Object Alternation"/>
     <xsd:enumeration value="Understood Reflexive Object Alternation"/>
     <xsd:enumeration value="Unintentional Interpretation of Object"/>
+    <xsd:enumeration value="Unspecified Object"/>
     <xsd:enumeration value="Unspecified Object Alternation"/>
     <xsd:enumeration value="Unspecified Reflexive Object Alternation"/>
     <xsd:enumeration value="Way Object Alternation"/>
@@ -559,6 +674,7 @@
     <xsd:enumeration value="INTRANS-RECIP(SUBJ-PL/COORD)"/>
     <xsd:enumeration value="NP"/>
     <xsd:enumeration value="NP-ADJP"/>
+    <xsd:enumeration value="NP-ADJP; Resultative"/>
     <xsd:enumeration value="NP-ADJP-PRED"/>
     <xsd:enumeration value="NP-ADVP"/>
     <xsd:enumeration value="NP-AVDP-PRED"/>
@@ -583,6 +699,11 @@
     <xsd:enumeration value="NP-P-WHAT-TO-INF"/>
     <xsd:enumeration value="NP-P-WH-TO-INF"/>
     <xsd:enumeration value="NP-PP"/>
+    <xsd:enumeration value="NP-PP; to-PP"/>
+    <xsd:enumeration value="NP-PP; for-PP"/>
+    <xsd:enumeration value="NP-PP; with-PP"/>
+    <xsd:enumeration value="NP-PP; Result-PP"/>
+    <xsd:enumeration value="NP-PP; Instrument-PP"/>
     <xsd:enumeration value="NP-PP-PRED"/>
     <xsd:enumeration value="NP-PRED-RS"/>
     <xsd:enumeration value="NP-S"/>
@@ -621,6 +742,10 @@
     <xsd:enumeration value="POSSING-PP"/>
     <xsd:enumeration value="ING-PP"/>
     <xsd:enumeration value="PP"/>
+    <xsd:enumeration value="PP; Stimulus-PP"/>
+    <xsd:enumeration value="PP; locative-PP"/>
+    <xsd:enumeration value="PP; Location-PP"/>
+    <xsd:enumeration value="PP; with-PP"/>
     <xsd:enumeration value="PP-FOR-TO-INF"/>
     <xsd:enumeration value="PP-HOW-S"/>
     <xsd:enumeration value="PP-HOW-TO-INF"/>

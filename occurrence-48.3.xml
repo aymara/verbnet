@@ -27,7 +27,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.1" primary="NP v" secondary="Basic Intransitive" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>A serious accident happened.</EXAMPLE>
             </EXAMPLES>

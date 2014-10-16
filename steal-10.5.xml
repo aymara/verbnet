@@ -323,8 +323,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.13.5" primary="NP V
-                    NP NP" secondary="Ditransitive" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.13.5" primary="NP V NP NP" secondary="Ditransitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The thief stole Mary some paint.</EXAMPLE>
                     </EXAMPLES>
