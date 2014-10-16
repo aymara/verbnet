@@ -71,7 +71,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V ADV" secondary="ADVP-PRED; here/there" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V ADVP" secondary="ADVP-PRED; here/there" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>We camped there.</EXAMPLE>
             </EXAMPLES>
