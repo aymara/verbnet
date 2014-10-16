@@ -21,7 +21,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP ADJ" secondary="" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="" primary="NP V ADJP" secondary="" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>The belt came undone</EXAMPLE>
             </EXAMPLES>
@@ -31,7 +31,9 @@
                 </NP>
                 <VERB/>
                 <NP value="Result">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

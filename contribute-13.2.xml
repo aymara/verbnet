@@ -363,6 +363,9 @@
                             <SYNRESTRS/>
                         </NP>
                         <VERB/>
+                        <PREP value="up_to">
+                            <SELRESTRS/>
+                        </PREP>
                         <NP value="Recipient">
                             <SYNRESTRS/>
                         </NP>

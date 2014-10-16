@@ -63,8 +63,8 @@
                     </SYNRESTRS>
                 </NP>
                 <VERB/>
-                <ADV/>
                 <LEX value="together"/>
+                <ADV/>
             </SYNTAX>
             <SEMANTICS>
                 <PRED value="property">

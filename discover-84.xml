@@ -531,7 +531,7 @@
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
-                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-POSSING; about-PP" xtag=""/>
+                            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="P-POSSING; about-PP" xtag=""/>
                             <EXAMPLES>
                                 <EXAMPLE>I learned about his drinking.</EXAMPLE>
                             </EXAMPLES>

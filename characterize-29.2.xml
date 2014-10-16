@@ -104,10 +104,12 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-                <LEX value="as"/>
+                <LEX value="to"/>
+                <LEX value="be"/>
                 <NP value="Attribute">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="small_clause"/>
+                        <SYNRESTR Value="+" type="adj"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>

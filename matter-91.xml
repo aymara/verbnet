@@ -144,7 +144,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="That S.stimulus V" secondary="(SUBCAT SFIN, AGR S[FIN +], SUBTYPE EXTRAP)" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="that S.stimulus V" secondary="(SUBCAT SFIN, AGR S[FIN +], SUBTYPE EXTRAP)" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>That he came matters.</EXAMPLE>
             </EXAMPLES>

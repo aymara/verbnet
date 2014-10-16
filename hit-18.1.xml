@@ -657,7 +657,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP PP.result" secondary="NP-ADJP; Result-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.result" secondary="NP-ADJP; Result-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The hammer hit the window to pieces.</EXAMPLE>
             </EXAMPLES>

@@ -361,7 +361,9 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Result">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

@@ -130,7 +130,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="2.5.2" primary="NP V NP NP together" secondary="Together Reciprocal Alternation Transitive" xtag=""/>
+                    <DESCRIPTION descriptionNumber="2.5.2" primary="NP V NP together" secondary="Together Reciprocal Alternation Transitive" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Herman mixed the eggs and the cream together.</EXAMPLE>
                     </EXAMPLES>
@@ -216,7 +216,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle PP" secondary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle PP" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Eggs mix well with cream.</EXAMPLE>
                     </EXAMPLES>
@@ -248,7 +248,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Eggs mix well.</EXAMPLE>
                     </EXAMPLES>
@@ -517,7 +517,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle PP" secondary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle PP" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>This computer will connect well to the network.</EXAMPLE>
                     </EXAMPLES>
@@ -549,7 +549,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>These computers connected well.</EXAMPLE>
                     </EXAMPLES>
@@ -577,7 +577,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle together" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>These computers connected well together.</EXAMPLE>
                     </EXAMPLES>

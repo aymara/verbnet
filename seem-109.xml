@@ -17,7 +17,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V ADJ" secondary="ADJP-PRED-RS" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V ADJP" secondary="ADJP-PRED-RS" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He appeared crazy.</EXAMPLE>
             </EXAMPLES>
@@ -29,6 +29,7 @@
                  <NP value="Attribute">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
+                        <SYNRESTR Value="+" type="adj"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>

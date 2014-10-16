@@ -37,7 +37,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-SC; to-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP S_ING" secondary="P-ING-SC; to-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>He converted to believing in Buddha.</EXAMPLE>
             </EXAMPLES>

@@ -362,7 +362,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source NP.asset" secondary="NP-PP-PP; Source-PP, Asset-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="" primary="NP V NP PP.source PP.asset" secondary="NP-PP-PP; Source-PP, Asset-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>FMC has bought 565,000 shares from Nortek Inc. at $23.50 a share.</EXAMPLE>
             </EXAMPLES>

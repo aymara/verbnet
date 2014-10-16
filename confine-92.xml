@@ -85,7 +85,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.destination" secondary="NP-PP; to-PP" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.destination" secondary="NP-PP; to-PP" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>We committed John to prison.</EXAMPLE>
                     </EXAMPLES>
