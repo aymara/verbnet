@@ -17,7 +17,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADJ" secondary="NP-ADJP-PRED" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADJP" secondary="NP-ADJP-PRED" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The president declared Smith foolish.</EXAMPLE>
             </EXAMPLES>
@@ -32,6 +32,7 @@
                 <NP value="Result">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
+                        <SYNRESTR Value="+" type="adj"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
@@ -104,7 +105,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADJ" secondary="NP-VEN-NP-OMIT" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADJP" secondary="NP-VEN-NP-OMIT" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The president judged the matter closed.</EXAMPLE>
             </EXAMPLES>
@@ -121,6 +122,7 @@
                 <NP value="Result">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
+                        <SYNRESTR Value="+" type="adj"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
@@ -225,7 +227,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADJ" secondary="NP-PP; as-PP" xtag=""/>
+                    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP ADJP" secondary="NP-PP; as-PP" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The president declared John as stupid.</EXAMPLE>
                     </EXAMPLES>
@@ -241,9 +243,10 @@
                             <SELRESTRS/>
                         </PREP>
                         <NP value="Result">
-                    <SYNRESTRS>
-                        <SYNRESTR Value="-" type="sentential"/>
-                    </SYNRESTRS>
+                        <SYNRESTRS>
+                            <SYNRESTR Value="-" type="sentential"/>
+                            <SYNRESTR Value="+" type="adj"/>
+                        </SYNRESTRS>
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>

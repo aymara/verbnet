@@ -211,7 +211,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>He skated Penny exhausted.</EXAMPLE>
             </EXAMPLES>
@@ -224,7 +224,9 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Result">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

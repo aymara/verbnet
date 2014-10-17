@@ -177,7 +177,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V ADJ" secondary="ADJP; Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V ADJP" secondary="ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The drawer rolled open.</EXAMPLE>
             </EXAMPLES>
@@ -187,7 +187,9 @@
                 </NP>
                 <VERB/>
                 <NP value="Result">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -240,7 +242,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Bill rolled the drawer open.</EXAMPLE>
             </EXAMPLES>
@@ -253,7 +255,9 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Result">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
