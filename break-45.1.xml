@@ -239,7 +239,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Tony broke the piggy bank open.</EXAMPLE>
             </EXAMPLES>
@@ -252,7 +252,9 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Result">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -291,7 +293,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ PP.instrument" secondary="NP-ADJP-PP; Resultative, Instrument-PP" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP PP.instrument" secondary="NP-ADJP-PP; Resultative, Instrument-PP" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Tony broke the piggy bank open with a hammer.</EXAMPLE>
             </EXAMPLES>
@@ -304,7 +306,9 @@
                     <SYNRESTRS/>
                 </NP>
                 <NP value="Result">
-                    <SYNRESTRS/>
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
                 <PREP value="with">
                     <SELRESTRS/>

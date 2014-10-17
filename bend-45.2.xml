@@ -214,7 +214,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="NP-ADJP; Resultative" xtag=""/>
+            <DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJP" secondary="NP-ADJP; Resultative" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>Tony folded the flaps open.</EXAMPLE>
             </EXAMPLES>
@@ -226,8 +226,10 @@
                 <NP value="Patient">
                     <SYNRESTRS/>
                 </NP>
-                 <NP value="Result">
-                    <SYNRESTRS/>
+                <NP value="Result">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adj"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>

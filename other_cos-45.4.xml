@@ -521,17 +521,19 @@
 	    <THEMROLES/>
 	    <FRAMES>
 		<FRAME>
-		<DESCRIPTION descriptionNumber="0.4" primary="NP V NP ADJ" secondary="ADJP; Resultative" xtag=""/>
+		<DESCRIPTION descriptionNumber="0.4" primary="NP V ADJP" secondary="ADJP; Resultative" xtag=""/>
 		<EXAMPLES>
 		    <EXAMPLE>The clothes dried wrinkled.</EXAMPLE>
 		</EXAMPLES>
 		<SYNTAX>
 		    <NP value="Patient">
-			<SYNRESTRS/>
+                <SYNRESTRS/>
 		    </NP>
 		    <VERB/>
 		    <NP value="Result">
-			<SYNRESTRS/>
+                <SYNRESTRS>
+                    <SYNRESTR Value="+" type="adj"/>
+                </SYNRESTRS>
 		    </NP>
 		</SYNTAX>
 		<SEMANTICS>
