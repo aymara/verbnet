@@ -125,7 +125,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle PP.location" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle PP.location" secondary="Middle Construction" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>That type of rope coils easily around the post.</EXAMPLE>
             </EXAMPLES>
@@ -172,7 +172,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The rope curled upward.</EXAMPLE>
                     </EXAMPLES>

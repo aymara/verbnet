@@ -248,7 +248,7 @@
             </SEMANTICS>
         </FRAME>
 	<FRAME>
-            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADVP-Middle" secondary="Middle Construction" xtag=""/>
+            <DESCRIPTION descriptionNumber="1.1.1" primary="NP V ADV-Middle" secondary="Middle Construction" xtag=""/>
             <!-- Verb specifies property Prop of Patient-->
             <EXAMPLES>
                 <EXAMPLE>Cotton clothes dry easily.</EXAMPLE>

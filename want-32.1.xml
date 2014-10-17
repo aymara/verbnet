@@ -128,7 +128,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADVP" secondary="NP-ADVP-PRED" xtag="0.1"/>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V ADVP" secondary="NP-ADVP-PRED" xtag="0.1"/>
                     <EXAMPLES>
                         <EXAMPLE>I needed him here.</EXAMPLE>
                     </EXAMPLES>
@@ -138,7 +138,9 @@
                         </NP>
                         <VERB/>
                         <NP value="Theme">
-                            <SYNRESTRS/>
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="adv_loc"/>
+                            </SYNRESTRS>
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
