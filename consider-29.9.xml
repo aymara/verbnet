@@ -183,9 +183,7 @@
                                 </NP>
                                 <VERB/>
                                 <NP value="Theme">
-                                    <SYNRESTRS>
-                                        <SYNRESTR Value="+" type="np_ppart"/>
-                                    </SYNRESTRS>
+                                    <SYNRESTRS/>
                                 </NP>
                                 <NP value="Attribute">
                                     <SYNRESTRS>
@@ -549,9 +547,7 @@
                         </NP>
                         <VERB/>
                         <NP value="Theme">
-                            <SYNRESTRS>
-                                <SYNRESTR Value="+" type="np_ppart"/>
-                            </SYNRESTRS>
+                            <SYNRESTRS/>
                         </NP>
                         <NP value="Attribute">
                             <SYNRESTRS>
