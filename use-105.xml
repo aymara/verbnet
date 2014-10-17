@@ -28,7 +28,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADVP" secondary="NP-ADVP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADV" secondary="NP-ADVP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I used the money well.</EXAMPLE>
             </EXAMPLES>

@@ -189,7 +189,7 @@
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V ADJ-Middle" secondary="(SUBCAT ADL)" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V ADV-Middle" secondary="(SUBCAT ADL)" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>The party stopped easily.</EXAMPLE>
                     </EXAMPLES>
