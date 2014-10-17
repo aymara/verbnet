@@ -124,6 +124,7 @@
                 <NP value="Theme">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="to_be"/>
+                        <SYNRESTR Value="+" type="adj"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
