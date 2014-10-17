@@ -82,7 +82,7 @@
                 <VERB/>
                 <NP value="Theme">
                     <SYNRESTRS>
-                        <SYNRESTR Value="+" type="np_tobe"/>
+                        <SYNRESTR Value="+" type="to_be"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
