@@ -366,7 +366,7 @@
                                     </SEMANTICS>
                                 </FRAME>
                                 <FRAME>
-                                    <DESCRIPTION descriptionNumber="0.2" primary="NP V whether/if S_INF" secondary="WH-TO-INF" xtag=""/>
+                                    <DESCRIPTION descriptionNumber="0.2" primary="NP V whether S_INF" secondary="WH-TO-INF" xtag=""/>
                                     <EXAMPLES>
                                         <EXAMPLE>John judged whether to clean the house.</EXAMPLE>
                                     </EXAMPLES>

@@ -224,7 +224,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP whether S" secondary="NP-WH-S" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V NP whether/if S" secondary="NP-WH-S" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I asked him whether he was going.</EXAMPLE>
             </EXAMPLES>

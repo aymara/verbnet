@@ -145,7 +145,7 @@
                 <VERB/>
                 <NP value="Stimulus">
                     <SYNRESTRS>
-                        <SYNRESTR Value="+" type="wh_comp"/>
+                        <SYNRESTR Value="+" type="why_comp"/>
                     </SYNRESTRS>
                 </NP>
             </SYNTAX>
